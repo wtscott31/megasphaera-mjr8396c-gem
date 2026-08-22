@@ -100,4 +100,4 @@ Please cite the associated manuscript/preprint and the software used in the work
 
 ## License
 
-No repository license has been assigned in the supplied project files. **Before making the repository public, select and add an appropriate license for the code, models, and data.** This is intentionally left unresolved rather than assigning legal terms without author approval.
+MIT License
