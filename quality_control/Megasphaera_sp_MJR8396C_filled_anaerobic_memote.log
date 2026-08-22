@@ -1,0 +1,168 @@
+/opt/anaconda3/lib/python3.13/site-packages/pandera/_pandas_deprecated.py:154: FutureWarning: Importing pandas-specific classes and functions from the
+top-level pandera module will be **removed in a future version of pandera**.
+If you're using pandera to validate pandas objects, we highly recommend updating
+your import:
+
+```
+# old import
+import pandera as pa
+
+# new import
+import pandera.pandas as pa
+```
+
+If you're using pandera to validate objects from other compatible libraries
+like pyspark or polars, see the supported libraries section of the documentation
+for more information on how to import pandera:
+
+https://pandera.readthedocs.io/en/stable/supported_libraries.html
+
+To disable this warning, set the environment variable:
+
+```
+export DISABLE_PANDERA_IMPORT_WARNING=True
+```
+
+  warnings.warn(_future_warning, FutureWarning)
+error: '' is not a valid SBML 'SId'.
+The current solver interface glpk doesn't support setting the optimality tolerance.
+============================= test session starts ==============================
+platform darwin -- Python 3.13.9, pytest-8.4.2, pluggy-1.5.0
+rootdir: /opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests
+plugins: anyio-4.10.0, typeguard-4.5.1
+collected 146 items / 1 skipped
+
+../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py . [  0%]
+..FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF..FF...F..F....FFF.F.FFFFFFFF..         [ 44%]
+../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_basic.py F [ 45%]
+.....F...F....F..FFFFF                                                   [ 60%]
+../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_biomass.py . [ 60%]
+F..FF.F.F                                                                [ 67%]
+../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_consistency.py . [ 67%]
+..FFFFF......ss.F...FFFF.FFF                                             [ 86%]
+../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_essentiality.py s [ 87%]
+                                                                         [ 87%]
+../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_growth.py s [ 88%]
+                                                                         [ 88%]
+../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_matrix.py . [ 89%]
+...                                                                      [ 91%]
+../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_sbml.py . [ 91%]
+.                                                                        [ 92%]
+../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_sbo.py F [ 93%]
+FFFFFFFFs.                                                               [100%]Writing snapshot report to '/Users/wtscott/DataspellProjects/Magesphaera_Project/outputs/memote/reports/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.html'.
+
+
+=============================== warnings summary ===============================
+../../../opt/anaconda3/lib/python3.13/site-packages/_pytest/config/__init__.py:1290
+  /opt/anaconda3/lib/python3.13/site-packages/_pytest/config/__init__.py:1290: PytestAssertRewriteWarning: Module already imported so cannot be rewritten; typeguard
+    self._mark_plugins_for_rewrite(hook, disable_autoload)
+
+test_annotation.py::test_metabolite_id_namespace_consistency
+test_annotation.py::test_reaction_id_namespace_consistency
+  /opt/anaconda3/lib/python3.13/site-packages/memote/support/annotation.py:279: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+  The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+  
+  For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+  
+  
+    df["duplicate"].fillna(False, inplace=True)
+
+test_annotation.py::test_metabolite_id_namespace_consistency
+test_annotation.py::test_reaction_id_namespace_consistency
+  /opt/anaconda3/lib/python3.13/site-packages/memote/support/annotation.py:279: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+    df["duplicate"].fillna(False, inplace=True)
+
+test_biomass.py::test_biomass_consistency[bio1]
+  /opt/anaconda3/lib/python3.13/site-packages/cobra/core/metabolite.py:191: UserWarning: The element 'R' does not appear in the periodic table
+    warn(f"The element {e} does not appear in the periodic table")
+
+test_consistency.py::test_find_stoichiometrically_balanced_cycles
+  /opt/anaconda3/lib/python3.13/site-packages/memote/support/consistency.py:477: DeprecationWarning: Passing a boolean value to the `loopless` argument is deprecated. Please pass either None, 'fastSNP' or 'cycleFreeFlux'.
+    fva_result = flux_variability_analysis(model, loopless=False)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_metabolite_annotation_overview[pubchem.compound]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_metabolite_annotation_overview[kegg.compound]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_metabolite_annotation_overview[seed.compound]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_metabolite_annotation_overview[inchikey]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_metabolite_annotation_overview[inchi]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_metabolite_annotation_overview[chebi]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_metabolite_annotation_overview[hmdb]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_metabolite_annotation_overview[reactome]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_metabolite_annotation_overview[metanetx.chemical]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_metabolite_annotation_overview[bigg.metabolite]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_metabolite_annotation_overview[biocyc]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_reaction_annotation_overview[rhea]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_reaction_annotation_overview[kegg.reaction]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_reaction_annotation_overview[seed.reaction]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_reaction_annotation_overview[metanetx.reaction]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_reaction_annotation_overview[bigg.reaction]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_reaction_annotation_overview[reactome]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_reaction_annotation_overview[ec-code]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_reaction_annotation_overview[brenda]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_reaction_annotation_overview[biocyc]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_overview[refseq]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_overview[uniprot]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_overview[ecogene]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_overview[kegg.genes]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_overview[ncbigi]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_overview[ncbigene]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_overview[ncbiprotein]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_overview[ccds]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_overview[hprd]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_overview[asap]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_metabolite_annotation_wrong_ids[pubchem.compound]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_metabolite_annotation_wrong_ids[inchikey]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_metabolite_annotation_wrong_ids[inchi]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_metabolite_annotation_wrong_ids[metanetx.chemical]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_reaction_annotation_wrong_ids[rhea]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_reaction_annotation_wrong_ids[reactome]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_reaction_annotation_wrong_ids[ec-code]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_reaction_annotation_wrong_ids[brenda]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_wrong_ids[refseq]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_wrong_ids[ecogene]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_wrong_ids[kegg.genes]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_wrong_ids[ncbigi]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_wrong_ids[ncbigene]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_wrong_ids[ncbiprotein]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_wrong_ids[ccds]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_wrong_ids[hprd]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_annotation.py::test_gene_product_annotation_wrong_ids[asap]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_basic.py::test_model_id_presence
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_basic.py::test_gene_protein_reaction_rule_presence
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_basic.py::test_protein_complex_presence
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_basic.py::test_transport_reaction_gpr_presence
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_basic.py::test_find_duplicate_metabolites_in_compartments
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_basic.py::test_find_reactions_with_partially_identical_annotations
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_basic.py::test_find_duplicate_reactions
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_basic.py::test_find_reactions_with_identical_genes
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_basic.py::test_find_medium_metabolites
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_biomass.py::test_biomass_consistency[bio1]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_default_production[bio1]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_biomass.py::test_biomass_precursors_open_production[bio1]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_biomass.py::test_fast_growth_default[bio1]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_biomass.py::test_essential_precursors_not_in_biomass[bio1]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_consistency.py::test_detect_energy_generating_cycles[MNXM3]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_consistency.py::test_detect_energy_generating_cycles[MNXM63]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_consistency.py::test_detect_energy_generating_cycles[MNXM51]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_consistency.py::test_detect_energy_generating_cycles[MNXM121]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_consistency.py::test_detect_energy_generating_cycles[MNXM423]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_consistency.py::test_detect_energy_generating_cycles[MNXM21]
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_consistency.py::test_blocked_reactions
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_consistency.py::test_find_stoichiometrically_balanced_cycles
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_consistency.py::test_find_orphans
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_consistency.py::test_find_deadends
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_consistency.py::test_find_metabolites_not_produced_with_open_bounds
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_consistency.py::test_find_metabolites_not_consumed_with_open_bounds
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_consistency.py::test_find_reactions_unbounded_flux_default_condition
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_sbo.py::test_metabolite_sbo_presence
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_sbo.py::test_reaction_sbo_presence
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_sbo.py::test_gene_sbo_presence
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_sbo.py::test_metabolic_reaction_specific_sbo_presence
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_sbo.py::test_transport_reaction_specific_sbo_presence
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_sbo.py::test_metabolite_specific_sbo_presence
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_sbo.py::test_gene_specific_sbo_presence
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_sbo.py::test_exchange_specific_sbo_presence
+FAILED ../../../opt/anaconda3/lib/python3.13/site-packages/memote/suite/tests/test_sbo.py::test_demand_specific_sbo_presence
+======= 83 failed, 58 passed, 6 skipped, 7 warnings in 234.95s (0:03:54) =======

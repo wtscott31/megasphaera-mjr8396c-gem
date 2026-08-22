@@ -1,0 +1,12 @@
+{
+  "total_reactions": 1849,
+  "gpr_associated_reactions": 1335,
+  "non_gpr_total": 514,
+  "non_gpr_exchange": 164,
+  "non_gpr_transport": 75,
+  "non_gpr_demand": 1,
+  "non_gpr_biomass": 1,
+  "non_gpr_unresolved": 273,
+  "memote_blocked_open_exchange": 677,
+  "blocked_gut_like_medium": 766
+}

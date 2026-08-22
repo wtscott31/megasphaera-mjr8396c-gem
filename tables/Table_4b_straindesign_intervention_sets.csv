@@ -1,0 +1,20 @@
+design_type,solution_index,reaction,intervention,value,reaction_name,gene_rule
+optknock,0,rxn02123_c0,knockout,-1.0,Lactoyl-CoA hydro-lyase,2776383348 and 2776383349
+optknock,0,rxn90001_c0,knockout,-1.0,Butyryl-CoA dehydrogenase (Etf complex),2776381648 or 2776381649 or 2776383224
+optknock,1,rxn90001_c0,knockout,-1.0,Butyryl-CoA dehydrogenase (Etf complex),2776381648 or 2776381649 or 2776383224
+optknock,1,rxn90029_c0,knockout,-1.0,acryloyl-CoA reductase,2776381648 and (2776381649 or 2776383224)
+optknock,2,rxn00916_c0,knockout,-1.0,Xanthosine-5'-phosphate:ammonia ligase (AMP-forming),2776381411
+optknock,2,rxn02123_c0,knockout,-1.0,Lactoyl-CoA hydro-lyase,2776383348 and 2776383349
+optknock,3,rxn00916_c0,knockout,-1.0,Xanthosine-5'-phosphate:ammonia ligase (AMP-forming),2776381411
+optknock,3,rxn90029_c0,knockout,-1.0,acryloyl-CoA reductase,2776381648 and (2776381649 or 2776383224)
+optknock,4,rxn00410_c0,knockout,-1.0,UTP:ammonia ligase (ADP-forming),2776381538
+optknock,4,rxn02123_c0,knockout,-1.0,Lactoyl-CoA hydro-lyase,2776383348 and 2776383349
+tilted_optknock,0,rxn00916_c0,knockout,-1.0,Xanthosine-5'-phosphate:ammonia ligase (AMP-forming),2776381411
+tilted_optknock,1,rxn00566_c0,knockout,-1.0,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406
+tilted_optknock,1,rxn05957_c0,knockout,-1.0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,2776382424 or 2776383406
+tilted_optknock,2,rxn00410_c0,knockout,-1.0,UTP:ammonia ligase (ADP-forming),2776381538
+tilted_optknock,2,rxn00916_c0,knockout,-1.0,Xanthosine-5'-phosphate:ammonia ligase (AMP-forming),2776381411
+tilted_optknock,3,rxn00138_c0,knockout,-1.0,deamido-NAD+:ammonia ligase (AMP-forming),2776381663
+tilted_optknock,3,rxn00916_c0,knockout,-1.0,Xanthosine-5'-phosphate:ammonia ligase (AMP-forming),2776381411
+tilted_optknock,4,rxn00456_c0,knockout,-1.0,L-methionine methanethiol-lyase (deaminating;2-oxobutanoate-forming),2776382424 or 2776383406
+tilted_optknock,4,rxn14359_c0,knockout,-1.0,L-methionine methanethiol-lyase,2776382424 or 2776383406

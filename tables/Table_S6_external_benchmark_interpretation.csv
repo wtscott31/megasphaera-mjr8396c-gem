@@ -1,0 +1,6 @@
+Table_S5_external_benchmark_interpretation
+Benchmark,MJR8396C result,External evidence,Interpretation,Reference
+Anaerobic growth-rate magnitude,0.7005 h^-1 on revised gut-like medium,M. elsdenii reported mu_max approximately 0.62 h^-1 on lactate,Plausible magnitude; not strain-specific validation,Prabhu et al. 2012
+Lactate-to-SCFA physiology,Lactate uptake with butyrate/propionate secretion,M. elsdenii partitions lactate to acetate/propionate or acetate/butyrate depending on condition,Qualitative pathway plausibility,Prabhu et al. 2012; Hino and Kuroda 1993
+Bifidobacterium-Megasphaera cross-feeding,"MICOM predicts D-lactate and acetate transfer, plus MJR8396C butyrate output",Bifidobacterial lactate supported M. indica growth and butyrate formation,"Mechanistically consistent, but not direct MJR8396C validation",Zhao et al. 2024
+Network quality,MEMOTE 88.2%; 766 blocked reactions,MEMOTE provides standardized structural/model-quality tests,Transparent draft-model quality assessment,Lieven et al. 2020

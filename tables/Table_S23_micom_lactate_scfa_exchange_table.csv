@@ -1,0 +1,11 @@
+compound,compound_name,bad_flux,meg_flux,interaction_class,interpretation,absolute_exchange
+cpd00221,D-lactate,33.61842132826692,-33.61842132826692,Bifidobacterium_provides_to_Megasphaera,$Bifidobacterium$ → $Megasphaera$,67.23684265653384
+cpd00029,acetate,20.591558861240234,-18.26772942167606,Bifidobacterium_provides_to_Megasphaera,$Bifidobacterium$ → $Megasphaera$,38.859288282916296
+cpd00211,butyrate,0.0,28.523190635794524,Megasphaera_to_medium,$Megasphaera$ → medium,28.523190635794524
+cpd00027,D-glucose,-16.34932559593013,-3.6506744040698713,co_consumed,co-consumed,20.0
+cpd00159,L-lactate,-20.0,0.0,Bifidobacterium_from_medium,$Bifidobacterium$ ← medium,20.0
+cpd00047,formate,0.0,16.457761562850457,Megasphaera_to_medium,$Megasphaera$ → medium,16.457761562850457
+cpd00013,ammonia,0.0,4.045008641167987,Megasphaera_to_medium,$Megasphaera$ → medium,4.045008641167987
+cpd00239,hydrogen sulfide,0.009514152959276002,3.873777187896105,co_produced,co-produced,3.883291340855381
+cpd00324,methanethiol,0.993754834090498,2.790184221664812,co_produced,co-produced,3.78393905575531
+cpd00141,propionate,0.9427268731135534,2.308986438990632,co_produced,co-produced,3.2517133121041852

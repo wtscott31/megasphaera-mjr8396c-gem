@@ -1,0 +1,7 @@
+pathway,MJR8396C_call,MJR8396C_similarity_pct,MJR8396C_reference_cluster,M_elsdenii_DSM20460_call,M_elsdenii_DSM20460_similarity_pct,M_elsdenii_DSM20460_reference_cluster,C_sporogenes_ATCC15579_call,C_sporogenes_ATCC15579_similarity_pct,C_sporogenes_ATCC15579_reference_cluster,note
+Propanediol utilization,present,33,Salmonella Pdu BMC,not detected,,,not detected,,,Detected only in MJR8396C
+Rnf complex,present,66,Clostridium sporogenes,present,66,,present,,,C. sporogenes cluster reported as canonical; reference cluster for M. elsdenii not stated in the manuscript table
+PFOR II pathway,present (two copies),100,Bacteroides thetaiotaomicron,present,100,Bacteroides thetaiotaomicron,not detected as standalone cluster,,,Pyruvate flux in C. sporogenes predicted within a mixed-SCFA region rather than a discrete PFOR II cluster
+Leucine-reductive branch,present,50,Clostridioides difficile,present,50,Clostridioides difficile,present,100,Clostridium sporogenes,
+4-Aminobutyrate to butyrate,present,20,Clostridium pasteurianum,present,50,Clostridium pasteurianum,not detected,,,
+Proline to aminovalerate,not detected,,,present,41,Clostridium sticklandii,present,83,Clostridium sticklandii,

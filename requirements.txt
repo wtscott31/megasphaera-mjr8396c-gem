@@ -1,0 +1,12 @@
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+lxml>=5.0
+matplotlib>=3.8
+cobra>=0.29
+jupyterlab>=4.0
+swiglpk>=5.0
+# Optional for intervention-design reruns:
+# straindesign>=1.13
+# Optional for dedicated community-model reruns:
+# micom>=0.37

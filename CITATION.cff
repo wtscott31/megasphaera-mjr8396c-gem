@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated manuscript and this software release."
+title: "Megasphaera sp. MJR8396C genome-scale metabolic modeling repository"
+type: software
+authors:
+  - family-names: "van Geerestein"
+    given-names: "Joy Iheoma"
+  - family-names: "Dell'Olio"
+    given-names: "Andrea"
+  - family-names: "Rubert"
+    given-names: "Josep"
+  - family-names: "Scott Jr."
+    given-names: "William T."
+version: 1.0.0
+date-released: 2026-08-21
+preferred-citation:
+  type: article
+  title: "Genome-level constraint-based analysis of Megasphaera sp. MJR8396C reveals nutrient-dependent fermentation and lactate-linked cross-feeding"
+  authors:
+    - family-names: "van Geerestein"
+      given-names: "Joy Iheoma"
+    - family-names: "Dell'Olio"
+      given-names: "Andrea"
+    - family-names: "Rubert"
+      given-names: "Josep"
+    - family-names: "Scott Jr."
+      given-names: "William T."

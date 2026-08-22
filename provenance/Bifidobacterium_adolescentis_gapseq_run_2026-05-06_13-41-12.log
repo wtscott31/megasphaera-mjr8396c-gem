@@ -1,0 +1,363 @@
+============================================================
+Bifidobacterium adolescentis gapseq GEM reconstruction
+Run date: 2026-05-06_13-41-12
+Working directory: /Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run
+Log file: /Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run/logs/Bifidobacterium_adolescentis_gapseq_run_2026-05-06_13-41-12.log
+============================================================
+
+Input files
+-----------
+Protein FASTA: /Users/wtscott/Downloads/Bifidobacterium_adolescentis_genome_assembly/ncbi_dataset/data/GCF_000737885.1/protein.faa
+Genome FASTA:  /Users/wtscott/Downloads/Bifidobacterium_adolescentis_genome_assembly/ncbi_dataset/data/GCF_000737885.1/GCF_000737885.1_ASM73788v1_genomic.fna
+Medium CSV:    /Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/MJR8396C_candidate_anaerobic_medium_gapseq_revised.csv
+gapseq:        /Users/wtscott/gapseq/gapseq
+
+File checks
+-----------
+-rw-r--r--@ 1 wtscott  staff   777B Apr 22 16:13 /Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/MJR8396C_candidate_anaerobic_medium_gapseq_revised.csv
+-rw-r--r--@ 1 wtscott  staff   2.1M May  6 10:47 /Users/wtscott/Downloads/Bifidobacterium_adolescentis_genome_assembly/ncbi_dataset/data/GCF_000737885.1/GCF_000737885.1_ASM73788v1_genomic.fna
+-rw-r--r--@ 1 wtscott  staff   764K May  6 10:47 /Users/wtscott/Downloads/Bifidobacterium_adolescentis_genome_assembly/ncbi_dataset/data/GCF_000737885.1/protein.faa
+-rwxr-xr-x  1 wtscott  staff   5.5K Apr 22 14:23 /Users/wtscott/gapseq/gapseq
+
+Software checks
+---------------
+
+gapseq version: 2.0.0 c64db99b
+darwin25
+Darwin Kernel Version 25.4.0: Thu Mar 19 19:33:25 PDT 2026; root:xnu-12377.101.15~1/RELEASE_ARM64_T6041 
+
+
+#######################
+#Checking dependencies#
+#######################
+libsbml 5.20.4 (/opt/homebrew/lib/libsbml.dylib)
+libglpk 44.1.0 (/opt/homebrew/lib/libglpk.dylib)
+awk version 20200816
+sed (GNU sed) 4.10
+grep (BSD grep, GNU compatible) 2.6.0-FreeBSD
+Critical: (310.5) External MBEDTLS version mismatch: 3.6.5 headers vs. 3.6.6 runtime
+blastp: 2.17.0+
+R version 4.5.3 (2026-03-11) -- "Reassured Reassurer"
+git version 2.50.1 (Apple Git-155)
+HMMER 3.4 (Aug 2023); http://hmmer.org/
+bc 7.0.3
+
+Missing dependencies: 0
+
+
+#####################
+#Checking R packages#
+#####################
+data.table 1.18.2.1 
+stringr 1.6.0 
+cobrar 0.2.3 
+getopt 1.20.4 
+R.utils 2.13.0 
+stringi 1.8.7 
+BiocManager 1.30.27 
+Biostrings 2.78.0 
+jsonlite 2.0.0 
+httr 1.4.8 
+
+Missing R packages:  0 
+
+
+##############################
+#Checking basic functionality#
+##############################
+Optimization test: OK 
+Building full model: OK 
+Critical: (310.5) External MBEDTLS version mismatch: 3.6.5 headers vs. 3.6.6 runtime
+Critical: (310.5) External MBEDTLS version mismatch: 3.6.5 headers vs. 3.6.6 runtime
+Blast test: OK
+
+Passed tests: 3/3
+
+################################
+#Checking optional dependencies#
+################################
+(Alternative sequence alignment tools)
+    diamond version 2.1.24
+    mmseqs 18-8cc5c
+(Nucleotide genome to protein genome translation)
+    pyrodigal v3.7.1
+cobrarCPLEX NOT FOUND 
+
+
+gapseq version line
+-------------------
+   __ _  __ _ _ __  ___  ___  __ _ 
+  / _` |/ _` | '_ \/ __|/ _ \/ _` |
+ | (_| | (_| | |_) \__ \  __/ (_| |
+  \__, |\__,_| .__/|___/\___|\__, |
+  |___/      |_|                |_|
+
+Informed prediction and analysis of bacterial metabolic pathways and genome-scale networks
+
+Usage:
+  gapseq test
+  gapseq (find | find-transport | draft | fill | doall | adapt | medium | pan) (...)
+  gapseq doall [-A aligner] (genome)
+  gapseq find (-p pathways | -e enzymes | -r reaction) [-b bitscore] (genome)
+  gapseq find-transport [-b bitscore] (genome)
+  gapseq draft (-r reactions | -t transporter -p pathways) [-b pos|neg|archaea|auto]
+  gapseq medium (-m draft -p pathways) [-c manual_fluxes -o output_file]
+  gapseq fill (-m draft -n medium)
+  gapseq adapt (-a reactions/pathways | -r reactions/pathways | -w growth_compounds) -m model (-b reaction_blast_file)
+  gapseq pan (-m draft_list -w pathways_list)
+
+Examples:
+  gapseq test
+  gapseq doall toy/ecoli.faa.gz
+  gapseq doall -m dat/media/TSBmed.csv toy/myb71.faa.gz
+  gapseq find -p chitin toy/myb71.faa.gz
+  gapseq find -p all toy/myb71.faa.gz
+  gapseq find-transport toy/myb71.faa.gz
+  gapseq draft -r toy/ecoli-all-Reactions.tbl -t toy/ecoli-Transporter.tbl -p toy/ecoli-all-Pathways.tbl
+  gapseq medium -m toy/ecoli-draft.RDS -p toy/ecoli-all-Pathways.tbl
+  gapseq fill -m toy/ecoli-draft.RDS -n toy/ecoli-medium.csv
+  gapseq adapt -a 14DICHLORBENZDEG-PWY -m toy/myb71.RDS
+  gapseq adapt -m toy/myb71.RDS -w cpd00089:TRUE -b toy/myb71-all-Reactions.tbl
+
+Options:
+  test              Testing dependencies and basic functionality of gapseq.
+  test-long         Testing model reconstruction for a E. coli core genome.
+  find              Pathway analysis, try to find enzymes based on homology.
+  find-transport    Search for transporters based on homology.
+  draft             Draft model construction based on results from find and find-transport.
+  medium            (gapfill-)Medium prediction based on results from find and draft
+  fill              Gap filling of a model.
+  doall             Combine find, find-transport, draft, (medium,) and fill.
+  adapt             Add or remove reactions or pathways.
+  pan               Reconstruct a pan-Draft from a list of models.
+  update-sequences  Update the reference sequence database.
+  -v                Show version.
+  -h                Show this screen.
+
+PATH
+----
+/Users/wtscott/bin:/opt/homebrew/opt/gnu-sed/libexec/gnubin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/opt/pkg/env/active/bin:/opt/pmk/env/global/bin:/Library/Apple/usr/bin:/Applications/Privileges.app/Contents/MacOS:/Library/TeX/texbin:/opt/homebrew/bin:/usr/local/laps:/Users/wtscott/Library/Application Support/JetBrains/Toolbox/scripts
+
+Step 1: pathway/reaction prediction
+-----------------------------------
+Protein fasta detected.
+Predicted Gram-staining: pos
+Checking for pathways and reactions in: /Users/wtscott/Downloads/Bifidobacterium_adolescentis_genome_assembly/ncbi_dataset/data/GCF_000737885.1/protein.faa Pathways|Enzyme-Test|seed|kegg
+Number of pathways to be considered: 1929
+Number of reference sequences used for alignments: 154781 
+Critical: (310.5) External MBEDTLS version mismatch: 3.6.5 headers vs. 3.6.6 runtime
+Critical: (310.5) External MBEDTLS version mismatch: 3.6.5 headers vs. 3.6.6 runtime
+Critical: (310.5) External MBEDTLS version mismatch: 3.6.5 headers vs. 3.6.6 runtime
+ORF coverage: 25.04 %
+ps: illegal option -- q
+usage: ps [-AaCcEefhjlMmrSTvwXx] [-O fmt | -o fmt] [-G gid[,gid...]]
+          [-g grp[,grp...]] [-u [uid,uid...]]
+          [-p pid[,pid...]] [-t tty[,tty...]] [-U user[,user...]]
+       ps [-L]
+Running time: 141 s.
+
+Step 2: transporter prediction
+------------------------------
+/var/folders/rg/dmh74dqj1wq4tfdclb4jxg780000gq/T/tmp.xbJmbbAXQJ
+Protein fasta detected.
+Critical: (310.5) External MBEDTLS version mismatch: 3.6.5 headers vs. 3.6.6 runtime
+Critical: (310.5) External MBEDTLS version mismatch: 3.6.5 headers vs. 3.6.6 runtime
+Critical: (310.5) External MBEDTLS version mismatch: 3.6.5 headers vs. 3.6.6 runtime
+
+Found transporter for substances:
+2-Oxoglutarate
+Acetate
+Ammonium
+Ca2+
+Cadmium
+Cobalt
+Cu2+
+D-Alanine
+D-Arabinose
+D-Fructose
+D-Gluconate
+D-Glucosamine
+D-Glucose
+D-Lactate
+D-Mannitol
+D-Mannose
+D-Serine
+Fe2+
+Fe3+
+GABA
+Galactose
+Glycerol
+Glycerol-3-phosphate
+Glycine
+Guanosine
+Heme
+K+
+L-Alanine
+L-Arabinose
+L-Arginine
+L-Asparagine
+L-Aspartate
+L-Cysteine
+L-Glutamate
+L-Glutamine
+L-Histidine
+L-Idonate
+L-Inositol
+L-Isoleucine
+L-Lactate
+L-Leucine
+L-Lysine
+L-Methionine
+L-Phenylalanine
+L-Proline
+L-Serine
+L-Threonine
+L-Tryptophan
+L-Tyrosine
+L-Valine
+Lactose
+Lead
+Maltodextrin
+Maltose
+Maltotetraose
+Melibiose
+Melitose
+Mercury
+Mg
+Mn2+
+Molybdate
+Nickel
+Ornithine
+Phosphate
+Putrescine
+Ribitol
+Salicin
+Sodium
+Spermidine
+Stachyose
+Succinate
+Sucrose
+Sulfate
+Taurine
+Thiamin
+Thiosulfate
+Trehalose
+Uracil
+Xylitol
+Xylose
+Zn2+
+
+Found transporter without reactions in gapseq's DB:
+CoA
+D-Cellobiose
+Fumarate
+L-Rhamnose
+NAD
+NADP
+Nicotinamide
+Pyruvate
+Xylan-b-1-4
+
+Added alternative transport reactions for:
+Arsenate
+beta-Carotene
+CoA
+crotonobetaine
+Cytidine
+Dodecanoic acid
+Ethanol
+FAD
+Formate
+Hydrogen peroxide
+L-Arabinol
+L-Fucose
+L-Rhamnose
+N-Acetyl-D-glucosamine
+NADP
+Nicotinamide
+Xanthosine
+
+stat: illegal option -- c
+usage: stat [-FLnq] [-f format | -l | -r | -s | -x] [-t timefmt] [file ...]
+Running time: 63 s.
+
+Step 3: draft model reconstruction
+----------------------------------
+Creating Gene-Reaction list... 1091 unique genes
+Constructing draft model: 
+ 1 / 1160 2 / 1160 3 / 1160 4 / 1160 5 / 1160 6 / 1160 7 / 1160 8 / 1160 9 / 1160 10 / 1160 11 / 1160 12 / 1160 13 / 1160 14 / 1160 15 / 1160 16 / 1160 17 / 1160 18 / 1160 19 / 1160 20 / 1160 21 / 1160 22 / 1160 23 / 1160 24 / 1160 25 / 1160 26 / 1160 27 / 1160 28 / 1160 29 / 1160 30 / 1160 31 / 1160 32 / 1160 33 / 1160 34 / 1160 35 / 1160 36 / 1160 37 / 1160 38 / 1160 39 / 1160 40 / 1160 41 / 1160 42 / 1160 43 / 1160 44 / 1160 45 / 1160 46 / 1160 47 / 1160 48 / 1160 49 / 1160 50 / 1160 51 / 1160 52 / 1160 53 / 1160 54 / 1160 55 / 1160 56 / 1160 57 / 1160 58 / 1160 59 / 1160 60 / 1160 61 / 1160 62 / 1160 63 / 1160 64 / 1160 65 / 1160 66 / 1160 67 / 1160 68 / 1160 69 / 1160 70 / 1160 71 / 1160 72 / 1160 73 / 1160 74 / 1160 75 / 1160 76 / 1160 77 / 1160 78 / 1160 79 / 1160 80 / 1160 81 / 1160 82 / 1160 83 / 1160 84 / 1160 85 / 1160 86 / 1160 87 / 1160 88 / 1160 89 / 1160 90 / 1160 91 / 1160 92 / 1160 93 / 1160 94 / 1160 95 / 1160 96 / 1160 97 / 1160 98 / 1160 99 / 1160 100 / 1160 101 / 1160 102 / 1160 103 / 1160 104 / 1160 105 / 1160 106 / 1160 107 / 1160 108 / 1160 109 / 1160 110 / 1160 111 / 1160 112 / 1160 113 / 1160 114 / 1160 115 / 1160 116 / 1160 117 / 1160 118 / 1160 119 / 1160 120 / 1160 121 / 1160 122 / 1160 123 / 1160 124 / 1160 125 / 1160 126 / 1160 127 / 1160 128 / 1160 129 / 1160 130 / 1160 131 / 1160 132 / 1160 133 / 1160 134 / 1160 135 / 1160 136 / 1160 137 / 1160 138 / 1160 139 / 1160 140 / 1160 141 / 1160 142 / 1160 143 / 1160 144 / 1160 145 / 1160 146 / 1160 147 / 1160 148 / 1160 149 / 1160 150 / 1160 151 / 1160 152 / 1160 153 / 1160 154 / 1160 155 / 1160 156 / 1160 157 / 1160 158 / 1160 159 / 1160 160 / 1160 161 / 1160 162 / 1160 163 / 1160 164 / 1160 165 / 1160 166 / 1160 167 / 1160 168 / 1160 169 / 1160 170 / 1160 171 / 1160 172 / 1160 173 / 1160 174 / 1160 175 / 1160 176 / 1160 177 / 1160 178 / 1160 179 / 1160 180 / 1160 181 / 1160 182 / 1160 183 / 1160 184 / 1160 185 / 1160 186 / 1160 187 / 1160 188 / 1160 189 / 1160 190 / 1160 191 / 1160 192 / 1160 193 / 1160 194 / 1160 195 / 1160 196 / 1160 197 / 1160 198 / 1160 199 / 1160 200 / 1160 201 / 1160 202 / 1160 203 / 1160 204 / 1160 205 / 1160 206 / 1160 207 / 1160 208 / 1160 209 / 1160 210 / 1160 211 / 1160 212 / 1160 213 / 1160 214 / 1160 215 / 1160 216 / 1160 217 / 1160 218 / 1160 219 / 1160 220 / 1160 221 / 1160 222 / 1160 223 / 1160 224 / 1160 225 / 1160 226 / 1160 227 / 1160 228 / 1160 229 / 1160 230 / 1160 231 / 1160 232 / 1160 233 / 1160 234 / 1160 235 / 1160 236 / 1160 237 / 1160 238 / 1160 239 / 1160 240 / 1160 241 / 1160 242 / 1160 243 / 1160 244 / 1160 245 / 1160 246 / 1160 247 / 1160 248 / 1160 249 / 1160 250 / 1160 251 / 1160 252 / 1160 253 / 1160 254 / 1160 255 / 1160 256 / 1160 257 / 1160 258 / 1160 259 / 1160 260 / 1160 261 / 1160 262 / 1160 263 / 1160 264 / 1160 265 / 1160 266 / 1160 267 / 1160 268 / 1160 269 / 1160 270 / 1160 271 / 1160 272 / 1160 273 / 1160 274 / 1160 275 / 1160 276 / 1160 277 / 1160 278 / 1160 279 / 1160 280 / 1160 281 / 1160 282 / 1160 283 / 1160 284 / 1160 285 / 1160 286 / 1160 287 / 1160 288 / 1160 289 / 1160 290 / 1160 291 / 1160 292 / 1160 293 / 1160 294 / 1160 295 / 1160 296 / 1160 297 / 1160 298 / 1160 299 / 1160 300 / 1160 301 / 1160 302 / 1160 303 / 1160 304 / 1160 305 / 1160 306 / 1160 307 / 1160 308 / 1160 309 / 1160 310 / 1160 311 / 1160 312 / 1160 313 / 1160 314 / 1160 315 / 1160 316 / 1160 317 / 1160 318 / 1160 319 / 1160 320 / 1160 321 / 1160 322 / 1160 323 / 1160 324 / 1160 325 / 1160 326 / 1160 327 / 1160 328 / 1160 329 / 1160 330 / 1160 331 / 1160 332 / 1160 333 / 1160 334 / 1160 335 / 1160 336 / 1160 337 / 1160 338 / 1160 339 / 1160 340 / 1160 341 / 1160 342 / 1160 343 / 1160 344 / 1160 345 / 1160 346 / 1160 347 / 1160 348 / 1160 349 / 1160 350 / 1160 351 / 1160 352 / 1160 353 / 1160 354 / 1160 355 / 1160 356 / 1160 357 / 1160 358 / 1160 359 / 1160 360 / 1160 361 / 1160 362 / 1160 363 / 1160 364 / 1160 365 / 1160 366 / 1160 367 / 1160 368 / 1160 369 / 1160 370 / 1160 371 / 1160 372 / 1160 373 / 1160 374 / 1160 375 / 1160 376 / 1160 377 / 1160 378 / 1160 379 / 1160 380 / 1160 381 / 1160 382 / 1160 383 / 1160 384 / 1160 385 / 1160 386 / 1160 387 / 1160 388 / 1160 389 / 1160 390 / 1160 391 / 1160 392 / 1160 393 / 1160 394 / 1160 395 / 1160 396 / 1160 397 / 1160 398 / 1160 399 / 1160 400 / 1160 401 / 1160 402 / 1160 403 / 1160 404 / 1160 405 / 1160 406 / 1160 407 / 1160 408 / 1160 409 / 1160 410 / 1160 411 / 1160 412 / 1160 413 / 1160 414 / 1160 415 / 1160 416 / 1160 417 / 1160 418 / 1160 419 / 1160 420 / 1160 421 / 1160 422 / 1160 423 / 1160 424 / 1160 425 / 1160 426 / 1160 427 / 1160 428 / 1160 429 / 1160 430 / 1160 431 / 1160 432 / 1160 433 / 1160 434 / 1160 435 / 1160 436 / 1160 437 / 1160 438 / 1160 439 / 1160 440 / 1160 441 / 1160 442 / 1160 443 / 1160 444 / 1160 445 / 1160 446 / 1160 447 / 1160 448 / 1160 449 / 1160 450 / 1160 451 / 1160 452 / 1160 453 / 1160 454 / 1160 455 / 1160 456 / 1160 457 / 1160 458 / 1160 459 / 1160 460 / 1160 461 / 1160 462 / 1160 463 / 1160 464 / 1160 465 / 1160 466 / 1160 467 / 1160 468 / 1160 469 / 1160 470 / 1160 471 / 1160 472 / 1160 473 / 1160 474 / 1160 475 / 1160 476 / 1160 477 / 1160 478 / 1160 479 / 1160 480 / 1160 481 / 1160 482 / 1160 483 / 1160 484 / 1160 485 / 1160 486 / 1160 487 / 1160 488 / 1160 489 / 1160 490 / 1160 491 / 1160 492 / 1160 493 / 1160 494 / 1160 495 / 1160 496 / 1160 497 / 1160 498 / 1160 499 / 1160 500 / 1160 501 / 1160 502 / 1160 503 / 1160 504 / 1160 505 / 1160 506 / 1160 507 / 1160 508 / 1160 509 / 1160 510 / 1160 511 / 1160 512 / 1160 513 / 1160 514 / 1160 515 / 1160 516 / 1160 517 / 1160 518 / 1160 519 / 1160 520 / 1160 521 / 1160 522 / 1160 523 / 1160 524 / 1160 525 / 1160 526 / 1160 527 / 1160 528 / 1160 529 / 1160 530 / 1160 531 / 1160 532 / 1160 533 / 1160 534 / 1160 535 / 1160 536 / 1160 537 / 1160 538 / 1160 539 / 1160 540 / 1160 541 / 1160 542 / 1160 543 / 1160 544 / 1160 545 / 1160 546 / 1160 547 / 1160 548 / 1160 549 / 1160 550 / 1160 551 / 1160 552 / 1160 553 / 1160 554 / 1160 555 / 1160 556 / 1160 557 / 1160 558 / 1160 559 / 1160 560 / 1160 561 / 1160 562 / 1160 563 / 1160 564 / 1160 565 / 1160 566 / 1160 567 / 1160 568 / 1160 569 / 1160 570 / 1160 571 / 1160 572 / 1160 573 / 1160 574 / 1160 575 / 1160 576 / 1160 577 / 1160 578 / 1160 579 / 1160 580 / 1160 581 / 1160 582 / 1160 583 / 1160 584 / 1160 585 / 1160 586 / 1160 587 / 1160 588 / 1160 589 / 1160 590 / 1160 591 / 1160 592 / 1160 593 / 1160 594 / 1160 595 / 1160 596 / 1160 597 / 1160 598 / 1160 599 / 1160 600 / 1160 601 / 1160 602 / 1160 603 / 1160 604 / 1160 605 / 1160 606 / 1160 607 / 1160 608 / 1160 609 / 1160 610 / 1160 611 / 1160 612 / 1160 613 / 1160 614 / 1160 615 / 1160 616 / 1160 617 / 1160 618 / 1160 619 / 1160 620 / 1160 621 / 1160 622 / 1160 623 / 1160 624 / 1160 625 / 1160 626 / 1160 627 / 1160 628 / 1160 629 / 1160 630 / 1160 631 / 1160 632 / 1160 633 / 1160 634 / 1160 635 / 1160 636 / 1160 637 / 1160 638 / 1160 639 / 1160 640 / 1160 641 / 1160 642 / 1160 643 / 1160 644 / 1160 645 / 1160 646 / 1160 647 / 1160 648 / 1160 649 / 1160 650 / 1160 651 / 1160 652 / 1160 653 / 1160 654 / 1160 655 / 1160 656 / 1160 657 / 1160 658 / 1160 659 / 1160 660 / 1160 661 / 1160 662 / 1160 663 / 1160 664 / 1160 665 / 1160 666 / 1160 667 / 1160 668 / 1160 669 / 1160 670 / 1160 671 / 1160 672 / 1160 673 / 1160 674 / 1160 675 / 1160 676 / 1160 677 / 1160 678 / 1160 679 / 1160 680 / 1160 681 / 1160 682 / 1160 683 / 1160 684 / 1160 685 / 1160 686 / 1160 687 / 1160 688 / 1160 689 / 1160 690 / 1160 691 / 1160 692 / 1160 693 / 1160 694 / 1160 695 / 1160 696 / 1160 697 / 1160 698 / 1160 699 / 1160 700 / 1160 701 / 1160 702 / 1160 703 / 1160 704 / 1160 705 / 1160 706 / 1160 707 / 1160 708 / 1160 709 / 1160 710 / 1160 711 / 1160 712 / 1160 713 / 1160 714 / 1160 715 / 1160 716 / 1160 717 / 1160 718 / 1160 719 / 1160 720 / 1160 721 / 1160 722 / 1160 723 / 1160 724 / 1160 725 / 1160 726 / 1160 727 / 1160 728 / 1160 729 / 1160 730 / 1160 731 / 1160 732 / 1160 733 / 1160 734 / 1160 735 / 1160 736 / 1160 737 / 1160 738 / 1160 739 / 1160 740 / 1160 741 / 1160 742 / 1160 743 / 1160 744 / 1160 745 / 1160 746 / 1160 747 / 1160 748 / 1160 749 / 1160 750 / 1160 751 / 1160 752 / 1160 753 / 1160 754 / 1160 755 / 1160 756 / 1160 757 / 1160 758 / 1160 759 / 1160 760 / 1160 761 / 1160 762 / 1160 763 / 1160 764 / 1160 765 / 1160 766 / 1160 767 / 1160 768 / 1160 769 / 1160 770 / 1160 771 / 1160 772 / 1160 773 / 1160 774 / 1160 775 / 1160 776 / 1160 777 / 1160 778 / 1160 779 / 1160 780 / 1160 781 / 1160 782 / 1160 783 / 1160 784 / 1160 785 / 1160 786 / 1160 787 / 1160 788 / 1160 789 / 1160 790 / 1160 791 / 1160 792 / 1160 793 / 1160 794 / 1160 795 / 1160 796 / 1160 797 / 1160 798 / 1160 799 / 1160 800 / 1160 801 / 1160 802 / 1160 803 / 1160 804 / 1160 805 / 1160 806 / 1160 807 / 1160 808 / 1160 809 / 1160 810 / 1160 811 / 1160 812 / 1160 813 / 1160 814 / 1160 815 / 1160 816 / 1160 817 / 1160 818 / 1160 819 / 1160 820 / 1160 821 / 1160 822 / 1160 823 / 1160 824 / 1160 825 / 1160 826 / 1160 827 / 1160 828 / 1160 829 / 1160 830 / 1160 831 / 1160 832 / 1160 833 / 1160 834 / 1160 835 / 1160 836 / 1160 837 / 1160 838 / 1160 839 / 1160 840 / 1160 841 / 1160 842 / 1160 843 / 1160 844 / 1160 845 / 1160 846 / 1160 847 / 1160 848 / 1160 849 / 1160 850 / 1160 851 / 1160 852 / 1160 853 / 1160 854 / 1160 855 / 1160 856 / 1160 857 / 1160 858 / 1160 859 / 1160 860 / 1160 861 / 1160 862 / 1160 863 / 1160 864 / 1160 865 / 1160 866 / 1160 867 / 1160 868 / 1160 869 / 1160 870 / 1160 871 / 1160 872 / 1160 873 / 1160 874 / 1160 875 / 1160 876 / 1160 877 / 1160 878 / 1160 879 / 1160 880 / 1160 881 / 1160 882 / 1160 883 / 1160 884 / 1160 885 / 1160 886 / 1160 887 / 1160 888 / 1160 889 / 1160 890 / 1160 891 / 1160 892 / 1160 893 / 1160 894 / 1160 895 / 1160 896 / 1160 897 / 1160 898 / 1160 899 / 1160 900 / 1160 901 / 1160 902 / 1160 903 / 1160 904 / 1160 905 / 1160 906 / 1160 907 / 1160 908 / 1160 909 / 1160 910 / 1160 911 / 1160 912 / 1160 913 / 1160 914 / 1160 915 / 1160 916 / 1160 917 / 1160 918 / 1160 919 / 1160 920 / 1160 921 / 1160 922 / 1160 923 / 1160 924 / 1160 925 / 1160 926 / 1160 927 / 1160 928 / 1160 929 / 1160 930 / 1160 931 / 1160 932 / 1160 933 / 1160 934 / 1160 935 / 1160 936 / 1160 937 / 1160 938 / 1160 939 / 1160 940 / 1160 941 / 1160 942 / 1160 943 / 1160 944 / 1160 945 / 1160 946 / 1160 947 / 1160 948 / 1160 949 / 1160 950 / 1160 951 / 1160 952 / 1160 953 / 1160 954 / 1160 955 / 1160 956 / 1160 957 / 1160 958 / 1160 959 / 1160 960 / 1160 961 / 1160 962 / 1160 963 / 1160 964 / 1160 965 / 1160 966 / 1160 967 / 1160 968 / 1160 969 / 1160 970 / 1160 971 / 1160 972 / 1160 973 / 1160 974 / 1160 975 / 1160 976 / 1160 977 / 1160 978 / 1160 979 / 1160 980 / 1160 981 / 1160 982 / 1160 983 / 1160 984 / 1160 985 / 1160 986 / 1160 987 / 1160 988 / 1160 989 / 1160 990 / 1160 991 / 1160 992 / 1160 993 / 1160 994 / 1160 995 / 1160 996 / 1160 997 / 1160 998 / 1160 999 / 1160 1000 / 1160 1001 / 1160 1002 / 1160 1003 / 1160 1004 / 1160 1005 / 1160 1006 / 1160 1007 / 1160 1008 / 1160 1009 / 1160 1010 / 1160 1011 / 1160 1012 / 1160 1013 / 1160 1014 / 1160 1015 / 1160 1016 / 1160 1017 / 1160 1018 / 1160 1019 / 1160 1020 / 1160 1021 / 1160 1022 / 1160 1023 / 1160 1024 / 1160 1025 / 1160 1026 / 1160 1027 / 1160 1028 / 1160 1029 / 1160 1030 / 1160 1031 / 1160 1032 / 1160 1033 / 1160 1034 / 1160 1035 / 1160 1036 / 1160 1037 / 1160 1038 / 1160 1039 / 1160 1040 / 1160 1041 / 1160 1042 / 1160 1043 / 1160 1044 / 1160 1045 / 1160 1046 / 1160 1047 / 1160 1048 / 1160 1049 / 1160 1050 / 1160 1051 / 1160 1052 / 1160 1053 / 1160 1054 / 1160 1055 / 1160 1056 / 1160 1057 / 1160 1058 / 1160 1059 / 1160 1060 / 1160 1061 / 1160 1062 / 1160 1063 / 1160 1064 / 1160 1065 / 1160 1066 / 1160 1067 / 1160 1068 / 1160 1069 / 1160 1070 / 1160 1071 / 1160 1072 / 1160 1073 / 1160 1074 / 1160 1075 / 1160 1076 / 1160 1077 / 1160 1078 / 1160 1079 / 1160 1080 / 1160 1081 / 1160 1082 / 1160 1083 / 1160 1084 / 1160 1085 / 1160 1086 / 1160 1087 / 1160 1088 / 1160 1089 / 1160 1090 / 1160 1091 / 1160 1092 / 1160 1093 / 1160 1094 / 1160 1095 / 1160 1096 / 1160 1097 / 1160 1098 / 1160 1099 / 1160 1100 / 1160 1101 / 1160 1102 / 1160 1103 / 1160 1104 / 1160 1105 / 1160 1106 / 1160 1107 / 1160 1108 / 1160 1109 / 1160 1110 / 1160 1111 / 1160 1112 / 1160 1113 / 1160 1114 / 1160 1115 / 1160 1116 / 1160 1117 / 1160 1118 / 1160 1119 / 1160 1120 / 1160 1121 / 1160 1122 / 1160 1123 / 1160 1124 / 1160 1125 / 1160 1126 / 1160 1127 / 1160 1128 / 1160 1129 / 1160 1130 / 1160 1131 / 1160 1132 / 1160 1133 / 1160 1134 / 1160 1135 / 1160 1136 / 1160 1137 / 1160 1138 / 1160 1139 / 1160 1140 / 1160 1141 / 1160 1142 / 1160 1143 / 1160 1144 / 1160 1145 / 1160 1146 / 1160 1147 / 1160 1148 / 1160 1149 / 1160 1150 / 1160 1151 / 1160 1152 / 1160 1153 / 1160 1154 / 1160 1155 / 1160 1156 / 1160 1157 / 1160 1158 / 1160 1159 / 1160 1160 / 1160
+
+Step 4: gapfilling on revised MJR8396C anaerobic medium
+-------------------------------------------------------
+LP solver: glpk 
+Loading model file protein-draft.RDS 
+using media file /Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/MJR8396C_candidate_anaerobic_medium_gapseq_revised.csv 
+
+
+1. Initial gapfilling: Make model grow on given media using all reactions
+Utilized candidate reactions:  130
+Gapfill summary:
+Added reactions:       125 
+Added core reactions:  33 
+Final growth rate:     0.3885231 
+
+
+2. Biomass gapfilling using core reactions only
+ 1 / 87 2 / 87 3 / 87 4 / 87 5 / 87 6 / 87 7 / 87 8 / 87 9 / 87 10 / 87 11 / 87 12 / 87 13 / 87 14 / 87 15 / 87 16 / 87 17 / 87 18 / 87 19 / 87 20 / 87 21 / 87 22 / 87 23 / 87 24 / 87 25 / 87 26 / 87 27 / 87 28 / 87 29 / 87 30 / 87 31 / 87 32 / 87 33 / 87 34 / 87 35 / 87 36 / 87 37 / 87 38 / 87 39 / 87 40 / 87 41 / 87 42 / 87 43 / 87 44 / 87 45 / 87 46 / 87 47 / 87 48 / 87 49 / 87 50 / 87 51 / 87 52 / 87 53 / 87 54 / 87 55 / 87 56 / 87 57 / 87 58 / 87 59 / 87 60 / 87 61 / 87 62 / 87 63 / 87 64 / 87 65 / 87 66 / 87 67 / 87 68 / 87 69 / 87 70 / 87 71 / 87 72 / 87 73 / 87 74 / 87 75 / 87 76 / 87 77 / 87 78 / 87 79 / 87 80 / 87 81 / 87 82 / 87 83 / 87 84 / 87 85 / 87 86 / 87 87 / 87Gapfill summary:
+Filled components:     0 (  )
+Added reactions:       0 
+Final growth rate:     0.3885231 
+
+
+2b. Anaerobic biomass gapfilling using core reactions only
+ 1 / 87 2 / 87 3 / 87 4 / 87 5 / 87 6 / 87 7 / 87 8 / 87 9 / 87 10 / 87 11 / 87 12 / 87 13 / 87 14 / 87 15 / 87 16 / 87 17 / 87 18 / 87 19 / 87 20 / 87 21 / 87 22 / 87 23 / 87 24 / 87 25 / 87 26 / 87 27 / 87 28 / 87 29 / 87 30 / 87 31 / 87 32 / 87 33 / 87 34 / 87 35 / 87 36 / 87 37 / 87 38 / 87 39 / 87 40 / 87 41 / 87 42 / 87 43 / 87 44 / 87 45 / 87 46 / 87 47 / 87 48 / 87 49 / 87 50 / 87 51 / 87 52 / 87 53 / 87 54 / 87 55 / 87 56 / 87 57 / 87 58 / 87 59 / 87 60 / 87 61 / 87 62 / 87 63 / 87 64 / 87 65 / 87 66 / 87 67 / 87 68 / 87 69 / 87 70 / 87 71 / 87 72 / 87 73 / 87 74 / 87 75 / 87 76 / 87 77 / 87 78 / 87 79 / 87 80 / 87 81 / 87 82 / 87 83 / 87 84 / 87 85 / 87 86 / 87 87 / 87Gapfill summary:
+Filled components:     0 (  )
+Added reactions:       0 
+Final growth rate:     0.3885231 
+
+
+3. Energy source gapfilling with core reactions only
+ 1 / 357 2 / 357 3 / 357 4 / 357 5 / 357 6 / 357 7 / 357 8 / 357 9 / 357 10 / 357 11 / 357 12 / 357 13 / 357 14 / 357 15 / 357 16 / 357 17 / 357 18 / 357 19 / 357 20 / 357 21 / 357 22 / 357 23 / 357 24 / 357 25 / 357 26 / 357 27 / 357 28 / 357 29 / 357 30 / 357 31 / 357 32 / 357 33 / 357 34 / 357 35 / 357 36 / 357 37 / 357 38 / 357 39 / 357 40 / 357 41 / 357 42 / 357 43 / 357 44 / 357 45 / 357 46 / 357 47 / 357 48 / 357 49 / 357 50 / 357 51 / 357 52 / 357 53 / 357 54 / 357 55 / 357 56 / 357 57 / 357 58 / 357 59 / 357 60 / 357 61 / 357 62 / 357 63 / 357 64 / 357 65 / 357 66 / 357 67 / 357 68 / 357 69 / 357 70 / 357 71 / 357 72 / 357 73 / 357 74 / 357 75 / 357 76 / 357 77 / 357 78 / 357 79 / 357 80 / 357 81 / 357 82 / 357 83 / 357 84 / 357 85 / 357 86 / 357 87 / 357 88 / 357 89 / 357 90 / 357 91 / 357 92 / 357 93 / 357 94 / 357 95 / 357 96 / 357 97 / 357 98 / 357 99 / 357 100 / 357 101 / 357 102 / 357 103 / 357 104 / 357 105 / 357 106 / 357 107 / 357 108 / 357 109 / 357 110 / 357 111 / 357 112 / 357 113 / 357 114 / 357 115 / 357 116 / 357 117 / 357 118 / 357 119 / 357 120 / 357 121 / 357 122 / 357 123 / 357 124 / 357 125 / 357 126 / 357 127 / 357 128 / 357 129 / 357 130 / 357 131 / 357 132 / 357 133 / 357 134 / 357 135 / 357 136 / 357 137 / 357 138 / 357 139 / 357 140 / 357 141 / 357 142 / 357 143 / 357 144 / 357 145 / 357 146 / 357 147 / 357 148 / 357 149 / 357 150 / 357 151 / 357 152 / 357 153 / 357 154 / 357 155 / 357 156 / 357 157 / 357 158 / 357 159 / 357 160 / 357 161 / 357 162 / 357 163 / 357 164 / 357 165 / 357 166 / 357 167 / 357 168 / 357 169 / 357 170 / 357 171 / 357 172 / 357 173 / 357 174 / 357 175 / 357 176 / 357 177 / 357 178 / 357 179 / 357 180 / 357 181 / 357 182 / 357 183 / 357 184 / 357 185 / 357 186 / 357 187 / 357 188 / 357 189 / 357 190 / 357 191 / 357 192 / 357 193 / 357 194 / 357 195 / 357 196 / 357 197 / 357 198 / 357 199 / 357 200 / 357 201 / 357 202 / 357 203 / 357 204 / 357 205 / 357 206 / 357 207 / 357 208 / 357 209 / 357 210 / 357 211 / 357 212 / 357 213 / 357 214 / 357 215 / 357 216 / 357 217 / 357 218 / 357 219 / 357 220 / 357 221 / 357 222 / 357 223 / 357 224 / 357 225 / 357 226 / 357 227 / 357 228 / 357 229 / 357 230 / 357 231 / 357 232 / 357 233 / 357 234 / 357 235 / 357 236 / 357 237 / 357 238 / 357 239 / 357 240 / 357 241 / 357 242 / 357 243 / 357 244 / 357 245 / 357 246 / 357 247 / 357 248 / 357 249 / 357 250 / 357 251 / 357 252 / 357 253 / 357 254 / 357 255 / 357 256 / 357 257 / 357 258 / 357 259 / 357 260 / 357 261 / 357 262 / 357 263 / 357 264 / 357 265 / 357 266 / 357 267 / 357 268 / 357 269 / 357 270 / 357 271 / 357 272 / 357 273 / 357 274 / 357 275 / 357 276 / 357 277 / 357 278 / 357 279 / 357 280 / 357 281 / 357 282 / 357 283 / 357 284 / 357 285 / 357 286 / 357 287 / 357 288 / 357 289 / 357 290 / 357 291 / 357 292 / 357 293 / 357 294 / 357 295 / 357 296 / 357 297 / 357 298 / 357 299 / 357 300 / 357 301 / 357 302 / 357 303 / 357 304 / 357 305 / 357 306 / 357 307 / 357 308 / 357 309 / 357 310 / 357 311 / 357 312 / 357 313 / 357 314 / 357 315 / 357 316 / 357 317 / 357 318 / 357 319 / 357 320 / 357 321 / 357 322 / 357 323 / 357 324 / 357 325 / 357 326 / 357 327 / 357 328 / 357 329 / 357 330 / 357 331 / 357 332 / 357 333 / 357 334 / 357 335 / 357 336 / 357 337 / 357 338 / 357 339 / 357 340 / 357 341 / 357 342 / 357 343 / 357 344 / 357 345 / 357 346 / 357 347 / 357 348 / 357 349 / 357 350 / 357 351 / 357 352 / 357 353 / 357 354 / 357 355 / 357 356 / 357 357 / 357Gapfill summary:
+Filled components:     14 ( Glycerol-3-phosphate-e0,2-Oxoglutarate-e0,GLCN-e0,D-Lactate-e0,Methanol-e0,CELB-e0,Melibiose-e0,Sorbitol-e0,Pyruvate-e0,Citrate-e0,Inosine-e0,NAD-e0,Xanthosine-e0,Xylan-b-1-4-e0 )
+Added reactions:       43 
+Final growth rate:     0.4200339 
+
+
+4. Checking for potential metabolic products with core reactions only
+ 1 / 357 2 / 357 3 / 357 4 / 357 5 / 357 6 / 357 7 / 357 8 / 357 9 / 357 10 / 357 11 / 357 12 / 357 13 / 357 14 / 357 15 / 357 16 / 357 17 / 357 18 / 357 19 / 357 20 / 357 21 / 357 22 / 357 23 / 357 24 / 357 25 / 357 26 / 357 27 / 357 28 / 357 29 / 357 30 / 357 31 / 357 32 / 357 33 / 357 34 / 357 35 / 357 36 / 357 37 / 357 38 / 357 39 / 357 40 / 357 41 / 357 42 / 357 43 / 357 44 / 357 45 / 357 46 / 357 47 / 357 48 / 357 49 / 357 50 / 357 51 / 357 52 / 357 53 / 357 54 / 357 55 / 357 56 / 357 57 / 357 58 / 357 59 / 357 60 / 357 61 / 357 62 / 357 63 / 357 64 / 357 65 / 357 66 / 357 67 / 357 68 / 357 69 / 357 70 / 357 71 / 357 72 / 357 73 / 357 74 / 357 75 / 357 76 / 357 77 / 357 78 / 357 79 / 357 80 / 357 81 / 357 82 / 357 83 / 357 84 / 357 85 / 357 86 / 357 87 / 357 88 / 357 89 / 357 90 / 357 91 / 357 92 / 357 93 / 357 94 / 357 95 / 357 96 / 357 97 / 357 98 / 357 99 / 357 100 / 357 101 / 357 102 / 357 103 / 357 104 / 357 105 / 357 106 / 357 107 / 357 108 / 357 109 / 357 110 / 357 111 / 357 112 / 357 113 / 357 114 / 357 115 / 357 116 / 357 117 / 357 118 / 357 119 / 357 120 / 357 121 / 357 122 / 357 123 / 357 124 / 357 125 / 357 126 / 357 127 / 357 128 / 357 129 / 357 130 / 357 131 / 357 132 / 357 133 / 357 134 / 357 135 / 357 136 / 357 137 / 357 138 / 357 139 / 357 140 / 357 141 / 357 142 / 357 143 / 357 144 / 357 145 / 357 146 / 357 147 / 357 148 / 357 149 / 357 150 / 357 151 / 357 152 / 357 153 / 357 154 / 357 155 / 357 156 / 357 157 / 357 158 / 357 159 / 357 160 / 357 161 / 357 162 / 357 163 / 357 164 / 357 165 / 357 166 / 357 167 / 357 168 / 357 169 / 357 170 / 357 171 / 357 172 / 357 173 / 357 174 / 357 175 / 357 176 / 357 177 / 357 178 / 357 179 / 357 180 / 357 181 / 357 182 / 357 183 / 357 184 / 357 185 / 357 186 / 357 187 / 357 188 / 357 189 / 357 190 / 357 191 / 357 192 / 357 193 / 357 194 / 357 195 / 357 196 / 357 197 / 357 198 / 357 199 / 357 200 / 357 201 / 357 202 / 357 203 / 357 204 / 357 205 / 357 206 / 357 207 / 357 208 / 357 209 / 357 210 / 357 211 / 357 212 / 357 213 / 357 214 / 357 215 / 357 216 / 357 217 / 357 218 / 357 219 / 357 220 / 357 221 / 357 222 / 357 223 / 357 224 / 357 225 / 357 226 / 357 227 / 357 228 / 357 229 / 357 230 / 357 231 / 357 232 / 357 233 / 357 234 / 357 235 / 357 236 / 357 237 / 357 238 / 357 239 / 357 240 / 357 241 / 357 242 / 357 243 / 357 244 / 357 245 / 357 246 / 357 247 / 357 248 / 357 249 / 357 250 / 357 251 / 357 252 / 357 253 / 357 254 / 357 255 / 357 256 / 357 257 / 357 258 / 357 259 / 357 260 / 357 261 / 357 262 / 357 263 / 357 264 / 357 265 / 357 266 / 357 267 / 357 268 / 357 269 / 357 270 / 357 271 / 357 272 / 357 273 / 357 274 / 357 275 / 357 276 / 357 277 / 357 278 / 357 279 / 357 280 / 357 281 / 357 282 / 357 283 / 357 284 / 357 285 / 357 286 / 357 287 / 357 288 / 357 289 / 357 290 / 357 291 / 357 292 / 357 293 / 357 294 / 357 295 / 357 296 / 357 297 / 357 298 / 357 299 / 357 300 / 357 301 / 357 302 / 357 303 / 357 304 / 357 305 / 357 306 / 357 307 / 357 308 / 357 309 / 357 310 / 357 311 / 357 312 / 357 313 / 357 314 / 357 315 / 357 316 / 357 317 / 357 318 / 357 319 / 357 320 / 357 321 / 357 322 / 357 323 / 357 324 / 357 325 / 357 326 / 357 327 / 357 328 / 357 329 / 357 330 / 357 331 / 357 332 / 357 333 / 357 334 / 357 335 / 357 336 / 357 337 / 357 338 / 357 339 / 357 340 / 357 341 / 357 342 / 357 343 / 357 344 / 357 345 / 357 346 / 357 347 / 357 348 / 357 349 / 357 350 / 357 351 / 357 352 / 357 353 / 357 354 / 357 355 / 357 356 / 357 357 / 357Gapfill summary:
+Filled components:     3 ( GLCN-e0,D-Ribose-e0,Cytidine-e0 )
+Added reactions:       6 
+Final growth rate:     0.4200339 
+
+Uptake at limit:
+Glycine:2, D-Glucose:10, L-Aspartate:2, L-Methionine:2, L-Cysteine:2 
+
+Top 10 produced metabolites [mmol / (gDW * hr)]:
+H+:20.27, Acetate:17.473, CO2:7.19, L-Lactate:5.267, H2O:4.287, NH3:2.568, H2S:1.967, MTTL:1.943, Propionate:1.775, L-Lysine:0.98 
+
+Step 5: rename final model files
+--------------------------------
+Final output files
+------------------
+-rw-r--r--@ 1 wtscott  staff   1.0M May  6 13:48 Bifidobacterium_adolescentis_GCF_000737885_1_filled_MJR_anaerobic.RDS
+-rw-r--r--@ 1 wtscott  staff   5.5M May  6 13:48 Bifidobacterium_adolescentis_GCF_000737885_1_filled_MJR_anaerobic.xml
+-rw-r--r--@ 1 wtscott  staff   169K May  6 13:43 protein-all-Pathways.tbl
+-rw-r--r--@ 1 wtscott  staff   6.0M May  6 13:43 protein-all-Reactions.tbl
+-rw-r--r--@ 1 wtscott  staff   971K May  6 13:45 protein-draft.RDS
+-rw-r--r--@ 1 wtscott  staff   5.0M May  6 13:45 protein-draft.xml
+-rw-r--r--@ 1 wtscott  staff   3.3M May  6 13:44 protein-Transporter.tbl
+
+Generate checksums
+------------------
+2b64f0d53e89a6acbb5eb9b19ffcca7195af2f05423a8f84697597bc836520f3  /Users/wtscott/Downloads/Bifidobacterium_adolescentis_genome_assembly/ncbi_dataset/data/GCF_000737885.1/protein.faa
+227049041972cac5602d6fce4bf026c46fbd2a9a2d4122537920cfc8c1e5a7c2  /Users/wtscott/Downloads/Bifidobacterium_adolescentis_genome_assembly/ncbi_dataset/data/GCF_000737885.1/GCF_000737885.1_ASM73788v1_genomic.fna
+81e1beb8bc8fae3b8e3be20863019ecebc0191ab4f3a8a73eac78f1fb39df9f3  /Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/MJR8396C_candidate_anaerobic_medium_gapseq_revised.csv
+ea04772fa3c4784478adecb337b97bbd883c3dcec90c620d8ae3bc9442b1062e  Bifidobacterium_adolescentis_GCF_000737885_1_filled_MJR_anaerobic.RDS
+0ebe69baa1c7572a49ba13835b9248a079c4a272528ead32ed6d10b0c7a5d027  Bifidobacterium_adolescentis_GCF_000737885_1_filled_MJR_anaerobic.xml
+
+Write curated provenance markdown
+---------------------------------
+Wrote provenance file:
+-rw-r--r--@ 1 wtscott  staff   5.4K May  6 13:48 /Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run/logs/Bifidobacterium_adolescentis_gapseq_provenance_2026-05-06_13-41-12.md
+
+Completed at 2026-05-06_13-48-45

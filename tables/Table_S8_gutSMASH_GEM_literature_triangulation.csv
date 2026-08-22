@@ -1,0 +1,7 @@
+Feature,gutSMASH / genome context,Current GEM reaction content,Condition-specific flux support,Comparable-strain experiments
+Lactate utilization,1.0,1,1,1
+PFOR/Rnf redox module,1.0,1,1,1
+Propionate/acrylate branch,0.5,1,1,1
+Butyrate formation,0.5,1,1,1
+Acetate formation,0.5,1,0,1
+C5/C6 chain elongation,0.0,0,0,1

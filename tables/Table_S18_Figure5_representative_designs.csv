@@ -1,0 +1,6 @@
+design,reaction_deletions,pathway_effect,growth_retained_percent,butyrate_change_percent
+OK-2,rxn00916 + rxn02123,Purine-N + lactoyl-CoA,94.7849456819123,46.66684378776433
+OK-3,rxn00916 + rxn90029,Purine-N + acryloyl-CoA,94.78494568191172,46.66684378777378
+OK-4,rxn00410 + rxn02123,Pyrimidine-N + lactoyl-CoA,94.90250241181793,46.61435506586109
+tOK-1,rxn00566 + rxn05957,Cysteine/H$_2$S metabolism,96.60650549752526,14.438603831128084
+tOK-4,rxn00456 + rxn14359,Methionine/methanethiol,95.37658392542026,5.762139275046446

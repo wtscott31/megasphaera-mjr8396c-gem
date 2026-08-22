@@ -1,0 +1,11 @@
+Metabolite,B. adolescentis flux,MJR8396C flux,Interpretation
+D-lactate,33.61842132826692,-33.61842132826692,Bifidobacterium_provides_to_Megasphaera
+acetate,20.591558861240237,-18.26772942167606,Bifidobacterium_provides_to_Megasphaera
+butyrate,0.0,28.523190635794524,Megasphaera_to_medium
+D-glucose,-16.34932559593013,-3.6506744040698713,co_consumed
+L-lactate,-20.0,0.0,Bifidobacterium_from_medium
+formate,0.0,16.457761562850457,Megasphaera_to_medium
+ammonia,0.0,4.045008641167987,Megasphaera_to_medium
+hydrogen sulfide,0.009514152959276,3.873777187896105,co_produced
+methanethiol,0.993754834090498,2.790184221664812,co_produced
+propionate,0.9427268731135534,2.308986438990632,co_produced

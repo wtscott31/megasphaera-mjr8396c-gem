@@ -1,0 +1,34 @@
+compounds	name	maxFlux	condition	base_maxFlux	derivation_factor	agora_reference_flux	source_basis	notes
+cpd00027	D-Glucose	10	aa_rich	10	1	107.3525763	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	D-glucose held at the gut-like bound to isolate amino-acid enrichment.
+cpd00159	L-Lactate	10	aa_rich	10	1		Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00029	Acetate	5	aa_rich	5	1		Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00067	H+	1000	aa_rich	1000	1		Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00001	H2O	1000	aa_rich	1000	1	179031.7997	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00007	O2	0	aa_rich	0	1		Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	Oxygen uptake closed to enforce anaerobiosis.
+cpd00011	CO2	1000	aa_rich	1000	1		Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00013	NH3	1000	aa_rich	1000	1		Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00009	Phosphate	1000	aa_rich	1000	1	18.0555599	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00048	Sulfate	1000	aa_rich	1000	1		Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00971	Na+	1000	aa_rich	1000	1	249.2580474	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00205	K+	1000	aa_rich	1000	1	98.62768969	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00254	Mg	1000	aa_rich	1000	1	25.57663032	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00063	Ca2+	1000	aa_rich	1000	1	25.41943211	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00099	Cl-	1000	aa_rich	1000	1	482.1654021	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd10515	Fe2+	1000	aa_rich	1000	1	0.3290625839	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd10516	Fe3+	1000	aa_rich	1000	1	0.3290625839	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00030	Mn2+	1000	aa_rich	1000	1	0.1089591011	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00034	Zn2+	1000	aa_rich	1000	1	0.1686295503	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00058	Cu2+	1000	aa_rich	1000	1	0.03860195764	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00149	Co2+	1000	aa_rich	1000	1		Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00305	Thiamin	1	aa_rich	1	1	6.764533194	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00220	Riboflavin	1	aa_rich	1	1	0.005274150895	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00133	Niacinamide	1	aa_rich	1	1	0.2451185101	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00218	Nicotinate	1	aa_rich	1	1	0.506422935	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00644	Pantothenate	1	aa_rich	1	1	0.04117272382	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00104	Biotin	1	aa_rich	1	1	0.0004936854379	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	
+cpd00041	L-Aspartate	4.083875812	aa_rich	2	2.041937906	96.14821791	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	Scaled by High-protein/EU-average AGORA ratio (2.041938).
+cpd00033	Glycine	4.089727516	aa_rich	2	2.044863758	75.17877458	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	Scaled by High-protein/EU-average AGORA ratio (2.044864).
+cpd00039	L-Lysine	3.760229314	aa_rich	2	1.880114657	62.62953011	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	Scaled by High-protein/EU-average AGORA ratio (1.880115).
+cpd00060	L-Methionine	4.405429044	aa_rich	2	2.202714522	23.6294101	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	Scaled by High-protein/EU-average AGORA ratio (2.202715).
+cpd00084	L-Cysteine	4.655287215	aa_rich	2	2.327643607	17.48486689	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	Scaled by High-protein/EU-average AGORA ratio (2.327644).
+cpd00119	L-Histidine	3.642262972	aa_rich	2	1.821131486	25.53968751	Gut-like base with High-protein/EU-average AGORA scaling applied to overlapping amino acids	Scaled by High-protein/EU-average AGORA ratio (1.821131).

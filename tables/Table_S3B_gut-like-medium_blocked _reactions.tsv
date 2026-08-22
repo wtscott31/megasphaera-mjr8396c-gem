@@ -1,0 +1,767 @@
+reaction_id	reaction_name	lower_bound_gut_like	upper_bound_gut_like	fva_min	fva_max	blocked_gut_like	gpr	has_gpr	is_exchange	is_transport	solver_status
+rxn00006_c0	hydrogen-peroxide:hydrogen-peroxide oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776383107	True	False	False	ok
+rxn00022_c0	maltose glucohydrolase	0.0	1000.0	0.0	-0.0	True	2776381280 or 2776382560	True	False	False	ok
+rxn00145_c0	(S)-Lactate:ferricytochrome-c 2-oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776382970	True	False	False	ok
+rxn00149_c0	pyruvaldehyde:NAD+ oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn00164_c0	2-Hydroxyethylenedicarboxylate carboxy-lyase (pyruvate-forming)	-1000.0	0.0	0.0	-0.0	True	2776381754 or 2776382270 or 2776382307	True	False	False	ok
+rxn00200_c0	2-oxoglutaramate amidohydrolase	0.0	1000.0	0.0	-0.0	True	2776383335	True	False	False	ok
+rxn00204_c0	oxalate:oxygen oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776382212 or 2776383033	True	False	False	ok
+rxn00211_c0	UDP-glucose:NAD+ 6-oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383176	True	False	False	ok
+rxn00214_c0	UDP-glucose 4-epimerase	-1000.0	1000.0	0.0	-0.0	True	2776382057	True	False	False	ok
+rxn00254_c0	2-oxosuccinamate amidohydrolase	0.0	1000.0	0.0	-0.0	True	2776383335	True	False	False	ok
+rxn00262_c0	L-Aspartic acid:oxygen oxidoreductase (deaminating)	0.0	1000.0	0.0	-0.0	True	2776381624	True	False	False	ok
+rxn00286_c0	succinyl-CoA:malate CoA-transferase	-1000.0	1000.0	0.0	-0.0	True	2776381232	True	False	False	ok
+rxn00295_c0	UDP-N-acetyl-D-glucosamine 4-epimerase	-1000.0	1000.0	0.0	-0.0	True	2776382057	True	False	False	ok
+rxn00303_c0	ATP:GTP 3'-diphosphotransferase	0.0	1000.0	0.0	-0.0	True	2776382153	True	False	False	ok
+rxn00322_c0	L-lysine carboxy-lyase (cadaverine-forming)	0.0	1000.0	0.0	-0.0	True	2776381336	True	False	False	ok
+rxn00338_c0	L-aspartate:oxygen oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776381624	True	False	False	ok
+rxn00358_c0	UDP-D-galactopyranose furanomutase	-1000.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn00359_c0	3'-phosphoadenylyl-sulfate sulfohydrolase	0.0	1000.0	0.0	-0.0	True	2776383131	True	False	False	ok
+rxn00401_c0	L-Arginine:oxygen 2-oxidoreductase (decarboxylating)	0.0	1000.0	0.0	-0.0	True	2776381479	True	False	False	ok
+rxn00427_c0	methanol:hydrogen-peroxide oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776383107	True	False	False	ok
+rxn00429_c0	Formaldehyde:NAD+ oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn00472_c0	ornithine racemase	-1000.0	1000.0	0.0	-0.0	True	2776383064 or 2776383345 or 2776383406	True	False	False	ok
+rxn00493_c0	L-Phenylalanine:2-oxoglutarate aminotransferase	-1000.0	1000.0	0.0	-0.0	True	2776382595 or 2776382817 or 2776382895 or 2776383065	True	False	False	ok
+rxn00514_c0	Inosine 5'-triphosphate pyrophosphohydrolase	0.0	1000.0	0.0	-0.0	True	2776383131	True	False	False	ok
+rxn00560_c0	Urea:carbon-dioxide ligase (ADP-forming)	0.0	1000.0	0.0	-0.0	True	2776382307	True	False	False	ok
+rxn00575_c0	sucrose glucohydrolase	0.0	1000.0	0.0	-0.0	True	2776381280 or 2776382560	True	False	False	ok
+rxn00598_c0	Succinyl-CoA:acetyl-CoA C-acyltransferase	-1000.0	0.0	0.0	-0.0	True	2776382512 or 2776382513	True	False	False	ok
+rxn00606_c0	alpha,alpha-Trehalose-6-phosphate phosphoglucohydrolase	0.0	1000.0	0.0	-0.0	True	2776381280	True	False	False	ok
+rxn00647_c0	L-Cysteine:2-oxoglutarate aminotransferase	-1000.0	1000.0	0.0	-0.0	True	2776382595 or 2776382817 or 2776382895 or 2776383065	True	False	False	ok
+rxn00650_c0	L-cysteinylglycine dipeptidase	0.0	1000.0	0.0	-0.0	True	2776381896 or 2776382803	True	False	False	ok
+rxn00652_c0	2-Amino-3-mercaptopropionic acid racemase	-1000.0	1000.0	0.0	-0.0	True	2776383064 or 2776383345 or 2776383406	True	False	False	ok
+rxn00653_c0	3-aminopropanal:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn00671_c0	2-Methyl-3-oxopropanoate:NAD+ oxidoreductase (CoA-propanoylating)	0.0	1000.0	0.0	-0.0	True	2776383028	True	False	False	ok
+rxn00689_c0	Tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming)	0.0	1000.0	0.0	-0.0	True	2776381749	True	False	False	ok
+rxn00695_c0	ATP:alpha-D-glucose-1-phosphate adenylyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776382565	True	False	False	ok
+rxn00735_c0	(2R,3S)-3-methylmalate:NAD+ oxidoreductase	-1000.0	0.0	0.0	-0.0	True	2776381975 or 2776383425	True	False	False	ok
+rxn00736_c0	methyloxaloacetate carboxy-lyase (2-oxobutanoate-forming)	-1000.0	0.0	0.0	-0.0	True	2776381754 or 2776382270 or 2776382307	True	False	False	ok
+rxn00762_c0	glycerol:NAD+ 2-oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381475 or 2776383206	True	False	False	ok
+rxn00787_c0	D-tagatose 1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)	-1000.0	1000.0	0.0	-0.0	True	2776382241 or 2776382629	True	False	False	ok
+rxn00792_c0	biotin:CoA ligase (AMP-forming)	0.0	1000.0	0.0	-0.0	True	2776381557	True	False	False	ok
+rxn00840_c0	dATP:pyruvate 2-O-phosphotransferase	-1000.0	0.0	0.0	-0.0	True	2776382082	True	False	False	ok
+rxn00853_c0	N-Carbamoylputrescine amidohydrolase	0.0	1000.0	0.0	-0.0	True	2776382894	True	False	False	ok
+rxn00862_c0	L-histidine:2-oxoglutarate aminotransferase	-1000.0	1000.0	0.0	-0.0	True	2776382034	True	False	False	ok
+rxn00865_c0	Nalpha-(beta-alanyl)-L-histidine hydrolase	-1000.0	1000.0	0.0	-0.0	True	2776381896	True	False	False	ok
+rxn00905_c0	2-dehydropantoate formaldehyde-lyase (3-methyl-2-oxobutanoate-forming)	-1000.0	0.0	0.0	-0.0	True	2776383021	True	False	False	ok
+rxn00990_c0	Acetoacetyl-CoA:acetate CoA-transferase	-1000.0	1000.0	0.0	-0.0	True	2776382574	True	False	False	ok
+rxn00993_c0	4-fumarylacetoacetate fumarylhydrolase	-1000.0	0.0	0.0	-0.0	True	2776382270	True	False	False	ok
+rxn01008_c0	UDP-glucuronate 4-epimerase	-1000.0	1000.0	0.0	-0.0	True	2776383178	True	False	False	ok
+rxn01032_c0	Benzaldehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028	True	False	False	ok
+rxn01043_c0	xylitol:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381394 or 2776381395 or 2776381810 or 2776382137 or 2776382851 or 2776382938 or 2776382940 or 2776383433	True	False	False	ok
+rxn01053_c0	(S)-lactaldehyde:NAD+ oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn01068_c0	L-threonine:NAD+ oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn01075_c0	UDP-L-arabinose 4-epimerase	-1000.0	1000.0	0.0	-0.0	True	2776382057	True	False	False	ok
+rxn01080_c0	D-glucuronate aldose-ketose-isomerase	-1000.0	1000.0	0.0	-0.0	True	2776381908	True	False	False	ok
+rxn01119_c0	UDP-galactose:undecaprenyl-phosphate galactose phosphotransferase	-1000.0	1000.0	0.0	-0.0	True	2776381839	True	False	False	ok
+rxn01122_c0	D-altronate hydro-lyase (2-dehydro-3-deoxy-D-gluconate-forming)	0.0	1000.0	0.0	-0.0	True	2776381458 or 2776381906	True	False	False	ok
+rxn01124_c0	2-Dehydro-3-deoxy-D-gluconate:NAD+ 5-oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381255 or 2776381916	True	False	False	ok
+rxn01127_c0	ATP:dAMP phosphotransferase	-1000.0	1000.0	0.0	-0.0	True	2776381307	True	False	False	ok
+rxn01134_c0	Maltose alpha-D-glucosylmutase	-1000.0	1000.0	0.0	-0.0	True	2776381280	True	False	False	ok
+rxn01146_c0	thymidine:phosphate deoxy-alpha-D-ribosyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776381847	True	False	False	ok
+rxn01176_c0	2-Deoxy-5-keto-D-gluconic acid 6-phosphate Dihydroxyacetone phosphate-lyase	-1000.0	1000.0	0.0	-0.0	True	2776382629	True	False	False	ok
+rxn01199_c0	ATP:D-xylulose 5-phosphotransferase	0.0	1000.0	0.0	-0.0	True	2776382230 or 2776382348	True	False	False	ok
+rxn01210_c0	10-Formyltetrahydrofolate:L-glutamate ligase (ADP-forming)	0.0	1000.0	0.0	-0.0	True	2776381749	True	False	False	ok
+rxn01222_c0	dCTP nucleotidohydrolase	0.0	1000.0	0.0	-0.0	True	2776383131	True	False	False	ok
+rxn01236_c0	ATP:butanoate 1-phosphotransferase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn01241_c0	Dihydrolipoamide:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381850	True	False	False	ok
+rxn01261_c0	nicotinate:NADP+ 6-oxidoreductase (hydroxylating)	-1000.0	0.0	0.0	-0.0	True	2776382104	True	False	False	ok
+rxn01305_c0	1,2-Ethanediol:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn01306_c0	2-dehydro-3-deoxy-D-pentonate glycolaldehyde-lyase (pyruvate-forming)	-1000.0	1000.0	0.0	-0.0	True	2776381459	True	False	False	ok
+rxn01331_c0	D-erythrose 4-phosphate:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381346	True	False	False	ok
+rxn01389_c0	ATP:L-xylulose 5-phosphotransferase	0.0	1000.0	0.0	-0.0	True	2776381861	True	False	False	ok
+rxn01419_c0	(1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate:NAD+ oxidoreductase (decarboxylating)	0.0	1000.0	0.0	-0.0	True	2776381975 or 2776383425	True	False	False	ok
+rxn01420_c0	(1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate:NAD+ oxidoreductase (decarboxylating)	0.0	1000.0	0.0	-0.0	True	2776381975 or 2776383425	True	False	False	ok
+rxn01446_c0	Deoxyguanosine:orthophosphate ribosyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776381847 or 2776382873 or 2776383271	True	False	False	ok
+rxn01457_c0	D-Galacturonate aldose-ketose-isomerase	-1000.0	1000.0	0.0	-0.0	True	2776381908	True	False	False	ok
+rxn01464_c0	alpha-Aminobutyryl histidine hydrolase	-1000.0	1000.0	0.0	-0.0	True	2776381896	True	False	False	ok
+rxn01484_c0	N-Acetyl-D-glucosamine-6-phosphate amidohydrolase	0.0	1000.0	0.0	-0.0	True	2776381260	True	False	False	ok
+rxn01486_c0	trans,trans-Farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase	0.0	1000.0	0.0	-0.0	True	2776382494	True	False	False	ok
+rxn01503_c0	succinyl-CoA:3-hydroxy-3-methylglutarate CoA-transferase	-1000.0	1000.0	0.0	-0.0	True	2776381232 or 2776381414	True	False	False	ok
+rxn01504_c0	(S)-3-Hydroxy-3-methylglutaryl-CoA hydro-lyase (trans-3-methylglutaconyl-CoA-forming)	-1000.0	1000.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn01530_c0	retinol:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn01564_c0	Tryptamine:oxygen oxidoreductase(deaminating)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn01608_c0	(R)-Mevalonate:NAD+ oxidoreductase	-1000.0	0.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn01609_c0	(R)-Mevalonate:NADP+ oxidoreductase	-1000.0	0.0	0.0	-0.0	True	2776381498 or 2776381810 or 2776382851 or 2776382938 or 2776382940 or 2776383206	True	False	False	ok
+rxn01620_c0	L-Fuculose-1-phosphate lactaldehyde-lyase	-1000.0	1000.0	0.0	-0.0	True	2776383145	True	False	False	ok
+rxn01626_c0	5,6-Dihydrouracil amidohydrolase	0.0	1000.0	0.0	-0.0	True	2776382105	True	False	False	ok
+rxn01631_c0	5-Aminopentanoate:2-oxoglutarate aminotransferase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn01634_c0	5-Dehydro-4-deoxy-D-glucarate hydro-lyase (decarboxylating)	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn01647_c0	Nicotinate D-ribonucleoside:orthophosphate ribosyltransferase	0.0	1000.0	0.0	-0.0	True	2776382873 or 2776383271	True	False	False	ok
+rxn01650_c0	Pyrimidine-nucleoside:orthophosphate alpha-D-ribosyltransferase	0.0	1000.0	0.0	-0.0	True	2776381847	True	False	False	ok
+rxn01667_c0	NTP:pyruvate O2-phosphotransferase	-1000.0	0.0	0.0	-0.0	True	2776382082	True	False	False	ok
+rxn01684_c0	purine-nucleoside:phosphate ribosyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776382873 or 2776383271	True	False	False	ok
+rxn01710_c0	Propane-1,3-diol:NAD+ 1-oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn01715_c0	Tyramine:oxygen oxidoreductase(deaminating)(flavin-containing)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn01729_c0	glutarate-semialdehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn01735_c0	L-Cystine L-Cysteine-lyase (deaminating)	-1000.0	1000.0	0.0	-0.0	True	2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406	True	False	False	ok
+rxn01741_c0	Shikimate:NADP+ 5-oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383369 or 2776383373	True	False	False	ok
+rxn01745_c0	(R)-Malate hydro-lyase	-1000.0	1000.0	0.0	-0.0	True	2776383423	True	False	False	ok
+rxn01748_c0	Allantoin amidohydrolase	0.0	1000.0	0.0	-0.0	True	2776382105	True	False	False	ok
+rxn01753_c0	D-Xylonate hydro-lyase	0.0	1000.0	0.0	-0.0	True	2776381224 or 2776381462 or 2776381464	True	False	False	ok
+rxn01775_c0	D-Mannonate:NAD+ 5-oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381912	True	False	False	ok
+rxn01799_c0	deoxyuridine:orthophosphate 2-deoxy-D-ribosyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776381847 or 2776382873 or 2776383271	True	False	False	ok
+rxn01828_c0	L-Arabinonate hydro-lyase	0.0	1000.0	0.0	-0.0	True	2776381224 or 2776381464	True	False	False	ok
+rxn01831_c0	(R)-Lactaldehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381394 or 2776381395 or 2776381810 or 2776382137 or 2776382851 or 2776382938 or 2776382940 or 2776383433	True	False	False	ok
+rxn01832_c0	R02528	-1000.0	1000.0	0.0	-0.0	True	2776381394 or 2776381395 or 2776381810 or 2776382137 or 2776382851 or 2776382938 or 2776382940 or 2776383433	True	False	False	ok
+rxn01833_c0	aminoacetone:oxygen oxidoreductase(deaminating)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn01836_c0	4-[(1R)-2-Amino-1-hydroxyethyl]-1,2-benzenediol:oxygen oxidoreductase(deaminating)(flavin-containing)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn01857_c0	D-Altronate:NAD+ 3-oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381907	True	False	False	ok
+rxn01902_c0	Phenylethylalcohol:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn01903_c0	Phenethylamine:oxygen oxidoreductase (deaminating)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn01906_c0	3-sulfino-L-alanine:2-oxoglutarate aminotransferase	-1000.0	1000.0	0.0	-0.0	True	2776382595 or 2776382817 or 2776382895 or 2776383065	True	False	False	ok
+rxn01918_c0	Gentisate aldehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028	True	False	False	ok
+rxn01921_c0	ATP:2-dehydro-D-gluconate 6-phosphate	0.0	1000.0	0.0	-0.0	True	2776381915	True	False	False	ok
+rxn01923_c0	2-Methylpropanoyl-CoA:oxygen 2,3-oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776381470 or 2776381647 or 2776382342 or 2776382577 or 2776383301 or 2776383347 or 2776383399	True	False	False	ok
+rxn01932_c0	Hydorogen-peroxide:hydrogen-peroxide oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776383107	True	False	False	ok
+rxn01939_c0	indole-3-ethanol:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381498 or 2776381810 or 2776382851 or 2776382938 or 2776382940 or 2776383206	True	False	False	ok
+rxn01947_c0	5-Hydroxy-L-tryptophan:2-oxoglutarate aminotransferase	-1000.0	1000.0	0.0	-0.0	True	2776382595 or 2776382817 or 2776382895 or 2776383065	True	False	False	ok
+rxn01962_c0	XTP pyrophosphohydrolase	0.0	1000.0	0.0	-0.0	True	2776383131	True	False	False	ok
+rxn01972_c0	N6-Acetyl-LL-2,6-diaminoheptanedioate amidohydrolase	0.0	1000.0	0.0	-0.0	True	2776382579	True	False	False	ok
+rxn01986_c0	2-deoxy-D-ribose 1-phosphate 1,5-phosphomutase	-1000.0	1000.0	0.0	-0.0	True	2776381848	True	False	False	ok
+rxn01993_c0	2-Hydroxymuconate semialdehyde:NAD+ 6-oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn02009_c0	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:L-lysine gamma-ligase (ADP-forming)	0.0	1000.0	0.0	-0.0	True	2776383283	True	False	False	ok
+rxn02010_c0	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:L-lysine ligase	0.0	1000.0	0.0	-0.0	True	2776383283	True	False	False	ok
+rxn02021_c0	Hg:NADP+ oxidoreductase	-1000.0	0.0	0.0	-0.0	True	2776381850	True	False	False	ok
+rxn02061_c0	S-adenosylmethioninamine:spermidine 3-aminopropyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776381523	True	False	False	ok
+rxn02081_c0	5-Hydroxytryptamine:oxygen oxidoreductase(deaminating)(flavin-containing)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn02087_c0	4-[(1R)-1-Hydroxy-2-(methylamino)ethyl]-1,2-benzenediol:oxygen oxidoreductase(deaminating)(flavin-containing)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn02106_c0	2-Propyn-1-al:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn02107_c0	salicylaldehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn02121_c0	Succinyl-CoA:citramalate CoA-transferase	-1000.0	1000.0	0.0	-0.0	True	2776381232	True	False	False	ok
+rxn02122_c0	D-Glucuronolactone:NAD+ oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn02128_c0	ATP:pantothenate 4'-phosphotransferase	0.0	1000.0	0.0	-0.0	True	2776381558	True	False	False	ok
+rxn02138_c0	dTDPglucose 4-epimerase	-1000.0	1000.0	0.0	-0.0	True	2776382057	True	False	False	ok
+rxn02141_c0	3-oxoadipate:NAD+ oxidoreductase	-1000.0	0.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn02142_c0	3-oxoadipate:NADP+ oxidoreductase	-1000.0	0.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn02168_c0	(3R)-3-Hydroxybutanoyl-CoA hydro-lyase	-1000.0	1000.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn02169_c0	Glutaconyl-1-CoA carboxy-lyase	0.0	1000.0	0.0	-0.0	True	2776381470 or 2776381647 or 2776382342 or 2776382577 or 2776383301 or 2776383347 or 2776383399	True	False	False	ok
+rxn02173_c0	D-Galactonate hydro-lyase	0.0	1000.0	0.0	-0.0	True	2776381224 or 2776381464	True	False	False	ok
+rxn02190_c0	5,6-Dihydrothymine amidohydrolase	-1000.0	1000.0	0.0	-0.0	True	2776382105	True	False	False	ok
+rxn02201_c0	2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine-diphosphate:4-aminobenzoate 2-amino-4-hydroxydihydropteridine-6-methenyltransferase	0.0	1000.0	0.0	-0.0	True	2776381229	True	False	False	ok
+rxn02202_c0	(2R,3S)-2,3-dimethylmalate hydro-lyase (dimethylmaleate-forming)	-1000.0	1000.0	0.0	-0.0	True	2776383423 or 2776383424	True	False	False	ok
+rxn02203_c0	(2R,3S)-2,3-dimethylmalate hydro-lyase (dimethylmaleate-forming)	-1000.0	1000.0	0.0	-0.0	True	2776383423 or 2776383424	True	False	False	ok
+rxn02204_c0	Methylitaconate delta2-delta3-isomerase	-1000.0	1000.0	0.0	-0.0	True	2776382900	True	False	False	ok
+rxn02219_c0	3-Indoleacetonitrile aminohydrolase	0.0	1000.0	0.0	-0.0	True	2776382637	True	False	False	ok
+rxn02235_c0	propane-1,3-diol:NAD+ 1-oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn02246_c0	O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide)	-1000.0	1000.0	0.0	-0.0	True	2776382536 or 2776383001	True	False	False	ok
+rxn02258_c0	Succinyl-CoA:citramalate CoA-transferase	-1000.0	1000.0	0.0	-0.0	True	2776381232	True	False	False	ok
+rxn02268_c0	(S)-2-methylbutanoyl-CoA:oxygen 2,3-oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776381470 or 2776381647 or 2776382342 or 2776382577 or 2776383301 or 2776383347 or 2776383399	True	False	False	ok
+rxn02273_c0	4-Guanidinobutanal:NAD+ 1-oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn02274_c0	2-oxo-5-Guanidinopentanoate carboxy-lyase	0.0	1000.0	0.0	-0.0	True	2776381226	True	False	False	ok
+rxn02277_c0	7,8-Diaminononanoate:carbon-dioxide cyclo-ligase	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn02312_c0	S-Adenosyl-L-methionine:8-amino-7-oxononanoate aminotransferase	-1000.0	1000.0	0.0	-0.0	True	2776381876	True	False	False	ok
+rxn02313_c0	R03234	-1000.0	1000.0	0.0	-0.0	True	2776381355	True	False	False	ok
+rxn02314_c0	ATP:D-tagatose-6-phosphate 1-phosphotransferase	0.0	1000.0	0.0	-0.0	True	2776382220	True	False	False	ok
+rxn02315_c0	CTP:D-Tagatose 6-phosphate 1-phosphotransferase	0.0	1000.0	0.0	-0.0	True	2776382220	True	False	False	ok
+rxn02316_c0	UTP:D-Tagatose 6-phosphate 1-phosphotransferase	0.0	1000.0	0.0	-0.0	True	2776382220	True	False	False	ok
+rxn02317_c0	ITP:D-Tagatose 6-phosphate 1-phosphotransferase	0.0	1000.0	0.0	-0.0	True	2776382220	True	False	False	ok
+rxn02319_c0	ATP:L-fuculose 1-phosphotransferase	0.0	1000.0	0.0	-0.0	True	2776381739	True	False	False	ok
+rxn02321_c0	L-ribulose-5-phosphate 3-epimerase	-1000.0	1000.0	0.0	-0.0	True	2776381858	True	False	False	ok
+rxn02350_c0	4-Trimethylammoniobutanal:NAD+ 1-oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn02356_c0	trans-4-Hydroxy-L-proline:NAD+ 5-oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776381489	True	False	False	ok
+rxn02358_c0	trans-4-Hydroxy-L-proline:NADP+ 5-oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776381489	True	False	False	ok
+rxn02379_c0	alpha-D-Hexose 1-phosphate 1,6-phosphomutase	-1000.0	1000.0	0.0	-0.0	True	2776382199	True	False	False	ok
+rxn02424_c0	3-Oxopropanoate:NAD+ oxidoreductase (decarboxylating, CoA-acetylating)	0.0	1000.0	0.0	-0.0	True	2776383028	True	False	False	ok
+rxn02484_c0	ATP:4-amino-5-hydroxymethyl-2-methylpyrimidine 5-phosphotransferase	0.0	1000.0	0.0	-0.0	True	2776382711	True	False	False	ok
+rxn02518_c0	2'-Deoxyinosine-5'-triphosphate pyrophosphohydrolase	0.0	1000.0	0.0	-0.0	True	2776383131	True	False	False	ok
+rxn02525_c0	alpha-Aminopropiononitrile aminohydrolase	-1000.0	1000.0	0.0	-0.0	True	2776382637	True	False	False	ok
+rxn02569_c0	ATP:selenide, water phosphotransferase	-1000.0	1000.0	0.0	-0.0	True	2776382755	True	False	False	ok
+rxn02571_c0	O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide)	0.0	1000.0	0.0	-0.0	True	2776382536 or 2776383001	True	False	False	ok
+rxn02639_c0	3alpha,7alpha,12alpha-trihydroxy-5beta-cholanoyl-CoA:propanoyl-CoA C-acyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776382512 or 2776382513	True	False	False	ok
+rxn02667_c0	(R)-1-Aminopropan-2-ol:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381475	True	False	False	ok
+rxn02729_c0	(S)-Methylmalonate semialdehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn02744_c0	2-Aminomuconate semialdehyde:NAD+ 6-oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn02748_c0	(3S)-3-Methyl-2-oxopentanoate carboxy-lyase	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn02749_c0	(R)-2-Methylmalate hydro-lyase	-1000.0	1000.0	0.0	-0.0	True	2776383423 or 2776383424	True	False	False	ok
+rxn02812_c0	ATP:branched-chain-fatty-acid 1-phosphotransferase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn02817_c0	Oxoarginine decarboxylase	-1000.0	0.0	0.0	-0.0	True	2776381226	True	False	False	ok
+rxn02826_c0	N-Acetylputrescine:oxygen oxidoreductase(deaminating)(flavin-containing)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn02842_c0	R04049	-1000.0	1000.0	0.0	-0.0	True	2776381255 or 2776381760 or 2776381916	True	False	False	ok
+rxn02853_c0	Imidazole acetaldehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn02866_c0	3-methylbutanoyl-CoA:(acceptor) 2,3-oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776381470 or 2776381647 or 2776382342 or 2776382577 or 2776383301 or 2776383347 or 2776383399	True	False	False	ok
+rxn02888_c0	3-Hydroxyisopentyl-CoA hydro-lyase	-1000.0	1000.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn02889_c0	3-Methylcrotonoyl-CoA:carbon-dioxide ligase (ADP-forming)	0.0	1000.0	0.0	-0.0	True	2776383247	True	False	False	ok
+rxn02925_c0	L-Alanine:3-oxopropanoate aminotransferase	-1000.0	1000.0	0.0	-0.0	True	2776381876	True	False	False	ok
+rxn02934_c0	(2S,3S)-3-Hydroxy-2-methylbutanoyl-CoA hydro-liase	-1000.0	1000.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn02936_c0	3-Phospho-D-erythronate hydro-lyase	-1000.0	1000.0	0.0	-0.0	True	2776381439	True	False	False	ok
+rxn02944_c0	N2-succinyl-L-ornithine:2-oxoglutarate 5-aminotransferase	-1000.0	1000.0	0.0	-0.0	True	2776381335	True	False	False	ok
+rxn02949_c0	(S)-3-Hydroxyisobutyryl-CoA hydro-lyase	-1000.0	1000.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn02990_c0	(S)-4-Amino-5-oxopentanoate:NADP+ 5-oxidoreductase	-1000.0	0.0	0.0	-0.0	True	2776381376	True	False	False	ok
+rxn02993_c0	4-(2-Aminoethyl)-1,2-benzenediol:oxygen oxidoreductase(deaminating)(flavin-containing)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn02996_c0	4-Hydroxyphenylethanol:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn03039_c0	1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide:pyrophosphate phosphoribosyltransferase	-1000.0	0.0	0.0	-0.0	True		False	False	False	ok
+rxn03047_c0	ATP:pantothenate 4'-phosphotransferase	0.0	1000.0	0.0	-0.0	True	2776381558	True	False	False	ok
+rxn03052_c0	5-Methyltetrahydropteroyltri-L-glutamate:L-homocysteine S-methyltransferase	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn03055_c0	5-carboxymethyl-2-hydroxymuconic-semialdehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn03057_c0	5-Methylthio-5-deoxy-D-ribose-1-phosphate ketol-isomerase	-1000.0	1000.0	0.0	-0.0	True	2776382874	True	False	False	ok
+rxn03075_c0	ATP:4-methyl-5-(2-hydroxyethyl)-thiazole 2-phosphotransferase	0.0	1000.0	0.0	-0.0	True	2776381495 or 2776381656	True	False	False	ok
+rxn03087_c0	N-Succinyl-L-2,6-diaminoheptanedioate:2-oxoglutarate amino-transferase	-1000.0	1000.0	0.0	-0.0	True	2776381335 or 2776381970 or 2776381996 or 2776383065	True	False	False	ok
+rxn03106_c0	3alpha,7alpha-Dihydroxy-5beta-cholestan-26-al:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn03140_c0	UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysine:alanyl-D-alanine ligase (ADP-forming)	0.0	1000.0	0.0	-0.0	True	2776383284	True	False	False	ok
+rxn03141_c0	UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysine:alanyl-D-alanine	0.0	1000.0	0.0	-0.0	True	2776383284	True	False	False	ok
+rxn03195_c0	N-Methylhistamine:oxygen oxidoreductase (deaminating) (copper-containing)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn03263_c0	Selenomethionine methanethiol-lyase (deaminating)	-1000.0	1000.0	0.0	-0.0	True	2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406	True	False	False	ok
+rxn03264_c0	ATP:L-selenomethione S-adenosyltransferase	0.0	1000.0	0.0	-0.0	True	2776381510 or 2776383155	True	False	False	ok
+rxn03282_c0	R04805	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn03287_c0	3alpha,7alpha,24-trihydroxy-5beta-cholestanoyl-CoA:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381615	True	False	False	ok
+rxn03288_c0	acetyl-CoA C-acyltransferase, putative / 3-ketoacyl-CoA thiolase, putative	-1000.0	0.0	0.0	-0.0	True	2776382512 or 2776382513	True	False	False	ok
+rxn03289_c0	3alpha,7alpha,12alpha,24-tetrahydroxy-5beta-cholestanoyl-CoA:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381615	True	False	False	ok
+rxn03324_c0	(1R,2S)-1-hydroxybutane-1,2,4-tricarboxylate:NAD+ oxidoreductase (decarboxylating)	-1000.0	1000.0	0.0	-0.0	True	2776381975 or 2776383425	True	False	False	ok
+rxn03333_c0	3,4-dihydroxyphenylethyleneglycol:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn03342_c0	3-Methoxytyramine:oxygen oxidoreductase (deaminating) (copper-containing)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn03345_c0	L-Normetanephrine:oxygen oxidoreductase (deaminating) (copper-containing)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn03346_c0	L-Metanephrine:oxygen oxidoreductase (deaminating) (flavin-containing)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn03354_c0	5-Hydroxyindoleacetaldehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn03358_c0	3-Hydroxykynurenamine:oxygen oxidoreductase(deaminating)(flavin-containing)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn03359_c0	5-Hydroxykynurenamine:oxygen oxidoreductase(deaminating)(flavin-containing)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn03373_c0	ATP:selenate adenylyltransferase	0.0	1000.0	0.0	-0.0	True	2776383008 or 2776383009	True	False	False	ok
+rxn03378_c0	Se-Adenosylselenohomocysteine hydrolase	-1000.0	1000.0	0.0	-0.0	True	2776382875	True	False	False	ok
+rxn03379_c0	Selenocystathionine L-homocysteine-lyase (deaminating)	0.0	1000.0	0.0	-0.0	True	2776382424 or 2776383345 or 2776383406	True	False	False	ok
+rxn03382_c0	O-Acetylhomoserine succinate-lyase (adding cysteine)	-1000.0	1000.0	0.0	-0.0	True	2776382424 or 2776383406	True	False	False	ok
+rxn03383_c0	O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase	-1000.0	1000.0	0.0	-0.0	True	2776382424 or 2776383406	True	False	False	ok
+rxn03400_c0	3-Methylimidazole acetaldehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn03423_c0	N4-Acetylaminobutanal:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn03424_c0	L-erythro-4-Hydroxyglutamate:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn03445_c0	O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase	-1000.0	1000.0	0.0	-0.0	True	2776381996	True	False	False	ok
+rxn03446_c0	O-Phospho-4-hydroxy-L-threonine phospho-lyase (adding water)	-1000.0	1000.0	0.0	-0.0	True	2776382475	True	False	False	ok
+rxn03455_c0	6-oxohexanoate:NADP oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn03489_c0	galactitol-1-phosphate:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776382624	True	False	False	ok
+rxn03504_c0	N-acetyl-D-galactosamine 6-phosphate amidohydrolase	-1000.0	1000.0	0.0	-0.0	True	2776381260	True	False	False	ok
+rxn03540_c0	R05225	0.0	1000.0	0.0	-0.0	True	2776382264	True	False	False	ok
+rxn03546_c0	6-Hydroxyhexanoate:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381498 or 2776381810 or 2776382851 or 2776382938 or 2776382940 or 2776383206	True	False	False	ok
+rxn03550_c0	p-cumic aldehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028	True	False	False	ok
+rxn03551_c0	4-Hydroxymuconic-semialdehyde:NAD+ oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn03583_c0	4-(hydroxymethyl)benzenesulfonate:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383276	True	False	False	ok
+rxn03584_c0	4-formylbenzenesulfonate:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383276	True	False	False	ok
+rxn03598_c0	Chloroacetaldehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn03636_c0	4,8,12-Trimethyltridecanoyl-CoA:propanoyl-CoA C2-4,8,12-trimethyltridecanoyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776382512 or 2776382513	True	False	False	ok
+rxn03642_c0	4-hydroxybutanoyl-CoA hydro-lyase	0.0	1000.0	0.0	-0.0	True	2776381472	True	False	False	ok
+rxn03654_c0	2-hydroxy-5-methyl-cis,cis-muconic semialdehyde:NAD+ 6-oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn03659_c0	Acrylonitrile aminohydrolase	0.0	1000.0	0.0	-0.0	True	2776382637	True	False	False	ok
+rxn03674_c0	methylmalonyl-CoA carboxy-lyase	0.0	1000.0	0.0	-0.0	True	2776381757 or 2776383247	True	False	False	ok
+rxn03762_c0	R05465	0.0	1000.0	0.0	-0.0	True	2776383252	True	False	False	ok
+rxn03796_c0	R05506	-1000.0	1000.0	0.0	-0.0	True	2776382512 or 2776382513	True	False	False	ok
+rxn03856_c0	Galactitol-1-phosphate:NAD oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776382624	True	False	False	ok
+rxn03860_c0	(3S)-3-Hydroxyacyl-CoA:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381615	True	False	False	ok
+rxn03864_c0	R05582	-1000.0	1000.0	0.0	-0.0	True	2776381760 or 2776383057 or 2776383212	True	False	False	ok
+rxn03866_c0	R05586	-1000.0	1000.0	0.0	-0.0	True	2776382512 or 2776382513	True	False	False	ok
+rxn03870_c0	Nitrile aminohydrolase	0.0	1000.0	0.0	-0.0	True	2776382637	True	False	False	ok
+rxn03877_c0	Benzylsuccinate fumarate-lyase	0.0	1000.0	0.0	-0.0	True	2776382647	True	False	False	ok
+rxn03879_c0	R05600	-1000.0	0.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn03885_c0	D-mannonate hydro-lyase	0.0	1000.0	0.0	-0.0	True	2776381913 or 2776381921	True	False	False	ok
+rxn03887_c0	galactarate hydro-lyase (5-dehydro-4-deoxy-D-glucarate-forming)	0.0	1000.0	0.0	-0.0	True	2776381458 or 2776381906	True	False	False	ok
+rxn03903_c0	UDPMurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala):undecaprenyl-phosphate phospho-N-acetylmuramoyl-pentapeptide-transferase	-1000.0	1000.0	0.0	-0.0	True	2776383285	True	False	False	ok
+rxn03933_c0	UDP-N-acetyl-D-glucosamine:N-acetyl-alpha-D-muramyl(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-diphosphoundecaprenol 4-beta-N-acetylglucosaminlytransferase	-1000.0	1000.0	0.0	-0.0	True	2776383287	True	False	False	ok
+rxn03934_c0	R05663	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn03951_c0	NAD-dependent threonine 4-phosphate dehydrogenase	-1000.0	1000.0	0.0	-0.0	True	2776381275	True	False	False	ok
+rxn03955_c0	3-Methylbutanol:NAD(P) oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn03969_c0	vanillin:NAD oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn04047_c0	R05809	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn04082_c0	L-ribulose-5-phosphate 4-epimerase	-1000.0	1000.0	0.0	-0.0	True	2776381859	True	False	False	ok
+rxn04234_c0	Aldehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn04274_c0	cis-2-Methyl-5-isopropylhexa-2,5-dienoyl-CoA hydro-lyase	-1000.0	1000.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn04275_c0	trans-2-Methyl-5-isopropylhexa-2,5-dienoyl-CoA hydro-lyase	-1000.0	1000.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn04308_c0	(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate cistransferase (adding 8 isopentenyl units)	0.0	1000.0	0.0	-0.0	True	2776383124	True	False	False	ok
+rxn04384_c0	adenosylcobyric acid:(R)-1-aminopropan-2-yl phosphate ligase	0.0	1000.0	0.0	-0.0	True	2776382265	True	False	False	ok
+rxn04385_c0	L-threonine-O-3-phosphate carboxy-lyase	0.0	1000.0	0.0	-0.0	True	2776382267	True	False	False	ok
+rxn04726_c0	1-hydroxymethylnaphthalene:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn04736_c0	(2-naphthyl)methanol:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn04750_c0	(S)-3-hydroxyacyl-CoA:NAD+ oxidoreductase	-1000.0	0.0	0.0	-0.0	True	2776381615	True	False	False	ok
+rxn04751_c0	(3S)-3-hydroxyacyl-CoA hydro-lyase	-1000.0	1000.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn04786_c0	L-2,4-diaminobutyrate:2-oxoglutarate 4-aminotransferase	-1000.0	1000.0	0.0	-0.0	True	2776381876	True	False	False	ok
+rxn04907_c0	Chloral:NAD(P)+ oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn04908_c0	trichloroethanol:NAD+ oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn04930_c0	ATP:3-dehydro-L-gulonate 6-phosphotransferase	0.0	1000.0	0.0	-0.0	True	2776381861	True	False	False	ok
+rxn04951_c0	fluoroacetaldehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn05061_c0	4-hydroxyphenylacetate carboxy-lyase	0.0	1000.0	0.0	-0.0	True	2776381509 or 2776382647	True	False	False	ok
+rxn05127_c0	R07418	0.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn05159_c0	choline transport via ABC system	0.0	1000.0	0.0	-0.0	True	2776382775	True	False	True	ok
+rxn05176_c0	thiosulfate transport via ABC system	0.0	1000.0	0.0	-0.0	True	2776383002 or 2776383003 or 2776383004	True	False	True	ok
+rxn05188_c0	ferrichrome transport via ABC system	0.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn05223_c0	Biotin ABC transporter	0.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn05289_c0	NADPH:oxidized-thioredoxin oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776381675	True	False	False	ok
+rxn05321_c0	Acetyl-CoA carbon-dioxide ligase	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn05322_c0	Butyryl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)	-1000.0	0.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381761 or 2776381762	True	False	False	ok
+rxn05324_c0	Dodecanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)	-1000.0	0.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381761 or 2776381762	True	False	False	ok
+rxn05325_c0	Octanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)	-1000.0	0.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381761 or 2776381762	True	False	False	ok
+rxn05326_c0	Hexanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)	-1000.0	0.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381761 or 2776381762	True	False	False	ok
+rxn05327_c0	Decanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)	-1000.0	0.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381761 or 2776381762	True	False	False	ok
+rxn05328_c0	Hexadecanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)	-1000.0	0.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381761 or 2776381762	True	False	False	ok
+rxn05330_c0	(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase	-1000.0	1000.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381760 or 2776381761 or 2776381762	True	False	False	ok
+rxn05333_c0	(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase	-1000.0	1000.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381760 or 2776381761 or 2776381762	True	False	False	ok
+rxn05334_c0	(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase	0.0	1000.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381760 or 2776381761 or 2776381762	True	False	False	ok
+rxn05337_c0	(3R)-3-Hydroxyhexanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381760 or 2776381761 or 2776381762	True	False	False	ok
+rxn05338_c0	(3R)-3-Hydroxydecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	-1000.0	0.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381760 or 2776381761 or 2776381762	True	False	False	ok
+rxn05339_c0	(3R)-3-Hydroxybutanoyl-[acyl-carrier protein]:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381760 or 2776381761 or 2776381762	True	False	False	ok
+rxn05340_c0	(3R)-3-Hydroxydodecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381760 or 2776381761 or 2776381762	True	False	False	ok
+rxn05341_c0	(3R)-3-Hydroxyoctanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381760 or 2776381761 or 2776381762	True	False	False	ok
+rxn05343_c0	Octanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)	0.0	1000.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381757 or 2776381760 or 2776381761 or 2776381762	True	False	False	ok
+rxn05346_c0	butyryl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)	0.0	1000.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381757 or 2776381760 or 2776381761 or 2776381762	True	False	False	ok
+rxn05347_c0	Acyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)	0.0	1000.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381757 or 2776381760 or 2776381761 or 2776381762	True	False	False	ok
+rxn05348_c0	Decanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)	0.0	1000.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381757 or 2776381760 or 2776381761 or 2776381762	True	False	False	ok
+rxn05350_c0	hexanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating)	0.0	1000.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381757 or 2776381760 or 2776381761 or 2776381762	True	False	False	ok
+rxn05352_c0	Octanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing and thioester-hydrolysing)	-1000.0	0.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381761 or 2776381762	True	False	False	ok
+rxn05354_c0	Hexadecanoyl-[acyl-carrier protein:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing and thioester-hydrolysing)	-1000.0	0.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381761 or 2776381762	True	False	False	ok
+rxn05355_c0	Dodecanoyl-[acyl-carrier protein]: malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing and thioester-hydrolysing)	-1000.0	0.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381761 or 2776381762	True	False	False	ok
+rxn05356_c0	Decanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing and thioester-hydrolysing)	-1000.0	0.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381761 or 2776381762	True	False	False	ok
+rxn05357_c0	Hexanoyl-[acyl-carrier protein]:oxoacyl- and enoyl-reducing and thioester-hydrolysing)	-1000.0	0.0	0.0	-0.0	True	2776381232 or 2776381414 or 2776381761 or 2776381762	True	False	False	ok
+rxn05360_c0	4-methyl-3-oxo-hexanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05364_c0	6-methyl-3-oxo-octanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05368_c0	8-methyl-3-oxo-decanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05372_c0	10-methyl-3-oxo-dodecanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05376_c0	12-methyl-3-oxo-tetra-decanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05380_c0	14-methyl-3-oxo-hexa-decanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05385_c0	5-methyl-3-oxo-hexanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05389_c0	7-methyl-3-oxo-octanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05393_c0	9-methyl-3-oxo-decanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05397_c0	11-methyl-3-oxo-dodecanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05401_c0	13-methyl-3-oxo-tetra-decanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05405_c0	15-methyl-3-oxo-hexa-decanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05410_c0	4-methyl-3-oxo-pentanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05414_c0	6-methyl-3-oxo-heptanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05418_c0	8-methyl-3-oxo-nonanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05422_c0	10-methyl-3-oxo-undecanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05426_c0	12-methyl-3-oxo-tridecanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05430_c0	14-methyl-3-oxo-pentadecanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05461_c0	3-Hydroxyoctodecanoyl-ACP:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn05485_c0	N-Acetyl-D-glucosamine transport via PEP:Pyr PTS	0.0	1000.0	0.0	-0.0	True	2776381250 or 2776381281	True	False	False	ok
+rxn05566_c0	D-galactose transport in via proton symport	-1000.0	1000.0	0.0	-0.0	True	2776382347	True	False	True	ok
+rxn05569_c0	D-glucosamine transport via PEP:Pyr PTS	0.0	1000.0	0.0	-0.0	True	2776381250 or 2776381281	True	False	False	ok
+rxn05572_c0	D-glucarate transport via proton symport, reversible	-1000.0	1000.0	0.0	-0.0	True	2776383376	True	False	True	ok
+rxn05598_c0	ATP phosphohydrolase (disaccharide-importing)	0.0	1000.0	0.0	-0.0	True	2776383108	True	False	True	ok
+rxn05607_c0	maltose transport via PEP:Pyr PTS	0.0	1000.0	0.0	-0.0	True	2776381250 or 2776381281	True	False	False	ok
+rxn05608_c0	ATP phosphohydrolase (disaccharide-importing)	0.0	1000.0	0.0	-0.0	True	2776383005	True	False	True	ok
+rxn05617_c0	mannitol transport via PEP:Pyr PTS	0.0	1000.0	0.0	-0.0	True	2776381357	True	False	False	ok
+rxn05641_c0	xenobiotic-transporting ATPase	0.0	1000.0	0.0	-0.0	True	2776381780 or 2776382766 or 2776382991	True	False	True	ok
+rxn05646_c0	L-rhamnose transport via proton symport	-1000.0	1000.0	0.0	-0.0	True	2776382300 or 2776382301	True	False	True	ok
+rxn05655_c0	sucrose transport via PEP:Pyr PTS	0.0	1000.0	0.0	-0.0	True	2776382740	True	False	False	ok
+rxn05671_c0	D-xylose transport in via proton symport	-1000.0	1000.0	0.0	-0.0	True	2776381905	True	False	True	ok
+rxn05733_c0	O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)	0.0	1000.0	0.0	-0.0	True	2776382424 or 2776382536 or 2776383001 or 2776383406	True	False	False	ok
+rxn05746_c0	Maltodextrin glucosidase (maltotriose)	0.0	1000.0	0.0	-0.0	True	2776381280 or 2776382560	True	False	False	ok
+rxn05763_c0	dinucleotide nucleotidohydrolase	0.0	1000.0	0.0	-0.0	True	2776383131	True	False	False	ok
+rxn05831_c0	Acyl-CoA:acetyl-CoA C-acyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776382512 or 2776382513	True	False	False	ok
+rxn05833_c0	Acyl-CoA:acetate CoA-transferase	0.0	1000.0	0.0	-0.0	True	2776383190 or 2776383352	True	False	False	ok
+rxn05910_c0	L-cysteine,glutathione:NADP+ oxidoreductase (disulfide-forming)	-1000.0	0.0	0.0	-0.0	True	2776381675	True	False	False	ok
+rxn05927_c0	2.8.1.6-RXN	0.0	1000.0	0.0	-0.0	True	2776382218	True	False	False	ok
+rxn05955_c0	amino-acid racemase	-1000.0	1000.0	0.0	-0.0	True	2776383064 or 2776383345 or 2776383406	True	False	False	ok
+rxn05971_c0	CDP-choline:1,2-diacyl-sn-glycerol cholinephosphotransferase	0.0	1000.0	0.0	-0.0	True	2776382202	True	False	False	ok
+rxn06037_c0	(3S)-3-Hydroxyacyl-CoA:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381615	True	False	False	ok
+rxn06094_c0	Dextrin 6-alpha-D-glucanohydrolase	0.0	1000.0	0.0	-0.0	True	2776382560	True	False	False	ok
+rxn06096_c0	1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase	0.0	1000.0	0.0	-0.0	True	2776382563	True	False	False	ok
+rxn06216_c0	(3S)-3-Hydroxyacyl-CoA hydro-lyase	-1000.0	1000.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn06256_c0	Glutathione:protein-disulfide oxidoreductase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn06280_c0	L-Tyrosine:tRNA(Tyr) ligase (AMP-forming)	-1000.0	1000.0	0.0	-0.0	True	2776383330	True	False	False	ok
+rxn06282_c0	S-Alkyl-L-cysteine alkylthiol-lyase (deaminating)	0.0	1000.0	0.0	-0.0	True	2776382424 or 2776383345 or 2776383406	True	False	False	ok
+rxn06300_c0	L-Alanine:tRNA(Ala) ligase (AMP-forming)	-1000.0	1000.0	0.0	-0.0	True	2776383312	True	False	False	ok
+rxn06306_c0	UTP:beta-L-arabinose-1-phosphate uridylyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776382458	True	False	False	ok
+rxn06347_c0	(3R)-3-Hydroxyacyl-CoA hydro-lyase	-1000.0	1000.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn06373_c0	S-Adenosyl-L-methionine:unsaturated-phospholipid methyltransferase (cyclizing)	0.0	1000.0	0.0	-0.0	True	2776381711	True	False	False	ok
+rxn06404_c0	RS-CH2-CH(NH3+)COO- thiol-lyase (deaminating)	0.0	1000.0	0.0	-0.0	True	2776382424 or 2776383345 or 2776383406	True	False	False	ok
+rxn06432_c0	L-Arginine:tRNA(Arg) ligase (AMP-forming)	-1000.0	1000.0	0.0	-0.0	True	2776381537	True	False	False	ok
+rxn06434_c0	L-Asparagine:tRNA(Asn) ligase (AMP-forming)	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn06435_c0	L-Cysteine:tRNA(Cys) ligase (AMP-forming)	-1000.0	1000.0	0.0	-0.0	True	2776382956	True	False	False	ok
+rxn06437_c0	L-Glutamine:tRNA(Gln) ligase (AMP-forming)	-1000.0	1000.0	0.0	-0.0	True	2776382271	True	False	False	ok
+rxn06438_c0	glycine:tRNA(Gly) ligase (AMP-forming)	0.0	1000.0	0.0	-0.0	True	2776382214 or 2776382215	True	False	False	ok
+rxn06439_c0	L-Histidine:tRNA(His) ligase (AMP-forming)	-1000.0	1000.0	0.0	-0.0	True	2776382159	True	False	False	ok
+rxn06440_c0	L-Isoleucine:tRNA(Ile) ligase (AMP-forming)	0.0	1000.0	0.0	-0.0	True	2776381750 or 2776382438	True	False	False	ok
+rxn06441_c0	L-Leucine:tRNA(Leu) ligase (AMP-forming)	-1000.0	1000.0	0.0	-0.0	True	2776381645 or 2776381750	True	False	False	ok
+rxn06443_c0	L-Methionine:tRNAMet ligase (AMP-forming)	-1000.0	1000.0	0.0	-0.0	True	2776381485	True	False	False	ok
+rxn06444_c0	L-Phenylalanine:tRNA(Ala) ligase (AMP-forming)	-1000.0	1000.0	0.0	-0.0	True	2776383302 or 2776383303	True	False	False	ok
+rxn06445_c0	L-proline:tRNA(Pro) ligase (AMP-forming)	-1000.0	1000.0	0.0	-0.0	True	2776383129	True	False	False	ok
+rxn06446_c0	L-Serine:tRNA(Ser) ligase (AMP-forming)	-1000.0	1000.0	0.0	-0.0	True	2776381999	True	False	False	ok
+rxn06447_c0	L-Threonine:tRNA(Thr) ligase (AMP-forming)	-1000.0	1000.0	0.0	-0.0	True	2776381650	True	False	False	ok
+rxn06448_c0	L-Tryptophan -tRNA(Trp) ligase (AMP-forming)	0.0	1000.0	0.0	-0.0	True	2776382446	True	False	False	ok
+rxn06449_c0	L-Valine:tRNAVal ligase (AMP-forming)	-1000.0	1000.0	0.0	-0.0	True	2776381750 or 2776382438	True	False	False	ok
+rxn06485_c0	tRNA-guanine:queuine tRNA-ribosyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776381799	True	False	False	ok
+rxn06489_c0	Monoamide of a dicarboxylic acid amidohydrolase	-1000.0	1000.0	0.0	-0.0	True	2776383335	True	False	False	ok
+rxn06493_c0	dihydrolipoylprotein:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381850	True	False	False	ok
+rxn06527_c0	glutathione:protein-disulfide oxidoreductase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn06556_c0	Dodecanoyl-[acyl-carrier-protein] hydrolase	0.0	1000.0	0.0	-0.0	True	2776381937 or 2776383047 or 2776383343	True	False	False	ok
+rxn06630_c0	ATP:deoxynucleoside-phosphate phosphotransferase	-1000.0	1000.0	0.0	-0.0	True	2776382369	True	False	False	ok
+rxn06652_c0	CDP-choline:1-alkyl-2-acetylglycerol cholinephosphotransferase	-1000.0	1000.0	0.0	-0.0	True	2776382202	True	False	False	ok
+rxn06691_c0	Propanoyl-CoA:(acceptor) 2,3-oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776381470 or 2776382342 or 2776382577 or 2776383301 or 2776383347 or 2776383399	True	False	False	ok
+rxn06726_c0	Biotin:apo-[acetyl-CoA:carbondioxide ligase (ADP-forming)] ligase (AMP-forming)	0.0	1000.0	0.0	-0.0	True	2776381557	True	False	False	ok
+rxn06812_c0	CMP-N-trimethyl-2-aminoethylphosphonate:1,2-diacylglycerol cholinephosphotransferase	-1000.0	1000.0	0.0	-0.0	True	2776382202	True	False	False	ok
+rxn06820_c0	O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase	-1000.0	1000.0	0.0	-0.0	True	2776382424 or 2776383406	True	False	False	ok
+rxn06864_c0	Biotinyl-5'-AMP:apo-[carboxylase] ligase (AMP-forming)	0.0	1000.0	0.0	-0.0	True	2776381557	True	False	False	ok
+rxn06882_c0	10-Formyltetrahydrofolyl L-glutamate:L-glutamate gamma-ligase (ADP-forming)	0.0	1000.0	0.0	-0.0	True	2776381749	True	False	False	ok
+rxn06887_c0	R05224	0.0	1000.0	0.0	-0.0	True	2776382860	True	False	False	ok
+rxn06936_c0	L-Aspartate:tRNA(Asp) ligase (AMP-forming)	-1000.0	1000.0	0.0	-0.0	True	2776382160	True	False	False	ok
+rxn06979_c0	cobyrinate:L-glutamine amido-ligase (ADP-forming)	0.0	1000.0	0.0	-0.0	True	2776382860	True	False	False	ok
+rxn06991_c0	GcpE protein; nuclear gene for chloroplast product	0.0	1000.0	0.0	-0.0	True	2776383128	True	False	False	ok
+rxn07122_c0	D-glucose:ubiquinone oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776381842	True	False	False	ok
+rxn07225_c0	diamine:2-oxoglutarate aminotransferase	-1000.0	1000.0	0.0	-0.0	True	2776381876	True	False	False	ok
+rxn07266_c0	R07389	-1000.0	1000.0	0.0	-0.0	True	2776382202	True	False	False	ok
+rxn07482_c0	3-hydroxybenzaldehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn07587_c0	S-adenosyl-L-methionine:cobalt-precorrin-5B (C1)-methyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776383451	True	False	False	ok
+rxn07623_c0	3-hydroxy-5-oxohexanoyl-CoA:acetate CoA-transferase	-1000.0	1000.0	0.0	-0.0	True	2776383190 or 2776383352	True	False	False	ok
+rxn07645_c0	phenylacetonitrile aminohydrolase	0.0	1000.0	0.0	-0.0	True	2776382637	True	False	False	ok
+rxn07679_c0	R07889	-1000.0	1000.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn07680_c0	R07890	-1000.0	1000.0	0.0	-0.0	True	2776381615	True	False	False	ok
+rxn07681_c0	R07891	-1000.0	1000.0	0.0	-0.0	True	2776382512 or 2776382513	True	False	False	ok
+rxn07683_c0	R07893	-1000.0	1000.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn07684_c0	R07894	-1000.0	1000.0	0.0	-0.0	True	2776381615	True	False	False	ok
+rxn07685_c0	R07895	-1000.0	1000.0	0.0	-0.0	True	2776382512 or 2776382513	True	False	False	ok
+rxn07687_c0	R07897	-1000.0	1000.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn07688_c0	R07898	-1000.0	1000.0	0.0	-0.0	True	2776381615	True	False	False	ok
+rxn07689_c0	R07899	-1000.0	1000.0	0.0	-0.0	True	2776382512 or 2776382513	True	False	False	ok
+rxn07726_c0	R07936	-1000.0	1000.0	0.0	-0.0	True	2776381615	True	False	False	ok
+rxn07727_c0	R07937	-1000.0	1000.0	0.0	-0.0	True	2776382512 or 2776382513	True	False	False	ok
+rxn07742_c0	R07952	-1000.0	1000.0	0.0	-0.0	True	2776381615	True	False	False	ok
+rxn07743_c0	R07953	-1000.0	1000.0	0.0	-0.0	True	2776382512 or 2776382513	True	False	False	ok
+rxn07875_c0	R08086	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn07880_c0	7-methyl-3-oxo-6-octenoyl-CoA:acetyl-CoA C-acyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776382512 or 2776382513	True	False	False	ok
+rxn07882_c0	3-hydroxy-5-methylhex-4-enoyl-CoA hydro-lyase	-1000.0	1000.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn07883_c0	3-hydroxy-5-methylhex-4-enoyl-CoA:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381615	True	False	False	ok
+rxn07884_c0	3-methylcrotonyl-CoA:acetyl-CoA C-acyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776382512 or 2776382513	True	False	False	ok
+rxn07987_c0	3-oxoacyl-[acyl-carrier-protein] reductase (n-C12:1)	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn07989_c0	3-oxoacyl-[acyl-carrier-protein] reductase (n-C14:1)	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn07991_c0	3-oxoacyl-[acyl-carrier-protein] reductase (n-C16:1)	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn07992_c0	3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:0)	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn07993_c0	3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:1)	-1000.0	1000.0	0.0	-0.0	True	2776381760	True	False	False	ok
+rxn07997_c0	3-oxoacyl-[acyl-carrier-protein] synthase (n-C12:1)	0.0	1000.0	0.0	-0.0	True	2776381757	True	False	False	ok
+rxn07998_c0	3-oxoacyl-[acyl-carrier-protein] synthase (n-C14:1)	0.0	1000.0	0.0	-0.0	True	2776381757	True	False	False	ok
+rxn08000_c0	3-oxoacyl-[acyl-carrier-protein] synthase (n-C16:1)	0.0	1000.0	0.0	-0.0	True	2776381757	True	False	False	ok
+rxn08001_c0	3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:0)	0.0	1000.0	0.0	-0.0	True	2776381757	True	False	False	ok
+rxn08002_c0	3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:1)	0.0	1000.0	0.0	-0.0	True	2776381757	True	False	False	ok
+rxn08040_c0	UDP-N-acetyl-D-glucosamine:undecaprenyl-phosphate N-acetyl-D-glucosamine phosphotransferase	-1000.0	1000.0	0.0	-0.0	True	2776382202	True	False	False	ok
+rxn08044_c0	N-acetylmuramate 6-phosphate hydro-lyase (N-acetyl-D-glucosamine 6-phosphate forming)	0.0	1000.0	0.0	-0.0	True	2776382739	True	False	False	ok
+rxn08100_c0	RXN0-5228.c	-1000.0	1000.0	0.0	-0.0	True	2776382041 or 2776382602 or 2776382611	True	False	False	ok
+rxn08126_c0	Amylomaltase (maltotriose)	-1000.0	1000.0	0.0	-0.0	True	2776382560	True	False	False	ok
+rxn08127_c0	Amylomaltase (maltotetraose)	-1000.0	1000.0	0.0	-0.0	True	2776382560	True	False	False	ok
+rxn08128_c0	Amylomaltase (maltopentaose)	-1000.0	1000.0	0.0	-0.0	True	2776382560	True	False	False	ok
+rxn08129_c0	Amylomaltase (maltohexaose)	-1000.0	1000.0	0.0	-0.0	True	2776382560	True	False	False	ok
+rxn08206_c0	cyclopropane fatty acid synthase (Phosphatidylethanolamine, n-C16:0)	0.0	1000.0	0.0	-0.0	True	2776381711	True	False	False	ok
+rxn08207_c0	cyclopropane fatty acid synthase (Phosphatidylglycerol, n-C16:0)	0.0	1000.0	0.0	-0.0	True	2776381711	True	False	False	ok
+rxn08208_c0	cyclopropane fatty acid synthase (Phosphatidylethanolamine, n-C18:0)	0.0	1000.0	0.0	-0.0	True	2776381711	True	False	False	ok
+rxn08209_c0	cyclopropane fatty acid synthase (Phosphatidylglycerol, n-C18:0)	0.0	1000.0	0.0	-0.0	True	2776381711	True	False	False	ok
+rxn08433_c0	R08158	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn08434_c0	R08159	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn08438_c0	R08157	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn08578_c0	TRANS-RXN-16.cp	-1000.0	1000.0	0.0	-0.0	True	2776381918 or 2776383376	True	False	True	ok
+rxn08605_c0	1,4-alpha-glucan branching enzyme (glycogen -> bglycogen)	-1000.0	0.0	0.0	-0.0	True	2776382562	True	False	False	ok
+rxn08615_c0	glycogen synthase (ADPGlc)	0.0	1000.0	0.0	-0.0	True	2776382561	True	False	False	ok
+rxn08670_c0	glutaredoxin reductase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn08715_c0	Mercury (Hg+2) ABC transporter (periplasm)	0.0	1000.0	0.0	-0.0	True	2776381937 or 2776383047 or 2776383343	True	False	True	ok
+rxn08733_c0	Acetyl-CoA:hexanoate-CoA transferase	-1000.0	1000.0	0.0	-0.0	True	2776383190 or 2776383352	True	False	False	ok
+rxn08766_c0	Beta-ketoacyl-ACP synthase	0.0	1000.0	0.0	-0.0	True	2776381762	True	False	False	ok
+rxn08775_c0	RXN0-6981.c	-1000.0	1000.0	0.0	-0.0	True	2776381896	True	False	False	ok
+rxn08857_c0	Lysyl-tRNA synthetase	-1000.0	1000.0	0.0	-0.0	True	2776381561	True	False	False	ok
+rxn08877_c0	TRANS-RXN0-504.cp	0.0	1000.0	0.0	-0.0	True	2776383108	True	False	True	ok
+rxn08890_c0	murein D,D-carboxypeptidase (murein5px4p) (periplasm)	-1000.0	0.0	0.0	-0.0	True	2776381713 or 2776382324 or 2776382828	True	False	False	ok
+rxn08891_c0	murein D,D-carboxypeptidase (murein5px4px4p) (periplasm)	-1000.0	0.0	0.0	-0.0	True	2776381713 or 2776382324 or 2776382828	True	False	False	ok
+rxn08892_c0	murein D,D-carboxypeptidase (murein5p5p) (periplasm)	-1000.0	1000.0	0.0	-0.0	True	2776381713 or 2776382324 or 2776382828	True	False	False	ok
+rxn08893_c0	murein D,D-carboxypeptidase (murein5p4p) (periplasm)	-1000.0	1000.0	0.0	-0.0	True	2776381713 or 2776382324 or 2776382828	True	False	False	ok
+rxn08894_c0	murein D,D-carboxypeptidase (murein5p3p) (periplasm)	-1000.0	1000.0	0.0	-0.0	True	2776381713 or 2776382324 or 2776382828	True	False	False	ok
+rxn09244_c0	selenophosphate:L-seryl-tRNASec selenium transferase	-1000.0	1000.0	0.0	-0.0	True	2776382748	True	False	False	ok
+rxn09399_c0	1,4-alpha-glucan branching enzyme	-1000.0	1000.0	0.0	-0.0	True	2776382562	True	False	False	ok
+rxn09456_c0	R08163	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn09475_c0	acyl-CoA oxidase	0.0	1000.0	0.0	-0.0	True	2776382577	True	False	False	ok
+rxn09476_c0	acyl-CoA oxidase	0.0	1000.0	0.0	-0.0	True	2776382577	True	False	False	ok
+rxn09477_c0	acyl-CoA oxidase	0.0	1000.0	0.0	-0.0	True	2776382577	True	False	False	ok
+rxn09478_c0	acyl-CoA oxidase	0.0	1000.0	0.0	-0.0	True	2776382577	True	False	False	ok
+rxn09479_c0	acyl-CoA oxidase	0.0	1000.0	0.0	-0.0	True	2776382577	True	False	False	ok
+rxn09886_c0	cysteine synthase (Selenide)	-1000.0	1000.0	0.0	-0.0	True	2776382536 or 2776383001	True	False	False	ok
+rxn09889_c0	dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)	0.0	1000.0	0.0	-0.0	True	2776381224 or 2776381462 or 2776381464	True	False	False	ok
+rxn09952_c0	alpha-amylase	-1000.0	1000.0	0.0	-0.0	True	2776381280	True	False	False	ok
+rxn09956_c0	aldehyde dehydrogenase [NAD(P)+]	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn09958_c0	aldehyde dehydrogenase [NAD(P)+]	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn09960_c0	aldehyde dehydrogenase [NAD(P)+]	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn09972_c0	aldehyde dehydrogenase [NAD(P)+]	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn09973_c0	aldehyde dehydrogenase [NAD(P)+]	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn09974_c0	aldehyde dehydrogenase [NAD(P)+]	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn09975_c0	1-octanal dehydrogenase (NAD+)	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn09977_c0	aldehyde dehydrogenase [NAD(P)+]	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn09989_c0	Maltodextrin glucosidase (dextrin)	0.0	1000.0	0.0	-0.0	True	2776381280 or 2776382560	True	False	False	ok
+rxn10344_c0	Lead (Pb+2) ABC transporter	0.0	1000.0	0.0	-0.0	True	2776381937 or 2776383047 or 2776383343	True	False	True	ok
+rxn10363_c0	glycogen phosphorylase	-1000.0	1000.0	0.0	-0.0	True	2776382563	True	False	False	ok
+rxn10432_c0	R08198	-1000.0	1000.0	0.0	-0.0	True	2776381997	True	False	False	ok
+rxn10506_c0	2,5-diamino-6-ribitylamino-4(3H)-pyrimidinone 5'-phosphate deaminase	0.0	1000.0	0.0	-0.0	True	2776383165	True	False	False	ok
+rxn10594_c0	ribose 1,5-bisphosphate isomerase	-1000.0	1000.0	0.0	-0.0	True	2776381365 or 2776382370 or 2776382759	True	False	False	ok
+rxn10770_c0	R08557	0.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn10833_c0	ATP phosphohydrolase (disaccharide-importing)	0.0	1000.0	0.0	-0.0	True	2776383108	True	False	True	ok
+rxn10839_c0	ATP phosphohydrolase (disaccharide-importing)	0.0	1000.0	0.0	-0.0	True	2776383108	True	False	True	ok
+rxn10902_c0	G6PDH1	0.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn11007_c0	TMDSf	-1000.0	1000.0	0.0	-0.0	True	2776382921	True	False	False	ok
+rxn11140_c0	rxn11140	0.0	1000.0	0.0	-0.0	True	2776383108	True	False	True	ok
+rxn11409_c0	TDPFUCACTRANS-RXN.c	0.0	1000.0	0.0	-0.0	True	2776381761 or 2776382958	True	False	False	ok
+rxn11569_c0	geranoyl-CoA:carbon-dioxide ligase (ADP-forming)	-1000.0	1000.0	0.0	-0.0	True	2776383247	True	False	False	ok
+rxn11663_c0	4-(phosphonooxy)threonine:NAD oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776381275	True	False	False	ok
+rxn11731_c0	L-arginine:pyruvate aminotransferase	-1000.0	1000.0	0.0	-0.0	True	2776382895 or 2776383065	True	False	False	ok
+rxn11732_c0	R08198	-1000.0	1000.0	0.0	-0.0	True	2776381997	True	False	False	ok
+rxn11750_c0	5'-deoxy-5-fluorouridine:phosphate deoxy-alpha-D-ribosyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776381847	True	False	False	ok
+rxn11755_c0	5,6-dihydro-5-fluorouracil amidohydrolase	-1000.0	1000.0	0.0	-0.0	True	2776382105	True	False	False	ok
+rxn11757_c0	5-fluorouridine:phosphate alpha-D-ribosyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776381847	True	False	False	ok
+rxn11758_c0	5-fluorodeoxyuridine:phosphate deoxy-alpha-D-ribosyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776381847	True	False	False	ok
+rxn11759_c0	5-fluorouridine monophosphate:diphosphate phospho-alpha-D-ribosyl-transferase	0.0	1000.0	0.0	-0.0	True	2776381321	True	False	False	ok
+rxn11765_c0	6-thioinosine 5'-monophosphate:diphosphate phospho-D-ribosyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776381555	True	False	False	ok
+rxn11766_c0	6-methylthiopurine 5'-monophosphate ribonucleotide:diphosphate phospho-D-ribosyltransferase	0.0	1000.0	0.0	-0.0	True	2776381555	True	False	False	ok
+rxn11768_c0	6-thioinosine 5'-monophosphate:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776382318	True	False	False	ok
+rxn11771_c0	inosine triphosphate pyrophosphatase	0.0	1000.0	0.0	-0.0	True	2776383131	True	False	False	ok
+rxn11772_c0	6-thioxanthine 5'-monophosphate:L-glutamine amido-ligase (AMP-forming)	0.0	1000.0	0.0	-0.0	True	2776381411	True	False	False	ok
+rxn11773_c0	6-thioguanosine monophosphate:diphosphate phospho-D-ribosyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776381555	True	False	False	ok
+rxn11809_c0	alcophosphamide:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn11834_c0	2-phenyl-1,3-propanediol monocarbamate:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn11835_c0	3-carbamoyl-2-phenylpropionaldehyde:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn11838_c0	4-hydroxy-5-phenyltetrahydro-1,3-oxazin-2-one:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn11875_c0	didemethylcitalopram:oxygen oxidoreductase(deaminating)(flavin-containing)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn11962_c0	R02670	0.0	1000.0	0.0	-0.0	True	2776383107	True	False	False	ok
+rxn12003_c0	R04951	-1000.0	1000.0	0.0	-0.0	True	2776382803	True	False	False	ok
+rxn12038_c0	Citalopram:oxygen oxidoreductase(deaminating)(flavin-containing)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn12039_c0	Demethylcitalopram:oxygen oxidoreductase(deaminating)(flavin-containing)	0.0	1000.0	0.0	-0.0	True	2776382878 or 2776383228	True	False	False	ok
+rxn12049_c0	S-adenosylmethioninamine:cadaverine 3-aminopropyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776381523	True	False	False	ok
+rxn12365_c0	transport of lactate [extraorganism-cytosol](secondary symport)	-1000.0	1000.0	0.0	-0.0	True	2776381490 or 2776383353	True	False	True	ok
+rxn12366_c0	transport of d-lactate [extraorganism-cytosol](secondary symport)	-1000.0	1000.0	0.0	-0.0	True	2776381490 or 2776383353	True	False	True	ok
+rxn12367_c0	transport of glycolate [extraorganism-cytosol](secondary symport)	-1000.0	1000.0	0.0	-0.0	True	2776381490 or 2776383353	True	False	True	ok
+rxn12368_c0	transport of uracil [extraorganism-cytosol](secondary symport)	-1000.0	1000.0	0.0	-0.0	True	2776382044	True	False	True	ok
+rxn12377_c0	transport of 4-aminobutyrate [extraorganism-cytosol](secondary symport)	-1000.0	1000.0	0.0	-0.0	True	2776381416 or 2776382118 or 2776382476	True	False	True	ok
+rxn12423_c0	transport of fumarate [extraorganism-cytosol](secondary symport)	-1000.0	1000.0	0.0	-0.0	True	2776381918 or 2776382613	True	False	True	ok
+rxn12427_c0	transport of guanosine [extraorganism-cytosol](secondary symport)	-1000.0	1000.0	0.0	-0.0	True	2776383106	True	False	True	ok
+rxn12435_c0	transport of benzoate [periplasm-cytosol](secondary symport) irreversible	-1000.0	1000.0	0.0	-0.0	True	2776382613	True	False	True	ok
+rxn12440_c0	transport of xanthine [extraorganism-cytosol](secondary symport)	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn12446_c0	transport of malate [extraorganism-cytosol](secondary symport) TDT family	-1000.0	1000.0	0.0	-0.0	True	2776381918 or 2776382613	True	False	True	ok
+rxn12451_c0	transport of l-proline [extraorganism-cytosol](secondary symport)	-1000.0	1000.0	0.0	-0.0	True	2776381389 or 2776381416 or 2776382118	True	False	True	ok
+rxn12456_c0	transport of l-threonine [cytosol-extraorganism](secondary antiport)	-1000.0	1000.0	0.0	-0.0	True	2776381416 or 2776382118	True	False	True	ok
+rxn12459_c0	transport of l-tyrosine [extraorganism-cytosol](secondary symport)	-1000.0	1000.0	0.0	-0.0	True	2776381416 or 2776382118	True	False	True	ok
+rxn12504_c0	transport of fe+2 [extraorganism-cytosol](secondary symport)	0.0	1000.0	0.0	-0.0	True	2776381231	True	False	True	ok
+rxn12532_c0	TRANS-RXNAVI-26524.ce.brachyexp.XYLITOL_XYLITOL	-1000.0	1000.0	0.0	-0.0	True	2776382347	True	False	True	ok
+rxn12562_c0	Itaconate transport via proton symport	-1000.0	1000.0	0.0	-0.0	True	2776381918 or 2776382613	True	False	True	ok
+rxn12598_c0	Cellobiose transport via proton symport	-1000.0	1000.0	0.0	-0.0	True	2776383199	True	False	True	ok
+rxn12633_c0	RXN0-6975.c	0.0	1000.0	0.0	-0.0	True	2776381896	True	False	False	ok
+rxn12635_c0	RXN0-6974.c	0.0	1000.0	0.0	-0.0	True	2776381896	True	False	False	ok
+rxn12637_c0	RXN0-6987.c	0.0	1000.0	0.0	-0.0	True	2776381896	True	False	False	ok
+rxn12639_c0	RXN0-6976.c	0.0	1000.0	0.0	-0.0	True	2776381896	True	False	False	ok
+rxn12641_c0	RXN0-6977.c	0.0	1000.0	0.0	-0.0	True	2776381896	True	False	False	ok
+rxn12642_c0	RXN0-6978.c	0.0	1000.0	0.0	-0.0	True	2776381896	True	False	False	ok
+rxn12643_c0	RXN0-6979.c	0.0	1000.0	0.0	-0.0	True	2776381896	True	False	False	ok
+rxn12646_c0	RXN0-6983.c	0.0	1000.0	0.0	-0.0	True	2776381896	True	False	False	ok
+rxn12670_c0	L-Arginine pyruvate transaminase	-1000.0	1000.0	0.0	-0.0	True	2776382895 or 2776383065	True	False	False	ok
+rxn12681_c0	Vanillin: NAD oxidoreductase (34dhbald)	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn12778_c0	adenine phosphoribosyltransferase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn12897_c0	urea carboxylase	0.0	1000.0	0.0	-0.0	True	2776382307	True	False	False	ok
+rxn13203_c0	3-Methyl-2-oxobutanoate decarboxylase	-1000.0	0.0	0.0	-0.0	True		False	False	False	ok
+rxn13209_c0	RXN-7692.c	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn13224_c0	aldehyde dehydrogenase (isobutyl alcohol, NAD)	0.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn13420_c0	3-Hydroxybutyryl-CoA-hydratase	-1000.0	1000.0	0.0	-0.0	True	2776381616	True	False	False	ok
+rxn13667_c0	b-ketoacyl synthetase (Iso-C14:0)	0.0	1000.0	0.0	-0.0	True	2776381757	True	False	False	ok
+rxn13668_c0	b-ketoacyl synthetase (Iso-C15:0)	0.0	1000.0	0.0	-0.0	True	2776381757	True	False	False	ok
+rxn13669_c0	b-ketoacyl synthetase (C15:0)	0.0	1000.0	0.0	-0.0	True	2776381757	True	False	False	ok
+rxn13671_c0	b-ketoacyl synthetase (Iso-C16:0)	0.0	1000.0	0.0	-0.0	True	2776381757	True	False	False	ok
+rxn13673_c0	b-ketoacyl synthetase (C17:0)	0.0	1000.0	0.0	-0.0	True	2776381757	True	False	False	ok
+rxn13771_c0	rxn13771	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn13773_c0	Isopentenyl phosphate isomerase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn13823_c0	RXN-9030.c	0.0	1000.0	0.0	-0.0	True	2776381997	True	False	False	ok
+rxn13849_c0	D-mannose transport via ABC system	0.0	1000.0	0.0	-0.0	True	2776382302 or 2776382303	True	False	True	ok
+rxn14054_c0	trans-3-Chloro-2-propene-1-ol:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn14063_c0	2-dehydro-L-idonate:NADP+ 5-oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381394 or 2776382137 or 2776383433	True	False	False	ok
+rxn14089_c0	cis-3-chloro-2-propene-1-ol:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383206	True	False	False	ok
+rxn14138_c0	Propanoyl-CoA:acetyl-CoA C-acyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776382512 or 2776382513	True	False	False	ok
+rxn14157_c0	butanoyl-CoA:carbon-dioxide ligase (ADP-forming)	0.0	1000.0	0.0	-0.0	True	2776383247	True	False	False	ok
+rxn14220_c0	ATP:2-dehydro-D-gluconate 6-phosphate	-1000.0	1000.0	0.0	-0.0	True	2776381915	True	False	False	ok
+rxn14382_c0	L-methionine:2-oxo-acid aminotransferase	-1000.0	1000.0	0.0	-0.0	True	2776381970	True	False	False	ok
+rxn15010_c0	maltose glucohydrolase	0.0	1000.0	0.0	-0.0	True	2776381280 or 2776382560	True	False	False	ok
+rxn15011_c0	maltose glucohydrolase	0.0	1000.0	0.0	-0.0	True	2776381280 or 2776382560	True	False	False	ok
+rxn15020_c0	(R)-Lactate:ferricytochrome-c-553 2-oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381466 or 2776382531	True	False	False	ok
+rxn15044_c0	D-4-Hydroxy-2-oxoglutarate glyoxylate-lyase	-1000.0	1000.0	0.0	-0.0	True	2776381754 or 2776382270 or 2776382307	True	False	False	ok
+rxn15067_c0	sucrose glucohydrolase	0.0	1000.0	0.0	-0.0	True	2776381280 or 2776382560	True	False	False	ok
+rxn15068_c0	sucrose glucohydrolase	0.0	1000.0	0.0	-0.0	True	2776381280 or 2776382560	True	False	False	ok
+rxn15074_c0	R06113	0.0	1000.0	0.0	-0.0	True	2776381280	True	False	False	ok
+rxn15118_c0	Uridine ribohydrolase	-1000.0	1000.0	0.0	-0.0	True	2776383033	True	False	False	ok
+rxn15189_c0	xylitol:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381394 or 2776381395 or 2776381810 or 2776382137 or 2776382851 or 2776382938 or 2776382940 or 2776383433	True	False	False	ok
+rxn15190_c0	xylitol:NADP+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381394 or 2776381395 or 2776381810 or 2776382137 or 2776382851 or 2776382938 or 2776382940 or 2776383433	True	False	False	ok
+rxn15213_c0	D-glucuronate aldose-ketose-isomerase	-1000.0	1000.0	0.0	-0.0	True	2776381908	True	False	False	ok
+rxn15225_c0	Maltose alpha-D-glucosylmutase	-1000.0	1000.0	0.0	-0.0	True	2776381280	True	False	False	ok
+rxn15226_c0	Maltose alpha-D-glucosylmutase	-1000.0	1000.0	0.0	-0.0	True	2776381280	True	False	False	ok
+rxn15293_c0	D-Galacturonate aldose-ketose-isomerase	-1000.0	1000.0	0.0	-0.0	True	2776381908	True	False	False	ok
+rxn15333_c0	Allantoin amidohydrolase	0.0	1000.0	0.0	-0.0	True	2776382105	True	False	False	ok
+rxn15334_c0	(S)(+)-Allantoin amidohydrolase	0.0	1000.0	0.0	-0.0	True	2776382105	True	False	False	ok
+rxn15364_c0	alpha-D-Glucose 6-phosphate ketol-isomerase	-1000.0	1000.0	0.0	-0.0	True	2776382056	True	False	False	ok
+rxn15373_c0	(R)-Acetoin:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381588 or 2776382334 or 2776382531 or 2776382727	True	False	False	ok
+rxn15495_c0	3alpha,7alpha,12alpha,24-tetrahydroxy-5beta-cholestanoyl-CoA:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381615	True	False	False	ok
+rxn15507_c0	L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase	-1000.0	1000.0	0.0	-0.0	True	2776382595 or 2776382817 or 2776382895 or 2776383065	True	False	False	ok
+rxn15539_c0	methylmalonyl-CoA carboxy-lyase	0.0	1000.0	0.0	-0.0	True	2776381757 or 2776383247	True	False	False	ok
+rxn15590_c0	R06158	0.0	1000.0	0.0	-0.0	True	2776382560	True	False	False	ok
+rxn15594_c0	R06185	0.0	1000.0	0.0	-0.0	True	2776382563	True	False	False	ok
+rxn15632_c0	D-glucose:ubiquinone oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776381842	True	False	False	ok
+rxn15633_c0	D-glucose:ubiquinone oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776381842	True	False	False	ok
+rxn15694_c0	enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776381850	True	False	False	ok
+rxn15726_c0	R08198	-1000.0	1000.0	0.0	-0.0	True	2776381997	True	False	False	ok
+rxn15745_c0	N-acetylmuramate 6-phosphate hydro-lyase (N-acetyl-D-glucosamine 6-phosphate forming)	0.0	1000.0	0.0	-0.0	True	2776382739	True	False	False	ok
+rxn15962_c0	carbon monoxide dehydrogenase/acetyl-CoA synthase (CODH/ACS)	0.0	0.0	0.0	-0.0	True	2776382537	True	False	False	ok
+rxn15964_c0	5,10-methylenetetrahydromethanopterin:glycine hydroxymethyltransferase	0.0	0.0	0.0	-0.0	True		False	False	False	ok
+rxn16086_c0	maleylacetate reductase	0.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn16206_c0	5-methyltetrahydropteroyltri-L-glutamate:L-selenohomocysteine Se-methyltransferase	-1000.0	1000.0	0.0	-0.0	True	2776382250	True	False	False	ok
+rxn16213_c0	methaneselenol:NADP+ oxidoreductase	0.0	1000.0	0.0	-0.0	True	2776381675	True	False	False	ok
+rxn16231_c0	GTP 8,9-lyase (cyclic pyranopterin monophosphate-forming)	0.0	1000.0	0.0	-0.0	True	2776382093	True	False	False	ok
+rxn16620_c0	LysW-gamma-L-lysine:2-oxoglutarate 6-aminotransferase	-1000.0	1000.0	0.0	-0.0	True	2776381335	True	False	False	ok
+rxn18552_c0	ATP phosphohydrolase (disaccharide-importing)	0.0	1000.0	0.0	-0.0	True	2776383108	True	False	True	ok
+rxn18865_c0	Clavulanate-exporting ATPase	0.0	1000.0	0.0	-0.0	True	2776381780 or 2776382766 or 2776382991	True	False	True	ok
+rxn19220_c0	BAI3OXO-OXRED-RXN.c	0.0	1000.0	0.0	-0.0	True	2776381430 or 2776383374	True	False	False	ok
+rxn22497_c0	succinyl-CoA:mesaconate CoA-transferase	0.0	1000.0	0.0	-0.0	True	2776381232 or 2776381414	True	False	False	ok
+rxn23414_c0	ADP-dependent NAD(P)H-hydrate dehydratase	0.0	1000.0	0.0	-0.0	True	2776381688	True	False	False	ok
+rxn26454_c0	ADP-dependent NAD(P)H-hydrate dehydratase	0.0	1000.0	0.0	-0.0	True	2776381688	True	False	False	ok
+rxn27812_c0	Dihydroorotate dehydrogenase	0.0	1000.0	0.0	-0.0	True	2776382235	True	False	False	ok
+rxn32623_c0	ditrans,hexacis-nonaprenyl-diphosphate:isopentenyl-diphosphate	0.0	1000.0	0.0	-0.0	True	2776383124	True	False	False	ok
+rxn32808_c0	ditrans,pentacis-octaprenyl-diphosphate:isopentenyl-diphosphate	0.0	1000.0	0.0	-0.0	True	2776383124	True	False	False	ok
+rxn33047_c0	ditrans,tetracis-heptaprenyl-diphosphate:isopentenyl-diphosphate	0.0	1000.0	0.0	-0.0	True	2776383124	True	False	False	ok
+rxn33160_c0	3-Butyn-1-al:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True	2776383028 or 2776383276	True	False	False	ok
+rxn33320_c0	ditrans,tricis-hexaprenyl-diphosphate:isopentenyl-diphosphate	0.0	1000.0	0.0	-0.0	True	2776383124	True	False	False	ok
+rxn33576_c0	ditrans,dicis-pentaprenyl-diphosphate:isopentenyl-diphosphate	0.0	1000.0	0.0	-0.0	True	2776383124	True	False	False	ok
+rxn33674_c0	Di-trans-poly-cis-decaprenylcistransferase	0.0	1000.0	0.0	-0.0	True	2776383124	True	False	False	ok
+rxn33834_c0	trans,trans,cis-geranylgeranyl-diphosphate:isopentenyl-diphosphate	0.0	1000.0	0.0	-0.0	True	2776383124	True	False	False	ok
+rxn34724_c0	RXN-9548.d	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn40127_c0	choline trimethylamine-lyase	0.0	1000.0	0.0	-0.0	True	2776381509 or 2776382647	True	False	False	ok
+rxn40746_c0	3-(aryl)acrylate reductase	-1000.0	0.0	0.0	-0.0	True	2776381470 or 2776381647 or 2776382342 or 2776382577 or 2776383301 or 2776383347 or 2776383399	True	False	False	ok
+rxn40939_c0	(R)-3-(aryl)lactoyl-CoA dehydratase	0.0	1000.0	0.0	-0.0	True	2776383348 or 2776383349	True	False	False	ok
+rxn41554_c0	3-dehydro-bile acid Δ4,6-reductase	-1000.0	0.0	0.0	-0.0	True	2776381430 or 2776383374	True	False	False	ok
+rxn41668_c0	5-hydroxybenzimidazole synthase	0.0	1000.0	0.0	-0.0	True	2776383114	True	False	False	ok
+rxn41945_c0	3-oxocholoyl-CoA 4-desaturase	-1000.0	1000.0	0.0	-0.0	True	2776381430 or 2776383374	True	False	False	ok
+rxn42916_c0	sulfofructosephosphate aldolase	0.0	1000.0	0.0	-0.0	True	2776382629	True	False	False	ok
+rxn43002_c0	(R)-3-(aryl)lactoyl-CoA dehydratase	0.0	1000.0	0.0	-0.0	True	2776383348 or 2776383349	True	False	False	ok
+rxn43262_c0	Deoxycholate transporter	-1000.0	1000.0	0.0	-0.0	True	2776381660 or 2776382868	True	False	True	ok
+rxn43902_c0	(R)-2-hydroxyisocaproyl-CoA dehydratase	0.0	1000.0	0.0	-0.0	True	2776383349	True	False	False	ok
+rxn44493_c0	2-iminopropanoate deaminase	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn44705_c0	(R)-3-(aryl)lactoyl-CoA dehydratase	0.0	1000.0	0.0	-0.0	True	2776383348 or 2776383349	True	False	False	ok
+rxn45361_c0	3-(aryl)acrylate reductase	-1000.0	0.0	0.0	-0.0	True	2776381470 or 2776381647 or 2776382342 or 2776382577 or 2776383301 or 2776383347 or 2776383399	True	False	False	ok
+rxn46031_c0	3-(aryl)acrylate reductase	-1000.0	0.0	0.0	-0.0	True	2776381470 or 2776381647 or 2776382342 or 2776382577 or 2776383301 or 2776383347 or 2776383399	True	False	False	ok
+rxn90005_c0	ATP phosphohydrolase (lbeta-lactose importing)	0.0	1000.0	0.0	-0.0	True	2776383108	True	False	True	ok
+rxn90009_c0	Lacto-N-biose ABC transporter	0.0	1000.0	0.0	-0.0	True	2776383108	True	False	True	ok
+rxn90019_c0	folate ABC transporter	0.0	1000.0	0.0	-0.0	True	2776381567 or 2776381568 or 2776381569	True	False	True	ok
+rxn90024_c0	maltodextrin glucosidase	0.0	1000.0	0.0	-0.0	True	2776381280 or 2776382560	True	False	False	ok
+rxn90034_c0	alpha or beta glcosidase (acting on maltotridecaose)	0.0	1000.0	0.0	-0.0	True	2776381280	True	False	False	ok
+rxn90035_c0	alpha or beta glcosidase (acting on maltooctaose)	0.0	1000.0	0.0	-0.0	True	2776381280	True	False	False	ok
+rxn90036_c0	alpha or beta glcosidase (acting on maltohexose)	0.0	1000.0	0.0	-0.0	True	2776381280	True	False	False	ok
+rxn90037_c0	alpha or beta glcosidase (acting on maltoundecaose)	0.0	1000.0	0.0	-0.0	True	2776381280	True	False	False	ok
+rxn90051_c0		0.0	1000.0	0.0	-0.0	True	2776382561	True	False	False	ok
+rxn90081_c0	3-dehydro-bile acid Δ4,6-reductase	-1000.0	0.0	0.0	-0.0	True	2776381430 or 2776383374	True	False	False	ok
+rxn90101_c0	putative sulfoquinovose transporter	-1000.0	1000.0	0.0	-0.0	True	2776381905	True	False	True	ok
+rxn90102_c0	DHPS transporter	-1000.0	1000.0	0.0	-0.0	True	2776381905	True	False	True	ok
+rxn90127_c0	dissimilatory sufite reductase	0.0	1000.0	0.0	-0.0	True	2776383010 or 2776383011	True	False	False	ok
+rxn05468_c0	TRANS-RXNAVI-26568.ce	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn05667_c0	TRANS-RXN4LZ-7041.ce	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn07919_c0	(R)-Propane-1,2-diol transport via diffusion (extracellular to periplasm)	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn07921_c0	(S)-Propane-1,2-diol transport via diffusion (extracellular to periplasm)	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn08276_c0	Cyanide transport via diffusion (extracellular to periplasm)	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn08358_c0	Dimethyl sulfoxide transport via diffusion (extracellular to periplasm)	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn08359_c0	Dimethyl sulfide transport via diffusion (extracellular to periplasm)	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn08461_c0	formaldehyde transport via diffusion (extracellular to periplasm)	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn08685_c0	hydrogen peroxide transport via diffusion (external)	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn08691_c0	hydrogen transport via diffusion (extracellular to periplasm)	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn08966_c0	nitrious oxide transport via diffusion (extracellular to periplasm)	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn09008_c0	nitric oxide transport via diffusion (extracellular to periplasm)	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn09169_c0	propanal transport via diffusion (extracellular to periplasm)	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn09317_c0	Trimethylamine N-oxide transport via diffusion (extracellular to periplasm)	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn10471_c0	Methane Transport	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn10570_c0	Methanol diffusion	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn10577_c0	Nitrogen exchange, diffusion	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn31154_c0	R_Ex16	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn90022_c0	Acetone diffusion	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn90023_c0		-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+EX_cpd00098_e0	Choline-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00179_e0	Maltose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00224_e0	L-Arabinose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00244_e0	Ni2+-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00268_e0	H2S2O3-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd03724_e0	Ferrichrome-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00971_e0	Na+-e0 Exchange	-1000.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00104_e0	BIOT-e0 Exchange	-1.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00122_e0	N-Acetyl-D-glucosamine-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd04098_e0	Arsenite-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd01012_e0	Cd2+-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00108_e0	Galactose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00276_e0	GLUM-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00609_e0	D-Glucarate-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00121_e0	L-Inositol-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00208_e0	LACT-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd01262_e0	Amylotriose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd03198_e0	Melibiose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00314_e0	D-Mannitol-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd11574_e0	Molybdate-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd01132_e0	Puromycin-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00396_e0	L-Rhamnose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00076_e0	Sucrose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00154_e0	Xylose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00653_e0	D-Galactonate-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00531_e0	Hg2+-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd01399_e0	Maltotetraose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd04097_e0	Pb-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00185_e0	D-Arabinose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd15494_e0	Maltoheptaose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00794_e0	TRHL-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd11976_e0	Maltodextrin-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00153_e0	Benzoate-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00306_e0	Xylitol-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00380_e0	Itaconate-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00158_e0	CELB-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00138_e0	D-Mannose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd01133_e0	Stachyose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd04065_e0	Clavulanate-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd02733_e0	Deoxycholate-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd01354_e0	beta-Lactose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd03808_e0	Lacto-N-biose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00393_e0	Folate-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd90008_e0	Maltotridecaose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd90005_e0	Maltooctaose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd90007_e0	Maltohexaose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd90006_e0	Maltoundecaose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd22614_e0	sulfoquinovose-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd31356_e0	(S)-2,3-Dihydroxypropane-1-sulfonate-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00007_e0	O2-e0 Exchange	-0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00073_e0	Urea-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd01861_e0	(R)-1,2-Propanediol-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00453_e0	1,2-Propanediol-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00150_e0	HCN-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd08021_e0	DMSO-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00450_e0	Methyl sulfide-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00055_e0	Formaldehyde-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00025_e0	H2O2-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd11640_e0	H2-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00659_e0	Nitrous oxide-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00418_e0	NO-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00371_e0	Propanal-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00811_e0	(CH3)3NO-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd01024_e0	Methane-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00116_e0	Methanol-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00528_e0	N2-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd11632_e0	hn-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd00178_e0	Acetone-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+EX_cpd01618_e0	1,3-Propanediol-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+rxn23045_c0	glycine oxidase	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+EX_cpd00280_e0	D-Galacturonate-e0 Exchange	0.0	1000.0	0.0	-0.0	True		False	True	False	ok
+rxn01145_c0	Thymidylate 5'-phosphohydrolase	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn04046_c0	Cobalt-precorrin-2 C(20)-methyltransferase	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn04048_c0	cobalt-precorrin-4 methyltransferase	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn05990_c0	triacylglycerol acylhydrolase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn06217_c0	1,2-diacyl-sn-glycerol acylhydrolase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn08084_c0	1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C14:0)	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn04045_c0	Cobaltochelatase	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn09010_c0	5'-nucleotidase (dIMP) (periplasm)	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn00269_c0	glycine:oxygen oxidoreductase (deaminating)	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn01385_c0	Xylitol:NAD+ 2-oxidoreductase (D-xylulose-forming)	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn04050_c0	R05812	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn04051_c0	R05813	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn04052_c0	R05814	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn00430_c0	methanol:NAD+ oxidoreductase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn05673_c0	D-galacturonate transport via proton symport, reversible	-1000.0	1000.0	0.0	-0.0	True		False	False	True	ok
+rxn01521_c0	2'-Deoxyuridine 5'-monophosphate phosphohydrolase	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn02666_c0	R03758	-1000.0	0.0	0.0	-0.0	True		False	False	False	ok
+rxn15175_c0	ITP:D-mannose 6-phosphotransferase	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn07979_c0	3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:0)	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn08391_c0	enoyl-[acyl-carrier-protein] reductase (NADPH) (n-C14:1)	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn03535_c0	ATP:cob(I)yrinic acid-a,c-diamide Cobeta-adenosyltransferase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn04024_c0	trans-feruloyl-CoA hydro-lyase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn07977_c0	3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:1)	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn08548_c0	glycerol-3-phosphate acyltransferase (C14:1)	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn03845_c0	4-(Ethylamino)-2-hydroxy-6-(isopropylamino)-1,3,5-triazine ethylaminohydrolase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn03491_c0	S-Adenosyl-L-methionine:1-precorrin-6Y C5,15-methyltransferase (C-12-decarboxylating)	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn03512_c0	Precorrin 8X 11,12-methylmutase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn07476_c0	UDP-4-deoxy-4-formamido-L-arabinose:undecaprenyl-phosphate 4-deoxy-4-formamido-L-arabinosyltransferase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn07586_c0	cobalt-precorrin 5A acylhydrolase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn15284_c0	ATP:D-glucosamine 6-phosphotransferase	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn01218_c0	2'-Deoxycytidine 5'-monophosphate phosphohydrolase	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn01507_c0	2'-Deoxyadenosine 5'-monophosphate phosphohydrolase	0.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn03174_c0	2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine triphosphate hydrolase	-1000.0	0.0	0.0	-0.0	True		False	False	False	ok
+rxn03419_c0	formamidopyrimidine nucleoside triphosphate amidohydrolase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn03421_c0	2,5-Diaminopyrimidine nucleoside triphosphate mutase	-1000.0	1000.0	0.0	-0.0	True		False	False	False	ok
+rxn07589_c0	S-adenosyl-L-methionine:precorrin-7 C15-methyltransferase (C-12-decarboxylating)	0.0	1000.0	0.0	-0.0	True		False	False	False	ok

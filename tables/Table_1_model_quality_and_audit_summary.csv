@@ -1,0 +1,11 @@
+Metric,Value,Source
+Reactions,1849.0,Final anaerobic MJR8396C SBML
+Metabolites,1614.0,Final anaerobic MJR8396C SBML
+Genes,477.0,Final anaerobic MJR8396C SBML
+Reactions with GPR,1335.0,Final anaerobic MJR8396C SBML
+Reactions without GPR,514.0,Final anaerobic MJR8396C SBML
+Exchange reactions,164.0,Final anaerobic MJR8396C SBML
+Transport reactions,271.0,Final anaerobic MJR8396C SBML
+Blocked reactions,766.0,Final-model blocked-reaction analysis
+Blocked-reaction fraction (%),41.42779881016766,Final-model blocked-reaction analysis
+MEMOTE total score (%),88.20193168165305,Final-model MEMOTE HTML report
