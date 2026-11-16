@@ -1,0 +1,74 @@
+[
+  {
+    "type": "source",
+    "location": "[0:139643](+)",
+    "qualifiers": {
+      "organism": [
+        "Megasphaera sp. NM10"
+      ],
+      "mol_type": [
+        "genomic DNA"
+      ],
+      "submitter_seqid": [
+        "Contig22"
+      ],
+      "strain": [
+        "NM10"
+      ],
+      "isolation_source": [
+        "stool sample from healthy individual"
+      ],
+      "host": [
+        "Homo sapiens"
+      ],
+      "db_xref": [
+        "taxon:1273103"
+      ],
+      "geo_loc_name": [
+        "India: Pune"
+      ]
+    }
+  },
+  {
+    "type": "gene",
+    "location": "[14386:15199](-)",
+    "qualifiers": {
+      "locus_tag": [
+        "NM10_04861"
+      ]
+    }
+  },
+  {
+    "type": "CDS",
+    "location": "[14386:15199](-)",
+    "qualifiers": {
+      "locus_tag": [
+        "NM10_04861"
+      ],
+      "note": [
+        "COG2086 Electron transfer flavoprotein, beta subunit"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "11"
+      ],
+      "product": [
+        "electron transfer flavoprotein subunit beta"
+      ],
+      "protein_id": [
+        "EPP18102.1"
+      ]
+    }
+  },
+  {
+    "type": "misc_feature",
+    "location": "[15272:16423](-)",
+    "qualifiers": {
+      "note": [
+        "potential frameshift: common BLAST hit: gi|348027367|ref|YP_004767172.1| acyl-CoA dehydrogenase"
+      ]
+    }
+  }
+]

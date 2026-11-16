@@ -1,0 +1,9 @@
+{
+  "source_sha256": "66726832a8795da41c51c191c764712e3d139edaccdf9a92fbb3d050442ffc93",
+  "source_gene_count": 477,
+  "curated_gene_count": 483,
+  "GPRs_changed": 3,
+  "same_reaction_stoichiometry_and_bounds": true,
+  "biomass_changed": false,
+  "experimental_function_verified": false
+}

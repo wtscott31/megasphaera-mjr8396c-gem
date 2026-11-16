@@ -1,0 +1,426 @@
+[
+  {
+    "path": ".DS_Store",
+    "sha256": "dfb06cbbf1af1cdb9b686e1243597fa681c1d07b44d78ec36f2e77f68e0fba70"
+  },
+  {
+    "path": "MICOM_OptCom_cFBA_community_modeling_MJR8396C_Badolescentis.ipynb",
+    "sha256": "cb4161af8994b6b0d5ce2a4fce3147cb36e6ff525d28de7d27266b607432289b"
+  },
+  {
+    "path": "StrainsDesign_MJR8396C_growth_coupled_butyrate.ipynb",
+    "sha256": "b1b5e4874f8205a4a7882db34c79d470a4379594f77a65859ef650d83e23666f"
+  },
+  {
+    "path": "inputs/.DS_Store",
+    "sha256": "ea0d42c010e489db52214b420f46fb6498b687251e138aa1e5d6906dbe7d9089"
+  },
+  {
+    "path": "inputs/media/MJR8396C_candidate_anaerobic_medium_gapseq_revised.csv",
+    "sha256": "81e1beb8bc8fae3b8e3be20863019ecebc0191ab4f3a8a73eac78f1fb39df9f3"
+  },
+  {
+    "path": "inputs/media/MJR8396C_candidate_vaginal_BV_like_medium_gapseq_revised.csv",
+    "sha256": "d1fed47bf82c5bf2f9728aa23a5bc6d86d05475a2fb67d7d56a04444274f5193"
+  },
+  {
+    "path": "inputs/models/.DS_Store",
+    "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+  },
+  {
+    "path": "inputs/models/Bifidobacterium_adolescentis_filled_anaerobic.xml",
+    "sha256": "0ebe69baa1c7572a49ba13835b9248a079c4a272528ead32ed6d10b0c7a5d027"
+  },
+  {
+    "path": "inputs/models/Megasphaera_sp_MJR8396C_filled_anaerobic.xml",
+    "sha256": "3b849c02a7e165b6c31c6edfcc62cb469814176d2067e1a6a68a0e375eeb2ccd"
+  },
+  {
+    "path": "inputs/reports/Bifidobacterium_adolescentis_gapseq_provenance_2026-05-06_13-41-12.md",
+    "sha256": "3870a04ef726d760956eb88d5b55a88ca17247be318a1e71225aea479ed3914c"
+  },
+  {
+    "path": "inputs/reports/Bifidobacterium_adolescentis_gapseq_run_2026-05-06_13-41-12.log",
+    "sha256": "e41d0385f8400738802d1fd0366ef05f13fa1335335618661a22a37ef708ce52"
+  },
+  {
+    "path": "inputs/reports/Megasphaera_sp_MJR8396C_filled_anaerobic.html",
+    "sha256": "09e5122afd9079c558fb40a69ab98f72e9d47bbff1ac4429aa4ac0d7ba9b1f63"
+  },
+  {
+    "path": "inputs/templates/Optcom_original_template.py",
+    "sha256": "ffed5b2f3927418c941fe795699cf11201cfb97d5a5b4654c2d3c0cb73e75692"
+  },
+  {
+    "path": "inputs/templates/cFBA_FluxSampling_original_template.py",
+    "sha256": "93d8a92f2cb1fd6994807db950ca41be2e878b4f2af2f01ee17d4af354b932ee"
+  },
+  {
+    "path": "outputs/.DS_Store",
+    "sha256": "ae21159d29531510e24fd5b2f8d6d212c75bcd73e569c8dfd5fc64aff8a2792a"
+  },
+  {
+    "path": "outputs/figures/micom_directed_exchange_network_fraction_0.95.pdf",
+    "sha256": "3b1ac03d9625a8d15ce7f1eb91bee3467187cc5c5a62ae1aabd3d27687ec737e"
+  },
+  {
+    "path": "outputs/figures/micom_directed_exchange_network_fraction_0.95.png",
+    "sha256": "8f04c37752bb85952d10d74dcc5f28cce7f2b709fd86cb08d25a4fc3a825ef36"
+  },
+  {
+    "path": "outputs/figures/micom_directed_exchange_network_fraction_0.95.svg",
+    "sha256": "e7d97443c60a0aa341ea97f385c7f60bee5f90bd22c8e8f0df144d587bb492df"
+  },
+  {
+    "path": "outputs/figures/micom_interaction_class_summary_fraction_0.95.pdf",
+    "sha256": "fd578f57107feec0b6665ffe753fa6ad0a7f7e2c4b29de5d35af5d2032ffad88"
+  },
+  {
+    "path": "outputs/figures/micom_interaction_class_summary_fraction_0.95.png",
+    "sha256": "96696779ffdd8518c7b7e4f6daa011854b3d0e46324ae3c998a1e30b6f512fc4"
+  },
+  {
+    "path": "outputs/figures/micom_interaction_class_summary_fraction_0.95.svg",
+    "sha256": "902327b5de2dfc93b613d906e96dc9b2fbaf1792699584e78ae9af257cd5b247"
+  },
+  {
+    "path": "outputs/figures/micom_key_flux_sankey_like_fraction_0.95.pdf",
+    "sha256": "766e688525c804baeef66e7fa27d91a77768a975cebcb75501e776ac7a56efec"
+  },
+  {
+    "path": "outputs/figures/micom_key_flux_sankey_like_fraction_0.95.png",
+    "sha256": "e333e4a7ac9455d231f21c2eca868b0b9aa84793ab6e710de911a7b666a2abfb"
+  },
+  {
+    "path": "outputs/figures/micom_key_flux_sankey_like_fraction_0.95.svg",
+    "sha256": "7636cd33adaba9576641c29fe86da225fbd78e2e11b6e3af850d4b0fb148a25e"
+  },
+  {
+    "path": "outputs/figures/micom_key_fluxes_by_compartment_fraction_0.95.png",
+    "sha256": "63448f9722562a7420d4e3449c3833a9a2d9c60675f64e5fd9738fa121dbfced"
+  },
+  {
+    "path": "outputs/figures/micom_key_fluxes_by_compartment_fraction_0.95.svg",
+    "sha256": "de1490b27d48fee1b265a2e355b4e81a5897ca737f3e09c90e791412cc185643"
+  },
+  {
+    "path": "outputs/figures/micom_lactate_scfa_exchange_heatmap_fraction_0.95.pdf",
+    "sha256": "4d39853f17a7407fdd1eca1633ba61712f5b037ab564db26fb3dfc2b98687080"
+  },
+  {
+    "path": "outputs/figures/micom_lactate_scfa_exchange_heatmap_fraction_0.95.png",
+    "sha256": "a21eaa169f9da8d812e960cc84ec9d91c1d6655705dfcb645ae624fc045cc3ef"
+  },
+  {
+    "path": "outputs/figures/micom_lactate_scfa_exchange_heatmap_fraction_0.95.svg",
+    "sha256": "c57c1f1235359817fdb6f7683601195d5b8d54a837c05b0b2af9893a91bb631e"
+  },
+  {
+    "path": "outputs/figures/micom_primary_member_growth_fraction_0.95.pdf",
+    "sha256": "f40c2ed43affa9111b0d961cfe4e17cfc9d1396e49630f4b8b1b6603b51df3ab"
+  },
+  {
+    "path": "outputs/figures/micom_primary_member_growth_fraction_0.95.png",
+    "sha256": "69fce19b14b3b7f3723c748b308d4192f9ffb608c69b05447f69e9827ac550f1"
+  },
+  {
+    "path": "outputs/figures/micom_primary_member_growth_fraction_0.95.svg",
+    "sha256": "ea96a66b80d1ddce11384078c4373adcc44311e614841f85e027f05e64b2aa1e"
+  },
+  {
+    "path": "outputs/figures/micom_top_pairwise_exchanges_fraction_0.95.pdf",
+    "sha256": "b47d6f9ab2277f64797c8d4e08c6f407e67d9499f552214da36320cc0a40c3c4"
+  },
+  {
+    "path": "outputs/figures/micom_top_pairwise_exchanges_fraction_0.95.png",
+    "sha256": "1abd3e73bdeeaa98912931fdbad11770bd607924ab29856c88906e5b03d464fe"
+  },
+  {
+    "path": "outputs/figures/micom_top_pairwise_exchanges_fraction_0.95.svg",
+    "sha256": "f04f94e2826125967c0c87d556467b825530256e2a035b5ed7c14e47f9cd19cb"
+  },
+  {
+    "path": "outputs/figures/micom_tradeoff_member_growth_scan_fraction_0.95.pdf",
+    "sha256": "c31d01de81a8eb6d8cefbc80edfd0dda84dcd26b9b075dbb0d6b6478f6ad093c"
+  },
+  {
+    "path": "outputs/figures/micom_tradeoff_member_growth_scan_fraction_0.95.png",
+    "sha256": "8a8314b5c369660ecd3ec52ae097119ee2d9b4077354f31ac1d501932510770d"
+  },
+  {
+    "path": "outputs/figures/micom_tradeoff_member_growth_scan_fraction_0.95.svg",
+    "sha256": "2e721ca9f64c602c6f29758ce04d5f8c03f935d7a9310b3b281439aa3e4c3354"
+  },
+  {
+    "path": "outputs/figures/micom_tradeoff_scan.png",
+    "sha256": "9092e26ca25ca53ceccfd378a0d3f283ef46eb186cff2765ff1dccd2456aa833"
+  },
+  {
+    "path": "outputs/figures/micom_tradeoff_scan.svg",
+    "sha256": "c4074e9e3a60ffe2dade0692680b59ad408a08c514b50cf1afc457ef1afeea73"
+  },
+  {
+    "path": "outputs/figures/strain_design_butyrate_production_envelope.png",
+    "sha256": "b78c0ae8755e86c27ad47ab6dc0ae8fe65272f0a01ef101964b9191ddf13ae7f"
+  },
+  {
+    "path": "outputs/figures/strain_design_butyrate_production_envelope.svg",
+    "sha256": "24aa9c2e444654cfe67327bab3e49176b323684117a1329093eb3235c3f4d0ef"
+  },
+  {
+    "path": "outputs/figures/straindesign_candidate_phenotypes.png",
+    "sha256": "bdb20b4c3a13a7a09c615057e3ac4abbb7de3d89894a72f4bb48e7317596a802"
+  },
+  {
+    "path": "outputs/figures/straindesign_candidate_phenotypes.svg",
+    "sha256": "3457b63736acd4b36560eef87f1c7a08e307af0bb0564f9db8018fc0385ebe62"
+  },
+  {
+    "path": "outputs/memote/.DS_Store",
+    "sha256": "13aa51a7bbd98cb3c56af080b3ac309ab1b7fe8e94fafae3d7029588c031d107"
+  },
+  {
+    "path": "outputs/memote/logs/Bifidobacterium_adolescentis_filled_anaerobic_memote.log",
+    "sha256": "9184473641ffdc076a8e5fe2b170d9db69f2531ee5441115ab59099169c7aa0a"
+  },
+  {
+    "path": "outputs/memote/logs/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.log",
+    "sha256": "c36674d6418b91a5786fac46ca561d7efa2b32ab959763b0bc47f091b8f63856"
+  },
+  {
+    "path": "outputs/memote/logs/Megasphaera_vs_Bifidobacterium_memote_diff.log",
+    "sha256": "c21f12ea8b242855b3ef08dffe0a8d1846b98d1c3ac2a02010bce8db3982cfb1"
+  },
+  {
+    "path": "outputs/memote/reports/Bifidobacterium_adolescentis_filled_anaerobic_memote.html",
+    "sha256": "52167a045bd3b2abf6de41285f91bed4e2e828303f553f4e3ffc358b61601350"
+  },
+  {
+    "path": "outputs/memote/reports/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.html",
+    "sha256": "0e0c57c2062821384e54d9987b4a3d7ff2cfac8da92544a92942b29ad6f8e57b"
+  },
+  {
+    "path": "outputs/memote/reports/Megasphaera_vs_Bifidobacterium_memote_diff.html",
+    "sha256": "c0dd1e2f9b33b021a7763c943e6b302f4a5de0f5610721fe4fb43fa425f645cd"
+  },
+  {
+    "path": "outputs/tables/anaerobic_medium_exchange_mapping.csv",
+    "sha256": "8de4cd65fb7b5e6a7b92c9547cdc4dfcbbf62506e01b906b733607ea089b6d1c"
+  },
+  {
+    "path": "outputs/tables/badolescentis_mjr_medium_mapping.csv",
+    "sha256": "6fb1eb6fa7913738381bfb372764761fce91a79291a02aa596b7099db96c22ec"
+  },
+  {
+    "path": "outputs/tables/badolescentis_single_nutrient_rescue_scan.csv",
+    "sha256": "19e0668964ce645b2d03e68ad5fae02c3144ae331e89bfb0f949289f5ffeb7e4"
+  },
+  {
+    "path": "outputs/tables/butyrate_production_envelope.csv",
+    "sha256": "d75e66cf1d8933805e13b5452106f3eb7a924e4e234829ef3d3954ffe267cfe9"
+  },
+  {
+    "path": "outputs/tables/cfba_style_flux_sampling_summary.csv",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "outputs/tables/community_megasphaera_medium_mapping.csv",
+    "sha256": "fe87e80342abe42d0e8de31056c7e9602a6f178220a525ced9b3a8200ff71364"
+  },
+  {
+    "path": "outputs/tables/community_reaction_catalog_key_metabolites.csv",
+    "sha256": "92e7b05fa74804cdb08646e1fd7387bbbb092e186cabd8a3537b16aacfa63347"
+  },
+  {
+    "path": "outputs/tables/manuscript_micom_lactate_scfa_exchange_table_fraction_0.95.csv",
+    "sha256": "dc1326c5b6f5e967824121dcf169d1223d3903af234927f5394c43a9513706ab"
+  },
+  {
+    "path": "outputs/tables/memote_html_extracted_summary.csv",
+    "sha256": "713df4f1b156039b044f1adc174a8cbc24362a1e10127af9df1d69c837f21e98"
+  },
+  {
+    "path": "outputs/tables/micom_acetate_like_community_exchanges.csv",
+    "sha256": "c4bad33f7357088369c62eec07adbe3f94b4f169fa7dd33d8589c7964f1d9a7c"
+  },
+  {
+    "path": "outputs/tables/micom_all_community_exchanges.csv",
+    "sha256": "16bb2268e4349c7236007096be1ec05fa4cb54f3fdd1b3ecbfa9d1f82e914e15"
+  },
+  {
+    "path": "outputs/tables/micom_all_internal_taxon_medium_exchanges.csv",
+    "sha256": "82b4518aab5d4505eb2b209cb7e7b3d6725e6ec502e6eb363b12954612c05148"
+  },
+  {
+    "path": "outputs/tables/micom_butyrate_like_community_exchanges.csv",
+    "sha256": "630dee907b517d113499d4946df7a20a3e67f4cec9392a697756a4000029303c"
+  },
+  {
+    "path": "outputs/tables/micom_cooperative_tradeoff_summary.csv",
+    "sha256": "7e22ab146e210cee6a3c47f95876971a2ca13917011beb1d8cc3318cf0bc99ef"
+  },
+  {
+    "path": "outputs/tables/micom_fluxes_long_fraction_0.95.csv",
+    "sha256": "c0dae6cc08ab852e47c95a41fbb37ddcb15990a2b595c27692d0f263ec6d4e45"
+  },
+  {
+    "path": "outputs/tables/micom_fluxes_primary_fraction_0.7.csv",
+    "sha256": "10db298a7383e7914f95fbe04281f517d0dda4598be692dd356bf10331556d96"
+  },
+  {
+    "path": "outputs/tables/micom_fluxes_primary_fraction_0.8.csv",
+    "sha256": "ccdabf8162a4a429685d7821c6ae672d8aa8951d29ae66a150d8b4954433cab5"
+  },
+  {
+    "path": "outputs/tables/micom_fluxes_primary_fraction_0.9.csv",
+    "sha256": "e535e12e7e87dfe5a32f4f4dc8e280d4ee5cc666ac5f0006d4a2c5365b866366"
+  },
+  {
+    "path": "outputs/tables/micom_fluxes_primary_fraction_0.95.csv",
+    "sha256": "7b51a014c43def7d2030b2ccc5c854dd42cf5a75c192e8391535913e7a930a26"
+  },
+  {
+    "path": "outputs/tables/micom_fluxes_tradeoff_fraction_0.5.csv",
+    "sha256": "1cd5a0b9d901df61b12d02e074aec12de68e700338a099f6e51d8244e84f1fb7"
+  },
+  {
+    "path": "outputs/tables/micom_fluxes_tradeoff_fraction_0.7.csv",
+    "sha256": "10db298a7383e7914f95fbe04281f517d0dda4598be692dd356bf10331556d96"
+  },
+  {
+    "path": "outputs/tables/micom_fluxes_tradeoff_fraction_0.8.csv",
+    "sha256": "6d27bd17694435c609d61f0a55dd8aedab77254121144f302928521a13e3f308"
+  },
+  {
+    "path": "outputs/tables/micom_fluxes_tradeoff_fraction_0.9.csv",
+    "sha256": "40ed551c4f6466ca865a72c0b3b199be2dcf446e17a0ead24fae2d758d8cef4f"
+  },
+  {
+    "path": "outputs/tables/micom_fluxes_tradeoff_fraction_0.95.csv",
+    "sha256": "7b51a014c43def7d2030b2ccc5c854dd42cf5a75c192e8391535913e7a930a26"
+  },
+  {
+    "path": "outputs/tables/micom_fluxes_tradeoff_fraction_1.0.csv",
+    "sha256": "a8aae7749ce36079c65155b2170481b1996b523494a5cf1f997710a57a1717b5"
+  },
+  {
+    "path": "outputs/tables/micom_gapseq_medium_mapping.csv",
+    "sha256": "56c2ae010f1926cb2af0dd76a8436855af90b091abc4f49574b31a76d93dadf5"
+  },
+  {
+    "path": "outputs/tables/micom_interaction_class_summary_fraction_0.95.csv",
+    "sha256": "9f0e0f3934b13455bb762403c1c9d8787a9844b4d682f445e1af3853f6e3ba2f"
+  },
+  {
+    "path": "outputs/tables/micom_key_exchange_fluxes_from_tradeoff.csv",
+    "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  {
+    "path": "outputs/tables/micom_key_exchange_fluxes_tradeoff_0.95.csv",
+    "sha256": "243984931eeee33c175fd76be4a646accef1e66d5b99d875bdf7e9fb391efc95"
+  },
+  {
+    "path": "outputs/tables/micom_key_flux_summary_by_level_fraction_0.95.csv",
+    "sha256": "19fcad52ca7795640e0a582c810ac7c388b7e5980a07c18a3019a5dce144abd9"
+  },
+  {
+    "path": "outputs/tables/micom_key_internal_taxon_medium_exchanges.csv",
+    "sha256": "0f5a8a69c4381239135fe029954fa4c284376d696cba666cbd718ce4da384c1b"
+  },
+  {
+    "path": "outputs/tables/micom_key_metabolite_fluxes_fraction_0.95.csv",
+    "sha256": "c36c33c1d9cfcb7b07e7e6291e35714fff0dd335af1741c522a0d3c72e682253"
+  },
+  {
+    "path": "outputs/tables/micom_lactate_like_community_exchanges.csv",
+    "sha256": "8eb2a9581610983889fb8872b7470e55db6dd0c3a3b790f7a1d3337fa7bc1b12"
+  },
+  {
+    "path": "outputs/tables/micom_lactate_scfa_focus_fraction_0.95.csv",
+    "sha256": "93d73cdee5bae0e4a166d881ebfb7654082a3bfe497fa0c8a0b86ef1c6144421"
+  },
+  {
+    "path": "outputs/tables/micom_medium_exchange_fluxes_fraction_0.95.csv",
+    "sha256": "d7a7491c17df9799178ccc7bcd174838d8127f10e89f6d6b973fff880c0a11a3"
+  },
+  {
+    "path": "outputs/tables/micom_members_primary_fraction_0.7.csv",
+    "sha256": "6650ee3b1930f7f4b6031a56cc751b2a5a84c48d2158c69fd5ebfba612fb6de3"
+  },
+  {
+    "path": "outputs/tables/micom_members_primary_fraction_0.8.csv",
+    "sha256": "7d9a68bf9375afb05c572f02b64e095659e9ed4ee29ea6e1e452d4e79f1dec70"
+  },
+  {
+    "path": "outputs/tables/micom_members_primary_fraction_0.9.csv",
+    "sha256": "3038da7ea6f428228d79b5ea29e43d5026b86a16511506ee2b6a51fae4cd0656"
+  },
+  {
+    "path": "outputs/tables/micom_members_primary_fraction_0.95.csv",
+    "sha256": "7a8aded9589c752fe3b9fc7b56f726828868bd50ae1252d82991411c8d0b7517"
+  },
+  {
+    "path": "outputs/tables/micom_pairwise_exchange_classification_fraction_0.95.csv",
+    "sha256": "2f51a1868b1495f79ee680cf8e9a8c85a22404d1e853690605001f03e97165d7"
+  },
+  {
+    "path": "outputs/tables/micom_primary_member_growth_fraction_0.95.csv",
+    "sha256": "903fadc80d0b983b6913fffcb64ad2ae38ae3e4b55f2a47f1bbdff2ee89aa622"
+  },
+  {
+    "path": "outputs/tables/micom_sankey_like_key_fluxes_fraction_0.95.csv",
+    "sha256": "a95f4c6dbd07ac8a498b3ef9c17a6e85b734b616495f89d6ad283a6fe86b5edd"
+  },
+  {
+    "path": "outputs/tables/micom_taxon_exchange_fluxes_fraction_0.95.csv",
+    "sha256": "84021bcf7c993cb697c6165d08e6a086aeaa25555867d30f86b6f9aed81007af"
+  },
+  {
+    "path": "outputs/tables/micom_taxonomy_table.csv",
+    "sha256": "80752476420bd4ff85e50173641496991e9b3eeff7d1fbfd50be2efdf3e8a5a2"
+  },
+  {
+    "path": "outputs/tables/micom_tradeoff_both_members_growth_summary.csv",
+    "sha256": "24c743a7ea598201b423b32b823a572138e398324f2ab0ec414efb7cf01f842f"
+  },
+  {
+    "path": "outputs/tables/micom_tradeoff_member_growth_scan.csv",
+    "sha256": "509c1cd826a4d0e0bf97b2c1c73a2fa80cbd41cded561a630b543614f099d789"
+  },
+  {
+    "path": "outputs/tables/reaction_candidates_butyrate.csv",
+    "sha256": "35709633257f669df3d60dd58461374d97f6119e5b44d8201a77c52b7b35335c"
+  },
+  {
+    "path": "outputs/tables/reaction_candidates_byproducts.csv",
+    "sha256": "450fa3e13160b56bdefe467860a86becfa1190d82d13ae0bc01db833d1c809e9"
+  },
+  {
+    "path": "outputs/tables/reaction_candidates_lactate.csv",
+    "sha256": "2b70650ed8c10a5b4802b06ccedb102071344275e581397e970581bb4ebc240f"
+  },
+  {
+    "path": "outputs/tables/reaction_candidates_propionate.csv",
+    "sha256": "dfa312f23e629cacd99b09473154015288ad6429cd996505dcf42d817f8cd344"
+  },
+  {
+    "path": "outputs/tables/standalone_megasphaera_pfba_scenarios.csv",
+    "sha256": "c5674a8e7caf3b55c677a27a251fbf543ba69e05bc9c1e789584179d7425dad3"
+  },
+  {
+    "path": "outputs/tables/strain_design_priority_reaction_candidates.csv",
+    "sha256": "748393c277b499bcc567b768515000e00506c72cfe40fb8ca5aa7ecc9722d22b"
+  },
+  {
+    "path": "outputs/tables/straindesign_intervention_sets.csv",
+    "sha256": "bc8c0c5b4128eff828c785295e29a8a2540d2a96232ff4f7975fdb991bd85b6f"
+  },
+  {
+    "path": "outputs/tables/straindesign_solution_phenotypes.csv",
+    "sha256": "5dfedb4e0514117efb19d67909cc47d434643a455078367895e53e1658d2e14b"
+  },
+  {
+    "path": "outputs/tables/wild_type_pfba_key_fluxes.csv",
+    "sha256": "5848f12b245a2e5bf09fc679cf17462754672def5f8ffca51fef444ec8b9a62d"
+  }
+]

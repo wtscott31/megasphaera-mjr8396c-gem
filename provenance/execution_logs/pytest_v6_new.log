@@ -1,0 +1,19 @@
+.....................F                                                   [100%]
+=================================== FAILURES ===================================
+__________ test_biomass_candidates_preserve_mass_and_make_precursors ___________
+
+    def test_biomass_candidates_preserve_mass_and_make_precursors():
+        d=ROOT/'results/matched_biomass_v6';f=pd.read_csv(d/'growth_maintenance_sensitivity.csv')
+        assert len(f)==216 and f.biomass_mass.between(.9999,1.0001).all()
+        assert pd.read_csv(d/'ATP_cycle_checks.csv').ATP_max.abs().max()<1e-6
+>       p=pd.read_csv(d/'precursor_producibility.csv');assert p.max_demand.min()>1e-7
+                                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+E       assert np.float64(0.0) > 1e-07
+E        +  where np.float64(0.0) = min()
+E        +    where min = 0      1000.000000\n1         1.000000\n2         2.830275\n3         2.448617\n4         1.807428\n          ...     \n427 ...8       2.032520\n429       1.748031\n430       0.438988\n431       0.000000\nName: max_demand, Length: 432, dtype: float64.min
+E        +      where 0      1000.000000\n1         1.000000\n2         2.830275\n3         2.448617\n4         1.807428\n          ...     \n427 ...8       2.032520\n429       1.748031\n430       0.438988\n431       0.000000\nName: max_demand, Length: 432, dtype: float64 =         model                             variant  ...   max_demand   status\n0    MJR8396C              DNA_sequence_c... 0.438988  optimal\n431       BL7  DNA_uniform_AA_surrogate_candidate  ...     0.000000  optimal\n\n[432 rows x 5 columns].max_demand
+
+revision_v6/tests/test_v6_execution.py:95: AssertionError
+=========================== short test summary info ============================
+FAILED revision_v6/tests/test_v6_execution.py::test_biomass_candidates_preserve_mass_and_make_precursors
+1 failed, 21 passed in 8.65s

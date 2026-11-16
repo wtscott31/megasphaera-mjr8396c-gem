@@ -1,0 +1,23 @@
+{
+  "analysis": "new_finite_candidate_enumeration_not_original_OptKnock",
+  "candidate_reactions": [
+    "rxn00138_c0",
+    "rxn00410_c0",
+    "rxn00456_c0",
+    "rxn00566_c0",
+    "rxn00916_c0",
+    "rxn02123_c0",
+    "rxn05957_c0",
+    "rxn14359_c0",
+    "rxn90001_c0",
+    "rxn90029_c0"
+  ],
+  "max_reaction_deletions": 2,
+  "medium": "gut_like",
+  "biomass_reaction": "EX_cpd11416_c0",
+  "phenotypes": "growth maximum then pFBA",
+  "coupling_test": "minimum butyrate at 90,95,100 percent each mutant maximum",
+  "original_tilt_weights": "not_recovered",
+  "original_solver_settings": "not_recovered",
+  "original_candidate_universe": "not_recovered"
+}

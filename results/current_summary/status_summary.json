@@ -1,0 +1,39 @@
+{
+  "generated_utc": "2026-10-27T00:31:56.363438+00:00",
+  "reviewer_blocks": 37,
+  "status_counts": {
+    "addressed_with_scope_change": 3,
+    "addressed_computational_curation_with_limits": 1,
+    "addressed": 11,
+    "addressed_distinct_coverage_metrics": 1,
+    "addressed_recovered_filter_evidence": 1,
+    "addressed_current_index_legacy_labelled": 2,
+    "addressed_visual_revision": 3,
+    "addressed_supported_curation_not_full_biochemical_validation": 1,
+    "addressed_reframed_ecology": 1,
+    "addressed_curated_GPR_and_bounded_lactate_interpretation": 1,
+    "addressed_computational_sensitivity_calibration_limits_explicit": 1,
+    "addressed_1920_native_controls_stereochemical_experiment_unavailable": 1,
+    "addressed_genetic_nonviability_replicated_in_all_matched_strains": 1,
+    "addressed_expanded_AA_panel_and_limited_interpretation": 1,
+    "addressed_concordance_and_supported_functional_edits": 1,
+    "addressed_controlled_comparator_calibration_with_remaining_mass_limits": 1,
+    "addressed_display_vs_reproducibility": 1,
+    "addressed_without_score_inflation": 1,
+    "addressed_supported_pathway_GPR_curation_partial_routes_remain": 1,
+    "addressed_new_uniform_exact_strain_comparison": 1,
+    "addressed_with_matched_robustness_results": 1,
+    "strain_and_genome_verified_D_stereochemical_claim_not_supported": 1
+  },
+  "new_matched_computational_suite_complete": true,
+  "native_community_cases": 1920,
+  "experimental_22L_stereochemistry_verified": false,
+  "target_biomass_measured": false,
+  "remaining": [
+    "Exact published NM10/BL7 ModelSEED model reproduction unavailable; new exact-strain reconstructions supplied",
+    "22L enantiomer-resolved secretion and uptake experiment",
+    "Target-strain whole-cell fractions and maintenance",
+    "NM10 potential frameshift confirmation",
+    "Acrylate/Lar maturation/C5-C6 specificity and residual generic-polymer mass"
+  ]
+}

@@ -1,0 +1,13 @@
+v6_matched_MJR8396C_db 0
+v6_matched_MJR8396C_references 0
+MJR8396C matched sequence curation complete
+v6_matched_NM10_db 0
+v6_matched_NM10_references 0
+Traceback (most recent call last):
+  File "/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v6/scripts/curate_matched_GPR_v6.py", line 78, in <module>
+    if __name__=='__main__':main()
+                            ^^^^^^
+  File "/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v6/scripts/curate_matched_GPR_v6.py", line 41, in main
+    assert len(candidates)>0
+           ^^^^^^^^^^^^^^^^^
+AssertionError

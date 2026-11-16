@@ -1,0 +1,2204 @@
+[
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/EVALUATION_REPORT.md",
+    "relative_path": "EVALUATION_REPORT.md",
+    "bytes": 7705,
+    "sha256": "b92a2692ea06ea684037f2f78ddf45e44374ebaf1262dfb34b339fe2c9a496a7"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/EXECUTION_STATUS.csv",
+    "relative_path": "EXECUTION_STATUS.csv",
+    "bytes": 2784,
+    "sha256": "1192bbc9ab4214cd42bd8c05da040c0194dc576b9a88f39b5b4be7845262a25d"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/MJR8396C_evaluation_report_v2.pdf",
+    "relative_path": "MJR8396C_evaluation_report_v2.pdf",
+    "bytes": 147795,
+    "sha256": "3154475b4413e5aac71e4700b5124cd8e2832945e2de76df36b2bc867e1cb1e3"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/START_HERE.md",
+    "relative_path": "START_HERE.md",
+    "bytes": 1688,
+    "sha256": "da3ba826186cf2cd81711792c0a71123f1d11d603c950f3c121f5fdcd1fe6b90"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/START_LOCAL_WORK.md",
+    "relative_path": "START_LOCAL_WORK.md",
+    "bytes": 12085,
+    "sha256": "66475f843b17befecfd1656bdd0d6ebb0545fd71487e5626998c570789bd0ed9"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/checksums.sha256",
+    "relative_path": "checksums.sha256",
+    "bytes": 54201,
+    "sha256": "21c80ea3b8056b9f1aa4c8ed7bf1e19b33b4f9caa697269079cab20709bc7b49"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/Abstract.tex",
+    "relative_path": "manuscript/manuscript_clean_v2/Abstract.tex",
+    "bytes": 1790,
+    "sha256": "a00b2a516ba4892f21a89203617ee358adac185f34118b7a5da19de4cb536cf5"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/Discussion.tex",
+    "relative_path": "manuscript/manuscript_clean_v2/Discussion.tex",
+    "bytes": 6107,
+    "sha256": "7a10de2aa12cb288daa3f1e75f4291bc4a06dfe61bf676ed3d0dbff2f8225ab3"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/Figure_1_revised.pdf",
+    "relative_path": "manuscript/manuscript_clean_v2/Figure_1_revised.pdf",
+    "bytes": 40823,
+    "sha256": "c932b06d7f10df4b2d3d8480d6dc2956aee7095f0971b96bca05752c48a883ad"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/Figure_2_revised.pdf",
+    "relative_path": "manuscript/manuscript_clean_v2/Figure_2_revised.pdf",
+    "bytes": 39211,
+    "sha256": "492f7181ab0a985fc03ca97691820c7a252e853d96598fae73decc50e0dabe57"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/Figure_3_revised_v2.pdf",
+    "relative_path": "manuscript/manuscript_clean_v2/Figure_3_revised_v2.pdf",
+    "bytes": 80075,
+    "sha256": "9a903569d0c73084330aa1ba85b497d5aaaea4d5d65d5a98c0b9772b308a0a9a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/Figure_4_revised_v2.pdf",
+    "relative_path": "manuscript/manuscript_clean_v2/Figure_4_revised_v2.pdf",
+    "bytes": 78109,
+    "sha256": "fbfba32866a1c7ffec6e4fc92022746ea1d41c78c8951f2ffb3646791e097569"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/Figure_5_revised_v2.pdf",
+    "relative_path": "manuscript/manuscript_clean_v2/Figure_5_revised_v2.pdf",
+    "bytes": 80788,
+    "sha256": "0021bf62ec8b922b384b2a9e127168168cc49d97f9ff8fafd0357c7b75f698d0"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/Figure_6_revised_v2.pdf",
+    "relative_path": "manuscript/manuscript_clean_v2/Figure_6_revised_v2.pdf",
+    "bytes": 82363,
+    "sha256": "fe0a66cce02578bbb5c5fb422f1f10e08123d890e2c0fd20a9b82baeed6f28fc"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/Figure_7_revised_v2.pdf",
+    "relative_path": "manuscript/manuscript_clean_v2/Figure_7_revised_v2.pdf",
+    "bytes": 94095,
+    "sha256": "8dc47a432eda0e510f2c0074e6546da6c24a31fd1eb6ad5cd46a780ca3a7776a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/Introduction.tex",
+    "relative_path": "manuscript/manuscript_clean_v2/Introduction.tex",
+    "bytes": 10915,
+    "sha256": "8712ef0549fea5d4def3f91e393a80e23917c5317bc56e8a8b44c3e886705892"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/Methods.tex",
+    "relative_path": "manuscript/manuscript_clean_v2/Methods.tex",
+    "bytes": 19650,
+    "sha256": "b9b2eef85babfe64ea4980412b53753ed5190ad8711a0114b1c670b6d8832dd5"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/README.md",
+    "relative_path": "manuscript/manuscript_clean_v2/README.md",
+    "bytes": 370,
+    "sha256": "642e9ef7e27d70e3f7d702e1c3d74e65c8cb855f669db5499e23f60a9f69853d"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/Results.tex",
+    "relative_path": "manuscript/manuscript_clean_v2/Results.tex",
+    "bytes": 26045,
+    "sha256": "2634d5393e18d65398af82f82a2cf169891354806936ade8ed33f3ea268ea458"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/main.pdf",
+    "relative_path": "manuscript/manuscript_clean_v2/main.pdf",
+    "bytes": 825910,
+    "sha256": "888405d1eb5c7770494eeb6a5a9c4ae169c20402936708e34e769b6815d870c4"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/main.tex",
+    "relative_path": "manuscript/manuscript_clean_v2/main.tex",
+    "bytes": 3932,
+    "sha256": "caf68c1c4a4b7c93c4572ca6c0d31da325289f3afe4790f9493457e67e7e71be"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_clean_v2/references.bib",
+    "relative_path": "manuscript/manuscript_clean_v2/references.bib",
+    "bytes": 52371,
+    "sha256": "d46f515aaa93fb2385e5cbad7ee943d7da10f2cffe6be912111a5f5ed36701ff"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_tracked_v2/Figure_1_revised.pdf",
+    "relative_path": "manuscript/manuscript_tracked_v2/Figure_1_revised.pdf",
+    "bytes": 40823,
+    "sha256": "c932b06d7f10df4b2d3d8480d6dc2956aee7095f0971b96bca05752c48a883ad"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_tracked_v2/Figure_2_revised.pdf",
+    "relative_path": "manuscript/manuscript_tracked_v2/Figure_2_revised.pdf",
+    "bytes": 39211,
+    "sha256": "492f7181ab0a985fc03ca97691820c7a252e853d96598fae73decc50e0dabe57"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_tracked_v2/Figure_3_revised_v2.pdf",
+    "relative_path": "manuscript/manuscript_tracked_v2/Figure_3_revised_v2.pdf",
+    "bytes": 80075,
+    "sha256": "9a903569d0c73084330aa1ba85b497d5aaaea4d5d65d5a98c0b9772b308a0a9a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_tracked_v2/Figure_4_revised_v2.pdf",
+    "relative_path": "manuscript/manuscript_tracked_v2/Figure_4_revised_v2.pdf",
+    "bytes": 78109,
+    "sha256": "fbfba32866a1c7ffec6e4fc92022746ea1d41c78c8951f2ffb3646791e097569"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_tracked_v2/Figure_5_revised_v2.pdf",
+    "relative_path": "manuscript/manuscript_tracked_v2/Figure_5_revised_v2.pdf",
+    "bytes": 80788,
+    "sha256": "0021bf62ec8b922b384b2a9e127168168cc49d97f9ff8fafd0357c7b75f698d0"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_tracked_v2/Figure_6_revised_v2.pdf",
+    "relative_path": "manuscript/manuscript_tracked_v2/Figure_6_revised_v2.pdf",
+    "bytes": 82363,
+    "sha256": "fe0a66cce02578bbb5c5fb422f1f10e08123d890e2c0fd20a9b82baeed6f28fc"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_tracked_v2/Figure_7_revised_v2.pdf",
+    "relative_path": "manuscript/manuscript_tracked_v2/Figure_7_revised_v2.pdf",
+    "bytes": 94095,
+    "sha256": "8dc47a432eda0e510f2c0074e6546da6c24a31fd1eb6ad5cd46a780ca3a7776a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_tracked_v2/README.md",
+    "relative_path": "manuscript/manuscript_tracked_v2/README.md",
+    "bytes": 612,
+    "sha256": "4234ab4e58a4a8375dfb81e768f3d84c0148c88b18b61d8ee0dd266fc86a0ac1"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_tracked_v2/float_change_map.json",
+    "relative_path": "manuscript/manuscript_tracked_v2/float_change_map.json",
+    "bytes": 2554,
+    "sha256": "b0f3ef95a112b19f16cee5786f871436669837c981c7efd938812d641079582d"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_tracked_v2/main_tracked.pdf",
+    "relative_path": "manuscript/manuscript_tracked_v2/main_tracked.pdf",
+    "bytes": 1130832,
+    "sha256": "59dba19cd2b76fceb476b8936254943999fac46a8a5e11942fd2e5be8b22daf2"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_tracked_v2/main_tracked.tex",
+    "relative_path": "manuscript/manuscript_tracked_v2/main_tracked.tex",
+    "bytes": 121532,
+    "sha256": "c1c46335aeb7029bdb4f5b7f8b312fee393277c1998763b723c0c4c876b6270d"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_tracked_v2/references.bib",
+    "relative_path": "manuscript/manuscript_tracked_v2/references.bib",
+    "bytes": 52371,
+    "sha256": "d46f515aaa93fb2385e5cbad7ee943d7da10f2cffe6be912111a5f5ed36701ff"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/manuscript_tracked_v2/source_changes.patch",
+    "relative_path": "manuscript/manuscript_tracked_v2/source_changes.patch",
+    "bytes": 112861,
+    "sha256": "ff40062b628da031af4e6dbb88d20900cf589f62db318a472151399925fd8f58"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/response_v2/README.md",
+    "relative_path": "manuscript/response_v2/README.md",
+    "bytes": 353,
+    "sha256": "d60af53a5d2005c13429d2dade95a1b92e6d94fcca537086a0d8e974d117c102"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/response_v2/clean_manuscript_line_labels.json",
+    "relative_path": "manuscript/response_v2/clean_manuscript_line_labels.json",
+    "bytes": 996,
+    "sha256": "1e93c157bcc46c96cbad36f79cc94c3e288794c2e7330c8774e6113bdc2cfcf8"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/response_v2/references.bib",
+    "relative_path": "manuscript/response_v2/references.bib",
+    "bytes": 52371,
+    "sha256": "d46f515aaa93fb2385e5cbad7ee943d7da10f2cffe6be912111a5f5ed36701ff"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/response_v2/response_letter_npjSB_v2.pdf",
+    "relative_path": "manuscript/response_v2/response_letter_npjSB_v2.pdf",
+    "bytes": 297535,
+    "sha256": "8b72300fd342e0df585bfdd87029a65337d4d5b475ca512a81e2d9d51756fb9c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/manuscript/response_v2/response_letter_npjSB_v2.tex",
+    "relative_path": "manuscript/response_v2/response_letter_npjSB_v2.tex",
+    "bytes": 34327,
+    "sha256": "dc40c4d3cbf660e3f83820d41a08fc41befb568b8b4b6b6f54d5a844c6c14b05"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/.github/workflows/verify.yml",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/.github/workflows/verify.yml",
+    "bytes": 600,
+    "sha256": "878ad6035da4950c9bbb04663455e1e744df5d0b4833f6116280d89f29cb2477"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/.gitignore",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/.gitignore",
+    "bytes": 152,
+    "sha256": "e81c55a191e82f99565fc34f6f62165c1813ad0997a55698b1b456ce01fb137c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/CITATION.cff",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/CITATION.cff",
+    "bytes": 945,
+    "sha256": "ddd77fb1aa19ca1f3e476ba777a4fd8d4e3ea893ec28182616b6c6cbf398e45a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/CONTRIBUTING.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/CONTRIBUTING.md",
+    "bytes": 682,
+    "sha256": "55ceda5dde83f2604043983a686f977b8c909edf0c6a86747f0f25fb63fe2b8c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/MAJOR_REVISION_INDEX.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/MAJOR_REVISION_INDEX.md",
+    "bytes": 239,
+    "sha256": "e2c5bff195f47bec3fd3997ca95550669fbab80471d99a356f0e260648421110"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/README.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/README.md",
+    "bytes": 5530,
+    "sha256": "45737215e3db690e7c3e55345f48d8e48104d6558a358e5263d79a4b0a39ed79"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/README_PREVIOUS_PACKAGE.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/README_PREVIOUS_PACKAGE.md",
+    "bytes": 6789,
+    "sha256": "76f4f4b3796be948b00d4e0c5c9d53568bc92ae2145e02f0be60cfaef3b81adc"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/README_REVIEWER_REVISION.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/README_REVIEWER_REVISION.md",
+    "bytes": 1653,
+    "sha256": "6df82cafc23a1e11868ce7456e0710fae159e37e9515c37fd1cf05d3361ddc4f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A10_single_organic_substrate_lactate_checks.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A10_single_organic_substrate_lactate_checks.csv",
+    "bytes": 549,
+    "sha256": "e5e8a7d92679e7fb5fb743fb380a71d158233b919899e4e679dd5d9440d05346"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A11_mass_charge_balance_audit.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A11_mass_charge_balance_audit.csv",
+    "bytes": 139410,
+    "sha256": "74c06f4dcbad6cc432bf462466b1e0d54f11ce16e60e77d069c0d98c44a52b67"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A12_MICOM_reported_flux_abundance_accounting_not_rerun.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A12_MICOM_reported_flux_abundance_accounting_not_rerun.csv",
+    "bytes": 2450,
+    "sha256": "850e055b2efdf0a76bc5a2d42d2430284478eb89b71f93fb29718b8793d1fda7"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A13_B_adolescentis_monoculture_assumptions.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A13_B_adolescentis_monoculture_assumptions.csv",
+    "bytes": 529,
+    "sha256": "8b9f8fb1a8b05a5822593fc0febdbefc1576992abe6567a08d5e4c65739795aa"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A14_selected_pathway_reaction_FVA_concordance.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A14_selected_pathway_reaction_FVA_concordance.csv",
+    "bytes": 3093,
+    "sha256": "3423c8064cbbb2cfd64c1ea452cb27afab4568dc9f5fa03ff2874a9afad5b96e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A15_chain_elongation_keyword_inventory.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A15_chain_elongation_keyword_inventory.csv",
+    "bytes": 1842,
+    "sha256": "4c272e9027ecec440764b34e99e43e12aa33ec8aed7ea32fb5e319d6bed43fce"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A1_three_media_baseline_recomputed.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A1_three_media_baseline_recomputed.csv",
+    "bytes": 801,
+    "sha256": "d0b8b4e4987e41bf569f2e737118131c73c37411433c5ac3119fd55b4d383b76"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A2_organic_uptake_bound_sensitivity.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A2_organic_uptake_bound_sensitivity.csv",
+    "bytes": 2157,
+    "sha256": "ce7e6ad8e1207cbd24fa1c440646b5e1606e6236ce42a01e79b35ade04d46228"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A3_selected_exchange_FVA.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A3_selected_exchange_FVA.csv",
+    "bytes": 5270,
+    "sha256": "8469b115c372ce0c3b3759d6e2a4ac59c1b6ec25f601c89d3333d23221eb63f8"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A4_ATPase_closed_medium_and_demand_sensitivity.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A4_ATPase_closed_medium_and_demand_sensitivity.csv",
+    "bytes": 1920,
+    "sha256": "12d27cba1474370f4d9a5e6158e62a58e8e2b949284c6e62f597e3c04e990ae9"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A5_biomass_precursor_inventory.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A5_biomass_precursor_inventory.csv",
+    "bytes": 4894,
+    "sha256": "b6ef22cbaa433a05f35db37d0f5ce079acfc5c3f158e3f1491d590991ee7e56c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A6_biomass_coefficient_sensitivity.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A6_biomass_coefficient_sensitivity.csv",
+    "bytes": 1139,
+    "sha256": "08583bcabdc2eb5046aeb745f84248b7c8e2d52d9db10e45b4de84c19f06a5ec"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A7_straindesign_target_GPR_and_single_KO.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A7_straindesign_target_GPR_and_single_KO.csv",
+    "bytes": 2874,
+    "sha256": "ab942deed16af3f17ecc1e50a251f0960b290fc9390eaab621faf9b3ff90e9ee"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A8_retested_selected_reaction_pair_deletions.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A8_retested_selected_reaction_pair_deletions.csv",
+    "bytes": 882,
+    "sha256": "27ea476701ee03dda52c41d83e8bd0a8e85f41cb3be4b5c016d379140852be13"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A9_lactate_stereochemistry_inventory.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A9_lactate_stereochemistry_inventory.csv",
+    "bytes": 285,
+    "sha256": "55e423bc77e51e49fa7806c89153c5cc1c0adf5365706a3084027fdaf6af341b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/audit_summary.json",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/audit_summary.json",
+    "bytes": 1303,
+    "sha256": "71e24a031a7622a747e3ad67e03e1f2024fa5891f737ff55114ecd8318a2e3af"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analysis_summary.json",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/analysis_summary.json",
+    "bytes": 293,
+    "sha256": "e7146d6cda0efba413134660575bb5d6b5f36434195bfc411df320704f9c4f7c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/benchmarking/benchmark_model_predictions.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/benchmarking/benchmark_model_predictions.csv",
+    "bytes": 402,
+    "sha256": "2b51adb59417994d077db28b609eba2745df93311d64b1ea7dcae1abbfc21c98"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/benchmarking/supplementary_benchmarking.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/benchmarking/supplementary_benchmarking.pdf",
+    "bytes": 179546,
+    "sha256": "3afb2d9de0e89ef0c15f038460084c5639fc98d52a435b34c2cfd8493f57994f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/checksums.sha256",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/checksums.sha256",
+    "bytes": 36850,
+    "sha256": "6736f45530a46aa4f0d968bfd122d9595a46f6a90cb02fbd1103bcb1a2858258"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/docs/BIOMASS_DATA_REQUIREMENTS.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/docs/BIOMASS_DATA_REQUIREMENTS.md",
+    "bytes": 1879,
+    "sha256": "ebd8a4b418459e8be74212897a55333bf68dd5fc921e1b1f4dc7722a047577b4"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/docs/FIGURE_SOURCE_TRACEABILITY.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/docs/FIGURE_SOURCE_TRACEABILITY.md",
+    "bytes": 1203,
+    "sha256": "5cdd1774d491a2dbbf16d44ba7e4df3c520e37ad56e8393ff5605c52bebd3316"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/docs/GENOME_RELATEDNESS_PROTOCOL.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/docs/GENOME_RELATEDNESS_PROTOCOL.md",
+    "bytes": 1583,
+    "sha256": "c8298e8a3d8c077c44057149197a9cf1a2b6aea314259e544622eaf4fc2bc72c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/docs/MAJOR_REVISION_README.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/docs/MAJOR_REVISION_README.md",
+    "bytes": 7007,
+    "sha256": "d9d439f5a567cd38c1947ebb3aff396ae654dfcdc42024dd0ecde85846304e7f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/docs/MANUSCRIPT_MAP.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/docs/MANUSCRIPT_MAP.md",
+    "bytes": 4019,
+    "sha256": "7ae8d98d039c62b41d8ac8f1584c369483da745fb2d4081bf7dea4eb01bb292d"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/docs/MICOM_REVISION_PROTOCOL.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/docs/MICOM_REVISION_PROTOCOL.md",
+    "bytes": 2127,
+    "sha256": "3164260349266d5bd974c665e1e5e32a42640209f64222aef7a4e2a16c2c0142"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/docs/README.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/docs/README.md",
+    "bytes": 363,
+    "sha256": "19a15d5995ce29fdd4b730c5f6390585f9c6a5dc85067134c887ff03350c1860"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/docs/REPRODUCIBILITY.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/docs/REPRODUCIBILITY.md",
+    "bytes": 2547,
+    "sha256": "660e636af264c100463e5b0286e76108054bb05c4d9b8bdb2635782da48d9a56"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/docs/SUBMISSION_READINESS_ACTIONS.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/docs/SUBMISSION_READINESS_ACTIONS.md",
+    "bytes": 4656,
+    "sha256": "a95af5a1db10cfa09e498176094db2b652c2b4e718f8dc993111a3cfc2ec503b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/environment.yml",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/environment.yml",
+    "bytes": 318,
+    "sha256": "319f5a71c24024676dcef88d72d99ac2c19f49c1f61a4e53f8a49070ec71ec79"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/docs/EVALUATION_REPORT.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/docs/EVALUATION_REPORT.md",
+    "bytes": 7705,
+    "sha256": "b92a2692ea06ea684037f2f78ddf45e44374ebaf1262dfb34b339fe2c9a496a7"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/docs/GENOME_EVIDENCE_REQUIREMENTS.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/docs/GENOME_EVIDENCE_REQUIREMENTS.md",
+    "bytes": 1694,
+    "sha256": "89d343ad87d62ddc3df9d64a57dfbda9a7b63559a9cba0e6d6d4600e29589596"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/docs/RELEASE_DECISION.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/docs/RELEASE_DECISION.md",
+    "bytes": 977,
+    "sha256": "daa3cf995245d5bbd4d78b6ce30b3dfb5fd4a49e61816393a4dde9745e8ee72a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/docs/figure_captions_v2.tex",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/docs/figure_captions_v2.tex",
+    "bytes": 3606,
+    "sha256": "25d22e773520efcf850106b9e0b6ca1c8aaa435b56448a549b0cf2feb9ff9b39"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_3_preview.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_3_preview.png",
+    "bytes": 99992,
+    "sha256": "10a64ad93e7e6bfd4cf11d824c1b69e870fb197c23d3483e9b48c50e9a816e5a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_3_revised_v2.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_3_revised_v2.pdf",
+    "bytes": 80075,
+    "sha256": "9a903569d0c73084330aa1ba85b497d5aaaea4d5d65d5a98c0b9772b308a0a9a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_3_revised_v2.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_3_revised_v2.png",
+    "bytes": 580622,
+    "sha256": "bb1202dbe3ee77980f990d3f398e81b3afacc9b919a84fce2d6bb06f7ab43656"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_3_revised_v2.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_3_revised_v2.svg",
+    "bytes": 269955,
+    "sha256": "1478e5361acb24de68f1420f6aa08514bce1ee8dbd50149008965d7660731267"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_4_preview.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_4_preview.png",
+    "bytes": 99223,
+    "sha256": "24558fb7f2a516ad1067ce288671132c2f62cba032364761637d42211a5bd0bf"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_4_revised_v2.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_4_revised_v2.pdf",
+    "bytes": 78109,
+    "sha256": "fbfba32866a1c7ffec6e4fc92022746ea1d41c78c8951f2ffb3646791e097569"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_4_revised_v2.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_4_revised_v2.png",
+    "bytes": 591434,
+    "sha256": "a739b7dd1cb20ab5945d9ace762aac8a8b389d1824013311ef1c4bb5e00ce1e7"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_4_revised_v2.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_4_revised_v2.svg",
+    "bytes": 250174,
+    "sha256": "e9c9122f7dcbbf4876569465ce059e8fd94d77acdfef18b4681ed744227ef0bf"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_5_preview.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_5_preview.png",
+    "bytes": 113696,
+    "sha256": "9b7caaa0677504b280d749028484fb9bae0f64b0c39a020ad33bb77ba7362c45"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_5_revised_v2.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_5_revised_v2.pdf",
+    "bytes": 80788,
+    "sha256": "0021bf62ec8b922b384b2a9e127168168cc49d97f9ff8fafd0357c7b75f698d0"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_5_revised_v2.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_5_revised_v2.png",
+    "bytes": 659746,
+    "sha256": "8b99362a104710ca223c233a02b0f795f1b1ef2bdfd4361357911d8918719125"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_5_revised_v2.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_5_revised_v2.svg",
+    "bytes": 270621,
+    "sha256": "a5ceb16c084ee3c5a4f93f2eeef33ecc508018f536166b9720c852853bc5c20c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_6_preview.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_6_preview.png",
+    "bytes": 105094,
+    "sha256": "28624a966165246f4d5d28ab3e06a854b178d660031b825241ffec64773673a6"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_6_revised_v2.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_6_revised_v2.pdf",
+    "bytes": 82363,
+    "sha256": "fe0a66cce02578bbb5c5fb422f1f10e08123d890e2c0fd20a9b82baeed6f28fc"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_6_revised_v2.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_6_revised_v2.png",
+    "bytes": 596419,
+    "sha256": "21438da28f2559ef141af12e335cebd85cfc0e681b25b329eae9f1180bce848e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_6_revised_v2.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_6_revised_v2.svg",
+    "bytes": 280887,
+    "sha256": "89ab1f14a33c7e93b00adbaf46734f87e74f7bcfdcf026b46e9725b402e08260"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_7_preview.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_7_preview.png",
+    "bytes": 113757,
+    "sha256": "a6e829cb701058d5e69b06cb5a1f3f3690606f960c8a80e2b60f7ce0061ea367"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_7_revised_v2.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_7_revised_v2.pdf",
+    "bytes": 94095,
+    "sha256": "8dc47a432eda0e510f2c0074e6546da6c24a31fd1eb6ad5cd46a780ca3a7776a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_7_revised_v2.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_7_revised_v2.png",
+    "bytes": 719315,
+    "sha256": "5337a87e6e32978892f1f28ec6c2dc21372df9490aae396dd5930e936800b2e5"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_7_revised_v2.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/Figure_7_revised_v2.svg",
+    "bytes": 303497,
+    "sha256": "9405be8287a4efd0e95d2bffb7cdca0cceab3e288a3b25fe08cc66ef636fa30b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_A.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_A.pdf",
+    "bytes": 19921,
+    "sha256": "477dbe8901bc0100704caf0cc6de8563ae89322ca164de691ee3cf557978dae7"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_A.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_A.svg",
+    "bytes": 11099,
+    "sha256": "e1b2921483c0d90a8931a70d9d47495476571670e3c68183c6b9d51f94289c6d"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_B.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_B.pdf",
+    "bytes": 19130,
+    "sha256": "e58a29b00638fc7105cbe32cfb68cfbc1ef3d439de6cd5f7fdfc7311321902cc"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_B.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_B.svg",
+    "bytes": 12352,
+    "sha256": "8b3506fe5485f0544d0900ec5c36326eb824aa0da01a919104fa27276dc86e2f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_C.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_C.pdf",
+    "bytes": 21719,
+    "sha256": "8e42efa21ef0ecef4cca355c4cb2997b1cd36c92029668d8ecc015d6d6af7d30"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_C.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_C.svg",
+    "bytes": 23579,
+    "sha256": "e62271911207f86232227a5e79555949d0f63b6d075014a368897dc26149b6ed"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_D.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_D.pdf",
+    "bytes": 20747,
+    "sha256": "28ba07acb608bc3ac99ae271f052dde8bd1a29f46c5ebdd313d3330a63bbd1eb"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_D.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_3_D.svg",
+    "bytes": 14408,
+    "sha256": "a520ffd1b63bbfca1dea43bee99cc5416ea82c51961a6ecfe669d9a1a72a8f50"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_A.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_A.pdf",
+    "bytes": 20221,
+    "sha256": "9889c0831f6506997fe4de47065fb27f8fa11311e3d498a5a193bbb7b757ff7d"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_A.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_A.svg",
+    "bytes": 18748,
+    "sha256": "345e20d745f71fb05ab310fc7a68e376b8a9f36e360df8f855cdce027bb7aa24"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_B.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_B.pdf",
+    "bytes": 17985,
+    "sha256": "81bbf6468a384e415b1a25a05296ae357226540bdc9451dc8cc69819594a8a23"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_B.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_B.svg",
+    "bytes": 10899,
+    "sha256": "b8def8511978d7be53071db15bb9975d918723908321abb8ef4c95fa33b50985"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_C.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_C.pdf",
+    "bytes": 20576,
+    "sha256": "eec21f9ea869eea8ac2fb10abc5e4ed41dfc2f4bc49a19d014a1a8b0f73d5747"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_C.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_C.svg",
+    "bytes": 22772,
+    "sha256": "6a9bc6220d27127c8589d50752f916635abafaf8f9baba13db06c985e79b5e29"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_D.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_D.pdf",
+    "bytes": 20735,
+    "sha256": "6a1dfbb258873598d6005c35ebdb26600bd127972fc52c7eb318a25c89ce5d48"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_D.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_4_D.svg",
+    "bytes": 20873,
+    "sha256": "6028e9f982c3114df6ebba283a975b3eade16a4867ceb9eb305958adf12910f4"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_A.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_A.pdf",
+    "bytes": 20255,
+    "sha256": "bed68be71db1a6721f3a6b33152cfa0caad0e3460e94257b3421da9f8fce2fc7"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_A.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_A.svg",
+    "bytes": 18012,
+    "sha256": "e65e51de86f3c4778b23d2859953c536c3db4350afb7a15fcdda9d33ff8033bc"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_B.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_B.pdf",
+    "bytes": 20584,
+    "sha256": "664f074d0262245a120f67f122c102eb952341d296bbed4b3466021eb9d5db35"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_B.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_B.svg",
+    "bytes": 17092,
+    "sha256": "f77dd7db3120e37a043f0ad31b439dd41f9aabff3952af31eb6e91428ae8257b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_C.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_C.pdf",
+    "bytes": 19995,
+    "sha256": "640b00f26f68fef5b3d59a726dfb72008d447be621c51fbf814e2725a0b6f0ee"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_C.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_C.svg",
+    "bytes": 5110,
+    "sha256": "1567a83d0a15c517876702e3bffd096c0c58f1baa3a866c9d42710617d77306f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_D.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_D.pdf",
+    "bytes": 21398,
+    "sha256": "8fc111c16d256f36790412272a8cd8596ade590e8c19dd953d368536c176ca8b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_D.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_5_D.svg",
+    "bytes": 22015,
+    "sha256": "797078426f01c021308fa510177f33898c47325ab6387db5a22e3ddfc05e6f42"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_A.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_A.pdf",
+    "bytes": 21983,
+    "sha256": "80a9fb21e51a3a936998798c5e5f09ffd075e9b3430a88c7750d6a9278aa51d9"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_A.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_A.svg",
+    "bytes": 5219,
+    "sha256": "7a5505fefb4312f3a19610bf5d0493fca023500c5f3df19f09905aec1c8de90b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_B.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_B.pdf",
+    "bytes": 20617,
+    "sha256": "dcce8d48374a82497cf029eb7000f4a224a3190fb1b7677c97a18a28f9135981"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_B.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_B.svg",
+    "bytes": 18023,
+    "sha256": "4bdf879e55f8fb5b1574a516d20d6a8bd6c0bd9609f48f773ef99e8edd212014"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_C.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_C.pdf",
+    "bytes": 19828,
+    "sha256": "6cde111930a144597bba2c2f7784b9084f5e3d9425b8ccec95702746e55ee8da"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_C.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_C.svg",
+    "bytes": 15958,
+    "sha256": "809f9a30cb8ecf35bac7ceb7ae212c565502a35765f2c95a8e882f555e5a6257"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_D.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_D.pdf",
+    "bytes": 21315,
+    "sha256": "bb9bf426e804418e1507c5134053c3f9c9002aa3314cf4a526037a0ddc57bc92"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_D.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_6_D.svg",
+    "bytes": 17084,
+    "sha256": "da1b745ce6fe86e7df30b7139aef57dfa4f6f9d4d75ddb842f89cb7fe615817a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_A.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_A.pdf",
+    "bytes": 22983,
+    "sha256": "3073152fde81f019e191dfd9733e298af60af0acd72d9e0be76fd2553d8e2e21"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_A.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_A.svg",
+    "bytes": 24118,
+    "sha256": "5f4f87be7e3b96b15c19582b61ebf4e42b93fec6c17874a6c32007a0296e0689"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_B.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_B.pdf",
+    "bytes": 24716,
+    "sha256": "b1497883d91765d07b81109f684cb84907506ba51c3e5877905ac0e43939b9b6"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_B.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_B.svg",
+    "bytes": 15290,
+    "sha256": "7634be5859359649747eaca3b213cc2392d0ff38739e3e0bd1013fbf61f73f8b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_C.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_C.pdf",
+    "bytes": 20857,
+    "sha256": "1e39509c5d6510bcc67a5fbae4add3136af1a9c38d78fe97258ca861739c512e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_C.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_C.svg",
+    "bytes": 16529,
+    "sha256": "5d10ee91da73e8d757ab5a88142d8cfbf1fa775544956cb01712fdd27b6b0a4a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_D.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_D.pdf",
+    "bytes": 27082,
+    "sha256": "0a5fcf42a7431d070123aa4197c7bcbc6cda06a34a5fe02c0c07d79c79734c75"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_D.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/figures/panels/Figure_7_D.svg",
+    "bytes": 15755,
+    "sha256": "5b92b98112ffa0ae4e17983efe6f949eec7abdf06f0a4aaf2a9afc1072c1d554"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/BOFdat_attempt.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/logs/BOFdat_attempt.log",
+    "bytes": 830,
+    "sha256": "9ff70a96e297a351270be41f79cdb8740ab1323d9219af56424d25e3d26ac14f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/biomass.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/logs/biomass.log",
+    "bytes": 85,
+    "sha256": "2626eb9f3068fe3f747540ebc98ee30841ab6e13741352e00029edd9b6d03633"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/community.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/logs/community.log",
+    "bytes": 2934,
+    "sha256": "b8497f02979510f4dd59fc594157d516c4a47ab9cd97e4aedbdb8a6377f55b03"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/curation.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/logs/curation.log",
+    "bytes": 1663,
+    "sha256": "bc4495c8d71e3fb08194a7d9538f5d922728a869d67946c6df31a745754d0607"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/dependency_install_attempt.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/logs/dependency_install_attempt.log",
+    "bytes": 1981,
+    "sha256": "5bfa675da2bc69af0bf1b7ebc2ccd870c05a1ec94b46c52f93e4e8bc315c2947"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/design_lactate.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/logs/design_lactate.log",
+    "bytes": 474,
+    "sha256": "4ce88ef630b40b15d24c1bf7a9b0d7ae978e79357f63d3d8efe0e4107f49d17b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/figures.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/logs/figures.log",
+    "bytes": 61,
+    "sha256": "6199f911fcf3bee5faf73c1fa3507cbd3c9d93edef0c74d97487fb7730e76c53"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/genomics_attempt.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/logs/genomics_attempt.log",
+    "bytes": 1020,
+    "sha256": "fd4720f2db862c14568eb965cda6932d1d20e22db778ab7fd4dffb07c4bd1323"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/lactate_mechanism.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/logs/lactate_mechanism.log",
+    "bytes": 349,
+    "sha256": "715ee8faeeefc1eab063275c2d1ee754815b6b4561766906bb2aba17bc0314be"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/loopless.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/logs/loopless.log",
+    "bytes": 835,
+    "sha256": "42e6b9a7db536807121ccc1cb56bbf643dd7730aa4c25e7a5b9f90beda9650c6"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/loopless_polish.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/logs/loopless_polish.log",
+    "bytes": 293,
+    "sha256": "0f9334373087374a796ef8fba924c48b7cae231938f2d1ef1495e9a5cbb7ff4f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/native_micom_attempt.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/logs/native_micom_attempt.log",
+    "bytes": 720,
+    "sha256": "31d9afda8201b27ee784ef10a7c0b3e030c390f17766e47c09020bc2fe950a8e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/native_preflight.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/logs/native_preflight.log",
+    "bytes": 873,
+    "sha256": "62f19b1ef16180c36f94983b7c6c32d7d8915e12ba489d4c0d081f456109dfdd"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/original_settings_audit.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/logs/original_settings_audit.log",
+    "bytes": 1086,
+    "sha256": "9961f05bafcf7381da4fcf629bdc00e4d91ca21fe9d5e9b33813397debe750dd"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/verification.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/logs/verification.log",
+    "bytes": 2922,
+    "sha256": "05789e35780109f98904a5ff68f01571325fbceb9fb7a81c7e11bb52c2976016"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/models/B_B_DLDH_off_hypothesis.xml",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/models/B_B_DLDH_off_hypothesis.xml",
+    "bytes": 5633054,
+    "sha256": "aceecf71b5897368dfa05760169da4304fac1873a3f21d899aa60b2adc319420"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/models/B_B_DLDH_off_no_uptake_hypothesis.xml",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/models/B_B_DLDH_off_no_uptake_hypothesis.xml",
+    "bytes": 5633054,
+    "sha256": "aceecf71b5897368dfa05760169da4304fac1873a3f21d899aa60b2adc319420"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/models/B_both_DLDH_off_hypothesis.xml",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/models/B_both_DLDH_off_hypothesis.xml",
+    "bytes": 5633054,
+    "sha256": "aceecf71b5897368dfa05760169da4304fac1873a3f21d899aa60b2adc319420"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/models/M_M_DLDH_off_hypothesis.xml",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/models/M_M_DLDH_off_hypothesis.xml",
+    "bytes": 7119601,
+    "sha256": "8898863c83d73a6a8009af4d876da862612da6b32db6bbf22d81700158b7ac04"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/models/M_both_DLDH_off_hypothesis.xml",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/models/M_both_DLDH_off_hypothesis.xml",
+    "bytes": 7119601,
+    "sha256": "8898863c83d73a6a8009af4d876da862612da6b32db6bbf22d81700158b7ac04"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/requirements-tested.txt",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/requirements-tested.txt",
+    "bytes": 118,
+    "sha256": "516d23631d0c5972706f5145a5bb28c1a7542d15c5a78fba6870f775fb7fc05c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/biomass/all_consumed_biomass_precursor_demand_tests.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/biomass/all_consumed_biomass_precursor_demand_tests.csv",
+    "bytes": 25397,
+    "sha256": "1023d7cae7db2517aa8d4c45eedbe9b7b75baa1732cdcf60fbb50817f3ebff9c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/biomass/composition_maintenance_uptake_sensitivity.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/biomass/composition_maintenance_uptake_sensitivity.csv",
+    "bytes": 75850,
+    "sha256": "ca65b2ba0c713cb359caa5ba5cbbc5bd06c5dba474935ba7cfa4f3018d8924d8"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/biomass/mass_preserved_biomass_scenario_coefficients.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/biomass/mass_preserved_biomass_scenario_coefficients.csv",
+    "bytes": 84877,
+    "sha256": "2a042305029449c52bfd1ecfa9ae1c7d06ce6ddbfffa39b7ff07e9745c2a42a5"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/biomass/template_macromolecular_mass_fractions.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/biomass/template_macromolecular_mass_fractions.csv",
+    "bytes": 1002,
+    "sha256": "71010a2b27cdfc1f3d786e6fe04bd5ea182ecae4c955ffd44d03c078607533a2"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/biomass/template_mass_and_GAM_audit.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/biomass/template_mass_and_GAM_audit.csv",
+    "bytes": 435,
+    "sha256": "b4ab27c662f87fd741762016a831cab83d5309e2501e894b6b6029f7d53a7e50"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/exchange_FVA_at_fixed_growth.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/exchange_FVA_at_fixed_growth.csv",
+    "bytes": 41671,
+    "sha256": "21ca0455fe196380455e4cac4b8df3012f5b73b6bd73abe4cf011019a9c7dd6c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_B_no_lactate_uptake.npz",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_B_no_lactate_uptake.npz",
+    "bytes": 6618,
+    "sha256": "ebac6a39f8f43388232864d7c65a3adc064d6d8a6a9e8f0e24f82804fbe7df1f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_baseline.npz",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_baseline.npz",
+    "bytes": 6615,
+    "sha256": "d82697df65cbccb0adc19eeb0ce1d7fccc57736e4732e501d16a04b03216ef4e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_block_D.npz",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_block_D.npz",
+    "bytes": 6629,
+    "sha256": "7efa055653a465342a9c5a2fe4e3339c27dddfbbd9b7076a989dda99bf8c2134"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_block_L.npz",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_block_L.npz",
+    "bytes": 6584,
+    "sha256": "6b9dbefe086a18323a99b672caba31c341468f9232cfac418b6cb19ab63cec12"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_block_acetate.npz",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_block_acetate.npz",
+    "bytes": 6629,
+    "sha256": "38882998b7fe05c8bfadc7c161a465953ae3f8da8e08eda6262a211056a898cd"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_block_both.npz",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_block_both.npz",
+    "bytes": 6646,
+    "sha256": "af4a8ba0c1da71055a660dd81f02b325423098e824d512d1ea50243630b9bb13"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_no_external_lactate.npz",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_no_external_lactate.npz",
+    "bytes": 6589,
+    "sha256": "ae39bcc341294ea60696a124abd7927679a97e1c90e5db8e159afdec8114ad38"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_no_lactate_B_no_uptake.npz",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_no_lactate_B_no_uptake.npz",
+    "bytes": 6586,
+    "sha256": "6f75456e9e6abf6c3b1df708ab9c17574388e3b835363c7d17aae8a6d5f585e3"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_no_lactate_block_D.npz",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_no_lactate_block_D.npz",
+    "bytes": 6574,
+    "sha256": "2a9a5c42c09f01c293c5c933321467ca17ba1bafbde36cb5690cd723cf422c95"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_no_lactate_block_L.npz",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_no_lactate_block_L.npz",
+    "bytes": 6572,
+    "sha256": "b53c7924a4fa9a736ff2de580a2680908f83917beddcdd0044218bd3c941b8d2"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_no_lactate_block_acetate.npz",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_no_lactate_block_acetate.npz",
+    "bytes": 6576,
+    "sha256": "c85e9a68172731786b214f6b4c300ba255c76124190955e75b7a8f18994e4ce4"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_no_lactate_block_both.npz",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/flux_vector_no_lactate_block_both.npz",
+    "bytes": 6557,
+    "sha256": "eb7fae9134122efbd3e8184f52d85dbbc6c8e0be64c13f87e24e56df286fb7f2"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/matched_monocultures.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/matched_monocultures.csv",
+    "bytes": 10428,
+    "sha256": "ef68423275fe30b5974303bc9b74fc9f3687fd057d58bfbce5a35f40e31f6083"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/quadratic_objective_crosscheck.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/quadratic_objective_crosscheck.csv",
+    "bytes": 566,
+    "sha256": "bf4d2e9dd499d9e8bddc29af5e033fdacd7d90faa9cb1bd20af21f41fe0f9065"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/reduced_QP_crosscheck.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/reduced_QP_crosscheck.csv",
+    "bytes": 2488,
+    "sha256": "8e208040f1b88778832e413be42759bdb4a765a82802681611e0c01f81076581"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/taxon_and_community_fluxes.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/taxon_and_community_fluxes.csv",
+    "bytes": 456306,
+    "sha256": "84d2527c730f10a34703c929ef2e4029d7d4ca47c119d2fc07e327df373316f4"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/community/tradeoff_abundance_controls.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/community/tradeoff_abundance_controls.csv",
+    "bytes": 53481,
+    "sha256": "4f2fab164b0ad267c7857cdaa87092b8a72fe6af86c16da20393f2f6303119c6"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/B_adolescentis_22L_all_reaction_balance_GPR.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/curation/B_adolescentis_22L_all_reaction_balance_GPR.csv",
+    "bytes": 202924,
+    "sha256": "84c4c04815d1724a9e58f6d316f6aba1b39d87e29423cc2ad63da92b32c6d6cd"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/B_adolescentis_22L_blocked_classification.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/curation/B_adolescentis_22L_blocked_classification.csv",
+    "bytes": 84992,
+    "sha256": "c98a7c4b37ed4185c6eca2be84d6ce5e5a49298385bbeced1e6d50c73200d732"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/B_adolescentis_22L_full_FVA_gut_like.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/curation/B_adolescentis_22L_full_FVA_gut_like.csv",
+    "bytes": 143377,
+    "sha256": "ed13fd34683bd26b9aafb7cb8e68fbdeee47f73b9369b2bf10633908073a843c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/B_adolescentis_22L_full_FVA_open_exchanges.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/curation/B_adolescentis_22L_full_FVA_open_exchanges.csv",
+    "bytes": 138976,
+    "sha256": "7d8cd4fd188eceebaf93714f39c7e35a17792a2cd6e9d63e7b4b457951c97885"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/B_adolescentis_22L_gene_annotation_provenance.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/curation/B_adolescentis_22L_gene_annotation_provenance.csv",
+    "bytes": 39881,
+    "sha256": "d93bfaad83971d51821e39b9c6578b4fe2fedee4aff8e206b7f023537e447e0d"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/B_adolescentis_22L_lactate_energy_pathway_inventory.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/curation/B_adolescentis_22L_lactate_energy_pathway_inventory.csv",
+    "bytes": 4129,
+    "sha256": "60899781d94378772b212a271e5a053e1f0e5888c8d01a959d905d9af48e19cf"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_all_reaction_balance_GPR.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_all_reaction_balance_GPR.csv",
+    "bytes": 235361,
+    "sha256": "de46e11750865431ca81184f18876e23e3b1f995c14596cb52e1be4c007f9952"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_blocked_classification.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_blocked_classification.csv",
+    "bytes": 101788,
+    "sha256": "1dcac87797865e685ee248d8bf69c81b963ef9cf2cb2f18dc6766979a36e6138"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_full_FVA_gut_like.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_full_FVA_gut_like.csv",
+    "bytes": 174333,
+    "sha256": "e41c725fe0e5c6f1fa78d6a07250c64014896938c51d9c1aedd7f7311156e188"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_full_FVA_open_exchanges.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_full_FVA_open_exchanges.csv",
+    "bytes": 165870,
+    "sha256": "5d563a1286d4e5c777f46f45cb4ac7c9b7cb484a27daa62dee1b3f882e71c9cc"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_gene_annotation_provenance.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_gene_annotation_provenance.csv",
+    "bytes": 50914,
+    "sha256": "4d0a4604d344e2f2d1f6075900d3eac4f3e5f6c19abb7949d9587711143af2fe"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_lactate_energy_pathway_inventory.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_lactate_energy_pathway_inventory.csv",
+    "bytes": 6582,
+    "sha256": "6cbc9318bef27b55c4e18f7e1ad4281b2f460a3b388c2b351fd9fcdc2a7aa632"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/model_audit_summary.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/curation/model_audit_summary.csv",
+    "bytes": 569,
+    "sha256": "f1e98279d4053b3daaf7b3e7f03051a38d7c42f58e21d25ee7d6a8faf5c0ed4b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/proton_balance_change_ledger.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/curation/proton_balance_change_ledger.csv",
+    "bytes": 69,
+    "sha256": "1f00d5103dc9df6f260505a82ebf3058fe63640c40cbe1df0b44331befe1570e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/execution_status.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/execution_status.csv",
+    "bytes": 2784,
+    "sha256": "1192bbc9ab4214cd42bd8c05da040c0194dc576b9a88f39b5b4be7845262a25d"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/final_validation_summary.json",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/final_validation_summary.json",
+    "bytes": 1491,
+    "sha256": "40bd27227def208217840aca959cf8ed98a68477645b1f66df3bcc8878a90522"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/lactate_curation/alternative_directional_exchanges.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/lactate_curation/alternative_directional_exchanges.csv",
+    "bytes": 13201,
+    "sha256": "1a8e0acba64a0d4758a82bd41c38b2b141a29ac1aa8b488df076ace70eab5d76"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/lactate_curation/central_energy_flux_and_FVA.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/lactate_curation/central_energy_flux_and_FVA.csv",
+    "bytes": 3622,
+    "sha256": "9046015c7e2acff80ae321e2bb999da15e44779e8809e45ab08e1c79c0d897ec"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/lactate_curation/community_lactate_evidence_sensitivity.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/lactate_curation/community_lactate_evidence_sensitivity.csv",
+    "bytes": 20773,
+    "sha256": "eae5beb62cd75d9305068b91b1290ea4de61a658dfc8a966e244caa0c9894d4e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/lactate_curation/community_lactate_variant_fluxes.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/lactate_curation/community_lactate_variant_fluxes.csv",
+    "bytes": 162443,
+    "sha256": "29baf181c414ff4ce96d87b598faafbda33cea90c2c788ef7e2cb5eb65edc6c5"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/lactate_curation/hypothesis_variant_changes.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/lactate_curation/hypothesis_variant_changes.csv",
+    "bytes": 799,
+    "sha256": "79c261a4467f35c0633c62d9d11fa7557ec07179311b20e860b0496c77891816"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/lactate_curation/lactate_pathway_internal_fluxes.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/lactate_curation/lactate_pathway_internal_fluxes.csv",
+    "bytes": 98985,
+    "sha256": "2b1e061d3e5f570ebec8414690c378022fc605791ebb78609c22ab95afcaf1de"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/lactate_curation/lactate_pathway_mechanism_sensitivity.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/lactate_curation/lactate_pathway_mechanism_sensitivity.csv",
+    "bytes": 23769,
+    "sha256": "8cddf31a9071e75f93b16dade494e1d14d2d7748cd0695b509737bb78af09996"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/native_extension_preflight.json",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/native_extension_preflight.json",
+    "bytes": 872,
+    "sha256": "8412f30186dd2eda750353f30525681412660ea11f2d75f546ac52660d2955e1"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/pdf_geometry_check.json",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/pdf_geometry_check.json",
+    "bytes": 570,
+    "sha256": "f2b1ac8ded7d094cdd9b2b8a3fd2eab1eae7d383a8cf49169a49313f5cd442dc"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/software_versions.json",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/software_versions.json",
+    "bytes": 249,
+    "sha256": "9812ea30e9bb5de6b3014a7a777c9b237f9d0f7a0063924a12df69d628909521"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/historical_deletion_growth_product_envelopes.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/historical_deletion_growth_product_envelopes.csv",
+    "bytes": 16685,
+    "sha256": "29fc4478f9740ca7ea891aaa4af9a1ee2fa1db10dd342fbd4ee8381f924f89be"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/historical_reaction_deletion_retests.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/historical_reaction_deletion_retests.csv",
+    "bytes": 3827,
+    "sha256": "d451fc0b7ba7f79c2341b41596961618082532935d588ea40b162495953e162c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/minimal_gene_sets_and_global_GPR_knockouts.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/minimal_gene_sets_and_global_GPR_knockouts.csv",
+    "bytes": 4145,
+    "sha256": "51c8c1929c0dce1e7228bc74963f8df0186af1b38d441b420000d774a41ae2a1"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/new_exhaustive_0_to_2_target_search.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/new_exhaustive_0_to_2_target_search.csv",
+    "bytes": 17938,
+    "sha256": "2fcb08cef4460781b0efa94fcfa7923ac9bc4399976e4e72329d6488a3c8e689"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/new_search_settings.json",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/new_search_settings.json",
+    "bytes": 655,
+    "sha256": "2067022997d98924f515e63b5a96208b2fb0fb49dffda5da92667157108c6d2e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/optimization_provenance_status.json",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/optimization_provenance_status.json",
+    "bytes": 1085,
+    "sha256": "7fba104841e5f3e4d36630b43835d5ed21ed8ec0639b428301bd058595609fa2"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/original_source_search.json",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/original_source_search.json",
+    "bytes": 1890,
+    "sha256": "bc48440f978b8df25fc61fed99a682ffd5063dbb88d56d650e83e877e213befe"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/target_gene_all_reaction_associations.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/strain_design/target_gene_all_reaction_associations.csv",
+    "bytes": 39756,
+    "sha256": "46d1b9dabc3dde7f9a5879887cd1fe2de530787906ca9f6a0c4935411769654f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/supplementary_table_map.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/supplementary_table_map.csv",
+    "bytes": 1567,
+    "sha256": "81f80db71bfbd4fafc4ab6106d7fbb2b489fc7d1ba4763ac53c8cb6d3db86479"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/thermodynamics/certified_loopless_exchange_FVA.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/thermodynamics/certified_loopless_exchange_FVA.csv",
+    "bytes": 91061,
+    "sha256": "e7945bee5a751ac80f93349f53a1edde2578bdfd0db7b2a3cfb46c03de11b556"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/thermodynamics/closed_boundary_all_reaction_FVA.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/thermodynamics/closed_boundary_all_reaction_FVA.csv",
+    "bytes": 212162,
+    "sha256": "762b8d89fd9b4abc936481e74392ab53954fcfe73c90b2f58c7ea9adb96d3334"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/thermodynamics/closed_system_energy_probes.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/thermodynamics/closed_system_energy_probes.csv",
+    "bytes": 1775,
+    "sha256": "a21723bfec28cd5a5be407ace7da8ca9efe5ea82be086c610dbc40a61d834b3d"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/thermodynamics/growth_optimal_pfba_cycle_certificates.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/thermodynamics/growth_optimal_pfba_cycle_certificates.csv",
+    "bytes": 482,
+    "sha256": "8987e5786ad8d8d7e4cac74d0ddcf05848c339506787f73067cd3f154b5b528a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/verification_tests.json",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/results/verification_tests.json",
+    "bytes": 2921,
+    "sha256": "dad36c4f381c1137beba956a8f79b2106cc4e6b16499345549a4467a5009cbc7"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/scripts/audit_original_settings.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/scripts/audit_original_settings.py",
+    "bytes": 2190,
+    "sha256": "32d899a8cedc80f3d299b5c0e296f110ca48a37edf02c5e7accc5f4935dccd23"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/scripts/biomass_maintenance.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/scripts/biomass_maintenance.py",
+    "bytes": 6974,
+    "sha256": "37375105d2e920bb32e3c335a03ae0016435b9f6855f956d133e25ec2db850ff"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/scripts/build_figures.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/scripts/build_figures.py",
+    "bytes": 13524,
+    "sha256": "870253cf59649ae77de42347c18929fd9f0abfa2afb055c60bc288e75247a564"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/scripts/community_controls.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/scripts/community_controls.py",
+    "bytes": 10342,
+    "sha256": "368b3268962f9283e6cb5666d657c1cd5146b86935c4ff905b0164094cf88511"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/scripts/curation_audit.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/scripts/curation_audit.py",
+    "bytes": 7805,
+    "sha256": "da8a5a19e145a305cfd9b00bd707677401f92a38341c98606b4171930596c62d"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/scripts/engine.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/scripts/engine.py",
+    "bytes": 14211,
+    "sha256": "27d7682bb68b157d5f029c0229c5bd1406eec796b561ce41b6f09b4ef7800c6c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/scripts/lactate_mechanism.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/scripts/lactate_mechanism.py",
+    "bytes": 3977,
+    "sha256": "471a1fb0506eea0cf55d4bc843395084e2f4efd81709dd0f2c0857b1b29b0524"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/scripts/loopless_energy.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/scripts/loopless_energy.py",
+    "bytes": 8805,
+    "sha256": "d67d42646b40f7be3da4a3d793940165029f3b06c7c1c2889ff89d05a004244e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/scripts/native_extensions.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/scripts/native_extensions.py",
+    "bytes": 8437,
+    "sha256": "961aba35015ea69d61ec39ee031dd953f7ba26bd2a09363e09c4f36bef81ca9e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/scripts/optional_polish_loopless.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/scripts/optional_polish_loopless.py",
+    "bytes": 1616,
+    "sha256": "ee894ef731e37141264c27c6a51000840226f056342b998e45befa6383c1ac48"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/scripts/run_all.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/scripts/run_all.py",
+    "bytes": 564,
+    "sha256": "3109fb6f1563b575d1820f43ec0ce3d1b4322abf2528a2a45e6f4f6edc9a5720"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/scripts/targeted_curation_design.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/scripts/targeted_curation_design.py",
+    "bytes": 8390,
+    "sha256": "5ff5d2671d2be49bec5c5b353d01ad0076ac68e10f64f79673be53741a06a5cd"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/scripts/validate_native_micom.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/scripts/validate_native_micom.py",
+    "bytes": 2200,
+    "sha256": "8374baa8c634468859babf77fcd364fe0469530110ddabce2d28389dc3da90e4"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/scripts/verify_computations.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/extended/scripts/verify_computations.py",
+    "bytes": 5481,
+    "sha256": "003a9fea45927e832e9598375ce8777cb7edaa1ee322b6ae7fcb599e2757531f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/legacy_submitted_2026_08/Figure_1.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/legacy_submitted_2026_08/Figure_1.pdf",
+    "bytes": 32316,
+    "sha256": "700923112ddb52cf126cd3ab6eee814f9a4fd5139bedd4371d6c7b48b3ac6d43"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/legacy_submitted_2026_08/Figure_1.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/legacy_submitted_2026_08/Figure_1.png",
+    "bytes": 1874250,
+    "sha256": "e8b0615207a74db22c553fb54be12e06fb967f7832eb4c9dfc9b640b4b811911"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/legacy_submitted_2026_08/Figure_1.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/legacy_submitted_2026_08/Figure_1.svg",
+    "bytes": 148834,
+    "sha256": "2f8c1fa5bdd12f4bf840e690e721d299e749855e5bda8a85e65d7cfa7ce969f4"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/legacy_submitted_2026_08/Figure_2.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/legacy_submitted_2026_08/Figure_2.pdf",
+    "bytes": 42122,
+    "sha256": "c04a4827960c83ad74452cba5ce8741c86b781e268f5ca73603de7b4a642e608"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/legacy_submitted_2026_08/Figure_2.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/legacy_submitted_2026_08/Figure_2.png",
+    "bytes": 1588287,
+    "sha256": "ce01c0fb9c49925b61b1b6f1d300ad9711e9ad44debcfb89dd0d4f2f39377e0f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/legacy_submitted_2026_08/Figure_2.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/legacy_submitted_2026_08/Figure_2.svg",
+    "bytes": 154784,
+    "sha256": "3b4d66d2ac8dee66f15ee99695ceef60dc00e1fe1d3d1a4efd75272cb895c63b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_1.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_1.pdf",
+    "bytes": 40823,
+    "sha256": "c932b06d7f10df4b2d3d8480d6dc2956aee7095f0971b96bca05752c48a883ad"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_1.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_1.png",
+    "bytes": 1259532,
+    "sha256": "03738cbd0177c8875004455a6152a0c7c5d1cfa6328521299d69acfa7aa4b9e3"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_1.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_1.svg",
+    "bytes": 157045,
+    "sha256": "d687b885c256fe9de831e6af645e0e14213a9f2b245691a000ab196c52fe9e80"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_2.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_2.pdf",
+    "bytes": 39211,
+    "sha256": "492f7181ab0a985fc03ca97691820c7a252e853d96598fae73decc50e0dabe57"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_2.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_2.png",
+    "bytes": 1107804,
+    "sha256": "b78df9538a10048f8d3a7ed5992e66548a2b45e8adad47b42cce45fc01574f61"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_2.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_2.svg",
+    "bytes": 142202,
+    "sha256": "d49756c871a0487ed4976160db24c33b731b385e9f4e41560a8bbfaa3b1eb07f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_3.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_3.pdf",
+    "bytes": 39190,
+    "sha256": "7411e8d6c096f29192dc4ae27628b73af3cb8e75ecd588f44aa1ec0ea879e12e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_3.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_3.png",
+    "bytes": 1101455,
+    "sha256": "910edb6a32139c7e92ddc916d3f405c57895a9cc20489ef5313a08b9dee00228"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_3.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_3.svg",
+    "bytes": 169110,
+    "sha256": "2a8269bee2107c999438230b999e2f82d42237bfdbc0c6aab398df56b4c5bc1b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_4.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_4.pdf",
+    "bytes": 40709,
+    "sha256": "563e5d4fb203d8f44e68814be1f9edff2c9f05d18dd657d8c825604e3d2933e1"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_4.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_4.png",
+    "bytes": 2236795,
+    "sha256": "0180475aef07e332f8cd7b0d7497ed6227967248efee93d247ba821060c68e12"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_4.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_4.svg",
+    "bytes": 170998,
+    "sha256": "d30c0366c86bdaa06fb88e96832fbffc767c3d98bb4f0ed18ab2dc2163a5988a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_5.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_5.pdf",
+    "bytes": 38123,
+    "sha256": "7017c97a3cd81e070f019827b9f94fcbd1c193f6ded5431e6e272c8644d40eb5"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_5.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_5.png",
+    "bytes": 2219357,
+    "sha256": "6eab112980113fe03e3e5a08436dbd8b35a333a0326230d92e56aa0a5276668e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_5.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_5.svg",
+    "bytes": 176417,
+    "sha256": "298a069df7e436796b29875645996b8f3b8e5dea93fb61e38220d98254174c4c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_6.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_6.pdf",
+    "bytes": 36401,
+    "sha256": "38a231c67d643a63c676ee99b5b7830ea52d6330beb99e87e8d30e5ee23a8fd1"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_6.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_6.png",
+    "bytes": 1748225,
+    "sha256": "a55d564e8dfaa85f4c27cbb7238ae0a3780409bb81b6401c2751f8290460e0af"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_6.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_6.svg",
+    "bytes": 148274,
+    "sha256": "67e8a831e05065acfe97d36590b13ab41783773bc2b736708a3f411a4e71496a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_7.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_7.pdf",
+    "bytes": 39362,
+    "sha256": "523b601d0fd464705ab14bd12174011096c9df0d2470964bc1ae810d0b221b80"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_7.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_7.png",
+    "bytes": 1880104,
+    "sha256": "5f4d00f0e36b1dadadc535016bee8a33d17a3fa8ccf5700e317642f3d8e47736"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_7.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript/Figure_7.svg",
+    "bytes": 152152,
+    "sha256": "d49ac03e79508ea9d1e35c8a669d288a168e1723f479da1121ba6e0def29bf02"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_1_reviewer_corrected.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_1_reviewer_corrected.pdf",
+    "bytes": 40823,
+    "sha256": "c932b06d7f10df4b2d3d8480d6dc2956aee7095f0971b96bca05752c48a883ad"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_1_reviewer_corrected.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_1_reviewer_corrected.png",
+    "bytes": 1259532,
+    "sha256": "03738cbd0177c8875004455a6152a0c7c5d1cfa6328521299d69acfa7aa4b9e3"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_1_reviewer_corrected.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_1_reviewer_corrected.svg",
+    "bytes": 157045,
+    "sha256": "d687b885c256fe9de831e6af645e0e14213a9f2b245691a000ab196c52fe9e80"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_2_reviewer_corrected.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_2_reviewer_corrected.pdf",
+    "bytes": 39211,
+    "sha256": "492f7181ab0a985fc03ca97691820c7a252e853d96598fae73decc50e0dabe57"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_2_reviewer_corrected.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_2_reviewer_corrected.png",
+    "bytes": 1107804,
+    "sha256": "b78df9538a10048f8d3a7ed5992e66548a2b45e8adad47b42cce45fc01574f61"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_2_reviewer_corrected.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_2_reviewer_corrected.svg",
+    "bytes": 142202,
+    "sha256": "d49756c871a0487ed4976160db24c33b731b385e9f4e41560a8bbfaa3b1eb07f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R1_uptake_bound_sensitivity.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R1_uptake_bound_sensitivity.pdf",
+    "bytes": 17536,
+    "sha256": "93c0b0868bb82f5104543fc0c2c958004ef04b648ed9b68b0517688a54752a5a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R1_uptake_bound_sensitivity.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R1_uptake_bound_sensitivity.png",
+    "bytes": 142359,
+    "sha256": "9f1a46d419bff9589033cd4e7bc64724a3abffc2a21c21e393e87840d0dce340"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R1_uptake_bound_sensitivity.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R1_uptake_bound_sensitivity.svg",
+    "bytes": 18700,
+    "sha256": "29ff7970e83986166e7d6c74eef60da25fd534588f62a3549df62b309508f373"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R2_exchange_FVA_intervals.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R2_exchange_FVA_intervals.pdf",
+    "bytes": 19210,
+    "sha256": "4c570ff500d79666b300c754db01adc7f9a7c8c658fd91619805fc3bdb9c82c7"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R2_exchange_FVA_intervals.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R2_exchange_FVA_intervals.png",
+    "bytes": 87282,
+    "sha256": "48d4b3c93e3ed12b337ca23f8dd577cfdcdab9addf4b5603b57d83b9ce85bdc7"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R2_exchange_FVA_intervals.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R2_exchange_FVA_intervals.svg",
+    "bytes": 21977,
+    "sha256": "a6e69078c13ed25fc8463d672ff5f2c5090a291d5a1f57ea14119c0036ee1d00"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R3_ATP_demand_sensitivity.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R3_ATP_demand_sensitivity.pdf",
+    "bytes": 18986,
+    "sha256": "5aa4541c10090b1139263ca533953b1a96cae4316772fcf907e79385d251cebd"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R3_ATP_demand_sensitivity.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R3_ATP_demand_sensitivity.png",
+    "bytes": 119046,
+    "sha256": "613fe9bc28089a2e7d423c290a7cfc2d7cdd09ad8f9b53c6101fcaa496dc2792"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R3_ATP_demand_sensitivity.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R3_ATP_demand_sensitivity.svg",
+    "bytes": 22332,
+    "sha256": "3851eb6d45b8b7c1b958768bf45683ed0c2fc376bb5644980c5eef6c3893d99e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/supplementary/Figure_S1.pdf",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/supplementary/Figure_S1.pdf",
+    "bytes": 75543,
+    "sha256": "24c9fceb45cc8b5da796ded21d8a37ae9f34a7739c089bc2648c84cb0fe047a7"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/supplementary/Figure_S1.png",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/supplementary/Figure_S1.png",
+    "bytes": 695076,
+    "sha256": "daebe67f500e00e63a69d56f4540ca46ca6306a4b7c819982dc0997c534e2d20"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/supplementary/Figure_S1.svg",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/figures/supplementary/Figure_S1.svg",
+    "bytes": 157483,
+    "sha256": "390e68f075b906c390ee84b4e4ea2a238e8173e4322e8cf7641b975435c979e6"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_AA_rich_medium.tsv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_AA_rich_medium.tsv",
+    "bytes": 5177,
+    "sha256": "174a0a8d466303a7645a923657c7178984111d78b5ccc93e93a9bbc3d48a62f9"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_AA_rich_medium_gapseq.tsv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_AA_rich_medium_gapseq.tsv",
+    "bytes": 739,
+    "sha256": "88f96a9e7d3f773ef209f290fddde8f40e7a19cc1257434bc6a57955f3a6006a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_carbon_rich_medium.tsv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_carbon_rich_medium.tsv",
+    "bytes": 4712,
+    "sha256": "e06b5c4686818cfb174a01dde3e14cfc6e8784cb2caaca58add7bae6eee51d3e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_carbon_rich_medium_gapseq.tsv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_carbon_rich_medium_gapseq.tsv",
+    "bytes": 679,
+    "sha256": "423968131e790dd82f26045ef0a60630538fe66e6181e70170a991cf86ac5af4"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_gut_like_medium.tsv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_gut_like_medium.tsv",
+    "bytes": 3996,
+    "sha256": "674534f83f5551dda5293f80d46d33aeec0af24b524ffdc2543f010cc5df2438"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_gut_like_medium_gapseq.tsv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_gut_like_medium_gapseq.tsv",
+    "bytes": 679,
+    "sha256": "f99ffe2e41f6b533fa59865d167a41c546328e2193d070cb6f7d91f3e8a52b18"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/models/Bifidobacterium_adolescentis_filled_anaerobic.xml",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/models/Bifidobacterium_adolescentis_filled_anaerobic.xml",
+    "bytes": 5745360,
+    "sha256": "0ebe69baa1c7572a49ba13835b9248a079c4a272528ead32ed6d10b0c7a5d027"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/models/Megasphaera_sp_MJR8396C_filled_anaerobic.xml",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/models/Megasphaera_sp_MJR8396C_filled_anaerobic.xml",
+    "bytes": 7256292,
+    "sha256": "3b849c02a7e165b6c31c6edfcc62cb469814176d2067e1a6a68a0e375eeb2ccd"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/notebooks/MJR8396C_revised_manuscript_simulations.ipynb",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/notebooks/MJR8396C_revised_manuscript_simulations.ipynb",
+    "bytes": 34436,
+    "sha256": "6a6049580034d34181b284164449480e32d58e5971b8fc1797a1a46790608d07"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/notebooks/MJR8396C_revised_manuscript_simulations_EXECUTED.ipynb",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/notebooks/MJR8396C_revised_manuscript_simulations_EXECUTED.ipynb",
+    "bytes": 7383547,
+    "sha256": "82a31204e434973bc49d2101bba1e097905fb0e2871640d0542273716a54ac8b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/notebooks/START_HERE_v2.ipynb",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/notebooks/START_HERE_v2.ipynb",
+    "bytes": 1935,
+    "sha256": "7debdbe0c335cc59ade171caf3cd64d3a1128e3d385854b2d4063f08a85caf1a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/provenance/Bifidobacterium_adolescentis_gapseq_provenance_2026-05-06_13-41-12.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/provenance/Bifidobacterium_adolescentis_gapseq_provenance_2026-05-06_13-41-12.md",
+    "bytes": 5569,
+    "sha256": "3870a04ef726d760956eb88d5b55a88ca17247be318a1e71225aea479ed3914c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/provenance/Bifidobacterium_adolescentis_gapseq_run_2026-05-06_13-41-12.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/provenance/Bifidobacterium_adolescentis_gapseq_run_2026-05-06_13-41-12.log",
+    "bytes": 35956,
+    "sha256": "e41d0385f8400738802d1fd0366ef05f13fa1335335618661a22a37ef708ce52"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/provenance/MJR8396C_gapseq_reconstruction_and_gapfill_log.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/provenance/MJR8396C_gapseq_reconstruction_and_gapfill_log.md",
+    "bytes": 5810,
+    "sha256": "285e1cab406d688ac8f6430d798a9c1fca0d7757d1d4ebe145b25ae4cce8a94f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/quality_control/Bifidobacterium_adolescentis_filled_anaerobic_memote.html",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/quality_control/Bifidobacterium_adolescentis_filled_anaerobic_memote.html",
+    "bytes": 4011359,
+    "sha256": "52167a045bd3b2abf6de41285f91bed4e2e828303f553f4e3ffc358b61601350"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/quality_control/Bifidobacterium_adolescentis_filled_anaerobic_memote.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/quality_control/Bifidobacterium_adolescentis_filled_anaerobic_memote.log",
+    "bytes": 15988,
+    "sha256": "9184473641ffdc076a8e5fe2b170d9db69f2531ee5441115ab59099169c7aa0a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/quality_control/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.html",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/quality_control/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.html",
+    "bytes": 4102977,
+    "sha256": "0e0c57c2062821384e54d9987b4a3d7ff2cfac8da92544a92942b29ad6f8e57b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/quality_control/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/quality_control/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.log",
+    "bytes": 17128,
+    "sha256": "c36674d6418b91a5786fac46ca561d7efa2b32ab959763b0bc47f091b8f63856"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/quality_control/Megasphaera_vs_Bifidobacterium_memote_diff.html",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/quality_control/Megasphaera_vs_Bifidobacterium_memote_diff.html",
+    "bytes": 4471908,
+    "sha256": "c0dd1e2f9b33b021a7763c943e6b302f4a5de0f5610721fe4fb43fa425f645cd"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/quality_control/Megasphaera_vs_Bifidobacterium_memote_diff.log",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/quality_control/Megasphaera_vs_Bifidobacterium_memote_diff.log",
+    "bytes": 33779,
+    "sha256": "c21f12ea8b242855b3ef08dffe0a8d1846b98d1c3ac2a02010bce8db3982cfb1"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/repository_manifest.tsv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/repository_manifest.tsv",
+    "bytes": 38339,
+    "sha256": "6e9628d38cfca2d1f0acf3cb9b74a9078fcad9f3a5aa868c157a807e3b2d3312"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/requirements-reviewer-analyses.txt",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/requirements-reviewer-analyses.txt",
+    "bytes": 227,
+    "sha256": "1c59d24bc50213a712cd8059ba09e33bad4b5005ef3d2caa8579b26a5cdd99ac"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/requirements.txt",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/requirements.txt",
+    "bytes": 230,
+    "sha256": "3f02cf7a0712a1c3ae01e5a8c0b9361aa350b64faf85be4a5f805c855923bc20"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/scripts/bifidobacterium_monoculture_controls.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/scripts/bifidobacterium_monoculture_controls.py",
+    "bytes": 3029,
+    "sha256": "4616c28241c39143cd2c927d00e4eff641161136ef9425ac6ff3dd8e700d9343"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/scripts/community_flux_accounting.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/scripts/community_flux_accounting.py",
+    "bytes": 1088,
+    "sha256": "6bfd960d0802c23aab4c748d292e12c52db4377490858734db02a152c522005b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/scripts/pathway_context_audit.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/scripts/pathway_context_audit.py",
+    "bytes": 1969,
+    "sha256": "32ea0ae5f457a154f4321cb5588a2180fbbaa9926f10081f508b543dc8564203"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/scripts/plot_reviewer_diagnostics.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/scripts/plot_reviewer_diagnostics.py",
+    "bytes": 2817,
+    "sha256": "a606f5626c2a78e92685e4147eeb62edf95bd8339d0c9f2db99f6af19b91ef4b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/scripts/plot_revised_manuscript_figures.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/scripts/plot_revised_manuscript_figures.py",
+    "bytes": 9193,
+    "sha256": "3e83197636d7627ef14e0cb6975356f8cbf3a4d5ebed05e0e1d586f3e1cc64b4"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/scripts/reviewer_revision_analyses.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/scripts/reviewer_revision_analyses.py",
+    "bytes": 15240,
+    "sha256": "1c47deca9972c11587517e8176fc61ae2bdcfd8e6618ae3acc9dcbe7ed849789"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/scripts/run_core_simulations.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/scripts/run_core_simulations.py",
+    "bytes": 10846,
+    "sha256": "b58b904259235e1c4bc0102efc371aa153a203a2a6fc828e86e964a176110d0a"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/scripts/verify_repository.py",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/scripts/verify_repository.py",
+    "bytes": 2301,
+    "sha256": "2883012ad188699e87ddb890ecfe2d142d8af2fc770d9f3842d142859c6a80b5"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/README.md",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/README.md",
+    "bytes": 524,
+    "sha256": "4aa3273ba0a07e000f6d7e417256e0b669383f8f374357aa12f33022f3a8c5d9"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_1_model_quality_and_audit_summary.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_1_model_quality_and_audit_summary.csv",
+    "bytes": 603,
+    "sha256": "e3f4bdc34cfebf16d36b1706206a9a0758ee7080d19575c8ef4d04ad1f8c96eb"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_2_gutsmash_pathway_comparison.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_2_gutsmash_pathway_comparison.csv",
+    "bytes": 1190,
+    "sha256": "35e47a29b11dd1c35c7607ac8e2da4f4a61530b5ebcb325cfc1f612e074f8898"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_2_revised_three_medium_simulation_summary_full.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_2_revised_three_medium_simulation_summary_full.csv",
+    "bytes": 922,
+    "sha256": "4958c019289574f3534deb38f7306d91ca718c66d18f49b2f7f18e1c5c3138a2"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_3_growth_and_exchange_three_media.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_3_growth_and_exchange_three_media.csv",
+    "bytes": 683,
+    "sha256": "7c326698e229a2e4877478e670c98fca91528c01a29704e02a6831a192ec9615"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_4a_straindesign_solution_phenotypes.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_4a_straindesign_solution_phenotypes.csv",
+    "bytes": 1980,
+    "sha256": "5dfedb4e0514117efb19d67909cc47d434643a455078367895e53e1658d2e14b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_4b_straindesign_intervention_sets.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_4b_straindesign_intervention_sets.csv",
+    "bytes": 2134,
+    "sha256": "bc8c0c5b4128eff828c785295e29a8a2540d2a96232ff4f7975fdb991bd85b6f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_5_micom_exchange_fraction_0.95.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_5_micom_exchange_fraction_0.95.csv",
+    "bytes": 688,
+    "sha256": "191a4ab884f22367532eee3136cbbeff540460987641201c09113e8c708d4ea6"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S10_three_medium_simulation_full.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S10_three_medium_simulation_full.csv",
+    "bytes": 922,
+    "sha256": "4958c019289574f3534deb38f7306d91ca718c66d18f49b2f7f18e1c5c3138a2"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S11_carbon_normalized_substrate_screen.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S11_carbon_normalized_substrate_screen.csv",
+    "bytes": 3148,
+    "sha256": "9ca048b2964289b78bb8617fbaebf2a2724719757a88fab98ed457d067cce615"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S12_amino_acid_leave_one_out_revised.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S12_amino_acid_leave_one_out_revised.csv",
+    "bytes": 328,
+    "sha256": "fa94ef538f198f43eaa4c048485a998c388637403e9263f90595871b39a0d3bc"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S13_amino_acid_pair_simulations.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S13_amino_acid_pair_simulations.csv",
+    "bytes": 2751,
+    "sha256": "6ee3c0f1d2abf29d7979967ba5f50b367cabe7626610c016087cf1e7bc55e707"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S14_butyrate_production_envelope.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S14_butyrate_production_envelope.csv",
+    "bytes": 1795,
+    "sha256": "28c83a840ab9c31f50eff566303440e4ba855db3bbc82abccb2be8a7cfce3c1e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S15_strain_design_phenotypes_with_wild_type.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S15_strain_design_phenotypes_with_wild_type.csv",
+    "bytes": 2143,
+    "sha256": "ab232d86bd2ccd12047502947ea0eba7c10ac568388692b601f4151fa8f2d833"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S16_strain_design_target_frequency.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S16_strain_design_target_frequency.csv",
+    "bytes": 808,
+    "sha256": "0730a94bed4ed38b6b0c8246c52a2bb711d04d92b937bdb306ca22b7c3f86665"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S17_wild_type_pfba_key_fluxes.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S17_wild_type_pfba_key_fluxes.csv",
+    "bytes": 471,
+    "sha256": "5848f12b245a2e5bf09fc679cf17462754672def5f8ffca51fef444ec8b9a62d"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S18_Figure5_representative_designs.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S18_Figure5_representative_designs.csv",
+    "bytes": 521,
+    "sha256": "ab126e4a78a1f07a69bb517e2e0d8114cb4b37606917f7ea0c157a97e6d10601"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S19_Figure5_relative_changes_percent.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S19_Figure5_relative_changes_percent.csv",
+    "bytes": 613,
+    "sha256": "395c0dd3675d93ca05e9d4471d4ad1d4f04db0c3c4b47756a13eed25932a3641"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S1_medium_definitions_three_media.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S1_medium_definitions_three_media.csv",
+    "bytes": 2910,
+    "sha256": "2ed75f7d184cbe518f92a6df85c5517c4191b5a1d09e15a8dc0c54f6f33f6303"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S20_micom_tradeoff_scan.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S20_micom_tradeoff_scan.csv",
+    "bytes": 823,
+    "sha256": "24c743a7ea598201b423b32b823a572138e398324f2ab0ec414efb7cf01f842f"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S21_micom_exchange_classification.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S21_micom_exchange_classification.csv",
+    "bytes": 9070,
+    "sha256": "2f51a1868b1495f79ee680cf8e9a8c85a22404d1e853690605001f03e97165d7"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S22_micom_member_growth_fraction_0.95.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S22_micom_member_growth_fraction_0.95.csv",
+    "bytes": 194,
+    "sha256": "903fadc80d0b983b6913fffcb64ad2ae38ae3e4b55f2a47f1bbdff2ee89aa622"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S23_micom_lactate_scfa_exchange_table.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S23_micom_lactate_scfa_exchange_table.csv",
+    "bytes": 1193,
+    "sha256": "dc1326c5b6f5e967824121dcf169d1223d3903af234927f5394c43a9513706ab"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S24_organic_uptake_bound_sensitivity.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S24_organic_uptake_bound_sensitivity.csv",
+    "bytes": 2157,
+    "sha256": "ce7e6ad8e1207cbd24fa1c440646b5e1606e6236ce42a01e79b35ade04d46228"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S25_selected_exchange_FVA.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S25_selected_exchange_FVA.csv",
+    "bytes": 5270,
+    "sha256": "8469b115c372ce0c3b3759d6e2a4ac59c1b6ec25f601c89d3333d23221eb63f8"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S26_ATPase_closed_medium_and_demand_sensitivity.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S26_ATPase_closed_medium_and_demand_sensitivity.csv",
+    "bytes": 1920,
+    "sha256": "12d27cba1474370f4d9a5e6158e62a58e8e2b949284c6e62f597e3c04e990ae9"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S27_biomass_coefficient_sensitivity.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S27_biomass_coefficient_sensitivity.csv",
+    "bytes": 1139,
+    "sha256": "08583bcabdc2eb5046aeb745f84248b7c8e2d52d9db10e45b4de84c19f06a5ec"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S28_straindesign_target_GPR_and_single_KO.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S28_straindesign_target_GPR_and_single_KO.csv",
+    "bytes": 2874,
+    "sha256": "ab942deed16af3f17ecc1e50a251f0960b290fc9390eaab621faf9b3ff90e9ee"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S29_retested_selected_reaction_pair_deletions.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S29_retested_selected_reaction_pair_deletions.csv",
+    "bytes": 882,
+    "sha256": "27ea476701ee03dda52c41d83e8bd0a8e85f41cb3be4b5c016d379140852be13"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S2_carbon_normalized_substrate_screen.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S2_carbon_normalized_substrate_screen.csv",
+    "bytes": 3148,
+    "sha256": "9ca048b2964289b78bb8617fbaebf2a2724719757a88fab98ed457d067cce615"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S2_medium_to_exchange_mapping.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S2_medium_to_exchange_mapping.csv",
+    "bytes": 2062,
+    "sha256": "07b7bf24889dd771c897619bca8f6d1851938bbdebb3c2007cc40e166007e3e7"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S30_lactate_stereochemistry_inventory.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S30_lactate_stereochemistry_inventory.csv",
+    "bytes": 285,
+    "sha256": "55e423bc77e51e49fa7806c89153c5cc1c0adf5365706a3084027fdaf6af341b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S31_MICOM_reported_flux_abundance_accounting_not_rerun.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S31_MICOM_reported_flux_abundance_accounting_not_rerun.csv",
+    "bytes": 2450,
+    "sha256": "850e055b2efdf0a76bc5a2d42d2430284478eb89b71f93fb29718b8793d1fda7"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S32_B_adolescentis_monoculture_assumptions.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S32_B_adolescentis_monoculture_assumptions.csv",
+    "bytes": 529,
+    "sha256": "8b9f8fb1a8b05a5822593fc0febdbefc1576992abe6567a08d5e4c65739795aa"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S33_biomass_precursor_inventory.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S33_biomass_precursor_inventory.csv",
+    "bytes": 4894,
+    "sha256": "b6ef22cbaa433a05f35db37d0f5ce079acfc5c3f158e3f1491d590991ee7e56c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S33b_mass_charge_balance_audit.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S33b_mass_charge_balance_audit.csv",
+    "bytes": 139410,
+    "sha256": "74c06f4dcbad6cc432bf462466b1e0d54f11ce16e60e77d069c0d98c44a52b67"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S34_selected_pathway_reaction_FVA_concordance.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S34_selected_pathway_reaction_FVA_concordance.csv",
+    "bytes": 3093,
+    "sha256": "3423c8064cbbb2cfd64c1ea452cb27afab4568dc9f5fa03ff2874a9afad5b96e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S3A_MEMOTE_blocked_reactions.tsv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S3A_MEMOTE_blocked_reactions.tsv",
+    "bytes": 8274,
+    "sha256": "597495fbae37b5f73de8e1ce573354ca29d8c7878ca483dbc5a9a651160cef9d"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S3B_gut-like-medium_blocked _reactions.tsv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S3B_gut-like-medium_blocked _reactions.tsv",
+    "bytes": 91652,
+    "sha256": "8e1b4bc7d72be64c270d119b9cf4bd1e7e88cf23a5d7f39e17c941001e25f202"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S3_amino_acid_pair_simulations.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S3_amino_acid_pair_simulations.csv",
+    "bytes": 2751,
+    "sha256": "6ee3c0f1d2abf29d7979967ba5f50b367cabe7626610c016087cf1e7bc55e707"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S4A_reactions_without_GPR_summary.tsv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S4A_reactions_without_GPR_summary.tsv",
+    "bytes": 145,
+    "sha256": "625a1003240437a28afda5b3dba0a6831fc28c870523d17683aa9d3ba7a108d1"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S4_butyrate_production_envelope.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S4_butyrate_production_envelope.csv",
+    "bytes": 1795,
+    "sha256": "28c83a840ab9c31f50eff566303440e4ba855db3bbc82abccb2be8a7cfce3c1e"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S4_reactions_without_GPR.tsv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S4_reactions_without_GPR.tsv",
+    "bytes": 109156,
+    "sha256": "cf61330c59470bd5d16722c7962d0475a0ea27784673ab8d7ddf24c36f23fd5c"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S5_external_benchmark_simulations.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S5_external_benchmark_simulations.csv",
+    "bytes": 2073,
+    "sha256": "ce0c42990ffc3c190c054d6e905a6b73ba293f8ed8a71c12a9beb8948b78d85b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S6_external_benchmark_interpretation.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S6_external_benchmark_interpretation.csv",
+    "bytes": 1019,
+    "sha256": "b5fcef8c97c588342361716b242e06ad5a1ca7eaecdb5e6fc636240e2046fc8b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S7_comparative_genomic_context.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S7_comparative_genomic_context.csv",
+    "bytes": 1210,
+    "sha256": "62a952f6542cf73a503cdf869bbd24aad37bc33091fff0e6a9d78da0e19ae3c3"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S8_amino_acid_leave_one_out_revised.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S8_amino_acid_leave_one_out_revised.csv",
+    "bytes": 328,
+    "sha256": "fa94ef538f198f43eaa4c048485a998c388637403e9263f90595871b39a0d3bc"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S8_gutSMASH_GEM_literature_triangulation.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S8_gutSMASH_GEM_literature_triangulation.csv",
+    "bytes": 314,
+    "sha256": "ade49251f74fb1260792cdd894abfe6dcadd4f99389113484a99dea85825e307"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S9_three_medium_FVA_90pct.csv",
+    "relative_path": "megasphaera-mjr8396c-gem_major-revision/tables/Table_S9_three_medium_FVA_90pct.csv",
+    "bytes": 2025,
+    "sha256": "ba50cd121340ef5be932e1ead53a089c6bf077441fe60b5b177e37673ac5c93b"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/provenance/npjSB_manuscript__For_Submission__revised_clean_26_08_26.zip",
+    "relative_path": "provenance/npjSB_manuscript__For_Submission__revised_clean_26_08_26.zip",
+    "bytes": 295086,
+    "sha256": "77c3adc47904bb560bda900d31751be971473bb52a06c79424f6dec15472e433"
+  },
+  {
+    "source": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/repository_manifest.tsv",
+    "relative_path": "repository_manifest.tsv",
+    "bytes": 55878,
+    "sha256": "72ff3445ef5c3ef8325fcaa2d84e1cbfb648476def7e05c3310e8adc4f434322"
+  }
+]

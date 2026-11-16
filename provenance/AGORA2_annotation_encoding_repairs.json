@@ -1,0 +1,32 @@
+[
+  {
+    "original": "revision_v3/inputs/comparators/AGORA2_fixed/Megasphaera_elsdenii_DSM_20460.xml",
+    "derived": "revision_v3/inputs/comparators/encoding_repaired/Megasphaera_elsdenii_DSM_20460.xml",
+    "original_sha256": "3f703aba5a8dc2c31e87c8e77530857c7cbd36e3b31ec1df1536358f3875e21a",
+    "derived_sha256": "1a461731d2d78325caff54e9cc129c5d045bc2abcc67e5640b80ac8dda3e59fe",
+    "original_error": "Invalid bytes in character encoding, line 42151, column 94 (<string>, line 42151)",
+    "only_change": "Invalid non-UTF8 text annotation bytes interpreted as Latin1 and encoded as UTF8. No reaction, coefficient, bound, identifier or GPR edited.",
+    "replacements": [
+      {
+        "character_offset": 2793091,
+        "invalid_byte_hex": "0xbd",
+        "mapped_latin1_character": "\u00bd"
+      },
+      {
+        "character_offset": 2793093,
+        "invalid_byte_hex": "0xf4",
+        "mapped_latin1_character": "\u00f4"
+      },
+      {
+        "character_offset": 2793097,
+        "invalid_byte_hex": "0xbd",
+        "mapped_latin1_character": "\u00bd"
+      },
+      {
+        "character_offset": 2793099,
+        "invalid_byte_hex": "0xf4",
+        "mapped_latin1_character": "\u00f4"
+      }
+    ]
+  }
+]

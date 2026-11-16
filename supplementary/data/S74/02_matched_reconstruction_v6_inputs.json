@@ -1,0 +1,38 @@
+[
+  {
+    "name": "MJR8396C",
+    "accession": "GCA_001546855.1",
+    "biomass_template": "neg",
+    "source": "inputs/genomes/GCA_001546855.1/genomic.fna",
+    "source_sha256": "b5de1df8e9d1ff065bf05b2be449be2977ea6187665445431553794246537a9c",
+    "input": "results/matched_reconstruction_v6/MJR8396C/MJR8396C.fna",
+    "annotation": "uniform native gapseq pyrodigal translation; NOT published NM10/BL7 models"
+  },
+  {
+    "name": "NM10",
+    "accession": "GCA_000417505.1",
+    "biomass_template": "neg",
+    "source": "inputs/genomes/GCA_000417505.1/genomic.fna",
+    "source_sha256": "4e7b7142048e30f3f6431447abad523bf9a8032569862137148ac3aa4ec25aea",
+    "input": "results/matched_reconstruction_v6/NM10/NM10.fna",
+    "annotation": "uniform native gapseq pyrodigal translation; NOT published NM10/BL7 models"
+  },
+  {
+    "name": "BL7",
+    "accession": "GCA_000417525.1",
+    "biomass_template": "neg",
+    "source": "inputs/genomes/GCA_000417525.1/genomic.fna",
+    "source_sha256": "ceffaa8902f2a5a4680a64aa1ad52694b7ec0650f0fb6818092d4968b33e7c97",
+    "input": "results/matched_reconstruction_v6/BL7/BL7.fna",
+    "annotation": "uniform native gapseq pyrodigal translation; NOT published NM10/BL7 models"
+  },
+  {
+    "name": "B22L",
+    "accession": "GCF_000737885.1",
+    "biomass_template": "pos",
+    "source": "inputs/genomes/GCF_000737885.1/genomic.fna",
+    "source_sha256": "c86668611318d9847df27dc42ecdac64c80487cfd57eabb4fea2183a68dbb36e",
+    "input": "results/matched_reconstruction_v6/B22L/B22L.fna",
+    "annotation": "uniform native gapseq pyrodigal translation; NOT published NM10/BL7 models"
+  }
+]

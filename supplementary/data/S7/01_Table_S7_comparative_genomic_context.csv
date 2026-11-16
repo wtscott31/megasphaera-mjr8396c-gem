@@ -1,0 +1,6 @@
+Table_S11_comparative_genomic_context
+strain,accession,isolation_site,habitat_category,genome_size_Mb,GC_percent,coding_sequences,evidence_scope,comparator_role,provenance_note
+Megasphaera sp. MJR8396C,GCA_001546855.1 (WGS LRVC00000000),human vagina (NCBI BioSample),human vaginal,,,2422,current genome/model,target strain; reconstructed and gutSMASH-analysed in this study,deposited as MJR9396C in the NCBI genome report; MJR8396C used throughout this study;
+Megasphaera elsdenii DSM 20460,GCA_003010495.1,rumen,rumen,2.47,52.8,2220,published complete genome,physiological comparator; lactate kinetics and organic-acid partitioning,published genome size and GC from Shetty et al. 2013; alternative records GCA_000283495.2 / HE576794
+Megasphaera indica NM10,APHY00000000,human feces,human gut,2.615,54.3,2436,published draft genome,human-gut genomic comparator,Shetty et al. 2013 report NM10 and BL7 as closely related human-gut isolates distinct from ruminal M. elsdenii
+Megasphaera sp. BL7,APHX00000000,human feces,human gut,2.656,54.3,2432,published draft genome,human-gut genomic comparator,Shetty et al. 2013 report NM10 and BL7 as closely related human-gut isolates distinct from ruminal M. elsdenii

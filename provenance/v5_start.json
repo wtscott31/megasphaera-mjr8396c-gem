@@ -1,0 +1,6 @@
+{
+  "created_utc": "2026-10-26T21:01:55.227605+00:00",
+  "baseline": "checksum-verified v4 portable archive",
+  "purpose": "Reconcile full reviewer reports supplied by the user; preserve v4 unchanged",
+  "baseline_zip_sha256": "ad3cccccd330eadf991300296b5c4cd6028ba8fd15a9c5744c88d89a96f99619"
+}

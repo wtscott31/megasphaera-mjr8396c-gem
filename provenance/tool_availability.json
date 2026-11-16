@@ -1,0 +1,31 @@
+{
+  "tools": {
+    "skani": "/Users/wtscott/bin/skani",
+    "fastANI": "/Users/wtscott/bin/fastANI",
+    "blastp": "/opt/homebrew/bin/blastp",
+    "diamond": "/opt/homebrew/bin/diamond",
+    "gtdbtk": null,
+    "datasets": null,
+    "pdflatex": "/Library/TeX/texbin/pdflatex",
+    "bibtex": "/Library/TeX/texbin/bibtex",
+    "biber": "/Library/TeX/texbin/biber",
+    "latexmk": "/Library/TeX/texbin/latexmk",
+    "latexdiff": "/Library/TeX/texbin/latexdiff"
+  },
+  "GTDBTK_DATA_PATH_set": false,
+  "GLPK_native_version": "5.0",
+  "cobra_solver_interfaces": [
+    "glpk_exact",
+    "glpk",
+    "gurobi",
+    "hybrid",
+    "osqp",
+    "scipy"
+  ],
+  "functional_used": [
+    "GLPK",
+    "HiGHS",
+    "OSQP (partial QP convergence)"
+  ],
+  "gurobi": "installed but expired license; not used"
+}

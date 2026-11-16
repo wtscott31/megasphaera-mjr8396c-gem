@@ -1,0 +1,88 @@
+[
+  {
+    "contig": "APHY01000022.1",
+    "start_1based": 13350,
+    "end": 14366,
+    "strand": -1,
+    "qualifiers": {
+      "locus_tag": [
+        "NM10_04856"
+      ],
+      "note": [
+        "COG2025 Electron transfer flavoprotein, alpha subunit"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "11"
+      ],
+      "product": [
+        "electron transfer flavoprotein subunit alpha/FixB family protein"
+      ],
+      "protein_id": [
+        "EPP18101.1"
+      ]
+    },
+    "translation_length": 338
+  },
+  {
+    "contig": "APHY01000022.1",
+    "start_1based": 14387,
+    "end": 15199,
+    "strand": -1,
+    "qualifiers": {
+      "locus_tag": [
+        "NM10_04861"
+      ],
+      "note": [
+        "COG2086 Electron transfer flavoprotein, beta subunit"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "11"
+      ],
+      "product": [
+        "electron transfer flavoprotein subunit beta"
+      ],
+      "protein_id": [
+        "EPP18102.1"
+      ]
+    },
+    "translation_length": 270
+  },
+  {
+    "contig": "APHY01000022.1",
+    "start_1based": 16772,
+    "end": 17386,
+    "strand": -1,
+    "qualifiers": {
+      "locus_tag": [
+        "NM10_04876"
+      ],
+      "note": [
+        "COG0494 NTP pyrophosphohydrolases including oxidative damage repair enzymes"
+      ],
+      "codon_start": [
+        "1"
+      ],
+      "transl_table": [
+        "11"
+      ],
+      "product": [
+        "hydrolase"
+      ],
+      "protein_id": [
+        "EPP18103.1"
+      ]
+    },
+    "translation_length": 204
+  },
+  {
+    "contig": "APHY01000022.1",
+    "window": "15000-17000",
+    "ambiguous_bases": 0
+  }
+]

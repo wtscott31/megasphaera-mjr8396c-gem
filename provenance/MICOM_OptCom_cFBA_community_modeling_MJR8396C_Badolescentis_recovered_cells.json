@@ -1,0 +1,62 @@
+[
+  {
+    "cell_index_zero_based": 0,
+    "execution_count": null,
+    "source": "# MICOM, OptCom-like, and cFBA/flux-sampling community modeling for MJR8396C + *Bifidobacterium adolescentis*\n\n**Purpose.** This notebook implements a manuscript-ready community-modeling workflow using the final MJR8396C anaerobic model and the manuscript repository's *Bifidobacterium adolescentis* model.\n\n**Why this workflow.** MICOM's cooperative tradeoff gives a practical community optimum conceptually similar to OptCom but faster. OptCom-like scenario analysis is included by varying community and species-level objectives/constraints. cFBA-style uncertainty is represented by flux sampling under constrained community states.\n\n**Biological hypothesis.** The main literature-supported claim is not acetate cross-feeding but **Bifidobacterium-derived lactate supporting Megasphaera growth and butyrate formation**. This notebook therefore separates:\n\n1. unconstrained community growth,\n2. cooperative-tradeoff solutions,\n3. lactate-transfer-constrained scenarios,\n4. butyrate-phenotype-targeted scenarios,\n5. flux-sampling uncertainty.\n\n**Caution.** A model-predicted exchange is not direct experimental validation. Report this as a constrained mechanistic hypothesis unless direct coculture data for MJR8396C become available."
+  },
+  {
+    "cell_index_zero_based": 1,
+    "execution_count": 1,
+    "source": "from pathlib import Path\nimport os, sys, re, json, math, warnings, logging\nimport numpy as np\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\nROOT = Path('/Users/wtscott/DataspellProjects/Magesphaera_Project').resolve()\nINPUT = ROOT / 'inputs'\nMODELS = INPUT / 'models'\nMEDIA = INPUT / 'media'\nOUT = ROOT / 'outputs'\nFIG = OUT / 'figures'\nTAB = OUT / 'tables'\nfor p in [OUT, FIG, TAB]:\n    p.mkdir(parents=True, exist_ok=True)\n\nMEG_MODEL = MODELS / 'Megasphaera_sp_MJR8396C_filled_anaerobic.xml'\nBIF_MODEL = MODELS / 'Bifidobacterium_adolescentis_filled_anaerobic.xml'\nMEDIUM_FILE = MEDIA / 'MJR8396C_candidate_anaerobic_medium_gapseq_revised.csv'\nprint(MEG_MODEL.exists(), MEG_MODEL)\nprint(BIF_MODEL.exists(), BIF_MODEL)\nprint(MEDIUM_FILE.exists(), MEDIUM_FILE)"
+  },
+  {
+    "cell_index_zero_based": 2,
+    "execution_count": 2,
+    "source": "packages = ['cobra', 'micom', 'pandas', 'numpy', 'matplotlib', 'scipy']\nfor pkg in packages:\n    try:\n        mod = __import__(pkg)\n        print(f'{pkg:12s}', getattr(mod, '__version__', 'imported'))\n    except Exception as e:\n        print(f'{pkg:12s} NOT IMPORTABLE: {e}')\n\nimport cobra\nfrom cobra.flux_analysis import pfba\nfrom cobra.sampling import ACHRSampler\ntry:\n    from micom import Community\nexcept Exception as e:\n    Community = None\n    print('MICOM import failed:', e)\n\nfor candidate in ['cplex', 'gurobi', 'osqp', 'glpk']:\n    try:\n        cobra.Configuration().solver = candidate\n        break\n    except Exception:\n        pass\nprint('COBRA solver:', cobra.Configuration().solver)"
+  },
+  {
+    "cell_index_zero_based": 4,
+    "execution_count": 3,
+    "source": "meg = cobra.io.read_sbml_model(str(MEG_MODEL))\nbad = cobra.io.read_sbml_model(str(BIF_MODEL))\nmeg.id = 'meg'\nbad.id = 'bad'\n\n# Identify biomass reactions.\ndef biomass_id(model):\n    candidates = [r.id for r in model.reactions if 'bio' in r.id.lower() or 'biomass' in (r.name or '').lower()]\n    # Prefer known gapseq biomass.\n    if 'R_bio1' in model.reactions:\n        return 'R_bio1'\n    return candidates[0]\n\nMEG_BIOMASS = biomass_id(meg)\nBAD_BIOMASS = biomass_id(bad)\nprint('Meg biomass:', MEG_BIOMASS, meg.reactions.get_by_id(MEG_BIOMASS).name)\nprint('Bif biomass:', BAD_BIOMASS, bad.reactions.get_by_id(BAD_BIOMASS).name)\n\nfor m, bio in [(meg, MEG_BIOMASS), (bad, BAD_BIOMASS)]:\n    m.objective = bio\n    print(m.id, len(m.reactions), len(m.metabolites), len(m.genes), 'growth:', m.slim_optimize())"
+  },
+  {
+    "cell_index_zero_based": 7,
+    "execution_count": 5,
+    "source": "def apply_gapseq_medium(model, medium_csv, close_exchange=True):\n    model = model.copy()\n    medium = pd.read_csv(medium_csv)\n    if close_exchange:\n        for r in model.exchanges:\n            r.lower_bound = 0.0\n            r.upper_bound = max(r.upper_bound, 1000.0)\n    rows=[]\n    for _, row in medium.iterrows():\n        cpd = str(row['compounds']).strip()\n        max_flux = float(row['maxFlux'])\n        rid = f'EX_{cpd}_e0'\n        if rid in model.reactions:\n            model.reactions.get_by_id(rid).lower_bound = -max_flux if max_flux > 0 else 0.0\n            model.reactions.get_by_id(rid).upper_bound = max(model.reactions.get_by_id(rid).upper_bound, 1000.0)\n            rows.append({'compound': cpd, 'reaction': rid, 'maxFlux': max_flux, 'status': 'applied'})\n        else:\n            rows.append({'compound': cpd, 'reaction': rid, 'maxFlux': max_flux, 'status': 'missing'})\n    return model, pd.DataFrame(rows)\n\nmeg_med, medmap = apply_gapseq_medium(meg, MEDIUM_FILE, close_exchange=True)\nmeg_med.objective = MEG_BIOMASS\nprint('Megasphaera anaerobic growth:', meg_med.slim_optimize())\nmedmap.to_csv(TAB/'community_megasphaera_medium_mapping.csv', index=False)\n\n# Bifidobacterium control: leave original medium bounds first.\nbad_control = bad.copy()\nbad_control.objective = BAD_BIOMASS\nprint('Bifidobacterium original-bound growth:', bad_control.slim_optimize())"
+  },
+  {
+    "cell_index_zero_based": 9,
+    "execution_count": 6,
+    "source": "# MICOM requires a taxonomy table with file paths.\ntaxonomy = pd.DataFrame({\n    'id': ['meg', 'bad'],\n    'genus': ['Megasphaera', 'Bifidobacterium'],\n    'species': ['Megasphaera_sp_MJR8396C', 'Bifidobacterium_adolescentis'],\n    'file': [str(MEG_MODEL), str(BIF_MODEL)],\n    'abundance': [0.5, 0.5]\n})\ntaxonomy.to_csv(TAB/'micom_taxonomy_table.csv', index=False)\ndisplay(taxonomy)\n\nfrom cobra.util.solver import solvers\nimport cobra\n\navailable = list(solvers.keys())\nprint(\"Available solvers:\", available)\n\npreferred = [\"cplex\", \"gurobi\", \"osqp\", \"glpk\", \"scipy\"]\nMICOM_SOLVER = next((s for s in preferred if s in available), None)\n\nif MICOM_SOLVER is None:\n    raise RuntimeError(f\"No usable MICOM/COBRA solver found. Available: {available}\")\n\nprint(\"Using MICOM solver:\", MICOM_SOLVER)\n\n# Do NOT use str(cobra.Configuration().solver)\nif Community is not None:\n    com = Community(taxonomy, solver=MICOM_SOLVER)\n    print(com)\nelse:\n    com = None\n    print(\"MICOM unavailable in this Python environment.\")"
+  },
+  {
+    "cell_index_zero_based": 10,
+    "execution_count": 7,
+    "source": "LP_SOLVER = \"gurobi\"       # community build, FBA, pFBA, exchange checks\nQP_SOLVER = \"gurobi\"       # cooperative tradeoff if available and stable\nMILP_SOLVER = \"gurobi\""
+  },
+  {
+    "cell_index_zero_based": 11,
+    "execution_count": 8,
+    "source": "com = Community(taxonomy, solver=LP_SOLVER)"
+  },
+  {
+    "cell_index_zero_based": 12,
+    "execution_count": 9,
+    "source": "import re\nimport pandas as pd\n\ndef micom_exchange_table(com):\n    \"\"\"Return MICOM community exchange reactions as a DataFrame.\"\"\"\n    rows = []\n    for r in com.exchanges:\n        mets = list(r.metabolites)\n        met = mets[0] if mets else None\n        rows.append({\n            \"reaction\": r.id,\n            \"name\": r.name,\n            \"metabolite\": met.id if met is not None else \"\",\n            \"metabolite_name\": met.name if met is not None else \"\",\n            \"formula\": getattr(met, \"formula\", \"\") if met is not None else \"\",\n            \"lower_bound\": r.lower_bound,\n            \"upper_bound\": r.upper_bound,\n        })\n    return pd.DataFrame(rows)\n\n\ndef build_micom_medium_from_gapseq(com, medium_csv):\n    \"\"\"\n    Convert a gapseq medium CSV with columns 'compounds' and 'maxFlux'\n    into a MICOM community medium.\n\n    MICOM expects community exchange reaction IDs as keys and positive\n    import fluxes as values, e.g. {'EX_cpd00027_m': 10.0}.\n    \"\"\"\n    medium_df = pd.read_csv(medium_csv)\n    exchange_ids = {r.id for r in com.exchanges}\n\n    # Map cpd IDs to MICOM exchange IDs actually present in the community.\n    exchange_by_cpd = {}\n    for rid in exchange_ids:\n        match = re.search(r\"(cpd\\d+)\", rid)\n        if match:\n            exchange_by_cpd.setdefault(match.group(1), []).append(rid)\n\n    medium = {}\n    rows = []\n\n    for _, row in medium_df.iterrows():\n        cpd = str(row[\"compounds\"]).strip()\n        max_flux = float(row[\"maxFlux\"])\n\n        direct_candidates = [\n            f\"EX_{cpd}_m\",\n            f\"EX_{cpd}_e0_m\",\n            f\"EX_{cpd}_e_m\",\n            f\"R_EX_{cpd}_m\",\n            f\"R_EX_{cpd}_e0_m\",\n            f\"R_EX_{cpd}_e_m\",\n        ]\n\n        rid = next((candidate for candidate in direct_candidates if candidate in exchange_ids), None)\n\n        if rid is None:\n            hits = sorted(exchange_by_cpd.get(cpd, []))\n            if len(hits) == 1:\n                rid = hits[0]\n            elif len(hits) > 1:\n                # Prefer the clean community medium exchange if several exist.\n                preferred = [h for h in hits if h == f\"EX_{cpd}_m\"]\n                rid = preferred[0] if preferred else hits[0]\n\n        if rid is not None and max_flux > 0:\n            medium[rid] = max_flux\n            status = \"applied\"\n        elif rid is not None:\n            status = \"zero_flux\"\n        else:\n            status = \"missing\"\n\n        rows.append({\n            \"compound\": cpd,\n            \"micom_exchange\": rid or \"\",\n            \"maxFlux\": max_flux,\n            \"status\": status,\n        })\n\n    return medium, pd.DataFrame(rows)"
+  },
+  {
+    "cell_index_zero_based": 14,
+    "execution_count": 11,
+    "source": "import optlang\nimport gurobipy\nimport traceback\n\nprint(\"optlang version:\", getattr(optlang, \"__version__\", \"unknown\"))\nprint(\"gurobipy version:\", gurobipy.gurobi.version())\nprint(\"available_solvers:\", optlang.available_solvers)\n\ntry:\n    import optlang.gurobi_interface as gi\n    print(\"optlang.gurobi_interface import: OK\")\n    print(\"Gurobi interface Model:\", gi.Model)\nexcept Exception:\n    print(\"optlang.gurobi_interface import: FAILED\")\n    traceback.print_exc()"
+  },
+  {
+    "cell_index_zero_based": 16,
+    "execution_count": null,
+    "source": "## MICOM cooperative tradeoff\n\nMICOM's cooperative tradeoff first computes maximum community growth and then, at a user-specified fraction of that optimum, distributes individual growth rates across taxa. This is a practical, reproducible community objective that approximates the species/community tradeoff logic that motivated OptCom."
+  },
+  {
+    "cell_index_zero_based": 43,
+    "execution_count": null,
+    "source": "## OptCom-like objective ensemble\n\nA full OptCom implementation is a multilevel/multiobjective program. Here, we implement a transparent *OptCom-like* ensemble that varies:\n\n- community growth fraction,\n- minimum member growth,\n- lactate-transfer constraints,\n- butyrate-production objective or threshold.\n\nThis provides scenario robustness without forcing a single over-interpreted community optimum."
+  }
+]

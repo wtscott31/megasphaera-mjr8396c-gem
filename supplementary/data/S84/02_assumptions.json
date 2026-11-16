@@ -1,0 +1,32 @@
+[
+  {
+    "model": "MJR8396C",
+    "GC_fraction": 0.5102897936895038,
+    "assumed_DNA_mass": 0.03099976061586465,
+    "assumed_protein_mass": 0.5499922685697294,
+    "template_total_mass": 0.9999880403303026,
+    "DNA_evidence": "Genome-derived double-strand mole fractions; inherited DNA mass fraction",
+    "protein_evidence": "Uniform abundance across translated ORFs; NOT measured proteomics",
+    "remaining": "RNA/lipid/cell-wall fractions and GAM/NGAM remain template assumptions"
+  },
+  {
+    "model": "NM10",
+    "GC_fraction": 0.532278849367409,
+    "assumed_DNA_mass": 0.03099976061586465,
+    "assumed_protein_mass": 0.5499922685697294,
+    "template_total_mass": 0.9999880403303035,
+    "DNA_evidence": "Genome-derived double-strand mole fractions; inherited DNA mass fraction",
+    "protein_evidence": "Uniform abundance across translated ORFs; NOT measured proteomics",
+    "remaining": "RNA/lipid/cell-wall fractions and GAM/NGAM remain template assumptions"
+  },
+  {
+    "model": "BL7",
+    "GC_fraction": 0.5318056386915585,
+    "assumed_DNA_mass": 0.03099976061586465,
+    "assumed_protein_mass": 0.5499922685697294,
+    "template_total_mass": 0.9999880403303026,
+    "DNA_evidence": "Genome-derived double-strand mole fractions; inherited DNA mass fraction",
+    "protein_evidence": "Uniform abundance across translated ORFs; NOT measured proteomics",
+    "remaining": "RNA/lipid/cell-wall fractions and GAM/NGAM remain template assumptions"
+  }
+]

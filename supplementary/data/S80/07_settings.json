@@ -1,0 +1,38 @@
+{
+  "native_MICOM": "0.39.1",
+  "local_QP_adapter": "conditional_gradient_qp.py; full native matrix; no MICOM source edits",
+  "M": "models/MJR8396C_sequence_supported_GPR_curated_v6.xml",
+  "M_sha256": "6e9298f1053b2aaf49dd1c1ac647c265ad00121accbb6e0b631097676cdbf95e",
+  "B": "baseline_v2/megasphaera-mjr8396c-gem_major-revision/models/Bifidobacterium_adolescentis_filled_anaerobic.xml",
+  "B_sha256": "0ebe69baa1c7572a49ba13835b9248a079c4a272528ead32ed6d10b0c7a5d027",
+  "medium_basis": "single shared pool mmol / community gDW / h; abundance-weighted taxon exchange accounting",
+  "controls": [
+    "baseline",
+    "no_external_lactate",
+    "block_D",
+    "block_L",
+    "block_both",
+    "block_acetate",
+    "B_no_lactate_uptake",
+    "no_lactate_block_D",
+    "no_lactate_block_L",
+    "no_lactate_block_both",
+    "no_lactate_block_acetate",
+    "no_lactate_B_no_uptake"
+  ],
+  "abundances": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+  ],
+  "tradeoffs": [
+    0.5,
+    0.8,
+    0.95,
+    1.0
+  ],
+  "reconstruction_scope": "MJR8396C/NM10/BL7 pairs use NEW uniform automated reconstructions; GPRcurated pairs derive from deposited models",
+  "serialization_note": "New locus tags stored as gene notes/names, not NCBI Gene identifiers. This annotation serialization correction leaves every reaction, coefficient, bound and GPR identical to the numerical input."
+}

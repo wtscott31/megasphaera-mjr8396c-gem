@@ -1,0 +1,44 @@
+{
+  "checked_utc": "2026-10-26T21:31:25.649354+00:00",
+  "all_pages_rendered": 113,
+  "documents": [
+    {
+      "document": "MJR8396C_v5_readiness_report.pdf",
+      "pages": 5,
+      "sha256": "b03cb388f64448a4d1322043552da2b2cf42687cedd2e39ca798c73e99ef9dcf",
+      "replacement_characters": 0,
+      "question_mark_pairs": 0,
+      "quoted_reviewer_question_pairs_allowed": 0
+    },
+    {
+      "document": "manuscript/manuscript_clean_v5/main.pdf",
+      "pages": 46,
+      "sha256": "80ff32ef889662695ceecd275c51df56597caaa3de263fe00ce035e2c39dd5d4",
+      "replacement_characters": 0,
+      "question_mark_pairs": 0,
+      "quoted_reviewer_question_pairs_allowed": 0
+    },
+    {
+      "document": "manuscript/manuscript_tracked_v5/main_tracked.pdf",
+      "pages": 46,
+      "sha256": "af42a63814578e7cc5c6f5e5ef5c5f2a59dba0ed2cc6e7cced80c5117577caa7",
+      "replacement_characters": 0,
+      "question_mark_pairs": 0,
+      "quoted_reviewer_question_pairs_allowed": 0
+    },
+    {
+      "document": "manuscript/response_v5/response_letter_npjSB_v5.pdf",
+      "pages": 16,
+      "sha256": "17d4cff61483231c379678c44c5177b79c82c19760fa143aecc96d459babfb2e",
+      "replacement_characters": 0,
+      "question_mark_pairs": 1,
+      "quoted_reviewer_question_pairs_allowed": 1
+    }
+  ],
+  "visual_review": "All 11 final contact sheets inspected, plus full-size final Figures 1-2, clean pathway/concordance and intervention tables, Reviewer 3 unresolved-comparison response, and report evidence page. No clipping, text collisions or overfull boxes remain. Tables numbered consecutively 1-7; reviewer question marks are retained verbatim.",
+  "specific_undefined_citation_or_reference_warnings": false,
+  "figures_3_to_7_preserved": true,
+  "scientific_tests": "41 passed",
+  "executed_notebook": "7 code cells, zero errors",
+  "limitations": "Generic biblatex/BibTeX rerun warning can persist with resolved citations; no specific undefined citation/ref or ?? outside supplied reviewer quotation."
+}

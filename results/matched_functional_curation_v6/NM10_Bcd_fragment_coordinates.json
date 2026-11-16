@@ -1,0 +1,22 @@
+[
+  {
+    "protein": "APHY01000022.1_17",
+    "contig": "APHY01000022.1",
+    "start": 15704,
+    "end": 16423,
+    "strand": -1,
+    "query_start": 1,
+    "query_end": 187,
+    "identity": 97.3
+  },
+  {
+    "protein": "APHY01000022.1_16",
+    "contig": "APHY01000022.1",
+    "start": 15273,
+    "end": 15743,
+    "strand": -1,
+    "query_start": 228,
+    "query_end": 383,
+    "identity": 100.0
+  }
+]

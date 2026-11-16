@@ -1,0 +1,96 @@
+{
+  "source": "revision_v3/inputs/original_project/StrainsDesign_MJR8396C_growth_coupled_butyrate.ipynb",
+  "sha256": "b1b5e4874f8205a4a7882db34c79d470a4379594f77a65859ef650d83e23666f",
+  "cell_numbering": "zero_based",
+  "recovered": {
+    "MAX_COST": 2,
+    "MAX_SOLUTIONS": 5,
+    "TIME_LIMIT_seconds": 1800,
+    "MIN_GROWTH_FRACTION": 0.25,
+    "EPS_tilt": 0.001,
+    "USE_PRIORITY_ONLY": true,
+    "knockout_cost": 1,
+    "candidate_count_recorded": 78,
+    "inner_objective": "bio1",
+    "tilted_inner_objective": "bio1 - 0.001 EX_cpd00211_e0",
+    "outer_objective": "EX_cpd00211_e0",
+    "solution_approach": "BEST",
+    "solver_recorded": "GLPK via optlang 1.8.3",
+    "cobra_recorded": "0.30.0",
+    "source_cells": [
+      2,
+      4,
+      11,
+      13,
+      14
+    ]
+  },
+  "not_recovered": [
+    "Exact StrainDesign installed version: notebook prints imported, not a version.",
+    "Full serialized solver solution/proof objects and solver binary version.",
+    "All original runtime tolerance/defaults; each random seed is retained where printed in outputs."
+  ],
+  "run_output_evidence": [
+    {
+      "cell": 1,
+      "output": 0,
+      "text": "ROOT: /Users/wtscott/DataspellProjects/Magesphaera_Project\nMODEL exists: True /Users/wtscott/DataspellProjects/Magesphaera_Project/inputs/models/Megasphaera_sp_MJR8396C_filled_anaerobic.xml\nMEDIUM exists: True /Users/wtscott/DataspellProjects/Magesphaera_Project/inputs/media/MJR8396C_candidate_anaerobic_medium_gapseq_revised.csv\nMEMOTE exists: True /Users/wtscott/DataspellProjects/Magesphaera_Project/inputs/reports/Megasphaera_sp_MJR8396C_filled_anaerobic.html\n"
+    },
+    {
+      "cell": 4,
+      "output": 1,
+      "text": "\nreactions: 1849 metabolites: 1614 genes: 477\nBiomass candidates: ['bio1']\nUsing biomass reaction: bio1 Bacterial Gram-negative biomass reaction\n"
+    },
+    {
+      "cell": 7,
+      "output": 1,
+      "text": "WT growth: 0.7004949341392637 optimal\n"
+    },
+    {
+      "cell": 11,
+      "output": 0,
+      "text": "Candidate reaction knockouts: 1229\nPriority candidates: 78\n"
+    },
+    {
+      "cell": 13,
+      "output": 0,
+      "text": "mu_max: 0.7004949341392513 min_growth: 0.17512373353481284\nUsing KO candidates: 78\nTarget: EX_cpd00211_e0 Butyrate-e0 Exchange\nByproducts: [('EX_cpd00141_e0', 'Propionate-e0 Exchange'), ('EX_cpd00239_e0', 'H2S-e0 Exchange'), ('EX_cpd00324_e0', 'MTTL-e0 Exchange'), ('EX_cpd00013_e0', 'NH3-e0 Exchange')]\nModules prepared: ['optknock', 'tilted_optknock', 'robustknock', 'optcouple']\n"
+    },
+    {
+      "cell": 14,
+      "output": 0,
+      "text": "INFO:root:Preparing strain design computation.\nWARNING:root:Selected solver <module 'optlang.glpk_interface' from '/Users/wtscott/Library/CloudStorage/OneDrive-purdue.edu/DataspellProjects/Dehalobacter_Project/.venv/lib/python3.9/site-packages/optlang/glpk_interface.py'> not available. Using glpk instead.\nINFO:root:  Using random seed 31898\nINFO:root:  Using glpk for solving LPs during preprocessing.\n"
+    },
+    {
+      "cell": 14,
+      "output": 2,
+      "text": "WARNING:straindesign.compression:Removing reaction bounds >= 1000.\nINFO:root:  FVA to identify blocked reactions and irreversibilities.\nINFO:root:  FVA(s) to identify essential reactions.\nINFO:root:Compressing Network (1849 reactions).\nINFO:straindesign.compression:  Removing blocked reactions.\n/Users/wtscott/Library/CloudStorage/OneDrive-purdue.edu/DataspellProjects/Dehalobacter_Project/.venv/lib/python3.9/site-packages/cobra/core/group.py:147: UserWarning: need to pass in a list\n  warn(\"need to pass in a list\")\nINFO:straindesign.compression:  Converting coefficients to rationals.\nINFO:straindesign.compression:  Removing conservation relations.\nINFO:straindesign.compression:  Compression 1: Lumping coupled reactions.\nINFO:straindesign.compression:Compression complete: 5 iterations, 609 zero-flux, 84 contradicting, 560 coupled, 1018 unused metabolites\nINFO:straindesign.compression:  Reduced to 766 reactions.\nINFO:straindesign.compression:  Compression 2: Lumping parallel reactions.\n/Users/wtscott/Library/CloudStorage/OneDrive-purdue.edu/DataspellProjects/Dehalobacter_Project/.venv/lib/python3.9/site-packages/straindesign/compression.py:1855: RuntimeWarning: divide by zero encountered in matmul\n  new_objective = old_objective @ subT\n/Users/wtscott/Library/CloudStorage/OneDrive-purdue.edu/DataspellProjects/Dehalobacter_Project/.venv/lib/python3.9/site-packages/straindesign/compression.py:1855: RuntimeWarning: overflow encountered in matmul\n  new_objective = old_objective @ subT\n/Users/wtscott/Library/CloudStorage/OneDrive-purdue.edu/DataspellProjects/Dehalobacter_Project/.venv/lib/python3.9/site-packages/straindesign/compression.py:1855: RuntimeWarning: invalid value encountered in matmul\n  new_objective = old_objective @ subT\nINFO:straindesign.compression:  No further reduction (766 reactions).\nINFO:straindesign.compression:  Compression complete (1 iterations).\nINFO:root:  FVA(s) in compressed model to identify essential reactions.\nINFO:root:Finished preprocessing:\nINFO:root:  Model size: 766 reactions, 322 metabolites\nINFO:root:  36 targetable reactions\nWARNING:root:GLPK only supports strain design computation with the bigM method. Using cobra bound: 1000.0 as M.\nWARNING:straindesign.compression:Removing reaction bounds >= 1000.\nINFO:root:Constructing strain design MILP for solver: glpk.\nINFO:root:  Bounding MILP.\nWARNING:root:There is no native support of indicator constraints with GLPK.\nWARNING:root:Indicator constraints are translated to big-M constraints with M=1000.0.\nINFO:root:Finding optimal strain designs ...\nINFO:root:Found solution with objective value 16.596353886335\nINFO:root:Minimizing number of interventions in subspace with 2 possible targets.\nINFO:root:Strain design with cost 2.0: {'rxn02123_c0': np.int64(-1), 'rxn90001_c0': np.int64(-1)}\nINFO:root:Found solution with objective value 16.596353886307\nINFO:root:Minimizing number of interventions in subspace with 2 possible targets.\nINFO:root:Strain design with cost 2.0: {'rxn90001_c0': np.int64(-1), 'rxn90029_c0': np.int64(-1)}\nINFO:root:Found solution with objective value 15.909341615003\nINFO:root:Minimizing number of interventions in subspace with 2 possible targets.\nINFO:root:Strain design with cost 2.0: {'rxn00916_c0': np.int64(-1), 'rxn02123_c0': np.int64(-1)}\nINFO:root:Found solution with objective value 15.909341614951\nINFO:root:Minimizing number of interventions in subspace with 2 possible targets.\nINFO:root:Strain design with cost 2.0: {'rxn00916_c0': np.int64(-1), 'rxn90029_c0': np.int64(-1)}\nINFO:root:Found solution with objective value 15.903648063829\nINFO:root:Minimizing number of interventions in subspace with 2 possible targets.\nINFO:root:Strain design with cost 2.0: {'rxn00410_c0': np.int64(-1), 'rxn02123_c0': np.int64(-1)}\nINFO:root:Finished solving strain design MILP. \nINFO:root:5 solutions to MILP found.\nINFO:root:  Decompressing.\nINFO:root:5 solutions found.\nINFO:root:Preparing strain design computation.\nWARNING:root:Selected solver <module 'optlang.glpk_interface' from '/Users/wtscott/Library/CloudStorage/OneDrive-purdue.edu/DataspellProjects/Dehalobacter_Project/.venv/lib/python3.9/site-packages/optlang/glpk_interface.py'> not available. Using glpk instead.\nINFO:root:  Using random seed 19600\nINFO:root:  Using glpk for solving LPs during preprocessing.\n"
+    },
+    {
+      "cell": 14,
+      "output": 4,
+      "text": "WARNING:straindesign.compression:Removing reaction bounds >= 1000.\nINFO:root:  FVA to identify blocked reactions and irreversibilities.\nINFO:root:  FVA(s) to identify essential reactions.\nINFO:root:Compressing Network (1849 reactions).\nINFO:straindesign.compression:  Removing blocked reactions.\nINFO:straindesign.compression:  Converting coefficients to rationals.\nINFO:straindesign.compression:  Removing conservation relations.\nINFO:straindesign.compression:  Compression 1: Lumping coupled reactions.\nINFO:straindesign.compression:Compression complete: 5 iterations, 609 zero-flux, 84 contradicting, 560 coupled, 1018 unused metabolites\nINFO:straindesign.compression:  Reduced to 766 reactions.\nINFO:straindesign.compression:  Compression 2: Lumping parallel reactions.\nINFO:straindesign.compression:  No further reduction (766 reactions).\nINFO:straindesign.compression:  Compression complete (1 iterations).\nINFO:root:  FVA(s) in compressed model to identify essential reactions.\nINFO:root:Finished preprocessing:\nINFO:root:  Model size: 766 reactions, 322 metabolites\nINFO:root:  36 targetable reactions\nWARNING:root:GLPK only supports strain design computation with the bigM method. Using cobra bound: 1000.0 as M.\nWARNING:straindesign.compression:Removing reaction bounds >= 1000.\nINFO:root:Constructing strain design MILP for solver: glpk.\nINFO:root:  Bounding MILP.\nWARNING:root:There is no native support of indicator constraints with GLPK.\nWARNING:root:Indicator constraints are translated to big-M constraints with M=1000.0.\nINFO:root:Finding optimal strain designs ...\nINFO:root:Found solution with objective value 12.413452723944\nINFO:root:Minimizing number of interventions in subspace with 2 possible targets.\nINFO:root:Strain design with cost 2.0: {'rxn00566_c0': np.int64(-1), 'rxn05957_c0': np.int64(-1)}\nINFO:root:Found solution with objective value 11.472295031793\nINFO:root:Minimizing number of interventions in subspace with 2 possible targets.\nINFO:root:Strain design with cost 2.0: {'rxn00456_c0': np.int64(-1), 'rxn14167_c0*rxn14359_c0': np.int64(-1)}\nINFO:root:Found solution with objective value 10.865838236532\nINFO:root:Minimizing number of interventions in subspace with 2 possible targets.\nINFO:root:Strain design with cost 2.0: {'rxn00410_c0': np.int64(-1), 'rxn00916_c0': np.int64(-1)}\nINFO:root:Found solution with objective value 10.858968667532\nINFO:root:Minimizing number of interventions in subspace with 2 possible targets.\nINFO:root:Strain design with cost 2.0: {'rxn00138_c0': np.int64(-1), 'rxn00916_c0': np.int64(-1)}\nINFO:root:Found solution with objective value 10.858647025453\nINFO:root:Minimizing number of interventions in subspace with 2 possible targets.\nINFO:root:Strain design with cost 1.0: {'rxn00916_c0': np.int64(-1)}\nINFO:root:Finished solving strain design MILP. \nINFO:root:5 solutions to MILP found.\nINFO:root:  Decompressing.\nINFO:root:5 solutions found.\nINFO:root:Preparing strain design computation.\nWARNING:root:Selected solver <module 'optlang.glpk_interface' from '/Users/wtscott/Library/CloudStorage/OneDrive-purdue.edu/DataspellProjects/Dehalobacter_Project/.venv/lib/python3.9/site-packages/optlang/glpk_interface.py'> not available. Using glpk instead.\nINFO:root:  Using random seed 61269\nINFO:root:  Using glpk for solving LPs during preprocessing.\n"
+    },
+    {
+      "cell": 14,
+      "output": 6,
+      "text": "WARNING:straindesign.compression:Removing reaction bounds >= 1000.\nINFO:root:  FVA to identify blocked reactions and irreversibilities.\nINFO:root:  FVA(s) to identify essential reactions.\nINFO:root:Compressing Network (1849 reactions).\nINFO:straindesign.compression:  Removing blocked reactions.\nINFO:straindesign.compression:  Converting coefficients to rationals.\nINFO:straindesign.compression:  Removing conservation relations.\nINFO:straindesign.compression:  Compression 1: Lumping coupled reactions.\nINFO:straindesign.compression:Compression complete: 5 iterations, 609 zero-flux, 84 contradicting, 560 coupled, 1018 unused metabolites\nINFO:straindesign.compression:  Reduced to 766 reactions.\nINFO:straindesign.compression:  Compression 2: Lumping parallel reactions.\nINFO:straindesign.compression:  No further reduction (766 reactions).\nINFO:straindesign.compression:  Compression complete (1 iterations).\nINFO:root:  FVA(s) in compressed model to identify essential reactions.\nINFO:root:Finished preprocessing:\nINFO:root:  Model size: 766 reactions, 322 metabolites\nINFO:root:  36 targetable reactions\nWARNING:root:GLPK only supports strain design computation with the bigM method. Using cobra bound: 1000.0 as M.\nWARNING:straindesign.compression:Removing reaction bounds >= 1000.\nINFO:root:Constructing strain design MILP for solver: glpk.\nINFO:root:  Bounding MILP.\nWARNING:root:There is no native support of indicator constraints with GLPK.\nWARNING:root:Indicator constraints are translated to big-M constraints with M=1000.0.\nINFO:root:Finding optimal strain designs ...\nINFO:root:Found solution with objective value 3.55950044807\nINFO:root:Minimizing number of interventions in subspace with 2 possible targets.\nINFO:root:Strain design with cost 0.0: {}\nINFO:root:Finished solving strain design MILP. \nINFO:root:1 solutions to MILP found.\nINFO:root:  Decompressing.\nINFO:root:1 solutions found.\nINFO:root:Preparing strain design computation.\nWARNING:root:Selected solver <module 'optlang.glpk_interface' from '/Users/wtscott/Library/CloudStorage/OneDrive-purdue.edu/DataspellProjects/Dehalobacter_Project/.venv/lib/python3.9/site-packages/optlang/glpk_interface.py'> not available. Using glpk instead.\nINFO:root:  Using random seed 13216\nINFO:root:  Using glpk for solving LPs during preprocessing.\n"
+    },
+    {
+      "cell": 14,
+      "output": 8,
+      "text": "WARNING:straindesign.compression:Removing reaction bounds >= 1000.\nINFO:root:  FVA to identify blocked reactions and irreversibilities.\nINFO:root:  FVA(s) to identify essential reactions.\nINFO:root:Compressing Network (1849 reactions).\nINFO:straindesign.compression:  Removing blocked reactions.\nINFO:straindesign.compression:  Converting coefficients to rationals.\nINFO:straindesign.compression:  Removing conservation relations.\nINFO:straindesign.compression:  Compression 1: Lumping coupled reactions.\nINFO:straindesign.compression:Compression complete: 5 iterations, 609 zero-flux, 84 contradicting, 560 coupled, 1018 unused metabolites\nINFO:straindesign.compression:  Reduced to 766 reactions.\nINFO:straindesign.compression:  Compression 2: Lumping parallel reactions.\nINFO:straindesign.compression:  No further reduction (766 reactions).\nINFO:straindesign.compression:  Compression complete (1 iterations).\nINFO:root:  FVA(s) in compressed model to identify essential reactions.\nINFO:root:Finished preprocessing:\nINFO:root:  Model size: 766 reactions, 322 metabolites\nINFO:root:  36 targetable reactions\nWARNING:root:GLPK only supports strain design computation with the bigM method. Using cobra bound: 1000.0 as M.\nWARNING:straindesign.compression:Removing reaction bounds >= 1000.\nINFO:root:Constructing strain design MILP for solver: glpk.\nINFO:root:  Bounding MILP.\nWARNING:root:There is no native support of indicator constraints with GLPK.\nWARNING:root:Indicator constraints are translated to big-M constraints with M=1000.0.\nINFO:root:Finding optimal strain designs ...\nINFO:root:Finished solving strain design MILP.\nINFO:root: No solutions exist.\nINFO:root:  Decompressing.\nINFO:root:0 solutions found.\nINFO:root:Preparing strain design computation.\nWARNING:root:Selected solver <module 'optlang.glpk_interface' from '/Users/wtscott/Library/CloudStorage/OneDrive-purdue.edu/DataspellProjects/Dehalobacter_Project/.venv/lib/python3.9/site-packages/optlang/glpk_interface.py'> not available. Using glpk instead.\nINFO:root:  Using random seed 14015\nINFO:root:  Using glpk for solving LPs during preprocessing.\n"
+    },
+    {
+      "cell": 14,
+      "output": 10,
+      "text": "WARNING:straindesign.compression:Removing reaction bounds >= 1000.\nINFO:root:  FVA to identify blocked reactions and irreversibilities.\nINFO:root:  FVA(s) to identify essential reactions.\nINFO:root:Compressing Network (1849 reactions).\nINFO:straindesign.compression:  Removing blocked reactions.\nINFO:straindesign.compression:  Converting coefficients to rationals.\nINFO:straindesign.compression:  Removing conservation relations.\nINFO:straindesign.compression:  Compression 1: Lumping coupled reactions.\nINFO:straindesign.compression:Compression complete: 5 iterations, 609 zero-flux, 84 contradicting, 560 coupled, 1018 unused metabolites\nINFO:straindesign.compression:  Reduced to 766 reactions.\nINFO:straindesign.compression:  Compression 2: Lumping parallel reactions.\nINFO:straindesign.compression:  No further reduction (766 reactions).\nINFO:straindesign.compression:  Compression complete (1 iterations).\nINFO:root:  FVA(s) in compressed model to identify essential reactions.\nINFO:root:Finished preprocessing:\nINFO:root:  Model size: 766 reactions, 322 metabolites\nINFO:root:  36 targetable reactions\nWARNING:root:GLPK only supports strain design computation with the bigM method. Using cobra bound: 1000.0 as M.\nWARNING:straindesign.compression:Removing reaction bounds >= 1000.\nINFO:root:Constructing strain design MILP for solver: glpk.\nINFO:root:  Bounding MILP.\nWARNING:root:There is no native support of indicator constraints with GLPK.\nWARNING:root:Indicator constraints are translated to big-M constraints with M=1000.0.\nINFO:root:Finding optimal strain designs ...\nINFO:root:Finished solving strain design MILP.\nINFO:root: No solutions exist.\nINFO:root:  Decompressing.\nINFO:root:0 solutions found.\n"
+    },
+    {
+      "cell": 16,
+      "output": 0,
+      "text": "INFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.\nINFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.\nINFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.\nINFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.\nINFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.\nINFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.\nINFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.\nINFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.\nINFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.\nINFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.\n"
+    }
+  ],
+  "interpretation": "Substantially recovered from original source/executed cells, superseding v2 absent-settings statement. Fresh native COBRA fixed-set retests are completed separately. A global StrainDesign reproduction is not claimed."
+}

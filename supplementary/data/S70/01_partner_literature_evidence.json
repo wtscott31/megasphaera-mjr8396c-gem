@@ -1,0 +1,28 @@
+{
+  "checked_utc": "2026-10-26T21:28:49.825547+00:00",
+  "partner_strain": "Bifidobacterium adolescentis 22L",
+  "accession": "GCF_000737885.1",
+  "paired_accession": "GCA_000737885.1",
+  "biosample": "SAMN02673695",
+  "isolation_source": "Human milk",
+  "original_source_SBML": "inputs/original_JGI_gapseq/Bifidobacterium_adolescentis_gapseq_run/Bifidobacterium_adolescentis_GCF_000737885_1_filled_anaerobic.xml",
+  "sha256": "0ebe69baa1c7572a49ba13835b9248a079c4a272528ead32ed6d10b0c7a5d027",
+  "source_identical_to_deposited_partner": true,
+  "official_metadata": "inputs/reviewer_evidence_sources/B_adolescentis_22L_assembly_report.json",
+  "papers": [
+    {
+      "doi": "10.1128/AEM.01993-14",
+      "title": "Genomic characterization and transcriptional studies of the starch-utilizing strain Bifidobacterium adolescentis 22L",
+      "scope": "Strain-specific starch/glycan metabolism; not proof of lactate enantiomer exchange."
+    },
+    {
+      "doi": "10.3389/fmicb.2015.01030",
+      "title": "Glycan cross-feeding activities between bifidobacteria under in vitro conditions",
+      "scope": "22L lactate production measured in glycan culture; HPLC-RI, Shodex Sugar SH1011 and lactic-acid standard. Does not report D/L-resolved production or a net L-lactate consumption assay.",
+      "source_xml": "inputs/reviewer_evidence_sources/Turroni2015_PMC4585166.xml"
+    }
+  ],
+  "D_lactate_production_experiment_verified": false,
+  "net_L_lactate_consumption_experiment_verified": false,
+  "inference": "Total lactate production cannot validate the two stereospecific flux claims. Absence of a found experiment does not establish biological absence."
+}

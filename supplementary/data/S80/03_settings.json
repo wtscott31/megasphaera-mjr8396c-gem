@@ -1,0 +1,37 @@
+{
+  "native_MICOM": "0.39.1",
+  "local_QP_adapter": "conditional_gradient_qp.py; full native matrix; no MICOM source edits",
+  "M": "models/MJR8396C_matched_sequence_curated_v6.xml",
+  "M_sha256": "ad240d42271c4c0aa092094e2b718a2f93dd597f89eb6a6d8d38d67eceebb773",
+  "B": "models/B22L_matched_sequence_curated_v6.xml",
+  "B_sha256": "385b6c5b7345e3b4849649a348e316fe5b55040ffff46f51375c6f8f76a009e5",
+  "medium_basis": "single shared pool mmol / community gDW / h; abundance-weighted taxon exchange accounting",
+  "controls": [
+    "baseline",
+    "no_external_lactate",
+    "block_D",
+    "block_L",
+    "block_both",
+    "block_acetate",
+    "B_no_lactate_uptake",
+    "no_lactate_block_D",
+    "no_lactate_block_L",
+    "no_lactate_block_both",
+    "no_lactate_block_acetate",
+    "no_lactate_B_no_uptake"
+  ],
+  "abundances": [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+  ],
+  "tradeoffs": [
+    0.5,
+    0.8,
+    0.95,
+    1.0
+  ],
+  "reconstruction_scope": "MJR8396C/NM10/BL7 pairs use NEW uniform automated reconstructions; GPRcurated pairs derive from deposited models"
+}

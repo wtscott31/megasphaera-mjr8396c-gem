@@ -1,0 +1,117 @@
+model,base_growth,diagnostic_status,extra_imports_total,exchange,metabolite,name,import_at_growth_0.1,ModelSEED_annotation
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,0.0,optimal,0.19633864000000095,EX_26dap_M(e),26dap_M[e],"meso-2,6-Diaminoheptanedioate",0.00018061000000000092,cpd00516
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,0.0,optimal,0.19633864000000095,EX_alagln(e),alagln[e],L-alanyl-L-glutamine,0.07562934000000027,cpd11587
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,0.0,optimal,0.19633864000000095,EX_alaleu(e),alaleu[e],L-alanyl-L-leucine,0.041615680000000176,cpd11583
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,0.0,optimal,0.19633864000000095,EX_arg_L(e),arg_L[e],L-arginine,0.019340000000000128,cpd00051
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,0.0,optimal,0.19633864000000095,EX_asn_L(e),asn_L[e],L-asparagine,0.014833000000000096,cpd00132
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,0.0,optimal,0.19633864000000095,EX_cgly(e),cgly[e],L-cysteinylglycine,0.008871280000000077,cpd01017
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,0.0,optimal,0.19633864000000095,EX_fol(e),fol[e],Folate,0.002381910000000017,cpd00393
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,0.0,optimal,0.19633864000000095,EX_glytyr(e),glytyr[e],Glycyl-L-tyrosine,0.011897970000000068,cpd15606
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,0.0,optimal,0.19633864000000095,EX_mqn7(e),mqn7[e],Menaquinone 7,0.00158794000000001,cpd11606
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,0.0,optimal,0.19633864000000095,EX_phe_L(e),phe_L[e],L-phenylalanine,0.017619000000000117,cpd01400
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,0.0,optimal,0.19633864000000095,EX_pheme(e),pheme[e],Protoheme,0.0007939700000000052,cpd00028
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,0.0,optimal,0.19633864000000095,EX_ptrc(e),ptrc[e],Putrescine,0.0007939700000000053,cpd00118
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,0.0,optimal,0.19633864000000095,EX_spmd(e),spmd[e],Spermidine,0.0007939700000000052,cpd00264
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_26dap_M(e),26dap_M[e],"meso-2,6-Diaminoheptanedioate",0.0025011000000388518,cpd00516
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_alathr(e),alathr[e],L-alanyl-L-threonine,0.023439349999906416,cpd11582
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_arab_L(e),arab_L[e],L-arabinose,0.08844110000136761,cpd00224
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_asn_L(e),asn_L[e],L-asparagine,2.9432541374936503,cpd00132
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_cgly(e),cgly[e],L-cysteinylglycine,0.002667250000041297,cpd01017
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_fol(e),fol[e],Folate,0.0009289500000144306,cpd00393
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_glu_L(e),glu_L[e],L-glutamate,0.04662874999994773,cpd00023
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_glyleu(e),glyleu[e],Glycylleucine,0.046057400000125995,cpd15604
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_glyphe(e),glyphe[e],Glycylphenylalanine,0.015451999999999995,cpd15605
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_glytyr(e),glytyr[e],Glycyl-L-tyrosine,0.012377649999999714,cpd15606
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_hxan(e),hxan[e],Hypoxanthine,0.014392400000222457,cpd00226
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_ile_L(e),ile_L[e],L-isoleucine,0.024179999999999997,cpd00322
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_mqn7(e),mqn7[e],Menaquinone 7,0.0006193000000096201,cpd11606
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_ocdca(e),ocdca[e],octadecanoate (n-C18:0),0.008518400000132322,cpd01080
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_orn(e),orn[e],Ornithine,0.02497965000038322,cpd00064
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_pheme(e),pheme[e],Protoheme,0.00030965000000000007,cpd00028
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_pro_L(e),pro_L[e],L-proline,0.018435,cpd00129
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_sheme(e),sheme[e],Siroheme,0.00030965000000481003,cpd00557
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_spmd(e),spmd[e],Spermidine,0.00030965000000000007,cpd00264
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_ttdca(e),ttdca[e],tetradecanoate (n-C14:0),0.027526600000427583,cpd03847
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_ura(e),ura[e],uracil,0.023201599999965607,cpd00092
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_val_L(e),val_L[e],L-valine,0.035222999999975045,cpd00156
+AGORA2_fixed_Megasphaera_nov_ERR1022370,0.0,optimal,3.3756023874964587,EX_xan(e),xan[e],Xanthine,0.015849800000246207,cpd00309
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_26dap_M(e),26dap_M[e],"meso-2,6-Diaminoheptanedioate",0.0025011000000000013,cpd00516
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_4hbz(e),4hbz[e],4-hydroxybenzoate,0.0003096500000000002,cpd00136
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_alagln(e),alagln[e],L-alanyl-L-glutamine,0.04662875000000002,cpd11587
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_alathr(e),alathr[e],L-alanyl-L-threonine,0.02962540000000003,cpd11582
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_cgly(e),cgly[e],L-cysteinylglycine,0.008853300000000012,cpd01017
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_ddca(e),ddca[e],laurate,0.025025500000000006,cpd01741
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_fol(e),fol[e],Folate,0.0009289499999999985,cpd00393
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_for(e),for[e],Formate,0.06380934999999638,cpd00047
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_glcn(e),glcn[e],D-gluconate,0.08813184999999821,cpd00222
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_glyasn(e),glyasn[e],Glycyl-L-asparagine,0.10970579999999643,cpd11581
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_glyleu(e),glyleu[e],Glycylleucine,0.046057400000000005,cpd15604
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_glyphe(e),glyphe[e],Glycylphenylalanine,0.015452000000000013,cpd15605
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_glypro(e),glypro[e],Glycylproline,0.018435000000000017,cpd11588
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_glytyr(e),glytyr[e],Glycyl-L-tyrosine,0.01237765000000001,cpd15606
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_ile_L(e),ile_L[e],L-isoleucine,0.024180000000000004,cpd00322
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_mqn7(e),mqn7[e],Menaquinone 7,0.0006193000000000006,cpd11606
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_nmn(e),nmn[e],NMN,0.0006193000000000356,cpd00355
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_orn(e),orn[e],Ornithine,0.02467000000000003,cpd00064
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_pheme(e),pheme[e],Protoheme,0.00030965000000000024,cpd00028
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_ptrc(e),ptrc[e],Putrescine,0.00030964999999999845,cpd00118
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_ser_L(e),ser_L[e],L-serine,0.021140400000000007,cpd00054
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_sheme(e),sheme[e],Siroheme,0.00030965000000000024,cpd00557
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_spmd(e),spmd[e],Spermidine,0.0003096500000000003,cpd00264
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_trp_L(e),trp_L[e],L-tryptophan,0.004720200000000001,cpd00065
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_ttdca(e),ttdca[e],tetradecanoate (n-C14:0),0.0025011000000000005,cpd03847
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_ura(e),ura[e],uracil,0.023201800000000026,cpd00092
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,0.0,optimal,0.6059553999999916,EX_val_L(e),val_L[e],L-valine,0.035223000000000004,cpd00156
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_4hbz(e),4hbz[e],4-hydroxybenzoate,0.00028062000000000025,cpd00136
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_ala_L(e),ala_L[e],L-alanine,0.05001568000000001,cpd00035
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_arg_L(e),arg_L[e],L-arginine,0.024670000000000015,cpd00051
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_asn_L(e),asn_L[e],L-asparagine,0.08808060000000142,cpd00132
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_ddca(e),ddca[e],laurate,0.02502550000000002,cpd01741
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_fol(e),fol[e],Folate,0.0008418599999999986,cpd00393
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_glcn(e),glcn[e],D-gluconate,3.3029308360000065,cpd00222
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_glu_L(e),glu_L[e],L-glutamate,0.06531534000000003,cpd00023
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_glyc(e),glyc[e],Glycerol,0.019166400000000017,cpd00100
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_gthrd(e),gthrd[e],Reduced glutathione,0.00028062000000000003,cpd00042
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_hxan(e),hxan[e],Hypoxanthine,0.029449220000001396,cpd00226
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_ile_L(e),ile_L[e],L-isoleucine,0.02418000000000001,cpd00322
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_leu_L(e),leu_L[e],L-leucine,0.04605740000000002,cpd00107
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_ocdca(e),ocdca[e],octadecanoate (n-C18:0),0.008518400000000008,cpd01080
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_orn(e),orn[e],Ornithine,0.0002806200000000002,cpd00064
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_phe_L(e),phe_L[e],L-phenylalanine,0.015452000000000013,cpd01400
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_pheme(e),pheme[e],Protoheme,0.0002806200000000002,cpd00028
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_pydx(e),pydx[e],Pyridoxal,0.0002806200000000002,cpd00215
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_ser_L(e),ser_L[e],L-serine,0.021140400000000018,cpd00054
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_sheme(e),sheme[e],Siroheme,0.0002806200000000002,cpd00557
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_spmd(e),spmd[e],Spermidine,0.00028062000000000025,cpd00264
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_trp_L(e),trp_L[e],L-tryptophan,0.004720200000000003,cpd00065
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_ttdca(e),ttdca[e],tetradecanoate (n-C14:0),0.0025011000000000026,cpd03847
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_tyr_L(e),tyr_L[e],L-tyrosine,0.012348620000000005,cpd00069
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_ura(e),ura[e],uracil,0.023482720000000002,cpd00092
+AGORA2_fixed_Megasphaera_genomosp_type_2,0.0,optimal,3.8010836160000085,EX_val_L(e),val_L[e],L-valine,0.035223000000000025,cpd00156
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460,2.5763393502665393,already_exceeds_growth_target_0.1,0.0,,,,,
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_26dap_M(e),26dap_M[e],"meso-2,6-Diaminoheptanedioate",0.0001806099999999999,cpd00516
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_alathr(e),alathr[e],L-alanyl-L-threonine,0.026503859999999997,cpd11582
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_cgly(e),cgly[e],L-cysteinylglycine,0.0007939699999999986,cpd01017
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_fol(e),fol[e],Folate,0.0023819100000000023,cpd00393
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_for(e),for[e],Formate,0.004598669999999994,cpd00047
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_galt(e),galt[e],galactitol,0.5149337099999993,cpd01171
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_glcn(e),glcn[e],D-gluconate,0.06653915999999872,cpd00222
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_gln_L(e),gln_L[e],L-glutamine,0.04607376999999998,cpd00053
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_glu_L(e),glu_L[e],L-glutamate,0.01345257,cpd00023
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_glyasn(e),glyasn[e],Glycyl-L-asparagine,0.03542845000000043,cpd11581
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_glyasp(e),glyasp[e],Glycyl-L-aspartate,0.0294338299999984,cpd11589
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_glyc(e),glyc[e],Glycerol,0.015456779999999996,cpd00100
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_glycys(e),glycys[e],Gly-Cys,0.008077309999999997,cpd15603
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_glyphe(e),glyphe[e],Glycylphenylalanine,0.017619000000000006,cpd15605
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_glypro(e),glypro[e],Glycylproline,0.016103000000000003,cpd11588
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_hxan(e),hxan[e],Hypoxanthine,0.016719359999998448,cpd00226
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_ile_L(e),ile_L[e],L-isoleucine,0.027043,cpd00322
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_leu_L(e),leu_L[e],L-leucine,0.041615679999999995,cpd00107
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_mqn7(e),mqn7[e],Menaquinone 7,0.0015879399999999997,cpd11606
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_orn(e),orn[e],Ornithine,0.019339999999999996,cpd00064
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_pheme(e),pheme[e],Protoheme,0.0007939700000000002,cpd00028
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_ptrc(e),ptrc[e],Putrescine,0.0007939699999999978,cpd00118
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_ser_L(e),ser_L[e],L-serine,0.02970073,cpd00054
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_spmd(e),spmd[e],Spermidine,0.0007939699999999967,cpd00264
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_ura(e),ura[e],uracil,0.0106262,cpd00092
+AGORA2_fixed_Megasphaera_massiliensis_NP3,0.0,optimal,0.9773634199999954,EX_val_L(e),val_L[e],L-valine,0.030772000000000004,cpd00156

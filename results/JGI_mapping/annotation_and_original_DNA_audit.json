@@ -1,0 +1,32 @@
+{
+  "annotation_only_primary": "models/MJR8396C_sequence_annotated_primary.xml",
+  "all_477_genes_cross_referenced": true,
+  "reaction_chemistry_bounds_GPR_unchanged_roundtrip_verified": true,
+  "original_JGI_DNA_weight_fraction_assumed": 0.03099976061586465,
+  "native_official_BOFdat_raw_coefficients": {
+    "datp_c": -0.012113760978232222,
+    "dttp_c": -0.0124726963373084,
+    "dctp_c": -0.0136793892928888,
+    "dgtp_c": -0.012016280652338748,
+    "ppi_c": 0.050282127260768174
+  },
+  "native_raw_DNA_mass": 0.015499880307932323,
+  "native_fraction_recovered": 0.49999999999999994,
+  "native_raw_rejected": true,
+  "external_mass_corrected_coefficients": {
+    "datp_c": -0.024561153829158022,
+    "dttp_c": -0.024561153829158022,
+    "dgtp_c": -0.025608059425959437,
+    "dctp_c": -0.025608059425959437,
+    "ppi_c": 0.10033842651023492
+  },
+  "genome_derived_double_strand_frequencies": {
+    "A": 0.2447831272962277,
+    "T": 0.2447831272962277,
+    "G": 0.2552168727037723,
+    "C": 0.2552168727037723
+  },
+  "candidate_net_mass": 0.9999880403303031,
+  "baseline_net_mass": 0.9999880403303026,
+  "native_source_sha256": "615db5e5815b347648b93eaa171d33a9cb5030d999743bb2119bc139f8dc774f"
+}

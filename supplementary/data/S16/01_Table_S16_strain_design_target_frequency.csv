@@ -1,0 +1,11 @@
+reaction,reaction_name,frequency,design_types
+rxn00916_c0,Xanthosine-5'-phosphate:ammonia ligase (AMP-forming),5,optknock; tilted_optknock
+rxn02123_c0,Lactoyl-CoA hydro-lyase,3,optknock
+rxn00410_c0,UTP:ammonia ligase (ADP-forming),2,optknock; tilted_optknock
+rxn90001_c0,Butyryl-CoA dehydrogenase (Etf complex),2,optknock
+rxn90029_c0,acryloyl-CoA reductase,2,optknock
+rxn00138_c0,deamido-NAD+:ammonia ligase (AMP-forming),1,tilted_optknock
+rxn00456_c0,L-methionine methanethiol-lyase (deaminating;2-oxobutanoate-forming),1,tilted_optknock
+rxn00566_c0,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),1,tilted_optknock
+rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,1,tilted_optknock
+rxn14359_c0,L-methionine methanethiol-lyase,1,tilted_optknock

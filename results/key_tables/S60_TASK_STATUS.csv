@@ -1,0 +1,28 @@
+workstream,status,actual_evidence_or_resume_requirement
+"Host, isolated environment, network and immutable inputs",executed,provenance/native_environment.json; provenance/input_inventory.json; logs/pip_check.log
+Actual accession-matched genome and annotation retrieval,executed,inputs/genomes/; provenance/assemblies/; results/NCBI_md5_validation.csv
+"Assembly size, GC, N50, CDS and protein counts",executed,results/genome_statistics.csv
+Local JGI versus public genome sequence comparison,pending_missing_input,No original JGI FASTA/protein sequences found in either approved project; supply 2775506928.fna and 2775506928.genes.faa
+Native official BOFdat DNA module,executed_failed_mass_validation,Raw native result contains half the requested mass; results/BOFdat_native_and_mass_correction.json
+Transparent DNA mass correction and candidate SBML,executed_sensitivity_candidate,models/MJR8396C_DNA_sequence_mass_corrected_candidate.xml; results/biomass_*
+Whole-organism empirical biomass reconstruction,pending_missing_measurements,"No measured protein/RNA/lipid abundance, composition fractions, GAM or NGAM supplied; no fabrication"
+Reciprocal ANI against versioned comparators and GTDB neighbors,executed,results/reciprocal_ANI.csv; results/ani/; logs/ani/
+Exact-assembly GTDB R232 taxonomy lookup,executed_lookup_only,results/GTDB_exact_assembly_lookup.json
+New native GTDB-Tk classification,not_run_unsupported_environment,No compatible reference DB or authorized supported Linux/HPC host supplied; small taxonomy/tree lookup only
+Locus-level alignments and evidence ledger,executed_candidate_evidence,909 reviewed references; 1032 alignment rows; 42 well-covered candidate proteins; no activity claims
+Public locus to numeric JGI model gene mapping,pending_missing_input,Original JGI proteins absent; reference homology is insufficient to establish exact gene identity
+Evidence-based reaction/GPR edits,not_promoted,No unsupported biological edits; original model retained; DNA-only candidate separate
+Published iME375 and corrected AGORA2 model retrieval,executed,Publisher supplement and original/corrected VMH archive member CRC/SHA provenance
+Curated comparator simulations,executed_with_limits,results/comparators/; missing nutrients/transports and biomass mass prevent absolute-growth ranking; no gapfill
+Harmonized curated-comparator cocultures,pending_mapping_resolution,Complete common nutrient/transport and biomass normalization not established; no forced equivalence
+Original StrainDesign settings recovery,substantially_recovered,"Original executed notebook cells, 78 candidates, cost 1, EPS .001, max cost 2, max 5 solutions, 1800 s, growth floor .25, seeds and solver evidence"
+Exact historical global StrainDesign rerun/proof,not_claimed,Exact original package version and serialized proof objects absent; fixed-set native retests executed; runnable original source retained
+Native COBRApy v2 baseline/FVA and gene/reaction retests,executed,results/native_COBRA_*.csv
+Native monoculture and energy sensitivity controls,executed,40 monoculture rows; 24 energy probes; results/native_matched_monocultures.csv
+Native MICOM LP maxima and supplied-growth feasibility,executed,60 native LP maxima reproduced; 48 equal-abundance supplied member-growth states; pFBA and selected FVA
+Native MICOM full quadratic grid,partial_numerical_reproduction,"240 attempts: 164 accepted final states, 76 failed; member growth differences to .0162; not exact QP reproduction"
+Concentration-calibrated thermodynamic FBA,not_run_missing_physiological_inputs,No concentrations or membrane-potential measurements supplied; no substitution of looplessness for Gibbs feasibility
+Figures 3-7,preserved,Original improved v2 figures unchanged; additional v3 ANI/mass graphic in figures/
+Clean/tracked manuscript and response PDFs,executed_working_drafts,Compiled local pdfLaTeX/BibTeX; tracked v3 vs v2; actual clean-v3 line map; abridged comments preserved; not submission-ready
+Complete verbatim original reviewer comments,pending_missing_input,Only abridged v2 RevPoint text supplied; those lines preserved unchanged; full editorial reports absent
+Scientific release status,not_submission_ready,"All unresolved biological, numerical and missing-input items above remain release gates"

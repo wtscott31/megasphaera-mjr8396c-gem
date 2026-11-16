@@ -1,0 +1,27 @@
+{
+  "verified_utc": "2026-10-27T00:33:48.662940+00:00",
+  "supplementary_sources": 87,
+  "reviewer_blocks": 37,
+  "notebook_code_cells": 7,
+  "notebook_errors": 0,
+  "inherited_scientific_files_byte_verified": 2826,
+  "inherited_scientific_mismatches": [],
+  "Figures_3_7_preserved": [
+    "Figure_5_revised_v2.pdf",
+    "Figure_3_revised_v2.pdf",
+    "Figure_4_revised_v2.pdf",
+    "Figure_6_revised_v2.pdf",
+    "Figure_7_revised_v2.pdf"
+  ],
+  "native_community_input_hashes_verified": [
+    "results/matched_micom_v6/MJR8396C_matched_curated_sensitivity/settings.json",
+    "results/matched_micom_v6/MJR8396C/settings.json",
+    "results/matched_micom_v6/GPRcurated_filtered22L/settings.json",
+    "results/matched_micom_v6/NM10/settings.json",
+    "results/matched_micom_v6/GPRcurated_original22L/settings.json",
+    "results/matched_micom_v6/BL7/settings.json",
+    "results/matched_micom_v6/BL7_matched_curated_sensitivity/settings.json",
+    "results/matched_micom_v6/NM10_matched_curated_sensitivity/settings.json"
+  ],
+  "passed": true
+}

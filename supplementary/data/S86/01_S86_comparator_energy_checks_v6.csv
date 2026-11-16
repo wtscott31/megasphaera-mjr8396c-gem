@@ -1,0 +1,31 @@
+model,condition,max_ATP_drain,status,forced_lower_bounds_relaxed_for_probe_only,drain_mass_charge_imbalance
+MJR8396C,closed_boundaries,0.0,optimal,{},{}
+MJR8396C,inorganics_only,0.0,optimal,{},{}
+iME375,closed_boundaries,1000.0,optimal,"{""R078"": 3.5}",{}
+iME375,inorganics_only,1000.0,optimal,"{""R078"": 3.5}",{}
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,closed_boundaries,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,inorganics_only,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_nov_ERR1022370,closed_boundaries,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_nov_ERR1022370,inorganics_only,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,closed_boundaries,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,inorganics_only,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_genomosp_type_2,closed_boundaries,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_genomosp_type_2,inorganics_only,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460,closed_boundaries,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460,inorganics_only,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_massiliensis_NP3,closed_boundaries,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_massiliensis_NP3,inorganics_only,0.0,optimal,{},{}
+iME375_partial_candidate,closed_boundaries,1000.0000000000001,optimal,"{""R078"": 3.5}",{}
+iME375_partial_candidate,inorganics_only,1000.0,optimal,"{""R078"": 3.5}",{}
+iME375_cycle_constrained,closed_boundaries,0.0,optimal,"{""R078"": 3.5}",{}
+iME375_cycle_constrained,inorganics_only,0.0,optimal,"{""R078"": 3.5}",{}
+iME375_partial_plus_cycle,closed_boundaries,0.0,optimal,"{""R078"": 3.5}",{}
+iME375_partial_plus_cycle,inorganics_only,0.0,optimal,"{""R078"": 3.5}",{}
+AGORA2_fixed_Megasphaera_nov_ERR1022370_mass_candidate,closed_boundaries,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_nov_ERR1022370_mass_candidate,inorganics_only,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_micronuciformis_F0359_mass_candidate,closed_boundaries,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_micronuciformis_F0359_mass_candidate,inorganics_only,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_genomosp_type_2_mass_candidate,closed_boundaries,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_genomosp_type_2_mass_candidate,inorganics_only,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460_mass_candidate,closed_boundaries,0.0,optimal,{},{}
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460_mass_candidate,inorganics_only,0.0,optimal,{},{}

@@ -1,0 +1,26 @@
+{
+  "original_scaffolds": 80,
+  "original_total_bp": 2426262,
+  "public_scaffolds": 70,
+  "public_total_bp": 2453897,
+  "identical_assembly": false,
+  "original_ambiguous_bases": 0,
+  "original_GC_percent_canonical": 51.04337454075446,
+  "original_protein_count": 2189,
+  "all_mapping_status_counts": {
+    "unique_exact_protein_match": 1508,
+    "unique_coordinate_verified_annotation_boundary_variant": 662,
+    "no_equivalent_public_CDS": 17,
+    "ambiguous_identical_sequences": 2
+  },
+  "model_gene_mapping_status_counts": {
+    "unique_exact_protein_match": 342,
+    "unique_coordinate_verified_annotation_boundary_variant": 135
+  },
+  "model_genes_verified_in_original_genome": 477,
+  "model_genes_verified_in_public_genome": 477,
+  "model_genes_total": 477,
+  "original_contigs_exactly_present_in_public": 80,
+  "header_typo": "Original IMG files say MJR9396C; sequence comparison, not the label, supports same strain lineage",
+  "interpretation": "100% skani ANI over matched sequence is not identity of these differently fragmented/filtered assemblies. Public annotation and original gene calls remain separate."
+}

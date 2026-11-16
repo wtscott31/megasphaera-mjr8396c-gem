@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/737/885/GCF_000737885.1_ASM73788v1/GCF_000737885.1_ASM73788v1_protein.faa.gz",
+    "retrieved_utc": "2026-10-26T23:21:41.465028+00:00",
+    "path": "inputs/genomes/GCF_000737885.1/protein.faa.gz",
+    "returncode": 0,
+    "sha256": "308869779309f672ce089e4bae920b61104a4271df037577fe52c301a367904c"
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/737/885/GCF_000737885.1_ASM73788v1/GCF_000737885.1_ASM73788v1_genomic.gbff.gz",
+    "retrieved_utc": "2026-10-26T23:21:42.014128+00:00",
+    "path": "inputs/genomes/GCF_000737885.1/genomic.gbff.gz",
+    "returncode": 0,
+    "sha256": "b882a2b5b5185eaadc53a3d02fc10aeec86ed39d62c1c3025309f373d8e28e54"
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/737/885/GCF_000737885.1_ASM73788v1/GCF_000737885.1_ASM73788v1_assembly_report.txt",
+    "retrieved_utc": "2026-10-26T23:21:42.229976+00:00",
+    "path": "inputs/genomes/GCF_000737885.1/assembly_report.txt",
+    "returncode": 0,
+    "sha256": "3882e005f332a38d7fbd674447f6372e61b3bf83129d86cedbb176dc19c50b74"
+  },
+  {
+    "url": "https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/737/885/GCF_000737885.1_ASM73788v1/md5checksums.txt",
+    "retrieved_utc": "2026-10-26T23:21:42.433283+00:00",
+    "path": "inputs/genomes/GCF_000737885.1/md5checksums.txt",
+    "returncode": 0,
+    "sha256": "567f8ae0f64f68899684c154f977cb863bbc6530ed46f733e0e27e3184210ee4"
+  }
+]

@@ -1,0 +1,10 @@
+medium,biomass_precursor_demand_multiplier,growth_upper_bound_h-1,meaning
+gut-like,0.8,0.8756186676740608,Pure uncertainty stress test; not an experimentally measured alternative BOF
+gut-like,1.0,0.7004949341392512,Pure uncertainty stress test; not an experimentally measured alternative BOF
+gut-like,1.2,0.5837457784493759,Pure uncertainty stress test; not an experimentally measured alternative BOF
+carbohydrate-enriched,0.8,1.5007884440331947,Pure uncertainty stress test; not an experimentally measured alternative BOF
+carbohydrate-enriched,1.0,1.2006307552265596,Pure uncertainty stress test; not an experimentally measured alternative BOF
+carbohydrate-enriched,1.2,1.0005256293554645,Pure uncertainty stress test; not an experimentally measured alternative BOF
+six-amino-acid-enriched,0.8,1.0409010748407157,Pure uncertainty stress test; not an experimentally measured alternative BOF
+six-amino-acid-enriched,1.0,0.8327208598725738,Pure uncertainty stress test; not an experimentally measured alternative BOF
+six-amino-acid-enriched,1.2,0.6939340498938114,Pure uncertainty stress test; not an experimentally measured alternative BOF

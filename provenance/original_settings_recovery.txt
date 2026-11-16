@@ -1,0 +1,44 @@
+{
+  "MAX_COST": 2,
+  "MAX_SOLUTIONS": 5,
+  "TIME_LIMIT_seconds": 1800,
+  "MIN_GROWTH_FRACTION": 0.25,
+  "EPS_tilt": 0.001,
+  "USE_PRIORITY_ONLY": true,
+  "knockout_cost": 1,
+  "candidate_count_recorded": 78,
+  "inner_objective": "bio1",
+  "tilted_inner_objective": "bio1 - 0.001 EX_cpd00211_e0",
+  "outer_objective": "EX_cpd00211_e0",
+  "solution_approach": "BEST",
+  "solver_recorded": "GLPK via optlang 1.8.3",
+  "cobra_recorded": "0.30.0",
+  "source_cells": [
+    2,
+    4,
+    11,
+    13,
+    14
+  ]
+}
+cell 7 WT growth: 0.7004949341392637 optimal
+cell 14 INFO:root:  Using random seed 31898
+cell 14 INFO:root:Finding optimal strain designs ...
+cell 14 INFO:root:  Using random seed 19600
+cell 14 INFO:root:Finding optimal strain designs ...
+cell 14 INFO:root:  Using random seed 61269
+cell 14 INFO:root:Finding optimal strain designs ...
+cell 14 INFO:root:  Using random seed 13216
+cell 14 INFO:root:Finding optimal strain designs ...
+cell 14 INFO:root:  Using random seed 14015
+cell 14 INFO:root:Finding optimal strain designs ...
+cell 16 INFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.
+cell 16 INFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.
+cell 16 INFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.
+cell 16 INFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.
+cell 16 INFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.
+cell 16 INFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.
+cell 16 INFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.
+cell 16 INFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.
+cell 16 INFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.
+cell 16 INFO:cobra.core.model:The current solver interface glpk doesn't support setting the optimality tolerance.

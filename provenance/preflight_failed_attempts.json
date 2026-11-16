@@ -1,0 +1,24 @@
+[
+  {
+    "attempt": "Initial sandbox curl to https://pypi.org/pypi/BOFdat/json",
+    "returncode": 6,
+    "error": "Could not resolve host: pypi.org",
+    "resolution": "Authorized network access succeeded."
+  },
+  {
+    "attempt": "NCBI Datasets v2 annotated genome ZIP",
+    "returncode": 92,
+    "error": "HTTP/2 stream INTERNAL_ERROR after 847 bytes",
+    "resolution": "Accession-matched NCBI FTP files downloaded and verified instead."
+  },
+  {
+    "attempt": "Default Gurobi model construction",
+    "error": "License expired 2026-09-30",
+    "resolution": "Explicit GLPK/HiGHS/OSQP solver selection, license unchanged."
+  },
+  {
+    "attempt": "Biber universal/native-thin and app compiler",
+    "error": "Universal binary lipo extraction failure; thin copy lacked PAR.pm; app compiler had no external biber",
+    "resolution": "Working documents use supported biblatex BibTeX backend. System installation unchanged."
+  }
+]

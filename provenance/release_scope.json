@@ -1,0 +1,9 @@
+{
+  "release": "v3 executed local working revision",
+  "status": "NOT_SUBMISSION_READY",
+  "generated_utc": "2026-10-26T18:57:00.677686+00:00",
+  "archive_name": "MJR8396C_executed_revision_v3.zip",
+  "excluded": "Machine-specific venv/git/caches, notebook runtime keys and QA raster intermediates. Environment lock, logs, final PDFs and visual-QA record are included.",
+  "resume": "README.txt, TASK_STATUS.csv and scripts/compare_original_JGI_when_supplied.py",
+  "original_inputs_immutable": true
+}

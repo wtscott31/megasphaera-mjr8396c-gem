@@ -1,0 +1,12 @@
+{
+  "release": "v5 executed computational release candidate",
+  "status": "AUTHOR_REVIEW_REQUIRED_NOT_UNCONDITIONAL_SUBMISSION_READY",
+  "generated_utc": "2026-10-26T21:32:44.348311+00:00",
+  "archive_name": "MJR8396C_executed_revision_v5.zip",
+  "excluded": "Environments, diagnostic vendor binaries, caches, private notebook keys, QA rasters, unrelated local-search output and full non-open-access article scans. Measured numeric tables, citations and download/checksum provenance are included.",
+  "current_results": "TASK_STATUS_v5.csv; results/reviewer_v5; results/JGI_mapping; results/empirical_biomass; results/native_micom_v4",
+  "historical_results": "v2/v3/v4 manuscripts and old recovered/abridged comments remain historical; current full reports are user supplied; all failed diagnostics retained",
+  "original_inputs_immutable": true,
+  "report_recovery": "Complete Reviewer 1-3 text supplied by author; 37 preserved comment blocks",
+  "remaining_requests": "Full NM10/BL7 suite; target composition/maintenance; 22L stereochemistry; functional GPR/pathway curation; comparator calibration"
+}

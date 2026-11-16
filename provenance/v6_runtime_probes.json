@@ -1,0 +1,26 @@
+{
+  "checked_utc": "2026-10-26T23:21:40.835587+00:00",
+  "probes": [
+    {
+      "label": "vanilla_libpaths",
+      "command": [
+        "/opt/anaconda3/envs/gapseq-clean/bin/Rscript",
+        "--vanilla",
+        "-e",
+        "print(.libPaths()); print(R.version$arch); for(x in c(\"Rcpp\",\"Matrix\",\"cobrar\",\"data.table\",\"Biostrings\")) {cat(x,\"before\\n\"); print(requireNamespace(x,quietly=TRUE));cat(x,\"after\\n\")}"
+      ],
+      "returncode": 0
+    },
+    {
+      "label": "conda_inventory",
+      "command": [
+        "/opt/anaconda3/bin/conda",
+        "list",
+        "--json",
+        "--prefix",
+        "/opt/anaconda3/envs/gapseq-clean"
+      ],
+      "returncode": 0
+    }
+  ]
+}

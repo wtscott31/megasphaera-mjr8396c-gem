@@ -1,0 +1,125 @@
+{
+  "generated_utc": "2026-10-26T23:56:53.444153+00:00",
+  "new_reconstructions": [
+    {
+      "model": "B22L",
+      "new_automated_reconstruction": true,
+      "sha256": "875e74e8a8b836820f67da2c16b9a51f7949286c29c2ca45c359e7c838a82319",
+      "reactions": 1570,
+      "metabolites": 1259,
+      "genes": 346,
+      "draft_reactions": 1360,
+      "added_reactions": 210,
+      "biomass_mass_g_per_model_unit": 0.9999896672547103,
+      "assumed_GAM": 41.257,
+      "no_measured_target_biomass": true,
+      "AA_pairs": 190,
+      "AA_single_panel": 20,
+      "maintenance_grid": 108
+    },
+    {
+      "model": "BL7",
+      "new_automated_reconstruction": true,
+      "sha256": "a20f58eec84af17f9639f8c48ef1f008acae478a259902e398fb10af4b90c21c",
+      "reactions": 1720,
+      "metabolites": 1528,
+      "genes": 437,
+      "draft_reactions": 1465,
+      "added_reactions": 255,
+      "biomass_mass_g_per_model_unit": 0.9999880403303026,
+      "assumed_GAM": 40.0,
+      "no_measured_target_biomass": true,
+      "AA_pairs": 190,
+      "AA_single_panel": 20,
+      "maintenance_grid": 108
+    },
+    {
+      "model": "MJR8396C",
+      "new_automated_reconstruction": true,
+      "sha256": "3b2f39fbd12832f8fa3499473207fc80f1832ca505377423d58ec2713f7b07dc",
+      "reactions": 1842,
+      "metabolites": 1609,
+      "genes": 468,
+      "draft_reactions": 1600,
+      "added_reactions": 242,
+      "biomass_mass_g_per_model_unit": 0.9999880403303026,
+      "assumed_GAM": 40.0,
+      "no_measured_target_biomass": true,
+      "AA_pairs": 190,
+      "AA_single_panel": 20,
+      "maintenance_grid": 108
+    },
+    {
+      "model": "NM10",
+      "new_automated_reconstruction": true,
+      "sha256": "05f49f40a87ee78006cb18988427732404f113fd776e0a2227e7e3bd15af1a13",
+      "reactions": 1698,
+      "metabolites": 1514,
+      "genes": 418,
+      "draft_reactions": 1451,
+      "added_reactions": 247,
+      "biomass_mass_g_per_model_unit": 0.9999880403303035,
+      "assumed_GAM": 40.0,
+      "no_measured_target_biomass": true,
+      "AA_pairs": 190,
+      "AA_single_panel": 20,
+      "maintenance_grid": 108
+    }
+  ],
+  "mono_rows": 80,
+  "AA_rows": 840,
+  "maintenance_grid_rows": 432,
+  "design_rows": 95,
+  "ordinary_exchange_FVA_rows": 1149,
+  "native_community_cases": 1920,
+  "native_community_optimal_cases": 1920,
+  "community_FVA_rows": 4320,
+  "native_max_mass_residual": 9.58939853667298e-09,
+  "native_max_bound_violation": 9.890697000320948e-09,
+  "QP_max_global_gap": 1.4860388651615437e-08,
+  "QP_max_stationarity": 1.7121237760875374e-10,
+  "pool_accounting": [
+    {
+      "pair": "BL7",
+      "max_pool_residual": 5.3290705182007506e-15
+    },
+    {
+      "pair": "BL7_matched_curated_sensitivity",
+      "max_pool_residual": 3.552713678800501e-15
+    },
+    {
+      "pair": "GPRcurated_filtered22L",
+      "max_pool_residual": 4.440892098500626e-15
+    },
+    {
+      "pair": "GPRcurated_original22L",
+      "max_pool_residual": 7.105427357601002e-15
+    },
+    {
+      "pair": "MJR8396C",
+      "max_pool_residual": 7.105427357601002e-15
+    },
+    {
+      "pair": "MJR8396C_matched_curated_sensitivity",
+      "max_pool_residual": 3.552713678800501e-15
+    },
+    {
+      "pair": "NM10",
+      "max_pool_residual": 7.105427357601002e-15
+    },
+    {
+      "pair": "NM10_matched_curated_sensitivity",
+      "max_pool_residual": 7.105427357601002e-15
+    }
+  ],
+  "22L_DLDH_filter_max_growth_changes": {
+    "community_max": 4.177769241664464e-13,
+    "community_growth": 4.177769241664464e-13,
+    "growth_M": 0.0036335803720888293,
+    "growth_B": 0.0004037311525573184
+  },
+  "experimental_MJR_biomass_available": false,
+  "experimental_22L_enantiomer_assay_verified": false,
+  "new_models_are_published_NM10_BL7_models": false,
+  "NM10_Bcd": "Public misc_feature at APHY01000022.1:15273-16423 minus strand explicitly notes potential frameshift; new ORFs are partial high-identity Bcd homologs. Strict Bcd-disabled sensitivity, not proof of biological loss."
+}

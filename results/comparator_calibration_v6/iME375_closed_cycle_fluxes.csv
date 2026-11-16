@@ -1,0 +1,9 @@
+reaction,name,flux,bounds,stoichiometry,balance
+R077,Pi_t,-3.5,"(-1000.0, 1000.0)",Pi[e] <=> Pi[c],{}
+R078,Pi_abc,3.5,"(3.5, 1000.0)",ATP[c] + H2O[c] + Pi[e] --> ADP[c] + H[c] + 2.0 Pi[c],"{""charge"": 1.0, ""H"": 1.0}"
+R331,ARG2,-4.5,"(-1000.0, 1000.0)",ADP[c] + CBP[c] + H2O[c] <=> ATP[c] + HCO3[c] + NH3[c],"{""charge"": -1.0, ""H"": -1.0}"
+R378,PUR3,-3.4999999999999996,"(-1000.0, 1000.0)",10FTHF[c] + GAR[c] <=> FGAR[c] + THF[c],{}
+R379,PUR4,3.4999999999999996,"(0.0, 1000.0)",GAR[c] + H2O[c] + METHF[c] --> FGAR[c] + THF[c],"{""H"": -1.0}"
+R421,PUR46,-4.5,"(-1000.0, 1000.0)",2.0 ATP[c] + HCO3[c] + NH3[c] <=> 2.0 ADP[c] + CBP[c] + Pi[c],"{""charge"": 1.0, ""H"": 1.0}"
+R561,FOLATE17,3.4999999999999996,"(-1000.0, 1000.0)",10FTHF[c] + H[c] <=> H2O[c] + METHF[c],"{""charge"": -1.0}"
+V6_ATP,,1.0,"(1, 1)",ATP[c] + H2O[c] --> ADP[c] + Pi[c],{}

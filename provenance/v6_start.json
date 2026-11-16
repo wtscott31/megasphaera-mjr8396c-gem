@@ -1,0 +1,6 @@
+{
+  "started_utc": "2026-10-26T23:20:22.585543+00:00",
+  "scope": "Resolve NM10/BL7 comparisons, functional pathway curation, 22L stereochemical support and biomass/comparator calibration as far as data permit",
+  "baseline": "frozen portable v5",
+  "new_model_label": "Any newly reconstructed NM10/BL7/MJR comparators are new automated models, not claimed recovery of published curated SBML"
+}

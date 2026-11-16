@@ -1,0 +1,34 @@
+[
+  {
+    "document": "MJR8396C_v6_readiness_report.pdf",
+    "pages": 3,
+    "sha256": "607c61265a495fd9e831ad83ef6cc32bd7be93cc76eecc5b69d77ed49b681844",
+    "replacement_characters": 0,
+    "question_mark_pairs": 0,
+    "quoted_reviewer_question_pairs_allowed": 0
+  },
+  {
+    "document": "manuscript/manuscript_clean_v6/main.pdf",
+    "pages": 51,
+    "sha256": "0d694c74f26cc89dee2df84c1fe6d19cc3e3b52389699679194cdee7289f19c8",
+    "replacement_characters": 0,
+    "question_mark_pairs": 0,
+    "quoted_reviewer_question_pairs_allowed": 0
+  },
+  {
+    "document": "manuscript/manuscript_tracked_v6/main_tracked.pdf",
+    "pages": 51,
+    "sha256": "1fdb218653746391cbeebae38cdbacd5d274c9d5283c0015bdd12e9771041982",
+    "replacement_characters": 0,
+    "question_mark_pairs": 0,
+    "quoted_reviewer_question_pairs_allowed": 0
+  },
+  {
+    "document": "manuscript/response_v6/response_letter_npjSB_v6.pdf",
+    "pages": 15,
+    "sha256": "d8107849faeda135c7a3969fd9a4f402603aa669b60b8533f69df7a00affce60",
+    "replacement_characters": 0,
+    "question_mark_pairs": 1,
+    "quoted_reviewer_question_pairs_allowed": 1
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "component": "L_NAD_LDH",
+    "candidate_loci": "BADO_RS06040",
+    "candidate_proteins": "WP_003810784.1",
+    "best_hit": [
+      {
+        "qseqid": "sp|P0CW93|LDH2_BIFLO",
+        "sseqid": "WP_003810784.1",
+        "pident": 90.9,
+        "length": 320,
+        "qlen": 320,
+        "slen": 320,
+        "qstart": 1,
+        "qend": 320,
+        "sstart": 1,
+        "send": 320,
+        "evalue": 3.01e-214,
+        "bitscore": 583.0,
+        "reference_accession": "P0CW93",
+        "reciprocal_best_within_panel": false,
+        "query_coverage_percent": 100.0,
+        "subject_coverage_percent": 100.0,
+        "sequence_version": 1,
+        "entry_version": 74,
+        "reviewed": "UniProtKB reviewed (Swiss-Prot)",
+        "protein_name": "L-lactate dehydrogenase 2",
+        "reference_genes": "ldh2",
+        "EC": "1.1.1.27",
+        "reference_organism": "Bifidobacterium longum (strain NCC 2705)",
+        "PMIDs": "2695396;12381787",
+        "reference_domains": "IPR001557;IPR011304;IPR018177;IPR022383;IPR001236;IPR015955;IPR036291;PF02866;PF00056",
+        "protein_existence": "1: Evidence at protein level",
+        "source_url": "https://www.uniprot.org/uniprotkb/P0CW93",
+        "protein_id": "WP_003810784.1",
+        "locus_tag": "BADO_RS06040",
+        "product": "L-lactate dehydrogenase",
+        "scaffold": "NZ_CP007443.1",
+        "start_1based": 1435880,
+        "end_1based": 1436842,
+        "strand": -1,
+        "translation_length": 320,
+        "well_covered_candidate": true
+      }
+    ],
+    "meaning": "Limited curated-panel homology evidence; non-detection does not prove genomic absence"
+  },
+  {
+    "component": "D_NAD_LDH",
+    "candidate_loci": "",
+    "candidate_proteins": "",
+    "best_hit": [],
+    "meaning": "Limited curated-panel homology evidence; non-detection does not prove genomic absence"
+  },
+  {
+    "component": "LarA",
+    "candidate_loci": "",
+    "candidate_proteins": "",
+    "best_hit": [],
+    "meaning": "Limited curated-panel homology evidence; non-detection does not prove genomic absence"
+  },
+  {
+    "component": "LarB",
+    "candidate_loci": "",
+    "candidate_proteins": "",
+    "best_hit": [],
+    "meaning": "Limited curated-panel homology evidence; non-detection does not prove genomic absence"
+  },
+  {
+    "component": "LarC",
+    "candidate_loci": "",
+    "candidate_proteins": "",
+    "best_hit": [],
+    "meaning": "Limited curated-panel homology evidence; non-detection does not prove genomic absence"
+  },
+  {
+    "component": "LarE",
+    "candidate_loci": "",
+    "candidate_proteins": "",
+    "best_hit": [],
+    "meaning": "Limited curated-panel homology evidence; non-detection does not prove genomic absence"
+  }
+]

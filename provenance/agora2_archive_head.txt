@@ -1,0 +1,23 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 5915M    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0 5915M    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/2 200 
+date: Mon, 26 Oct 2026 18:13:16 GMT
+content-type: application/zip
+content-length: 6202657544
+server: cloudflare
+x-frame-options: SAMEORIGIN
+x-content-type-options: nosniff
+strict-transport-security: max-age=63072000; includeSubDomains; preload
+origin-agent-cluster: ?1
+content-security-policy: object-src 'none'; base-uri 'self'; frame-ancestors 'self' https://imdhub.org https://*.imdhub.org
+x-request-id: 2bb20783-ebdd-4b61-8a0d-440e8d5f680f
+content-disposition: attachment; filename="AGORA2_annotatedSBML_all.zip"; filename*=UTF-8''AGORA2_annotatedSBML_all.zip
+accept-ranges: bytes
+last-modified: Thu, 23 Mar 2023 13:31:31 GMT
+cf-cache-status: DYNAMIC
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=1BMRh6DmvFQwWHwbvoegoTgOqflbmVGGfsN4Nur3Q94FDMMoELHoiH%2BLeWEDx50B%2Fzo7%2F%2FXhd%2Bm49zbewWdwCV2WSnG0INGKeEL5WTx9rwMgGdVVslxWTorQNjojBAuFRPpvhCwA4xuQba4%3D"}]}
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+cf-ray: a50b6f186ad8adde-ATL
+alt-svc: h3=":443"; ma=86400
+

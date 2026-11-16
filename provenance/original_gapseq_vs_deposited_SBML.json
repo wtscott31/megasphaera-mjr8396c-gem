@@ -1,0 +1,14 @@
+[
+  {
+    "label": "M",
+    "original_local_output_sha256": "3b849c02a7e165b6c31c6edfcc62cb469814176d2067e1a6a68a0e375eeb2ccd",
+    "deposited_baseline_sha256": "3b849c02a7e165b6c31c6edfcc62cb469814176d2067e1a6a68a0e375eeb2ccd",
+    "byte_identical": true
+  },
+  {
+    "label": "B",
+    "original_local_output_sha256": "0ebe69baa1c7572a49ba13835b9248a079c4a272528ead32ed6d10b0c7a5d027",
+    "deposited_baseline_sha256": "0ebe69baa1c7572a49ba13835b9248a079c4a272528ead32ed6d10b0c7a5d027",
+    "byte_identical": true
+  }
+]

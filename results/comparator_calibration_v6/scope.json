@@ -1,0 +1,9 @@
+{
+  "comparators_gapfilled": false,
+  "selective_model_specific_feeding": false,
+  "shared_organic_C_uptake_budget": 60,
+  "medium": "Declared equal per-compound support where represented; missing transporters retained. Support-scale sensitivity .5/1/2.",
+  "interpretation": "A controlled mathematical comparator screen, not empirically calibrated physiological growth. Native, formula-normalized and partially repaired candidates reported separately.",
+  "target_measured_biomass_available": false,
+  "absolute_growth_ranking_empirically_validated": false
+}

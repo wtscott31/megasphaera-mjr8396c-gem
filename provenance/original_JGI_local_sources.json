@@ -1,0 +1,203 @@
+{
+  "retrieved_utc": "2026-10-26T20:07:16.790823+00:00",
+  "files": [
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/MJR8396C_candidate_vaginal_BV_like_medium_gapseq.csv",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/MJR8396C_candidate_vaginal_BV_like_medium_gapseq.csv",
+      "sha256": "44ca7b4e5df03c81ede4d9122843684d6f3489fce5e684dc22b8b9bc1abbaa5f",
+      "bytes": 547
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/.DS_Store",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/.DS_Store",
+      "sha256": "fd8de42da56b515cda3183a88335636107bb5d87b91c261a8c7f7303ecd525b3",
+      "bytes": 14340
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/MJR8396C_candidate_anaerobic_medium_gapseq.csv",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/MJR8396C_candidate_anaerobic_medium_gapseq.csv",
+      "sha256": "bdbdb3de344a9de8d95cb0aecce238ef333ec634e07a1296fe11abe864bb1589",
+      "bytes": 642
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/MJR8396C_candidate_anaerobic_medium_gapseq_revised.csv",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/MJR8396C_candidate_anaerobic_medium_gapseq_revised.csv",
+      "sha256": "81e1beb8bc8fae3b8e3be20863019ecebc0191ab4f3a8a73eac78f1fb39df9f3",
+      "bytes": 777
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/run_gapseq_MJR8396C.sh",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/run_gapseq_MJR8396C.sh",
+      "sha256": "865955ee8794ba1d9bfdfadde733c53b5ca52b624f51b2b9a5f971877372a9da",
+      "bytes": 1571
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/MJR8396C_candidate_vaginal_BV_like_medium_gapseq_revised.csv",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/MJR8396C_candidate_vaginal_BV_like_medium_gapseq_revised.csv",
+      "sha256": "d1fed47bf82c5bf2f9728aa23a5bc6d86d05475a2fb67d7d56a04444274f5193",
+      "bytes": 650
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/README_gapseq_MJR8396C.txt",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/README_gapseq_MJR8396C.txt",
+      "sha256": "6f9c9fa508010554676894b08e3d25c7765bce3926e28c434ba434388f40561b",
+      "bytes": 1033
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_genome_assembly/2775506928_genes.faa",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Megasphaera_genome_assembly/2775506928_genes.faa",
+      "sha256": "8b137ffb2acac1f78f6640faa0943a509c6c428e02637a55b304fb46f8b6eff0",
+      "bytes": 936162
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_genome_assembly/2775506928.fna",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Megasphaera_genome_assembly/2775506928.fna",
+      "sha256": "e0cc079bda8c8a56494a0cb649336b37ca7a6baec6b5fd59be069f8a44e410bb",
+      "bytes": 2479549
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/2775506928_genes-all-Reactions.tbl",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Megasphaera_gapseq_run/2775506928_genes-all-Reactions.tbl",
+      "sha256": "6dfc03761858ebf7267204674452f8c39170a37d7fa088bdc2503d5a8eac69d1",
+      "bytes": 8937775
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/2775506928_genes-draft.RDS",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Megasphaera_gapseq_run/2775506928_genes-draft.RDS",
+      "sha256": "2695e497532e0c42ff2e0c921d660be06a02d0853781de66d9d784717e745f9c",
+      "bytes": 1239968
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/Megasphaera_sp_MJR8396C_draft.xml",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Megasphaera_gapseq_run/Megasphaera_sp_MJR8396C_draft.xml",
+      "sha256": "ef5bdd433d9fcf6d05f36c212eced117163c88bd7492c59a0f62a8f489700cd6",
+      "bytes": 6687895
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/Megasphaera_sp_MJR8396C_filled_BV_like.RDS",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Megasphaera_gapseq_run/Megasphaera_sp_MJR8396C_filled_BV_like.RDS",
+      "sha256": "7ae9c334624d05771ff995533f66d163bd529d21156a4df9fa8d96a93fe19c6d",
+      "bytes": 1312374
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/Megasphaera_sp_MJR8396C_filled_anaerobic.xml",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Megasphaera_gapseq_run/Megasphaera_sp_MJR8396C_filled_anaerobic.xml",
+      "sha256": "3b849c02a7e165b6c31c6edfcc62cb469814176d2067e1a6a68a0e375eeb2ccd",
+      "bytes": 7256292
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/2775506928_genes-all-Pathways.tbl",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Megasphaera_gapseq_run/2775506928_genes-all-Pathways.tbl",
+      "sha256": "a6641ff02cd3b1c28b6739cf30cb0ab082a402113b40e3e71ea28079b3e4adc3",
+      "bytes": 186174
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/2775506928_genes-all-find_aligner.log",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Megasphaera_gapseq_run/2775506928_genes-all-find_aligner.log",
+      "sha256": "0f0ef62f1d49ea92e3ef4631f5b4faeb094e534598cc657c81eb930c226d77c1",
+      "bytes": 474
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/2775506928_genes-Transporter.tbl",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Megasphaera_gapseq_run/2775506928_genes-Transporter.tbl",
+      "sha256": "cc2ba49782f312340e0a6dd5b2692575ac06953c3200b28278cdde1ba57c5edf",
+      "bytes": 2872274
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/Megasphaera_sp_MJR8396C_filled_BV_like.xml",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Megasphaera_gapseq_run/Megasphaera_sp_MJR8396C_filled_BV_like.xml",
+      "sha256": "a7be9f803ec28a631977cd06b8db72f401e1ff942d7d59b3ff3f0e4eaa2b6e47",
+      "bytes": 7256608
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/2775506928_genes-Transporter-find_aligner.log",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Megasphaera_gapseq_run/2775506928_genes-Transporter-find_aligner.log",
+      "sha256": "183f395e78519968a12f50709a56be9e77a7fa5adc96323a96cfd6a6cefbd657",
+      "bytes": 474
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/Megasphaera_sp_MJR8396C_filled_anaerobic.RDS",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Megasphaera_gapseq_run/Megasphaera_sp_MJR8396C_filled_anaerobic.RDS",
+      "sha256": "76ebaefd7282f048e2c43b4ab022f5db87696339ac2814e0d8d412de5fbbfc52",
+      "bytes": 1313627
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run/protein-all-Pathways.tbl",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Bifidobacterium_adolescentis_gapseq_run/protein-all-Pathways.tbl",
+      "sha256": "00c5c990d5f105585ff4879d421b4dce96b4ca399c9ed222e6a8d647a84f4358",
+      "bytes": 173235
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run/.DS_Store",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Bifidobacterium_adolescentis_gapseq_run/.DS_Store",
+      "sha256": "cbb5228efa029432b883f4e4c69d6aaa8b33443e3d7fe1d5b9ce3625f3e62e35",
+      "bytes": 8196
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run/Bifidobacterium_adolescentis_GCF_000737885_1_filled_anaerobic.xml",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Bifidobacterium_adolescentis_gapseq_run/Bifidobacterium_adolescentis_GCF_000737885_1_filled_anaerobic.xml",
+      "sha256": "0ebe69baa1c7572a49ba13835b9248a079c4a272528ead32ed6d10b0c7a5d027",
+      "bytes": 5745360
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run/protein-Transporter.tbl",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Bifidobacterium_adolescentis_gapseq_run/protein-Transporter.tbl",
+      "sha256": "7ad1d14540e3ce24878fa2b2a8c160895465a324ab75d1f2ec8df1b5c8f3b36e",
+      "bytes": 3422091
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run/protein-Transporter-find_aligner.log",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Bifidobacterium_adolescentis_gapseq_run/protein-Transporter-find_aligner.log",
+      "sha256": "221410a954f832b139d8a68fd13d68ef78fb7a962f94f5d57f8d5577de054144",
+      "bytes": 485
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run/protein-all-Reactions.tbl",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Bifidobacterium_adolescentis_gapseq_run/protein-all-Reactions.tbl",
+      "sha256": "ad3c70ca71d8108a2dc19fdad57eaeb8e8de6d4c9227a010f37e09b5b5859b5d",
+      "bytes": 6274251
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run/protein-draft.xml",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Bifidobacterium_adolescentis_gapseq_run/protein-draft.xml",
+      "sha256": "06952c6828662e73f8d56ff84122104a0fd381b114392b107deb727c4688fc15",
+      "bytes": 5290208
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run/Bifidobacterium_adolescentis_GCF_000737885_1_filled_anaerobic.RDS",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Bifidobacterium_adolescentis_gapseq_run/Bifidobacterium_adolescentis_GCF_000737885_1_filled_anaerobic.RDS",
+      "sha256": "ea04772fa3c4784478adecb337b97bbd883c3dcec90c620d8ae3bc9442b1062e",
+      "bytes": 1048830
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run/protein-draft.RDS",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Bifidobacterium_adolescentis_gapseq_run/protein-draft.RDS",
+      "sha256": "eb1e766249370f34a68afbf8f7962d16951944add71a7a1cccd93d1805fccb79",
+      "bytes": 994323
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run/protein-all-find_aligner.log",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Bifidobacterium_adolescentis_gapseq_run/protein-all-find_aligner.log",
+      "sha256": "e618c104ae140b7dde5f3f7b196232150f62cb110b416633c55022d12df306cc",
+      "bytes": 485
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run/logs/Bifidobacterium_adolescentis_gapseq_provenance_2026-05-06_13-41-12.md",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Bifidobacterium_adolescentis_gapseq_run/logs/Bifidobacterium_adolescentis_gapseq_provenance_2026-05-06_13-41-12.md",
+      "sha256": "3870a04ef726d760956eb88d5b55a88ca17247be318a1e71225aea479ed3914c",
+      "bytes": 5569
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run/logs/Bifidobacterium_adolescentis_gapseq_checksums_2026-05-06_13-41-12.sha256",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Bifidobacterium_adolescentis_gapseq_run/logs/Bifidobacterium_adolescentis_gapseq_checksums_2026-05-06_13-41-12.sha256",
+      "sha256": "b2ca7a9ae9db025fc292e8805108f612512d9ccd4a93c2c6c72b585e556d5da5",
+      "bytes": 867
+    },
+    {
+      "source": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Bifidobacterium_adolescentis_gapseq_run/logs/Bifidobacterium_adolescentis_gapseq_run_2026-05-06_13-41-12.log",
+      "copied": "revision_v4/inputs/original_JGI_gapseq/Bifidobacterium_adolescentis_gapseq_run/logs/Bifidobacterium_adolescentis_gapseq_run_2026-05-06_13-41-12.log",
+      "sha256": "e41d0385f8400738802d1fd0366ef05f13fa1335335618661a22a37ef708ce52",
+      "bytes": 35956
+    }
+  ]
+}

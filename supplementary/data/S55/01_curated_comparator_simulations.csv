@@ -1,0 +1,73 @@
+model,scenario,objective,status,objective_value,growth_flux,biomass_mass_g_per_unit,cpd00027,cpd00159,cpd00221,cpd00029,cpd00211,cpd00141,cpd00047,cpd00036,cpd00013,cpd00239,cpd00324,cpd00011,cpd11640
+MJR8396C,native_as_deposited_objective,1.0*EX_cpd11416_c0 - 1.0*EX_cpd11416_c0_reverse_67607,optimal,0.7004949341392676,0.7004949341392676,0.9999880403303026,-10.0,-10.0,0.0,-5.0,10.847240696193131,11.260554284120477,0.0,0.011866775110539216,1.4722100505884208,1.9319837389959378,1.8930596737844065,21.733416488488604,0.0
+MJR8396C,native_bounds_growth_objective_anaerobic,1.0*EX_cpd11416_c0 - 1.0*EX_cpd11416_c0_reverse_67607,optimal,0.700494934139957,0.700494934139957,0.9999880403303026,-10.0,-10.0,0.0,-5.0,10.847240696174062,11.26055428414792,0.0,0.011866775110539018,1.47221005058864,1.9319837389959391,1.8930596737844085,21.733416488483282,0.0
+MJR8396C,harmonized_gut,1.0*EX_cpd11416_c0 - 1.0*EX_cpd11416_c0_reverse_67607,optimal,0.700494934139957,0.700494934139957,0.9999880403303026,-10.0,-10.0,0.0,-5.0,10.847240696174062,11.26055428414792,0.0,0.011866775110539018,1.47221005058864,1.9319837389959391,1.8930596737844085,21.733416488483282,0.0
+MJR8396C,carbon60_glucose,1.0*EX_cpd11416_c0 - 1.0*EX_cpd11416_c0_reverse_67607,optimal,0.6127848364954582,0.6127848364954582,0.9999880403303026,-10.0,0.0,0.0,0.0,8.763169472592079,1.6864457914642867,14.959434819129807,0.010380917107952822,2.2895651319126755,1.9405001644592605,1.9064498440730062,7.22532051853743,0.0
+MJR8396C,carbon60_glucose_acetate5,1.0*EX_cpd11416_c0 - 1.0*EX_cpd11416_c0_reverse_67607,optimal,0.6305983491842818,0.6305983491842818,0.9999880403303026,-10.0,0.0,0.0,-4.999998230001894,11.14000520446992,1.6773308435417411,9.812905581553114,0.010682687954114105,2.1235641183056284,1.938770518077258,1.9037303627960604,12.202800766166149,0.0
+MJR8396C,carbon60_L_lactate,1.0*EX_cpd11416_c0 - 1.0*EX_cpd11416_c0_reverse_67607,optimal,0.20595773848133445,0.20595773848133445,0.9999880403303026,0.0,-20.0,0.0,0.0,6.999529249063549,11.047546578926578,0.0,0.0034890390290067174,6.080715805726571,1.9800020319724836,1.9685576773415436,16.89255866467148,0.0
+MJR8396C,carbon60_L_lactate_acetate5,1.0*EX_cpd11416_c0 - 1.0*EX_cpd11416_c0_reverse_67607,optimal,0.2142624860007678,0.2142624860007678,0.9999880403303026,0.0,-20.0,0.0,-5.0,10.709187686547203,8.509141199013797,0.0,0.0036297260866300584,6.003325314021714,1.9791956622939582,1.9672898417504756,19.34790377212383,0.0
+MJR8396C,carbon60_D_lactate,1.0*EX_cpd11416_c0 - 1.0*EX_cpd11416_c0_reverse_67607,optimal,0.3098479846847795,0.3098479846847795,0.9999880403303026,0.0,0.0,-20.0,0.0,10.857692890944875,1.8414547263280083,17.451291614647005,0.005248997777872061,5.1125807458463015,1.9699145555937498,1.9526973816018376,7.608292619406952,0.0
+MJR8396C,carbon60_D_lactate_acetate5,1.0*EX_cpd11416_c0 - 1.0*EX_cpd11416_c0_reverse_67607,optimal,0.3266875490698345,0.3266875490698345,0.9999880403303026,0.0,0.0,-20.0,-4.999999030002017,13.241262671758006,1.832838135367571,12.312775824571334,0.005534269396235836,4.955655786381184,1.9682794770934073,1.9501265871236757,12.587003204811404,0.0
+iME375,native_as_deposited_objective,1.0*R047 - 1.0*R047_reverse_641ea,optimal,3.5135135135135127,0.0,,-5.0,,0.0,0.0,0.0,0.0,0.0,,1.7290089917341861e-15,,,8.918919129729726,6.50000005954855e-07
+iME375,native_bounds_growth_objective_anaerobic,1.0*R617 - 1.0*R617_reverse_14b1e,optimal,0.6176668464876415,0.6176668464876415,,-5.0,,0.0,0.0,1.199502836057983,0.0,0.0,,-6.158838276197028,,,2.5811484954152775,0.0
+iME375,harmonized_gut,1.0*R617 - 1.0*R617_reverse_14b1e,optimal,2.0441519330966567,2.0441519330966567,,-10.0,,0.0,-5.0,2.361529732547242,0.0,0.0,,-13.096878380305537,,,7.8045548586213505,0.0
+iME375,carbon60_glucose,1.0*R617 - 1.0*R617_reverse_14b1e,optimal,1.6451138763894526,1.6451138763894526,,-10.0,,0.0,0.0,2.2752269230109494,0.0,0.0,,-9.759403795286065,,,10.632798311510314,3.169901223734183
+iME375,carbon60_glucose_acetate5,1.0*R617 - 1.0*R617_reverse_14b1e,optimal,2.0441519330966567,2.0441519330966567,,-10.0,,0.0,-5.0,2.361529732547242,0.0,0.0,,-13.096878380305537,,,7.8045548586213505,0.0
+iME375,carbon60_L_lactate,,substrate_exchange_unmapped,,,,,,,,,,,,,,,,
+iME375,carbon60_L_lactate_acetate5,,substrate_exchange_unmapped,,,,,,,,,,,,,,,,
+iME375,carbon60_D_lactate,1.0*R617 - 1.0*R617_reverse_14b1e,optimal,1.6451138763895194,1.6451138763895194,,0.0,,-20.0,0.0,2.2752276030105434,0.0,0.0,,-9.759403795286167,,,10.632798311510047,3.1699019037333755
+iME375,carbon60_D_lactate_acetate5,1.0*R617 - 1.0*R617_reverse_14b1e,optimal,2.0441519330960913,2.0441519330960913,,0.0,,-20.0,-5.0,2.3615297325480515,0.0,0.0,,-13.096878380305805,,,7.804554858617619,0.0
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,native_as_deposited_objective,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,49.994886043104636,49.994886043104636,,-7.5109816295760155,-1.2286996200093543e-13,,1000.0,611.4942870101701,,998.3415546582967,999.999749999979,1000.0,,,-502.56889317508944,
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,native_bounds_growth_objective_anaerobic,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,49.99488604310444,49.99488604310444,,-32.713128460008406,0.0,,1000.0,611.4942870102453,,998.3415546582962,999.9997499999123,1000.0,,,-502.56889317501566,
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,harmonized_gut,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,carbon60_glucose,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,carbon60_glucose_acetate5,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,carbon60_L_lactate,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,carbon60_L_lactate_acetate5,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,carbon60_D_lactate,,substrate_exchange_unmapped,,,,,,,,,,,,,,,,
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,carbon60_D_lactate_acetate5,,substrate_exchange_unmapped,,,,,,,,,,,,,,,,
+AGORA2_fixed_Megasphaera_nov_ERR1022370,native_as_deposited_objective,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,32.70022589456868,32.70022589456868,,-11.462001315458856,-979.1829454532783,0.0,971.1209546910803,34.17525559244353,,-925.9892315201885,999.9999999999999,1000.0,,,1000.0,
+AGORA2_fixed_Megasphaera_nov_ERR1022370,native_bounds_growth_objective_anaerobic,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,32.69927989294313,32.69927989294313,,-11.461669725262086,-893.7413555972473,-999.9999999999999,57.171502141327906,948.1245549253744,,-11.838577971180987,1000.0,1000.0,,,1000.0,
+AGORA2_fixed_Megasphaera_nov_ERR1022370,harmonized_gut,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_nov_ERR1022370,carbon60_glucose,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_nov_ERR1022370,carbon60_glucose_acetate5,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_nov_ERR1022370,carbon60_L_lactate,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_nov_ERR1022370,carbon60_L_lactate_acetate5,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_nov_ERR1022370,carbon60_D_lactate,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_nov_ERR1022370,carbon60_D_lactate_acetate5,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,0.0,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,native_as_deposited_objective,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,35.73629624156669,35.73629624156669,,-10.728715014059798,999.9999200000368,,62.78764485674153,402.6464722900193,,-47.322074482457744,24.850948685285196,952.270469612648,,,999.9999999999999,
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,native_bounds_growth_objective_anaerobic,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,35.735801937525956,35.735801937525956,,-5.363765138173823,999.999920000011,,62.78677637760697,402.6478188834943,,-47.32141992404942,24.8506049472392,952.2711298058488,,,999.9999999999999,
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,harmonized_gut,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,carbon60_glucose,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,carbon60_glucose_acetate5,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,carbon60_L_lactate,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,carbon60_L_lactate_acetate5,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,,0.0,0.0,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,carbon60_D_lactate,,substrate_exchange_unmapped,,,,,,,,,,,,,,,,
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,carbon60_D_lactate_acetate5,,substrate_exchange_unmapped,,,,,,,,,,,,,,,,
+AGORA2_fixed_Megasphaera_genomosp_type_2,native_as_deposited_objective,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,45.03252113573677,45.03252113573677,,,300.29488802347464,,1000.0,,,975.0470569824926,-299.663036725737,9.156660574068061,,,1000.0,
+AGORA2_fixed_Megasphaera_genomosp_type_2,native_bounds_growth_objective_anaerobic,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,31.569175271958166,31.569175271958166,,,503.9557983806136,,571.8257946004541,,,610.0541018697818,4.629815236219451,142.10864423452531,,,1000.0000000000001,
+AGORA2_fixed_Megasphaera_genomosp_type_2,harmonized_gut,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,,0.0,,0.0,,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_genomosp_type_2,carbon60_glucose,,substrate_exchange_unmapped,,,,,,,,,,,,,,,,
+AGORA2_fixed_Megasphaera_genomosp_type_2,carbon60_glucose_acetate5,,substrate_exchange_unmapped,,,,,,,,,,,,,,,,
+AGORA2_fixed_Megasphaera_genomosp_type_2,carbon60_L_lactate,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,,0.0,,0.0,,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_genomosp_type_2,carbon60_L_lactate_acetate5,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,,0.0,,0.0,,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_genomosp_type_2,carbon60_D_lactate,,substrate_exchange_unmapped,,,,,,,,,,,,,,,,
+AGORA2_fixed_Megasphaera_genomosp_type_2,carbon60_D_lactate_acetate5,,substrate_exchange_unmapped,,,,,,,,,,,,,,,,
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460,native_as_deposited_objective,1.0*biomass370 - 1.0*biomass370_reverse_d92e9,optimal,67.57827210285184,67.57827210285184,,0.0,0.0,,1000.0,607.0857664744962,300.16052317405183,-397.7956485946314,1000.0,989.3985235133393,97.25883173415326,,1000.0,0.0
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460,native_bounds_growth_objective_anaerobic,1.0*biomass370 - 1.0*biomass370_reverse_d92e9,optimal,67.5782721028517,67.5782721028517,,0.0,0.0,,1000.0,607.0857664744836,300.1605231740461,-397.79564859464324,1000.0,989.3985235133364,97.25883173414555,,1000.0,0.0
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460,harmonized_gut,1.0*biomass370 - 1.0*biomass370_reverse_d92e9,optimal,2.5763393502665553,2.5763393502665553,,-10.0,-10.0,,-4.968177402895941,0.0,-9.980197597620895e-17,0.0,1.4738026395998918,-13.708817241372403,0.0,,12.648548026752332,0.0
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460,carbon60_glucose,1.0*biomass370 - 1.0*biomass370_reverse_d92e9,optimal,1.7607863202163132,1.7607863202163132,,-10.0,0.0,,3.7500039101532187e-07,0.0,0.0,0.0,0.0,-7.415372733625377,0.0,,10.441698906564957,0.0
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460,carbon60_glucose_acetate5,1.0*biomass370 - 1.0*biomass370_reverse_d92e9,optimal,1.8185924825410915,1.8185924825410915,,-10.0,0.0,,-3.0657722843975663,0.0,0.0,0.0,1.0403312750117413,-7.912106288028598,0.0,,10.104857430648167,0.0
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460,carbon60_L_lactate,1.0*biomass370 - 1.0*biomass370_reverse_d92e9,optimal,1.5501597354348848,1.5501597354348848,,0.0,-20.0,,3.749997720449701e-07,0.0,0.0,0.0,0.0,-6.754990104040961,0.0,,10.143325211948081,0.0
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460,carbon60_L_lactate_acetate5,1.0*biomass370 - 1.0*biomass370_reverse_d92e9,optimal,1.6985841540252216,1.6985841540252216,,0.0,-20.0,,-4.379788588198132,0.0,0.0,0.0,0.0,-6.994050744627709,0.0,,10.187840022249137,0.0
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460,carbon60_D_lactate,,substrate_exchange_unmapped,,,,,,,,,,,,,,,,
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460,carbon60_D_lactate_acetate5,,substrate_exchange_unmapped,,,,,,,,,,,,,,,,
+AGORA2_fixed_Megasphaera_massiliensis_NP3,native_as_deposited_objective,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,26.581255574509637,26.581255574509637,,-5.653054173379343,989.4446313631756,,219.15374142573188,,,-1.2223842135044698,8.51142427486659,116.14251827145799,,,25.08836695054466,
+AGORA2_fixed_Megasphaera_massiliensis_NP3,native_bounds_growth_objective_anaerobic,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,26.58125557450978,26.58125557450978,,-5.653054173379361,989.4446313631757,,219.15374142573825,,,-1.2223842135044753,8.511424274866478,116.14251827147648,,,25.088366950544664,
+AGORA2_fixed_Megasphaera_massiliensis_NP3,harmonized_gut,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,,0.0,,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_massiliensis_NP3,carbon60_glucose,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,,0.0,,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_massiliensis_NP3,carbon60_glucose_acetate5,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,,0.0,,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_massiliensis_NP3,carbon60_L_lactate,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,,0.0,,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_massiliensis_NP3,carbon60_L_lactate_acetate5,1.0*bio1 - 1.0*bio1_reverse_b18f7,optimal,0.0,0.0,,0.0,0.0,,0.0,,,0.0,0.0,0.0,,,0.0,
+AGORA2_fixed_Megasphaera_massiliensis_NP3,carbon60_D_lactate,,substrate_exchange_unmapped,,,,,,,,,,,,,,,,
+AGORA2_fixed_Megasphaera_massiliensis_NP3,carbon60_D_lactate_acetate5,,substrate_exchange_unmapped,,,,,,,,,,,,,,,,

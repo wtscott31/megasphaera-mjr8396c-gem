@@ -1,0 +1,10 @@
+reaction,name,flux
+bio1,Bacterial Gram-negative biomass reaction,0.7004949341392577
+EX_cpd00211_e0,Butyrate-e0 Exchange,10.847247644715672
+EX_cpd00141_e0,Propionate-e0 Exchange,11.260544276653915
+EX_cpd00029_e0,Acetate-e0 Exchange,-5.0
+EX_cpd00159_e0,L-Lactate-e0 Exchange,-10.0
+EX_cpd00221_e0,D-Lactate-e0 Exchange,0.0
+EX_cpd00013_e0,NH3-e0 Exchange,1.4722099853098354
+EX_cpd00239_e0,H2S-e0 Exchange,1.9319837383157727
+EX_cpd00324_e0,MTTL-e0 Exchange,1.8930596727149993

@@ -1,0 +1,27 @@
+[
+  {
+    "file": "inputs/GCA_001546855.1.zip",
+    "disposition": "rejected_partial_archive",
+    "actual_bytes": 847
+  },
+  {
+    "file": "inputs/comparators/iME375_supplement.zip",
+    "disposition": "rejected_HTML_challenge_not_ZIP"
+  },
+  {
+    "file": "provenance/agora2_index.html",
+    "disposition": "legacy_URL_redirected_to_new_website_HTML; current public API and original archives resolved separately"
+  },
+  {
+    "file": "provenance/AGORA2_README.txt",
+    "disposition": "legacy_URL_returned_HTML; use AGORA2_README_actual.txt from official archive API"
+  },
+  {
+    "file": "inputs/comparators/AGORA2_*.xml",
+    "disposition": "API exports retained as diagnostic; primary comparator runs use archived corrected files with documented annotation-only encoding repair"
+  },
+  {
+    "file": "inputs/genomes/*",
+    "disposition": "actual sequence files validated against published NCBI MD5 and accession metadata"
+  }
+]

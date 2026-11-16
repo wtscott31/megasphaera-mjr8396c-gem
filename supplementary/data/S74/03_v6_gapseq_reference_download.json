@@ -1,0 +1,12 @@
+{
+  "started_utc": "2026-10-26T23:24:03.461316+00:00",
+  "finished_utc": "2026-10-26T23:27:25.591610+00:00",
+  "url": "https://zenodo.org/api/records/20446806/files/Bacteria.tar.gz/content",
+  "bytes": 345520909,
+  "md5_verified": "md5:09db671cb466f6bab5edac698bd92d81",
+  "sha256": "ec669d568a2e5459bfe6619865a3cd2612fb9edc3a9688ad45fdf619d2e1afeb",
+  "reference_version": "1.5",
+  "record": 20446806,
+  "extraction": "validated relative regular members; all nested reference archives extracted",
+  "new_reconstructions_only": true
+}

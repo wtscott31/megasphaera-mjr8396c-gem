@@ -1,0 +1,23 @@
+{"command": ["diamond", "makedb", "--in", "/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v6/results/matched_functional_curation_v6/B22L.faa", "--db", "/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v6/results/matched_functional_curation_v6/B22L"], "cwd": "/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v6", "started_utc": "2026-10-26T23:48:12.860470+00:00", "log": "logs/v6_matched_B22L_db.log"}
+diamond v2.1.24.178 (C) Max Planck Society for the Advancement of Science, Benjamin J. Buchfink, University of Tuebingen
+Documentation, support and updates available at http://www.diamondsearch.org
+Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
+
+#CPU threads: 16
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+[1;33mWarning: This version of DIAMOND is more than 180 days old. It is recommended to always use the latest version.
+[0;39mDatabase input file: /Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v6/results/matched_functional_curation_v6/B22L.faa
+Opening the database file...  [0s]
+Loading sequences...  [0.005s]
+Masking sequences...  [0.004s]
+Writing sequences...  [0s]
+Hashing sequences...  [0s]
+Loading sequences...  [0s]
+Writing trailer...  [0s]
+Closing the input file...  [0s]
+Closing the database file...  [0s]
+
+Database sequences  1758
+  Database letters  644673
+     Database hash  847e7916b2fcbcdd0fc58ece34e4bff9
+        Total time  0.010000s

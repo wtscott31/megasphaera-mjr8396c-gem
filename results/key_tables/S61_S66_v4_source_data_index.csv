@@ -1,0 +1,7 @@
+source_group,content,path
+S61,Complete original-JGI/public mapping and provenance,results/JGI_mapping/
+S62,Primary related-strain empirical measurements and sensitivity,results/empirical_biomass/
+S63,"240 native MICOM cases, complete QP variables and certificates",results/native_micom_v4/
+S64,540 native QP-conditioned exchange FVA ranges,results/native_micom_v4/native_QP_conditioned_exchange_FVA.csv
+S65,Comparator medium/biomass/source-discrepancy audits,results/comparators/v4_*
+S66,"Readiness, recovered-comment wording and verification",TASK_STATUS_v4.csv; provenance/recovered_editorial_sources.json; results/reviewer_wording_preservation_v4.json; logs/pytest_v4.log

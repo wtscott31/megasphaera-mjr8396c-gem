@@ -1,0 +1,54 @@
+[
+  {
+    "path": "notebooks/MJR8396C_revised_manuscript_simulations.ipynb",
+    "sha256": "6a6049580034d34181b284164449480e32d58e5971b8fc1797a1a46790608d07",
+    "hits": [
+      {
+        "source_line": 63,
+        "text": "print('Solver:', model.solver.interface.__name__)"
+      },
+      {
+        "source_line": 467,
+        "text": "Run only after installing a MILP-capable solver and `straindesign`. Results from StrainDesign must not be called \u201cOptForce\u201d unless the OptForce algorithm itself is run. If the current manuscript retains \u201cOptForce,\u201d either rerun OptForce explicitly or rename the section to \u201cconstraint-based strain-design predictions.\u201d"
+      },
+      {
+        "source_line": 474,
+        "text": "    # Insert the final, solver-validated intervention formulation here."
+      },
+      {
+        "source_line": 520,
+        "text": "6. Do not call StrainDesign/OptKnock results \u201cOptForce.\u201d"
+      }
+    ]
+  },
+  {
+    "path": "notebooks/MJR8396C_revised_manuscript_simulations_EXECUTED.ipynb",
+    "sha256": "82a31204e434973bc49d2101bba1e097905fb0e2871640d0542273716a54ac8b",
+    "hits": [
+      {
+        "source_line": 50,
+        "text": "- StrainDesign outputs are exploratory and must not be called OptForce unless an OptForce calculation is performed."
+      }
+    ]
+  },
+  {
+    "path": "provenance/Bifidobacterium_adolescentis_gapseq_provenance_2026-05-06_13-41-12.md",
+    "sha256": "3870a04ef726d760956eb88d5b55a88ca17247be318a1e71225aea479ed3914c",
+    "hits": [
+      {
+        "source_line": 56,
+        "text": "- LP solver: glpk"
+      }
+    ]
+  },
+  {
+    "path": "provenance/MJR8396C_gapseq_reconstruction_and_gapfill_log.md",
+    "sha256": "285e1cab406d688ac8f6430d798a9c1fca0d7757d1d4ebe145b25ae4cce8a94f",
+    "hits": [
+      {
+        "source_line": 46,
+        "text": "LP solver: glpk"
+      }
+    ]
+  }
+]

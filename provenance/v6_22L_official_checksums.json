@@ -1,0 +1,20 @@
+[
+  {
+    "path": "protein.faa.gz",
+    "official_md5": "abcfb5551cb1c2a41d4c3b766d61c288",
+    "actual_md5": "abcfb5551cb1c2a41d4c3b766d61c288",
+    "verified": true
+  },
+  {
+    "path": "genomic.gbff.gz",
+    "official_md5": "4cb7ed682770d586fe5066a242306106",
+    "actual_md5": "4cb7ed682770d586fe5066a242306106",
+    "verified": true
+  },
+  {
+    "path": "assembly_report.txt",
+    "official_md5": "c776d2871b2493ddc696710c5204c5ad",
+    "actual_md5": "c776d2871b2493ddc696710c5204c5ad",
+    "verified": true
+  }
+]

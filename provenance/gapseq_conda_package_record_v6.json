@@ -1,0 +1,2267 @@
+{
+  "name": "gapseq",
+  "version": "2.1.0",
+  "build": "hdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "subdir": "noarch",
+  "fn": "gapseq-2.1.0-hdfd78af_0.conda",
+  "md5": "d72710a5f77609b1359f55cdb0c870ef",
+  "url": "https://conda.anaconda.org/bioconda/noarch/gapseq-2.1.0-hdfd78af_0.conda",
+  "sha256": "156dec2df307bacfb158a3cc155d7f5d40b4f649e6c8ea98931ceb0809bf6ef8",
+  "depends": [
+    "bc",
+    "bioconductor-biostrings",
+    "blast",
+    "coreutils",
+    "diamond >=2.1.9",
+    "gawk",
+    "glpk",
+    "grep",
+    "hmmer",
+    "libsbml",
+    "openssl",
+    "pyrodigal",
+    "r-base",
+    "r-biocmanager",
+    "r-cobrar >=0.2.5",
+    "r-data.table",
+    "r-getopt",
+    "r-httr",
+    "r-jsonlite",
+    "r-r.utils",
+    "r-rcurl",
+    "r-renv",
+    "r-stringi",
+    "r-stringr",
+    "sed",
+    "wget"
+  ],
+  "constrains": [],
+  "noarch": "generic",
+  "license": "AGPL-3.0-only",
+  "package_type": "noarch_generic",
+  "timestamp": 1780144206000,
+  "size": 57948692,
+  "requested_spec": "gapseq",
+  "package_tarball_full_path": "/opt/anaconda3/pkgs/gapseq-2.1.0-hdfd78af_0.conda",
+  "extracted_package_dir": "/opt/anaconda3/pkgs/gapseq-2.1.0-hdfd78af_0",
+  "files": [
+    "bin/gapseq",
+    "share/gapseq/ISSUE_TEMPLATE.MD",
+    "share/gapseq/LICENSE",
+    "share/gapseq/README.md",
+    "share/gapseq/dat/SEED2VMH_translation.csv",
+    "share/gapseq/dat/SEED2VMH_translation_edited.csv",
+    "share/gapseq/dat/altec.csv",
+    "share/gapseq/dat/bigg_reactions.tbl",
+    "share/gapseq/dat/biomass/biomass_Gram_neg.json",
+    "share/gapseq/dat/biomass/biomass_Gram_pos.json",
+    "share/gapseq/dat/biomass/biomass_archaea.json",
+    "share/gapseq/dat/biomass/excluded_reactions.tsv",
+    "share/gapseq/dat/brenda_ec.csv",
+    "share/gapseq/dat/brenda_ec_edited.csv",
+    "share/gapseq/dat/complex_subunit_dict.tsv",
+    "share/gapseq/dat/corrections_seed_reactionDB.tsv",
+    "share/gapseq/dat/custom_pwy.tbl",
+    "share/gapseq/dat/diffusion_mets.tsv",
+    "share/gapseq/dat/dist_reference-networks.RDS",
+    "share/gapseq/dat/ec_conflicts.tsv",
+    "share/gapseq/dat/env/env_highH2.tsv",
+    "share/gapseq/dat/exception.tbl",
+    "share/gapseq/dat/importantCIreactions.list",
+    "share/gapseq/dat/kegg_pwy.tbl",
+    "share/gapseq/dat/licenses/LICENSE.bigg",
+    "share/gapseq/dat/licenses/LICENSE.kegg",
+    "share/gapseq/dat/media/ALLmed.csv",
+    "share/gapseq/dat/media/FT.csv",
+    "share/gapseq/dat/media/LBmed.csv",
+    "share/gapseq/dat/media/LBmed_glucose_suppl.csv",
+    "share/gapseq/dat/media/M9_serine_galacturonate.csv",
+    "share/gapseq/dat/media/M9_vit_aa.csv",
+    "share/gapseq/dat/media/MM_anaerobic_Acetate.csv",
+    "share/gapseq/dat/media/MM_anaerobic_Acetate_H2.csv",
+    "share/gapseq/dat/media/MM_anaerobic_CO2_H2.csv",
+    "share/gapseq/dat/media/MM_glu-thm.csv",
+    "share/gapseq/dat/media/MM_glu.csv",
+    "share/gapseq/dat/media/TSBmed.csv",
+    "share/gapseq/dat/media/TSBmed.xlsx",
+    "share/gapseq/dat/media/autotrophic.csv",
+    "share/gapseq/dat/media/dsmz_1611_YCFA.csv",
+    "share/gapseq/dat/media/gut.csv",
+    "share/gapseq/dat/media/meerwasser.csv",
+    "share/gapseq/dat/medium_prediction_rules.tsv",
+    "share/gapseq/dat/meta_genes.csv",
+    "share/gapseq/dat/meta_pwy.tbl",
+    "share/gapseq/dat/meta_rea.tbl",
+    "share/gapseq/dat/meta_rea_pwy-gapseq.tbl",
+    "share/gapseq/dat/mnxref_bigg-other.tsv",
+    "share/gapseq/dat/mnxref_reac_xref.tsv",
+    "share/gapseq/dat/mnxref_seed-other.tsv",
+    "share/gapseq/dat/mnxref_seed.tsv",
+    "share/gapseq/dat/nutrients.tsv",
+    "share/gapseq/dat/reference_genomes_edited.tbl",
+    "share/gapseq/dat/seed_Enzyme_Class_Reactions_Aliases.tsv",
+    "share/gapseq/dat/seed_Enzyme_Class_Reactions_Aliases_unique.tsv",
+    "share/gapseq/dat/seed_Enzyme_Class_Reactions_Aliases_unique_edited.tsv",
+    "share/gapseq/dat/seed_Enzyme_Name_Reactions_Aliases.tsv",
+    "share/gapseq/dat/seed_metabolites.tsv",
+    "share/gapseq/dat/seed_metabolites_edited.tsv",
+    "share/gapseq/dat/seed_pwy.tbl",
+    "share/gapseq/dat/seed_reactions.tsv",
+    "share/gapseq/dat/seed_reactions_corrected.tsv",
+    "share/gapseq/dat/seed_transporter.tbl",
+    "share/gapseq/dat/seed_transporter_custom.tbl",
+    "share/gapseq/dat/seq/16S_db/16S_BMTest.fna",
+    "share/gapseq/dat/seq/16S_db/16S_BMTest.fna.nhr",
+    "share/gapseq/dat/seq/16S_db/16S_BMTest.fna.nin",
+    "share/gapseq/dat/seq/16S_db/16S_BMTest.fna.nsq",
+    "share/gapseq/dat/seq/16S_db/kmer5_refseq.RDS",
+    "share/gapseq/dat/seq/Archaea/user/1.2.7.12.fasta",
+    "share/gapseq/dat/seq/Archaea/user/5.3.1.24.fasta",
+    "share/gapseq/dat/seq/Archaea/user/5.3.1.27.fasta",
+    "share/gapseq/dat/seq/Archaea/user/5.4.99.5.fasta",
+    "share/gapseq/dat/seq/Archaea/user/a24abd9c6f7376577f002dfccf961db1.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/06a3269b9ad83ca86927ee14effbdd5b.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.1.1.173.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.1.1.238.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.1.1.26.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.1.1.36.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.1.1.52.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.1.1.8.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.1.99.14.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.18.1.3.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.2.1.57.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.2.1.87.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.3.1.12.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.3.1.57.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.3.3.15.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.3.3.4.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.3.5.3.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.5.1.3.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.5.1.43.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.5.7.1.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/1.6.1.4.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/11d790911e1c29cc7c451e6603ed8ba4.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/156dc3ace07b556af5e14dfb6f0ba79d.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/2.1.2.2.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/2.3.1.222.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/2.4.2.17.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/2.5.1.104.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/2.6.1.85.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/2.7.1.17.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/2.7.1.51.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/2.8.1.16.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/2.8.3.18.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/2.8.3.8.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/2089b0e8f3f3a2ee111a9531cb614d0c.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/25cbfc0bc2e9ce7532bfd6db6e5d1d07.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/290309402041b41c0de020b01ed41189.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/2972b7f83d763c45e4340e46f0ea15d6.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/3.1.3.15.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/3.1.3.2.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/3.2.1.26.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/3.2.1.63.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/3.2.1.7.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/3.2.1.96.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/3.2.1.97.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/3.5.1.25.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/3.5.3.24.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/4.1.1.17.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/4.1.2.17.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/4.1.3.3.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/4.1.3.38.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/4.2.1.28.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/4.2.1.3.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/4.2.1.30.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/4.2.1.55.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/4.3.2.2.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/4.3.99.4.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/4.99.1.9.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/44c3c97f35dad7fa14516d2165a895a1.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/5.3.1.16.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/5.4.99.18.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/5.4.99.5.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/521aedf98c8d875b6a52530815e7e665.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/58b10bcad4ed5615bfc2a9657a15a624.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/5aa13e240b12a77ce3f98b6abd92cb0a.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/6.2.1.7.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/6.3.2.12.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/6.3.5.3.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/6.6.1.2.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/7.1.1.5.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/7.1.1.9.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/7114064dd1cc3e8687577e6154a46adb.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/9469dfbac401e04422f9865e18d3f0e3.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/98409a50a1004642d0b281964db53d19.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/INULIN-ABC-TRANSPORT.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/SULFATE-ADENYLYLTRANS-RXN.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/a24abd9c6f7376577f002dfccf961db1.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/b22dcdef3a4303298a5fdb13213a434e.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/bc85fc55a1edae1c2bb19e12684432bd.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/be4f4065497701605afaeb39b3302a6c.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/c1061262ea138e6abe69ae2b1bea3721.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/c793026ba11556ec7b11c8c53ae4459e.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/cef7d61a04f14b663c3e4b457bca44f3.fasta",
+    "share/gapseq/dat/seq/Bacteria/user/f6cfe0fda408673f619c00c57a2cbcfe.fasta",
+    "share/gapseq/dat/seq/hmm/README.md",
+    "share/gapseq/dat/seq/hmm/domain.hmm.gz",
+    "share/gapseq/dat/seq/hmm/domain_markers.tsv",
+    "share/gapseq/dat/seq/hmm/gram.hmm.gz",
+    "share/gapseq/dat/seq/hmm/gram_markers.tsv",
+    "share/gapseq/dat/seq/tcdb.fasta",
+    "share/gapseq/dat/seq/transporter.fasta",
+    "share/gapseq/dat/subex.tbl",
+    "share/gapseq/dat/taxonomy.tbl",
+    "share/gapseq/dat/tcdb_custom.tbl",
+    "share/gapseq/dat/tcdb_substrates.tbl",
+    "share/gapseq/dat/vmh_reactions.tsv",
+    "share/gapseq/docs/Makefile",
+    "share/gapseq/docs/conf.py",
+    "share/gapseq/docs/database/ReferenceSequences.md",
+    "share/gapseq/docs/database/biochemistry.md",
+    "share/gapseq/docs/database/biomassReaction.md",
+    "share/gapseq/docs/faq.md",
+    "share/gapseq/docs/gfx/flowchart.png",
+    "share/gapseq/docs/gfx/parameters.svg",
+    "share/gapseq/docs/gfx/starch_n27.svg",
+    "share/gapseq/docs/index.rst",
+    "share/gapseq/docs/install.md",
+    "share/gapseq/docs/make.bat",
+    "share/gapseq/docs/news.md",
+    "share/gapseq/docs/requirements.txt",
+    "share/gapseq/docs/tutorials/archaea.md",
+    "share/gapseq/docs/tutorials/archaea.rmd",
+    "share/gapseq/docs/tutorials/pandraft.md",
+    "share/gapseq/docs/tutorials/pandraft.rmd",
+    "share/gapseq/docs/tutorials/traceability.md",
+    "share/gapseq/docs/tutorials/traceability.rmd",
+    "share/gapseq/docs/tutorials/yogurt.md",
+    "share/gapseq/docs/tutorials/yogurt.rmd",
+    "share/gapseq/docs/usage/adapt.md",
+    "share/gapseq/docs/usage/basics.md",
+    "share/gapseq/docs/usage/medium.md",
+    "share/gapseq/docs/usage/output.md",
+    "share/gapseq/docs/usage/panDraft.md",
+    "share/gapseq/docs/usage/parameters.md",
+    "share/gapseq/gapseq",
+    "share/gapseq/gapseq_env.yml",
+    "share/gapseq/src/adapt.R",
+    "share/gapseq/src/addGeneAttr.R",
+    "share/gapseq/src/addMetAttr.R",
+    "share/gapseq/src/addReactAttr.R",
+    "share/gapseq/src/add_missing_exRxns.R",
+    "share/gapseq/src/adjust_model_env.R",
+    "share/gapseq/src/analyse_alignments.R",
+    "share/gapseq/src/analyse_alignments_transport.R",
+    "share/gapseq/src/complex_detection.R",
+    "share/gapseq/src/constrain.model.R",
+    "share/gapseq/src/construct_full_model.R",
+    "share/gapseq/src/correct_seed_rxnDB.R",
+    "share/gapseq/src/doall.sh",
+    "share/gapseq/src/filter_pathways.R",
+    "share/gapseq/src/gapfill4.R",
+    "share/gapseq/src/gapseq_find.sh",
+    "share/gapseq/src/generate_GSdraft.R",
+    "share/gapseq/src/generate_rxn_stoich_hash.R",
+    "share/gapseq/src/getDBhit.R",
+    "share/gapseq/src/get_gene_logic_string.R",
+    "share/gapseq/src/gf.adapt.R",
+    "share/gapseq/src/gf.suite.R",
+    "share/gapseq/src/gram_by_network.R",
+    "share/gapseq/src/import_eggnog.R",
+    "share/gapseq/src/kegg_pwy.R",
+    "share/gapseq/src/media_check.R",
+    "share/gapseq/src/meta2genes.py",
+    "share/gapseq/src/meta2pwy.py",
+    "share/gapseq/src/meta2rea.py",
+    "share/gapseq/src/mnxref_matching.R",
+    "share/gapseq/src/mnxref_seed.R",
+    "share/gapseq/src/nuclprot.sh",
+    "share/gapseq/src/pan-draft.R",
+    "share/gapseq/src/pan-draft_functions.R",
+    "share/gapseq/src/parse_BMjson.R",
+    "share/gapseq/src/parse_seqDBjson.R",
+    "share/gapseq/src/predict_codontable.R",
+    "share/gapseq/src/predict_domain.R",
+    "share/gapseq/src/predict_gramstaining.R",
+    "share/gapseq/src/predict_medium.R",
+    "share/gapseq/src/prepare_batch_alignments.R",
+    "share/gapseq/src/prepare_candidate_reaction_tables.R",
+    "share/gapseq/src/print_reaction.R",
+    "share/gapseq/src/sbml_write.R",
+    "share/gapseq/src/seed_pwy.R",
+    "share/gapseq/src/seed_transporter.R",
+    "share/gapseq/src/test.sh",
+    "share/gapseq/src/translate_genome.sh",
+    "share/gapseq/src/transporter.sh",
+    "share/gapseq/src/uniprot.sh",
+    "share/gapseq/src/uniprot_query.R",
+    "share/gapseq/src/update_db.ipynb",
+    "share/gapseq/src/update_ecs_via_IUBMB.R",
+    "share/gapseq/src/update_ecs_via_IUBMB_functions.R",
+    "share/gapseq/src/update_sequences.sh",
+    "share/gapseq/toy/ecoli-Transporter.tbl",
+    "share/gapseq/toy/ecoli-all-Pathways.tbl",
+    "share/gapseq/toy/ecoli-all-Reactions.tbl",
+    "share/gapseq/toy/ecoli-draft.RDS",
+    "share/gapseq/toy/ecoli-medium.csv",
+    "share/gapseq/toy/ecoli.RDS",
+    "share/gapseq/toy/ecoli.faa.gz",
+    "share/gapseq/toy/ecoli.xml.gz",
+    "share/gapseq/toy/ecore.faa.gz",
+    "share/gapseq/toy/ecore.xml.gz",
+    "share/gapseq/toy/myb71-Transporter.tbl",
+    "share/gapseq/toy/myb71-all-Pathways.tbl",
+    "share/gapseq/toy/myb71-all-Reactions.tbl",
+    "share/gapseq/toy/myb71-draft.RDS",
+    "share/gapseq/toy/myb71-medium.csv",
+    "share/gapseq/toy/myb71.RDS",
+    "share/gapseq/toy/myb71.faa.gz",
+    "share/gapseq/toy/myb71.fna.gz",
+    "share/gapseq/toy/myb71.xml.gz",
+    "share/gapseq/unit/README.md",
+    "share/gapseq/unit/model_flux.sh",
+    "share/gapseq/unit/model_flux.tbl"
+  ],
+  "paths_data": {
+    "paths_version": 1,
+    "paths": [
+      {
+        "_path": "bin/gapseq",
+        "path_type": "softlink",
+        "sha256": "916b74d23b8db69515e1d33ba37c808fb367b2fcf0ec4aabe16179eb70db9fcc",
+        "size_in_bytes": 5647
+      },
+      {
+        "_path": "share/gapseq/ISSUE_TEMPLATE.MD",
+        "path_type": "hardlink",
+        "sha256": "3bd61769a4f0a1737adbd8e94a6736c2e2068aeab29cb0e55dc2939e8921fa73",
+        "size_in_bytes": 168,
+        "sha256_in_prefix": "3bd61769a4f0a1737adbd8e94a6736c2e2068aeab29cb0e55dc2939e8921fa73"
+      },
+      {
+        "_path": "share/gapseq/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
+        "size_in_bytes": 35141,
+        "sha256_in_prefix": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2"
+      },
+      {
+        "_path": "share/gapseq/README.md",
+        "path_type": "hardlink",
+        "sha256": "87055436878c684a0dcae52497fc60b606a73b0b7b3438ace2274158cf63a94b",
+        "size_in_bytes": 6424,
+        "sha256_in_prefix": "87055436878c684a0dcae52497fc60b606a73b0b7b3438ace2274158cf63a94b"
+      },
+      {
+        "_path": "share/gapseq/dat/SEED2VMH_translation.csv",
+        "path_type": "hardlink",
+        "sha256": "8f9eb14eb1952d4ca830117b5052f499e1b450eec60e418f20a816374d7ab98c",
+        "size_in_bytes": 35196,
+        "sha256_in_prefix": "8f9eb14eb1952d4ca830117b5052f499e1b450eec60e418f20a816374d7ab98c"
+      },
+      {
+        "_path": "share/gapseq/dat/SEED2VMH_translation_edited.csv",
+        "path_type": "hardlink",
+        "sha256": "f7df5ead0d44c1a88dd68b166699b659ab0bd606154cf99ae2cbd8c99fca356f",
+        "size_in_bytes": 40589,
+        "sha256_in_prefix": "f7df5ead0d44c1a88dd68b166699b659ab0bd606154cf99ae2cbd8c99fca356f"
+      },
+      {
+        "_path": "share/gapseq/dat/altec.csv",
+        "path_type": "hardlink",
+        "sha256": "c7eb4c7d4d501f0973b716647bf02262f5930c674a4848331f2bf64d766a8ef7",
+        "size_in_bytes": 4107,
+        "sha256_in_prefix": "c7eb4c7d4d501f0973b716647bf02262f5930c674a4848331f2bf64d766a8ef7"
+      },
+      {
+        "_path": "share/gapseq/dat/bigg_reactions.tbl",
+        "path_type": "hardlink",
+        "sha256": "186d0325da66dfee56ab21cdbc9b2bad4136ef2a9deb9ea137f07cb175962903",
+        "size_in_bytes": 6569275,
+        "sha256_in_prefix": "186d0325da66dfee56ab21cdbc9b2bad4136ef2a9deb9ea137f07cb175962903"
+      },
+      {
+        "_path": "share/gapseq/dat/biomass/biomass_Gram_neg.json",
+        "path_type": "hardlink",
+        "sha256": "1e2b44cd62c6697a98237456de092aa6dca17222a9279b1d3ab45a7a67bdaf3f",
+        "size_in_bytes": 13219,
+        "sha256_in_prefix": "1e2b44cd62c6697a98237456de092aa6dca17222a9279b1d3ab45a7a67bdaf3f"
+      },
+      {
+        "_path": "share/gapseq/dat/biomass/biomass_Gram_pos.json",
+        "path_type": "hardlink",
+        "sha256": "98c88b9a2806900f8130cd0909074a3c8f667d6de0fa7c438adfe75af970eda1",
+        "size_in_bytes": 16006,
+        "sha256_in_prefix": "98c88b9a2806900f8130cd0909074a3c8f667d6de0fa7c438adfe75af970eda1"
+      },
+      {
+        "_path": "share/gapseq/dat/biomass/biomass_archaea.json",
+        "path_type": "hardlink",
+        "sha256": "2424a2e9ffadc5e33ac356cafbd198bde6e4b2ba9fd2ebba2d1303d3677754e4",
+        "size_in_bytes": 11453,
+        "sha256_in_prefix": "2424a2e9ffadc5e33ac356cafbd198bde6e4b2ba9fd2ebba2d1303d3677754e4"
+      },
+      {
+        "_path": "share/gapseq/dat/biomass/excluded_reactions.tsv",
+        "path_type": "hardlink",
+        "sha256": "765bcb3282ad54e5e106f9cc88445184e9d87112b75109a78b19f887e77464fb",
+        "size_in_bytes": 257,
+        "sha256_in_prefix": "765bcb3282ad54e5e106f9cc88445184e9d87112b75109a78b19f887e77464fb"
+      },
+      {
+        "_path": "share/gapseq/dat/brenda_ec.csv",
+        "path_type": "hardlink",
+        "sha256": "0d62a7405ab5d1d35a9716d252c0d9ad0b2b99ff8c4bd36394492e0f005d78a3",
+        "size_in_bytes": 370977,
+        "sha256_in_prefix": "0d62a7405ab5d1d35a9716d252c0d9ad0b2b99ff8c4bd36394492e0f005d78a3"
+      },
+      {
+        "_path": "share/gapseq/dat/brenda_ec_edited.csv",
+        "path_type": "hardlink",
+        "sha256": "fd6965cad024aa2c56e7c6deff5d23c1cd6d94aab39d618e3d930cdee0d523a8",
+        "size_in_bytes": 48211,
+        "sha256_in_prefix": "fd6965cad024aa2c56e7c6deff5d23c1cd6d94aab39d618e3d930cdee0d523a8"
+      },
+      {
+        "_path": "share/gapseq/dat/complex_subunit_dict.tsv",
+        "path_type": "hardlink",
+        "sha256": "b08fc93ceeb52abdd7d7b14f8dcba0c20872cac825999b41d9a2750de2aac70c",
+        "size_in_bytes": 356,
+        "sha256_in_prefix": "b08fc93ceeb52abdd7d7b14f8dcba0c20872cac825999b41d9a2750de2aac70c"
+      },
+      {
+        "_path": "share/gapseq/dat/corrections_seed_reactionDB.tsv",
+        "path_type": "hardlink",
+        "sha256": "7448aae0e76ddb66d46570e53eaea092abb31850b99a37e3bf627b84f262904e",
+        "size_in_bytes": 423203,
+        "sha256_in_prefix": "7448aae0e76ddb66d46570e53eaea092abb31850b99a37e3bf627b84f262904e"
+      },
+      {
+        "_path": "share/gapseq/dat/custom_pwy.tbl",
+        "path_type": "hardlink",
+        "sha256": "a9756b4d8580c34ed13f52ec3b624370aa784e2b45027aab4810385f83fa4db1",
+        "size_in_bytes": 29832,
+        "sha256_in_prefix": "a9756b4d8580c34ed13f52ec3b624370aa784e2b45027aab4810385f83fa4db1"
+      },
+      {
+        "_path": "share/gapseq/dat/diffusion_mets.tsv",
+        "path_type": "hardlink",
+        "sha256": "0033afadd7a23ea9d10ba40cfecd12d289dad2fc88cdd94e39d0bfcacc7b58c3",
+        "size_in_bytes": 1129,
+        "sha256_in_prefix": "0033afadd7a23ea9d10ba40cfecd12d289dad2fc88cdd94e39d0bfcacc7b58c3"
+      },
+      {
+        "_path": "share/gapseq/dat/dist_reference-networks.RDS",
+        "path_type": "hardlink",
+        "sha256": "aea0b8e7226c7b079d8d3e7c48aeb51776713b861095ee5ca25ac0447489f643",
+        "size_in_bytes": 45766,
+        "sha256_in_prefix": "aea0b8e7226c7b079d8d3e7c48aeb51776713b861095ee5ca25ac0447489f643"
+      },
+      {
+        "_path": "share/gapseq/dat/ec_conflicts.tsv",
+        "path_type": "hardlink",
+        "sha256": "4ce4867de9c37be6592a5ace00d61365c10a94c8d1227bed303aeee7562ef5c8",
+        "size_in_bytes": 2310,
+        "sha256_in_prefix": "4ce4867de9c37be6592a5ace00d61365c10a94c8d1227bed303aeee7562ef5c8"
+      },
+      {
+        "_path": "share/gapseq/dat/env/env_highH2.tsv",
+        "path_type": "hardlink",
+        "sha256": "5f4401061ebb690a7f91cff44274bf0da510287bbaa28f0820a63948a7656126",
+        "size_in_bytes": 110,
+        "sha256_in_prefix": "5f4401061ebb690a7f91cff44274bf0da510287bbaa28f0820a63948a7656126"
+      },
+      {
+        "_path": "share/gapseq/dat/exception.tbl",
+        "path_type": "hardlink",
+        "sha256": "1644c3d8b7060599c27d6b9deda77dade933b6ed12a403bb40330693e5ce968c",
+        "size_in_bytes": 949,
+        "sha256_in_prefix": "1644c3d8b7060599c27d6b9deda77dade933b6ed12a403bb40330693e5ce968c"
+      },
+      {
+        "_path": "share/gapseq/dat/importantCIreactions.list",
+        "path_type": "hardlink",
+        "sha256": "9bbf71f3c7a6cee23c43b641818a73039b124412ed257747115970cfede2c15d",
+        "size_in_bytes": 751,
+        "sha256_in_prefix": "9bbf71f3c7a6cee23c43b641818a73039b124412ed257747115970cfede2c15d"
+      },
+      {
+        "_path": "share/gapseq/dat/kegg_pwy.tbl",
+        "path_type": "hardlink",
+        "sha256": "c8930a1df848570ea6cf6b115d29c15ac426071742527e866adf0159dc553b93",
+        "size_in_bytes": 653622,
+        "sha256_in_prefix": "c8930a1df848570ea6cf6b115d29c15ac426071742527e866adf0159dc553b93"
+      },
+      {
+        "_path": "share/gapseq/dat/licenses/LICENSE.bigg",
+        "path_type": "hardlink",
+        "sha256": "84b627643e8e77b071dc02607121e19047e82ae0ae544705a5bf07d5db2a2845",
+        "size_in_bytes": 1614,
+        "sha256_in_prefix": "84b627643e8e77b071dc02607121e19047e82ae0ae544705a5bf07d5db2a2845"
+      },
+      {
+        "_path": "share/gapseq/dat/licenses/LICENSE.kegg",
+        "path_type": "hardlink",
+        "sha256": "f116558fecf182ee3e465999223407d114873fa344de34c180f27230cef610a9",
+        "size_in_bytes": 1564,
+        "sha256_in_prefix": "f116558fecf182ee3e465999223407d114873fa344de34c180f27230cef610a9"
+      },
+      {
+        "_path": "share/gapseq/dat/media/ALLmed.csv",
+        "path_type": "hardlink",
+        "sha256": "602ac3606d568690e048a6cb217222f44cb798d0def2d9c71eeca19be31813a5",
+        "size_in_bytes": 2682,
+        "sha256_in_prefix": "602ac3606d568690e048a6cb217222f44cb798d0def2d9c71eeca19be31813a5"
+      },
+      {
+        "_path": "share/gapseq/dat/media/FT.csv",
+        "path_type": "hardlink",
+        "sha256": "18ff80199417218d9ffe21fb82446e8d020fbfa7533407d8b4dbae1e1ce91db4",
+        "size_in_bytes": 1535,
+        "sha256_in_prefix": "18ff80199417218d9ffe21fb82446e8d020fbfa7533407d8b4dbae1e1ce91db4"
+      },
+      {
+        "_path": "share/gapseq/dat/media/LBmed.csv",
+        "path_type": "hardlink",
+        "sha256": "c5527b2d8fb8b0192b03c8bf7f1dffc24a5033f6fef6da21e7223882a4f022a5",
+        "size_in_bytes": 1359,
+        "sha256_in_prefix": "c5527b2d8fb8b0192b03c8bf7f1dffc24a5033f6fef6da21e7223882a4f022a5"
+      },
+      {
+        "_path": "share/gapseq/dat/media/LBmed_glucose_suppl.csv",
+        "path_type": "hardlink",
+        "sha256": "2c8bcffce954fde689df207665fe7ae8a471b1162690c524bd8c6bd4ba538a1f",
+        "size_in_bytes": 1418,
+        "sha256_in_prefix": "2c8bcffce954fde689df207665fe7ae8a471b1162690c524bd8c6bd4ba538a1f"
+      },
+      {
+        "_path": "share/gapseq/dat/media/M9_serine_galacturonate.csv",
+        "path_type": "hardlink",
+        "sha256": "cd7336fa0fe63b8cf7a3b88246238e190392e27b53d4f294280408ec910db44d",
+        "size_in_bytes": 368,
+        "sha256_in_prefix": "cd7336fa0fe63b8cf7a3b88246238e190392e27b53d4f294280408ec910db44d"
+      },
+      {
+        "_path": "share/gapseq/dat/media/M9_vit_aa.csv",
+        "path_type": "hardlink",
+        "sha256": "1043611cfb61a051c278c8c6d7a56165d2ad84345554070f7226d81b0f1205bb",
+        "size_in_bytes": 1052,
+        "sha256_in_prefix": "1043611cfb61a051c278c8c6d7a56165d2ad84345554070f7226d81b0f1205bb"
+      },
+      {
+        "_path": "share/gapseq/dat/media/MM_anaerobic_Acetate.csv",
+        "path_type": "hardlink",
+        "sha256": "8d6e6429ff6453f67ed459ff1766b039dd892acb48f240e69f755704086b72be",
+        "size_in_bytes": 466,
+        "sha256_in_prefix": "8d6e6429ff6453f67ed459ff1766b039dd892acb48f240e69f755704086b72be"
+      },
+      {
+        "_path": "share/gapseq/dat/media/MM_anaerobic_Acetate_H2.csv",
+        "path_type": "hardlink",
+        "sha256": "eae7e140b657775d46ce4646005da49d06b3d1814b7779053a8ed59e87895798",
+        "size_in_bytes": 569,
+        "sha256_in_prefix": "eae7e140b657775d46ce4646005da49d06b3d1814b7779053a8ed59e87895798"
+      },
+      {
+        "_path": "share/gapseq/dat/media/MM_anaerobic_CO2_H2.csv",
+        "path_type": "hardlink",
+        "sha256": "dc2b828251b940c922f20b61a91729b53a6b25e29319484583b4c6ec8f8fe8e2",
+        "size_in_bytes": 588,
+        "sha256_in_prefix": "dc2b828251b940c922f20b61a91729b53a6b25e29319484583b4c6ec8f8fe8e2"
+      },
+      {
+        "_path": "share/gapseq/dat/media/MM_glu-thm.csv",
+        "path_type": "hardlink",
+        "sha256": "66479813d7b6f9b38a6ff29b254a5ba2b930eac97017f2322e5d846319592a4f",
+        "size_in_bytes": 552,
+        "sha256_in_prefix": "66479813d7b6f9b38a6ff29b254a5ba2b930eac97017f2322e5d846319592a4f"
+      },
+      {
+        "_path": "share/gapseq/dat/media/MM_glu.csv",
+        "path_type": "hardlink",
+        "sha256": "2fb5222dfd67d9e2b873ff4c8e7f3ca294a29d1e7babc43d2284d82c9db9a6bd",
+        "size_in_bytes": 440,
+        "sha256_in_prefix": "2fb5222dfd67d9e2b873ff4c8e7f3ca294a29d1e7babc43d2284d82c9db9a6bd"
+      },
+      {
+        "_path": "share/gapseq/dat/media/TSBmed.csv",
+        "path_type": "hardlink",
+        "sha256": "aa44d2f9797155a5311b1cf4875da2e14028f3a23205bec5b0f0fafcbfe36f20",
+        "size_in_bytes": 1709,
+        "sha256_in_prefix": "aa44d2f9797155a5311b1cf4875da2e14028f3a23205bec5b0f0fafcbfe36f20"
+      },
+      {
+        "_path": "share/gapseq/dat/media/TSBmed.xlsx",
+        "path_type": "hardlink",
+        "sha256": "e9d86eedf5a1228fc7612b49430f07e6b55f8305bcce191d3b2fa32f3832f478",
+        "size_in_bytes": 13355,
+        "sha256_in_prefix": "e9d86eedf5a1228fc7612b49430f07e6b55f8305bcce191d3b2fa32f3832f478"
+      },
+      {
+        "_path": "share/gapseq/dat/media/autotrophic.csv",
+        "path_type": "hardlink",
+        "sha256": "2ef6ea7493ad50933bf3f730c134356175aaaae0260deeb83852182a179d8c86",
+        "size_in_bytes": 565,
+        "sha256_in_prefix": "2ef6ea7493ad50933bf3f730c134356175aaaae0260deeb83852182a179d8c86"
+      },
+      {
+        "_path": "share/gapseq/dat/media/dsmz_1611_YCFA.csv",
+        "path_type": "hardlink",
+        "sha256": "2bb9e6e77c19cfb5dc54a5040f3094521e31678ca4af6bd309a8af02ad35dd57",
+        "size_in_bytes": 1271,
+        "sha256_in_prefix": "2bb9e6e77c19cfb5dc54a5040f3094521e31678ca4af6bd309a8af02ad35dd57"
+      },
+      {
+        "_path": "share/gapseq/dat/media/gut.csv",
+        "path_type": "hardlink",
+        "sha256": "e729aaac923c83c84e83b451a21b755a4b217c832a6bfdc868cddf4a0969d5e5",
+        "size_in_bytes": 2310,
+        "sha256_in_prefix": "e729aaac923c83c84e83b451a21b755a4b217c832a6bfdc868cddf4a0969d5e5"
+      },
+      {
+        "_path": "share/gapseq/dat/media/meerwasser.csv",
+        "path_type": "hardlink",
+        "sha256": "0fe557f9094b46545c54334fc150951c05ae75499fe057d0469ec4ccdd4d40bd",
+        "size_in_bytes": 2166,
+        "sha256_in_prefix": "0fe557f9094b46545c54334fc150951c05ae75499fe057d0469ec4ccdd4d40bd"
+      },
+      {
+        "_path": "share/gapseq/dat/medium_prediction_rules.tsv",
+        "path_type": "hardlink",
+        "sha256": "6c0e8b14f48d59f647695882a1926fe6eda158fa49785bcc4105c28082b24f27",
+        "size_in_bytes": 8754,
+        "sha256_in_prefix": "6c0e8b14f48d59f647695882a1926fe6eda158fa49785bcc4105c28082b24f27"
+      },
+      {
+        "_path": "share/gapseq/dat/meta_genes.csv",
+        "path_type": "hardlink",
+        "sha256": "ed241ea5de45d5c459a44a6dddbf49e2257d64fb089dbd4934b017a8fd885a7b",
+        "size_in_bytes": 2313645,
+        "sha256_in_prefix": "ed241ea5de45d5c459a44a6dddbf49e2257d64fb089dbd4934b017a8fd885a7b"
+      },
+      {
+        "_path": "share/gapseq/dat/meta_pwy.tbl",
+        "path_type": "hardlink",
+        "sha256": "c3d825816d98ee3d42119077700e77b78579e7ce34d92583c50a7d31913868bb",
+        "size_in_bytes": 2225368,
+        "sha256_in_prefix": "c3d825816d98ee3d42119077700e77b78579e7ce34d92583c50a7d31913868bb"
+      },
+      {
+        "_path": "share/gapseq/dat/meta_rea.tbl",
+        "path_type": "hardlink",
+        "sha256": "e6ec61ffc0cd4352ad7d4c08eefa56c963516d7435003acb2c43e91b1dcc6c6b",
+        "size_in_bytes": 1098931,
+        "sha256_in_prefix": "e6ec61ffc0cd4352ad7d4c08eefa56c963516d7435003acb2c43e91b1dcc6c6b"
+      },
+      {
+        "_path": "share/gapseq/dat/meta_rea_pwy-gapseq.tbl",
+        "path_type": "hardlink",
+        "sha256": "d1dfb89db9cb715e5b149d4102ca4f282e8f30cb779419eca8c0f64cf5aab8e9",
+        "size_in_bytes": 5592592,
+        "sha256_in_prefix": "d1dfb89db9cb715e5b149d4102ca4f282e8f30cb779419eca8c0f64cf5aab8e9"
+      },
+      {
+        "_path": "share/gapseq/dat/mnxref_bigg-other.tsv",
+        "path_type": "hardlink",
+        "sha256": "f04ca54568f5553126c7da83ff9443c8ab134b97c4d61b585eb382ef00c9f7d5",
+        "size_in_bytes": 390487,
+        "sha256_in_prefix": "f04ca54568f5553126c7da83ff9443c8ab134b97c4d61b585eb382ef00c9f7d5"
+      },
+      {
+        "_path": "share/gapseq/dat/mnxref_reac_xref.tsv",
+        "path_type": "hardlink",
+        "sha256": "b648c3334fa8c0dcc4e6070a03694034e53dd742ee908416408186e17673e36e",
+        "size_in_bytes": 12651376,
+        "sha256_in_prefix": "b648c3334fa8c0dcc4e6070a03694034e53dd742ee908416408186e17673e36e"
+      },
+      {
+        "_path": "share/gapseq/dat/mnxref_seed-other.tsv",
+        "path_type": "hardlink",
+        "sha256": "f351412a220528ba55b3aa61b927a3b28281d627e7186c216b7140cc920eb16d",
+        "size_in_bytes": 343894,
+        "sha256_in_prefix": "f351412a220528ba55b3aa61b927a3b28281d627e7186c216b7140cc920eb16d"
+      },
+      {
+        "_path": "share/gapseq/dat/mnxref_seed.tsv",
+        "path_type": "hardlink",
+        "sha256": "fb65d89c793d6542a6b8dc6273b25ca5eb4a1442caa6834e73da71109e2b277f",
+        "size_in_bytes": 158133,
+        "sha256_in_prefix": "fb65d89c793d6542a6b8dc6273b25ca5eb4a1442caa6834e73da71109e2b277f"
+      },
+      {
+        "_path": "share/gapseq/dat/nutrients.tsv",
+        "path_type": "hardlink",
+        "sha256": "1fdf31a188af37831b200557def701fdba56fab2c0467e2787436a15f36a4363",
+        "size_in_bytes": 35754,
+        "sha256_in_prefix": "1fdf31a188af37831b200557def701fdba56fab2c0467e2787436a15f36a4363"
+      },
+      {
+        "_path": "share/gapseq/dat/reference_genomes_edited.tbl",
+        "path_type": "hardlink",
+        "sha256": "c935ac46bc8cbc5507746c0b7702b840a9b601af6f102ef5af6998e4743d794f",
+        "size_in_bytes": 35740,
+        "sha256_in_prefix": "c935ac46bc8cbc5507746c0b7702b840a9b601af6f102ef5af6998e4743d794f"
+      },
+      {
+        "_path": "share/gapseq/dat/seed_Enzyme_Class_Reactions_Aliases.tsv",
+        "path_type": "hardlink",
+        "sha256": "d200a7cd76515a52161170ea20af36039d7d71c695ad3f016d1c9a93a339e033",
+        "size_in_bytes": 399478,
+        "sha256_in_prefix": "d200a7cd76515a52161170ea20af36039d7d71c695ad3f016d1c9a93a339e033"
+      },
+      {
+        "_path": "share/gapseq/dat/seed_Enzyme_Class_Reactions_Aliases_unique.tsv",
+        "path_type": "hardlink",
+        "sha256": "6cc36738360acb6e33ba242334e517082e27de4f1cf3dc2aed3aae05dc84ca58",
+        "size_in_bytes": 363282,
+        "sha256_in_prefix": "6cc36738360acb6e33ba242334e517082e27de4f1cf3dc2aed3aae05dc84ca58"
+      },
+      {
+        "_path": "share/gapseq/dat/seed_Enzyme_Class_Reactions_Aliases_unique_edited.tsv",
+        "path_type": "hardlink",
+        "sha256": "80b72f2009bd1eae13bb49add4ce043c8b8772c44d5937617c09999270f52d77",
+        "size_in_bytes": 358118,
+        "sha256_in_prefix": "80b72f2009bd1eae13bb49add4ce043c8b8772c44d5937617c09999270f52d77"
+      },
+      {
+        "_path": "share/gapseq/dat/seed_Enzyme_Name_Reactions_Aliases.tsv",
+        "path_type": "hardlink",
+        "sha256": "db09aa56fbf122b8aee4aedb954566616f74218a5f7a1ab7aa2f7830a751767e",
+        "size_in_bytes": 2831,
+        "sha256_in_prefix": "db09aa56fbf122b8aee4aedb954566616f74218a5f7a1ab7aa2f7830a751767e"
+      },
+      {
+        "_path": "share/gapseq/dat/seed_metabolites.tsv",
+        "path_type": "hardlink",
+        "sha256": "db3f1bf5883e586eea6e4ce3aa6317552cbf917f0a87c8624b0ff0e910bc8608",
+        "size_in_bytes": 8457858,
+        "sha256_in_prefix": "db3f1bf5883e586eea6e4ce3aa6317552cbf917f0a87c8624b0ff0e910bc8608"
+      },
+      {
+        "_path": "share/gapseq/dat/seed_metabolites_edited.tsv",
+        "path_type": "hardlink",
+        "sha256": "0317eaec0bc3958557f904928f76873191f4e9e4e2257ad8a71bd421d79f3ff9",
+        "size_in_bytes": 10171411,
+        "sha256_in_prefix": "0317eaec0bc3958557f904928f76873191f4e9e4e2257ad8a71bd421d79f3ff9"
+      },
+      {
+        "_path": "share/gapseq/dat/seed_pwy.tbl",
+        "path_type": "hardlink",
+        "sha256": "82e7ab6a8744d5479eee12d84c96d59c4ae11243088298f5a17df090c15f5874",
+        "size_in_bytes": 342871,
+        "sha256_in_prefix": "82e7ab6a8744d5479eee12d84c96d59c4ae11243088298f5a17df090c15f5874"
+      },
+      {
+        "_path": "share/gapseq/dat/seed_reactions.tsv",
+        "path_type": "hardlink",
+        "sha256": "1704b965916324e84bb99088330bf06e6d33526a579f1ba645dbc751590279c7",
+        "size_in_bytes": 19154078,
+        "sha256_in_prefix": "1704b965916324e84bb99088330bf06e6d33526a579f1ba645dbc751590279c7"
+      },
+      {
+        "_path": "share/gapseq/dat/seed_reactions_corrected.tsv",
+        "path_type": "hardlink",
+        "sha256": "ca162cde009c3a700739350b23fc7066109b4ac4baf7842debe46cce16ca2840",
+        "size_in_bytes": 18929422,
+        "sha256_in_prefix": "ca162cde009c3a700739350b23fc7066109b4ac4baf7842debe46cce16ca2840"
+      },
+      {
+        "_path": "share/gapseq/dat/seed_transporter.tbl",
+        "path_type": "hardlink",
+        "sha256": "f37f29518b899dcb0854d91fe8ca8575bc0a4a7d0db14d2ccad78c5adb3d1c8f",
+        "size_in_bytes": 509849,
+        "sha256_in_prefix": "f37f29518b899dcb0854d91fe8ca8575bc0a4a7d0db14d2ccad78c5adb3d1c8f"
+      },
+      {
+        "_path": "share/gapseq/dat/seed_transporter_custom.tbl",
+        "path_type": "hardlink",
+        "sha256": "6492afb662b3d4d35e73a769a905a5e3b13585cdc29b98cc9b1035ce6192dca3",
+        "size_in_bytes": 1366,
+        "sha256_in_prefix": "6492afb662b3d4d35e73a769a905a5e3b13585cdc29b98cc9b1035ce6192dca3"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/16S_db/16S_BMTest.fna",
+        "path_type": "hardlink",
+        "sha256": "0b7081b2909aa58a004febbd1910e3b6e64c099e79a256c821d26da899cf7e45",
+        "size_in_bytes": 7992673,
+        "sha256_in_prefix": "0b7081b2909aa58a004febbd1910e3b6e64c099e79a256c821d26da899cf7e45"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/16S_db/16S_BMTest.fna.nhr",
+        "path_type": "hardlink",
+        "sha256": "9c77d4b7dc127b55bc7bfec2206b257178a2fa382720394ed89ec497d318370a",
+        "size_in_bytes": 486583,
+        "sha256_in_prefix": "9c77d4b7dc127b55bc7bfec2206b257178a2fa382720394ed89ec497d318370a"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/16S_db/16S_BMTest.fna.nin",
+        "path_type": "hardlink",
+        "sha256": "17b130ea2f5dd46f55e30a2f89c31a3111d89f795bce6c5526918ba9a26ebf09",
+        "size_in_bytes": 63696,
+        "sha256_in_prefix": "17b130ea2f5dd46f55e30a2f89c31a3111d89f795bce6c5526918ba9a26ebf09"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/16S_db/16S_BMTest.fna.nsq",
+        "path_type": "hardlink",
+        "sha256": "a3b1f998569802f8ac0a92689fd1aac0081cfeab57e1cd6aadf8ded1ed69eaa1",
+        "size_in_bytes": 1971052,
+        "sha256_in_prefix": "a3b1f998569802f8ac0a92689fd1aac0081cfeab57e1cd6aadf8ded1ed69eaa1"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/16S_db/kmer5_refseq.RDS",
+        "path_type": "hardlink",
+        "sha256": "858e4cd2db06e50148f2cbebf9bc407f33ba4f7c53112dc8ed4f05f355d4c174",
+        "size_in_bytes": 11613443,
+        "sha256_in_prefix": "858e4cd2db06e50148f2cbebf9bc407f33ba4f7c53112dc8ed4f05f355d4c174"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Archaea/user/1.2.7.12.fasta",
+        "path_type": "hardlink",
+        "sha256": "1cc0a1e3618954218ccd372739592896cb26996d4eedcc67dcd4bf2ffc17015e",
+        "size_in_bytes": 3748,
+        "sha256_in_prefix": "1cc0a1e3618954218ccd372739592896cb26996d4eedcc67dcd4bf2ffc17015e"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Archaea/user/5.3.1.24.fasta",
+        "path_type": "hardlink",
+        "sha256": "a311084a505a58042e90809da47f80266c938dea2fa637b521a0369f895c0302",
+        "size_in_bytes": 163904,
+        "sha256_in_prefix": "a311084a505a58042e90809da47f80266c938dea2fa637b521a0369f895c0302"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Archaea/user/5.3.1.27.fasta",
+        "path_type": "hardlink",
+        "sha256": "4d0b0fac3617df58eb32039bd68343b29675156436737c2c902a215290f2bdf7",
+        "size_in_bytes": 21673,
+        "sha256_in_prefix": "4d0b0fac3617df58eb32039bd68343b29675156436737c2c902a215290f2bdf7"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Archaea/user/5.4.99.5.fasta",
+        "path_type": "hardlink",
+        "sha256": "a78958e6e062026f437a71b6dccc4073ef93065cac8fb502b6599144f7501dc1",
+        "size_in_bytes": 38382,
+        "sha256_in_prefix": "a78958e6e062026f437a71b6dccc4073ef93065cac8fb502b6599144f7501dc1"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Archaea/user/a24abd9c6f7376577f002dfccf961db1.fasta",
+        "path_type": "hardlink",
+        "sha256": "e2f9c913d1c8aefe3e07abb6e54b2cce3406929bc0229fec98e2ca7a493ac869",
+        "size_in_bytes": 4290,
+        "sha256_in_prefix": "e2f9c913d1c8aefe3e07abb6e54b2cce3406929bc0229fec98e2ca7a493ac869"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/06a3269b9ad83ca86927ee14effbdd5b.fasta",
+        "path_type": "hardlink",
+        "sha256": "d77c90b465ea647b205cba734f1db257b7a26f55d0af29c29deb6cc4be49eb2e",
+        "size_in_bytes": 9221,
+        "sha256_in_prefix": "d77c90b465ea647b205cba734f1db257b7a26f55d0af29c29deb6cc4be49eb2e"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.1.1.173.fasta",
+        "path_type": "hardlink",
+        "sha256": "940c392a9a4b6106febf622569a016acffafff36906c068970ef9f52d585587c",
+        "size_in_bytes": 150667,
+        "sha256_in_prefix": "940c392a9a4b6106febf622569a016acffafff36906c068970ef9f52d585587c"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.1.1.238.fasta",
+        "path_type": "hardlink",
+        "sha256": "7fd741983ab7afd461114bffe2e57079678a6f656dfc4ca5423bf56cf6563508",
+        "size_in_bytes": 380,
+        "sha256_in_prefix": "7fd741983ab7afd461114bffe2e57079678a6f656dfc4ca5423bf56cf6563508"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.1.1.26.fasta",
+        "path_type": "hardlink",
+        "sha256": "adaaf5acac32a7492f96a5fb64cdd2531ca808a21a994297bf43f397f7ba23e4",
+        "size_in_bytes": 74380,
+        "sha256_in_prefix": "adaaf5acac32a7492f96a5fb64cdd2531ca808a21a994297bf43f397f7ba23e4"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.1.1.36.fasta",
+        "path_type": "hardlink",
+        "sha256": "23e06320da301a45c09f498bdcc879485f6fcf49b146a1a31bf91114e0fcf8ce",
+        "size_in_bytes": 57759,
+        "sha256_in_prefix": "23e06320da301a45c09f498bdcc879485f6fcf49b146a1a31bf91114e0fcf8ce"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.1.1.52.fasta",
+        "path_type": "hardlink",
+        "sha256": "33ffc1b282ce4b4d74536d4265fc7adaff4e9032a1b49cc655af43747233d2b2",
+        "size_in_bytes": 413,
+        "sha256_in_prefix": "33ffc1b282ce4b4d74536d4265fc7adaff4e9032a1b49cc655af43747233d2b2"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.1.1.8.fasta",
+        "path_type": "hardlink",
+        "sha256": "2cb3968a9b891e79df6e412a8c0fffb9260a13fed31497d7fa77bbdb4e899fa8",
+        "size_in_bytes": 144015,
+        "sha256_in_prefix": "2cb3968a9b891e79df6e412a8c0fffb9260a13fed31497d7fa77bbdb4e899fa8"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.1.99.14.fasta",
+        "path_type": "hardlink",
+        "sha256": "ed3972e57dc029c8db83bd65980db4f2f5476f5707dd9d10e25e49ff3a9af9c3",
+        "size_in_bytes": 2697,
+        "sha256_in_prefix": "ed3972e57dc029c8db83bd65980db4f2f5476f5707dd9d10e25e49ff3a9af9c3"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.18.1.3.fasta",
+        "path_type": "hardlink",
+        "sha256": "37eed21a2464b3b71dfd750d4f66803d072bf76ea403e1df5a4b4c7c7ea406bb",
+        "size_in_bytes": 11472,
+        "sha256_in_prefix": "37eed21a2464b3b71dfd750d4f66803d072bf76ea403e1df5a4b4c7c7ea406bb"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.2.1.57.fasta",
+        "path_type": "hardlink",
+        "sha256": "6cb5126ceb63cc63664d8a40c5eacd84b81015252762cdeba936ce78dfb02571",
+        "size_in_bytes": 2036,
+        "sha256_in_prefix": "6cb5126ceb63cc63664d8a40c5eacd84b81015252762cdeba936ce78dfb02571"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.2.1.87.fasta",
+        "path_type": "hardlink",
+        "sha256": "a5a692552d6dd0b6c946a1fbdbfa31229bffb6258642c78dbce9b151be6f1444",
+        "size_in_bytes": 1389,
+        "sha256_in_prefix": "a5a692552d6dd0b6c946a1fbdbfa31229bffb6258642c78dbce9b151be6f1444"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.3.1.12.fasta",
+        "path_type": "hardlink",
+        "sha256": "3278d075fb23c4f6f187b526407d479cec3414871fdc998c49bfd76fef3f0169",
+        "size_in_bytes": 8125,
+        "sha256_in_prefix": "3278d075fb23c4f6f187b526407d479cec3414871fdc998c49bfd76fef3f0169"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.3.1.57.fasta",
+        "path_type": "hardlink",
+        "sha256": "e92a8f473e1e4662e3fa5db7d5cb560e95f3d77b415fce7c651a777668d1350c",
+        "size_in_bytes": 432,
+        "sha256_in_prefix": "e92a8f473e1e4662e3fa5db7d5cb560e95f3d77b415fce7c651a777668d1350c"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.3.3.15.fasta",
+        "path_type": "hardlink",
+        "sha256": "1f64854b840d0f54714a1e57fa5cf347ff931dffee8ce073cb6de1fd135f4916",
+        "size_in_bytes": 568,
+        "sha256_in_prefix": "1f64854b840d0f54714a1e57fa5cf347ff931dffee8ce073cb6de1fd135f4916"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.3.3.4.fasta",
+        "path_type": "hardlink",
+        "sha256": "0a7a579505e70a00843bcbb5f0da803759c29746c7083d7f4741dd9265ec4f97",
+        "size_in_bytes": 3204,
+        "sha256_in_prefix": "0a7a579505e70a00843bcbb5f0da803759c29746c7083d7f4741dd9265ec4f97"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.3.5.3.fasta",
+        "path_type": "hardlink",
+        "sha256": "5985c4fb7c71871b11be7cdc05dfdb9da373c4eaab34a8e1325c40a01abf4c01",
+        "size_in_bytes": 48709,
+        "sha256_in_prefix": "5985c4fb7c71871b11be7cdc05dfdb9da373c4eaab34a8e1325c40a01abf4c01"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.5.1.3.fasta",
+        "path_type": "hardlink",
+        "sha256": "5e2ebfa20576b521bbbca00bb7d1c757a82baa272f58b7301402ce1242b53175",
+        "size_in_bytes": 445648,
+        "sha256_in_prefix": "5e2ebfa20576b521bbbca00bb7d1c757a82baa272f58b7301402ce1242b53175"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.5.1.43.fasta",
+        "path_type": "hardlink",
+        "sha256": "6ccb27d978dcc5892644d346f84ed487c1f14f377451ef6e100fddfc4f94572b",
+        "size_in_bytes": 75516,
+        "sha256_in_prefix": "6ccb27d978dcc5892644d346f84ed487c1f14f377451ef6e100fddfc4f94572b"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.5.7.1.fasta",
+        "path_type": "hardlink",
+        "sha256": "8abd07796cf4dfbefbe823b0e6d72c7dafa124a7e976319f6e272307a6bac09b",
+        "size_in_bytes": 1250,
+        "sha256_in_prefix": "8abd07796cf4dfbefbe823b0e6d72c7dafa124a7e976319f6e272307a6bac09b"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/1.6.1.4.fasta",
+        "path_type": "hardlink",
+        "sha256": "6cedcc8b45e52a78264397b319350b9138a464f67c415570f4ca659daba6b31d",
+        "size_in_bytes": 405,
+        "sha256_in_prefix": "6cedcc8b45e52a78264397b319350b9138a464f67c415570f4ca659daba6b31d"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/11d790911e1c29cc7c451e6603ed8ba4.fasta",
+        "path_type": "hardlink",
+        "sha256": "0c7d43a8a26460c61e78ddc4db1606098b3598739e526e594b3c4a9766f88b84",
+        "size_in_bytes": 3844,
+        "sha256_in_prefix": "0c7d43a8a26460c61e78ddc4db1606098b3598739e526e594b3c4a9766f88b84"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/156dc3ace07b556af5e14dfb6f0ba79d.fasta",
+        "path_type": "hardlink",
+        "sha256": "a9128e7fc648c7e2376e73133e86a918a0810b18d7a511aa012556f53efe3272",
+        "size_in_bytes": 438,
+        "sha256_in_prefix": "a9128e7fc648c7e2376e73133e86a918a0810b18d7a511aa012556f53efe3272"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/2.1.2.2.fasta",
+        "path_type": "hardlink",
+        "sha256": "e017a6be18ed6edc580523c1c93d2987ad1b0ca0f154d5868e92e06e35e8f46f",
+        "size_in_bytes": 2167,
+        "sha256_in_prefix": "e017a6be18ed6edc580523c1c93d2987ad1b0ca0f154d5868e92e06e35e8f46f"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/2.3.1.222.fasta",
+        "path_type": "hardlink",
+        "sha256": "e36a04e03b4b8b054a01c0110d469b1fea8d8bebcaceb66f9d0c7dddf0b6b5dc",
+        "size_in_bytes": 7772,
+        "sha256_in_prefix": "e36a04e03b4b8b054a01c0110d469b1fea8d8bebcaceb66f9d0c7dddf0b6b5dc"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/2.4.2.17.fasta",
+        "path_type": "hardlink",
+        "sha256": "27b43642b0e463e2418ba37714d91b1ad59bfe2693141395d489bd083faa5923",
+        "size_in_bytes": 365423,
+        "sha256_in_prefix": "27b43642b0e463e2418ba37714d91b1ad59bfe2693141395d489bd083faa5923"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/2.5.1.104.fasta",
+        "path_type": "hardlink",
+        "sha256": "39fe1f0a9a276fbe5f1d84c7f44bb19e0d7a34a32c51f8f1c572bf9c7487b217",
+        "size_in_bytes": 9144,
+        "sha256_in_prefix": "39fe1f0a9a276fbe5f1d84c7f44bb19e0d7a34a32c51f8f1c572bf9c7487b217"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/2.6.1.85.fasta",
+        "path_type": "hardlink",
+        "sha256": "6fc246427ca089f20c181539a29e0637547e803e676c7a55d4dccd1dd7058e8a",
+        "size_in_bytes": 538023,
+        "sha256_in_prefix": "6fc246427ca089f20c181539a29e0637547e803e676c7a55d4dccd1dd7058e8a"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/2.7.1.17.fasta",
+        "path_type": "hardlink",
+        "sha256": "71a8a699f0c96a0a4535a1beeaa82af70db9b4a70fd5a8b448f8cdcb3f9b4f32",
+        "size_in_bytes": 9087,
+        "sha256_in_prefix": "71a8a699f0c96a0a4535a1beeaa82af70db9b4a70fd5a8b448f8cdcb3f9b4f32"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/2.7.1.51.fasta",
+        "path_type": "hardlink",
+        "sha256": "eb3449f2b5beeb9ea25ff800415c6f0ebce18abcba01a3cdc6cd51ee449ba2ae",
+        "size_in_bytes": 21413,
+        "sha256_in_prefix": "eb3449f2b5beeb9ea25ff800415c6f0ebce18abcba01a3cdc6cd51ee449ba2ae"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/2.8.1.16.fasta",
+        "path_type": "hardlink",
+        "sha256": "06e0f2be65c6348fbec3e4c8bf0460a3958fab0974d9fa03289d62437ab74bde",
+        "size_in_bytes": 32115,
+        "sha256_in_prefix": "06e0f2be65c6348fbec3e4c8bf0460a3958fab0974d9fa03289d62437ab74bde"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/2.8.3.18.fasta",
+        "path_type": "hardlink",
+        "sha256": "32e2d2462c130d2ec4ae36d46c235610de168c89b8346ecf0dc0e3b54829bca9",
+        "size_in_bytes": 5865,
+        "sha256_in_prefix": "32e2d2462c130d2ec4ae36d46c235610de168c89b8346ecf0dc0e3b54829bca9"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/2.8.3.8.fasta",
+        "path_type": "hardlink",
+        "sha256": "69e17c8c5b3de7f4296109312c7ef2099697416aef0ae2afec73d98b39ef7334",
+        "size_in_bytes": 104734,
+        "sha256_in_prefix": "69e17c8c5b3de7f4296109312c7ef2099697416aef0ae2afec73d98b39ef7334"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/2089b0e8f3f3a2ee111a9531cb614d0c.fasta",
+        "path_type": "hardlink",
+        "sha256": "72fcb283a598919a1a1a90cea69bcb04f38ff551685e3eeb1807872c091f83c1",
+        "size_in_bytes": 7920,
+        "sha256_in_prefix": "72fcb283a598919a1a1a90cea69bcb04f38ff551685e3eeb1807872c091f83c1"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/25cbfc0bc2e9ce7532bfd6db6e5d1d07.fasta",
+        "path_type": "hardlink",
+        "sha256": "61e49e3ff3ba3dcb71e03d27efa7f72d4fbf61494cada531571559b9623e7ce3",
+        "size_in_bytes": 767,
+        "sha256_in_prefix": "61e49e3ff3ba3dcb71e03d27efa7f72d4fbf61494cada531571559b9623e7ce3"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/290309402041b41c0de020b01ed41189.fasta",
+        "path_type": "hardlink",
+        "sha256": "35351d0fb3364117e2c9083b2b02468cdb8b18cbe6a4460d29ca4030e95c4814",
+        "size_in_bytes": 8720,
+        "sha256_in_prefix": "35351d0fb3364117e2c9083b2b02468cdb8b18cbe6a4460d29ca4030e95c4814"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/2972b7f83d763c45e4340e46f0ea15d6.fasta",
+        "path_type": "hardlink",
+        "sha256": "2262c4803f47e878a49d63ef32290aaa2ff6416b55fcc5895d2dd81051381937",
+        "size_in_bytes": 36211,
+        "sha256_in_prefix": "2262c4803f47e878a49d63ef32290aaa2ff6416b55fcc5895d2dd81051381937"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/3.1.3.15.fasta",
+        "path_type": "hardlink",
+        "sha256": "cf4a0472ad337a2a648a4cc5805cae791802bf386d8bb80c5ee0ed06d579f567",
+        "size_in_bytes": 792674,
+        "sha256_in_prefix": "cf4a0472ad337a2a648a4cc5805cae791802bf386d8bb80c5ee0ed06d579f567"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/3.1.3.2.fasta",
+        "path_type": "hardlink",
+        "sha256": "59678434ba49d29ddc32248670e3488577639f1d227150caf960d037c9b2e2b5",
+        "size_in_bytes": 1621028,
+        "sha256_in_prefix": "59678434ba49d29ddc32248670e3488577639f1d227150caf960d037c9b2e2b5"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/3.2.1.26.fasta",
+        "path_type": "hardlink",
+        "sha256": "5e5f69e804e282c68eaaff7f0647f48c081e381142435994bae92589510d0e37",
+        "size_in_bytes": 3768953,
+        "sha256_in_prefix": "5e5f69e804e282c68eaaff7f0647f48c081e381142435994bae92589510d0e37"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/3.2.1.63.fasta",
+        "path_type": "hardlink",
+        "sha256": "b718db6e1b262b11a9eb39f83654213ed3187f72caef4ae46d359f924794faaa",
+        "size_in_bytes": 32726,
+        "sha256_in_prefix": "b718db6e1b262b11a9eb39f83654213ed3187f72caef4ae46d359f924794faaa"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/3.2.1.7.fasta",
+        "path_type": "hardlink",
+        "sha256": "a84d0076108897fe826e7b8864dbcca196b2c6d9dc684e6f653d9cc221e26ba6",
+        "size_in_bytes": 3235,
+        "sha256_in_prefix": "a84d0076108897fe826e7b8864dbcca196b2c6d9dc684e6f653d9cc221e26ba6"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/3.2.1.96.fasta",
+        "path_type": "hardlink",
+        "sha256": "8dbf3a1dc9a8b4297d04423f5f5277794c0a00aded2fa4b6e458ae5f4962c655",
+        "size_in_bytes": 24442,
+        "sha256_in_prefix": "8dbf3a1dc9a8b4297d04423f5f5277794c0a00aded2fa4b6e458ae5f4962c655"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/3.2.1.97.fasta",
+        "path_type": "hardlink",
+        "sha256": "17b3a03768e9fd8e378fa50146d4a93a7f05412a0247ae5315a3bfe965fb8509",
+        "size_in_bytes": 63886,
+        "sha256_in_prefix": "17b3a03768e9fd8e378fa50146d4a93a7f05412a0247ae5315a3bfe965fb8509"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/3.5.1.25.fasta",
+        "path_type": "hardlink",
+        "sha256": "ef6368aab5bb1750d4bb225d74de99f05e58b1f86fcb395b0080255466f821c6",
+        "size_in_bytes": 31750,
+        "sha256_in_prefix": "ef6368aab5bb1750d4bb225d74de99f05e58b1f86fcb395b0080255466f821c6"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/3.5.3.24.fasta",
+        "path_type": "hardlink",
+        "sha256": "2d98fa7baed82fb4d369c84aef8bec08d57ae4d58587764bb8b21d5b8175efe8",
+        "size_in_bytes": 38511,
+        "sha256_in_prefix": "2d98fa7baed82fb4d369c84aef8bec08d57ae4d58587764bb8b21d5b8175efe8"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/4.1.1.17.fasta",
+        "path_type": "hardlink",
+        "sha256": "8d52bb8d01939b98db1727e542bed273aafad7a7db35c2e890b03668f32420cf",
+        "size_in_bytes": 4259,
+        "sha256_in_prefix": "8d52bb8d01939b98db1727e542bed273aafad7a7db35c2e890b03668f32420cf"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/4.1.2.17.fasta",
+        "path_type": "hardlink",
+        "sha256": "c39965bbdf78fc958b396c01d474967d2bc37686a8cbf5ee900e0462abd1f8bd",
+        "size_in_bytes": 90839,
+        "sha256_in_prefix": "c39965bbdf78fc958b396c01d474967d2bc37686a8cbf5ee900e0462abd1f8bd"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/4.1.3.3.fasta",
+        "path_type": "hardlink",
+        "sha256": "a82776266af9f657c937eb743605045cac95573958df7f0ce5d2e9106ab33ad7",
+        "size_in_bytes": 7523,
+        "sha256_in_prefix": "a82776266af9f657c937eb743605045cac95573958df7f0ce5d2e9106ab33ad7"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/4.1.3.38.fasta",
+        "path_type": "hardlink",
+        "sha256": "e453860a5b36457379bc61a8ff51ce03745dd75d82192214be2aa51fd6bea02e",
+        "size_in_bytes": 206193,
+        "sha256_in_prefix": "e453860a5b36457379bc61a8ff51ce03745dd75d82192214be2aa51fd6bea02e"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/4.2.1.28.fasta",
+        "path_type": "hardlink",
+        "sha256": "2555e4d31d26d086728d2e4794eadd63e6e523ed8fbf51cdb3330cc325629dba",
+        "size_in_bytes": 1871,
+        "sha256_in_prefix": "2555e4d31d26d086728d2e4794eadd63e6e523ed8fbf51cdb3330cc325629dba"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/4.2.1.3.fasta",
+        "path_type": "hardlink",
+        "sha256": "b036204f6144595eb3ae103e2231ed705787449640eb73642829703111dd5c84",
+        "size_in_bytes": 34419,
+        "sha256_in_prefix": "b036204f6144595eb3ae103e2231ed705787449640eb73642829703111dd5c84"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/4.2.1.30.fasta",
+        "path_type": "hardlink",
+        "sha256": "a0ef6346369e17862afed38904ca825de981c26e4385aecf42f41830103741b1",
+        "size_in_bytes": 12291,
+        "sha256_in_prefix": "a0ef6346369e17862afed38904ca825de981c26e4385aecf42f41830103741b1"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/4.2.1.55.fasta",
+        "path_type": "hardlink",
+        "sha256": "09a68c6091e786425995c59c90ccd49a8e6ca351cc2bd014139aad608f134aaa",
+        "size_in_bytes": 72411,
+        "sha256_in_prefix": "09a68c6091e786425995c59c90ccd49a8e6ca351cc2bd014139aad608f134aaa"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/4.3.2.2.fasta",
+        "path_type": "hardlink",
+        "sha256": "89c804a2b4231071ab611243e3c15cbe8aafc9652464c468f733b3af8ed112a3",
+        "size_in_bytes": 9437,
+        "sha256_in_prefix": "89c804a2b4231071ab611243e3c15cbe8aafc9652464c468f733b3af8ed112a3"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/4.3.99.4.fasta",
+        "path_type": "hardlink",
+        "sha256": "21ea1b8d15a140ee3d7fb9e762a02a1fa1bb68ae35ba0193e514787f44477b42",
+        "size_in_bytes": 130446,
+        "sha256_in_prefix": "21ea1b8d15a140ee3d7fb9e762a02a1fa1bb68ae35ba0193e514787f44477b42"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/4.99.1.9.fasta",
+        "path_type": "hardlink",
+        "sha256": "a4318ba2d8292f35f6826cd655a0ccd80e3fd47220bb1a3363d01d834acf40d4",
+        "size_in_bytes": 891,
+        "sha256_in_prefix": "a4318ba2d8292f35f6826cd655a0ccd80e3fd47220bb1a3363d01d834acf40d4"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/44c3c97f35dad7fa14516d2165a895a1.fasta",
+        "path_type": "hardlink",
+        "sha256": "b0c8be7ca2582524b94218a11c6044e705ce0dd7895e86f7097d5a563bb66f11",
+        "size_in_bytes": 2534,
+        "sha256_in_prefix": "b0c8be7ca2582524b94218a11c6044e705ce0dd7895e86f7097d5a563bb66f11"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/5.3.1.16.fasta",
+        "path_type": "hardlink",
+        "sha256": "71c83f5a825fa7b347dc7411027b65fb084560ef42dbf54fe2dc8688890964af",
+        "size_in_bytes": 716323,
+        "sha256_in_prefix": "71c83f5a825fa7b347dc7411027b65fb084560ef42dbf54fe2dc8688890964af"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/5.4.99.18.fasta",
+        "path_type": "hardlink",
+        "sha256": "0f8988116b195e0d0188cd13f33ef68495f9399a7da1a3ba1166c06a591a4a52",
+        "size_in_bytes": 4549,
+        "sha256_in_prefix": "0f8988116b195e0d0188cd13f33ef68495f9399a7da1a3ba1166c06a591a4a52"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/5.4.99.5.fasta",
+        "path_type": "hardlink",
+        "sha256": "30a89de96cb66ec25f6ba2cfd4162381a46253103fb25799dc5f6160e2293d27",
+        "size_in_bytes": 23971,
+        "sha256_in_prefix": "30a89de96cb66ec25f6ba2cfd4162381a46253103fb25799dc5f6160e2293d27"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/521aedf98c8d875b6a52530815e7e665.fasta",
+        "path_type": "hardlink",
+        "sha256": "d9d27c1eb871bc71ec736badc995d8aea7a4f0594b06a044a66af266ae1adfeb",
+        "size_in_bytes": 4368,
+        "sha256_in_prefix": "d9d27c1eb871bc71ec736badc995d8aea7a4f0594b06a044a66af266ae1adfeb"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/58b10bcad4ed5615bfc2a9657a15a624.fasta",
+        "path_type": "hardlink",
+        "sha256": "7feb18aec3d19107e8a3e5f4837b92e06e215d721563bcbdb4669899d4b7741b",
+        "size_in_bytes": 4033,
+        "sha256_in_prefix": "7feb18aec3d19107e8a3e5f4837b92e06e215d721563bcbdb4669899d4b7741b"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/5aa13e240b12a77ce3f98b6abd92cb0a.fasta",
+        "path_type": "hardlink",
+        "sha256": "6ebfe3325b20a2c3cfe4a6fd0935a2bfd022e934acc6215d5f6b5b0c0cfcfd6c",
+        "size_in_bytes": 2203,
+        "sha256_in_prefix": "6ebfe3325b20a2c3cfe4a6fd0935a2bfd022e934acc6215d5f6b5b0c0cfcfd6c"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/6.2.1.7.fasta",
+        "path_type": "hardlink",
+        "sha256": "5d750741fb76aac4c2a923c4585770f526b020699214b93ce2ab73526c2acc0e",
+        "size_in_bytes": 661,
+        "sha256_in_prefix": "5d750741fb76aac4c2a923c4585770f526b020699214b93ce2ab73526c2acc0e"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/6.3.2.12.fasta",
+        "path_type": "hardlink",
+        "sha256": "c334ccde5b036d198e6fd724693436d7a024a26a250433932f878f4476763220",
+        "size_in_bytes": 173195,
+        "sha256_in_prefix": "c334ccde5b036d198e6fd724693436d7a024a26a250433932f878f4476763220"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/6.3.5.3.fasta",
+        "path_type": "hardlink",
+        "sha256": "5d7ce4ddc6f83496cd928aa7f187b0d1f7b7e49704fdbd50afabb29874980396",
+        "size_in_bytes": 205742,
+        "sha256_in_prefix": "5d7ce4ddc6f83496cd928aa7f187b0d1f7b7e49704fdbd50afabb29874980396"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/6.6.1.2.fasta",
+        "path_type": "hardlink",
+        "sha256": "6763abdffde8fc21426fe375c10b67b849bed820db06c0fdc6ef7c03772e4f52",
+        "size_in_bytes": 1732021,
+        "sha256_in_prefix": "6763abdffde8fc21426fe375c10b67b849bed820db06c0fdc6ef7c03772e4f52"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/7.1.1.5.fasta",
+        "path_type": "hardlink",
+        "sha256": "347086339366693404a3c60acc22ccf123d824f1c782144d623be84a6ebc1cff",
+        "size_in_bytes": 1758,
+        "sha256_in_prefix": "347086339366693404a3c60acc22ccf123d824f1c782144d623be84a6ebc1cff"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/7.1.1.9.fasta",
+        "path_type": "hardlink",
+        "sha256": "71e7ae8555d9701e0b709858894b09ef612bb61ea4680f38600746243087c37c",
+        "size_in_bytes": 6549929,
+        "sha256_in_prefix": "71e7ae8555d9701e0b709858894b09ef612bb61ea4680f38600746243087c37c"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/7114064dd1cc3e8687577e6154a46adb.fasta",
+        "path_type": "hardlink",
+        "sha256": "6ddea5e1163171c743cf7cd4e33d63775fec3f68491809013a3218d02dfeef63",
+        "size_in_bytes": 383,
+        "sha256_in_prefix": "6ddea5e1163171c743cf7cd4e33d63775fec3f68491809013a3218d02dfeef63"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/9469dfbac401e04422f9865e18d3f0e3.fasta",
+        "path_type": "hardlink",
+        "sha256": "741d280dc24f992bffdc2a18d2f587c4c656e07ce1a54b8325e3990b3c9aad02",
+        "size_in_bytes": 458,
+        "sha256_in_prefix": "741d280dc24f992bffdc2a18d2f587c4c656e07ce1a54b8325e3990b3c9aad02"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/98409a50a1004642d0b281964db53d19.fasta",
+        "path_type": "hardlink",
+        "sha256": "d2e702d0dd4fa6a785f01ab18dd9ffd4e4f562e51db3d29a6b456667f7955a52",
+        "size_in_bytes": 7652,
+        "sha256_in_prefix": "d2e702d0dd4fa6a785f01ab18dd9ffd4e4f562e51db3d29a6b456667f7955a52"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/INULIN-ABC-TRANSPORT.fasta",
+        "path_type": "hardlink",
+        "sha256": "d03301a472e100e2e7669a093a3a6e9bbdab561c853869d687c6f8fb9a4e2360",
+        "size_in_bytes": 2586,
+        "sha256_in_prefix": "d03301a472e100e2e7669a093a3a6e9bbdab561c853869d687c6f8fb9a4e2360"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/SULFATE-ADENYLYLTRANS-RXN.fasta",
+        "path_type": "hardlink",
+        "sha256": "a724f9ff001d14e814b8116fe6327a2fbd0aef9f427ea0a318d4a5c95ecc3bfe",
+        "size_in_bytes": 4356,
+        "sha256_in_prefix": "a724f9ff001d14e814b8116fe6327a2fbd0aef9f427ea0a318d4a5c95ecc3bfe"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/a24abd9c6f7376577f002dfccf961db1.fasta",
+        "path_type": "hardlink",
+        "sha256": "53bdd42feee10f1ed0280a08902e677cb63cc9314d2004b1e1de139b96a61610",
+        "size_in_bytes": 106623,
+        "sha256_in_prefix": "53bdd42feee10f1ed0280a08902e677cb63cc9314d2004b1e1de139b96a61610"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/b22dcdef3a4303298a5fdb13213a434e.fasta",
+        "path_type": "hardlink",
+        "sha256": "09af274eb952b5e917ef1ea19b34a4679ce77dba1056513de8a5f892d0a27002",
+        "size_in_bytes": 2185,
+        "sha256_in_prefix": "09af274eb952b5e917ef1ea19b34a4679ce77dba1056513de8a5f892d0a27002"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/bc85fc55a1edae1c2bb19e12684432bd.fasta",
+        "path_type": "hardlink",
+        "sha256": "02c382ed33892ee5bf584980239c266188c8c30efd1da0a0d3a99f8f34f6f9e8",
+        "size_in_bytes": 3877,
+        "sha256_in_prefix": "02c382ed33892ee5bf584980239c266188c8c30efd1da0a0d3a99f8f34f6f9e8"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/be4f4065497701605afaeb39b3302a6c.fasta",
+        "path_type": "hardlink",
+        "sha256": "4b16acd0d77529bf9a507e5ad8374324e54d660b92ae25e84c0e81817ee4c57c",
+        "size_in_bytes": 536843,
+        "sha256_in_prefix": "4b16acd0d77529bf9a507e5ad8374324e54d660b92ae25e84c0e81817ee4c57c"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/c1061262ea138e6abe69ae2b1bea3721.fasta",
+        "path_type": "hardlink",
+        "sha256": "d7a7d076ac7e275662ea501d3325e3756b08dc0842b20b7981aa7931a3c2401e",
+        "size_in_bytes": 1621,
+        "sha256_in_prefix": "d7a7d076ac7e275662ea501d3325e3756b08dc0842b20b7981aa7931a3c2401e"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/c793026ba11556ec7b11c8c53ae4459e.fasta",
+        "path_type": "hardlink",
+        "sha256": "96ed0c2dde2168b105ed5fb81a1443564938309e5383b3ff086a9a7f3bd70fac",
+        "size_in_bytes": 194523,
+        "sha256_in_prefix": "96ed0c2dde2168b105ed5fb81a1443564938309e5383b3ff086a9a7f3bd70fac"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/cef7d61a04f14b663c3e4b457bca44f3.fasta",
+        "path_type": "hardlink",
+        "sha256": "3f89bd157c477239de88bc93f524358d8cd22910f3d258bd7ee7f89bc089cb43",
+        "size_in_bytes": 1949,
+        "sha256_in_prefix": "3f89bd157c477239de88bc93f524358d8cd22910f3d258bd7ee7f89bc089cb43"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/Bacteria/user/f6cfe0fda408673f619c00c57a2cbcfe.fasta",
+        "path_type": "hardlink",
+        "sha256": "9501d4bb82236e4dd38ede46cabecc621e15eb6965fba5cddf32d80fb95bb9e3",
+        "size_in_bytes": 4264,
+        "sha256_in_prefix": "9501d4bb82236e4dd38ede46cabecc621e15eb6965fba5cddf32d80fb95bb9e3"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/hmm/README.md",
+        "path_type": "hardlink",
+        "sha256": "bcb7a829f626f61105a1fb91037dee7b5ce0b7823197b08da7ed38ed63d475bf",
+        "size_in_bytes": 1354,
+        "sha256_in_prefix": "bcb7a829f626f61105a1fb91037dee7b5ce0b7823197b08da7ed38ed63d475bf"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/hmm/domain.hmm.gz",
+        "path_type": "hardlink",
+        "sha256": "afa72368b9d7c0b26c71a1b38b6792b9deb2a4f4d3312dd6385a6a6b3242028a",
+        "size_in_bytes": 4347107,
+        "sha256_in_prefix": "afa72368b9d7c0b26c71a1b38b6792b9deb2a4f4d3312dd6385a6a6b3242028a"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/hmm/domain_markers.tsv",
+        "path_type": "hardlink",
+        "sha256": "a129f3f81c381829cae18fa054119159d4ffb1b412bcbff662542103e953fbbe",
+        "size_in_bytes": 3544,
+        "sha256_in_prefix": "a129f3f81c381829cae18fa054119159d4ffb1b412bcbff662542103e953fbbe"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/hmm/gram.hmm.gz",
+        "path_type": "hardlink",
+        "sha256": "a632f9c1f5fc312c91ccb79c81af04fc51f5b99398a3da179574735f85848bda",
+        "size_in_bytes": 5727668,
+        "sha256_in_prefix": "a632f9c1f5fc312c91ccb79c81af04fc51f5b99398a3da179574735f85848bda"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/hmm/gram_markers.tsv",
+        "path_type": "hardlink",
+        "sha256": "28faafc551643d35c00f9665309fc8b7af3546508e2aac07dc793eb2f727d057",
+        "size_in_bytes": 3620,
+        "sha256_in_prefix": "28faafc551643d35c00f9665309fc8b7af3546508e2aac07dc793eb2f727d057"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/tcdb.fasta",
+        "path_type": "hardlink",
+        "sha256": "100ec791466d3b8076c148c2cb7d6c39d800867a3364d19a4fea3924d388c1a3",
+        "size_in_bytes": 11905276,
+        "sha256_in_prefix": "100ec791466d3b8076c148c2cb7d6c39d800867a3364d19a4fea3924d388c1a3"
+      },
+      {
+        "_path": "share/gapseq/dat/seq/transporter.fasta",
+        "path_type": "hardlink",
+        "sha256": "4c524b2c2123b16a64038f00e557e8fda6b3f6936e24a752906b07d3cc28c225",
+        "size_in_bytes": 14632,
+        "sha256_in_prefix": "4c524b2c2123b16a64038f00e557e8fda6b3f6936e24a752906b07d3cc28c225"
+      },
+      {
+        "_path": "share/gapseq/dat/subex.tbl",
+        "path_type": "hardlink",
+        "sha256": "4eaa47832f035ab4c0c167d9c9697d2eca51b3f27350203cc9d4956c3fd1c96b",
+        "size_in_bytes": 18036,
+        "sha256_in_prefix": "4eaa47832f035ab4c0c167d9c9697d2eca51b3f27350203cc9d4956c3fd1c96b"
+      },
+      {
+        "_path": "share/gapseq/dat/taxonomy.tbl",
+        "path_type": "hardlink",
+        "sha256": "d09bf907cc183665360e60ab7ab6e3f5880b77f629f3fa0547e4920e697393c6",
+        "size_in_bytes": 11335,
+        "sha256_in_prefix": "d09bf907cc183665360e60ab7ab6e3f5880b77f629f3fa0547e4920e697393c6"
+      },
+      {
+        "_path": "share/gapseq/dat/tcdb_custom.tbl",
+        "path_type": "hardlink",
+        "sha256": "4cf0031575254e1fdca150e75770891ac873b7be9bc3eddb24b075306f272d3d",
+        "size_in_bytes": 115,
+        "sha256_in_prefix": "4cf0031575254e1fdca150e75770891ac873b7be9bc3eddb24b075306f272d3d"
+      },
+      {
+        "_path": "share/gapseq/dat/tcdb_substrates.tbl",
+        "path_type": "hardlink",
+        "sha256": "f0fa131f7066a577ea3738bf0989a87f5fa968e301b6e01424032fda233d7e0b",
+        "size_in_bytes": 398024,
+        "sha256_in_prefix": "f0fa131f7066a577ea3738bf0989a87f5fa968e301b6e01424032fda233d7e0b"
+      },
+      {
+        "_path": "share/gapseq/dat/vmh_reactions.tsv",
+        "path_type": "hardlink",
+        "sha256": "7fc94bdee0ae42288b18dbabe64397843379118105ae87b9b17aad1d2b6c9f7f",
+        "size_in_bytes": 3535345,
+        "sha256_in_prefix": "7fc94bdee0ae42288b18dbabe64397843379118105ae87b9b17aad1d2b6c9f7f"
+      },
+      {
+        "_path": "share/gapseq/docs/Makefile",
+        "path_type": "hardlink",
+        "sha256": "8b6587b859607f200f116e2cb043fc358e1c3a26c326b563bf348453cfc68307",
+        "size_in_bytes": 634,
+        "sha256_in_prefix": "8b6587b859607f200f116e2cb043fc358e1c3a26c326b563bf348453cfc68307"
+      },
+      {
+        "_path": "share/gapseq/docs/conf.py",
+        "path_type": "hardlink",
+        "sha256": "4f92fed50d2aa87969e07881dbdc38da5cfe082eba21883467078facaa540b42",
+        "size_in_bytes": 2389,
+        "sha256_in_prefix": "4f92fed50d2aa87969e07881dbdc38da5cfe082eba21883467078facaa540b42"
+      },
+      {
+        "_path": "share/gapseq/docs/database/ReferenceSequences.md",
+        "path_type": "hardlink",
+        "sha256": "90d29fdcffc5cc5ba7501a376d8cb6d9f76a6b77c50c603ef249786c2185efa3",
+        "size_in_bytes": 2805,
+        "sha256_in_prefix": "90d29fdcffc5cc5ba7501a376d8cb6d9f76a6b77c50c603ef249786c2185efa3"
+      },
+      {
+        "_path": "share/gapseq/docs/database/biochemistry.md",
+        "path_type": "hardlink",
+        "sha256": "a6329002fd8282bde0555341a8f8662a774e01877fb511f11d5e830f9647d166",
+        "size_in_bytes": 1430,
+        "sha256_in_prefix": "a6329002fd8282bde0555341a8f8662a774e01877fb511f11d5e830f9647d166"
+      },
+      {
+        "_path": "share/gapseq/docs/database/biomassReaction.md",
+        "path_type": "hardlink",
+        "sha256": "a4b77dad0cc722c6146f23cf0f74bcfb3953b36c73aa6153370471651adf0020",
+        "size_in_bytes": 20117,
+        "sha256_in_prefix": "a4b77dad0cc722c6146f23cf0f74bcfb3953b36c73aa6153370471651adf0020"
+      },
+      {
+        "_path": "share/gapseq/docs/faq.md",
+        "path_type": "hardlink",
+        "sha256": "bd92e15e72acfe6955103540aaa171a2a9a7db3b9fe2d6028e5d0e1f3737e544",
+        "size_in_bytes": 3824,
+        "sha256_in_prefix": "bd92e15e72acfe6955103540aaa171a2a9a7db3b9fe2d6028e5d0e1f3737e544"
+      },
+      {
+        "_path": "share/gapseq/docs/gfx/flowchart.png",
+        "path_type": "hardlink",
+        "sha256": "d9e5a21fd8455c1be17bcf5944607199f1faae70abdb31f2cce9feeb0e2c54dc",
+        "size_in_bytes": 109894,
+        "sha256_in_prefix": "d9e5a21fd8455c1be17bcf5944607199f1faae70abdb31f2cce9feeb0e2c54dc"
+      },
+      {
+        "_path": "share/gapseq/docs/gfx/parameters.svg",
+        "path_type": "hardlink",
+        "sha256": "73d3e7a34f4084ea97b387e8d82b90085a41399b2ffd7837f11e5a6ef8817af9",
+        "size_in_bytes": 24188,
+        "sha256_in_prefix": "73d3e7a34f4084ea97b387e8d82b90085a41399b2ffd7837f11e5a6ef8817af9"
+      },
+      {
+        "_path": "share/gapseq/docs/gfx/starch_n27.svg",
+        "path_type": "hardlink",
+        "sha256": "0c5e65a643354b09fdb3aa7c12d244b291edb34fa8de37aa5df35ab0bfe83472",
+        "size_in_bytes": 82840,
+        "sha256_in_prefix": "0c5e65a643354b09fdb3aa7c12d244b291edb34fa8de37aa5df35ab0bfe83472"
+      },
+      {
+        "_path": "share/gapseq/docs/index.rst",
+        "path_type": "hardlink",
+        "sha256": "6f5f84493616ea30d73675bbcb42ba8f67c16066c90600130529848d8bba756e",
+        "size_in_bytes": 1374,
+        "sha256_in_prefix": "6f5f84493616ea30d73675bbcb42ba8f67c16066c90600130529848d8bba756e"
+      },
+      {
+        "_path": "share/gapseq/docs/install.md",
+        "path_type": "hardlink",
+        "sha256": "b673860bfeef04b8b313644a1b9798c5b7172367a6ac655516dee041a3f27beb",
+        "size_in_bytes": 8861,
+        "sha256_in_prefix": "b673860bfeef04b8b313644a1b9798c5b7172367a6ac655516dee041a3f27beb"
+      },
+      {
+        "_path": "share/gapseq/docs/make.bat",
+        "path_type": "hardlink",
+        "sha256": "b593cd1da19314a43db9a0854f6f92f2c59217571502da3321f9498c02fa16c8",
+        "size_in_bytes": 795,
+        "sha256_in_prefix": "b593cd1da19314a43db9a0854f6f92f2c59217571502da3321f9498c02fa16c8"
+      },
+      {
+        "_path": "share/gapseq/docs/news.md",
+        "path_type": "hardlink",
+        "sha256": "0fa2d954f9eedcc1bae4a5949b9b59915672ab2958aba5ab554a51c3bd467c76",
+        "size_in_bytes": 2343,
+        "sha256_in_prefix": "0fa2d954f9eedcc1bae4a5949b9b59915672ab2958aba5ab554a51c3bd467c76"
+      },
+      {
+        "_path": "share/gapseq/docs/requirements.txt",
+        "path_type": "hardlink",
+        "sha256": "073a1720cf9251e44bfb63578c30939c32e1cdf2bc329d1b8c97add0413937ad",
+        "size_in_bytes": 61,
+        "sha256_in_prefix": "073a1720cf9251e44bfb63578c30939c32e1cdf2bc329d1b8c97add0413937ad"
+      },
+      {
+        "_path": "share/gapseq/docs/tutorials/archaea.md",
+        "path_type": "hardlink",
+        "sha256": "4df3103a128bfab4340de5a819a33d7359818ca49421c13ef809bade3a3788c1",
+        "size_in_bytes": 9987,
+        "sha256_in_prefix": "4df3103a128bfab4340de5a819a33d7359818ca49421c13ef809bade3a3788c1"
+      },
+      {
+        "_path": "share/gapseq/docs/tutorials/archaea.rmd",
+        "path_type": "hardlink",
+        "sha256": "850aad406ba6c5cf09631293a546ce555adc47e441c4d37bc5055a0f7718c243",
+        "size_in_bytes": 6098,
+        "sha256_in_prefix": "850aad406ba6c5cf09631293a546ce555adc47e441c4d37bc5055a0f7718c243"
+      },
+      {
+        "_path": "share/gapseq/docs/tutorials/pandraft.md",
+        "path_type": "hardlink",
+        "sha256": "b4da3e766162b1c0d9e3a3ebe8261ef050fc61f5bbc5b572ae63f1fd882c68b5",
+        "size_in_bytes": 14263,
+        "sha256_in_prefix": "b4da3e766162b1c0d9e3a3ebe8261ef050fc61f5bbc5b572ae63f1fd882c68b5"
+      },
+      {
+        "_path": "share/gapseq/docs/tutorials/pandraft.rmd",
+        "path_type": "hardlink",
+        "sha256": "082b224c96004fd5b58e93e361f35dc71e3e1cbdf279da1943c96066eb21abed",
+        "size_in_bytes": 5371,
+        "sha256_in_prefix": "082b224c96004fd5b58e93e361f35dc71e3e1cbdf279da1943c96066eb21abed"
+      },
+      {
+        "_path": "share/gapseq/docs/tutorials/traceability.md",
+        "path_type": "hardlink",
+        "sha256": "81907375df6ae99801fe9dd9e9efce92eae39aa86b2cd8f94204d49e8c538db1",
+        "size_in_bytes": 3418,
+        "sha256_in_prefix": "81907375df6ae99801fe9dd9e9efce92eae39aa86b2cd8f94204d49e8c538db1"
+      },
+      {
+        "_path": "share/gapseq/docs/tutorials/traceability.rmd",
+        "path_type": "hardlink",
+        "sha256": "5afa3ce638650ce7bf104c7f919a5751582a85f80346c6cfe0c71829157de9e6",
+        "size_in_bytes": 3272,
+        "sha256_in_prefix": "5afa3ce638650ce7bf104c7f919a5751582a85f80346c6cfe0c71829157de9e6"
+      },
+      {
+        "_path": "share/gapseq/docs/tutorials/yogurt.md",
+        "path_type": "hardlink",
+        "sha256": "c855f4376199770e84dd7c642aa095ae757820e2551fbfbaaf05a5b7328b2e41",
+        "size_in_bytes": 5873,
+        "sha256_in_prefix": "c855f4376199770e84dd7c642aa095ae757820e2551fbfbaaf05a5b7328b2e41"
+      },
+      {
+        "_path": "share/gapseq/docs/tutorials/yogurt.rmd",
+        "path_type": "hardlink",
+        "sha256": "9771206f1f758c07661eb4aa8c05a11420b0a58f0758ac34866e0cd8830e5195",
+        "size_in_bytes": 4411,
+        "sha256_in_prefix": "9771206f1f758c07661eb4aa8c05a11420b0a58f0758ac34866e0cd8830e5195"
+      },
+      {
+        "_path": "share/gapseq/docs/usage/adapt.md",
+        "path_type": "hardlink",
+        "sha256": "1d4f2af943a5c1094f91a6968828da6efb5d59d1bc045baff3f8ca4c72b54ff5",
+        "size_in_bytes": 2239,
+        "sha256_in_prefix": "1d4f2af943a5c1094f91a6968828da6efb5d59d1bc045baff3f8ca4c72b54ff5"
+      },
+      {
+        "_path": "share/gapseq/docs/usage/basics.md",
+        "path_type": "hardlink",
+        "sha256": "ab1a2536698b1a2cb7cdca803da8c5f2159ed2faf2ede74d878e9ce0be282f6e",
+        "size_in_bytes": 1535,
+        "sha256_in_prefix": "ab1a2536698b1a2cb7cdca803da8c5f2159ed2faf2ede74d878e9ce0be282f6e"
+      },
+      {
+        "_path": "share/gapseq/docs/usage/medium.md",
+        "path_type": "hardlink",
+        "sha256": "774919d5bad24edf2395ea55628f8b4eef138bb469000b755f775ef783a2a295",
+        "size_in_bytes": 2659,
+        "sha256_in_prefix": "774919d5bad24edf2395ea55628f8b4eef138bb469000b755f775ef783a2a295"
+      },
+      {
+        "_path": "share/gapseq/docs/usage/output.md",
+        "path_type": "hardlink",
+        "sha256": "0526e9a28d509cfa34955e9b8b1b27c788bee81f012824bb1f8d63afa3943b81",
+        "size_in_bytes": 4676,
+        "sha256_in_prefix": "0526e9a28d509cfa34955e9b8b1b27c788bee81f012824bb1f8d63afa3943b81"
+      },
+      {
+        "_path": "share/gapseq/docs/usage/panDraft.md",
+        "path_type": "hardlink",
+        "sha256": "b62731ae01c48d948840d960599627b0b91e4c84c4006d288bfebaf8cb349c90",
+        "size_in_bytes": 4089,
+        "sha256_in_prefix": "b62731ae01c48d948840d960599627b0b91e4c84c4006d288bfebaf8cb349c90"
+      },
+      {
+        "_path": "share/gapseq/docs/usage/parameters.md",
+        "path_type": "hardlink",
+        "sha256": "728d227e64bb16b2b2c899dec8c7691a28c55afb41839ee85fdf6fb7443074c9",
+        "size_in_bytes": 3912,
+        "sha256_in_prefix": "728d227e64bb16b2b2c899dec8c7691a28c55afb41839ee85fdf6fb7443074c9"
+      },
+      {
+        "_path": "share/gapseq/gapseq",
+        "path_type": "hardlink",
+        "sha256": "916b74d23b8db69515e1d33ba37c808fb367b2fcf0ec4aabe16179eb70db9fcc",
+        "size_in_bytes": 5647,
+        "sha256_in_prefix": "916b74d23b8db69515e1d33ba37c808fb367b2fcf0ec4aabe16179eb70db9fcc"
+      },
+      {
+        "_path": "share/gapseq/gapseq_env.yml",
+        "path_type": "hardlink",
+        "sha256": "9d469d42051d9146460d49715b31c6313399f1d623506c818896f9c98e4d2c67",
+        "size_in_bytes": 444,
+        "sha256_in_prefix": "9d469d42051d9146460d49715b31c6313399f1d623506c818896f9c98e4d2c67"
+      },
+      {
+        "_path": "share/gapseq/src/adapt.R",
+        "path_type": "hardlink",
+        "sha256": "98aa30feddd298bdd5dbc4e6bb38471e73f761cd2acd514958fca36d161b093b",
+        "size_in_bytes": 12771,
+        "sha256_in_prefix": "98aa30feddd298bdd5dbc4e6bb38471e73f761cd2acd514958fca36d161b093b"
+      },
+      {
+        "_path": "share/gapseq/src/addGeneAttr.R",
+        "path_type": "hardlink",
+        "sha256": "593ea1af482cc96477f899f2aa24db9f45bdac8232664ed78b83634f7e73fab2",
+        "size_in_bytes": 1376,
+        "sha256_in_prefix": "593ea1af482cc96477f899f2aa24db9f45bdac8232664ed78b83634f7e73fab2"
+      },
+      {
+        "_path": "share/gapseq/src/addMetAttr.R",
+        "path_type": "hardlink",
+        "sha256": "6a29141f9a0ffce7782e66c82deb632917c27e84be39b4639d02a1db9aa17b74",
+        "size_in_bytes": 3407,
+        "sha256_in_prefix": "6a29141f9a0ffce7782e66c82deb632917c27e84be39b4639d02a1db9aa17b74"
+      },
+      {
+        "_path": "share/gapseq/src/addReactAttr.R",
+        "path_type": "hardlink",
+        "sha256": "0606cea8020fa27bdae56909678a00ce043d71734bc6918cc384948056022101",
+        "size_in_bytes": 6203,
+        "sha256_in_prefix": "0606cea8020fa27bdae56909678a00ce043d71734bc6918cc384948056022101"
+      },
+      {
+        "_path": "share/gapseq/src/add_missing_exRxns.R",
+        "path_type": "hardlink",
+        "sha256": "6ad32efa436e88f3872ce6b76bd579a89220b69d4286126b77d6d7cd7231ecd4",
+        "size_in_bytes": 8162,
+        "sha256_in_prefix": "6ad32efa436e88f3872ce6b76bd579a89220b69d4286126b77d6d7cd7231ecd4"
+      },
+      {
+        "_path": "share/gapseq/src/adjust_model_env.R",
+        "path_type": "hardlink",
+        "sha256": "2e8f2d146d5e8eeffcb3d2c5bd35c1ecae166756dd0625bb080d4b07a8680999",
+        "size_in_bytes": 760,
+        "sha256_in_prefix": "2e8f2d146d5e8eeffcb3d2c5bd35c1ecae166756dd0625bb080d4b07a8680999"
+      },
+      {
+        "_path": "share/gapseq/src/analyse_alignments.R",
+        "path_type": "hardlink",
+        "sha256": "f227e9eb79abc645f0ee2fe478b39a48b61d4449b0cb76d71bff5ba3a8da8c32",
+        "size_in_bytes": 11727,
+        "sha256_in_prefix": "f227e9eb79abc645f0ee2fe478b39a48b61d4449b0cb76d71bff5ba3a8da8c32"
+      },
+      {
+        "_path": "share/gapseq/src/analyse_alignments_transport.R",
+        "path_type": "hardlink",
+        "sha256": "d7358456ed1f61ae4d825861fa345c492438daf0d77e4812c9c498c3a3be6c03",
+        "size_in_bytes": 8636,
+        "sha256_in_prefix": "d7358456ed1f61ae4d825861fa345c492438daf0d77e4812c9c498c3a3be6c03"
+      },
+      {
+        "_path": "share/gapseq/src/complex_detection.R",
+        "path_type": "hardlink",
+        "sha256": "b32c8ab386ba8bb9096f04559318eff714ea61676893f36763b616dcbe9491fb",
+        "size_in_bytes": 3942,
+        "sha256_in_prefix": "b32c8ab386ba8bb9096f04559318eff714ea61676893f36763b616dcbe9491fb"
+      },
+      {
+        "_path": "share/gapseq/src/constrain.model.R",
+        "path_type": "hardlink",
+        "sha256": "bd5af054900119473470ac356cd5755eebc79e32bb130a0989310730c72b4949",
+        "size_in_bytes": 1899,
+        "sha256_in_prefix": "bd5af054900119473470ac356cd5755eebc79e32bb130a0989310730c72b4949"
+      },
+      {
+        "_path": "share/gapseq/src/construct_full_model.R",
+        "path_type": "hardlink",
+        "sha256": "b7bed9c9471fd9299134674aeb8bd783411ecf9ae8e5aa6dc46ef801aa4a1129",
+        "size_in_bytes": 7590,
+        "sha256_in_prefix": "b7bed9c9471fd9299134674aeb8bd783411ecf9ae8e5aa6dc46ef801aa4a1129"
+      },
+      {
+        "_path": "share/gapseq/src/correct_seed_rxnDB.R",
+        "path_type": "hardlink",
+        "sha256": "5f21ea5c4af89983fe9e5574857cbc931ecc1f22b053d0df0c314e8a8c9e8762",
+        "size_in_bytes": 11832,
+        "sha256_in_prefix": "5f21ea5c4af89983fe9e5574857cbc931ecc1f22b053d0df0c314e8a8c9e8762"
+      },
+      {
+        "_path": "share/gapseq/src/doall.sh",
+        "path_type": "hardlink",
+        "sha256": "9a23738211c6fccab69b36f113bec61c921dbe845e2f4e644ee0c2d958e7c67f",
+        "size_in_bytes": 4641,
+        "sha256_in_prefix": "9a23738211c6fccab69b36f113bec61c921dbe845e2f4e644ee0c2d958e7c67f"
+      },
+      {
+        "_path": "share/gapseq/src/filter_pathways.R",
+        "path_type": "hardlink",
+        "sha256": "1015123df5450bbd466357871a08267a4ab69ee6dafd3b6e553ffe633d0d4892",
+        "size_in_bytes": 1589,
+        "sha256_in_prefix": "1015123df5450bbd466357871a08267a4ab69ee6dafd3b6e553ffe633d0d4892"
+      },
+      {
+        "_path": "share/gapseq/src/gapfill4.R",
+        "path_type": "hardlink",
+        "sha256": "c2ef593adfb2713470e9e104fc1a4f443b30da4dcddb64744ad99b1334b95c4e",
+        "size_in_bytes": 14480,
+        "sha256_in_prefix": "c2ef593adfb2713470e9e104fc1a4f443b30da4dcddb64744ad99b1334b95c4e"
+      },
+      {
+        "_path": "share/gapseq/src/gapseq_find.sh",
+        "path_type": "hardlink",
+        "sha256": "d30aaa4edd37cf4d53a57888ec97363681fb00caeaa52c6d40b0a9141abfa64f",
+        "size_in_bytes": 28080,
+        "sha256_in_prefix": "d30aaa4edd37cf4d53a57888ec97363681fb00caeaa52c6d40b0a9141abfa64f"
+      },
+      {
+        "_path": "share/gapseq/src/generate_GSdraft.R",
+        "path_type": "hardlink",
+        "sha256": "1b1aff539ac4706d01becf9755073adb46d7f3607fdc4fad3b22cc1326efdc87",
+        "size_in_bytes": 20824,
+        "sha256_in_prefix": "1b1aff539ac4706d01becf9755073adb46d7f3607fdc4fad3b22cc1326efdc87"
+      },
+      {
+        "_path": "share/gapseq/src/generate_rxn_stoich_hash.R",
+        "path_type": "hardlink",
+        "sha256": "bc6ba269d3aef98e87b9b165e1cbc042ea16dbe7ad0116394159cd41c117079d",
+        "size_in_bytes": 805,
+        "sha256_in_prefix": "bc6ba269d3aef98e87b9b165e1cbc042ea16dbe7ad0116394159cd41c117079d"
+      },
+      {
+        "_path": "share/gapseq/src/getDBhit.R",
+        "path_type": "hardlink",
+        "sha256": "2e87cc9a2313f168f505add9ac0705fdf746cd870a36d525a2fd572542b75173",
+        "size_in_bytes": 6206,
+        "sha256_in_prefix": "2e87cc9a2313f168f505add9ac0705fdf746cd870a36d525a2fd572542b75173"
+      },
+      {
+        "_path": "share/gapseq/src/get_gene_logic_string.R",
+        "path_type": "hardlink",
+        "sha256": "7d43550cc4e6177c9c56d9d0adf2c78b3bc218b9f254d4d852d164aff9e359ac",
+        "size_in_bytes": 1466,
+        "sha256_in_prefix": "7d43550cc4e6177c9c56d9d0adf2c78b3bc218b9f254d4d852d164aff9e359ac"
+      },
+      {
+        "_path": "share/gapseq/src/gf.adapt.R",
+        "path_type": "hardlink",
+        "sha256": "5ff6f1780b94ccd800e8abe13741d7815f1adac9bcc26c715e0f726f01c320a7",
+        "size_in_bytes": 19891,
+        "sha256_in_prefix": "5ff6f1780b94ccd800e8abe13741d7815f1adac9bcc26c715e0f726f01c320a7"
+      },
+      {
+        "_path": "share/gapseq/src/gf.suite.R",
+        "path_type": "hardlink",
+        "sha256": "2eb64a32c821ed3c80fe986f4aaba271f8a9edf90c596f05f1dd678dbf0f52e6",
+        "size_in_bytes": 34403,
+        "sha256_in_prefix": "2eb64a32c821ed3c80fe986f4aaba271f8a9edf90c596f05f1dd678dbf0f52e6"
+      },
+      {
+        "_path": "share/gapseq/src/gram_by_network.R",
+        "path_type": "hardlink",
+        "sha256": "233326ac91366fc6d199c92e930fb8e30b2f1806dc19b4f8b25347e7eada2d66",
+        "size_in_bytes": 1330,
+        "sha256_in_prefix": "233326ac91366fc6d199c92e930fb8e30b2f1806dc19b4f8b25347e7eada2d66"
+      },
+      {
+        "_path": "share/gapseq/src/import_eggnog.R",
+        "path_type": "hardlink",
+        "sha256": "421da60a452f2e66c751791e977ed83b24c5641f229db4c0a035af0b50887b32",
+        "size_in_bytes": 1497,
+        "sha256_in_prefix": "421da60a452f2e66c751791e977ed83b24c5641f229db4c0a035af0b50887b32"
+      },
+      {
+        "_path": "share/gapseq/src/kegg_pwy.R",
+        "path_type": "hardlink",
+        "sha256": "e84a4d6b1ec34381d484d27ec7ec17b488304c0b1e853c7f7dcd8487e5ff6d18",
+        "size_in_bytes": 2700,
+        "sha256_in_prefix": "e84a4d6b1ec34381d484d27ec7ec17b488304c0b1e853c7f7dcd8487e5ff6d18"
+      },
+      {
+        "_path": "share/gapseq/src/media_check.R",
+        "path_type": "hardlink",
+        "sha256": "da35f4ccef64bdc8c82b3124598b7e97408cafc5a027e18f641c43a895c723e9",
+        "size_in_bytes": 2368,
+        "sha256_in_prefix": "da35f4ccef64bdc8c82b3124598b7e97408cafc5a027e18f641c43a895c723e9"
+      },
+      {
+        "_path": "share/gapseq/src/meta2genes.py",
+        "path_type": "hardlink",
+        "sha256": "3b8041184034b1f20f5c91b2c1d3f675b9144ca6b8e7ce191606296feb922ca7",
+        "size_in_bytes": 1393,
+        "sha256_in_prefix": "3b8041184034b1f20f5c91b2c1d3f675b9144ca6b8e7ce191606296feb922ca7"
+      },
+      {
+        "_path": "share/gapseq/src/meta2pwy.py",
+        "path_type": "hardlink",
+        "sha256": "a64ea09ab14c2944753ba437fefadf1f9963cc3670e88925505c9cc165f4ba27",
+        "size_in_bytes": 7756,
+        "sha256_in_prefix": "a64ea09ab14c2944753ba437fefadf1f9963cc3670e88925505c9cc165f4ba27"
+      },
+      {
+        "_path": "share/gapseq/src/meta2rea.py",
+        "path_type": "hardlink",
+        "sha256": "59a5ec8297ee71e7b2f88e73516b59b67294ec9d570331cc24c477091881afe2",
+        "size_in_bytes": 1874,
+        "sha256_in_prefix": "59a5ec8297ee71e7b2f88e73516b59b67294ec9d570331cc24c477091881afe2"
+      },
+      {
+        "_path": "share/gapseq/src/mnxref_matching.R",
+        "path_type": "hardlink",
+        "sha256": "62b14768e041a366323359644aea7fc4a683f440ff84f67fe0e614cfc361c98b",
+        "size_in_bytes": 1306,
+        "sha256_in_prefix": "62b14768e041a366323359644aea7fc4a683f440ff84f67fe0e614cfc361c98b"
+      },
+      {
+        "_path": "share/gapseq/src/mnxref_seed.R",
+        "path_type": "hardlink",
+        "sha256": "27ddcbab34f7a90df77a60606e1c5d8339c24620220f13e91f0dd352b7bd3e1e",
+        "size_in_bytes": 840,
+        "sha256_in_prefix": "27ddcbab34f7a90df77a60606e1c5d8339c24620220f13e91f0dd352b7bd3e1e"
+      },
+      {
+        "_path": "share/gapseq/src/nuclprot.sh",
+        "path_type": "hardlink",
+        "sha256": "8067a99510a942d4daa07c612d09d220797841db00ccce4c5fe38a7d0d54f7a7",
+        "size_in_bytes": 343,
+        "sha256_in_prefix": "8067a99510a942d4daa07c612d09d220797841db00ccce4c5fe38a7d0d54f7a7"
+      },
+      {
+        "_path": "share/gapseq/src/pan-draft.R",
+        "path_type": "hardlink",
+        "sha256": "71b6c7c4279cd7cf49b265515065b73c626800c4ceeb1088d512dc341611d3c7",
+        "size_in_bytes": 13136,
+        "sha256_in_prefix": "71b6c7c4279cd7cf49b265515065b73c626800c4ceeb1088d512dc341611d3c7"
+      },
+      {
+        "_path": "share/gapseq/src/pan-draft_functions.R",
+        "path_type": "hardlink",
+        "sha256": "4389ab157974a6cc3aefb2beb7113a624d0ed42a4df32a339cd92748f3e7c96b",
+        "size_in_bytes": 12322,
+        "sha256_in_prefix": "4389ab157974a6cc3aefb2beb7113a624d0ed42a4df32a339cd92748f3e7c96b"
+      },
+      {
+        "_path": "share/gapseq/src/parse_BMjson.R",
+        "path_type": "hardlink",
+        "sha256": "75d2eb8d24ef5663bcd8d5210ad615b2138ee0d444a37877f8201dc92130cf42",
+        "size_in_bytes": 4224,
+        "sha256_in_prefix": "75d2eb8d24ef5663bcd8d5210ad615b2138ee0d444a37877f8201dc92130cf42"
+      },
+      {
+        "_path": "share/gapseq/src/parse_seqDBjson.R",
+        "path_type": "hardlink",
+        "sha256": "8d6042c68406ab1326499ae0f80d7f25f343dae75731c89d0e99efdd92316202",
+        "size_in_bytes": 404,
+        "sha256_in_prefix": "8d6042c68406ab1326499ae0f80d7f25f343dae75731c89d0e99efdd92316202"
+      },
+      {
+        "_path": "share/gapseq/src/predict_codontable.R",
+        "path_type": "hardlink",
+        "sha256": "2bd985487e925c5e1829c1f9334488197d6bb8437498c11179d4db92054d5346",
+        "size_in_bytes": 1924,
+        "sha256_in_prefix": "2bd985487e925c5e1829c1f9334488197d6bb8437498c11179d4db92054d5346"
+      },
+      {
+        "_path": "share/gapseq/src/predict_domain.R",
+        "path_type": "hardlink",
+        "sha256": "1af0100abbcc3776b5edec9cae17a9cbc0b72ea98d06e37d482bd8795d57eb06",
+        "size_in_bytes": 1190,
+        "sha256_in_prefix": "1af0100abbcc3776b5edec9cae17a9cbc0b72ea98d06e37d482bd8795d57eb06"
+      },
+      {
+        "_path": "share/gapseq/src/predict_gramstaining.R",
+        "path_type": "hardlink",
+        "sha256": "abe7e311cdb046cbbb01fd91b147fcc4bb98350daba144f91d664b794db1bfb6",
+        "size_in_bytes": 1144,
+        "sha256_in_prefix": "abe7e311cdb046cbbb01fd91b147fcc4bb98350daba144f91d664b794db1bfb6"
+      },
+      {
+        "_path": "share/gapseq/src/predict_medium.R",
+        "path_type": "hardlink",
+        "sha256": "bd78c1151f6d737db3e922735616cc65321e12fa8e9a2f3e9d8ca37eb8364eeb",
+        "size_in_bytes": 6832,
+        "sha256_in_prefix": "bd78c1151f6d737db3e922735616cc65321e12fa8e9a2f3e9d8ca37eb8364eeb"
+      },
+      {
+        "_path": "share/gapseq/src/prepare_batch_alignments.R",
+        "path_type": "hardlink",
+        "sha256": "cf5be6ef3daf8f97bffe91ae786d802c66be45ee3030483915e5f4dc3607c8fc",
+        "size_in_bytes": 18641,
+        "sha256_in_prefix": "cf5be6ef3daf8f97bffe91ae786d802c66be45ee3030483915e5f4dc3607c8fc"
+      },
+      {
+        "_path": "share/gapseq/src/prepare_candidate_reaction_tables.R",
+        "path_type": "hardlink",
+        "sha256": "349dec2775c5882ba41dd9d79f123c127bd6a5b91ee42de91270d04469637e97",
+        "size_in_bytes": 11968,
+        "sha256_in_prefix": "349dec2775c5882ba41dd9d79f123c127bd6a5b91ee42de91270d04469637e97"
+      },
+      {
+        "_path": "share/gapseq/src/print_reaction.R",
+        "path_type": "hardlink",
+        "sha256": "57a39ec4916b4cea78cfbefd088f036ca2ffa62c63b3b7a52438e5e71886a9b2",
+        "size_in_bytes": 1602,
+        "sha256_in_prefix": "57a39ec4916b4cea78cfbefd088f036ca2ffa62c63b3b7a52438e5e71886a9b2"
+      },
+      {
+        "_path": "share/gapseq/src/sbml_write.R",
+        "path_type": "hardlink",
+        "sha256": "78b8f471ab21ce91f669b28e7ec8869f20aeef1e89e714233a83a009a400fd3d",
+        "size_in_bytes": 1178,
+        "sha256_in_prefix": "78b8f471ab21ce91f669b28e7ec8869f20aeef1e89e714233a83a009a400fd3d"
+      },
+      {
+        "_path": "share/gapseq/src/seed_pwy.R",
+        "path_type": "hardlink",
+        "sha256": "6e501a099ad5a4d2598c66050e3b24b9828add4d6156798c814cac4ea8f31f28",
+        "size_in_bytes": 1393,
+        "sha256_in_prefix": "6e501a099ad5a4d2598c66050e3b24b9828add4d6156798c814cac4ea8f31f28"
+      },
+      {
+        "_path": "share/gapseq/src/seed_transporter.R",
+        "path_type": "hardlink",
+        "sha256": "a42329689283e87a675726980a3380af4be812f1fde9bedcf965bb6e2bffd6c8",
+        "size_in_bytes": 5625,
+        "sha256_in_prefix": "a42329689283e87a675726980a3380af4be812f1fde9bedcf965bb6e2bffd6c8"
+      },
+      {
+        "_path": "share/gapseq/src/test.sh",
+        "path_type": "hardlink",
+        "sha256": "e6b0ded93cef1bd929d1c230f9acf835169af4bf521bbdfd0e7507440d064046",
+        "size_in_bytes": 4170,
+        "sha256_in_prefix": "e6b0ded93cef1bd929d1c230f9acf835169af4bf521bbdfd0e7507440d064046"
+      },
+      {
+        "_path": "share/gapseq/src/translate_genome.sh",
+        "path_type": "hardlink",
+        "sha256": "240180d76ab26535bc66ecc8f6709dfd47545e1df98aefaa833a0c95b6464638",
+        "size_in_bytes": 1352,
+        "sha256_in_prefix": "240180d76ab26535bc66ecc8f6709dfd47545e1df98aefaa833a0c95b6464638"
+      },
+      {
+        "_path": "share/gapseq/src/transporter.sh",
+        "path_type": "hardlink",
+        "sha256": "cbf22b01c84c6b21ee2441167b6c907aa58dd60872c2b27c43f1362ea8f8e74b",
+        "size_in_bytes": 11090,
+        "sha256_in_prefix": "cbf22b01c84c6b21ee2441167b6c907aa58dd60872c2b27c43f1362ea8f8e74b"
+      },
+      {
+        "_path": "share/gapseq/src/uniprot.sh",
+        "path_type": "hardlink",
+        "sha256": "053c86d1d01df5da7942e61a462cc9da7132657f6aecdb41d7d1dfb39651e075",
+        "size_in_bytes": 8087,
+        "sha256_in_prefix": "053c86d1d01df5da7942e61a462cc9da7132657f6aecdb41d7d1dfb39651e075"
+      },
+      {
+        "_path": "share/gapseq/src/uniprot_query.R",
+        "path_type": "hardlink",
+        "sha256": "a3d23bdaa5b4a24dafaecbd2cefbe53802618bb7237020938c3c9cf439bf36b4",
+        "size_in_bytes": 6915,
+        "sha256_in_prefix": "a3d23bdaa5b4a24dafaecbd2cefbe53802618bb7237020938c3c9cf439bf36b4"
+      },
+      {
+        "_path": "share/gapseq/src/update_db.ipynb",
+        "path_type": "hardlink",
+        "sha256": "52f5cbf4998e8d99e0ee8df5c860515362b4cc5825db6299f7aabf693ba88210",
+        "size_in_bytes": 17789,
+        "sha256_in_prefix": "52f5cbf4998e8d99e0ee8df5c860515362b4cc5825db6299f7aabf693ba88210"
+      },
+      {
+        "_path": "share/gapseq/src/update_ecs_via_IUBMB.R",
+        "path_type": "hardlink",
+        "sha256": "5d30aa57f8dd9e03aa0f8eec9e803d8b142f274fbe0b4d87caaf958375555ab6",
+        "size_in_bytes": 1211,
+        "sha256_in_prefix": "5d30aa57f8dd9e03aa0f8eec9e803d8b142f274fbe0b4d87caaf958375555ab6"
+      },
+      {
+        "_path": "share/gapseq/src/update_ecs_via_IUBMB_functions.R",
+        "path_type": "hardlink",
+        "sha256": "8522c06a0112846a320dd3bcd61a0dc6c4881dd5c74a4b95d9db053246fedd31",
+        "size_in_bytes": 12776,
+        "sha256_in_prefix": "8522c06a0112846a320dd3bcd61a0dc6c4881dd5c74a4b95d9db053246fedd31"
+      },
+      {
+        "_path": "share/gapseq/src/update_sequences.sh",
+        "path_type": "hardlink",
+        "sha256": "22b87d44f5f02754a009404f666a6877c47c97443f116ad85202df7a85100e19",
+        "size_in_bytes": 9387,
+        "sha256_in_prefix": "22b87d44f5f02754a009404f666a6877c47c97443f116ad85202df7a85100e19"
+      },
+      {
+        "_path": "share/gapseq/toy/ecoli-Transporter.tbl",
+        "path_type": "hardlink",
+        "sha256": "52030026c12309afe85047cd349d41413eca7e0c7b594a69a902dbdbc26ea426",
+        "size_in_bytes": 3848130,
+        "sha256_in_prefix": "52030026c12309afe85047cd349d41413eca7e0c7b594a69a902dbdbc26ea426"
+      },
+      {
+        "_path": "share/gapseq/toy/ecoli-all-Pathways.tbl",
+        "path_type": "hardlink",
+        "sha256": "a3e5de93e7bf3a1628e03088eb87547371095d7ca30be51a035d7eab1c1500d2",
+        "size_in_bytes": 210075,
+        "sha256_in_prefix": "a3e5de93e7bf3a1628e03088eb87547371095d7ca30be51a035d7eab1c1500d2"
+      },
+      {
+        "_path": "share/gapseq/toy/ecoli-all-Reactions.tbl",
+        "path_type": "hardlink",
+        "sha256": "4af0ef212b0f6d9b33aac31e86f6671e4624221732184b09a43b11fd19ed6cea",
+        "size_in_bytes": 10277432,
+        "sha256_in_prefix": "4af0ef212b0f6d9b33aac31e86f6671e4624221732184b09a43b11fd19ed6cea"
+      },
+      {
+        "_path": "share/gapseq/toy/ecoli-draft.RDS",
+        "path_type": "hardlink",
+        "sha256": "0838cd7ee95ba6673fc5930188f8b9384757df97eb4a4c4ed64f50f9d17c993d",
+        "size_in_bytes": 1725855,
+        "sha256_in_prefix": "0838cd7ee95ba6673fc5930188f8b9384757df97eb4a4c4ed64f50f9d17c993d"
+      },
+      {
+        "_path": "share/gapseq/toy/ecoli-medium.csv",
+        "path_type": "hardlink",
+        "sha256": "eac731354bec810449b1f255f91357acec70904d3c9e0df053eaf28646a08fdc",
+        "size_in_bytes": 396,
+        "sha256_in_prefix": "eac731354bec810449b1f255f91357acec70904d3c9e0df053eaf28646a08fdc"
+      },
+      {
+        "_path": "share/gapseq/toy/ecoli.RDS",
+        "path_type": "hardlink",
+        "sha256": "2ec828c2746bc3a43bff79dfd0c5e4c4a05b8b43e9f9d0649ec4b95b64fa09de",
+        "size_in_bytes": 1773265,
+        "sha256_in_prefix": "2ec828c2746bc3a43bff79dfd0c5e4c4a05b8b43e9f9d0649ec4b95b64fa09de"
+      },
+      {
+        "_path": "share/gapseq/toy/ecoli.faa.gz",
+        "path_type": "hardlink",
+        "sha256": "839862013eb8b230fe3563e9c6be0095c4fed88b4c7b757d71461431e52cba28",
+        "size_in_bytes": 902133,
+        "sha256_in_prefix": "839862013eb8b230fe3563e9c6be0095c4fed88b4c7b757d71461431e52cba28"
+      },
+      {
+        "_path": "share/gapseq/toy/ecoli.xml.gz",
+        "path_type": "hardlink",
+        "sha256": "1c0d26640f90691c986d99aea32c3fa4ea2ca098dfbdaa2baaf83f024e63c5a1",
+        "size_in_bytes": 572039,
+        "sha256_in_prefix": "1c0d26640f90691c986d99aea32c3fa4ea2ca098dfbdaa2baaf83f024e63c5a1"
+      },
+      {
+        "_path": "share/gapseq/toy/ecore.faa.gz",
+        "path_type": "hardlink",
+        "sha256": "ce3f0f8fdeb98e82b710bc838f4199584100f27d786693d1c3e64e22dab0a6a3",
+        "size_in_bytes": 38827,
+        "sha256_in_prefix": "ce3f0f8fdeb98e82b710bc838f4199584100f27d786693d1c3e64e22dab0a6a3"
+      },
+      {
+        "_path": "share/gapseq/toy/ecore.xml.gz",
+        "path_type": "hardlink",
+        "sha256": "c51ebd342502545adea88ca226cf3a58e6aa3d2c128aa69d52aea5f3fd11cce0",
+        "size_in_bytes": 121892,
+        "sha256_in_prefix": "c51ebd342502545adea88ca226cf3a58e6aa3d2c128aa69d52aea5f3fd11cce0"
+      },
+      {
+        "_path": "share/gapseq/toy/myb71-Transporter.tbl",
+        "path_type": "hardlink",
+        "sha256": "5c876c9c28020c75cead4899d2bb3ab03b48a6cb0745031349699657b8d08fdb",
+        "size_in_bytes": 5398183,
+        "sha256_in_prefix": "5c876c9c28020c75cead4899d2bb3ab03b48a6cb0745031349699657b8d08fdb"
+      },
+      {
+        "_path": "share/gapseq/toy/myb71-all-Pathways.tbl",
+        "path_type": "hardlink",
+        "sha256": "66f187d22d0b78e8e69d83b1540e0547b4c55707461b9fe44041a251ec20e2aa",
+        "size_in_bytes": 202030,
+        "sha256_in_prefix": "66f187d22d0b78e8e69d83b1540e0547b4c55707461b9fe44041a251ec20e2aa"
+      },
+      {
+        "_path": "share/gapseq/toy/myb71-all-Reactions.tbl",
+        "path_type": "hardlink",
+        "sha256": "56d09d01da261005273750046a18b1069af5555b7e8e59e5180016d2812642a8",
+        "size_in_bytes": 16243441,
+        "sha256_in_prefix": "56d09d01da261005273750046a18b1069af5555b7e8e59e5180016d2812642a8"
+      },
+      {
+        "_path": "share/gapseq/toy/myb71-draft.RDS",
+        "path_type": "hardlink",
+        "sha256": "035be04049312c925fefc8cd7aa159188d6ef708b2734215cb800168c96130a7",
+        "size_in_bytes": 1966266,
+        "sha256_in_prefix": "035be04049312c925fefc8cd7aa159188d6ef708b2734215cb800168c96130a7"
+      },
+      {
+        "_path": "share/gapseq/toy/myb71-medium.csv",
+        "path_type": "hardlink",
+        "sha256": "e283d61aa4f6315cfd24be04a50ef6d66c564aa956d5909d08e68c6f1e288298",
+        "size_in_bytes": 418,
+        "sha256_in_prefix": "e283d61aa4f6315cfd24be04a50ef6d66c564aa956d5909d08e68c6f1e288298"
+      },
+      {
+        "_path": "share/gapseq/toy/myb71.RDS",
+        "path_type": "hardlink",
+        "sha256": "c2bf73cc592d8ed6269871527a57b6065b4e83419fa5b54c684647abe068abd1",
+        "size_in_bytes": 2024704,
+        "sha256_in_prefix": "c2bf73cc592d8ed6269871527a57b6065b4e83419fa5b54c684647abe068abd1"
+      },
+      {
+        "_path": "share/gapseq/toy/myb71.faa.gz",
+        "path_type": "hardlink",
+        "sha256": "0a2f92466db7e72e1909530715c73e88239787ee0159e8f8fcd709da4bc3a21f",
+        "size_in_bytes": 1079697,
+        "sha256_in_prefix": "0a2f92466db7e72e1909530715c73e88239787ee0159e8f8fcd709da4bc3a21f"
+      },
+      {
+        "_path": "share/gapseq/toy/myb71.fna.gz",
+        "path_type": "hardlink",
+        "sha256": "7768fa0e3f019c8bb66bfb8934b55feb865f50341cdfabd34b48de0990ad764f",
+        "size_in_bytes": 1655581,
+        "sha256_in_prefix": "7768fa0e3f019c8bb66bfb8934b55feb865f50341cdfabd34b48de0990ad764f"
+      },
+      {
+        "_path": "share/gapseq/toy/myb71.xml.gz",
+        "path_type": "hardlink",
+        "sha256": "cddf5cfc1cc505980bb8b49c8a1404c9d23e514211e59a88acc835a523c7633d",
+        "size_in_bytes": 500218,
+        "sha256_in_prefix": "cddf5cfc1cc505980bb8b49c8a1404c9d23e514211e59a88acc835a523c7633d"
+      },
+      {
+        "_path": "share/gapseq/unit/README.md",
+        "path_type": "hardlink",
+        "sha256": "ce32ecc557ab3389a4c3cf0cf13adebb898bf1dbe8f6d3f9aabc85561c79e86e",
+        "size_in_bytes": 745,
+        "sha256_in_prefix": "ce32ecc557ab3389a4c3cf0cf13adebb898bf1dbe8f6d3f9aabc85561c79e86e"
+      },
+      {
+        "_path": "share/gapseq/unit/model_flux.sh",
+        "path_type": "hardlink",
+        "sha256": "7aedd4f3eb85559872a48046cab1b9d23a18bd05c84199a0a580cb58521921ef",
+        "size_in_bytes": 5315,
+        "sha256_in_prefix": "7aedd4f3eb85559872a48046cab1b9d23a18bd05c84199a0a580cb58521921ef"
+      },
+      {
+        "_path": "share/gapseq/unit/model_flux.tbl",
+        "path_type": "hardlink",
+        "sha256": "1ad6010bedf7ee9a9f28a5bc98fe8f8a9fc2c0a98b4d1d2a9e0140e09d8c5a92",
+        "size_in_bytes": 613,
+        "sha256_in_prefix": "1ad6010bedf7ee9a9f28a5bc98fe8f8a9fc2c0a98b4d1d2a9e0140e09d8c5a92"
+      }
+    ]
+  },
+  "link": {
+    "source": "/opt/anaconda3/pkgs/gapseq-2.1.0-hdfd78af_0",
+    "type": 1
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "path": "tools/gapseq/dat/seq/transporter.fasta",
+    "bytes": 14632,
+    "sha256": "4c524b2c2123b16a64038f00e557e8fda6b3f6936e24a752906b07d3cc28c225",
+    "source": "native conda gapseq2.1.0 bundled transporter reference; exact bytes used in new runs"
+  },
+  {
+    "path": "tools/gapseq/dat/seq/tcdb.fasta",
+    "bytes": 11905276,
+    "sha256": "100ec791466d3b8076c148c2cb7d6c39d800867a3364d19a4fea3924d388c1a3",
+    "source": "native conda gapseq2.1.0 bundled transporter reference; exact bytes used in new runs"
+  }
+]

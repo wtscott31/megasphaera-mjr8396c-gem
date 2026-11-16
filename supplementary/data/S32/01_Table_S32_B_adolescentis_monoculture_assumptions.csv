@@ -1,0 +1,5 @@
+condition,growth_upper_bound,exchange_count_mapped,D-glucose_pfba,L-lactate_pfba,D-lactate_pfba,acetate_pfba,butyrate_pfba,propionate_pfba
+gut-like,0.4200339392432946,31,-10.0,-0.0,5.267186428797609,17.473063855695372,,1.7754438009327664
+no_extracellular_L_lactate,0.42003393924337296,31,-10.0,-0.0,5.267186428764908,17.473063855711075,,1.7754438009327245
+no_extracellular_L_lactate_no_acetate,0.42003393924337296,31,-10.0,-0.0,5.267186428764847,17.473063855711107,,1.7754438009327245
+glucose_only,0.0,31,-0.0,-0.0,0.0,-0.0,,0.0

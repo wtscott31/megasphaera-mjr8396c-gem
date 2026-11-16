@@ -1,0 +1,9 @@
+{
+  "scientific_tests": "19 passed; logs/pytest.log",
+  "new_scripts_syntax": "all scripts/tests compiled successfully",
+  "resolved_environment": "pip check: no broken requirements",
+  "notebook": "8 code cells executed with real output review and independent invariants",
+  "documents": "4 PDFs compiled; no unresolved citation keys, no overfull boxes, no ?? or replacement characters in PDF text. Generic biblatex fallback rerun warnings retained in logs.",
+  "input_preservation": "Original SBML hashes match supplied original archive; native installed BOFdat DNA source is byte-identical to pinned official checkout.",
+  "native_linear_context_fix": "An initial raw-optlang-bound restoration defect in the new validation adapter was found, logged and fixed before final 60-LP comparison. Initial diagnostic CSV remains labelled separately."
+}

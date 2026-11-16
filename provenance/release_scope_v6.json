@@ -1,0 +1,12 @@
+{
+  "release": "v6 executed computational author-review package",
+  "generated_utc": "2026-10-27T00:34:08.620878+00:00",
+  "original_scientific_inputs_immutable": true,
+  "new_models": "Uniform exact-strain gapseq reconstructions, not claimed recovery of published NM10/BL7 ModelSEED models",
+  "native_new_cases": 1920,
+  "accepted_loopless_ranges": 81,
+  "exclusions": "Software environments, downloadable Bacteria/Archaea reference caches, QA page rasters, private notebook runtime keys, alignment indexes and full non-open-access article scans. Bundled transporter references and all scientific source/result/certificate tables retained.",
+  "remaining_experimental_limits": "22L enantiomer assays, target biomass/maintenance, NM10 frameshift confirmation, complete substrate/terminal specificity and residual generic-polymer mass",
+  "current_documents": "Clean/tracked/response v6 and v6 readiness report; v5 and earlier documents retained as historical",
+  "external_submission_or_upload": false
+}

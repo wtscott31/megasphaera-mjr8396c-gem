@@ -1,0 +1,7 @@
+model,status,mass,reason,original_mass_g_per_unit,new_mass_g_per_unit,GAM_preserved,max_coefficient_change,experimental_calibration
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981,excluded_from_mass_normalization,-0.5508622178774142,Uncancelled generic polymer X and nonphysical known-element net mass. No positive physical normalization available.,,,,,
+AGORA2_fixed_Megasphaera_nov_ERR1022370,formula_normalized_candidate,,,0.9833522889780716,1.0,40.0,0.07550071086085808,False
+AGORA2_fixed_Megasphaera_micronuciformis_F0359,formula_normalized_candidate,,,0.9833518995859332,1.0,40.0,0.07550250673017445,False
+AGORA2_fixed_Megasphaera_genomosp_type_2,formula_normalized_candidate,,,0.9836825975631828,1.0,40.0,0.07397784593094059,False
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460,formula_normalized_candidate,,,0.9833521223691272,1.0,40.0,0.07550147925804396,False
+AGORA2_fixed_Megasphaera_massiliensis_NP3,excluded_from_mass_normalization,-0.5508603387841712,Uncancelled generic polymer X and nonphysical known-element net mass. No positive physical normalization available.,,,,,

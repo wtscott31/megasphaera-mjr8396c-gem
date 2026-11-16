@@ -1,0 +1,12 @@
+'' is not a valid SBML 'SId'.
+'' is not a valid SBML 'SId'.
+Traceback (most recent call last):
+  File "/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v6/scripts/comparator_calibration_v6.py", line 170, in <module>
+    if __name__=='__main__':run()
+                            ^^^^^
+  File "/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v6/scripts/comparator_calibration_v6.py", line 149, in run
+    con=m.problem.Constraint(0,ub=60,name='V6_common_gross_organic_C_budget');m.add_cons_vars(con);con.set_linear_coefficients(coeff)
+                                                                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v3/.venv/lib/python3.11/site-packages/optlang/glpk_interface.py", line 279, in set_linear_coefficients
+    raise Exception("Can't change coefficients if constraint is not associated with a model.")
+Exception: Can't change coefficients if constraint is not associated with a model.

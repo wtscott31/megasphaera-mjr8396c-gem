@@ -1,0 +1,32 @@
+[
+  {
+    "figure": 3,
+    "file": "Figure_3_revised_v2.pdf",
+    "sha256": "9a903569d0c73084330aa1ba85b497d5aaaea4d5d65d5a98c0b9772b308a0a9a",
+    "unchanged_from_frozen_v4": true
+  },
+  {
+    "figure": 4,
+    "file": "Figure_4_revised_v2.pdf",
+    "sha256": "fbfba32866a1c7ffec6e4fc92022746ea1d41c78c8951f2ffb3646791e097569",
+    "unchanged_from_frozen_v4": true
+  },
+  {
+    "figure": 5,
+    "file": "Figure_5_revised_v2.pdf",
+    "sha256": "0021bf62ec8b922b384b2a9e127168168cc49d97f9ff8fafd0357c7b75f698d0",
+    "unchanged_from_frozen_v4": true
+  },
+  {
+    "figure": 6,
+    "file": "Figure_6_revised_v2.pdf",
+    "sha256": "fe0a66cce02578bbb5c5fb422f1f10e08123d890e2c0fd20a9b82baeed6f28fc",
+    "unchanged_from_frozen_v4": true
+  },
+  {
+    "figure": 7,
+    "file": "Figure_7_revised_v2.pdf",
+    "sha256": "8dc47a432eda0e510f2c0074e6546da6c24a31fd1eb6ad5cd46a780ca3a7776a",
+    "unchanged_from_frozen_v4": true
+  }
+]

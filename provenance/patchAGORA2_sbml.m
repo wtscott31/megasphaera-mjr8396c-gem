@@ -1,0 +1,363 @@
+% This m file implements some recent changes in 151 AGORA2 reconstructions to be
+% make the version uploaded on or before 23.01.2023 to be consistent with the final 
+% version.
+%
+% This patch must be run in the folder containing the AGORA2 .mat files
+%
+% Almut Heinken, Ines Thiele, University of Galway, Ireland; 23.01.2023
+
+patch=struct;
+patch.('Acinetobacter_lwoffii_WJ10621').OldReactions={'DALAt2rpp',''
+    'PMANM',''};
+patch.('Acinetobacter_lwoffii_WJ10621').NewReactions={'DALAt2pp',''
+    'PMANMi','( g.23426.CDS.1290 or g.23426.CDS.2530 )'};
+patch.('Bacteroides_fragilis_3_1_12').OldReactions={'SUCD1','TRPAS2'};
+patch.('Bacteroides_fragilis_3_1_12').NewReactions={'SUCD1i',''
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_638R').OldReactions={'SUCD1','TRPAS2'};
+patch.('Bacteroides_fragilis_638R').NewReactions={'SUCD1i',''
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_BOB25').OldReactions={'THRAr','TRPAS2'};
+patch.('Bacteroides_fragilis_BOB25').NewReactions={'THRAi','Bacteroides_fragilis_BOB25__.RAST.CDS.3276'
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_CL03T00C08').OldReactions={'SUCD1','TRPAS2'};
+patch.('Bacteroides_fragilis_CL03T00C08').NewReactions={'SUCD1i',''
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_CL03T12C07').OldReactions={'SUCD1','TRPAS2'}	;
+patch.('Bacteroides_fragilis_CL03T12C07').NewReactions={'SUCD1i',''
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_CL05T00C42').OldReactions={'SUCD1','TRPAS2'};
+patch.('Bacteroides_fragilis_CL05T00C42').NewReactions={'SUCD1i',''
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_CL05T12C13').OldReactions={'SUCD1','TRPAS2'};
+patch.('Bacteroides_fragilis_CL05T12C13').NewReactions={'SUCD1i',''
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_CL07T00C01').OldReactions={'SUCD1','TRPAS2'};
+patch.('Bacteroides_fragilis_CL07T00C01').NewReactions={'SUCD1i',''
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_CL07T12C05').OldReactions={'SUCD1','TRPAS2'};
+patch.('Bacteroides_fragilis_CL07T12C05').NewReactions={'SUCD1i',''
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_ERR1022457').OldReactions={'THRAr','TRPAS2'};
+patch.('Bacteroides_fragilis_ERR1022457').NewReactions={'THRAi','ERR1022457.contigs.RAST.CDS.695'
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_ERR1203962').OldReactions={'THRAr','TRPAS2'};
+patch.('Bacteroides_fragilis_ERR1203962').NewReactions={'THRAi','ERR1203962.contigs.RAST.CDS.1465'
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_ERR1204056').OldReactions={'THRAr','TRPAS2'};
+patch.('Bacteroides_fragilis_ERR1204056').NewReactions={'THRAi','ERR1204056.contigs.RAST.CDS.2444'
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_ERR2221134').OldReactions={'THRAr','TRPAS2'};
+patch.('Bacteroides_fragilis_ERR2221134').NewReactions={'THRAi','ERR2221134.contigs.RAST.CDS.466'
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_ERR2221268').OldReactions={'THRAr','TRPAS2'};
+patch.('Bacteroides_fragilis_ERR2221268').NewReactions={'THRAi','ERR2221268.contigs.RAST.CDS.606'
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_ERR2221298').OldReactions={'THRAr','TRPAS2'};
+patch.('Bacteroides_fragilis_ERR2221298').NewReactions={'THRAi','ERR2221298.contigs.RAST.CDS.945'
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_ERR2230126').OldReactions={'THRAr','TRPAS2'};
+patch.('Bacteroides_fragilis_ERR2230126').NewReactions={'THRAi','ERR2230126.contigs.RAST.CDS.1108'
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_ERR2230137').OldReactions={'THRAr','TRPAS2'};
+patch.('Bacteroides_fragilis_ERR2230137').NewReactions={'THRAi','ERR2230137.contigs.RAST.CDS.94'
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_HMW_610').OldReactions={'SUCD1','THRAr','TRPAS2'};
+patch.('Bacteroides_fragilis_HMW_610').NewReactions={'SUCD1i',''
+    'THRAi','1073386.3.1640.peg'
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_HMW_615').OldReactions={'SUCD1','TRPAS2'};
+patch.('Bacteroides_fragilis_HMW_615').NewReactions={'SUCD1i',''
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_HMW_616').OldReactions={'SUCD1','THRAr','TRPAS2'};
+patch.('Bacteroides_fragilis_HMW_616').NewReactions={'SUCD1i',''
+    'THRAi','1073388.3.2690.peg'
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_NCTC_9343').OldReactions={'SUCD1','TRPAS2'};
+patch.('Bacteroides_fragilis_NCTC_9343').NewReactions={'SUCD1i',''
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_YCH46').OldReactions={'SUCD1','TRPAS2'};
+patch.('Bacteroides_fragilis_YCH46').NewReactions={'SUCD1i',''
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_str_3986_T_B_9').OldReactions={'THRAr','TRPAS2'};
+patch.('Bacteroides_fragilis_str_3986_T_B_9').NewReactions={'THRAi','M083_RS07495'
+    'TRPAS2i',''};
+patch.('Bacteroides_fragilis_str_DS_208').OldReactions={'THRAr','TRPAS2'};
+patch.('Bacteroides_fragilis_str_DS_208').NewReactions={'THRAi','M072_RS06330'
+    'TRPAS2i',''};
+patch.('Bifidobacterium_adolescentis_ATCC_15703').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_adolescentis_BBMN23').OldReactions={'r0389'};
+patch.('Bifidobacterium_adolescentis_BBMN23').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_adolescentis_ERR1022283').OldReactions={'r0389'};
+patch.('Bifidobacterium_adolescentis_ERR1022283').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_adolescentis_ERR1022320').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_adolescentis_ERR1022366').OldReactions={'r0389'};
+patch.('Bifidobacterium_adolescentis_ERR1022366').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_adolescentis_ERR1203960').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_adolescentis_ERR2221193').OldReactions={'r0389'};
+patch.('Bifidobacterium_adolescentis_ERR2221193').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_adolescentis_ERR2221322').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_adolescentis_ERR2230053').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_adolescentis_ERR2230077').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_adolescentis_ERR2230153').OldReactions={'r0389'};
+patch.('Bifidobacterium_adolescentis_ERR2230153').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_adolescentis_L2_32').OldReactions={'r0389'};
+patch.('Bifidobacterium_adolescentis_L2_32').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_breve_2L').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_breve_689b').OldReactions={'r0389'};
+patch.('Bifidobacterium_breve_689b').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_breve_ACS_071_V_Sch8b').OldReactions={'r0389'};
+patch.('Bifidobacterium_breve_ACS_071_V_Sch8b').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_breve_CECT_7263').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_breve_DSM_20213').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_breve_HPH0326').OldReactions={'PKL','r0389'};
+patch.('Bifidobacterium_breve_HPH0326').NewReactions={'XU5PG3PL',''
+    'r0389i',''};
+patch.('Bifidobacterium_breve_JCM_7017').OldReactions={'r0389'};
+patch.('Bifidobacterium_breve_JCM_7017').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_breve_MCC_0121').OldReactions={'r0389'};
+patch.('Bifidobacterium_breve_MCC_0121').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_breve_MCC_0305').OldReactions={'r0389'};
+patch.('Bifidobacterium_breve_MCC_0305').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_breve_MCC_0476').OldReactions={'r0389'};
+patch.('Bifidobacterium_breve_MCC_0476').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_breve_MCC_1094').OldReactions={'r0389'};
+patch.('Bifidobacterium_breve_MCC_1094').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_breve_MCC_1114').OldReactions={'r0389'};
+patch.('Bifidobacterium_breve_MCC_1114').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_breve_MCC_1128').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_breve_MCC_1340').OldReactions={'r0389'};
+patch.('Bifidobacterium_breve_MCC_1340').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_breve_MCC_1454').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_breve_MCC_1605').OldReactions={'r0389'};
+patch.('Bifidobacterium_breve_MCC_1605').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_breve_NCFB_2258').OldReactions={'r0389'};
+patch.('Bifidobacterium_breve_NCFB_2258').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_breve_UCC2003_NCIMB8807').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_dentium_ATCC_27679').OldReactions={'PKL'};
+patch.('Bifidobacterium_dentium_ATCC_27679').NewReactions={'XU5PG3PL',''};
+patch.('Bifidobacterium_dentium_Bd1').OldReactions={'PKL'};
+patch.('Bifidobacterium_dentium_Bd1').NewReactions={'XU5PG3PL',''};
+patch.('Bifidobacterium_longum_BG7').OldReactions={'PKL'};
+patch.('Bifidobacterium_longum_BG7').NewReactions={'XU5PG3PL',''};
+patch.('Bifidobacterium_longum_BXY01').OldReactions={'PKL'};
+patch.('Bifidobacterium_longum_BXY01').NewReactions={'XU5PG3PL',''};
+patch.('Bifidobacterium_longum_E18').OldReactions={'TMKr'};
+patch.('Bifidobacterium_longum_ERR2221409').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_longum_ERR2230052').OldReactions={'r0389'};
+patch.('Bifidobacterium_longum_ERR2230052').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_longum_ERR2230120').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_longum_ERR2230133').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_longum_ERR2230158').OldReactions={'r0389'};
+patch.('Bifidobacterium_longum_ERR2230158').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_longum_NCC2705').OldReactions={'r0389'};
+patch.('Bifidobacterium_longum_NCC2705').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_longum_infantis_157F_NC').OldReactions={'PKL','r0389'};
+patch.('Bifidobacterium_longum_infantis_157F_NC').NewReactions={'XU5PG3PL',''
+    'r0389i',''};
+patch.('Bifidobacterium_longum_infantis_ATCC_15697').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_longum_longum_ATCC_55813').OldReactions={'r0389'};
+patch.('Bifidobacterium_longum_longum_ATCC_55813').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_longum_longum_BBMN68').OldReactions={'r0389'};
+patch.('Bifidobacterium_longum_longum_BBMN68').NewReactions={'r0389i',''};
+patch.('Bifidobacterium_longum_longum_CCUG_52486').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_longum_subsp_infantis_BT1').OldReactions={'PKL','PYDXKr'};
+patch.('Bifidobacterium_longum_subsp_infantis_BT1').NewReactions={'XU5PG3PL',''};
+patch.('Bifidobacterium_longum_subsp_longum_1_6B').OldReactions={'PYDXKr','TMKr'};
+patch.('Bifidobacterium_longum_subsp_longum_1_6B').NewReactions={'TMK',''};
+patch.('Bifidobacterium_longum_subsp_longum_2_2B').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_longum_subsp_longum_35B').OldReactions={'PYDXKr','TMKr'};
+patch.('Bifidobacterium_longum_subsp_longum_35B').NewReactions={'TMK',''};
+patch.('Bifidobacterium_longum_subsp_longum_44B').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_longum_subsp_longum_CMCC_P0001').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_longum_subsp_longum_F8').OldReactions={'PYDXKr'};
+patch.('Bifidobacterium_longum_subsp_longum_KACC_91563').OldReactions={'PYDXKr','TMKr'};
+patch.('Bifidobacterium_longum_subsp_longum_KACC_91563').NewReactions={'TMK',''};
+patch.('Bifidobacterium_longum_subsp_longum_NCIMB8809').OldReactions={'PKL'};
+patch.('Bifidobacterium_longum_subsp_longum_NCIMB8809').NewReactions={'XU5PG3PL',''};
+patch.('Bifidobacterium_pseudolongum_subsp_Pseudolongum_DSM_20099').OldReactions={'PKL','PMANM','r1088'};
+patch.('Bifidobacterium_pseudolongum_subsp_Pseudolongum_DSM_20099').NewReactions={'CITt2',''
+    'PMANMi',''
+    'XU5PG3PL',''};
+patch.('Bifidobacterium_scardovii_JCM_12489').OldReactions={'AMPSO3OX','PKL','PMANM','r1088'};
+patch.('Bifidobacterium_scardovii_JCM_12489').NewReactions={'AMPSO3OXi','(( g.239975.CDS.1971 or g.239975.CDS.1043 ) or ( g.239975.CDS.1043 or g.239975.CDS.1971 ))'
+    'CITt2',''
+    'PMANMi',''
+    'XU5PG3PL',''};
+patch.('Bifidobacterium_stercoris_DSM_24849').OldReactions={'MCOATA','PKL'};
+patch.('Bifidobacterium_stercoris_DSM_24849').NewReactions={'MACPMT',''
+    'XU5PG3PL',''};
+patch.('Bifidobacterium_stercoris_ERR1204054').OldReactions={'r0389'};
+patch.('Bifidobacterium_stercoris_ERR1204054').NewReactions={'r0389i',''};
+patch.('Campylobacter_jejuni_subsp_jejuni_LMG_23223').OldReactions={'ASPt2pp','PMANM'};
+patch.('Campylobacter_jejuni_subsp_jejuni_LMG_23223').NewReactions={'PMANMi','CJE104_RS03365'};
+patch.('Clostridioides_difficile_002_P50_2011').OldReactions={'ABTAr','ACONT','CINNMR'};
+patch.('Clostridioides_difficile_002_P50_2011').NewReactions={'ABTA',''
+    'CINNMRi',''};
+patch.('Clostridioides_difficile_050_P50_2011').OldReactions={'ABTAr','ACONT','CINNMR'};
+patch.('Clostridioides_difficile_050_P50_2011').NewReactions={'ABTA',''
+    'CINNMRi',''};
+patch.('Clostridioides_difficile_M68').OldReactions={'ABTAr','ACONT','CINNMR'};
+patch.('Clostridioides_difficile_M68').NewReactions={'ABTA',''
+    'CINNMRi',''};
+patch.('Clostridium_botulinum_E1_str_BoNT_E_Beluga').NewReactions={'FRD2',''};
+patch.('Escherichia_coli_101_1').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_101_1').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_97_0007').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_97_0007').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_B171').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_B171').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_B7A').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_B7A').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_BW25113').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_BW25113').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_D9').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_D9').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_DEC4C').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_DEC4C').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_DEC4D').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_DEC4D').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_DEC9B').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_DEC9B').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_E110019').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_E110019').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_E22').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_E22').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_ERR1203920').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_ERR1203920').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_ERR2221112').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_ERR2221112').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_ERR2221113').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_ERR2221113').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_ERR2221128').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_ERR2221128').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_ERR2221214').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_ERR2221214').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_ERR2221221').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_ERR2221221').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_ERR2221222').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_ERR2221222').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_ERR2221227').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_ERR2221227').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_ERR2221250').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_ERR2221250').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_ERR2221318').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_ERR2221318').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_ERR2221398').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_ERR2221398').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_ERR2221401').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_ERR2221401').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_F11').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_F11').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_FDAARGOS_170').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_FDAARGOS_170').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_HM27').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_HM27').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_HM65').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_HM65').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_KTE95').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_KTE95').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_MS_79_10').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_MS_79_10').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_Mt1B1').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_Mt1B1').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_O157_H7_str_1044').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_O157_H7_str_1044').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_O157_H7_str_2149').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_O157_H7_str_2149').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_O157_H7_str_Sakai').OldReactions={'DALAt2rpp'};
+patch.('Escherichia_coli_O157_H7_str_Sakai').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_O26_H11_str_CVM10030').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_O26_H11_str_CVM10030').NewReactions={'DALAt2pp',''
+    'PRPPS',''};
+patch.('Escherichia_coli_P12b').OldReactions={'DALAt2rpp','SUCCtpp'};
+patch.('Escherichia_coli_P12b').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_UTI89_UPEC').OldReactions={'DALAt2rpp'};
+patch.('Escherichia_coli_UTI89_UPEC').NewReactions={'DALAt2pp',''};
+patch.('Escherichia_coli_str_K_12_substr_MG1655').OldReactions={'DALAt2rpp'};
+patch.('Escherichia_coli_str_K_12_substr_MG1655').NewReactions={'DALAt2pp',''};
+patch.('Haemophilus_influenzae_PittEE').OldReactions={'AMPSO3OX','PMANM'};
+patch.('Haemophilus_influenzae_PittEE').NewReactions={'PMANMi','Haemophilus_influenzae_PittEE__.RAST.CDS.1696'};
+patch.('Haemophilus_influenzae_R2846').OldReactions={'PMANM'};
+patch.('Haemophilus_influenzae_R2846').NewReactions={'PMANMi','g.545.peg.610'};
+patch.('Haemophilus_parainfluenzae_T3T1').NewReactions={'L_LACt2rpp',''};
+patch.('Helicobacter_pylori_B128').OldReactions={'PMANM'};
+patch.('Helicobacter_pylori_B128').NewReactions={'PMANMi','HPB128_132g37'};
+patch.('Helicobacter_pylori_B45').OldReactions={'GLUt4rpp','PMANM'};
+patch.('Helicobacter_pylori_B45').NewReactions={'EX_pi(e)',''
+    'PIabcpp',''
+    'PItex',''
+    'PMANMi','HPB45_RS01850'
+    'r1144pp',''};
+patch.('Lactobacillus_gasseri_CECT_5714').OldReactions={'MAN1PT2r','PMANM'};
+patch.('Lactobacillus_gasseri_CECT_5714').NewReactions={'MAN1PT2',''
+    'PMANMi',''};
+patch.('Lactobacillus_jensenii_1153').NewReactions={'GLUDxi',''
+    'GLUDy',''};
+patch.('Lactobacillus_reuteri_100_23').NewReactions={'2S6HCC',''
+    'ICHORSi',''};
+patch.('Lactobacillus_reuteri_I5007').OldReactions={'MAN1PT2r','PMANM'};
+patch.('Lactobacillus_reuteri_I5007').NewReactions={'MAN1PT2',''
+    'PMANMi','LRI_RS07855'};
+patch.('Lactobacillus_reuteri_lpuph').OldReactions={'MAN1PT2r','PMANM'};
+patch.('Lactobacillus_reuteri_lpuph').NewReactions={'MAN1PT2',''
+    'PMANMi','ECQ_RS0103670'};
+patch.('Lactobacillus_sakei_subsp_sakei_23K').OldReactions={'PMANM'};
+patch.('Lactobacillus_sakei_subsp_sakei_23K').NewReactions={'PMANMi','314315.21.peg.512'};
+patch.('Melainabacterium_MEL_A1').OldReactions={'HYXNtpp','r1088pp'};
+patch.('Melainabacterium_MEL_A1').NewReactions={'CITt2pp',''
+    'HYXNtipp',''
+    'L_LACt2rpp',''};
+patch.('Methanosphaera_stadtmanae_DSM_3091').OldReactions={'SUCD1'};
+patch.('Methanosphaera_stadtmanae_DSM_3091').NewReactions={'SUCD1i',''};
+patch.('Prevotella_copri_CB7_DSM_18205').OldReactions={'SUCD1'};
+patch.('Prevotella_copri_CB7_DSM_18205').NewReactions={'SUCD1i',''};
+patch.('Prevotella_ruminicola_23').OldReactions={'SUCD1'};
+patch.('Prevotella_ruminicola_23').NewReactions={'SUCD1i',''};
+patch.('Pseudoflavonifractor_capillosus_ERR1022447').NewReactions={'TALA',''};
+patch.('Pseudomonas_putida_B6_2').OldReactions={'DALAt2rpp','FUMt2rpp','HYXNtpp'};
+patch.('Pseudomonas_putida_B6_2').NewReactions={'DALAt2pp',''
+    'EX_ins(e)',''
+    'FUMtpp',''
+    'HYXNtipp',''
+    'INStex',''
+    'INStpp',''};
+patch.('Ruminococcus_bromii_ERR1022486').OldReactions={'r0792'};
+patch.('Ruminococcus_bromii_ERR2221220').OldReactions={'r0792'};
+patch.('Salmonella_enterica_subsp_enterica_serovar_Agona_str_01_O_05').OldReactions={'DALAt2rpp','FUMt2rpp','SUCCtpp'};
+patch.('Salmonella_enterica_subsp_enterica_serovar_Agona_str_01_O_05').NewReactions={'DALAt2pp',''
+    'FUMtpp',''};
+patch.('Salmonella_enterica_subsp_enterica_serovar_Newport_str_CVM_21554').NewReactions={'3MOPt2rpp',''
+    '3MOPtex',''
+    'C180SN',''
+    'EX_3mop(e)',''};
+patch.('Stenotrophomonas_maltophilia_K279a').OldReactions={'DALAt2rpp'};
+patch.('Stenotrophomonas_maltophilia_K279a').NewReactions={'DALAt2pp',''};
+patch.('Streptococcus_agalactiae_CCUG_38383').NewReactions={'ADNCNT3tc',''
+    'EX_adn(e)',''};
+patch.('Streptococcus_agalactiae_MRI_Z1_214').NewReactions={'URAt2r',''};
+patch.('Streptococcus_salivarius_ERR2221359').OldReactions={'XANt2r'};
+patch.('Streptococcus_salivarius_ERR2221359').NewReactions={'4HBZt2',''
+    'EX_4hbz(e)',''
+    'EX_gal(e)',''
+    'GALabc',''
+    'XANt2','ERR2221359.contigs.RAST.CDS.1729'};
+
+database = loadVMHDatabase;
+
+modelsToChange = fieldnames(patch);
+modelsToChange = strrep(modelsToChange,'Salmonella_enterica_subsp_enterica_serovar_Newport_str_CVM_2155','Salmonella_enterica_subsp_enterica_serovar_Newport_str_CVM_21554');
+for i=1:length(modelsToChange)
+    model = readCbModel([modelsToChange{i} '.mat']);
+    if isfield(patch.(modelsToChange{i}),('OldReactions'))
+        model = removeRxns(model,patch.(modelsToChange{i}).('OldReactions'));
+    end
+    if isfield(patch.(modelsToChange{i}),('NewReactions'))
+        for j = 1:size(patch.(modelsToChange{i}).('NewReactions'),1)
+            formula = database.reactions{find(strcmp(database.reactions(:,1),patch.(modelsToChange{i}).('NewReactions'){j,1})),3};
+            subsystem = database.reactions{find(strcmp(database.reactions(:,1),patch.(modelsToChange{i}).('NewReactions'){j,1})),11};
+            model = addReaction(model,patch.(modelsToChange{i}).('NewReactions'){j,1},'reactionFormula',formula,'subSystem',subsystem,'geneRule',patch.(modelsToChange{i}).('NewReactions'){j,2});
+        end
+    end
+    writeCbModel(model,'format','mat','fileName',[modelsToChange{i} '.xml'])
+end

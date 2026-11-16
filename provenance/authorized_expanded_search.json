@@ -1,0 +1,623 @@
+{
+  "utc": "2026-10-26T20:06:29.369193+00:00",
+  "authorized_roots": [
+    "/Users/wtscott/Downloads",
+    "/Users/wtscott/Documents",
+    "/Users/wtscott/DataspellProjects"
+  ],
+  "candidate_files": [
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2_COMPLETE.zip",
+      "bytes": 33856566
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Magesphaera_Project/inputs/media/MJR8396C_candidate_vaginal_BV_like_medium_gapseq_revised.csv",
+      "bytes": 650
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Magesphaera_Project/inputs/media/MJR8396C_candidate_anaerobic_medium_gapseq_revised.csv",
+      "bytes": 777
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Magesphaera_Project/inputs/reports/Megasphaera_sp_MJR8396C_filled_anaerobic.html",
+      "bytes": 4101152
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Magesphaera_Project/inputs/models/Megasphaera_sp_MJR8396C_filled_anaerobic.xml",
+      "bytes": 7256292
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Magesphaera_Project/outputs/memote/reports/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.html",
+      "bytes": 4102977
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Magesphaera_Project/outputs/memote/logs/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.log",
+      "bytes": 17128
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Magesphaera_Project/StrainsDesign_MJR8396C_growth_coupled_butyrate.ipynb",
+      "bytes": 299646
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Magesphaera_Project/MICOM_OptCom_cFBA_community_modeling_MJR8396C_Badolescentis.ipynb",
+      "bytes": 1031446
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_Github_revised_repo/media/MJR8396C_AA_rich_medium_gapseq.tsv",
+      "bytes": 739
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_Github_revised_repo/media/MJR8396C_carbon_rich_medium.tsv",
+      "bytes": 4712
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_Github_revised_repo/media/MJR8396C_AA_rich_medium.tsv",
+      "bytes": 5177
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_Github_revised_repo/media/MJR8396C_carbon_rich_medium_gapseq.tsv",
+      "bytes": 679
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_Github_revised_repo/media/MJR8396C_gut_like_medium.tsv",
+      "bytes": 3996
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_Github_revised_repo/media/MJR8396C_gut_like_medium_gapseq.tsv",
+      "bytes": 679
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_Github_revised_repo/notebooks/MJR8396C_revised_manuscript_simulations_EXECUTED.ipynb",
+      "bytes": 7383547
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_Github_revised_repo/notebooks/MJR8396C_revised_manuscript_simulations.ipynb",
+      "bytes": 34436
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_Github_revised_repo/quality_control/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.html",
+      "bytes": 4102977
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_Github_revised_repo/quality_control/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.log",
+      "bytes": 17128
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_Github_revised_repo/models/Megasphaera_sp_MJR8396C_filled_anaerobic.xml",
+      "bytes": 7256292
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_Github_revised_repo/provenance/MJR8396C_gapseq_reconstruction_and_gapfill_log.md",
+      "bytes": 5810
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/MJR8396C_evaluation_report_v2.pdf",
+      "bytes": 147795
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_AA_rich_medium_gapseq.tsv",
+      "bytes": 739
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_carbon_rich_medium.tsv",
+      "bytes": 4712
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_AA_rich_medium.tsv",
+      "bytes": 5177
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_carbon_rich_medium_gapseq.tsv",
+      "bytes": 679
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_gut_like_medium.tsv",
+      "bytes": 3996
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/media/MJR8396C_gut_like_medium_gapseq.tsv",
+      "bytes": 679
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/notebooks/MJR8396C_revised_manuscript_simulations_EXECUTED.ipynb",
+      "bytes": 7383547
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/notebooks/MJR8396C_revised_manuscript_simulations.ipynb",
+      "bytes": 34436
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/README_REVIEWER_REVISION.md",
+      "bytes": 1653
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A6_biomass_coefficient_sensitivity.csv",
+      "bytes": 1139
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/analyses/reviewer_2026_10/A5_biomass_precursor_inventory.csv",
+      "bytes": 4894
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/media/MJR8396C_AA_rich_medium_gapseq.tsv",
+      "bytes": 739
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/media/MJR8396C_carbon_rich_medium.tsv",
+      "bytes": 4712
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/media/MJR8396C_AA_rich_medium.tsv",
+      "bytes": 5177
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/media/MJR8396C_carbon_rich_medium_gapseq.tsv",
+      "bytes": 679
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/media/MJR8396C_gut_like_medium.tsv",
+      "bytes": 3996
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/media/MJR8396C_gut_like_medium_gapseq.tsv",
+      "bytes": 679
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/scripts/biomass_maintenance.py",
+      "bytes": 6974
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/notebooks/MJR8396C_revised_manuscript_simulations_EXECUTED.ipynb",
+      "bytes": 7383547
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/notebooks/MJR8396C_revised_manuscript_simulations.ipynb",
+      "bytes": 34436
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/logs/biomass.log",
+      "bytes": 85
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/biomass/all_consumed_biomass_precursor_demand_tests.csv",
+      "bytes": 25397
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/biomass/mass_preserved_biomass_scenario_coefficients.csv",
+      "bytes": 84877
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/provenance/MJR8396C_gapseq_reconstruction_and_gapfill_log.md",
+      "bytes": 5810
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/quality_control/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.html",
+      "bytes": 4102977
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/quality_control/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.log",
+      "bytes": 17128
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/models/Megasphaera_sp_MJR8396C_filled_anaerobic.xml",
+      "bytes": 7256292
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/response_letter/MJR8396C_response_letter_revised_v15.pdf",
+      "bytes": 283350
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/response_letter/MJR8396C_response_letter_revised_v14.pdf",
+      "bytes": 283208
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/response_letter/MJR8396C_response_letter_revised_v13.pdf",
+      "bytes": 283081
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/response_letter/MJR8396C_response_letter_revised_v8.pdf",
+      "bytes": 280895
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/response_letter/MJR8396C_response_letter_v17.pdf",
+      "bytes": 284518
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/response_letter/MJR8396C_response_letter_revised_v9.pdf",
+      "bytes": 281279
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/response_letter_v17/MJR8396C_response_letter_revised_v15.pdf",
+      "bytes": 283350
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/response_letter_v17/MJR8396C_response_letter_revised_v14.pdf",
+      "bytes": 283208
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/response_letter_v17/MJR8396C_response_letter_revised_v13.pdf",
+      "bytes": 283081
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/response_letter_v17/MJR8396C_response_letter_revised_v8.pdf",
+      "bytes": 280895
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/response_letter_v17/MJR8396C_response_letter_revised_v9.pdf",
+      "bytes": 281279
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_full_FVA_gut_like.csv",
+      "bytes": 174333
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_all_reaction_balance_GPR.csv",
+      "bytes": 235361
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_blocked_classification.csv",
+      "bytes": 101788
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_full_FVA_open_exchanges.csv",
+      "bytes": 165870
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_lactate_energy_pathway_inventory.csv",
+      "bytes": 6582
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/extended/results/curation/MJR8396C_gene_annotation_provenance.csv",
+      "bytes": 50914
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/submission_ready/MJR8396C_clean_manuscript_v17.pdf",
+      "bytes": 656464
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/submission_ready/MJR8396C_clean_manuscript_v15.pdf",
+      "bytes": 577172
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/submission_ready/MJR8396C_response_letter_source_v15.zip",
+      "bytes": 25442
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/submission_ready/MJR8396C_response_letter_source_v17.zip",
+      "bytes": 2063461
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/submission_ready/MJR8396C_clean_manuscript_source_v17.zip",
+      "bytes": 2660494
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/submission_ready/MJR8396C_clean_manuscript_source_v15.zip",
+      "bytes": 200918
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/submission_ready/MJR8396C_tracked_manuscript_v17.pdf",
+      "bytes": 786267
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/submission_ready/MJR8396C_tracked_manuscript_v15.pdf",
+      "bytes": 786267
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/submission_ready/MJR8396C_tracked_manuscript_source_v17.zip",
+      "bytes": 2793732
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/submission_ready/MJR8396C_response_letter_v15.pdf",
+      "bytes": 283350
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/submission_ready/MJR8396C_response_letter_v17.pdf",
+      "bytes": 285052
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/submission_ready/MJR8396C_tracked_manuscript_source_v15.zip",
+      "bytes": 214484
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/documentation/MJR8396C_manuscript_revision_change_log_v8.pdf",
+      "bytes": 127103
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/documentation/MJR8396C_manuscript_revision_change_log_v8.docx",
+      "bytes": 40887
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/documentation/MJR8396C_v13_revision_change_log.docx",
+      "bytes": 12841
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/documentation/MJR8396C_v13_revision_change_log.md",
+      "bytes": 5156
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/documentation/MJR8396C_v13_revision_change_log.pdf",
+      "bytes": 72468
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/scripts/reviewer_revision_analyses.py",
+      "bytes": 15240
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/scripts/plot_reviewer_diagnostics.py",
+      "bytes": 2817
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R2_exchange_FVA_intervals.svg",
+      "bytes": 21977
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R2_exchange_FVA_intervals.pdf",
+      "bytes": 19210
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R2_exchange_FVA_intervals.png",
+      "bytes": 87282
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R3_ATP_demand_sensitivity.png",
+      "bytes": 119046
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R3_ATP_demand_sensitivity.pdf",
+      "bytes": 18986
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R1_uptake_bound_sensitivity.png",
+      "bytes": 142359
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R1_uptake_bound_sensitivity.pdf",
+      "bytes": 17536
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R1_uptake_bound_sensitivity.svg",
+      "bytes": 18700
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/reviewer_diagnostics/Reviewer_Figure_R3_ATP_demand_sensitivity.svg",
+      "bytes": 22332
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/manuscript/tracked_v17/MJR8396C_journal_style_manuscript_tracked_from_submission_v15.pdf",
+      "bytes": 786142
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/manuscript/tracked_v17/MJR8396C_journal_style_manuscript_tracked_from_submission_v14.pdf",
+      "bytes": 909597
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/manuscript/tracked_submission_baseline/MJR8396C_journal_style_manuscript_tracked_from_submission_v15.pdf",
+      "bytes": 786142
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/manuscript/tracked_submission_baseline/MJR8396C_journal_style_manuscript_tracked_from_submission_v14.pdf",
+      "bytes": 909597
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S27_biomass_coefficient_sensitivity.csv",
+      "bytes": 1139
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/tables/Table_S33_biomass_precursor_inventory.csv",
+      "bytes": 4894
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/manuscript/clean/MJR8396C_clean_manuscript_v17.pdf",
+      "bytes": 625035
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/manuscript/clean/MJR8396C_journal_style_manuscript_clean_v13.pdf",
+      "bytes": 638667
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/manuscript/clean/MJR8396C_journal_style_manuscript_clean_v14.pdf",
+      "bytes": 697849
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/manuscript/clean/MJR8396C_journal_style_manuscript_clean_v15.pdf",
+      "bytes": 577038
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_2_reviewer_corrected.svg",
+      "bytes": 142202
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_1_reviewer_corrected.svg",
+      "bytes": 157045
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_1_reviewer_corrected.pdf",
+      "bytes": 40823
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_1_reviewer_corrected.png",
+      "bytes": 1259532
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_2_reviewer_corrected.png",
+      "bytes": 1107804
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/figures/manuscript_revision/Figure_2_reviewer_corrected.pdf",
+      "bytes": 39211
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/requirements-reviewer-analyses.txt",
+      "bytes": 227
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/manuscript/tracked_v17_manual/MJR8396C_journal_style_manuscript_tracked_from_submission_v15.pdf",
+      "bytes": 786142
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/manuscript/tracked_v17_manual/MJR8396C_journal_style_manuscript_tracked_from_submission_v14.pdf",
+      "bytes": 909597
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/Megasphaera_revision_submission_package_v17/manuscript/tracked_v17_manual/MJR8396C_tracked_manuscript_v17.pdf",
+      "bytes": 829587
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/provenance/MJR8396C_gapseq_reconstruction_and_gapfill_log.md",
+      "bytes": 5810
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/quality_control/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.html",
+      "bytes": 4102977
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/quality_control/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.log",
+      "bytes": 17128
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/docs/BIOMASS_DATA_REQUIREMENTS.md",
+      "bytes": 1879
+    },
+    {
+      "path": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2/megasphaera-mjr8396c-gem_major-revision/models/Megasphaera_sp_MJR8396C_filled_anaerobic.xml",
+      "bytes": 7256292
+    },
+    {
+      "path": "/Users/wtscott/Documents/Megasphaera_Github_revised_repo/media/MJR8396C_AA_rich_medium_gapseq.tsv",
+      "bytes": 739
+    },
+    {
+      "path": "/Users/wtscott/Documents/Megasphaera_Github_revised_repo/media/MJR8396C_carbon_rich_medium.tsv",
+      "bytes": 4712
+    },
+    {
+      "path": "/Users/wtscott/Documents/Megasphaera_Github_revised_repo/media/MJR8396C_AA_rich_medium.tsv",
+      "bytes": 5177
+    },
+    {
+      "path": "/Users/wtscott/Documents/Megasphaera_Github_revised_repo/media/MJR8396C_carbon_rich_medium_gapseq.tsv",
+      "bytes": 679
+    },
+    {
+      "path": "/Users/wtscott/Documents/Megasphaera_Github_revised_repo/media/MJR8396C_gut_like_medium.tsv",
+      "bytes": 3996
+    },
+    {
+      "path": "/Users/wtscott/Documents/Megasphaera_Github_revised_repo/media/MJR8396C_gut_like_medium_gapseq.tsv",
+      "bytes": 679
+    },
+    {
+      "path": "/Users/wtscott/Documents/Megasphaera_Github_revised_repo/notebooks/MJR8396C_revised_manuscript_simulations_EXECUTED.ipynb",
+      "bytes": 7383547
+    },
+    {
+      "path": "/Users/wtscott/Documents/Megasphaera_Github_revised_repo/notebooks/MJR8396C_revised_manuscript_simulations.ipynb",
+      "bytes": 34436
+    },
+    {
+      "path": "/Users/wtscott/Documents/Megasphaera_Github_revised_repo/provenance/MJR8396C_gapseq_reconstruction_and_gapfill_log.md",
+      "bytes": 5810
+    },
+    {
+      "path": "/Users/wtscott/Documents/Megasphaera_Github_revised_repo/quality_control/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.html",
+      "bytes": 4102977
+    },
+    {
+      "path": "/Users/wtscott/Documents/Megasphaera_Github_revised_repo/quality_control/Megasphaera_sp_MJR8396C_filled_anaerobic_memote.log",
+      "bytes": 17128
+    },
+    {
+      "path": "/Users/wtscott/Documents/Megasphaera_Github_revised_repo/models/Megasphaera_sp_MJR8396C_filled_anaerobic.xml",
+      "bytes": 7256292
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package.zip",
+      "bytes": 10958013
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/README_gapseq_MJR8396C.txt",
+      "bytes": 1033
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/MJR8396C_candidate_vaginal_BV_like_medium_gapseq_revised.csv",
+      "bytes": 650
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/Megasphaera_sp_MJR8396C_filled_anaerobic.RDS",
+      "bytes": 1313627
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/2775506928_genes-Transporter-find_aligner.log",
+      "bytes": 474
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/Megasphaera_sp_MJR8396C_filled_BV_like.xml",
+      "bytes": 7256608
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/2775506928_genes-Transporter.tbl",
+      "bytes": 2872274
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/2775506928_genes-all-find_aligner.log",
+      "bytes": 474
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/2775506928_genes-all-Pathways.tbl",
+      "bytes": 186174
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/Megasphaera_sp_MJR8396C_filled_anaerobic.xml",
+      "bytes": 7256292
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/Megasphaera_sp_MJR8396C_filled_BV_like.RDS",
+      "bytes": 1312374
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/Megasphaera_sp_MJR8396C_draft.xml",
+      "bytes": 6687895
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/2775506928_genes-draft.RDS",
+      "bytes": 1239968
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_gapseq_run/2775506928_genes-all-Reactions.tbl",
+      "bytes": 8937775
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/run_gapseq_MJR8396C.sh",
+      "bytes": 1571
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/MJR8396C_candidate_anaerobic_medium_gapseq_revised.csv",
+      "bytes": 777
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/MJR8396C_candidate_anaerobic_medium_gapseq.csv",
+      "bytes": 642
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/MJR8396C_candidate_vaginal_BV_like_medium_gapseq.csv",
+      "bytes": 547
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_genome_assembly/2775506928.fna",
+      "bytes": 2479549
+    },
+    {
+      "path": "/Users/wtscott/Documents/MATLAB/agora_megasphaera_workflow/MJR8396C_gapseq_package/Megasphaera_genome_assembly/2775506928_genes.faa",
+      "bytes": 936162
+    },
+    {
+      "path": "/Users/wtscott/Downloads/MJR8396C_local_work_handoff.zip",
+      "bytes": 6466
+    },
+    {
+      "path": "/Users/wtscott/Downloads/MJR8396C_executed_revision_v2_COMPLETE.zip",
+      "bytes": 33856566
+    }
+  ],
+  "rg_stderr": ""
+}

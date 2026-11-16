@@ -1,0 +1,1540 @@
+reaction,name,minimum,maximum,blocked,status_min,status_max
+rxn00001_c0,diphosphate phosphohydrolase,0.0,28.500000000000092,False,optimal,optimal
+rxn00003_c0,pyruvate:pyruvate acetaldehydetransferase (decarboxylating),-18.083333333333375,-0.0,False,optimal,optimal
+rxn00010_c0,glyoxylate carboxy-lyase (dimerizing; tartronate-semialdehyde-forming),0.0,-0.0,True,optimal,optimal
+rxn00011_c0,pyruvate:thiamin diphosphate acetaldehydetransferase (decarboxylating),-18.083333333333343,-0.0,False,optimal,optimal
+rxn00020_c0,cellobiose glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn00022_c0,maltose glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn00062_c0,ATP phosphohydrolase,0.0,28.499999999999968,False,optimal,optimal
+rxn00076_c0,NAD+ phosphohydrolase,0.0,14.24999999999889,False,optimal,optimal
+rxn00077_c0,ATP:NAD+ 2'-phosphotransferase,0.0,28.500000000000785,False,optimal,optimal
+rxn00083_c0,NADPH:NAD+ oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn00085_c0,L-Glutamate:NADP+ oxidoreductase (transaminating),-28.499999999999677,-0.0,False,optimal,optimal
+rxn00088_c0,NADP+ 2'-phosphohydrolase,0.0,28.49999999999992,False,optimal,optimal
+rxn00097_c0,ATP:AMP phosphotransferase,5.53403476890078e-14,28.499999999999847,False,optimal,optimal
+rxn00100_c0,ATP:dephospho-CoA 3'-phosphotransferase,0.0,1.0,False,optimal,optimal
+rxn00104_c0,polyphosphate kinase,-0.001862615404613625,28.500000000000007,False,optimal,optimal
+rxn00105_c0,ATP:nicotinamide-nucleotide adenylyltransferase,-7.125000000001364,14.250000000000092,False,optimal,optimal
+rxn00106_c0,Triphosphate phosphohydrolase,0.0,28.5,False,optimal,optimal
+rxn00108_c0,ATP:5-hydroxymethyldeoxycytidylate phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn00113_c0,"Carbon-dioxide:ammonia ligase (ADP-forming,carbamate-phosphorylating)",0.0,5.257142857143739,False,optimal,optimal
+rxn00119_c0,ATP:UMP phosphotransferase,0.0,12.1333333333332,False,optimal,optimal
+rxn00121_c0,FAD nucleotidohydrolase,0.0,14.249999999999943,False,optimal,optimal
+rxn00126_c0,ATP:L-methionine S-adenosyltransferase,0.0,1.696969696969728,False,optimal,optimal
+rxn00132_c0,Adenosine 5'-monophosphate phosphohydrolase,0.0,14.250000000000247,False,optimal,optimal
+rxn00138_c0,deamido-NAD+:ammonia ligase (AMP-forming),0.0,7.124999999999999,False,optimal,optimal
+rxn00139_c0,AMP:diphosphate phospho-D-ribosyltransferase,-14.24999999999979,-0.0,False,optimal,optimal
+rxn00148_c0,ATP:pyruvate 2-O-phosphotransferase,-20.000000000004434,-0.0,False,optimal,optimal
+rxn00154_c0,pyruvate:NAD+ 2-oxidoreductase (CoA-acetylating),0.0,35.0,False,optimal,optimal
+rxn00157_c0,Acetyl-CoA:formate C-acetyltransferase,-19.70000000000003,-0.0,False,optimal,optimal
+rxn00160_c0,(R)-Malate:NAD+ oxidoreductase (decarboxylating),0.0,-0.0,True,optimal,optimal
+rxn00165_c0,L-serine ammonia-lyase,0.0,27.874999999999492,False,optimal,optimal
+rxn00171_c0,acetaldehyde:NAD+ oxidoreductase (CoA-acetylating),-54.00000000000131,21.000000000000647,False,optimal,optimal
+rxn00173_c0,acetyl-CoA:phosphate acetyltransferase,-25.499999999995282,61.49999999999988,False,optimal,optimal
+rxn00175_c0,Acetate:CoA ligase (AMP-forming),0.0,28.499999999999964,False,optimal,optimal
+rxn00176_c0,acetyl adenylate:CoA acetyltransferase,0.0,28.500000000000163,False,optimal,optimal
+rxn00179_c0,ATP:L-glutamate 5-phosphotransferase,0.0,12.200000000000045,False,optimal,optimal
+rxn00182_c0,L-glutamate:NAD+ oxidoreductase (deaminating),-1000.0,1000.0,False,optimal,optimal
+rxn00184_c0,L-Glutamate:NADP+ oxidoreductase (deaminating),-1000.0,1000.0,False,optimal,optimal
+rxn00187_c0,L-Glutamate:ammonia ligase (ADP-forming),0.0,28.499999999999876,False,optimal,optimal
+rxn00189_c0,L-Glutamine amidohydrolase,0.0,28.500000000000007,False,optimal,optimal
+rxn00190_c0,Deamido-NAD+:L-glutamine amido-ligase (AMP-forming),0.0,5.699999999999992,False,optimal,optimal
+rxn00191_c0,L-Alanine:2-oxoglutarate aminotransferase,-1000.0,1000.0,False,optimal,optimal
+rxn00192_c0,acetyl-CoA:L-glutamate N-acetyltransferase,0.0,-0.0,True,optimal,optimal
+rxn00193_c0,glutamate racemase,-28.500000000005862,0.000794840079381604,False,optimal,optimal
+rxn00194_c0,L-glutamate 1-carboxy-lyase (4-aminobutanoate-forming),0.0,12.199999999993187,False,optimal,optimal
+rxn00196_c0,"2,5-dioxopentanoate:NADP+ 5-oxidoreductase",0.0,-0.0,True,optimal,optimal
+rxn00198_c0,Isocitrate:NADP+ oxidoreductase (decarboxylating),0.0,12.199999999999708,False,optimal,optimal
+rxn00199_c0,oxalosuccinate carboxy-lyase (2-oxoglutarate-forming),0.0,12.199999999999054,False,optimal,optimal
+rxn00204_c0,oxalate:oxygen oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn00211_c0,UDP-glucose:NAD+ 6-oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn00212_c0,UDP-glucose glucophosphohydrolase,0.0,12.133333333333672,False,optimal,optimal
+rxn00214_c0,UDP-glucose 4-epimerase,-1.3926637620897962e-13,-0.0,True,optimal,optimal
+rxn00216_c0,ATP:D-glucose 6-phosphotransferase,0.0,25.16666666666725,False,optimal,optimal
+rxn00222_c0,cellobiose glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn00223_c0,D-glucose aldose-ketose-isomerase,-1000.0,1000.0,False,optimal,optimal
+rxn00225_c0,ATP:acetate phosphotransferase,-71.50000000000009,20.500000000000004,False,optimal,optimal
+rxn00226_c0,ATP:acetate adenylyltransferase,0.0,28.499999999999993,False,optimal,optimal
+rxn00239_c0,ATP:GMP phosphotransferase,0.0,14.249999999999886,False,optimal,optimal
+rxn00242_c0,"guanosine-3',5'-bis(diphosphate) 3'-diphosphohydrolase",0.0,14.25,False,optimal,optimal
+rxn00251_c0,phosphate:oxaloacetate carboxy-lyase (adding phosphate;phosphoenolpyruvate-forming),-18.333333333334636,-0.0,False,optimal,optimal
+rxn00256_c0,acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing),-12.20000000000015,-0.0,False,optimal,optimal
+rxn00260_c0,L-Aspartate:2-oxoglutarate aminotransferase,-1000.0,1000.0,False,optimal,optimal
+rxn00262_c0,L-Aspartic acid:oxygen oxidoreductase (deaminating),0.0,-0.0,True,optimal,optimal
+rxn00264_c0,(S)-Malate:oxygen oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn00272_c0,L-Alanine:glyoxylate aminotransferase,0.0,0.0055878462138385775,False,optimal,optimal
+rxn00283_c0,alanine racemase,0.0,33.666666666666515,False,optimal,optimal
+rxn00285_c0,Succinate:CoA ligase (ADP-forming),-1000.0,30.49999999999975,False,optimal,optimal
+rxn00293_c0,UTP:N-acetyl-alpha-D-glucosamine-1-phosphate uridylyltransferase,0.0,0.08743240873195646,False,optimal,optimal
+rxn00295_c0,UDP-N-acetyl-D-glucosamine 4-epimerase,0.0,0.02384520238144801,False,optimal,optimal
+rxn00299_c0,"GTP 7,8-8,9-dihydrolase",0.0,0.005587846213842222,False,optimal,optimal
+rxn00301_c0,GTP diphosphohydrolase (diphosphate-forming),0.0,14.250000000000036,False,optimal,optimal
+rxn00302_c0,"GTP 8,9-hydrolase",0.0,0.005587846213842059,False,optimal,optimal
+rxn00303_c0,ATP:GTP 3'-diphosphotransferase,0.0,9.499999999999437,False,optimal,optimal
+rxn00304_c0,GTP:pyruvate 2-O-phosphotransferase,-19.999999999977472,-0.0,False,optimal,optimal
+rxn00306_c0,Succinate:CoA ligase (GDP-forming),0.0,1000.0,False,optimal,optimal
+rxn00313_c0,"meso-2,6-diaminoheptanedioate carboxy-lyase (L-lysine-forming)",0.0,13.071428571428571,False,optimal,optimal
+rxn00337_c0,ATP:L-aspartate 4-phosphotransferase,0.0,20.999999999999986,False,optimal,optimal
+rxn00338_c0,L-aspartate:oxygen oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn00340_c0,L-aspartate:ammonia ligase (AMP-forming),0.0,14.25,False,optimal,optimal
+rxn00342_c0,L-Asparagine amidohydrolase,0.0,14.249999999999979,False,optimal,optimal
+rxn00346_c0,L-aspartate 1-carboxy-lyase (beta-alanine-forming),0.0,-0.0,True,optimal,optimal
+rxn00347_c0,L-Aspartate ammonia-lyase,0.0,11.030303030304708,False,optimal,optimal
+rxn00358_c0,UDP-D-galactopyranose furanomutase,0.0,-0.0,True,optimal,optimal
+rxn00359_c0,3'-phosphoadenylyl-sulfate sulfohydrolase,0.0,-0.0,True,optimal,optimal
+rxn00363_c0,Cytidine-5'-monophosphate phosphohydrolase,0.0,0.7551502870651805,False,optimal,optimal
+rxn00364_c0,ATP:CMP phosphotransferase,0.0,1.0030060554802276,False,optimal,optimal
+rxn00391_c0,riboflavin-5-phosphate phosphohydrolase (acid optimum),0.0,28.500000000002267,False,optimal,optimal
+rxn00410_c0,UTP:ammonia ligase (ADP-forming),0.0,28.499999999999854,False,optimal,optimal
+rxn00411_c0,CTP:pyruvate 2-O-phosphotransferase,-20.0,-0.0,False,optimal,optimal
+rxn00412_c0,UTP:L-glutamine amido-ligase (ADP-forming),0.0,14.249999999999837,False,optimal,optimal
+rxn00414_c0,"hydrogen-carbonate:L-glutamine amido-ligase (ADP-forming, carbamate-phosphorylating)",0.0,4.487804878048762,False,optimal,optimal
+rxn00416_c0,L-aspartate:L-glutamine amido-ligase (AMP-forming),0.0,9.500000000000199,False,optimal,optimal
+rxn00417_c0,glutamine racemase,0.0,28.499999999999897,False,optimal,optimal
+rxn00420_c0,O-phospho-L-serine phosphohydrolase,0.0,20.0,False,optimal,optimal
+rxn00425_c0,serine racemase,0.0,19.39130434782606,False,optimal,optimal
+rxn00453_c0,O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase,0.0,11.352941176470608,False,optimal,optimal
+rxn00456_c0,L-methionine methanethiol-lyase (deaminating;2-oxobutanoate-forming),0.0,13.117647058823525,False,optimal,optimal
+rxn00459_c0,2-phospho-D-glycerate hydro-lyase (phosphoenolpyruvate-forming),0.0,20.0,False,optimal,optimal
+rxn00460_c0,UTP:pyruvate 2-O-phosphotransferase,-19.999999999999883,-0.0,False,optimal,optimal
+rxn00461_c0,Phosphoenolpyruvate:UDP-N-acetyl-D-glucosamine 1-carboxyvinyl-transferase,0.0,0.0007948400793817537,False,optimal,optimal
+rxn00463_c0,Uridine triphosphate pyrophosphohydrolase,0.0,12.13333333333334,False,optimal,optimal
+rxn00472_c0,ornithine racemase,0.0,-0.0,True,optimal,optimal
+rxn00474_c0,L-serine hydro-lyase (adding indole; L-tryptophan-forming),0.0,2.774193548387098,False,optimal,optimal
+rxn00483_c0,L-Tryptophan:2-oxoglutarate aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn00493_c0,L-Phenylalanine:2-oxoglutarate aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn00499_c0,(S)-Lactate:NAD+ oxidoreductase,-23.666666666666753,10.0,False,optimal,optimal
+rxn00506_c0,Acetaldehyde:NAD+ oxidoreductase,0.0,28.499999999999872,False,optimal,optimal
+rxn00514_c0,Inosine 5'-triphosphate pyrophosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn00517_c0,ITP:pyruvate 2-O-phosphotransferase,-19.999999999999943,-0.0,False,optimal,optimal
+rxn00518_c0,ITP:D-glucose 6-phosphotransferase,0.0,25.166666666666632,False,optimal,optimal
+rxn00520_c0,Succinate:CoA ligase (IDP-forming),0.0,1000.0,False,optimal,optimal
+rxn00527_c0,L-tyrosine:2-oxoglutarate aminotransferase,-1000.0,1000.0,False,optimal,optimal
+rxn00533_c0,Acetyl-CoA:carbon-dioxide ligase (ADP-forming),0.0,28.500000000000938,False,optimal,optimal
+rxn00536_c0,Ethanol:NADP+ oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn00541_c0,L-threonine acetaldehyde-lyase (glycine-forming),0.0,20.999999999999982,False,optimal,optimal
+rxn00543_c0,ethanol:NAD+ oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn00545_c0,ATP:D-fructose-6-phosphate 1-phosphotransferase,0.0,33.49999999999952,False,optimal,optimal
+rxn00547_c0,ATP:D-fructose 6-phosphotransferase,0.0,25.16666666666585,False,optimal,optimal
+rxn00548_c0,D-fructose-6-phosphate D-erythrose-4-phosphate-lyase (adding phosphate; acetyl-phosphate-forming),0.0,30.00000000000011,False,optimal,optimal
+rxn00549_c0,"D-Fructose-1,6-bisphosphate 1-phosphohydrolase",0.0,30.333333333333652,False,optimal,optimal
+rxn00554_c0,CTP:D-fructose-6-phosphate 1-phosphotransferase,0.0,20.00000000000023,False,optimal,optimal
+rxn00555_c0,L-glutamine:D-fructose-6-phosphate isomerase (deaminating),-1000.0,1000.0,False,optimal,optimal
+rxn00556_c0,UTP:D-fructose-6-phosphate 1-phosphotransferase,0.0,20.0,False,optimal,optimal
+rxn00557_c0,ITP:D-fructose-6-phosphate 1-phosphotransferase,0.0,33.50000000000173,False,optimal,optimal
+rxn00558_c0,D-glucose-6-phosphate aldose-ketose-isomerase,-1000.0,1000.0,False,optimal,optimal
+rxn00560_c0,Urea:carbon-dioxide ligase (ADP-forming),0.0,-0.0,True,optimal,optimal
+rxn00566_c0,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),0.0,17.928571428571445,False,optimal,optimal
+rxn00575_c0,sucrose glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn00577_c0,sucrose:phosphate alpha-D-glucosyltransferase,0.0,-0.0,True,optimal,optimal
+rxn00604_c0,D-glucose-6-phosphate:NADP+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn00606_c0,"alpha,alpha-Trehalose-6-phosphate phosphoglucohydrolase",0.0,-0.0,True,optimal,optimal
+rxn00610_c0,sn-glycerol-3-phosphate phosphohydrolase,0.0,15.166666666666613,False,optimal,optimal
+rxn00611_c0,sn-Glycerol-3-phosphate:NAD+ 2-oxidoreductase,-15.166666666666742,-0.0,False,optimal,optimal
+rxn00612_c0,sn-Glycerol-3-phosphate:NADP+ 2-oxidoreductase,-15.166666666666204,-0.0,False,optimal,optimal
+rxn00634_c0,D-Glucitol:NAD+ 2-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn00635_c0,ITP:D-fructose 6-phosphotransferase,0.0,25.166666666666686,False,optimal,optimal
+rxn00647_c0,L-Cysteine:2-oxoglutarate aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn00649_c0,O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase,0.0,15.928571428571237,False,optimal,optimal
+rxn00652_c0,2-Amino-3-mercaptopropionic acid racemase,0.0,-0.0,True,optimal,optimal
+rxn00653_c0,3-aminopropanal:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn00670_c0,propanoyl-CoA:phosphate propanoyltransferase,0.0,12.157894736842366,False,optimal,optimal
+rxn00678_c0,(S)-2-Methyl-3-oxopropanoyl-CoA:pyruvate carboxyltransferase,0.0,20.999999999999876,False,optimal,optimal
+rxn00684_c0,"5,6,7,8-tetrahydrofolate:NAD+ oxidoreductase",-1000.0,1000.0,False,optimal,optimal
+rxn00686_c0,"5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase",-1000.0,1000.0,False,optimal,optimal
+rxn00689_c0,Tetrahydrofolate:L-glutamate gamma-ligase (ADP-forming),0.0,-0.0,True,optimal,optimal
+rxn00690_c0,Formate:tetrahydrofolate ligase (ADP-forming),0.0,20.3000000000024,False,optimal,optimal
+rxn00692_c0,"5,10-Methylenetetrahydrofolate:glycine hydroxymethyltransferase",-3.613793103448204,20.300000000000335,False,optimal,optimal
+rxn00693_c0,5-Methyltetrahydrofolate:L-homocysteine S-methyltransferase,0.0,2.0,False,optimal,optimal
+rxn00695_c0,ATP:alpha-D-glucose-1-phosphate adenylyltransferase,0.0,-0.0,True,optimal,optimal
+rxn00701_c0,UDP-glucose:alpha-D-galactose-1-phosphate uridylyltransferase,0.0,-0.0,True,optimal,optimal
+rxn00704_c0,"alpha-D-Glucose 1-phosphate 1,6-phosphomutase",-1000.0,1000.0,False,optimal,optimal
+rxn00708_c0,Uridine 5'-monophosphate phosphohydrolase,0.0,14.249999999999817,False,optimal,optimal
+rxn00710_c0,orotidine-5'-phosphate carboxy-lyase (UMP-forming),0.0,5.257142857142834,False,optimal,optimal
+rxn00711_c0,UMP:diphosphate phospho-alpha-D-ribosyltransferase,-14.250000000000023,-0.0,False,optimal,optimal
+rxn00726_c0,chorismate pyruvate-lyase (amino-accepting; anthranilate-forming),0.0,2.9152542372882424,False,optimal,optimal
+rxn00727_c0,Chorismate pyruvate-lyase (amino-accepting),0.0,2.6461538461538274,False,optimal,optimal
+rxn00735_c0,"(2R,3S)-3-methylmalate:NAD+ oxidoreductase",0.0,-0.0,True,optimal,optimal
+rxn00737_c0,L-threonine ammonia-lyase (2-oxobutanoate-forming),0.0,11.352941176468704,False,optimal,optimal
+rxn00742_c0,L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming),0.0,11.352941176470829,False,optimal,optimal
+rxn00743_c0,Glycerone phosphate phosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn00747_c0,D-glyceraldehyde-3-phosphate aldose-ketose-isomerase,-10.48751835535984,25.16666666666686,False,optimal,optimal
+rxn00763_c0,Glycerol:NAD+ oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn00765_c0,Glycerol:NADP+ oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn00770_c0,ATP:D-ribose-5-phosphate diphosphotransferase,0.0,14.25,False,optimal,optimal
+rxn00777_c0,D-ribose-5-phosphate aldose-ketose-isomerase,-1000.0,1000.0,False,optimal,optimal
+rxn00778_c0,"D-Ribose 1,5-phosphomutase",-1000.0,1000.0,False,optimal,optimal
+rxn00781_c0,D-glyceraldehyde-3-phosphate:NAD+ oxidoreductase (phosphorylating),-10.166666666665975,1000.0,False,optimal,optimal
+rxn00782_c0,D-glyceraldehyde-3-phosphate:NADP+ oxidoreductase (phosphorylating),-1000.0,-0.0,False,optimal,optimal
+rxn00785_c0,D-Fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase,-1000.0,1000.0,False,optimal,optimal
+rxn00786_c0,"D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)",-30.333333333330888,33.50000000000145,False,optimal,optimal
+rxn00789_c0,1-(5-phospho-D-ribosyl)-ATP:diphosphate phospho-alpha-D-ribosyl-transferase,-2.2517623363544645,-0.0,False,optimal,optimal
+rxn00790_c0,5-phosphoribosylamine:diphosphate phospho-alpha-D-ribosyltransferase (glutamate-amidating),-1.7306501547988642,-0.0,False,optimal,optimal
+rxn00791_c0,N-(5-Phospho-D-ribosyl)anthranilate:pyrophosphate phosphoribosyl-transferase,-2.915254237288125,-0.0,False,optimal,optimal
+rxn00797_c0,Uridine ribohydrolase,-1000.0,1000.0,False,optimal,optimal
+rxn00799_c0,(S)-malate hydro-lyase (fumarate-forming),-4.242424242424285,-0.0,False,optimal,optimal
+rxn00800_c0,"N6-(1,2-dicarboxyethyl)AMP AMP-lyase (fumarate-forming)",0.0,5.777777777777775,False,optimal,optimal
+rxn00802_c0,2-(Nomega-L-arginino)succinate arginine-lyase (fumarate-forming),0.0,3.2237196765499982,False,optimal,optimal
+rxn00806_c0,L-Leucine:2-oxoglutarate aminotransferase,-15.071428571428498,-0.0,False,optimal,optimal
+rxn00808_c0,ATP:D-galactose 1-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn00816_c0,Lactose galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn00817_c0,melibiose galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn00818_c0,Raffinose galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn00819_c0,Galactosylglycerol galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn00830_c0,Isopentenyl-diphosphate delta3-delta2-isomerase,-0.03402501645835464,1000.0,False,optimal,optimal
+rxn00831_c0,Inosine 5'-monophosphate phosphohydrolase,0.0,14.249999999999968,False,optimal,optimal
+rxn00832_c0,"IMP 1,2-hydrolase (decyclizing)",-2.251762336354442,-0.0,False,optimal,optimal
+rxn00834_c0,IMP:NAD+ oxidoreductase,0.0,1.6799398948158846,False,optimal,optimal
+rxn00838_c0,IMP:L-aspartate ligase (GDP-forming),0.0,5.777777777777423,False,optimal,optimal
+rxn00840_c0,dATP:pyruvate 2-O-phosphotransferase,-19.99999999998561,-0.0,False,optimal,optimal
+rxn00841_c0,dATP:D-glucose 6-phosphotransferase,0.0,20.000000000000007,False,optimal,optimal
+rxn00842_c0,dATP:D-fructose 6-phosphotransferase,0.0,19.99999999999974,False,optimal,optimal
+rxn00851_c0,D-alanine:D-alanine ligase (ADP-forming),0.0,0.0007948400793817771,False,optimal,optimal
+rxn00856_c0,putrescine:2-oxoglutarate aminotransferase,0.0,8.7142857142896,False,optimal,optimal
+rxn00859_c0,L-Histidinol:NAD+ oxidoreductase,0.0,2.251762336354478,False,optimal,optimal
+rxn00863_c0,L-histidinal:NAD+ oxidoreductase,0.0,2.2517623363544814,False,optimal,optimal
+rxn00869_c0,butanal:NAD+ oxidoreductase (CoA-acylating),-1000.0,1000.0,False,optimal,optimal
+rxn00870_c0,butanal:NADP+ oxidoreductase (CoA-acylating),-1000.0,1000.0,False,optimal,optimal
+rxn00873_c0,Butanoate:CoA ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn00890_c0,3-O-alpha-D-Galactosyl-1D-myo-inositol galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn00897_c0,N-acetyl-D-glucosamine 2-epimerase,0.0,-0.0,True,optimal,optimal
+rxn00898_c0,"2,3-Dihydroxy-3-methylbutanoate hydro-lyase",0.0,17.416666666666664,False,optimal,optimal
+rxn00902_c0,"acetyl-CoA:3-methyl-2-oxobutanoate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)",-15.071428571428822,-0.0,False,optimal,optimal
+rxn00903_c0,L-Valine:2-oxoglutarate aminotransferase,-1000.0,1000.0,False,optimal,optimal
+rxn00904_c0,L-Valine:pyruvate aminotransferase,-1000.0,1000.0,False,optimal,optimal
+rxn00907_c0,"5,10-methylenetetrahydrofolate:NADP+ oxidoreductase",-20.30000000000002,2.0800000000000836,False,optimal,optimal
+rxn00908_c0,glycine synthase,0.0,10.83333333333409,False,optimal,optimal
+rxn00913_c0,Guanosine 5'-monophosphate phosphohydrolase,0.0,14.249999999999922,False,optimal,optimal
+rxn00915_c0,GMP:diphosphate 5-phospho-alpha-D-ribosyltransferase,-14.249999999999922,-0.0,False,optimal,optimal
+rxn00916_c0,Xanthosine-5'-phosphate:ammonia ligase (AMP-forming),0.0,1.4778585591540307,False,optimal,optimal
+rxn00917_c0,Xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming),0.0,1.4054054054053893,False,optimal,optimal
+rxn00927_c0,Adenosine ribohydrolase,0.0,1000.0,False,optimal,optimal
+rxn00934_c0,(S)-Malate:CoA ligase (ADP-forming),0.0,-0.0,True,optimal,optimal
+rxn00942_c0,N-ribosylnicotinamide ribohydrolase,0.0,7.124999999999545,False,optimal,optimal
+rxn00947_c0,Palmitate:CoA ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn00950_c0,Cystathionine L-homocysteine-lyase (deaminating),0.0,17.928571428571416,False,optimal,optimal
+rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,0.0,1000.0,False,optimal,optimal
+rxn00955_c0,S-(5-deoxy-D-ribos-5-yl)-L-homocysteine homocysteine-lyase,0.0,0.00558784621383886,False,optimal,optimal
+rxn00973_c0,citrate hydroxymutase,-1000.0,1000.0,False,optimal,optimal
+rxn00974_c0,citrate hydro-lyase (cis-aconitate-forming),-1000.0,1000.0,False,optimal,optimal
+rxn00975_c0,ATP:D-mannose 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn00976_c0,ITP:D-mannose 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn00977_c0,Epimelibiose galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn00978_c0,dATP:D-mannose 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn00980_c0,2-Phosphoglycolate phosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn00985_c0,ATP:propanoate phosphotransferase,-12.157894736842104,-0.0,False,optimal,optimal
+rxn00993_c0,4-fumarylacetoacetate fumarylhydrolase,0.0,-0.0,True,optimal,optimal
+rxn01018_c0,carbamoyl-phosphate:L-aspartate carbamoyltransferase,0.0,5.2571428571428696,False,optimal,optimal
+rxn01019_c0,Carbamoyl-phosphate:L-ornithine carbamoyltransferase,0.0,3.223719676549978,False,optimal,optimal
+rxn01043_c0,xylitol:NADP+ oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn01044_c0,D-xylose aldose-ketose-isomerase,-1000.0,1000.0,False,optimal,optimal
+rxn01068_c0,L-threonine:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn01069_c0,O-phospho-L-homoserine phosphate-lyase (adding water;L-threonine-forming),0.0,21.00000000000007,False,optimal,optimal
+rxn01075_c0,UDP-L-arabinose 4-epimerase,0.0,-0.0,True,optimal,optimal
+rxn01100_c0,ATP:3-phospho-D-glycerate 1-phosphotransferase,-20.0,20.333333333331662,False,optimal,optimal
+rxn01101_c0,3-Phospho-D-glycerate:NAD+ 2-oxidoreductase,0.0,20.0,False,optimal,optimal
+rxn01104_c0,"2,3-bisphospho-D-glycerate 2-phosphohydrolase",0.0,28.499999999999687,False,optimal,optimal
+rxn01106_c0,"2-Phospho-D-glycerate 2,3-phosphomutase",-20.0,10.166666666666664,False,optimal,optimal
+rxn01115_c0,6-phospho-D-gluconate:NADP+ 2-oxidoreductase (decarboxylating),0.0,14.909090909090908,False,optimal,optimal
+rxn01116_c0,D-Ribulose-5-phosphate 3-epimerase,-4.244897959183894,16.888888888888914,False,optimal,optimal
+rxn01121_c0,D-gluconate hydro-lyase (2-dehydro-3-deoxy-D-gluconate-forming),0.0,-0.0,True,optimal,optimal
+rxn01127_c0,ATP:dAMP phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn01134_c0,Maltose alpha-D-glucosylmutase,0.0,-2.078337502098293e-13,True,optimal,optimal
+rxn01145_c0,Thymidylate 5'-phosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn01153_c0,D-Glutamine amidohydrolase,0.0,28.500000000000036,False,optimal,optimal
+rxn01159_c0,L-Glutamate:methylamine ligase (ADP-forming),0.0,-0.0,True,optimal,optimal
+rxn01169_c0,ATP:beta-D-glucose 6-phosphotransferase,0.0,25.16666666666847,False,optimal,optimal
+rxn01171_c0,D-glucose 1-epimerase,-1000.0,1000.0,False,optimal,optimal
+rxn01187_c0,D-Xylulose 5-phosphate D-glyceraldehyde-3-phosphate-lyase (adding phosphate; acetyl-phosphate-forming),0.0,30.000000000000245,False,optimal,optimal
+rxn01199_c0,ATP:D-xylulose 5-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn01200_c0,Sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase,-1000.0,1000.0,False,optimal,optimal
+rxn01208_c0,R01652,-15.071428571428594,-0.0,False,optimal,optimal
+rxn01210_c0,10-Formyltetrahydrofolate:L-glutamate ligase (ADP-forming),0.0,-0.0,True,optimal,optimal
+rxn01211_c0,"5,10-Methenyltetrahydrofolate 5-hydrolase (decyclizing)",-20.300000000000022,2.079999999999736,False,optimal,optimal
+rxn01216_c0,"3-phospho-D-glycerate 1,2-phosphomutase",0.0,28.5,False,optimal,optimal
+rxn01218_c0,2'-Deoxycytidine 5'-monophosphate phosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn01219_c0,ATP:dCMP phosphotransferase,0.0,28.500000000001354,False,optimal,optimal
+rxn01221_c0,dCDP nucleotidohydrolase,0.0,28.49999999999994,False,optimal,optimal
+rxn01222_c0,dCTP nucleotidohydrolase,0.0,-0.0,True,optimal,optimal
+rxn01226_c0,Guanosine ribohydrolase,0.0,1000.0,False,optimal,optimal
+rxn01228_c0,glycosyl hydrolase family 35 protein,0.0,-0.0,True,optimal,optimal
+rxn01231_c0,3-Sulfo-L-alanine carboxy-lyase (taurine-forming),0.0,-0.0,True,optimal,optimal
+rxn01236_c0,ATP:butanoate 1-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn01241_c0,Dihydrolipoamide:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn01255_c0,5-O-(1-Carboxyvinyl)-3-phosphoshikimate phosphate-lyase (chorismate-forming),0.0,4.333333333333291,False,optimal,optimal
+rxn01257_c0,chorismate:L-glutamine aminotransferase,0.0,0.005587846213823291,False,optimal,optimal
+rxn01265_c0,Nicotinate D-ribonucleotide:diphosphate phosphoribosyltransferase,-7.125,-0.0,False,optimal,optimal
+rxn01270_c0,L-arogenate:2-oxoglutarate aminotransferase,-1000.0,1000.0,False,optimal,optimal
+rxn01286_c0,D-Glyceraldehyde:NAD+ oxidoreductase,0.0,16.749999999999982,False,optimal,optimal
+rxn01290_c0,L-Arabitol:NAD+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn01291_c0,L-Arabitol:NADP+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn01292_c0,L-Arabinose aldose-ketose-isomerase,-1000.0,1000.0,False,optimal,optimal
+rxn01299_c0,Inosine ribohydrolase,0.0,1000.0,False,optimal,optimal
+rxn01300_c0,ATP:L-homoserine O-phosphotransferase,0.0,20.99999999999755,False,optimal,optimal
+rxn01301_c0,L-Homoserine:NAD+ oxidoreductase,-20.99999999999755,-0.0,False,optimal,optimal
+rxn01302_c0,L-homoserine:NADP+ oxidoreductase,-21.000000000000096,-0.0,False,optimal,optimal
+rxn01303_c0,Acetyl-CoA:L-homoserine O-acetyltransferase,0.0,12.294117647058952,False,optimal,optimal
+rxn01304_c0,Succinyl-CoA:L-homoserine O-succinyltransferase,0.0,12.29411764705958,False,optimal,optimal
+rxn01305_c0,"1,2-Ethanediol:NAD+ oxidoreductase",0.0,-0.0,True,optimal,optimal
+rxn01310_c0,D-Glucitol:NADP+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn01331_c0,D-erythrose 4-phosphate:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn01332_c0,"Phosphoenolpyruvate:D-erythrose-4-phosphate C-(1-carboxyvinyl)transferase (phosphate hydrolysing, 2-carboxy-2-oxoethyl-forming)",0.0,4.333333333333371,False,optimal,optimal
+rxn01333_c0,sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glyceronetransferase,-33.499999999999226,4.4324324324323925,False,optimal,optimal
+rxn01334_c0,"Sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase",0.0,33.50000000000065,False,optimal,optimal
+rxn01343_c0,ATP:Sedoheptulose 7-phosphate 1-phosphotransferase,0.0,33.49999999999658,False,optimal,optimal
+rxn01346_c0,CTP:Sedoheptulose 7-phosphate 1-phosphotransferase,0.0,20.00000000000012,False,optimal,optimal
+rxn01347_c0,UTP:Sedoheptulose 7-phosphate 1-phosphotransferase,0.0,20.0,False,optimal,optimal
+rxn01348_c0,ITP:Sedoheptulose 7-phosphate 1-phosphotransferase,0.0,33.499999999999986,False,optimal,optimal
+rxn01351_c0,2'-Deoxyguanosine 5'-triphosphate diphosphohydrolase,0.0,12.133333333333661,False,optimal,optimal
+rxn01354_c0,dGTP:pyruvate 2-O-phosphotransferase,-20.00000000000023,-0.0,False,optimal,optimal
+rxn01355_c0,Propanoyl-CoA:carbon-dioxide ligase (ADP-forming),0.0,21.0,False,optimal,optimal
+rxn01361_c0,(S)-dihydroorotate:NAD+ oxidoreductase,0.0,5.257142857142797,False,optimal,optimal
+rxn01362_c0,Orotidine-5'-phosphate:diphosphate phospho-alpha-D-ribosyl-transferase,-5.257142857142797,-0.0,False,optimal,optimal
+rxn01385_c0,Xylitol:NAD+ 2-oxidoreductase (D-xylulose-forming),-1000.0,1000.0,False,optimal,optimal
+rxn01387_c0,Isocitrate:NADP+ oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn01388_c0,isocitrate hydro-lyase (cis-aconitate-forming),-1000.0,1000.0,False,optimal,optimal
+rxn01418_c0,2-oxoadipate dehydrogenase complex,0.0,-0.0,True,optimal,optimal
+rxn01423_c0,L-2-aminoadipate:2-oxoglutarate aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn01426_c0,S-Adenosyl-L-methionine:caffeoyl-CoA 3-O-methyltransferase,0.0,-0.0,True,optimal,optimal
+rxn01434_c0,L-Citrulline:L-aspartate ligase (AMP-forming),0.0,3.2237196765499507,False,optimal,optimal
+rxn01439_c0,ATP:D-glucosamine 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn01442_c0,ITP:D-glucosamine 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn01443_c0,dATP:D-glucosamine 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn01445_c0,2'-Deoxyguanosine 5'-monophosphate phosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn01453_c0,(R)-3-Hydroxybutanoyl-CoA:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn01459_c0,4-Aminobutyraldehyde:NAD+ oxidoreductase,0.0,8.71428571428653,False,optimal,optimal
+rxn01465_c0,(S)-dihydroorotate amidohydrolase,-5.257142857142861,-0.0,False,optimal,optimal
+rxn01477_c0,6-Phospho-D-gluconate hydro-lyase(2-dehydro-3-deoxy-6-phospho-D-gluconate-forming),0.0,-0.0,True,optimal,optimal
+rxn01485_c0,"D-Glucosamine 1-phosphate 1,6-phosphomutase",-28.49999999999992,-0.0,False,optimal,optimal
+rxn01491_c0,"D-Fructose 1,6-bisphosphate phosphohydrolase",0.0,15.166666666666668,False,optimal,optimal
+rxn01507_c0,2'-Deoxyadenosine 5'-monophosphate phosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn01509_c0,ATP:dGMP phosphotransferase,0.0,12.133333333334349,False,optimal,optimal
+rxn01513_c0,ATP:dTMP phosphotransferase,0.0,0.005996917833169266,False,optimal,optimal
+rxn01517_c0,ATP:dUMP phosphotransferase,-0.005996917833169415,14.249999999999996,False,optimal,optimal
+rxn01519_c0,dUTP nucleotidohydrolase,0.0,14.249999999999991,False,optimal,optimal
+rxn01520_c0,"5,10-Methylenetetrahydrofolate:dUMP C-methyltransferase",0.0,0.005996917833169428,False,optimal,optimal
+rxn01521_c0,2'-Deoxyuridine 5'-monophosphate phosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn01530_c0,retinol:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn01539_c0,thiamin monophosphate phosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn01541_c0,Cytidine ribohydrolase,0.0,-0.0,True,optimal,optimal
+rxn01544_c0,XMP:pyrophosphate phosphoribosyltransferase,-14.25,-0.0,False,optimal,optimal
+rxn01545_c0,Xanthosine ribohydrolase,-1000.0,1000.0,False,optimal,optimal
+rxn01564_c0,Tryptamine:oxygen oxidoreductase(deaminating),0.0,-0.0,True,optimal,optimal
+rxn01575_c0,L-Isoleucine:2-oxoglutarate aminotransferase,-12.176470588235247,1.0975751571631663e-14,False,optimal,optimal
+rxn01596_c0,Streptomycin-6-phosphate phosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn01601_c0,dihydrofolate:NAD+ oxidoreductase,0.0,1000.0,False,optimal,optimal
+rxn01602_c0,dihydrofolate:NADP+ oxidoreductase,-1000.0,-0.0,False,optimal,optimal
+rxn01603_c0,"7,8-dihydropteroate:L-glutamate ligase (ADP-forming)",0.0,0.005587846213842784,False,optimal,optimal
+rxn01608_c0,(R)-Mevalonate:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn01609_c0,(R)-Mevalonate:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn01615_c0,"Propane-1,2-diol:NAD+ oxidoreductase",-1000.0,1000.0,False,optimal,optimal
+rxn01636_c0,N2-Acetyl-L-ornithine:L-glutamate N-acetyltransferase,0.0,10.823529411761303,False,optimal,optimal
+rxn01637_c0,N2-Acetyl-L-ornithine:2-oxoglutarate aminotransferase,-10.823529411761303,-0.0,False,optimal,optimal
+rxn01643_c0,L-Aspartate-4-semialdehyde:NADP+ oxidoreductase (phosphorylating),-21.00000000000015,-0.0,False,optimal,optimal
+rxn01644_c0,L-Aspartate-4-semialdehyde hydro-lyase (adding pyruvate and cyclizing),0.0,13.071428571428571,False,optimal,optimal
+rxn01667_c0,NTP:pyruvate O2-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn01670_c0,Nicotinamide ribonucleotide phosphohydrolase,0.0,7.125,False,optimal,optimal
+rxn01675_c0,dTTP:alpha-D-glucose-1-phosphate thymidylyltransferase,0.0,-0.0,True,optimal,optimal
+rxn01682_c0,"(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate D-glyceraldehyde-3-phosphate-lyase",0.0,2.91525423728812,False,optimal,optimal
+rxn01683_c0,N-D-ribosylpurine ribohydrolase,-1000.0,1000.0,False,optimal,optimal
+rxn01685_c0,Acetoin:NAD+ oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn01710_c0,"Propane-1,3-diol:NAD+ 1-oxidoreductase",0.0,-0.0,True,optimal,optimal
+rxn01715_c0,Tyramine:oxygen oxidoreductase(deaminating)(flavin-containing),0.0,-0.0,True,optimal,optimal
+rxn01731_c0,Itaconate:CoA ligase (ADP-forming),-20.0,1000.0,False,optimal,optimal
+rxn01732_c0,Itaconate:CoA ligase (GDP-forming),-1000.0,20.000000000000302,False,optimal,optimal
+rxn01733_c0,Itaconate:CoA ligase (IDP-forming),-1000.0,20.0,False,optimal,optimal
+rxn01735_c0,L-Cystine L-Cysteine-lyase (deaminating),0.0,-0.0,True,optimal,optimal
+rxn01737_c0,Raffinose fructohydrolase,0.0,-0.0,True,optimal,optimal
+rxn01739_c0,ATP:shikimate 3-phosphotransferase,0.0,4.333333333333265,False,optimal,optimal
+rxn01753_c0,D-Xylonate hydro-lyase,0.0,-0.0,True,optimal,optimal
+rxn01757_c0,L-cysteate:2-oxoglutarate aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn01816_c0,R02508,-1000.0,12.294117647058716,False,optimal,optimal
+rxn01828_c0,L-Arabinonate hydro-lyase,0.0,-0.0,True,optimal,optimal
+rxn01831_c0,(R)-Lactaldehyde:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn01832_c0,R02528,0.0,-0.0,True,optimal,optimal
+rxn01833_c0,aminoacetone:oxygen oxidoreductase(deaminating),0.0,-0.0,True,optimal,optimal
+rxn01835_c0,Lactaldehyde:NAD+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn01836_c0,"4-[(1R)-2-Amino-1-hydroxyethyl]-1,2-benzenediol:oxygen oxidoreductase(deaminating)(flavin-containing)",0.0,-0.0,True,optimal,optimal
+rxn01851_c0,4-aminobutanal:NAD+ 1-oxidoreductase,0.0,8.714285714285493,False,optimal,optimal
+rxn01870_c0,D-Fructose 1-phosphate D-glyceraldehyde-3-phosphate-lyase,-15.166666666666494,19.249999999999723,False,optimal,optimal
+rxn01879_c0,"Propane-1,2-diol:NAD+ 1-oxidoreductase",-1000.0,1000.0,False,optimal,optimal
+rxn01883_c0,2-Deoxy-D-glucose 6-phosphate phosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn01902_c0,Phenylethylalcohol:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn01903_c0,Phenethylamine:oxygen oxidoreductase (deaminating),0.0,-0.0,True,optimal,optimal
+rxn01906_c0,3-sulfino-L-alanine:2-oxoglutarate aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn01917_c0,ATP:N-acetyl-L-glutamate 5-phosphotransferase,0.0,10.823529411764726,False,optimal,optimal
+rxn01937_c0,Indole-3-acetaldehyde:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn01939_c0,indole-3-ethanol:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn01947_c0,5-Hydroxy-L-tryptophan:2-oxoglutarate aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn01961_c0,Xanthosine 5'-phosphate phosphohydrolase,0.0,14.249999999999659,False,optimal,optimal
+rxn01962_c0,XTP pyrophosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn01964_c0,L-serine hydro-lyase [adding 1-C-(indol-3-yl)glycerol 3-phosphate; L-tryptophan and glyceraldehyde-3-phosphate-forming],0.0,2.7741935483870974,False,optimal,optimal
+rxn01973_c0,"N-Succinyl-LL-2,6-diaminoheptanedioate amidohydrolase",0.0,28.49999999999976,False,optimal,optimal
+rxn01974_c0,"LL-2,6-Diaminoheptanedioate 2-epimerase",0.0,13.071428571428916,False,optimal,optimal
+rxn01975_c0,beta-D-Glucose-6-phosphate:NADP+ 1-oxoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn01977_c0,alpha-D-Glucose 6-phosphate ketol-isomerase,-1000.0,1000.0,False,optimal,optimal
+rxn01997_c0,"dTDPglucose 4,6-hydro-lyase",0.0,-0.0,True,optimal,optimal
+rxn02008_c0,UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase(ADP-forming),0.0,0.0007948400793816785,False,optimal,optimal
+rxn02009_c0,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:L-lysine gamma-ligase (ADP-forming),0.0,-0.0,True,optimal,optimal
+rxn02010_c0,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:L-lysine ligase,0.0,-0.0,True,optimal,optimal
+rxn02015_c0,Taurocholate amidohydrolase,0.0,-0.0,True,optimal,optimal
+rxn02042_c0,ATP:D-hexose 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn02043_c0,ITP:D-hexose 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn02044_c0,dATP:D-hexose 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn02046_c0,D-O-Phosphoserine phosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn02049_c0,R02856,-1000.0,1000.0,False,optimal,optimal
+rxn02057_c0,ATP:D-hexose 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn02059_c0,ITP:D-hexose 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn02060_c0,dATP:D-hexose 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn02081_c0,5-Hydroxytryptamine:oxygen oxidoreductase(deaminating)(flavin-containing),0.0,-0.0,True,optimal,optimal
+rxn02087_c0,"4-[(1R)-1-Hydroxy-2-(methylamino)ethyl]-1,2-benzenediol:oxygen oxidoreductase(deaminating)(flavin-containing)",0.0,-0.0,True,optimal,optimal
+rxn02093_c0,Melibiitol galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn02106_c0,2-Propyn-1-al:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn02122_c0,D-Glucuronolactone:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn02128_c0,ATP:pantothenate 4'-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn02138_c0,dTDPglucose 4-epimerase,0.0,-0.0,True,optimal,optimal
+rxn02154_c0,Deamino-NAD+ nucleotidohydrolase,0.0,14.25000000000011,False,optimal,optimal
+rxn02155_c0,ATP:nicotinamide-nucleotide adenylyltransferase,0.0,14.250000000000007,False,optimal,optimal
+rxn02159_c0,L-Histidinol:NAD+ oxidoreductase,0.0,2.2517623363544876,False,optimal,optimal
+rxn02160_c0,L-Histidinol-phosphate phosphohydrolase,0.0,2.2517623363543535,False,optimal,optimal
+rxn02166_c0,4-Nitrophenyl phosphate phosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn02172_c0,D-Arabinonate hydro-lyase,0.0,-0.0,True,optimal,optimal
+rxn02173_c0,D-Galactonate hydro-lyase,0.0,-0.0,True,optimal,optimal
+rxn02175_c0,ATP:pantetheine-4'-phosphate adenylyltransferase,0.0,14.249999999992994,False,optimal,optimal
+rxn02176_c0,Dephospho-CoA nucleotidohydrolase,0.0,14.2500000000033,False,optimal,optimal
+rxn02185_c0,2-Acetolactate pyruvate-lyase (carboxylating),-1000.0,18.08333333333303,False,optimal,optimal
+rxn02186_c0,"2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)",0.0,1000.0,False,optimal,optimal
+rxn02200_c0,"2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine:4-aminobenzoate 2-amino-4-hydroxydihydropteridine-6-methenyltransferase",0.0,0.005587846213842211,False,optimal,optimal
+rxn02201_c0,"2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine-diphosphate:4-aminobenzoate 2-amino-4-hydroxydihydropteridine-6-methenyltransferase",0.0,0.005585668642397235,False,optimal,optimal
+rxn02209_c0,"(R)-Propane-1,2-diol:NAD+ oxidoreductase",-1000.0,1000.0,False,optimal,optimal
+rxn02212_c0,2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate phosphate-lyase (cyclyzing),0.0,4.333333333333347,False,optimal,optimal
+rxn02228_c0,3-Mercaptolactate:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn02235_c0,"propane-1,3-diol:NAD+ 1-oxidoreductase",0.0,-0.0,True,optimal,optimal
+rxn02246_c0,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide),0.0,-0.0,True,optimal,optimal
+rxn02284_c0,UDP-N-acetylmuramate:NADP+ oxidoreductase,-0.0007948400793799732,-0.0,False,optimal,optimal
+rxn02285_c0,UDP-N-acetylmuramate:NADP+ oxidoreductase,-0.0007948400793814918,-0.0,False,optimal,optimal
+rxn02286_c0,UDP-N-acetylmuramate:L-alanine ligase (ADP-forming),0.0,0.0007948400793816394,False,optimal,optimal
+rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine),-1000.0,12.294117647058814,False,optimal,optimal
+rxn02314_c0,ATP:D-tagatose-6-phosphate 1-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn02315_c0,CTP:D-Tagatose 6-phosphate 1-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn02316_c0,UTP:D-Tagatose 6-phosphate 1-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn02317_c0,ITP:D-Tagatose 6-phosphate 1-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn02319_c0,ATP:L-fuculose 1-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn02320_c0,5-Amino-2-oxopentanoate:2-oxoglutarate aminotransferase,-2.2517623363543278,-0.0,False,optimal,optimal
+rxn02332_c0,Lactose 6-phosphate 6-phosphogalactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn02341_c0,N-[(R)-4'-Phosphopantothenoyl]-L-cysteine carboxy-lyase,0.0,1.0000000000000013,False,optimal,optimal
+rxn02350_c0,4-Trimethylammoniobutanal:NAD+ 1-oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn02364_c0,"3,4-Dihydroxyphenylacetaldehyde:NAD+ oxidoreductase",0.0,-0.0,True,optimal,optimal
+rxn02373_c0,L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphorylating),-12.199999999999898,-0.0,False,optimal,optimal
+rxn02379_c0,"alpha-D-Hexose 1-phosphate 1,6-phosphomutase",0.0,-0.0,True,optimal,optimal
+rxn02380_c0,beta-D-Glucose 6-phosphate ketol-isomerase,-1000.0,1000.0,False,optimal,optimal
+rxn02400_c0,Nicotinate D-ribonucleotide phosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn02409_c0,R06099,0.0,-0.0,True,optimal,optimal
+rxn02449_c0,guanosine 3'-diphosphate 5'-triphosphate 5'-phosphohydrolase,0.0,9.500000000000334,False,optimal,optimal
+rxn02465_c0,N-acetyl-L-glutamate-5-semialdehyde:NADP+ 5-oxidoreductase (phosphrylating),-10.823529411764838,-0.0,False,optimal,optimal
+rxn02473_c0,D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate hydro-lyase,0.0,2.251762336354441,False,optimal,optimal
+rxn02476_c0,Phosphoenolpyruvate:3-phosphoshikimate 5-O-(1-carboxyvinyl)-transferase,0.0,4.3333333333346005,False,optimal,optimal
+rxn02484_c0,ATP:4-amino-5-hydroxymethyl-2-methylpyrimidine 5-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn02492_c0,D-Galactosyl-D-galactosyl-D-glucosyl-N-acylsphingosine,0.0,-0.0,True,optimal,optimal
+rxn02504_c0,"2-amino-4-hydroxy-6-(D-erythro-1,2,3-trihydroxypropyl)-7,8-dihydropteridine glycolaldehyde-lyase",0.0,0.005587846213842003,False,optimal,optimal
+rxn02507_c0,1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose-5-phosphate carboxy-lyase(cyclizing),0.0,2.915254237287715,False,optimal,optimal
+rxn02508_c0,N-(5-Phospho-beta-D-ribosyl)anthranilate ketol-isomerase,0.0,2.9152542372881167,False,optimal,optimal
+rxn02518_c0,2'-Deoxyinosine-5'-triphosphate pyrophosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn02527_c0,R03544,-1000.0,1000.0,False,optimal,optimal
+rxn02528_c0,R03545,-1000.0,1000.0,False,optimal,optimal
+rxn02571_c0,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide),0.0,-0.0,True,optimal,optimal
+rxn02596_c0,R03634,0.0,-0.0,True,optimal,optimal
+rxn02597_c0,Stachyose fructohydrolase,0.0,-0.0,True,optimal,optimal
+rxn02610_c0,L-Dopachrome delta7-delta2-isomerase,0.0,-0.0,True,optimal,optimal
+rxn02729_c0,(S)-Methylmalonate semialdehyde:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn02748_c0,(3S)-3-Methyl-2-oxopentanoate carboxy-lyase,0.0,-0.0,True,optimal,optimal
+rxn02749_c0,(R)-2-Methylmalate hydro-lyase,0.0,-0.0,True,optimal,optimal
+rxn02760_c0,Sucrose 6-phosphate fructohydrolase,0.0,-0.0,True,optimal,optimal
+rxn02789_c0,2-Isopropylmalate hydro-lyase,-1000.0,1000.0,False,optimal,optimal
+rxn02795_c0,Glycochenodeoxycholate amidohydrolase,0.0,-0.0,True,optimal,optimal
+rxn02796_c0,chenodeoxycholoyltaurine amidohydrolase,0.0,-0.0,True,optimal,optimal
+rxn02808_c0,"anthranilyl-CoA,NADH:oxygen oxidoreductase (de-aromatizing)",0.0,-0.0,True,optimal,optimal
+rxn02809_c0,"anthranilyl-CoA,NADH:oxygen oxidoreductase (de-aromatizing)",0.0,-0.0,True,optimal,optimal
+rxn02811_c0,3-Isopropylmalate hydro-lyase,-1000.0,1000.0,False,optimal,optimal
+rxn02812_c0,ATP:branched-chain-fatty-acid 1-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn02822_c0,"alpha-galactosidase, putative / melibiase, putative / alpha-D-galactoside galactohydrolase, putative",0.0,-0.0,True,optimal,optimal
+rxn02826_c0,N-Acetylputrescine:oxygen oxidoreductase(deaminating)(flavin-containing),0.0,-0.0,True,optimal,optimal
+rxn02834_c0,Phosphoribosyl-ATP pyrophosphohydrolase,0.0,2.251762336354492,False,optimal,optimal
+rxn02835_c0,"1-(5-phospho-D-ribosyl)-AMP 1,6-hydrolase",0.0,2.2517623363543624,False,optimal,optimal
+rxn02853_c0,Imidazole acetaldehyde:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn02889_c0,3-Methylcrotonoyl-CoA:carbon-dioxide ligase (ADP-forming),0.0,-0.0,True,optimal,optimal
+rxn02895_c0,5-Phospho-D-ribosylamine:glycine ligase (ADP-forming),0.0,1.7306501547987434,False,optimal,optimal
+rxn02914_c0,3-Phosphoserine:2-oxoglutarate aminotransferase,-19.999999999999996,-0.0,False,optimal,optimal
+rxn02928_c0,"2,3,4,5-Tetrahydrodipicolinate:NAD+ oxidoreductase",-13.071428571428939,-0.0,False,optimal,optimal
+rxn02929_c0,"2,3,4,5-Tetrahydrodipicolinate:NADP+ oxidoreductase",-13.071428571428596,-0.0,False,optimal,optimal
+rxn02936_c0,3-Phospho-D-erythronate hydro-lyase,0.0,-0.0,True,optimal,optimal
+rxn02937_c0,2-(Formamido)-N1-(5-phosphoribosyl)acetamidine cyclo-ligase (ADP-forming),0.0,1.730650154798763,False,optimal,optimal
+rxn02944_c0,N2-succinyl-L-ornithine:2-oxoglutarate 5-aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn02990_c0,(S)-4-Amino-5-oxopentanoate:NADP+ 5-oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn02993_c0,"4-(2-Aminoethyl)-1,2-benzenediol:oxygen oxidoreductase(deaminating)(flavin-containing)",0.0,-0.0,True,optimal,optimal
+rxn02996_c0,4-Hydroxyphenylethanol:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn03031_c0,"Succinyl-CoA:2,3,4,5-tetrahydropyridine-2,6-dicarboxylate N-succinyltransferase",0.0,28.49999999999954,False,optimal,optimal
+rxn03039_c0,1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide:pyrophosphate phosphoribosyltransferase,0.0,-0.0,True,optimal,optimal
+rxn03047_c0,ATP:pantothenate 4'-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn03052_c0,5-Methyltetrahydropteroyltri-L-glutamate:L-homocysteine S-methyltransferase,0.0,-0.0,True,optimal,optimal
+rxn03061_c0,"(2S,3R)-3-Hydroxybutane-1,2,3-tricarboxylate hydro-lyase",0.0,-0.0,True,optimal,optimal
+rxn03062_c0,3-Isopropylmalate:NAD+ oxidoreductase,0.0,15.071428571428587,False,optimal,optimal
+rxn03068_c0,"(R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)",-17.416666666666753,1000.0,False,optimal,optimal
+rxn03075_c0,ATP:4-methyl-5-(2-hydroxyethyl)-thiazole 2-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn03084_c0,5'-Phosphoribosylformylglycinamide:L-glutamine amido-ligase (ADP-forming),0.0,1.7306501547989055,False,optimal,optimal
+rxn03087_c0,"N-Succinyl-L-2,6-diaminoheptanedioate:2-oxoglutarate amino-transferase",-28.499999999999947,-0.0,False,optimal,optimal
+rxn03094_c0,Glycodeoxycholate amidohydrolase,0.0,-0.0,True,optimal,optimal
+rxn03095_c0,Taurodeoxycholate amidohydrolase,0.0,-0.0,True,optimal,optimal
+rxn03106_c0,"3alpha,7alpha-Dihydroxy-5beta-cholestan-26-al:NAD+ oxidoreductase",0.0,-0.0,True,optimal,optimal
+rxn03108_c0,ATP:4-amino-2-methyl-5-phosphomethylpyrimidine phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn03135_c0,R04558,-2.25176233635457,-0.0,False,optimal,optimal
+rxn03136_c0,1-(5'-Phosphoribosyl)-5-amino-4-(N-succinocarboxamide)-imidazole AMP-lyase,0.0,1.7306501547987414,False,optimal,optimal
+rxn03137_c0,10-Formyltetrahydrofolate:5'-phosphoribosyl-5-amino-4-imidazolecarboxamide formyltransferase,0.0,2.2517623363544286,False,optimal,optimal
+rxn03140_c0,UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysine:alanyl-D-alanine ligase (ADP-forming),0.0,-0.0,True,optimal,optimal
+rxn03141_c0,UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysine:alanyl-D-alanine,0.0,-0.0,True,optimal,optimal
+rxn03147_c0,1-(5-Phosphoribosyl)-5-amino-4-carboxyimidazole:L-aspartate ligase (ADP-forming),0.0,1.7306501547985567,False,optimal,optimal
+rxn03164_c0,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminoheptanedioate:D-alanyl-D-alanine ligase(ADP-forming)",0.0,0.0007948400793812793,False,optimal,optimal
+rxn03167_c0,"2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine triphosphate phosphohydrolase (alkaline optimum)",0.0,0.00558784621384231,False,optimal,optimal
+rxn03174_c0,"2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl) dihydropteridine triphosphate hydrolase",-0.005587846213842023,-0.0,False,optimal,optimal
+rxn03175_c0,N-(5'-Phospho-D-ribosylformimino)-5-amino-1- (5''-phospho-D-ribosyl)-4-imidazolecarboxamide ketol-isomerase,0.0,2.2517623363544823,False,optimal,optimal
+rxn03194_c0,(S)-2-Aceto-2-hydroxybutanoate pyruvate-lyase (carboxylating),-17.41666666666662,12.176470588235247,False,optimal,optimal
+rxn03195_c0,N-Methylhistamine:oxygen oxidoreductase (deaminating) (copper-containing),0.0,-0.0,True,optimal,optimal
+rxn03263_c0,Selenomethionine methanethiol-lyase (deaminating),0.0,-0.0,True,optimal,optimal
+rxn03264_c0,ATP:L-selenomethione S-adenosyltransferase,0.0,-0.0,True,optimal,optimal
+rxn03273_c0,3-Ketolactose galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn03282_c0,R04805,0.0,-0.0,True,optimal,optimal
+rxn03333_c0,"3,4-dihydroxyphenylethyleneglycol:NAD+ oxidoreductase",0.0,-0.0,True,optimal,optimal
+rxn03335_c0,"3,4-Dihydroxymandelaldehyde:NAD+ oxidoreductase",0.0,-0.0,True,optimal,optimal
+rxn03342_c0,3-Methoxytyramine:oxygen oxidoreductase (deaminating) (copper-containing),0.0,-0.0,True,optimal,optimal
+rxn03343_c0,3-Methoxy-4-hydroxyphenylglycolaldehyde:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn03345_c0,L-Normetanephrine:oxygen oxidoreductase (deaminating) (copper-containing),0.0,-0.0,True,optimal,optimal
+rxn03346_c0,L-Metanephrine:oxygen oxidoreductase (deaminating) (flavin-containing),0.0,-0.0,True,optimal,optimal
+rxn03354_c0,5-Hydroxyindoleacetaldehyde:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn03358_c0,3-Hydroxykynurenamine:oxygen oxidoreductase(deaminating)(flavin-containing),0.0,-0.0,True,optimal,optimal
+rxn03359_c0,5-Hydroxykynurenamine:oxygen oxidoreductase(deaminating)(flavin-containing),0.0,-0.0,True,optimal,optimal
+rxn03374_c0,Selenocystathionine Lysteine-lyase (deaminating),0.0,11.352941176470587,False,optimal,optimal
+rxn03379_c0,Selenocystathionine L-homocysteine-lyase (deaminating),0.0,-0.0,True,optimal,optimal
+rxn03382_c0,O-Acetylhomoserine succinate-lyase (adding cysteine),0.0,-0.0,True,optimal,optimal
+rxn03383_c0,O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase,0.0,-0.0,True,optimal,optimal
+rxn03402_c0,beta-D-Glucosyl-2-coumarinate glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn03408_c0,"UDP-N-acetyl-D-glucosamine:undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine 4-beta-N-acetylglucosaminlytransferase",0.0,0.0007948400793811156,False,optimal,optimal
+rxn03419_c0,formamidopyrimidine nucleoside triphosphate amidohydrolase,0.0,0.0055878462138527416,False,optimal,optimal
+rxn03421_c0,"2,5-Diaminopyrimidine nucleoside triphosphate mutase",0.0,0.005587846213842178,False,optimal,optimal
+rxn03423_c0,N4-Acetylaminobutanal:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn03435_c0,"(R)-2,3-Dihydroxy-3-methylpentanoate:NADP+ oxidoreductase (isomerizing)",-1000.0,1000.0,False,optimal,optimal
+rxn03436_c0,(S)-2-Aceto-2-hydroxybutanoate:NADP+ oxidoreductase (isomerizing),-1000.0,1000.0,False,optimal,optimal
+rxn03437_c0,"(R)-2,3-Dihydroxy-3-methylpentanoate hydro-lyase",0.0,12.176470588235816,False,optimal,optimal
+rxn03445_c0,O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn03446_c0,O-Phospho-4-hydroxy-L-threonine phospho-lyase (adding water),0.0,-0.0,True,optimal,optimal
+rxn03462_c0,Gal-beta1->3GalNAc-beta1->4Gal-beta1->4Glc-beta1->1'Cer galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn03546_c0,6-Hydroxyhexanoate:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn03598_c0,Chloroacetaldehyde:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn03638_c0,Acetyl-CoA:D-glucosamine-1-phosphate N-acetyltransferase,0.0,28.5,False,optimal,optimal
+rxn03838_c0,R05549,0.0,-0.0,True,optimal,optimal
+rxn03841_c0,4-amino-4-deoxychorismate pyruvate-lyase,0.0,0.005587846213841841,False,optimal,optimal
+rxn03861_c0,(S)-3-Hydroxybutanoyl-CoA:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn03901_c0,undecaprenyl-diphosphate phosphohydrolase,0.0,0.000794840079381623,False,optimal,optimal
+rxn03903_c0,UDPMurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala):undecaprenyl-phosphate phospho-N-acetylmuramoyl-pentapeptide-transferase,0.0,-0.0,True,optimal,optimal
+rxn03904_c0,"UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine:undecaprenyl-phosphate phospho-N-acetylmuramoyl-pentapeptide-transferase",0.0,0.0007948400793813485,False,optimal,optimal
+rxn03907_c0,CTP: 2-C-Methyl-D-erythritol 4-phosphate cytidylyltransferase,0.0,0.03854508734705856,False,optimal,optimal
+rxn03908_c0,ATP:4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol 2-phosphotransferase,0.0,0.03854508734702247,False,optimal,optimal
+rxn03909_c0,1-Deoxy-D-xylulose-5-phosphate pyruvate-lyase (carboxylating),0.0,0.03854508734702058,False,optimal,optimal
+rxn03910_c0,2-Phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol CMP-lyase (cyclizing),0.0,0.038545087347022014,False,optimal,optimal
+rxn03923_c0,"acetyl-phosphate:sulfite S-acetyltransferase (acyl-phosphate hydrolysing, 2-oxoethyl-forming)",0.0,-0.0,True,optimal,optimal
+rxn03933_c0,UDP-N-acetyl-D-glucosamine:N-acetyl-alpha-D-muramyl(oyl-L-Ala-gamma-D-Glu-L-Lys-D-Ala-D-Ala)-diphosphoundecaprenol 4-beta-N-acetylglucosaminlytransferase,0.0,-0.0,True,optimal,optimal
+rxn03955_c0,3-Methylbutanol:NAD(P) oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn03958_c0,1-Deoxy-D-xylulose-5-phosphate isomeroreductase,-0.03854508734702186,-0.0,False,optimal,optimal
+rxn04064_c0,xylitol:NAD oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn04068_c0,Glycocholate amidohydrolase,0.0,-0.0,True,optimal,optimal
+rxn04113_c0,isopentenyl-diphosphate:NAD(P)+ oxidoreductase,0.0,1000.0,False,optimal,optimal
+rxn04142_c0,L-Allothreonine acetaldehyde-lyase,0.0,-0.0,True,optimal,optimal
+rxn04234_c0,Aldehyde:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn04432_c0,S-adenosyl-L-methionine:caffeoyl-CoA 3-O-methyltransferase,0.0,-0.0,True,optimal,optimal
+rxn04443_c0,sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehydetransferase,-1000.0,1000.0,False,optimal,optimal
+rxn04676_c0,D-xylulose-5-phosphate:thiamin diphosphate glycolaldehydetransferase,-1000.0,1000.0,False,optimal,optimal
+rxn04678_c0,D-Sedoheptulose-7-phosphate:thiamin diphosphate glycolaldehydetransferase,-1000.0,1000.0,False,optimal,optimal
+rxn04726_c0,1-hydroxymethylnaphthalene:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn04736_c0,(2-naphthyl)methanol:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn04783_c0,glycinamide ribonucleotide transformylase,1.1013412404281553e-13,1.7306501547987638,False,optimal,optimal
+rxn04794_c0,propanoyl-CoA:formate C-propanoyltransferase,0.0,12.157894736841806,False,optimal,optimal
+rxn04908_c0,trichloroethanol:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn04943_c0,L-iditol:NAD+ 2-oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn04996_c0,dimethyallyl diphosphate:NADP+ oxidoreductase,-1000.0,-0.0,False,optimal,optimal
+rxn05036_c0,L-arogenate:2-oxoglutarate aminotransferase,-1000.0,1000.0,False,optimal,optimal
+rxn05050_c0,5'-ribonucleotide phosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn05072_c0,1D-myo-inositol-3-phosphate lyase (isomerizing),-1000.0,1000.0,False,optimal,optimal
+rxn05108_c0,R07396,-1000.0,1000.0,False,optimal,optimal
+rxn05114_c0,5-amino-1-(5-phospho-D-ribosyl)imidazole:carbon-dioxide ligase (ADP-forming),0.0,1.7306501547987634,False,optimal,optimal
+rxn05115_c0,5-carboxyamino-1-(5-phospho-D-ribosyl)imidazole carboxymutase,0.0,1.7306501547987685,False,optimal,optimal
+rxn05118_c0,R07408,0.0,-0.0,True,optimal,optimal
+rxn05144_c0,Pyridoxal 5-phosphate synthase,0.0,0.0018626154046141696,False,optimal,optimal
+rxn05145_c0,phosphate-transporting ATPase,0.0,56.99999999999999,False,optimal,optimal
+rxn05146_c0,ATP phosphohydrolase (polar-amino-acid-importing),0.0,37.999999999999886,False,optimal,optimal
+rxn05147_c0,D-Glucose-ABC transport,0.0,10.0,False,optimal,optimal
+rxn05148_c0,Heme transport via ABC system,0.0,14.249999999999316,False,optimal,optimal
+rxn05149_c0,ABC-type manganese permease complex,0.0,17.20000000000286,False,optimal,optimal
+rxn05150_c0,zinc transport via ABC system,0.0,17.199999999999886,False,optimal,optimal
+rxn05151_c0,ATP phosphohydrolase (polar-amino-acid-importing),0.0,38.00000000000002,False,optimal,optimal
+rxn05152_c0,ATP phosphohydrolase (polar-amino-acid-importing),0.0,38.00000000000058,False,optimal,optimal
+rxn05153_c0,sulfate-transporting ATPase,0.0,0.003063918086329639,False,optimal,optimal
+rxn05154_c0,ATP phosphohydrolase (polar-amino-acid-importing),0.0,37.99999999999214,False,optimal,optimal
+rxn05155_c0,ATP phosphohydrolase (polar-amino-acid-importing),0.0,-0.0,True,optimal,optimal
+rxn05156_c0,ornithine transport via ABC system,0.0,-0.0,True,optimal,optimal
+rxn05158_c0,ATP phosphohydrolase (glycerol-3-phosphate-importing),0.0,-0.0,True,optimal,optimal
+rxn05161_c0,nonpolar-amino-acid-transporting ATPase,0.0,38.0,False,optimal,optimal
+rxn05162_c0,D-galactose transport via ABC system,0.0,38.000000000000725,False,optimal,optimal
+rxn05163_c0,putrescine transport via ABC system,0.0,21.49999999999995,False,optimal,optimal
+rxn05164_c0,ATP phosphohydrolase (polar-amino-acid-importing),0.0,37.99999999999994,False,optimal,optimal
+rxn05165_c0,nonpolar-amino-acid-transporting ATPase,0.0,38.000000000000185,False,optimal,optimal
+rxn05166_c0,RXNBWI-115367.ce,0.0,17.200000000000838,False,optimal,optimal
+rxn05167_c0,D-xylose transport via ABC system,0.0,37.99999999999985,False,optimal,optimal
+rxn05168_c0,nonpolar-amino-acid-transporting ATPase,0.0,37.99999999999981,False,optimal,optimal
+rxn05169_c0,ATP phosphohydrolase (polar-amino-acid-importing),0.0,37.99999999999748,False,optimal,optimal
+rxn05170_c0,TRANS-RXNAVI-26732.ce.brachyexp.CPD-3609_CPD-3609,0.0,38.000000000000036,False,optimal,optimal
+rxn05173_c0,L-arabinose transport via ABC system,0.0,37.99999999999999,False,optimal,optimal
+rxn05174_c0,nickel transport via ABC system,0.0,17.2,False,optimal,optimal
+rxn05175_c0,spermidine transport via ABC system,0.0,-0.0,True,optimal,optimal
+rxn05176_c0,thiosulfate transport via ABC system,0.0,-0.0,True,optimal,optimal
+rxn05177_c0,thiamine transport via ABC system,0.0,0.0018626154046140033,False,optimal,optimal
+rxn05179_c0,nonpolar-amino-acid-transporting ATPase,0.0,38.00000000000073,False,optimal,optimal
+rxn05195_c0,ATP phosphohydrolase (ferric-ion-transporting),0.0,0.0030639180863299507,False,optimal,optimal
+rxn05197_c0,Uracil permease,-5.257142857142465,-0.0,False,optimal,optimal
+rxn05204_c0,TRANS-RXNBWI-115572.ce.maizeexp.GUANOSINE_GUANOSINE,-1.4778585591540019,-0.0,False,optimal,optimal
+rxn05215_c0,Alanine-Sodium symporter,-1000.0,1000.0,False,optimal,optimal
+rxn05219_c0,nonpolar-amino-acid-transporting ATPase,0.0,37.99999999999996,False,optimal,optimal
+rxn05221_c0,Na+/Proline-L symporter,-1000.0,1000.0,False,optimal,optimal
+rxn05229_c0,NCAIR synthetase and NCAIR mutase,0.0,1.7306501547987514,False,optimal,optimal
+rxn05237_c0,ATP phosphohydrolase (polar-amino-acid-importing),0.0,37.999999999999936,False,optimal,optimal
+rxn05240_c0,L-leucine transport in via sodium symport,-1000.0,1000.0,False,optimal,optimal
+rxn05241_c0,L-isoleucine transport in via sodium symport,-1000.0,1000.0,False,optimal,optimal
+rxn05242_c0,L-valine transport in via sodium symport,-1000.0,1000.0,False,optimal,optimal
+rxn05243_c0,TRANS-RXNBWI-115637.ce.maizeexp.LEU_LEU,-1000.0,1000.0,False,optimal,optimal
+rxn05244_c0,TRANS-RXNBWI-115637.ce.maizeexp.ILE_ILE,-1000.0,1000.0,False,optimal,optimal
+rxn05247_c0,FACOAL140(ISO),0.0,-0.0,True,optimal,optimal
+rxn05248_c0,FACOAL150(anteiso),0.0,-0.0,True,optimal,optimal
+rxn05249_c0,FACOAL150(ISO),0.0,-0.0,True,optimal,optimal
+rxn05250_c0,FACOAL160(ISO),0.0,-0.0,True,optimal,optimal
+rxn05251_c0,FACOAL170(anteiso),0.0,0.035557555526442436,False,optimal,optimal
+rxn05252_c0,FACOAL170(ISO),0.0,0.03555755552644059,False,optimal,optimal
+rxn05289_c0,NADPH:oxidized-thioredoxin oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn05293_c0,"2C-methyl-D-erythritol 2,4 cyclodiphosphate dehydratase",0.0,0.0385450873470205,False,optimal,optimal
+rxn05297_c0,TRANS-RXNBWI-115637.ce.maizeexp.GLT_GLT,-1000.0,1000.0,False,optimal,optimal
+rxn05298_c0,Na+/glutamate symport,-1000.0,1000.0,False,optimal,optimal
+rxn05299_c0,TRANS-RXNBWI-115637.ce.maizeexp.HIS_HIS,-37.9999999999972,43.0,False,optimal,optimal
+rxn05300_c0,TRANS-RXNBWI-115637.ce.maizeexp.THR_THR,-1000.0,1000.0,False,optimal,optimal
+rxn05301_c0,TRANS-RXNBWI-115637.ce.maizeexp.TYR_TYR,-4.044444444446094,43.000000000000114,False,optimal,optimal
+rxn05303_c0,Arginine symporter,-37.99999999999994,42.99999999999989,False,optimal,optimal
+rxn05305_c0,L-lysine transport out via proton antiport reversible,0.0,42.99999999999994,False,optimal,optimal
+rxn05306_c0,TRANS-RXNBWI-115637.ce.maizeexp.PHE_PHE,-4.333333333333485,-0.0,False,optimal,optimal
+rxn05307_c0,TRANS-RXNBWI-115637.ce.maizeexp.SER_SER,-1000.0,999.9999999999998,False,optimal,optimal
+rxn05322_c0,"Butyryl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)",0.0,-0.0,True,optimal,optimal
+rxn05323_c0,"Tetradecanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)",0.0,-0.0,True,optimal,optimal
+rxn05324_c0,"Dodecanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)",0.0,-0.0,True,optimal,optimal
+rxn05325_c0,"Octanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)",0.0,-0.0,True,optimal,optimal
+rxn05326_c0,"Hexanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)",0.0,-0.0,True,optimal,optimal
+rxn05327_c0,"Decanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)",0.0,-0.0,True,optimal,optimal
+rxn05328_c0,"Hexadecanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing)",0.0,-0.0,True,optimal,optimal
+rxn05330_c0,(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase,0.0,-0.0,True,optimal,optimal
+rxn05332_c0,(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase,0.0,-0.0,True,optimal,optimal
+rxn05333_c0,(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase,0.0,-0.0,True,optimal,optimal
+rxn05334_c0,(3R)-3-Hydroxybutanoyl-[acyl-carrier-protein] hydro-lyase,0.0,-0.0,True,optimal,optimal
+rxn05335_c0,(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein] hydro-lyase,0.0,-0.0,True,optimal,optimal
+rxn05336_c0,(3R)-3-Hydroxypalmitoyl-[acyl-carrier-protein]:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn05337_c0,(3R)-3-Hydroxyhexanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn05338_c0,(3R)-3-Hydroxydecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn05339_c0,(3R)-3-Hydroxybutanoyl-[acyl-carrier protein]:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn05340_c0,(3R)-3-Hydroxydodecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn05341_c0,(3R)-3-Hydroxyoctanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn05342_c0,(3R)-3-Hydroxytetradecanoyl-[acyl-carrier-protein]:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn05343_c0,Octanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),0.0,-0.0,True,optimal,optimal
+rxn05344_c0,Tetradecanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),0.0,-0.0,True,optimal,optimal
+rxn05345_c0,dodecanoyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),0.0,-0.0,True,optimal,optimal
+rxn05346_c0,butyryl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),0.0,-0.0,True,optimal,optimal
+rxn05347_c0,Acyl-[acyl-carrier-protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),0.0,0.035557555526440764,False,optimal,optimal
+rxn05348_c0,Decanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),0.0,-0.0,True,optimal,optimal
+rxn05349_c0,acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase,0.0,0.03555755552644824,False,optimal,optimal
+rxn05350_c0,hexanoyl-[acyl-carrier protein]:malonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),0.0,-0.0,True,optimal,optimal
+rxn05351_c0,"Tetradecanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing and thioester-hydrolysing)",0.0,-0.0,True,optimal,optimal
+rxn05352_c0,"Octanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing and thioester-hydrolysing)",0.0,-0.0,True,optimal,optimal
+rxn05354_c0,"Hexadecanoyl-[acyl-carrier protein:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing and thioester-hydrolysing)",0.0,-0.0,True,optimal,optimal
+rxn05355_c0,"Dodecanoyl-[acyl-carrier protein]: malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing and thioester-hydrolysing)",0.0,-0.0,True,optimal,optimal
+rxn05356_c0,"Decanoyl-[acyl-carrier protein]:malonyl-CoA C-acyltransferase(decarboxylating, oxoacyl- and enoyl-reducing and thioester-hydrolysing)",0.0,-0.0,True,optimal,optimal
+rxn05357_c0,Hexanoyl-[acyl-carrier protein]:oxoacyl- and enoyl-reducing and thioester-hydrolysing),0.0,-0.0,True,optimal,optimal
+rxn05465_c0,Malonyl-CoA:[acyl-carrier-protein] S-malonyltransferase,0.0,0.28446044421152794,False,optimal,optimal
+rxn05466_c0,TRANS-RXN-173.ce,-8.000000000000574,36.79999999999955,False,optimal,optimal
+rxn05488_c0,acetate reversible transport via proton symport,-1000.0,1000.0,False,optimal,optimal
+rxn05493_c0,"Transport of a-ketoglutarate, extracellular",-10.166666666666758,-0.0,False,optimal,optimal
+rxn05494_c0,D-alanine transport via proton symport,-1000.0,1000.0,False,optimal,optimal
+rxn05496_c0,TRANS-RXNBWI-115637.ce.maizeexp.L-ALPHA-ALANINE_L-ALPHA-ALANINE,-1000.0,1000.0,False,optimal,optimal
+rxn05500_c0,L-arabinose transport via proton symport,-38.00000000000027,43.000000000004796,False,optimal,optimal
+rxn05508_c0,TRANS-RXNBWI-115637.ce.maizeexp.ASN_ASN,-38.000000000000234,43.000000000000064,False,optimal,optimal
+rxn05513_c0,TRANS-RXN-194.ce,0.0,14.250000000000401,False,optimal,optimal
+rxn05516_c0,Cadmium-translocating P-type ATPase,0.0,38.00000000000001,False,optimal,optimal
+rxn05528_c0,Copper-transporting ATPase,0.0,14.249999999999998,False,optimal,optimal
+rxn05555_c0,iron (II) transport via ABC system,0.0,37.99999999999991,False,optimal,optimal
+rxn05560_c0,D-fructose transport via PEP:Pyr PTS,0.0,19.999999999999986,False,optimal,optimal
+rxn05564_c0,Proline-specific permease,-38.00000000000178,-0.0,False,optimal,optimal
+rxn05566_c0,D-galactose transport in via proton symport,-37.99999999999848,-0.0,False,optimal,optimal
+rxn05569_c0,D-glucosamine transport via PEP:Pyr PTS,0.0,-0.0,True,optimal,optimal
+rxn05571_c0,"D-gluconate transport via proton symport, reversible",-9.499999999997614,-0.0,False,optimal,optimal
+rxn05573_c0,D-glucose transport in via proton symport,0.0,10.000000000000018,False,optimal,optimal
+rxn05581_c0,RXN0-1683.ce.maizeexp.GLYCEROL_GLYCEROL,0.0,86.00000000003581,False,optimal,optimal
+rxn05582_c0,TRANS-RXNBWI-115637.ce.maizeexp.GLY_GLY,-1000.0,1000.0,False,optimal,optimal
+rxn05593_c0,Myo-inositol transporter 1,-1000.0,1000.0,False,optimal,optimal
+rxn05595_c0,TRANS-RXN-3.ce,-1000.0,1000.0,False,optimal,optimal
+rxn05598_c0,ATP phosphohydrolase (disaccharide-importing),0.0,-0.0,True,optimal,optimal
+rxn05602_c0,L-lactate reversible transport via proton symport,-23.666666666666686,52.999999999982236,False,optimal,optimal
+rxn05608_c0,ATP phosphohydrolase (disaccharide-importing),0.0,-0.0,True,optimal,optimal
+rxn05610_c0,D-mannose transport via PEP:Pyr PTS,0.0,-0.0,True,optimal,optimal
+rxn05618_c0,manganese transport in via proton antiport,-17.200000000000035,0.0030639180863299,False,optimal,optimal
+rxn05619_c0,ATP phosphohydrolase (molybdate-importing),0.0,28.49999999999848,False,optimal,optimal
+rxn05622_c0,Na(+)-transporting ATPase,0.0,38.0,False,optimal,optimal
+rxn05638_c0,TRANS-RXNBWI-115637.ce.maizeexp.PRO_PRO,-1000.0,1000.0,False,optimal,optimal
+rxn05641_c0,xenobiotic-transporting ATPase,0.0,-0.0,True,optimal,optimal
+rxn05643_c0,TRANS-RXNAVI-26524.ce.brachyexp.CPD-1099_CPD-1099,0.0,-0.0,True,optimal,optimal
+rxn05646_c0,L-rhamnose transport via proton symport,0.0,-0.0,True,optimal,optimal
+rxn05647_c0,salicin transport via PEP:Pyr PTS,0.0,-0.0,True,optimal,optimal
+rxn05649_c0,D-serine transport via proton symport,-19.391304347826022,-0.0,False,optimal,optimal
+rxn05663_c0,TRANS-RXNBWI-115637.ce.maizeexp.TRP_TRP,-2.774193548387097,-0.0,False,optimal,optimal
+rxn05669_c0,TRANS-RXNBWI-115637.ce.maizeexp.VAL_VAL,-1000.0,1000.0,False,optimal,optimal
+rxn05671_c0,D-xylose transport in via proton symport,-38.00000000000024,-0.0,False,optimal,optimal
+rxn05685_c0,TRANS-RXNAVI-26524.ce.brachyexp.RIBITOL_RIBITOL,0.0,-0.0,True,optimal,optimal
+rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)",0.0,-0.0,True,optimal,optimal
+rxn05736_c0,acyl-coenzyme A ligase,0.0,-0.0,True,optimal,optimal
+rxn05746_c0,Maltodextrin glucosidase (maltotriose),0.0,-0.0,True,optimal,optimal
+rxn05760_c0,L-Glutamate:ferredoxin oxidoreductase (transaminating),-1.9999999999999987,-0.0,False,optimal,optimal
+rxn05763_c0,dinucleotide nucleotidohydrolase,0.0,-0.0,True,optimal,optimal
+rxn05910_c0,"L-cysteine,glutathione:NADP+ oxidoreductase (disulfide-forming)",0.0,-0.0,True,optimal,optimal
+rxn05937_c0,Ferredoxin:NADP+ oxidoreductase,0.0,2.0,False,optimal,optimal
+rxn05955_c0,amino-acid racemase,0.0,-0.0,True,optimal,optimal
+rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,-1000.0,2.0,False,optimal,optimal
+rxn05958_c0,S-ribosylhomocysteine lyase,0.0,-0.0,True,optimal,optimal
+rxn05990_c0,triacylglycerol acylhydrolase,0.0,-0.0,True,optimal,optimal
+rxn06023_c0,CoA:apo-[acyl-carrier-protein] pantetheinephosphotransferase,0.0,0.0018626154046140675,False,optimal,optimal
+rxn06038_c0,(3R)-3-Hydroxyacyl-CoA:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn06094_c0,Dextrin 6-alpha-D-glucanohydrolase,0.0,-0.0,True,optimal,optimal
+rxn06096_c0,"1,4-alpha-D-Glucan:orthophosphate alpha-D-glucosyltransferase",0.0,-0.0,True,optimal,optimal
+rxn06208_c0,N-Acyl-D-glucosamine 2-epimerase,0.0,-0.0,True,optimal,optimal
+rxn06217_c0,"1,2-diacyl-sn-glycerol acylhydrolase",0.0,-0.0,True,optimal,optimal
+rxn06252_c0,Alditol:NAD+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn06253_c0,Alditol:NADP+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn06280_c0,L-Tyrosine:tRNA(Tyr) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06282_c0,S-Alkyl-L-cysteine alkylthiol-lyase (deaminating),0.0,-0.0,True,optimal,optimal
+rxn06300_c0,L-Alanine:tRNA(Ala) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06403_c0,D-Glucoside glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn06404_c0,RS-CH2-CH(NH3+)COO- thiol-lyase (deaminating),0.0,-0.0,True,optimal,optimal
+rxn06432_c0,L-Arginine:tRNA(Arg) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06433_c0,L-Aspartate:tRNAAsn ligase (AMP-forming),0.0,7.124999999999828,False,optimal,optimal
+rxn06434_c0,L-Asparagine:tRNA(Asn) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06435_c0,L-Cysteine:tRNA(Cys) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06437_c0,L-Glutamine:tRNA(Gln) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06438_c0,glycine:tRNA(Gly) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06439_c0,L-Histidine:tRNA(His) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06440_c0,L-Isoleucine:tRNA(Ile) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06441_c0,L-Leucine:tRNA(Leu) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06443_c0,L-Methionine:tRNAMet ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06444_c0,L-Phenylalanine:tRNA(Ala) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06445_c0,L-proline:tRNA(Pro) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06446_c0,L-Serine:tRNA(Ser) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06447_c0,L-Threonine:tRNA(Thr) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06448_c0,L-Tryptophan -tRNA(Trp) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06449_c0,L-Valine:tRNAVal ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06485_c0,tRNA-guanine:queuine tRNA-ribosyltransferase,0.0,-0.0,True,optimal,optimal
+rxn06493_c0,dihydrolipoylprotein:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn06556_c0,Dodecanoyl-[acyl-carrier-protein] hydrolase,0.0,14.25,False,optimal,optimal
+rxn06630_c0,ATP:deoxynucleoside-phosphate phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn06672_c0,biotin-carboxyl-carrier-protein:carbon-dioxide ligase (ADP-forming),0.0,-0.0,True,optimal,optimal
+rxn06701_c0,"alpha-galactosidase, putative / melibiase, putative / alpha-D-galactoside galactohydrolase, putative",0.0,-0.0,True,optimal,optimal
+rxn06751_c0,glycosyl hydrolase family 35 protein,0.0,-0.0,True,optimal,optimal
+rxn06820_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,0.0,-0.0,True,optimal,optimal
+rxn06823_c0,Cyanoglycoside glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn06882_c0,10-Formyltetrahydrofolyl L-glutamate:L-glutamate gamma-ligase (ADP-forming),0.0,-0.0,True,optimal,optimal
+rxn06936_c0,L-Aspartate:tRNA(Asp) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06937_c0,L-glutamate:tRNA(Glu) ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn06991_c0,GcpE protein; nuclear gene for chloroplast product,0.0,-0.0,True,optimal,optimal
+rxn07225_c0,diamine:2-oxoglutarate aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn07456_c0,R07641,0.0,5.2571428571428545,False,optimal,optimal
+rxn08014_c0,myristate-[acyl-carrier-protein] ligase,0.0,14.250000000002162,False,optimal,optimal
+rxn08020_c0,laurate-[acyl-carrier-protein] ligase,0.0,14.2500000000001,False,optimal,optimal
+rxn08021_c0,acyl-[acyl-carrier-protein] synthetase  (n-C10:0),0.0,14.250000000000142,False,optimal,optimal
+rxn08022_c0,RXN-5741.c,0.0,14.250000000000428,False,optimal,optimal
+rxn08043_c0,pyruvate:2-oxobutanoate acetaldehydetransferase (decarboxylating),0.0,18.083333333333677,False,optimal,optimal
+rxn08062_c0,Na+/Acetate symport (periplasm),-1000.0,1000.0,False,optimal,optimal
+rxn08094_c0,2-Oxoglutarate dehydrogenase complex,0.0,3.3676975945017666,False,optimal,optimal
+rxn08097_c0,L-alanine transport via ABC system (periplasm),0.0,37.99999999999988,False,optimal,optimal
+rxn08126_c0,Amylomaltase (maltotriose),0.0,-0.0,True,optimal,optimal
+rxn08127_c0,Amylomaltase (maltotetraose),0.0,-0.0,True,optimal,optimal
+rxn08128_c0,Amylomaltase (maltopentaose),0.0,-0.0,True,optimal,optimal
+rxn08129_c0,Amylomaltase (maltohexaose),0.0,-0.0,True,optimal,optimal
+rxn08141_c0,L-arabinose transport via proton antiport (periplasm),0.0,43.00000000000003,False,optimal,optimal
+rxn08154_c0,L-arginine transport out via proton antiport (cytoplasm to periplasm),0.0,43.000000000000114,False,optimal,optimal
+rxn08160_c0,L-asparagine transport via ABC system (periplasm),0.0,37.999999999998415,False,optimal,optimal
+rxn08168_c0,L-aspartate : fumarate oxidoreductase (deaminating),0.0,-0.0,True,optimal,optimal
+rxn08173_c0,F(1)-ATPase,0.0,85.99999999999943,False,optimal,optimal
+rxn08196_c0,TRANS-RXN0-244.cp,-37.99999999999962,21.499999999999996,False,optimal,optimal
+rxn08239_c0,Cobalt (Co+2) ABC transporter (periplasm),0.0,56.999999999998145,False,optimal,optimal
+rxn08240_c0,cobalt (Co+2) transport out via proton antiport (periplasm),-56.999999999998145,17.199999999999985,False,optimal,optimal
+rxn08280_c0,RXN0-3.cp,0.0,21.500000000000092,False,optimal,optimal
+rxn08335_c0,(S)-dihydroorotate:quinone oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn08336_c0,dihydroorotic acid (menaquinone-8),0.0,2.413793103448425,False,optimal,optimal
+rxn08350_c0,D-lactate transport via proton symport (periplasm),-33.66666666667317,-0.0,False,optimal,optimal
+rxn08352_c0,R08210,-1000.0,-0.0,False,optimal,optimal
+rxn08433_c0,R08158,0.0,14.250000000000007,False,optimal,optimal
+rxn08434_c0,R08159,0.0,14.25,False,optimal,optimal
+rxn08438_c0,R08157,0.0,14.250000000000004,False,optimal,optimal
+rxn08448_c0,fatty-acid-CoA ligase (decanoate transport via vectoral Co-A coupling),0.0,-0.0,True,optimal,optimal
+rxn08449_c0,fatty-acid-CoA ligase (dodecanoate transport via vectoral Co-A coupling),0.0,-0.0,True,optimal,optimal
+rxn08450_c0,fatty-acid-CoA ligase (tetradecanoate transport via vectoral Co-A coupling),0.0,-0.0,True,optimal,optimal
+rxn08451_c0,fatty-acid-CoA ligase (tetradecenoate transport via vectoral Co-A coupling),0.0,-0.0,True,optimal,optimal
+rxn08452_c0,fatty-acid-CoA ligase (hexadecanoate transport via vectoral Co-A coupling),0.0,-0.0,True,optimal,optimal
+rxn08453_c0,fatty-acid-CoA ligase (hexadecenoate transport via vectoral Co-A coupling),0.0,-0.0,True,optimal,optimal
+rxn08454_c0,fatty-acid-CoA ligase (octadecanoate transport via vectoral Co-A coupling),0.0,-0.0,True,optimal,optimal
+rxn08455_c0,fatty-acid-CoA ligase (octadecenoate transport via vectoral Co-A coupling),0.0,-0.0,True,optimal,optimal
+rxn08456_c0,fatty-acid-CoA ligase (hexanoate transport via vectoral Co-A coupling),0.0,-0.0,True,optimal,optimal
+rxn08457_c0,fatty-acid-CoA ligase (octanoate transport via vectoral Co-A coupling),0.0,-0.0,True,optimal,optimal
+rxn08473_c0,Transport of Fe2+,-38.00000000000003,43.0000000000015,False,optimal,optimal
+rxn08474_c0,RXN0-6.cp,0.0,43.000000000000085,False,optimal,optimal
+rxn08527_c0,fumarate reductase,0.0,4.242424242422697,False,optimal,optimal
+rxn08528_c0,fumarate reductase,0.0,0.0018626154046144994,False,optimal,optimal
+rxn08535_c0,Fructose transport via PEP:Pyr PTS (f6p generating) (periplasm),0.0,19.999999999999886,False,optimal,optimal
+rxn08582_c0,aldose-1-epimerase,-1000.0,1000.0,False,optimal,optimal
+rxn08598_c0,GDPPYPHOSKIN-RXN.c,0.0,14.250000000000117,False,optimal,optimal
+rxn08605_c0,"1,4-alpha-glucan branching enzyme (glycogen -> bglycogen)",0.0,-0.0,True,optimal,optimal
+rxn08647_c0,ATP:(R)-glycerate 2-phosphotransferase,0.0,16.750000000000046,False,optimal,optimal
+rxn08661_c0,glycine transport in via sodium symport (periplasm),-1000.0,1000.0,False,optimal,optimal
+rxn08715_c0,Mercury (Hg+2) ABC transporter (periplasm),0.0,-0.0,True,optimal,optimal
+rxn08742_c0,TRANS-RXN-181A.cp,0.0,-0.0,True,optimal,optimal
+rxn08752_c0,Na+/myo-inositol symporter (periplasm),-1000.0,1000.0,False,optimal,optimal
+rxn08756_c0,isopentenyl-diphosphate:NAD+ oxidoreductase,0.0,1000.0,False,optimal,optimal
+rxn08762_c0,K(+)-importing ATPase,0.0,21.499999999999986,False,optimal,optimal
+rxn08764_c0,ketol-acid reductoisomerase (2-Acetolactate),-1000.0,1000.0,False,optimal,optimal
+rxn08854_c0,Lysine transporter,-40.00000000000101,42.99999999998987,False,optimal,optimal
+rxn08857_c0,Lysyl-tRNA synthetase,0.0,-0.0,True,optimal,optimal
+rxn08877_c0,TRANS-RXN0-504.cp,0.0,-0.0,True,optimal,optimal
+rxn08890_c0,"murein D,D-carboxypeptidase (murein5px4p) (periplasm)",0.0,-0.0,True,optimal,optimal
+rxn08891_c0,"murein D,D-carboxypeptidase (murein5px4px4p) (periplasm)",0.0,-0.0,True,optimal,optimal
+rxn08892_c0,"murein D,D-carboxypeptidase (murein5p5p) (periplasm)",0.0,-0.0,True,optimal,optimal
+rxn08893_c0,"murein D,D-carboxypeptidase (murein5p4p) (periplasm)",0.0,-0.0,True,optimal,optimal
+rxn08894_c0,"murein D,D-carboxypeptidase (murein5p3p) (periplasm)",0.0,-0.0,True,optimal,optimal
+rxn08900_c0,FAD-dependent malate dehydrogenase,0.0,-0.0,True,optimal,optimal
+rxn08901_c0,Malate dehydrogenase (menaquinone 8 as acceptor),0.0,4.242424242424008,False,optimal,optimal
+rxn08924_c0,Mg2+-importing ATPase,0.0,0.0030639180863301922,False,optimal,optimal
+rxn08981_c0,nicotinic acid mononucleotide pyrophosphorylase,0.0,5.700000000000041,False,optimal,optimal
+rxn08989_c0,Nickle (Ni+2) ABC transporter (periplasm),0.0,56.99999999999983,False,optimal,optimal
+rxn08990_c0,nickle (Ni+2) transport out via proton antiport (periplasm),-56.99999999999984,17.199999999999804,False,optimal,optimal
+rxn09010_c0,5'-nucleotidase (dIMP) (periplasm),0.0,-0.0,True,optimal,optimal
+rxn09115_c0,heme-transporting ATPase,0.0,14.249999999999998,False,optimal,optimal
+rxn09176_c0,polyphosphate kinase,0.0,28.500000000000018,False,optimal,optimal
+rxn09177_c0,(R)-4'-Phosphopantothenate:L-cysteine ligase,0.0,1.0,False,optimal,optimal
+rxn09247_c0,RXN0-4083.cp,-1000.0,1000.0,False,optimal,optimal
+rxn09272_c0,"fumarate reductase complex (i.e. FRD, involved in anaerobic respiration, repressed in aerobic respiration)",0.0,-0.0,True,optimal,optimal
+rxn09295_c0,NAD(P) transhydrogenase (periplasm),0.0,43.00000000000001,False,optimal,optimal
+rxn09304_c0,TRANS-RXN-244.cp,0.0,42.99999999999979,False,optimal,optimal
+rxn09306_c0,L-threonine  via sodium symport (periplasm),-1000.0,1000.0,False,optimal,optimal
+rxn09388_c0,Zn2+-exporting ATPase,0.0,57.000000000000014,False,optimal,optimal
+rxn09389_c0,TRANS-RXN0-200.cp,-57.000000000000014,17.199999999999726,False,optimal,optimal
+rxn09399_c0,"1,4-alpha-glucan branching enzyme",0.0,-0.0,True,optimal,optimal
+rxn09417_c0,Succinic dehydrogenase,0.0,-0.0,True,optimal,optimal
+rxn09444_c0,octanoyl-CoA ligase,0.0,-0.0,True,optimal,optimal
+rxn09447_c0,fatty-acid--CoA ligase (octadecynoate),0.0,-0.0,True,optimal,optimal
+rxn09449_c0,acyl-coenzyme A ligase,0.0,0.017778777763215788,False,optimal,optimal
+rxn09452_c0,acyl-coenzyme A ligase,0.0,-0.0,True,optimal,optimal
+rxn09453_c0,RXN-13614.c,0.0,-0.0,True,optimal,optimal
+rxn09456_c0,R08163,0.0,0.01777877776322489,False,optimal,optimal
+rxn09658_c0,TRANS-RXNAVI-26524.ce.brachyexp.SUCROSE_SUCROSE,0.0,-0.0,True,optimal,optimal
+rxn09673_c0,TRANS-RXNAVI-26524.ce.brachyexp.CPD-3609_CPD-3609,-38.0,-0.0,False,optimal,optimal
+rxn09681_c0,D-fructose transport in via proton symport,-20.00000000000204,-0.0,False,optimal,optimal
+rxn09690_c0,TRANS-RXNBWI-115637.ce.maizeexp.CYS_CYS,-36.666666666666664,23.50000000000001,False,optimal,optimal
+rxn09886_c0,cysteine synthase (Selenide),0.0,-0.0,True,optimal,optimal
+rxn09889_c0,"dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)",0.0,-0.0,True,optimal,optimal
+rxn09948_c0,O-succinylhomoserine lyase (methanethiol),0.0,11.352941176470642,False,optimal,optimal
+rxn09952_c0,alpha-amylase,0.0,-0.0,True,optimal,optimal
+rxn09975_c0,1-octanal dehydrogenase (NAD+),0.0,-0.0,True,optimal,optimal
+rxn09978_c0,beta-glucosidase (methyl-alpha-D-glucoside),0.0,-0.0,True,optimal,optimal
+rxn09979_c0,beta-glucosidase,0.0,-0.0,True,optimal,optimal
+rxn09989_c0,Maltodextrin glucosidase (dextrin),0.0,-0.0,True,optimal,optimal
+rxn10019_c0,fatty-acid--CoA ligase (Iso-C16:1),0.0,-0.0,True,optimal,optimal
+rxn10020_c0,fatty-acid--CoA ligase (anteiso-C17:1),0.0,-0.0,True,optimal,optimal
+rxn10021_c0,fatty-acid--CoA ligase (Iso-C17:1),0.0,-0.0,True,optimal,optimal
+rxn10053_c0,phosphoribosylaminoimidazole carboxylase (ATP-dependent),0.0,1.730650154798764,False,optimal,optimal
+rxn10056_c0,NAD kinase (GTP),0.0,28.50000000000078,False,optimal,optimal
+rxn10057_c0,NAD kinase (dATP),0.0,19.99999999999982,False,optimal,optimal
+rxn10058_c0,NAD kinase (dGTP),0.0,20.0,False,optimal,optimal
+rxn10059_c0,NAD kinase (dCTP),0.0,-0.0,True,optimal,optimal
+rxn10060_c0,NAD kinase (dTTP),0.0,28.499999999999922,False,optimal,optimal
+rxn10138_c0,Succinate transport via ABC system,0.0,-0.0,True,optimal,optimal
+rxn10344_c0,Lead (Pb+2) ABC transporter,0.0,-0.0,True,optimal,optimal
+rxn10363_c0,glycogen phosphorylase,0.0,-0.0,True,optimal,optimal
+rxn10404_c0,fatty-acid--CoA ligase (Iso-C14:0),0.0,-0.0,True,optimal,optimal
+rxn10405_c0,fatty-acid--CoA ligase (anteiso-C15:0),0.0,-0.0,True,optimal,optimal
+rxn10406_c0,fatty-acid--CoA ligase (Iso-C15:0),0.0,-0.0,True,optimal,optimal
+rxn10407_c0,fatty-acid--CoA ligase (Iso-C16:0),0.0,-0.0,True,optimal,optimal
+rxn10409_c0,fatty-acid--CoA ligase (Iso-C17:0),0.0,-0.0,True,optimal,optimal
+rxn10432_c0,R08198,0.0,-0.0,True,optimal,optimal
+rxn10447_c0,calcium transport via ABC system,0.0,14.249999999999378,False,optimal,optimal
+rxn10453_c0,cadmium transport in via ABC system,0.0,21.49999999999939,False,optimal,optimal
+rxn10481_c0,Copper transport via ABC system,0.0,14.250000000000327,False,optimal,optimal
+rxn10558_c0,H+/K+ gastric/non-gastric P-ATPase and ABC ATPase,0.0,28.500000000000085,False,optimal,optimal
+rxn10578_c0,Na+/K+-exchanging ATPase,0.0,28.50000000000001,False,optimal,optimal
+rxn10594_c0,"ribose 1,5-bisphosphate isomerase",0.0,-0.0,True,optimal,optimal
+rxn10619_c0,fumarate reductase,0.0,4.242424242426399,False,optimal,optimal
+rxn10818_c0,L-lactate transport out via proton antiport,0.0,43.00000000000178,False,optimal,optimal
+rxn10820_c0,TRANS-RXN-188.ce,-1000.0,1000.0,False,optimal,optimal
+rxn10822_c0,L-arabinose transport via ABC system,0.0,37.9999999999991,False,optimal,optimal
+rxn10832_c0,CoA transporter,-0.999999999999942,-1.0231815394945443e-12,False,optimal,optimal
+rxn10833_c0,ATP phosphohydrolase (disaccharide-importing),0.0,-0.0,True,optimal,optimal
+rxn10839_c0,ATP phosphohydrolase (disaccharide-importing),0.0,37.99999999999978,False,optimal,optimal
+rxn10852_c0,6-phospho-beta-galactosidase,0.0,-0.0,True,optimal,optimal
+rxn10862_c0,ATP phosphohydrolase (polar-amino-acid-importing),0.0,37.99999999999988,False,optimal,optimal
+rxn10883_c0,ATP phosphohydrolase (polar-amino-acid-importing),0.0,38.000000000000036,False,optimal,optimal
+rxn10985_c0,MDH4,0.0,4.242424242422942,False,optimal,optimal
+rxn11007_c0,TMDSf,0.0,-0.0,True,optimal,optimal
+rxn11040_c0,RXN-3341.c,0.0,14.909090909090791,False,optimal,optimal
+rxn11140_c0,rxn11140,0.0,-0.0,True,optimal,optimal
+rxn11208_c0,methionine aminotransferase,-1000.0,1000.0,False,optimal,optimal
+rxn11245_c0,RXN-13158.c,0.0,15.071428571428587,False,optimal,optimal
+rxn11334_c0,rxn11334,0.0,0.9567821994008657,False,optimal,optimal
+rxn11381_c0,BHBDCLOS-RXN.c,0.0,-0.0,True,optimal,optimal
+rxn11409_c0,TDPFUCACTRANS-RXN.c,0.0,-0.0,True,optimal,optimal
+rxn11551_c0,galactitol:NAD+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn11552_c0,galactitol:NADP+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn11567_c0,"beta-D-Galactosyl-1,4-beta-D-glucosylceramide galactohydrolase",0.0,-0.0,True,optimal,optimal
+rxn11569_c0,geranoyl-CoA:carbon-dioxide ligase (ADP-forming),0.0,-0.0,True,optimal,optimal
+rxn11587_c0,Digalactosylceramide galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn11609_c0,Digalactosyl-diacylglycerol galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn11612_c0,D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D- galactosyl-D-glucosylceramide galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn11731_c0,L-arginine:pyruvate aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn11732_c0,R08198,0.0,-0.0,True,optimal,optimal
+rxn11759_c0,5-fluorouridine monophosphate:diphosphate phospho-alpha-D-ribosyl-transferase,0.0,-0.0,True,optimal,optimal
+rxn11768_c0,6-thioinosine 5'-monophosphate:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn11771_c0,inosine triphosphate pyrophosphatase,0.0,-0.0,True,optimal,optimal
+rxn11772_c0,6-thioxanthine 5'-monophosphate:L-glutamine amido-ligase (AMP-forming),0.0,-0.0,True,optimal,optimal
+rxn11809_c0,alcophosphamide:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn11834_c0,"2-phenyl-1,3-propanediol monocarbamate:NAD+ oxidoreductase",0.0,-0.0,True,optimal,optimal
+rxn11838_c0,"4-hydroxy-5-phenyltetrahydro-1,3-oxazin-2-one:NAD+ oxidoreductase",0.0,-0.0,True,optimal,optimal
+rxn11875_c0,didemethylcitalopram:oxygen oxidoreductase(deaminating)(flavin-containing),0.0,-0.0,True,optimal,optimal
+rxn12038_c0,Citalopram:oxygen oxidoreductase(deaminating)(flavin-containing),0.0,-0.0,True,optimal,optimal
+rxn12039_c0,Demethylcitalopram:oxygen oxidoreductase(deaminating)(flavin-containing),0.0,-0.0,True,optimal,optimal
+rxn12188_c0,R08548,0.0,23.00000000000003,False,optimal,optimal
+rxn12193_c0,3-isopropylmalate dehydratase,-1000.0,1000.0,False,optimal,optimal
+rxn12204_c0,"alpha-D-glucose 1,6-phosphomutase",-1000.0,1000.0,False,optimal,optimal
+rxn12234_c0,octanal dehydrogenase,0.0,1000.0,False,optimal,optimal
+rxn12282_c0,RXN-9644.c,0.0,-0.0,True,optimal,optimal
+rxn12365_c0,transport of lactate [extraorganism-cytosol](secondary symport),0.0,-0.0,True,optimal,optimal
+rxn12366_c0,transport of d-lactate [extraorganism-cytosol](secondary symport),0.0,-0.0,True,optimal,optimal
+rxn12368_c0,transport of uracil [extraorganism-cytosol](secondary symport),0.0,-0.0,True,optimal,optimal
+rxn12377_c0,transport of 4-aminobutyrate [extraorganism-cytosol](secondary symport),0.0,-0.0,True,optimal,optimal
+rxn12427_c0,transport of guanosine [extraorganism-cytosol](secondary symport),0.0,-0.0,True,optimal,optimal
+rxn12451_c0,transport of l-proline [extraorganism-cytosol](secondary symport),0.0,-0.0,True,optimal,optimal
+rxn12456_c0,transport of l-threonine [cytosol-extraorganism](secondary antiport),0.0,-0.0,True,optimal,optimal
+rxn12459_c0,transport of l-tyrosine [extraorganism-cytosol](secondary symport),0.0,-0.0,True,optimal,optimal
+rxn12504_c0,transport of fe+2 [extraorganism-cytosol](secondary symport),0.0,-0.0,True,optimal,optimal
+rxn12510_c0,ATP:pantothenate 4'-phosphotransferase,0.0,1.0,False,optimal,optimal
+rxn12512_c0,(R)-4'-Phosphopantothenate:L-cysteine ligase,0.0,1.0,False,optimal,optimal
+rxn12529_c0,TRANS-RXNAVI-26524.ce.brachyexp.GLYCEROL_GLYCEROL,0.0,86.00000000001619,False,optimal,optimal
+rxn12532_c0,TRANS-RXNAVI-26524.ce.brachyexp.XYLITOL_XYLITOL,0.0,-0.0,True,optimal,optimal
+rxn12554_c0,Taurine transport via proton symport,0.0,-0.0,True,optimal,optimal
+rxn12574_c0,D-Arabinose transport via proton symport,-38.00000000000102,-0.0,False,optimal,optimal
+rxn12587_c0,TRANS-RXNAVI-26524.ce.brachyexp.MANNITOL_MANNITOL,-38.0,-0.0,False,optimal,optimal
+rxn12649_c0,"5,6,7,8-tetrahydrofolate:NADP+ oxidoreductase",0.0,1000.0,False,optimal,optimal
+rxn12670_c0,L-Arginine pyruvate transaminase,0.0,-0.0,True,optimal,optimal
+rxn12767_c0,(3R)-3-Hydroxyacyl-CoA:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn12768_c0,(R)-Hydroxyacyl-CoA:NADP oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn12769_c0,(3R)-3-Hydroxyacyl-CoA:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn12770_c0,(3R)-3-Hydroxyacyl-CoA:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn12771_c0,(3R)-3-Hydroxyacyl-CoA:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn12778_c0,adenine phosphoribosyltransferase,0.0,-0.0,True,optimal,optimal
+rxn12897_c0,urea carboxylase,0.0,-0.0,True,optimal,optimal
+rxn13203_c0,3-Methyl-2-oxobutanoate decarboxylase,0.0,-0.0,True,optimal,optimal
+rxn13209_c0,RXN-7692.c,0.0,-0.0,True,optimal,optimal
+rxn13224_c0,"aldehyde dehydrogenase (isobutyl alcohol, NAD)",0.0,-0.0,True,optimal,optimal
+rxn13229_c0,L-asparagine transport in via proton antiport (vacuolar),0.0,42.999999999999936,False,optimal,optimal
+rxn13251_c0,Fumarate dependent DHORD,0.0,2.413793103448211,False,optimal,optimal
+rxn13314_c0,L-histidine transport in via proton antiport (vacuolar),0.0,42.99999999999339,False,optimal,optimal
+rxn13321_c0,L-isoleucine transport in via proton antiport (vacuolar),0.0,43.000000000000114,False,optimal,optimal
+rxn13339_c0,L-leucine transport in via proton antiport (vacuolar),0.0,43.00000000000085,False,optimal,optimal
+rxn13360_c0,NADP transporter,0.0,0.9063640048655088,False,optimal,optimal
+rxn13411_c0,L-tyrosine transport in via proton antiport (vacuolar),0.0,42.99999999999839,False,optimal,optimal
+rxn13660_c0,D-Alanine-Sodium symp or ter,-1000.0,1000.0,False,optimal,optimal
+rxn13706_c0,succinate dehydrogenase (menaquinol 7:0 proton),0.0,-0.0,True,optimal,optimal
+rxn13707_c0,succinate dehydrogenase (methylmenaquinol 7: 0proton),0.0,-0.0,True,optimal,optimal
+rxn13753_c0,NADH-Ubiquinone Oxid or eductase (Na+ translocating),0.0,-0.0,True,optimal,optimal
+rxn13766_c0,ATP synthase (three protons for one ATP),-114.0000000000045,-0.0,False,optimal,optimal
+rxn13773_c0,Isopentenyl phosphate isomerase,0.0,-0.0,True,optimal,optimal
+rxn13794_c0,4-Aminobutyrate transport via ABC system,0.0,38.0,False,optimal,optimal
+rxn13823_c0,RXN-9030.c,0.0,-0.0,True,optimal,optimal
+rxn13849_c0,D-mannose transport via ABC system,0.0,-0.0,True,optimal,optimal
+rxn13853_c0,TRANS-RXNAVI-26732.ce.brachyexp.MANNITOL_MANNITOL,0.0,38.000000000000014,False,optimal,optimal
+rxn14054_c0,trans-3-Chloro-2-propene-1-ol:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn14063_c0,2-dehydro-L-idonate:NADP+ 5-oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn14089_c0,cis-3-chloro-2-propene-1-ol:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn14120_c0,"5,6,7,8-tetrahydrofolate:NAD+ oxidoreductase",-1000.0,-0.0,False,optimal,optimal
+rxn14157_c0,butanoyl-CoA:carbon-dioxide ligase (ADP-forming),0.0,-0.0,True,optimal,optimal
+rxn14167_c0,2-Aminobut-2-enoate aminohydrolase (spontaneous),0.0,13.117647058823513,False,optimal,optimal
+rxn14260_c0,sn-glycerol-1-phosphate phosphohydrolase,0.0,-0.0,True,optimal,optimal
+rxn14359_c0,L-methionine methanethiol-lyase,0.0,13.11764705882349,False,optimal,optimal
+rxn15007_c0,cellobiose glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15010_c0,maltose glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15011_c0,maltose glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15021_c0,pyruvate:pyruvate acetaldehydetransferase (decarboxylating),-18.08333333333337,-0.0,False,optimal,optimal
+rxn15022_c0,Isocitrate:NADP+ oxidoreductase (decarboxylating),0.0,12.199999999999548,False,optimal,optimal
+rxn15023_c0,Isocitrate:NADP+ oxidoreductase (decarboxylating),0.0,12.20000000000016,False,optimal,optimal
+rxn15033_c0,cellobiose glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15035_c0,D-glucose aldose-ketose-isomerase,-1000.0,1000.0,False,optimal,optimal
+rxn15058_c0,ITP:D-glucose 6-phosphotransferase,0.0,25.166666666666668,False,optimal,optimal
+rxn15059_c0,ITP:D-glucose 6-phosphotransferase,0.0,25.16666666666685,False,optimal,optimal
+rxn15060_c0,D-fructose-6-phosphate D-erythrose-4-phosphate-lyase (adding phosphate; acetyl-phosphate-forming),0.0,29.99999999999985,False,optimal,optimal
+rxn15063_c0,CTP:D-fructose-6-phosphate 1-phosphotransferase,0.0,19.999999999999936,False,optimal,optimal
+rxn15064_c0,L-glutamine:D-fructose-6-phosphate isomerase (deaminating),-1000.0,1000.0,False,optimal,optimal
+rxn15065_c0,UTP:D-fructose-6-phosphate 1-phosphotransferase,0.0,20.0,False,optimal,optimal
+rxn15066_c0,ITP:D-fructose-6-phosphate 1-phosphotransferase,0.0,33.49999999999855,False,optimal,optimal
+rxn15067_c0,sucrose glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15068_c0,sucrose glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15069_c0,sucrose alpha-glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15072_c0,D-glucose-6-phosphate:NADP+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn15074_c0,R06113,0.0,-0.0,True,optimal,optimal
+rxn15081_c0,ATP:D-fructose 6-phosphotransferase,0.0,25.166666666665552,False,optimal,optimal
+rxn15084_c0,ITP:D-fructose 6-phosphotransferase,0.0,25.166666666666625,False,optimal,optimal
+rxn15087_c0,alpha-D-Glucose aldose-ketose-isomerase,-25.166666666666753,-0.0,False,optimal,optimal
+rxn15108_c0,ATP:D-ribose-5-phosphate diphosphotransferase,0.0,14.250000000000714,False,optimal,optimal
+rxn15114_c0,D-ribose-5-phosphate aldose-ketose-isomerase,-1000.0,1000.0,False,optimal,optimal
+rxn15115_c0,"D-Ribose 1,5-phosphomutase",-1000.0,1000.0,False,optimal,optimal
+rxn15116_c0,"beta-D-fructose-1,6-bisphosphate D-glyceraldehyde-3-phosphate-lyase (glycerone-phosphate-forming)",-30.333333333333353,33.50000000000017,False,optimal,optimal
+rxn15118_c0,Uridine ribohydrolase,-1000.0,1000.0,False,optimal,optimal
+rxn15120_c0,ATP:D-galactose 1-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn15121_c0,ATP:D-galactose 1-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn15122_c0,galactitol:NAD+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn15123_c0,galactitol:NAD+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn15126_c0,galactitol:NADP+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn15127_c0,galactitol:NADP+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn15136_c0,Lactose galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15138_c0,alpha-D-galactosidase,0.0,-0.0,True,optimal,optimal
+rxn15139_c0,melibiose galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15140_c0,Raffinose galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15141_c0,Raffinose galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15142_c0,Galactosylglycerol galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15143_c0,Galactosylglycerol galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15148_c0,dATP:D-glucose 6-phosphotransferase,0.0,20.000000000000234,False,optimal,optimal
+rxn15149_c0,dATP:D-glucose 6-phosphotransferase,0.0,20.000000000002196,False,optimal,optimal
+rxn15150_c0,dATP:D-fructose 6-phosphotransferase,0.0,20.00000000000038,False,optimal,optimal
+rxn15152_c0,R06093,0.0,-0.0,True,optimal,optimal
+rxn15153_c0,R06093,0.0,-0.0,True,optimal,optimal
+rxn15161_c0,N-acetyl-D-glucosamine 2-epimerase,0.0,-0.0,True,optimal,optimal
+rxn15162_c0,Adenosine ribohydrolase,-1000.0,14.250000000000153,False,optimal,optimal
+rxn15165_c0,N-ribosylnicotinamide ribohydrolase,0.0,7.125000000000043,False,optimal,optimal
+rxn15166_c0,L-cystathionine L-homocysteine-lyase (deaminating; pyruvate-forming),0.0,17.928571428571445,False,optimal,optimal
+rxn15171_c0,citrate hydroxymutase,-1000.0,1000.0,False,optimal,optimal
+rxn15172_c0,citrate hydroxymutase,-1000.0,1000.0,False,optimal,optimal
+rxn15173_c0,ATP:D-mannose 6-phosphotransferase,0.0,-5.684341886080802e-14,True,optimal,optimal
+rxn15174_c0,ATP:D-mannose 6-phosphotransferase,0.0,8.526512829121202e-14,True,optimal,optimal
+rxn15175_c0,ITP:D-mannose 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn15176_c0,ITP:D-mannose 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn15179_c0,Epimelibiose galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15180_c0,dATP:D-mannose 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn15181_c0,dATP:D-mannose 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn15189_c0,xylitol:NADP+ oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn15190_c0,xylitol:NADP+ oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn15191_c0,D-xylose aldose-ketose-isomerase,-1000.0,1000.0,False,optimal,optimal
+rxn15192_c0,D-xylose aldose-ketose-isomerase,-1000.0,1000.0,False,optimal,optimal
+rxn15225_c0,Maltose alpha-D-glucosylmutase,0.0,-0.0,True,optimal,optimal
+rxn15226_c0,Maltose alpha-D-glucosylmutase,0.0,-0.0,True,optimal,optimal
+rxn15228_c0,Sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase,-1000.0,1000.0,False,optimal,optimal
+rxn15229_c0,Guanosine ribohydrolase,-1000.0,1000.0,False,optimal,optimal
+rxn15230_c0,Lactose galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15238_c0,L-Arabitol:NAD+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn15239_c0,L-Arabitol:NAD+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn15240_c0,L-Arabitol:NADP+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn15241_c0,L-Arabitol:NADP+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn15244_c0,L-Arabinose aldose-ketose-isomerase,-1000.0,1000.0,False,optimal,optimal
+rxn15245_c0,L-Arabinose aldose-ketose-isomerase,-1000.0,1000.0,False,optimal,optimal
+rxn15248_c0,Inosine ribohydrolase,-1000.0,14.249999999999998,False,optimal,optimal
+rxn15249_c0,ATP:alpha-D-glucose 6-phosphotransferase,0.0,25.166666666666618,False,optimal,optimal
+rxn15271_c0,beta-D-Fructose 6-phosphate:D-glyceraldehyde-3-phosphate glycolaldehyde transferase,-1000.0,1000.0,False,optimal,optimal
+rxn15278_c0,Isocitrate:NADP+ oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn15279_c0,Isocitrate:NADP+ oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn15280_c0,isocitrate hydro-lyase (cis-aconitate-forming),-1000.0,1000.0,False,optimal,optimal
+rxn15281_c0,isocitrate hydro-lyase (cis-aconitate-forming),-1000.0,1000.0,False,optimal,optimal
+rxn15284_c0,ATP:D-glucosamine 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn15287_c0,ITP:D-glucosamine 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn15288_c0,dATP:D-glucosamine 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn15296_c0,6-Phospho-D-gluconate hydro-lyase(2-dehydro-3-deoxy-6-phospho-D-gluconate-forming),0.0,-0.0,True,optimal,optimal
+rxn15307_c0,Xanthosine ribohydrolase,-1000.0,1000.0,False,optimal,optimal
+rxn15317_c0,"(S)-Propane-1,2-diol:NAD+ oxidoreductase",-1000.0,1000.0,False,optimal,optimal
+rxn15319_c0,N-D-ribosylpurine ribohydrolase,-1000.0,1000.0,False,optimal,optimal
+rxn15341_c0,Lactaldehyde:NAD+ 1-oxidoreductase,-1000.0,1000.0,False,optimal,optimal
+rxn15345_c0,"Propane-1,2-diol:NAD+ 1-oxidoreductase",-1000.0,1000.0,False,optimal,optimal
+rxn15346_c0,"Propane-1,2-diol:NAD+ 1-oxidoreductase",-1000.0,1000.0,False,optimal,optimal
+rxn15364_c0,alpha-D-Glucose 6-phosphate ketol-isomerase,-1000.0,1000.0,False,optimal,optimal
+rxn15373_c0,(R)-Acetoin:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn15379_c0,Melibiitol galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15380_c0,Melibiitol galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15395_c0,O-Succinyl-L-homoserine succinate-lyase (adding cysteine),0.0,17.92857142857164,False,optimal,optimal
+rxn15402_c0,R06099,0.0,-0.0,True,optimal,optimal
+rxn15417_c0,R06152,0.0,-0.0,True,optimal,optimal
+rxn15418_c0,R06152,0.0,-0.0,True,optimal,optimal
+rxn15435_c0,ATP:D-fructose 6-phosphotransferase,0.0,-0.0,True,optimal,optimal
+rxn15444_c0,Digalactosylceramide galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15445_c0,Digalactosylceramide galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15466_c0,"(R)-2,3-Dihydroxy-3-methylbutanoate:NADP+ oxidoreductase (isomerizing)",-17.41666666666677,-0.0,False,optimal,optimal
+rxn15467_c0,"(R)-2,3-Dihydroxy-3-methylbutanoate hydro-lyase",0.0,17.41666666666659,False,optimal,optimal
+rxn15468_c0,Digalactosyl-diacylglycerol galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15469_c0,Digalactosyl-diacylglycerol galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15483_c0,R06010,0.0,-0.0,True,optimal,optimal
+rxn15484_c0,R06010,0.0,-0.0,True,optimal,optimal
+rxn15491_c0,(S)-2-Acetolactate pyruvate-lyase (carboxylating),-17.41666666666665,1000.0,False,optimal,optimal
+rxn15493_c0,ATP:D-fructose-6-phosphate 1-phosphotransferase,0.0,33.49999999999963,False,optimal,optimal
+rxn15494_c0,"beta-D-Fructose 1,6-bisphosphate 1-phosphohydrolase",0.0,30.33333333333482,False,optimal,optimal
+rxn15500_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,0.0,11.352941176470836,False,optimal,optimal
+rxn15501_c0,Cyanoglycoside glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15502_c0,Cyanoglycoside glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15505_c0,beta-D-Glucosyl-2-coumarinate glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15506_c0,beta-D-Glucosyl-2-coumarinate glucohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15507_c0,L-erythro-4-hydroxyglutamate:2-oxoglutarate aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn15511_c0,(S)-2-Acetolactate methylmutase,-1000.0,17.41666666666663,False,optimal,optimal
+rxn15513_c0,Gal-beta1->3GalNAc-beta1->4Gal-beta1->4Glc-beta1->1'Cer galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15514_c0,Gal-beta1->3GalNAc-beta1->4Gal-beta1->4Glc-beta1->1'Cer galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn15541_c0,R06096,0.0,-0.0,True,optimal,optimal
+rxn15575_c0,R06077,0.0,-0.0,True,optimal,optimal
+rxn15582_c0,R06098,0.0,-0.0,True,optimal,optimal
+rxn15584_c0,R06102,0.0,-0.0,True,optimal,optimal
+rxn15588_c0,lactase,0.0,-0.0,True,optimal,optimal
+rxn15590_c0,R06158,0.0,-0.0,True,optimal,optimal
+rxn15594_c0,R06185,0.0,-0.0,True,optimal,optimal
+rxn15630_c0,sedoheptulose-7-phosphate:D-glyceraldehyde-3-phosphate glycolaldehydetransferase,-1000.0,1000.0,False,optimal,optimal
+rxn15640_c0,D-Sedoheptulose-7-phosphate:thiamin diphosphate glycolaldehydetransferase,-1000.0,1000.0,False,optimal,optimal
+rxn15667_c0,monoacylglycerol acylhydrolase,0.0,-0.0,True,optimal,optimal
+rxn15668_c0,1D-myo-inositol-3-phosphate lyase (isomerizing),-1000.0,1000.0,False,optimal,optimal
+rxn15669_c0,1D-myo-inositol-3-phosphate lyase (isomerizing),-1000.0,1000.0,False,optimal,optimal
+rxn15694_c0,enzyme N6-(dihydrolipoyl)lysine:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn15726_c0,R08198,0.0,-0.0,True,optimal,optimal
+rxn15964_c0,"5,10-methylenetetrahydromethanopterin:glycine hydroxymethyltransferase",0.0,-0.0,True,optimal,optimal
+rxn16106_c0,"(2Z,6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesylcistransferase (adding 7 isopentenyl units)",0.0,-0.0,True,optimal,optimal
+rxn16206_c0,5-methyltetrahydropteroyltri-L-glutamate:L-selenohomocysteine Se-methyltransferase,0.0,-0.0,True,optimal,optimal
+rxn16213_c0,methaneselenol:NADP+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn16620_c0,LysW-gamma-L-lysine:2-oxoglutarate 6-aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn18552_c0,ATP phosphohydrolase (disaccharide-importing),0.0,-0.0,True,optimal,optimal
+rxn18865_c0,Clavulanate-exporting ATPase,0.0,-0.0,True,optimal,optimal
+rxn19124_c0,fatty aldehyde dehydrogenase,-1000.0,-0.0,False,optimal,optimal
+rxn19850_c0,alpha-glycerophosphatase,0.0,-0.0,True,optimal,optimal
+rxn25123_c0,alkaline phosphatase,0.0,-0.0,True,optimal,optimal
+rxn25837_c0,RXN-9787.c,0.0,-0.0,True,optimal,optimal
+rxn25838_c0,RXN-9788.c,0.0,-0.0,True,optimal,optimal
+rxn26477_c0,(E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase,-0.03854508734701444,-0.0,False,optimal,optimal
+rxn27289_c0,thiazole synthase,0.0,-0.0,True,optimal,optimal
+rxn27812_c0,Dihydroorotate dehydrogenase,0.0,-0.0,True,optimal,optimal
+rxn31278_c0,"glutamine synthetase, putative",0.0,-0.0,True,optimal,optimal
+rxn31279_c0,"glutamine synthetase, putative",0.0,-0.0,True,optimal,optimal
+rxn31363_c0,"aldehyde dehydrogenase, putative / antiquitin, putative",0.0,28.499999999999964,False,optimal,optimal
+rxn33160_c0,3-Butyn-1-al:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn33589_c0,Fructose-bisphosphatase,0.0,30.333333333333275,False,optimal,optimal
+rxn33862_c0,Ribulose Phosphate 3 Epimerase,0.0,-0.0,True,optimal,optimal
+rxn33927_c0,myo-Inositol Synthesis,0.0,8.142857142856501,False,optimal,optimal
+rxn34724_c0,RXN-9548.d,0.0,-0.0,True,optimal,optimal
+rxn35560_c0,Lactose galactohydrolase,0.0,-0.0,True,optimal,optimal
+rxn38862_c0,ALDEHYDE DEHYDROGENASE,0.0,-0.0,True,optimal,optimal
+rxn44493_c0,2-iminopropanoate deaminase,0.0,-0.0,True,optimal,optimal
+rxn48462_c0,sulfoquinovose isomerase,0.0,-0.0,True,optimal,optimal
+rxn90003_c0,2-Fucosyllactose ABC transporter,0.0,-0.0,True,optimal,optimal
+rxn90005_c0,ATP phosphohydrolase (lbeta-lactose importing),0.0,-0.0,True,optimal,optimal
+rxn90009_c0,Lacto-N-biose ABC transporter,0.0,-0.0,True,optimal,optimal
+rxn90013_c0,Anaerobic Adenosine desoxribonucleotide-triphosphate reductase,0.0,0.005996917833169473,False,optimal,optimal
+rxn90014_c0,Anaerobic Cytosine desoxribonucleotide-triphosphate reductase,0.0,0.017665999503457548,False,optimal,optimal
+rxn90015_c0,Anaerobic Guanine desoxribonucleotide-triphosphate reductase,0.0,0.011672777305669436,False,optimal,optimal
+rxn90016_c0,Anaerobic Uridine desoxribonucleotide-triphosphate reductase,0.0,0.005996917833169867,False,optimal,optimal
+rxn90024_c0,maltodextrin glucosidase,0.0,-0.0,True,optimal,optimal
+rxn90034_c0,alpha or beta glcosidase (acting on maltotridecaose),0.0,-0.0,True,optimal,optimal
+rxn90035_c0,alpha or beta glcosidase (acting on maltooctaose),0.0,-0.0,True,optimal,optimal
+rxn90036_c0,alpha or beta glcosidase (acting on maltohexose),0.0,-0.0,True,optimal,optimal
+rxn90037_c0,alpha or beta glcosidase (acting on maltoundecaose),0.0,-0.0,True,optimal,optimal
+rxn90038_c0,"gamma-amylase (exo, acting on n=27 starch)",0.0,-0.0,True,optimal,optimal
+rxn90039_c0,"gamma-amylase (exo, acting on maltotridecaose)",0.0,-0.0,True,optimal,optimal
+rxn90040_c0,"gamma-amylase (exo, acting on Maltoundecaose)",0.0,-0.0,True,optimal,optimal
+rxn90041_c0,"gamma-amylase (exo, acting on Maltooctaose)",0.0,-0.0,True,optimal,optimal
+rxn90042_c0,"gamma-amylase (exo, acting on Maltohexaose)",0.0,-0.0,True,optimal,optimal
+rxn90043_c0,"Pullulanase (exo, acting on n27-Starch with 3 alpha1-4 bonds)",0.0,-0.0,True,optimal,optimal
+rxn90044_c0,"Pullulanase (exo, acting on n19-Starch with 3 alpha1-4 bonds)",0.0,-0.0,True,optimal,optimal
+rxn90045_c0,"gamma-amylase (exo, acting on n=19 starch)",0.0,-0.0,True,optimal,optimal
+rxn90055_c0,Na+ F1FO ATP synthase,0.0,85.99999999999793,False,optimal,optimal
+rxn90112_c0,Extracellular cellulose degradation,0.0,-0.0,True,optimal,optimal
+rxn90114_c0,Extracellular xylooligosaccharide degradation,0.0,-0.0,True,optimal,optimal
+rxn90115_c0,asparaginyl-tRNA synthase (glutamine-hydrolysing),0.0,7.1249999999999885,False,optimal,optimal
+rxn90123_c0,"debranching enzyme, glycogen α-1,6-glucanohydrolase",0.0,-0.0,True,optimal,optimal
+rxn05319_c0,TRANS-RXNBWI-115401.ce.maizeexp.OH_OH,-41.625000000000796,17.294117647052264,False,optimal,optimal
+rxn05467_c0,CO2 transporter via diffusion,-43.33333333333266,18.75,False,optimal,optimal
+rxn05468_c0,TRANS-RXNAVI-26568.ce,0.0,-0.0,True,optimal,optimal
+rxn05481_c0,5-Methylthio-D-ribose transport in/out via proton symport,0.0,-0.0,True,optimal,optimal
+rxn05634_c0,propionate transp or t in via proton symp or t,-12.157894736842078,-0.0,False,optimal,optimal
+rxn05667_c0,TRANS-RXN4LZ-7041.ce,0.0,-0.0,True,optimal,optimal
+rxn07919_c0,"(R)-Propane-1,2-diol transport via diffusion (extracellular to periplasm)",0.0,-0.0,True,optimal,optimal
+rxn07921_c0,"(S)-Propane-1,2-diol transport via diffusion (extracellular to periplasm)",0.0,-0.0,True,optimal,optimal
+rxn08032_c0,acetaldehyde transport via diffusion (extracellular to periplasm),0.0,46.0,False,optimal,optimal
+rxn08276_c0,Cyanide transport via diffusion (extracellular to periplasm),0.0,-0.0,True,optimal,optimal
+rxn08358_c0,Dimethyl sulfoxide transport via diffusion (extracellular to periplasm),0.0,-0.0,True,optimal,optimal
+rxn08359_c0,Dimethyl sulfide transport via diffusion (extracellular to periplasm),0.0,-0.0,True,optimal,optimal
+rxn08428_c0,ethanol transport via diffusion (extracellular to periplasm),0.0,38.33333333333337,False,optimal,optimal
+rxn08461_c0,formaldehyde transport via diffusion (extracellular to periplasm),0.0,-0.0,True,optimal,optimal
+rxn08635_c0,Glyceraldehyde transport via diffusion (extracellular to periplasm),0.0,14.09999999999994,False,optimal,optimal
+rxn08685_c0,hydrogen peroxide transport via diffusion (external),0.0,-0.0,True,optimal,optimal
+rxn08689_c0,h2s transport (periplasm),0.0,2.0,False,optimal,optimal
+rxn08691_c0,hydrogen transport via diffusion (extracellular to periplasm),0.0,-0.0,True,optimal,optimal
+rxn08751_c0,Indole transport via diffusion (extracellular to periplasm),0.0,2.9152542372881376,False,optimal,optimal
+rxn08956_c0,molybdate transport via diffusion (extracellular to periplasm),0.0,28.49999999999999,False,optimal,optimal
+rxn08966_c0,nitrious oxide transport via diffusion (extracellular to periplasm),0.0,-0.0,True,optimal,optimal
+rxn09008_c0,nitric oxide transport via diffusion (extracellular to periplasm),0.0,-0.0,True,optimal,optimal
+rxn09169_c0,propanal transport via diffusion (extracellular to periplasm),0.0,-0.0,True,optimal,optimal
+rxn09317_c0,Trimethylamine N-oxide transport via diffusion (extracellular to periplasm),0.0,-0.0,True,optimal,optimal
+rxn10470_c0,Methanethiol Transport,-4.0,-0.0,False,optimal,optimal
+rxn10471_c0,Methane Transport,0.0,-0.0,True,optimal,optimal
+rxn10480_c0,CO transporter via diffusion,0.0,-0.0,True,optimal,optimal
+rxn10570_c0,Methanol diffusion,0.0,-0.0,True,optimal,optimal
+rxn10577_c0,"Nitrogen exchange, diffusion",0.0,-0.0,True,optimal,optimal
+rxn31154_c0,R_Ex16,0.0,-0.0,True,optimal,optimal
+rxn39175_c0,TrnRxn_cpd03662,0.0,-0.0,True,optimal,optimal
+rxn90022_c0,Acetone diffusion,0.0,-0.0,True,optimal,optimal
+rxn90023_c0,,0.0,-0.0,True,optimal,optimal
+rxn90147_c0,skatole diffusion,0.0,-0.0,True,optimal,optimal
+EX_cpd00001_e0,H2O-e0 Exchange,-17.294117647059693,41.624999999999766,False,optimal,optimal
+EX_cpd03047_e0,Taurocholate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00210_e0,Taurine-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00526_e0,Cholate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd03247_e0,Glycochenodeoxycholate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00033_e0,Glycine-e0 Exchange,-2.0,17.777777777777164,False,optimal,optimal
+EX_cpd01663_e0,Chenodiol-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd03246_e0,Taurochenodeoxycholate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd01318_e0,Glycocholate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00009_e0,Phosphate-e0 Exchange,-3.051074179164982,-0.0,False,optimal,optimal
+EX_cpd00023_e0,L-Glutamate-e0 Exchange,0.0,10.82352941176473,False,optimal,optimal
+EX_cpd00027_e0,D-Glucose-e0 Exchange,-10.0,-0.0,False,optimal,optimal
+EX_cpd00028_e0,Heme-e0 Exchange,0.0,0.8484848484848498,False,optimal,optimal
+EX_cpd00030_e0,Mn2+-e0 Exchange,-0.0030639180863294207,-0.0,False,optimal,optimal
+EX_cpd00034_e0,Zn2+-e0 Exchange,-0.0030639180863298965,-0.0,False,optimal,optimal
+EX_cpd00039_e0,L-Lysine-e0 Exchange,-0.1577774410112879,13.071428571428356,False,optimal,optimal
+EX_cpd00041_e0,L-Aspartate-e0 Exchange,-2.0,21.0,False,optimal,optimal
+EX_cpd00048_e0,Sulfate-e0 Exchange,-0.003063918086330449,-0.0,False,optimal,optimal
+EX_cpd00051_e0,L-Arginine-e0 Exchange,0.0,3.2237196765498957,False,optimal,optimal
+EX_cpd00053_e0,L-Glutamine-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00064_e0,Ornithine-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00080_e0,Glycerol-3-phosphate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00107_e0,L-Leucine-e0 Exchange,0.0,15.07142857142857,False,optimal,optimal
+EX_cpd00108_e0,Galactose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00118_e0,Putrescine-e0 Exchange,0.0,10.823529411764735,False,optimal,optimal
+EX_cpd00119_e0,L-Histidine-e0 Exchange,-0.03994365595219941,2.2517623363544605,False,optimal,optimal
+EX_cpd00129_e0,L-Proline-e0 Exchange,0.0,12.199999999999704,False,optimal,optimal
+EX_cpd00149_e0,Co2+-e0 Exchange,-0.0030639180863299494,-0.0,False,optimal,optimal
+EX_cpd00154_e0,Xylose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00156_e0,L-Valine-e0 Exchange,0.0,16.83333333333337,False,optimal,optimal
+EX_cpd00161_e0,L-Threonine-e0 Exchange,0.0,14.0,False,optimal,optimal
+EX_cpd00179_e0,Maltose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00224_e0,L-Arabinose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00244_e0,Ni2+-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00264_e0,Spermidine-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00268_e0,H2S2O3-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00305_e0,Thiamin-e0 Exchange,-0.0018626154046140159,-0.0,False,optimal,optimal
+EX_cpd00322_e0,L-Isoleucine-e0 Exchange,0.0,12.176470588236223,False,optimal,optimal
+EX_cpd10516_e0,fe3-e0 Exchange,-0.00306391808633028,-0.0,False,optimal,optimal
+EX_cpd00067_e0,H+-e0 Exchange,-21.0,48.000000000006736,False,optimal,optimal
+EX_cpd00092_e0,Uracil-e0 Exchange,0.0,5.257142857144729,False,optimal,optimal
+EX_cpd00311_e0,Guanosine-e0 Exchange,0.0,1.477858559154015,False,optimal,optimal
+EX_cpd00035_e0,L-Alanine-e0 Exchange,0.0,33.66666666666695,False,optimal,optimal
+EX_cpd00971_e0,Na+-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00060_e0,L-Methionine-e0 Exchange,-2.0,2.0,False,optimal,optimal
+EX_cpd00084_e0,L-Cysteine-e0 Exchange,-2.0,-0.0,False,optimal,optimal
+EX_cpd00069_e0,L-Tyrosine-e0 Exchange,0.0,4.04444444444442,False,optimal,optimal
+EX_cpd00066_e0,L-Phenylalanine-e0 Exchange,0.0,4.333333333333371,False,optimal,optimal
+EX_cpd00054_e0,L-Serine-e0 Exchange,0.0,19.391304347808333,False,optimal,optimal
+EX_cpd00013_e0,NH3-e0 Exchange,-36.80000000000032,8.0,False,optimal,optimal
+EX_cpd00029_e0,Acetate-e0 Exchange,-5.0,52.500000000000064,False,optimal,optimal
+EX_cpd00024_e0,2-Oxoglutarate-e0 Exchange,0.0,10.166666666666625,False,optimal,optimal
+EX_cpd00117_e0,D-Alanine-e0 Exchange,0.0,33.666666666666686,False,optimal,optimal
+EX_cpd00132_e0,L-Asparagine-e0 Exchange,0.0,9.200000000000257,False,optimal,optimal
+EX_cpd00063_e0,Ca2+-e0 Exchange,-0.003063918086327363,-0.0,False,optimal,optimal
+EX_cpd01012_e0,Cd2+-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00058_e0,Cu2+-e0 Exchange,-0.0030639180863300582,-0.0,False,optimal,optimal
+EX_cpd10515_e0,Fe2+-e0 Exchange,-0.8484848484848987,-0.0,False,optimal,optimal
+EX_cpd00082_e0,D-Fructose-e0 Exchange,0.0,10.0,False,optimal,optimal
+EX_cpd00281_e0,GABA-e0 Exchange,0.0,12.20000000000016,False,optimal,optimal
+EX_cpd00276_e0,GLUM-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00222_e0,GLCN-e0 Exchange,0.0,9.499999999999982,False,optimal,optimal
+EX_cpd00100_e0,Glycerol-e0 Exchange,0.0,16.588235294079595,False,optimal,optimal
+EX_cpd00121_e0,L-Inositol-e0 Exchange,0.0,8.142857142857563,False,optimal,optimal
+EX_cpd00205_e0,K+-e0 Exchange,-0.0030639180863545334,-0.0,False,optimal,optimal
+EX_cpd00208_e0,LACT-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00159_e0,L-Lactate-e0 Exchange,-10.0,23.666666666666124,False,optimal,optimal
+EX_cpd01262_e0,Amylotriose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00138_e0,D-Mannose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd11574_e0,Molybdate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd01132_e0,Puromycin-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00382_e0,Melitose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00396_e0,L-Rhamnose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd01030_e0,Salicin-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00550_e0,D-Serine-e0 Exchange,0.0,19.39130434782607,False,optimal,optimal
+EX_cpd00065_e0,L-Tryptophan-e0 Exchange,0.0,2.774193548384556,False,optimal,optimal
+EX_cpd00366_e0,Ribitol-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00221_e0,D-Lactate-e0 Exchange,0.0,33.666666666666686,False,optimal,optimal
+EX_cpd01107_e0,Decanoate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd01741_e0,ddca-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd03847_e0,Myristic acid-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd15298_e0,tetradecenoate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00214_e0,Palmitate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd15237_e0,hexadecenoate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd01080_e0,ocdca-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd15269_e0,octadecenoate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd01113_e0,Hexanoate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd03846_e0,octanoate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00531_e0,Hg2+-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00573_e0,L-Idonate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd01399_e0,Maltotetraose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00254_e0,Mg-e0 Exchange,-0.0030639180863308406,-0.0,False,optimal,optimal
+EX_cpd00076_e0,Sucrose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00036_e0,Succinate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd04097_e0,Pb-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00185_e0,D-Arabinose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00010_e0,CoA-e0 Exchange,0.0,1.000000000001819,False,optimal,optimal
+EX_cpd15494_e0,Maltoheptaose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00794_e0,TRHL-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd11976_e0,Maltodextrin-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00133_e0,Nicotinamide-e0 Exchange,-0.956782199400939,-0.0,False,optimal,optimal
+EX_cpd00306_e0,Xylitol-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00314_e0,D-Mannitol-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00006_e0,NADP-e0 Exchange,0.0,0.906364004864372,False,optimal,optimal
+EX_cpd11451_e0,mql7-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd11606_e0,Menaquinone 7-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd17026_e0,methymenaquinol 7-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd17027_e0,methylmenaquinone 7-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd01133_e0,Stachyose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd04065_e0,Clavulanate-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd90001_e0,2-Fucosyllactose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd01354_e0,beta-Lactose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd03808_e0,Lacto-N-biose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd90008_e0,Maltotridecaose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd90005_e0,Maltooctaose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd90007_e0,Maltohexaose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd90006_e0,Maltoundecaose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd90003_e0,"starch (n=27, 3xalpha1-6, 23xalpha1-4)-e0 Exchange",0.0,-0.0,True,optimal,optimal
+EX_cpd90004_e0,"starch (n=19, 3xalpha1-6, 15xalpha1-4)-e0 Exchange",0.0,-0.0,True,optimal,optimal
+EX_cpd90020_e0,Cellulose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd90022_e0,Xylan-b-1-4-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00155_e0,glycogen-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00011_e0,CO2-e0 Exchange,-18.75,43.33333333333249,False,optimal,optimal
+EX_cpd00007_e0,O2-e0 Exchange,0.0,-1.258034612156304e-13,True,optimal,optimal
+EX_cpd01981_e0,5-Methylthio-D-ribose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00141_e0,Propionate-e0 Exchange,1.9939605522267811e-13,12.157894736842088,False,optimal,optimal
+EX_cpd00073_e0,Urea-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd01861_e0,"(R)-1,2-Propanediol-e0 Exchange",0.0,-0.0,True,optimal,optimal
+EX_cpd00453_e0,"1,2-Propanediol-e0 Exchange",0.0,-0.0,True,optimal,optimal
+EX_cpd00071_e0,Acetaldehyde-e0 Exchange,0.0,46.00000000000055,False,optimal,optimal
+EX_cpd00150_e0,HCN-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd08021_e0,DMSO-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00450_e0,Methyl sulfide-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00363_e0,Ethanol-e0 Exchange,0.0,38.33333333333333,False,optimal,optimal
+EX_cpd00055_e0,Formaldehyde-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00448_e0,D-Glyceraldehyde-e0 Exchange,0.0,14.100000000000541,False,optimal,optimal
+EX_cpd00025_e0,H2O2-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00239_e0,H2S-e0 Exchange,0.0,2.0,False,optimal,optimal
+EX_cpd11640_e0,H2-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00359_e0,indol-e0 Exchange,0.0,2.9152542372884227,False,optimal,optimal
+EX_cpd00659_e0,Nitrous oxide-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00418_e0,NO-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00371_e0,Propanal-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00811_e0,(CH3)3NO-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00324_e0,MTTL-e0 Exchange,0.0,4.0,False,optimal,optimal
+EX_cpd01024_e0,Methane-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00204_e0,CO-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00116_e0,Methanol-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00528_e0,N2-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd11632_e0,hn-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd03662_e0,n-Butanol-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00178_e0,Acetone-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd01618_e0,"1,3-Propanediol-e0 Exchange",0.0,-0.0,True,optimal,optimal
+EX_cpd05228_e0,Skatole-e0 Exchange,0.0,-0.0,True,optimal,optimal
+bio1,Bacterial Gram-positive biomass reaction,0.0,0.4200339392434574,False,optimal,optimal
+DM_cpd01042_c0,Sink needed for p-cresol,0.0,-0.0,True,optimal,optimal
+EX_cpd00099_e0,Cl- Exchange,-0.0030639180863305743,-0.0,False,optimal,optimal
+EX_cpd00220_e0,Riboflavin Exchange,-0.003725230809227707,-0.0,False,optimal,optimal
+EX_cpd00644_e0,Pantothenate Exchange,-1.0,-0.0,False,optimal,optimal
+EX_cpd11416_c0,EX cpd11416 c0,0.0,0.42003393924328253,False,optimal,optimal
+rxn00029_c0,5-aminolevulinate hydro-lyase (adding 5-aminolevulinate and cyclizing; porphobilinogen-forming),0.0,3.3939393939398745,False,optimal,optimal
+rxn00060_c0,porphobilinogen:(4-[2-carboxyethyl]-3-[carboxymethyl]pyrrol-2-yl)methyltransferase (hydrolysing),0.0,0.8484848484848406,False,optimal,optimal
+rxn00102_c0,carbonate hydro-lyase (carbon-dioxide-forming),-28.49999999999973,-0.0,False,optimal,optimal
+rxn00122_c0,ATP:FMN adenylyltransferase,0.0,14.249999999999961,False,optimal,optimal
+rxn00137_c0,"Adenosine 3',5'-bisphosphate 3'-phosphohydrolase",0.0,0.0018626154046140215,False,optimal,optimal
+rxn00143_c0,S-Adenosyl-L-homocysteine homocysteinylribohydrolase,0.0,0.005587846213842109,False,optimal,optimal
+rxn00213_c0,UTP:alpha-D-glucose-1-phosphate uridylyltransferase,0.0,12.133333333333434,False,optimal,optimal
+rxn00224_c0,protoheme ferro-lyase (protoporphyrin-forming),0.0,0.8484848484849503,False,optimal,optimal
+rxn00297_c0,UDP-N-acetyl-D-glucosamine 2-epimerase,0.0,0.0023845202381447884,False,optimal,optimal
+rxn00324_c0,glycolate:NADP+ oxidoreductase,0.0,0.0055878462138436655,False,optimal,optimal
+rxn00351_c0,gamma-L-glutamyl-L-cysteine:glycine ligase (ADP-forming),0.0,0.0018626154046139454,False,optimal,optimal
+rxn00392_c0,ATP:riboflavin 5'-phosphotransferase,0.0,28.500000000000053,False,optimal,optimal
+rxn00440_c0,ATP:thiamine diphosphotransferase,0.0,0.0018626154046140122,False,optimal,optimal
+rxn00470_c0,L-ornithine carboxy-lyase (putrescine-forming),0.0,10.823529411763428,False,optimal,optimal
+rxn00490_c0,L-arogenate hydro-lyase (decarboxylating; L-phenylalanine-forming),0.0,4.333333333333371,False,optimal,optimal
+rxn00599_c0,succinyl-CoA:glycine C-succinyltransferase (decarboxylating),0.0,6.787878787879221,False,optimal,optimal
+rxn00621_c0,CTP:sn-glycerol-3-phosphate cytidylyltransferase,0.0,0.33621735357844,False,optimal,optimal
+rxn00646_c0,L-glutamate:L-cysteine gamma-ligase (ADP-forming),0.0,0.0018626154046138613,False,optimal,optimal
+rxn00929_c0,L-Proline:NAD+ 5-oxidoreductase,-12.199999999999042,-0.0,False,optimal,optimal
+rxn00938_c0,Nicotinamide amidohydrolase,3.410605131648481e-13,7.124999999989985,False,optimal,optimal
+rxn00979_c0,glycolaldehyde:NAD+ oxidoreductase,0.0,0.005587846213841992,False,optimal,optimal
+rxn01207_c0,4-methyl-2-oxopentanoate:NAD+ oxidoreductase (CoA-mehtylpropanoylating),0.0,0.03555755552644377,False,optimal,optimal
+rxn01213_c0,GPPSYN-RXN,0.0,0.004520070888605452,False,optimal,optimal
+rxn01256_c0,Chorismate pyruvatemutase,0.0,4.333333333333313,False,optimal,optimal
+rxn01258_c0,chorismate hydroxymutase,0.0,0.0037252308092264545,False,optimal,optimal
+rxn01268_c0,Prephenate:NAD+ oxidoreductase(decarboxylating),0.0,4.04444444444437,False,optimal,optimal
+rxn01466_c0,Geranyl-diphosphate:isopentenyl-diphosphate geranyltrans-transferase,0.0,0.004520070888612209,False,optimal,optimal
+rxn01512_c0,ATP:dTDP phosphotransferase,0.0,28.499999999999027,False,optimal,optimal
+rxn01548_c0,guanosine:phosphate alpha-D-ribosyltransferase,-1000.0,1000.0,False,optimal,optimal
+rxn01684_c0,purine-nucleoside:phosphate ribosyltransferase,-1000.0,1000.0,False,optimal,optimal
+rxn02011_c0,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:(L)-meso-2,6-diaminoheptanedioate gamma-ligase (ADP-forming)",0.0,0.0007948400793816198,False,optimal,optimal
+rxn02213_c0,3-Dehydroquinate hydro-lyase,0.0,4.3333333333331305,False,optimal,optimal
+rxn02264_c0,Hydroxymethylbilane hydro-lyase(cyclizing),0.0,0.8484848484848482,False,optimal,optimal
+rxn02269_c0,(S)-3-methyl-2-oxopentanoate:NAD+ 2-oxidoreductase (CoA-methylbutanoylating),0.0,0.03555755552639238,False,optimal,optimal
+rxn02287_c0,S-adenosyl-L-methionine:uroporphyrin-III C-methyltransferase,0.0,0.0018626154046139883,False,optimal,optimal
+rxn02288_c0,Uroporphyrinogen-III carboxy-lyase,0.0,0.8484848484848445,False,optimal,optimal
+rxn02374_c0,R03314,0.0,12.199999999999987,False,optimal,optimal
+rxn02831_c0,O-Succinylbenzoate:CoA ligase (AMP-forming),0.0,0.003725230809227621,False,optimal,optimal
+rxn02832_c0,"(1R,6R)-6-hydroxy-2-succinylcyclohexa-2,4-diene-1-carboxylate hydrolyase (2-succinylbenzoate-forming)",-0.003725230809227621,-0.0,False,optimal,optimal
+rxn02897_c0,Nicotinate-nucleotide:dimethylbenzimidazole phospho-D-ribosyltransferase,0.0,0.0018626154046135139,False,optimal,optimal
+rxn02898_c0,"O-Succinylbenzoyl-CoA 1,4-dihydroxy-2-naphthoate-lyase",0.0,0.0037252308092280513,False,optimal,optimal
+rxn03150_c0,R04594,0.0,0.0018626154046134415,False,optimal,optimal
+rxn03536_c0,R05221,0.0,0.0018626154046136705,False,optimal,optimal
+rxn03537_c0,R05222,0.0,0.0018626154046138817,False,optimal,optimal
+rxn03538_c0,R05223,0.0,0.001862615404614004,False,optimal,optimal
+rxn03852_c0,"UDP-N-acetyl-D-mannosamine:N-acetyl-beta-D-glucosaminyldiphosphoundecaprenol beta-1,4-N-acetylmannosaminyltransferase",0.0,0.002384520238144688,False,optimal,optimal
+rxn04662_c0,shikimate:NAD+ 3-oxidoreductase,-4.333333333333886,-0.0,False,optimal,optimal
+rxn04704_c0,coproporphyrinogen-III:S-adenosyl-L-methionine oxidoreductase(decarboxylating),0.0,0.8484848484848307,False,optimal,optimal
+rxn05029_c0,ATP:cobinamide Cobeta-adenosyltransferase,0.0,0.001862615404614096,False,optimal,optimal
+rxn05224_c0,Riboflavin permease,0.0,0.0037252308092291355,False,optimal,optimal
+rxn05275_c0,b-ketoacyl synthetase (Iso-C17:0),0.0,0.03555755552644161,False,optimal,optimal
+rxn05276_c0,b-ketoacyl synthetase (Anteiso-C17:0),0.0,0.035557555526439195,False,optimal,optimal
+rxn07441_c0,"LL-2,6-diaminoheptanedioate:2-oxoglutarate aminotransferase",-13.071428571428457,28.49999999998341,False,optimal,optimal
+rxn08040_c0,UDP-N-acetyl-D-glucosamine:undecaprenyl-phosphate N-acetyl-D-glucosamine phosphotransferase,0.0,0.0023845202381430437,False,optimal,optimal
+rxn08088_c0,1-octadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:0),0.0,0.01777877776321759,False,optimal,optimal
+rxn08130_c0,ADOMET-DMK-METHYLTRANSFER-RXN.c,0.0,0.0018626154046135308,False,optimal,optimal
+rxn08233_c0,Chloride/proton antiport,0.0,0.001531959043164964,False,optimal,optimal
+rxn08311_c0,CDP-diacylglycerol synthetase (n-C18:0),0.0,0.01459941744569429,False,optimal,optimal
+rxn08333_c0,"1,4-dihydroxy-2-naphthoate octaprenyltransferase",0.0,0.0037252308092278986,False,optimal,optimal
+rxn09037_c0,"(2E,6E)-farnesyl-diphosphate:isopentenyl-diphosphate farnesyltranstransferase (adding 5 isopentenyl units)",0.0,0.003725230809228154,False,optimal,optimal
+rxn09067_c0,"Phosphatidate phosphatase (periplasmic, n-C18:0)",0.0,0.003179360317526241,False,optimal,optimal
+rxn09106_c0,"phosphatidylglycerol phosphate phosphatase (periplasm, n-C18:0)",0.0,0.010949563084271065,False,optimal,optimal
+rxn09113_c0,Phosphatidylglycerol synthase (n-C18:0),0.0,0.01094956308427444,False,optimal,optimal
+rxn09165_c0,TRANS-RXN-117.cp,0.0,0.9999999999997622,False,optimal,optimal
+rxn09180_c0,protoporphyrinogen oxidase (anaerobic),-3.1147498373621634e-14,0.8484848484849411,False,optimal,optimal
+rxn09202_c0,Phosphatidylserine decarboxylase (n-C18:0),0.0,0.0036498543614235587,False,optimal,optimal
+rxn09210_c0,Phosphatidylserine syntase (n-C18:0),0.0,0.0036498543614243914,False,optimal,optimal
+rxn09345_c0,Undecaprenyl diphosphate synthase,0.0,0.0007948400793816266,False,optimal,optimal
+rxn10191_c0,D-alanine-poly(phosphoribitol) ligase,0.0,0.0007948400793817281,False,optimal,optimal
+rxn10192_c0,CDP-glycerol:poly(glycerophosphate) glycerophosphotransferase,0.0,0.0023845202381448534,False,optimal,optimal
+rxn10193_c0,Poly(glycerol-phosphate) alpha-glucosyltransferase,0.0,0.0007948400793816161,False,optimal,optimal
+rxn10194_c0,Teichoic acid (unsubstituted) export,0.0,0.0007948400793815914,False,optimal,optimal
+rxn10195_c0,Teichoic acid (glucose substituted) export,0.0,0.0007948400793816253,False,optimal,optimal
+rxn10196_c0,Teichoic acid (D-alanine substituted) export,0.0,0.0007948400793817052,False,optimal,optimal
+rxn10197_c0,TECA4S,0.0,0.0007948400793815507,False,optimal,optimal
+rxn10199_c0,Peptidoglycan subunit synthesis,0.0,0.0007948400793816372,False,optimal,optimal
+rxn10204_c0,acyl-CoA:sn-glycerol-3-phosphate 1-O-acyltransferase,0.0,0.017778777763223445,False,optimal,optimal
+rxn10205_c0,isoheptadecanoyl-glycerol-3-phosphate O-acyltransferase,0.0,0.01777877776322015,False,optimal,optimal
+rxn10206_c0,anteisoheptadecanoyl-glycerol-3-phosphate O-acyltransferase,0.0,0.01777877776322029,False,optimal,optimal
+rxn10214_c0,isoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase,0.0,0.01777877776322021,False,optimal,optimal
+rxn10215_c0,anteisoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase,0.0,0.017778777763221003,False,optimal,optimal
+rxn10220_c0,isoheptadecanoyl-phosphatidate cytidylyltransferase,0.0,0.01459941744569392,False,optimal,optimal
+rxn10221_c0,anteisoheptadecanoyl-phosphatidate cytidylyltransferase,0.0,0.014599417445694316,False,optimal,optimal
+rxn10226_c0,isoheptadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase,0.0,0.0036498543614233827,False,optimal,optimal
+rxn10227_c0,anteisoheptadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase,0.0,0.003649854361423267,False,optimal,optimal
+rxn10232_c0,isoheptadecanoyl-phosphatidylserine decarboxylase,0.0,0.003649854361423927,False,optimal,optimal
+rxn10233_c0,anteisoheptadecanoyl-phosphatidylserine decarboxylase,0.0,0.003649854361423505,False,optimal,optimal
+rxn10238_c0,isoheptadecanoyl-phosphatidic acid phosphatase,0.0,0.0031793603175264483,False,optimal,optimal
+rxn10239_c0,anteisoheptadecanoyl-phosphatidic acid phosphatase,0.0,0.0031793603175352745,False,optimal,optimal
+rxn10259_c0,isoheptadecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase,0.0,0.010949563084267184,False,optimal,optimal
+rxn10260_c0,anteisoheptadecanoyl-CDPdiacylglycerol:sn-glycerol-3-phosphate 3-phosphatidyltransferase,0.0,0.010949563084270392,False,optimal,optimal
+rxn10265_c0,isoheptadecanoyl-Phosphatidylglycerophosphate phosphohydrolase,0.0,0.01094956308427463,False,optimal,optimal
+rxn10266_c0,anteisoheptadecanoyl-Phosphatidylglycerophosphate phosphohydrolase,0.0,0.010949563084270178,False,optimal,optimal
+rxn10273_c0,stearoyl-UDP-glucosyltransferase (diglucosyl),0.0,0.003179360317531306,False,optimal,optimal
+rxn10274_c0,isoheptadecanoyl-UDP-glucosyltransferase (diglucosyl),0.0,0.003179360317526403,False,optimal,optimal
+rxn10275_c0,anteisoheptadecanoyl-UDP-glucosyltransferase (diglucosyl),0.0,0.0031793603175226657,False,optimal,optimal
+rxn10282_c0,stearoyl-UDP-glucosyltransferase (monoglucosyl),0.0,0.0031793603175258736,False,optimal,optimal
+rxn10283_c0,isoheptadecanoyl-UDP-glucosyltransferase (monoglucosyl),0.0,0.003179360317526209,False,optimal,optimal
+rxn10284_c0,anteisoheptadecanoyl-UDP-glucosyltransferase (monoglucosyl),0.0,0.003179360317526496,False,optimal,optimal
+rxn10291_c0,"stearoyl-lipoteichoic acid synthesis (n=24), linked, unsubstituted",0.0,0.0031793603175253667,False,optimal,optimal
+rxn10292_c0,"isoheptadecanoyl-lipoteichoic acid synthesis (n=24), linked, unsubstituted",0.0,0.003179360317527243,False,optimal,optimal
+rxn10293_c0,"anteisoheptadecanoyl-lipoteichoic acid synthesis (n=24), linked, unsubstituted",0.0,0.0031793603175264778,False,optimal,optimal
+rxn10300_c0,"stearoyl-lipoteichoic acid synthesis (n=24), linked, glucose substituted",0.0,0.0007948400793816873,False,optimal,optimal
+rxn10301_c0,"isoheptadecanoyl-lipoteichoic acid synthesis (n=24), linked, glucose substituted",0.0,0.0007948400793814828,False,optimal,optimal
+rxn10302_c0,"anteisoheptadecanoyl-lipoteichoic acid synthesis (n=24), linked, glucose substituted",0.0,0.0007948400793816713,False,optimal,optimal
+rxn10309_c0,"stearoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted",0.0,0.000794840079381512,False,optimal,optimal
+rxn10310_c0,"isoheptadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted",0.0,0.0007948400793816211,False,optimal,optimal
+rxn10311_c0,"anteisoheptadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted",0.0,0.0007948400793815996,False,optimal,optimal
+rxn10318_c0,"stearoyl-lipoteichoic acid synthesis (n=24), unlinked, D-alanine substituted",0.0,0.0007948400793814261,False,optimal,optimal
+rxn10319_c0,"isoheptadecanoyl-lipoteichoic acid synthesis (n=24), unlinked, D-alanine substituted",0.0,0.0007948400793816478,False,optimal,optimal
+rxn10320_c0,"anteisoheptadecanoyl-lipoteichoic acid synthesis (n=24), unlinked, D-alanine substituted",0.0,0.000794840079381711,False,optimal,optimal
+rxn10336_c0,stearoyl-cardiolipin synthase,0.0,0.003649854361423502,False,optimal,optimal
+rxn10337_c0,isoheptadecanoyl-cardiolipin synthase,0.0,0.0036498543614235076,False,optimal,optimal
+rxn10338_c0,anteisoheptadecanoyl-cardiolipin synthase,0.0,0.0036498543614234304,False,optimal,optimal
+rxn10626_c0,"2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase",0.0,0.0037252308092277364,False,optimal,optimal
+rxn10954_c0,Fatty acid biosynthesis (n-C18:0),0.0,0.03555755552644037,False,optimal,optimal
+rxn12221_c0,sirohydrochlorin ferrochelatase,0.0,0.001862615404613748,False,optimal,optimal
+rxn13395_c0,sirohydrochlorin dehydrogenase,0.0,0.001862615404614305,False,optimal,optimal
+rxn15947_c0,carboxyspermidine:NADP+ oxidoreductase,0.0,0.0018626154046140276,False,optimal,optimal
+rxn15949_c0,carboxyspermidine carboxy-lyase (spermidine-forming),0.0,0.001862615404614016,False,optimal,optimal
+rxn16140_c0,succinate-semialdehyde:NADP+ oxidoreductase (CoA-acylating),0.0,0.0037252308092284073,False,optimal,optimal
+rxn39250_c0,5-deoxyadenosine phosphorylase,2.3370194668359545e-14,1.6969696969696968,False,optimal,optimal
+rxn39251_c0,S-methyl-5-thioribose-1-phosphate isomerase,0.0,1.6969696969697543,False,optimal,optimal
+rxn39252_c0,5-deoxyribulose-1-phosphate aldolase,0.0,1.6969696969696808,False,optimal,optimal
+rxn90071_c0,methylene tetrahydrofolate reductase (bifurcating),-2.0,-0.0,False,optimal,optimal
+EX_cpd00158_e0,CELB-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd03198_e0,Melibiose-e0 Exchange,0.0,-0.0,True,optimal,optimal
+EX_cpd00588_e0,Sorbitol-e0 Exchange,0.0,10.000000000000455,False,optimal,optimal
+EX_cpd00020_e0,Pyruvate-e0 Exchange,0.0,33.50000000000125,False,optimal,optimal
+EX_cpd00137_e0,Citrate-e0 Exchange,0.0,12.19999999999978,False,optimal,optimal
+EX_cpd00246_e0,Inosine-e0 Exchange,0.0,1.7306501547987632,False,optimal,optimal
+EX_cpd00105_e0,D-Ribose-e0 Exchange,0.0,6.61538461538462,False,optimal,optimal
+EX_cpd00003_e0,NAD-e0 Exchange,0.0,0.9567821994005499,False,optimal,optimal
+EX_cpd00367_e0,Cytidine-e0 Exchange,0.0,0.7551502870651348,False,optimal,optimal
+EX_cpd01217_e0,Xanthosine-e0 Exchange,0.0,1.679939894816093,False,optimal,optimal
+EX_cpd90021_e0,Xylan-b-1-4-e0 Exchange,0.0,-0.0,True,optimal,optimal
+rxn00836_c0,IMP:diphosphate phospho-D-ribosyltransferase,-14.249999999999844,-0.0,False,optimal,optimal
+rxn01137_c0,Adenosine aminohydrolase,0.0,5.777777777778078,False,optimal,optimal
+rxn01484_c0,N-Acetyl-D-glucosamine-6-phosphate amidohydrolase,0.0,28.500000000000323,False,optimal,optimal
+rxn01505_c0,"N-Acetyl-D-glucosamine 1-phosphate 1,6-phosphomutase",-28.500000000000323,-0.0,False,optimal,optimal
+rxn01858_c0,Deoxyadenosine aminohydrolase,0.0,5.777777777777539,False,optimal,optimal
+rxn02222_c0,Indole-3-acetamide amidohydrolase,0.0,-0.0,True,optimal,optimal
+rxn05312_c0,Inorganic phosphate transporter,-57.0,3.0510741791652287,False,optimal,optimal
+rxn09655_c0,TRANS-RXNAVI-26524.ce.brachyexp.TREHALOSE_TREHALOSE,-37.99999999999904,-0.0,False,optimal,optimal
+rxn14126_c0,Z-farnesyl diphosphate synthase,0.0,-0.0,True,optimal,optimal
+rxn29736_c0,TRANS-RXNAVI-26716.ce,0.0,-0.0,True,optimal,optimal
+rxn01446_c0,Deoxyguanosine:orthophosphate ribosyltransferase,0.0,-0.0,True,optimal,optimal
+rxn01985_c0,Deoxyinosine:orthophosphate ribosyltransferase,0.0,5.777777777777914,False,optimal,optimal
+rxn03012_c0,R04336,0.0,-0.0,True,optimal,optimal
+rxn05217_c0,TRANS-RXNBWI-115637.ce.maizeexp.L-ASPARTATE_L-ASPARTATE,-37.33333333333332,2.0,False,optimal,optimal
+rxn09672_c0,TRANS-RXNBWI-115637.ce.maizeexp.MET_MET,-37.33333333333332,2.0,False,optimal,optimal
+rxn14382_c0,L-methionine:2-oxo-acid aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn01275_c0,ATP:D-Gluconate 6-phosphotransferase,0.0,14.90909090907605,False,optimal,optimal
+rxn03674_c0,methylmalonyl-CoA carboxy-lyase,0.0,-0.0,True,optimal,optimal
+rxn05160_c0,monosaccharide-transporting ATPase,0.0,14.250000000000107,False,optimal,optimal
+rxn00500_c0,(R)-Lactate:NAD+ oxidoreductase,-33.66666666666671,-0.0,False,optimal,optimal
+rxn01672_c0,dCTP aminohydrolase,0.0,0.005995663571481244,False,optimal,optimal
+rxn01678_c0,ATP:dUDP phosphotransferase,-0.005996917833169493,14.250000000001709,False,optimal,optimal
+rxn00430_c0,methanol:NAD+ oxidoreductase,-7.436966065327139e-13,-0.0,True,optimal,optimal
+rxn12598_c0,Cellobiose transport via proton symport,0.0,-0.0,True,optimal,optimal
+rxn13392_c0,"putrescine transport in via proton antiport, irreversible",-21.49999999999909,-0.0,False,optimal,optimal
+rxn05612_c0,TRANS-RXNAVI-26524.ce.brachyexp.MELIBIOSE_MELIBIOSE,0.0,-0.0,True,optimal,optimal
+rxn05648_c0,TRANS-RXNAVI-26524.ce.brachyexp.SORBITOL_SORBITOL,-9.999999999999893,-0.0,False,optimal,optimal
+rxn05469_c0,pyruvate reversible transport via proton symport,-33.5,-0.0,False,optimal,optimal
+rxn11943_c0,D-Lysine:2-oxoglutarate aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn00174_c0,malonyl-CoA carboxy-lyase (acetyl-CoA-forming),0.0,28.50000000000099,False,optimal,optimal
+rxn05202_c0,TRANS-RXN-206.ce,0.0,-0.0,True,optimal,optimal
+rxn05211_c0,"Transport of citrate, extracellular",-12.200000000000058,-0.0,False,optimal,optimal
+rxn05316_c0,TRANS-RXNBWI-115572.ce.maizeexp.INOSINE_INOSINE,-1.7306501547987603,-0.0,False,optimal,optimal
+rxn05318_c0,TRANS-RXN-203.ce,0.0,-0.0,True,optimal,optimal
+rxn13361_c0,NAD(+) transport (Peroxisomal membrane),-0.9567821994010046,-0.0,False,optimal,optimal
+rxn00070_c0,glutathione:NAD+ oxidoreductase,0.0,-0.0,True,optimal,optimal
+rxn00407_c0,CTP aminohydrolase,0.0,28.49999999998345,False,optimal,optimal
+rxn00423_c0,acetyl-CoA:L-serine O-acetyltransferase,0.0,15.928571428571416,False,optimal,optimal
+rxn01799_c0,deoxyuridine:orthophosphate 2-deoxy-D-ribosyltransferase,0.0,-0.0,True,optimal,optimal
+rxn02503_c0,"ATP:2-amino-4-hydroxy-6-hydroxymethyl-7,8-dihydropteridine 6'-pyrophosphotransferase",0.0,0.0055856686423957636,False,optimal,optimal
+rxn05680_c0,TRANS-RXNBWI-115572.ce.maizeexp.XANTHOSINE_XANTHOSINE,-1.6799398948159479,-0.0,False,optimal,optimal
+rxn15539_c0,methylmalonyl-CoA carboxy-lyase,0.0,-0.0,True,optimal,optimal
+rxn90113_c0,Extracellular xylan degradation,0.0,-0.0,True,optimal,optimal
+rxn01859_c0,Deoxyadenosine:orthophosphate ribosyltransferase,-5.777777777777774,-0.0,False,optimal,optimal
+rxn12197_c0,gluconolactonase,0.0,14.90909090909082,False,optimal,optimal
+rxn15662_c0,D-glucose:NADP+ 1-oxidoreductase,0.0,14.909090909090713,False,optimal,optimal
+rxn01233_c0,taurine:2-oxoglutarate aminotransferase,0.0,-0.0,True,optimal,optimal
+rxn05644_c0,D-ribose transport out via ABC system,0.0,14.250000000000114,False,optimal,optimal
+rxn10857_c0,cytidine transport in via sodium symport,-0.7551502870652484,-0.0,False,optimal,optimal

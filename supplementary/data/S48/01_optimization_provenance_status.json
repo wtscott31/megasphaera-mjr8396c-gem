@@ -1,0 +1,18 @@
+{
+  "status": "partial_recovery_not_original_optimizer_recovery",
+  "search_scope": "Submitted repo notebooks, scripts and reconstruction provenance. Library recovery attempts failed authorization; no inaccessible sources claimed searched.",
+  "recovered": [
+    "ten reaction-deletion sets and source phenotypes",
+    "wild-type biomass objective EX_cpd11416_c0",
+    "recorded gut-like medium and SBML models",
+    "reaction GPRs and candidate count of one/two deletions"
+  ],
+  "not_recovered": [
+    "original complete candidate universe and KO costs",
+    "original OptKnock inner/outer formulation files",
+    "tilted objective weights and tilt convention",
+    "original MILP feasibility tolerances, solver/version, seed, time limits and proof of optimality",
+    "all reaction-resolved gapfilling decisions"
+  ],
+  "replacement": "Fixed-set retests, global GPR-aware gene deletion tests, and new exhaustive zero-to-two-deletion search in an explicitly defined 10-target universe. New settings are in new_search_settings.json; they are not represented as historical settings."
+}

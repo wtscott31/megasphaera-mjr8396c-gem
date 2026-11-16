@@ -1,0 +1,17 @@
+{
+  "timestamp_utc": "2026-10-26T17:54:15.293591+00:00",
+  "cwd": "/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM",
+  "source_project": "/Users/wtscott/DataspellProjects/MJR8396C_executed_revision_v2",
+  "output": "/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v3",
+  "python": "/usr/local/bin/python3",
+  "version": "3.11.4 (v3.11.4:d2340ef257, Jun  6 2023, 19:15:51) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "machine": "arm64",
+  "disk": {
+    "total": 1995218165760,
+    "used": 541138165760,
+    "free": 1454080000000
+  },
+  "path": "/Applications/ChatGPT.app/Contents/Resources/codex-cli/codex-path:/Users/wtscott/bin:/opt/homebrew/opt/gnu-sed/libexec/gnubin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/pkg/env/global/bin:/Library/Apple/usr/bin:/Applications/Privileges.app/Contents/MacOS:/Library/TeX/texbin:/opt/homebrew/bin:/usr/local/laps:/Users/wtscott/.codex/tmp/arg0-macos/codex-arg0INU3mf:/Applications/ChatGPT.app/Contents/Resources/codex-cli/codex-path:/Users/wtscott/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/override:/Users/wtscott/bin:/opt/homebrew/opt/gnu-sed/libexec/gnubin:/opt/anaconda3/bin:/opt/anaconda3/condabin:/Users/wtscott/Library/Application Support/JetBrains/Toolbox/scripts:/Users/wtscott/.cache/codex-runtimes/codex-primary-runtime/dependencies/bin/fallback:/Applications/ChatGPT.app/Contents/Resources:/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS:/Users/wtscott/Library/Application Support/JetBrains/Toolbox/scripts",
+  "selected_project_environment": "No .venv or .idea in supplied project; dedicated venv created."
+}

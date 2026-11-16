@@ -1,0 +1,10 @@
+{
+  "interpreter": "/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v3/.venv/bin/python",
+  "existing_environment_modified": false,
+  "production_backend_dependencies": "Existing highspy/scipy/numpy/optlang/MICOM; explicit local adapter source",
+  "optional_diagnostics": {
+    "clarabel": "0.11.1",
+    "piqp": "0.6.4"
+  },
+  "vendor_binaries_in_portable_archive": false
+}

@@ -1,0 +1,88 @@
+source_id,description,canonical_files,evidence_class
+S1,medium_definitions_three_media,supplementary/data/S1/01_Table_S1_medium_definitions_three_media.csv,archived reproducible source
+S2,medium_to_exchange_mapping,supplementary/data/S2/01_Table_S2_medium_to_exchange_mapping.csv,archived reproducible source
+S3,MEMOTE_blocked_reactions.tsv,supplementary/data/S3/01_Table_S3A_MEMOTE_blocked_reactions.tsv,archived reproducible source
+S4,reactions_without_GPR.tsv,supplementary/data/S4/01_Table_S4_reactions_without_GPR.tsv,archived reproducible source
+S5,external_benchmark_simulations,supplementary/data/S5/01_Table_S5_external_benchmark_simulations.csv,archived reproducible source
+S6,external_benchmark_interpretation,supplementary/data/S6/01_Table_S6_external_benchmark_interpretation.csv,archived reproducible source
+S7,comparative_genomic_context,supplementary/data/S7/01_Table_S7_comparative_genomic_context.csv,archived reproducible source
+S8,gutSMASH_GEM_literature_triangulation,supplementary/data/S8/01_Table_S8_gutSMASH_GEM_literature_triangulation.csv,archived reproducible source
+S9,three_medium_FVA_90pct,supplementary/data/S9/01_Table_S9_three_medium_FVA_90pct.csv,archived reproducible source
+S10,three_medium_simulation_full,supplementary/data/S10/01_Table_S10_three_medium_simulation_full.csv,archived reproducible source
+S11,carbon_normalized_substrate_screen,supplementary/data/S11/01_Table_S11_carbon_normalized_substrate_screen.csv,archived reproducible source
+S12,amino_acid_leave_one_out_revised,supplementary/data/S12/01_Table_S12_amino_acid_leave_one_out_revised.csv,archived reproducible source
+S13,amino_acid_pair_simulations,supplementary/data/S13/01_Table_S13_amino_acid_pair_simulations.csv,archived reproducible source
+S14,butyrate_production_envelope,supplementary/data/S14/01_Table_S14_butyrate_production_envelope.csv,archived reproducible source
+S15,strain_design_phenotypes_with_wild_type,supplementary/data/S15/01_Table_S15_strain_design_phenotypes_with_wild_type.csv,archived reproducible source
+S16,strain_design_target_frequency,supplementary/data/S16/01_Table_S16_strain_design_target_frequency.csv,archived reproducible source
+S17,wild_type_pfba_key_fluxes,supplementary/data/S17/01_Table_S17_wild_type_pfba_key_fluxes.csv,archived reproducible source
+S18,Figure5_representative_designs,supplementary/data/S18/01_Table_S18_Figure5_representative_designs.csv,archived reproducible source
+S19,Figure5_relative_changes_percent,supplementary/data/S19/01_Table_S19_Figure5_relative_changes_percent.csv,archived reproducible source
+S20,micom_tradeoff_scan,supplementary/data/S20/01_Table_S20_micom_tradeoff_scan.csv,archived source; current native controls in S63-S64
+S21,micom_exchange_classification,supplementary/data/S21/01_Table_S21_micom_exchange_classification.csv,archived source; current native controls in S63-S64
+S22,micom_member_growth_fraction_0.95,supplementary/data/S22/01_Table_S22_micom_member_growth_fraction_0.95.csv,archived source; current native controls in S63-S64
+S23,micom_lactate_scfa_exchange_table,supplementary/data/S23/01_Table_S23_micom_lactate_scfa_exchange_table.csv,archived source; current native controls in S63-S64
+S24,organic_uptake_bound_sensitivity,supplementary/data/S24/01_Table_S24_organic_uptake_bound_sensitivity.csv,archived reproducible source
+S25,selected_exchange_FVA,supplementary/data/S25/01_Table_S25_selected_exchange_FVA.csv;supplementary/data/S25/02_native_COBRA_exchange_FVA.csv,archived reproducible source
+S26,ATPase_closed_medium_and_demand_sensitivity,supplementary/data/S26/01_Table_S26_ATPase_closed_medium_and_demand_sensitivity.csv,archived reproducible source
+S27,biomass_coefficient_sensitivity,supplementary/data/S27/01_Table_S27_biomass_coefficient_sensitivity.csv,archived reproducible source
+S28,straindesign_target_GPR_and_single_KO,supplementary/data/S28/01_Table_S28_straindesign_target_GPR_and_single_KO.csv,archived reproducible source
+S29,retested_selected_reaction_pair_deletions,supplementary/data/S29/01_Table_S29_retested_selected_reaction_pair_deletions.csv,archived reproducible source
+S30,lactate_stereochemistry_inventory,supplementary/data/S30/01_Table_S30_lactate_stereochemistry_inventory.csv,archived reproducible source
+S31,MICOM_reported_flux_abundance_accounting_not_rerun,supplementary/data/S31/01_Table_S31_MICOM_reported_flux_abundance_accounting_not_rerun.csv,archived source; current native controls in S63-S64
+S32,B_adolescentis_monoculture_assumptions,supplementary/data/S32/01_Table_S32_B_adolescentis_monoculture_assumptions.csv,archived reproducible source
+S33,biomass_precursor_inventory,supplementary/data/S33/01_Table_S33_biomass_precursor_inventory.csv,archived reproducible source
+S34,selected_pathway_reaction_FVA_concordance,supplementary/data/S34/01_Table_S34_selected_pathway_reaction_FVA_concordance.csv,archived source; native S68 supersedes old parsed GPR logic
+S35,Model audit,supplementary/data/S35/01_B_adolescentis_22L_all_reaction_balance_GPR.csv;supplementary/data/S35/02_B_adolescentis_22L_blocked_classification.csv;supplementary/data/S35/03_B_adolescentis_22L_full_FVA_gut_like.csv;supplementary/data/S35/04_B_adolescentis_22L_full_FVA_open_exchanges.csv;supplementary/data/S35/05_B_adolescentis_22L_gene_annotation_provenance.csv;supplementary/data/S35/06_B_adolescentis_22L_lactate_energy_pathway_inventory.csv;supplementary/data/S35/07_MJR8396C_all_reaction_balance_GPR.csv;supplementary/data/S35/08_MJR8396C_blocked_classification.csv;supplementary/data/S35/09_MJR8396C_full_FVA_gut_like.csv;supplementary/data/S35/10_MJR8396C_full_FVA_open_exchanges.csv;supplementary/data/S35/11_MJR8396C_gene_annotation_provenance.csv;supplementary/data/S35/12_MJR8396C_lactate_energy_pathway_inventory.csv;supplementary/data/S35/13_model_audit_summary.csv;supplementary/data/S35/14_proton_balance_change_ledger.csv,executed v2 independent engine; retained evidence
+S36,Biomass template mass/composition,supplementary/data/S36/01_template_macromolecular_mass_fractions.csv;supplementary/data/S36/02_template_mass_and_GAM_audit.csv,executed v2 independent engine; retained evidence
+S37,Biomass/maintenance sensitivities,supplementary/data/S37/01_composition_maintenance_uptake_sensitivity.csv,executed v2 independent engine; retained evidence
+S38,Closed-boundary cycles and energy probes,supplementary/data/S38/01_closed_boundary_all_reaction_FVA.csv;supplementary/data/S38/02_closed_system_energy_probes.csv,executed v2 independent engine; retained evidence
+S39,Certified loopless exchange endpoints,supplementary/data/S39/01_certified_loopless_exchange_FVA.csv,executed v2 independent engine; retained evidence
+S40,Lactate and central energy mechanism,supplementary/data/S40/01_lactate_pathway_internal_fluxes.csv;supplementary/data/S40/02_lactate_pathway_mechanism_sensitivity.csv;supplementary/data/S40/03_central_energy_flux_and_FVA.csv;supplementary/data/S40/04_B_adolescentis_22L_lactate_energy_pathway_inventory.csv;supplementary/data/S40/05_MJR8396C_lactate_energy_pathway_inventory.csv,executed v2 independent engine; retained evidence
+S41,Historical reaction deletion retests,supplementary/data/S41/01_historical_reaction_deletion_retests.csv;supplementary/data/S41/02_historical_deletion_growth_product_envelopes.csv,executed v2 independent engine; retained evidence
+S42,GPR-aware gene deletions,supplementary/data/S42/01_minimal_gene_sets_and_global_GPR_knockouts.csv;supplementary/data/S42/02_target_gene_all_reaction_associations.csv,executed v2 independent engine; retained evidence
+S43,New explicitly defined deletion search,supplementary/data/S43/01_new_exhaustive_0_to_2_target_search.csv;supplementary/data/S43/02_new_search_settings.json,executed v2 independent engine; retained evidence
+S44,Community controls and all target fluxes,supplementary/data/S44/01_tradeoff_abundance_controls.csv;supplementary/data/S44/02_taxon_and_community_fluxes.csv,executed v2 independent engine; retained evidence
+S45,Fixed-member-growth exchange FVA,supplementary/data/S45/01_exchange_FVA_at_fixed_growth.csv,executed v2 independent engine; retained evidence
+S46,Matched monocultures,supplementary/data/S46/01_matched_monocultures.csv,executed v2 independent engine; retained evidence
+S47,Lactate restriction evidence variants,supplementary/data/S47/01_community_lactate_evidence_sensitivity.csv;supplementary/data/S47/02_community_lactate_variant_fluxes.csv;supplementary/data/S47/03_alternative_directional_exchanges.csv,executed v2 independent engine; retained evidence
+S48,Original optimizer provenance search,supplementary/data/S48/01_optimization_provenance_status.json;supplementary/data/S48/02_original_source_search.json,executed v2 independent engine; retained evidence
+S49,Genome and annotation statistics,supplementary/data/S49/01_genome_statistics.csv,executed v3 / current task status for S60
+S50,Reciprocal ANI and alignment fractions,supplementary/data/S50/01_reciprocal_ANI.csv,executed v3 / current task status for S60
+S51,Native BOFdat and external correction,supplementary/data/S51/01_BOFdat_native_and_mass_correction.json,executed v3 / current task status for S60
+S52,Biomass coefficients and candidate phenotypes,supplementary/data/S52/01_biomass_coefficients.csv,executed v3 / current task status for S60
+S53,Native COBRApy GPR retests,supplementary/data/S53/01_native_COBRA_GPR_knockouts.csv,executed v3 / current task status for S60
+S54,Locus-level alignment evidence,supplementary/data/S54/01_alignment_evidence.csv,executed v3 / current task status for S60
+S55,Curated comparator simulations,supplementary/data/S55/01_curated_comparator_simulations.csv,executed v3 / current task status for S60
+S56,Recovered original StrainDesign settings,supplementary/data/S56/01_original_StrainDesign_settings_recovered.json,executed v3 / current task status for S60
+S57,Native MICOM quadratic attempts,supplementary/data/S57/01_native_tradeoff_controls.csv,historical partial QP; superseded by S63
+S58,Native MICOM linear maxima and fixed-growth checks,supplementary/data/S58/01_native_LP_maxima_vs_v2.csv,executed v3 / current task status for S60
+S59,Native matched monocultures,supplementary/data/S59/01_native_matched_monocultures.csv,executed v3 / current task status for S60
+S60,Execution status and release gates,supplementary/data/S60/01_TASK_STATUS_v5.csv,executed v3 / current task status for S60
+S61,Original JGI mapping,supplementary/data/S61/01_summary.json;supplementary/data/S61/02_deposited_model_477_gene_mapping.csv,current evidence
+S62,Related-strain empirical biomass,supplementary/data/S62/01_candidate_assumptions.json;supplementary/data/S62/02_phenotype_and_maintenance_sensitivity.csv,current evidence
+S63,Complete native MICOM custom-adapter grid,supplementary/data/S63/01_native_tradeoff_controls.csv,current evidence
+S64,Native QP-conditioned exchange FVA,supplementary/data/S64/01_native_QP_conditioned_exchange_FVA.csv,current evidence
+S65,Comparator diagnostic audit,supplementary/data/S65/01_v4_biomass_formula_audit.csv;supplementary/data/S65/02_v4_minimal_extra_imports_diagnostic.csv,current evidence
+S66,Current execution/readiness status,supplementary/data/S66/01_TASK_STATUS_v5.csv,current evidence
+S67,Complete user-supplied reviewer reports and coverage,supplementary/data/S67/01_reviewer_reports_user_supplied_2026-10-26.txt;supplementary/data/S67/02_S67_reviewer_coverage_v5.csv,current evidence
+S68,Native pathway concordance,supplementary/data/S68/01_pathway_concordance_v5.csv;supplementary/data/S68/02_native_Rnf_PFOR_acrylate_fluxes.csv,historical v5 GPR assessment; current gene edits in S82
+S69,Inclusion-minimal added-reaction subset,supplementary/data/S69/01_inclusion_minimal_subset.json;supplementary/data/S69/02_inclusion_minimal_subset_global_GPR_retests.csv,current evidence
+S70,Partner strain and empirical evidence,supplementary/data/S70/01_partner_literature_evidence.json,historical v5 identity/availability evidence; current 22L and matched analyses in S74-S83
+S71,Original gapseq query coverage,supplementary/data/S71/01_original_gapseq_query_coverage_audit.csv,current evidence
+S72,Native acetate co-substrate mechanism,supplementary/data/S72/01_acetate_cosubstrate_native_fluxes.csv,current evidence
+S73,Consolidated supplementary index,supplementary/data/S73/01_SUPPLEMENTARY_INDEX_v5.csv,historical v5 supplementary index
+S74,New matched reconstruction provenance and structure,supplementary/data/S74/01_S74_new_matched_reconstruction_audit_v6.csv;supplementary/data/S74/02_matched_reconstruction_v6_inputs.json;supplementary/data/S74/03_v6_gapseq_reference_download.json;supplementary/data/S74/04_gapseq_runtime_explicit_v6.txt;supplementary/data/S74/05_execution_summary.json,current v6 executed evidence
+S75,Matched nutrient and carbon-source phenotypes,supplementary/data/S75/01_S75_matched_monoculture_phenotypes_v6.csv,current v6 executed evidence
+S76,Twenty amino-acid singles and 190 pairs per model,supplementary/data/S76/01_S76_matched_AA_singles_pairs_v6.csv,current v6 executed evidence
+S77,Matched uptake GAM NGAM sensitivity,supplementary/data/S77/01_S77_matched_maintenance_grid_v6.csv,current v6 executed evidence
+S78,Reaction and global-GPR intervention tests and envelopes,supplementary/data/S78/01_S78_matched_interventions_v6.csv;supplementary/data/S78/02_growth_product_envelopes.csv;supplementary/data/S78/03_growth_product_envelopes.csv;supplementary/data/S78/04_growth_product_envelopes.csv;supplementary/data/S78/05_growth_product_envelopes.csv,current v6 executed evidence
+S79,Matched ordinary and accepted native loopless FVA,supplementary/data/S79/01_S79_matched_exchange_FVA_v6.csv;supplementary/data/S79/02_S79b_matched_native_loopless_FVA_v6.csv,current v6 executed evidence
+S80,1920 complete native MICOM cases,supplementary/data/S80/01_S80_matched_native_MICOM_v6.csv;supplementary/data/S80/02_S80b_effective_supply_mono_community_v6.csv;supplementary/data/S80/03_settings.json;supplementary/data/S80/04_settings.json;supplementary/data/S80/05_settings.json;supplementary/data/S80/06_settings.json;supplementary/data/S80/07_settings.json;supplementary/data/S80/08_settings.json;supplementary/data/S80/09_settings.json;supplementary/data/S80/10_settings.json,current v6 executed evidence
+S81,Native community exchange FVA and optimality certificates,supplementary/data/S81/01_S81_matched_community_FVA_v6.csv;supplementary/data/S81/02_all_QP_certificates.csv;supplementary/data/S81/03_selected_community_fluxes.csv,current v6 executed evidence
+S82,Sequence-supported GPR edits and functional uncertainty,supplementary/data/S82/01_S82_primary_GPR_curation_v6.csv;supplementary/data/S82/02_GPR_supporting_alignment_evidence.csv;supplementary/data/S82/03_curation_gene_knockout_verification.csv;supplementary/data/S82/04_matched_GPR_and_bound_edits.csv;supplementary/data/S82/05_matched_reference_alignment_evidence.csv;supplementary/data/S82/06_NM10_Bcd_all_feature_check.json;supplementary/data/S82/07_matched_GPR_essentiality_checks.csv,current v6 executed evidence
+S83,22L sequence and stereochemical evidence,supplementary/data/S83/01_S83_22L_sequence_evidence_v6.csv;supplementary/data/S83/02_B22L_inventory.json;supplementary/data/S83/03_B22L_deposited_gene_accession_crosscheck.csv;supplementary/data/S83/04_B22L_curation_decision.json,current v6 executed evidence
+S84,Sequence-informed biomass and carrier-aware precursor checks,supplementary/data/S84/01_S84_matched_biomass_sensitivity_v6.csv;supplementary/data/S84/02_assumptions.json;supplementary/data/S84/03_coefficients.csv;supplementary/data/S84/04_precursor_producibility.csv;supplementary/data/S84/05_paired_carrier_precursor_demands.csv;supplementary/data/S84/06_carrier_recycling_ledger.csv;supplementary/data/S84/07_precursor_test_interpretation.json;supplementary/data/S84/08_ATP_cycle_checks.csv,current v6 executed evidence
+S85,Bounded comparator carbon and biomass calibration,supplementary/data/S85/01_S85_comparator_calibration_v6.csv;supplementary/data/S85/02_common_enriched_medium.csv;supplementary/data/S85/03_common_medium_mapping.csv;supplementary/data/S85/04_common_exchange_FVA95.csv;supplementary/data/S85/05_formula_mass_normalization_decisions.csv;supplementary/data/S85/06_iME375_partial_repair_ledger.csv;supplementary/data/S85/07_iME375_partial_repair_scope.json,current v6 executed evidence
+S86,Comparator ATP-generating-cycle diagnosis and supported constraint,supplementary/data/S86/01_S86_comparator_energy_checks_v6.csv;supplementary/data/S86/02_iME375_closed_cycle_fluxes.csv;supplementary/data/S86/03_iME375_cycle_curation_ledger.csv,current v6 executed evidence
+S87,Complete reviewer reports current v6 responses and compiled lines,supplementary/data/S87/01_S87_reviewer_coverage_v6.csv;supplementary/data/S87/02_reviewer_coverage_with_actual_lines.json;supplementary/data/S87/03_reviewer_reports_user_supplied_2026-10-26.txt,current v6 executed evidence

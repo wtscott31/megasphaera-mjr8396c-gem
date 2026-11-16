@@ -1,0 +1,30 @@
+[
+  {
+    "document": "revision_v4/MJR8396C_v4_readiness_report.pdf",
+    "pages": 4,
+    "sha256": "b49dcb454b463b34538cbb0597322251f8883b7226eab247c75e4d57fb4e8291",
+    "replacement_characters": 0,
+    "unresolved_question_mark_pairs": 0
+  },
+  {
+    "document": "revision_v4/manuscript/manuscript_clean_v4/main.pdf",
+    "pages": 41,
+    "sha256": "61955b87322b25b6ec2cd5b5cbff64bd9e71f62c31c007c877d863ed4b7fe7c1",
+    "replacement_characters": 0,
+    "unresolved_question_mark_pairs": 0
+  },
+  {
+    "document": "revision_v4/manuscript/manuscript_tracked_v4/main_tracked.pdf",
+    "pages": 42,
+    "sha256": "43f5de81b166f617e4cb36ed547a7d39f8dbba44dd3ab7927201e86a2f6bab96",
+    "replacement_characters": 0,
+    "unresolved_question_mark_pairs": 0
+  },
+  {
+    "document": "revision_v4/manuscript/response_v4/response_letter_npjSB_v4.pdf",
+    "pages": 9,
+    "sha256": "28008b9dcc368ff0639ac3287705e768c81bb6655f2b5fbf2237b0ebb2e073dd",
+    "replacement_characters": 0,
+    "unresolved_question_mark_pairs": 0
+  }
+]

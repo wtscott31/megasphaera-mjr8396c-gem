@@ -1,0 +1,6 @@
+pathway,reaction,decision
+acrylate_reductase,rxn90029_c0,ETF-only rule lacks a resolved catalytic reductase assignment. Preserve as unresolved; also test the reaction disabled. Homology to Bcd is not specific evidence of acryloyl reduction.
+lactate_racemase,,LarA/B/E candidates and two partial LarC-domain hits found at different loci; no complete cognate maturation system established. No racemase added.
+chain_elongation,,"Core reverse-beta-oxidation homologs do not by themselves establish C5/C6 substrate specificity, termination or transport. No speculative caproate/valerate reactions added."
+CoA_transferase,rxn00875_c0,"Existing reaction retained; acetate-dependent pFBA/FVA is a model mechanism, not kinetic specificity validation."
+lactoyl_CoA_dehydratase,rxn02123_c0,Existing balanced chemistry retained. Whole-complex specificity remains an inferred annotation.

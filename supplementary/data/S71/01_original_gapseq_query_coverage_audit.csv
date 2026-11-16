@@ -1,0 +1,3 @@
+source,rows,rows_with_coverage,min_recorded_query_coverage,max_recorded_query_coverage,rows_below_75,sha256
+inputs/original_JGI_gapseq/Megasphaera_gapseq_run/2775506928_genes-all-Reactions.tbl,26894,20283,75.0,100.0,0,6dfc03761858ebf7267204674452f8c39170a37d7fa088bdc2503d5a8eac69d1
+inputs/original_JGI_gapseq/Megasphaera_gapseq_run/2775506928_genes-Transporter.tbl,10613,10613,75.0,100.0,0,cc2ba49782f312340e0a6dd5b2692575ac06953c3200b28278cdde1ba57c5edf

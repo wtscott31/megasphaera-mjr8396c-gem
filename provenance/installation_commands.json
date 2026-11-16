@@ -1,0 +1,38 @@
+[
+  {
+    "command": "/usr/local/bin/python3 -m venv revision_v3/.venv",
+    "outcome": "completed; isolated Python 3.11.4"
+  },
+  {
+    "command": "revision_v3/.venv/bin/python -m pip install --upgrade pip",
+    "log": "logs/pip_upgrade.log"
+  },
+  {
+    "command": "revision_v3/.venv/bin/python -m pip install 'cobra>=0.29' micom biopython scipy pandas numpy matplotlib lxml gurobipy pytest nbformat nbclient ipykernel openpyxl requests",
+    "log": "logs/pip_install.log"
+  },
+  {
+    "command": "git clone https://github.com/jclachance/BOFdat.git revision_v3/inputs/BOFdat",
+    "log": "logs/bofdat_clone.log",
+    "commit": "cf2de074c2d789ad47b890083cbbffadab40f177"
+  },
+  {
+    "command": "revision_v3/.venv/bin/python -m pip install ./revision_v3/inputs/BOFdat",
+    "log": "logs/pip_bofdat.log"
+  },
+  {
+    "command": "revision_v3/.venv/bin/python -m pip install zipfile-deflate64",
+    "outcome": "failed to build on this macOS compiler",
+    "log": "logs/pip_zipfile_deflate64.log"
+  },
+  {
+    "command": "revision_v3/.venv/bin/python -m pip install inflate64",
+    "outcome": "completed native arm64 wheel",
+    "log": "logs/pip_inflate64.log"
+  },
+  {
+    "command": "revision_v3/.venv/bin/python -m pip install pypdf",
+    "outcome": "completed for final PDF text QA",
+    "log": "logs/pip_pypdf.log"
+  }
+]

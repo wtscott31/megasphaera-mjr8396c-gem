@@ -1,0 +1,25 @@
+'' is not a valid SBML 'SId'.
+'' is not a valid SBML 'SId'.
+MJR8396C common carbon budget comparisons completed
+iME375 common carbon budget comparisons completed
+AGORA2_fixed_Megasphaera_paucivorans_DSM_16981 common carbon budget comparisons completed
+AGORA2_fixed_Megasphaera_nov_ERR1022370 common carbon budget comparisons completed
+AGORA2_fixed_Megasphaera_micronuciformis_F0359 common carbon budget comparisons completed
+AGORA2_fixed_Megasphaera_genomosp_type_2 common carbon budget comparisons completed
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460 common carbon budget comparisons completed
+AGORA2_fixed_Megasphaera_massiliensis_NP3 common carbon budget comparisons completed
+iME375_partial_candidate common carbon budget comparisons completed
+/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v3/.venv/lib/python3.11/site-packages/cobra/util/solver.py:554: UserWarning: Solver status is 'infeasible'.
+  warn(f"Solver status is '{status}'.", UserWarning)
+/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v3/.venv/lib/python3.11/site-packages/cobra/util/solver.py:554: UserWarning: Solver status is 'infeasible'.
+  warn(f"Solver status is '{status}'.", UserWarning)
+iME375_cycle_constrained common carbon budget comparisons completed
+/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v3/.venv/lib/python3.11/site-packages/cobra/util/solver.py:554: UserWarning: Solver status is 'infeasible'.
+  warn(f"Solver status is '{status}'.", UserWarning)
+/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v3/.venv/lib/python3.11/site-packages/cobra/util/solver.py:554: UserWarning: Solver status is 'infeasible'.
+  warn(f"Solver status is '{status}'.", UserWarning)
+iME375_partial_plus_cycle common carbon budget comparisons completed
+AGORA2_fixed_Megasphaera_nov_ERR1022370_mass_candidate common carbon budget comparisons completed
+AGORA2_fixed_Megasphaera_micronuciformis_F0359_mass_candidate common carbon budget comparisons completed
+AGORA2_fixed_Megasphaera_genomosp_type_2_mass_candidate common carbon budget comparisons completed
+AGORA2_fixed_Megasphaera_elsdenii_DSM_20460_mass_candidate common carbon budget comparisons completed

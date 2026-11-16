@@ -1,0 +1,10 @@
+{
+  "time": "2026-10-26T23:51:19.023155+00:00",
+  "initial_processes_stopped_after_minutes": [
+    9.8,
+    12.8,
+    12.8
+  ],
+  "results_not_accepted_from_stopped_processes": true,
+  "change": "Progress logging added; ordinary outputs separated from native loopless checks; bounded native fastSNP substituted for unbounded cycleFreeFlux attempt."
+}

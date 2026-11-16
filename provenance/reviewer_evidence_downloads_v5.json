@@ -1,0 +1,48 @@
+[
+  {
+    "url": "https://raw.githubusercontent.com/jotech/gapseq/c64db99b/src/gapseq_find.sh",
+    "retrieved_utc": "2026-10-26T21:06:06.084308+00:00",
+    "path": "inputs/reviewer_evidence_sources/gapseq_find_c64db99b.sh",
+    "returncode": 0,
+    "bytes": 28103,
+    "sha256": "8ff23933761c24a8542d72562a2cadc0f617c9ac8f7a8b84d9fc38b2301a4b9e"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/jotech/gapseq/c64db99b/src/gapseq_find_transport.sh",
+    "retrieved_utc": "2026-10-26T21:06:06.288993+00:00",
+    "path": "inputs/reviewer_evidence_sources/gapseq_find_transport_c64db99b.sh",
+    "returncode": 22,
+    "error": "curl: (22) The requested URL returned error: 404"
+  },
+  {
+    "url": "https://api.ncbi.nlm.nih.gov/datasets/v2/genome/accession/GCF_000737885.1/dataset_report",
+    "retrieved_utc": "2026-10-26T21:06:07.071551+00:00",
+    "path": "inputs/reviewer_evidence_sources/B_adolescentis_22L_assembly_report.json",
+    "returncode": 0,
+    "bytes": 3715,
+    "sha256": "94cd7c342dcdb40e942913de827691270f9fae800f90443acea3220d8149afd0"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC4585166/fullTextXML",
+    "retrieved_utc": "2026-10-26T21:06:11.813306+00:00",
+    "path": "inputs/reviewer_evidence_sources/Turroni2015_PMC4585166.xml",
+    "returncode": 0,
+    "bytes": 82146,
+    "sha256": "7b21d03449357edcae14a1906a1d5ea1dcd9fda49b5d3dd135553e38f68002d6"
+  },
+  {
+    "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC3832451/fullTextXML",
+    "retrieved_utc": "2026-10-26T21:06:12.959070+00:00",
+    "path": "inputs/reviewer_evidence_sources/Shetty2013_PMC3832451.xml",
+    "returncode": 0,
+    "bytes": 167397,
+    "sha256": "f64ccd6541fe2e6546c5214dc76e71a930adab9e8a8ce8412ab7a868bf268d8d"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/jotech/gapseq/c64db99b/src/transporter.sh",
+    "retrieved_utc": "2026-10-26T21:09:05.347094+00:00",
+    "path": "inputs/reviewer_evidence_sources/pinned_transporter.sh",
+    "returncode": 0,
+    "sha256": "cbf22b01c84c6b21ee2441167b6c907aa58dd60872c2b27c43f1362ea8f8e74b"
+  }
+]

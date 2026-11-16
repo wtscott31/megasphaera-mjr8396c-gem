@@ -1,0 +1,44 @@
+[
+  {
+    "filename": "Megasphaera_elsdenii_DSM_20460.xml",
+    "CRC": 3826831285,
+    "file_size": 5578836,
+    "compress_size": 243474,
+    "header_offset": 1441610167
+  },
+  {
+    "filename": "Megasphaera_genomosp_type_2.xml",
+    "CRC": 3251571838,
+    "file_size": 3993197,
+    "compress_size": 180131,
+    "header_offset": 1441853705
+  },
+  {
+    "filename": "Megasphaera_massiliensis_NP3.xml",
+    "CRC": 2144455382,
+    "file_size": 4821483,
+    "compress_size": 213773,
+    "header_offset": 1442033897
+  },
+  {
+    "filename": "Megasphaera_micronuciformis_F0359.xml",
+    "CRC": 3915546491,
+    "file_size": 4234215,
+    "compress_size": 187064,
+    "header_offset": 1442247732
+  },
+  {
+    "filename": "Megasphaera_nov_ERR1022370.xml",
+    "CRC": 3304499722,
+    "file_size": 4833719,
+    "compress_size": 211086,
+    "header_offset": 1442434863
+  },
+  {
+    "filename": "Megasphaera_paucivorans_DSM_16981.xml",
+    "CRC": 3851579096,
+    "file_size": 4749326,
+    "compress_size": 211360,
+    "header_offset": 1442646009
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "generated_utc": "2026-10-26T23:56:53.444153+00:00",
+  "mono_rows": 80,
+  "AA_rows": 840,
+  "maintenance_grid_rows": 432,
+  "design_rows": 95,
+  "ordinary_exchange_FVA_rows": 1149,
+  "native_community_cases": 1920,
+  "native_community_optimal_cases": 1920,
+  "community_FVA_rows": 4320,
+  "native_max_mass_residual": 9.58939853667298e-09,
+  "native_max_bound_violation": 9.890697000320948e-09,
+  "QP_max_global_gap": 1.4860388651615437e-08,
+  "QP_max_stationarity": 1.7121237760875374e-10,
+  "22L_DLDH_filter_max_growth_changes": {
+    "community_max": 4.177769241664464e-13,
+    "community_growth": 4.177769241664464e-13,
+    "growth_M": 0.0036335803720888293,
+    "growth_B": 0.0004037311525573184
+  },
+  "experimental_MJR_biomass_available": false,
+  "experimental_22L_enantiomer_assay_verified": false,
+  "new_models_are_published_NM10_BL7_models": false,
+  "NM10_Bcd": "Public misc_feature at APHY01000022.1:15273-16423 minus strand explicitly notes potential frameshift; new ORFs are partial high-identity Bcd homologs. Strict Bcd-disabled sensitivity, not proof of biological loss."
+}

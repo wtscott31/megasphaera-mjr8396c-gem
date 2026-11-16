@@ -1,25 +1,30 @@
-# Reproducibility notes
+# Reproduction and software environment
 
-## What can be rerun directly
+## Starting point
 
-`notebooks/MJR8396C_revised_manuscript_simulations.ipynb` and `scripts/run_core_simulations.py` contain executable code for the core single-strain constraint-based analyses, including medium application, FBA/pFBA, the three-medium comparison, carbon-normalized substrate screening, amino-acid perturbations, and the butyrate production envelope.
+The original model is `models/original/Megasphaera_sp_MJR8396C_filled_anaerobic.xml` and the original partner model is `models/original/Bifidobacterium_adolescentis_filled_anaerobic.xml`. The exact original reconstructions, sequence identifiers, input media, GPR adjustments and all accepted v6 summary outputs are deposited separately. Never silently overwrite the original with a curated variant.
 
-The standalone script intentionally parses the objective from the deposited gapseq SBML rather than assuming a hard-coded biomass reaction name.
+## Environment
 
-## What is deposited as finalized analysis output
+The execution used Python 3.11 with COBRApy, MICOM 0.39.1, highspy 1.15.1, Biopython, and BOFdat pinned to commit `cf2de074c2d789ad47b890083cbbffadab40f177`; see `requirements-resolved.txt`. Native uniform matched reconstruction used gapseq 2.1.0 and Bacteria DB version 1.5 (Zenodo record 20446806). gapseq, BOFdat, and other third-party code and large reference database files must be obtained from their original vendors.
 
-The supplied package includes finalized StrainDesign and MICOM result tables and manuscript figures. The general notebook contains an optional StrainDesign section and code that integrates existing MICOM outputs, but it does **not** contain a complete one-command rerun of the full dedicated MICOM workflow. Consequently, this repository should not claim a fully containerized, end-to-end regeneration of every manuscript panel from raw genome sequence.
+To install a Python environment:
 
-This distinction is important for transparent reproducibility: the final numerical outputs and models are deposited, while the complete specialized execution history is only partially represented in the supplied scripts.
+```bash
+python3.11 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r requirements-resolved.txt
+python scripts/verify_repository_v6.py
+```
 
-## Reconstruction provenance
+The pinned resolved requirements include optional commercial-solver packages and a Git dependency; adapt installation to your platform and licensing, recording all changes. The native HiGHS / custom QP implementation is explicitly differentiated from a stock commercial-solver run.
 
-The manuscript-facing provenance identifies gapseq **v2.0.0, commit `c64db99b`**, with bacterial sequence database v1.4. The provenance files are retained verbatim in `provenance/`.
+## Computational analysis
 
-## Model limitations relevant to reuse
+The original execution sequence is preserved in `docs/ORIGINAL_EXECUTION_ORDER.txt`. The matched gapseq workflow is in `scripts/reconstruct_matched_v6.py`; set `GAPSEQ_BIN` and `PATH` as needed. The workflow expects R and GLPK and the Bacteria 1.5 database. Rerun of the full matched MICOM grids requires corresponding full input and output files from the Zenodo archive. `notebooks/Review_v6_EXECUTED.ipynb` is an executed review of those files. Its outputs are retained, but this does not mean every full-grid test executes in isolation from the external database/cache.
 
-The MJR8396C reconstruction is medium-gapfilled and incompletely curated. The manuscript reports 766 condition-specific blocked reactions in the gut-like medium, 677 reactions blocked under MEMOTE's standardized topology configuration, and 514 reactions without GPR support. Users should therefore avoid treating reaction-level engineering predictions or absolute extracellular fluxes as experimentally validated quantities.
+## Provenance / outputs
 
-## Recommended release practice
+`Supplementary_Data S1–S87` map original data and accepted revision analyses into canonical release paths. The `supplementary/SUPPLEMENTARY_INDEX.csv` is the authoritative file map. Key activities included reciprocal ANI and GTDB reference lookup; only the exact assembly GTDB lookup is claimed, not a newly executed phylogenetic GTDB-Tk placement. Biomass predictions are sensitivity calculations and do not represent measured target-strain biomass fractions.
 
-For a formal archival release, create a GitHub release matching the manuscript version and archive that release with Zenodo (or an equivalent repository) to obtain a DOI. Replace the manuscript's `[FINAL REPOSITORY RELEASE URL/DOI]` placeholder only after the immutable release/DOI exists.
+The source dataset also includes curated-comparator scenarios, not fully experimentally calibrated cross-species predictions. No direct strain-specific growth or exchange measurements were created.

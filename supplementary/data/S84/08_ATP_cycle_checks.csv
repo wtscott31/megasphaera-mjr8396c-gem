@@ -1,0 +1,7 @@
+model,variant,ATP_max,status
+MJR8396C,DNA_sequence_candidate,0.0,optimal
+MJR8396C,DNA_uniform_AA_surrogate_candidate,0.0,optimal
+NM10,DNA_sequence_candidate,0.0,optimal
+NM10,DNA_uniform_AA_surrogate_candidate,0.0,optimal
+BL7,DNA_sequence_candidate,0.0,optimal
+BL7,DNA_uniform_AA_surrogate_candidate,0.0,optimal

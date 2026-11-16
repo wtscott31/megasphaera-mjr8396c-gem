@@ -1,0 +1,288 @@
+{
+  "cache_excluded_from_release": true,
+  "source_retrievals": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC239026/fullTextXML",
+      "path": "inputs/biomass_literature/PMC239026.xml",
+      "retrieved_utc": "2026-10-26T19:52:09.602614+00:00",
+      "outcome": "failed",
+      "error": "RuntimeError('curl: (22) The requested URL returned error: 500')"
+    },
+    {
+      "url": "https://europepmc.org/articles/PMC239026?pdf=render",
+      "path": "inputs/biomass_literature/PMC239026.pdf",
+      "retrieved_utc": "2026-10-26T19:52:11.351256+00:00",
+      "outcome": "failed",
+      "error": "RuntimeError('curl: (22) The requested URL returned error: 403')"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC216544/fullTextXML",
+      "path": "inputs/biomass_literature/PMC216544.xml",
+      "retrieved_utc": "2026-10-26T19:52:11.517548+00:00",
+      "outcome": "failed",
+      "error": "RuntimeError('curl: (22) The requested URL returned error: 500')"
+    },
+    {
+      "url": "https://europepmc.org/articles/PMC216544?pdf=render",
+      "path": "inputs/biomass_literature/PMC216544.pdf",
+      "retrieved_utc": "2026-10-26T19:52:14.742684+00:00",
+      "outcome": "failed",
+      "error": "RuntimeError('curl: (22) The requested URL returned error: 403')"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22MJR8396C%22&format=json&pageSize=1000&resultType=core",
+      "path": "inputs/biomass_literature/strain_search.json",
+      "retrieved_utc": "2026-10-26T19:52:14.882958+00:00",
+      "bytes": 48838,
+      "sha256": "43c2a44d3da7aeb8b1ba1b6d4feae8cb3493deb9aeb00c50017d1e1898e131c7",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%22Comparison+of+maintenance+energy+expenditures+and+growth+yields%22&format=json&pageSize=1000&resultType=core",
+      "path": "inputs/biomass_literature/maintenance_search.json",
+      "retrieved_utc": "2026-10-26T19:52:15.636699+00:00",
+      "bytes": 114591,
+      "sha256": "2d6fda8eb17d6877507f434b4b6371bdae4dc3fb9795c75655b4bc3e61558ef3",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC239026/?report=xml",
+      "path": "inputs/biomass_literature/PMC239026.html",
+      "retrieved_utc": "2026-10-26T19:53:06.889562+00:00",
+      "bytes": 105503,
+      "sha256": "f6bdf15d7035f7181e7f26a9a17eb3ea71024f37dc0cdb4fe60c9941f62620c8",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC239026/unicode",
+      "path": "inputs/biomass_literature/PMC239026_bioc.xml",
+      "retrieved_utc": "2026-10-26T19:53:07.464896+00:00",
+      "outcome": "failed",
+      "error": "RuntimeError('curl: (22) The requested URL returned error: 429')"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC216544/?report=xml",
+      "path": "inputs/biomass_literature/PMC216544.html",
+      "retrieved_utc": "2026-10-26T19:53:07.786978+00:00",
+      "bytes": 118526,
+      "sha256": "8ce516cbce0ab6ec4abeec6f89e9c8b3590edc3ae4ead62bbcdca2db1f35f07c",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC216544/unicode",
+      "path": "inputs/biomass_literature/PMC216544_bioc.xml",
+      "retrieved_utc": "2026-10-26T19:53:08.374217+00:00",
+      "outcome": "failed",
+      "error": "RuntimeError('curl: (22) The requested URL returned error: 429')"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC243251/?report=xml",
+      "path": "inputs/biomass_literature/PMC243251.html",
+      "retrieved_utc": "2026-10-26T19:53:08.698692+00:00",
+      "bytes": 117950,
+      "sha256": "c6efbf39f6e2178e11a79513313a987de5a20334b3b9c35af513cba483fae92e",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_xml/PMC243251/unicode",
+      "path": "inputs/biomass_literature/PMC243251_bioc.xml",
+      "retrieved_utc": "2026-10-26T19:53:09.222422+00:00",
+      "bytes": 6140,
+      "sha256": "478f38e0765ee9c406831bb2fc27e8019ac5227c20c6b28ca0de582d8449354a",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC239026/pdf/aem00140-0277.pdf",
+      "path": "inputs/biomass_literature/PMC239026_official.pdf",
+      "retrieved_utc": "2026-10-26T19:53:38.971689+00:00",
+      "bytes": 1816,
+      "sha256": "710693bfa32797309b02ed22a8a667af427c6cba8e3735ff07073d7f73528b2a",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b147/239026/7d00c7f2fdd8/aem00140-0277.png",
+      "path": "inputs/biomass_literature/PMC239026_page1.png",
+      "retrieved_utc": "2026-10-26T19:53:39.247802+00:00",
+      "bytes": 127066,
+      "sha256": "ce5641a665dc5c1c9ba4e7b0c15df1d4efb1bde9084394b1e4a8939d4e53c0ae",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b147/239026/c28c39800a5c/aem00140-0278.png",
+      "path": "inputs/biomass_literature/PMC239026_page2.png",
+      "retrieved_utc": "2026-10-26T19:53:39.824411+00:00",
+      "bytes": 96661,
+      "sha256": "9cf42dd27cda292bb8ba200d66a6ded67deb990dc3d223c2ee2af2e4a02579bf",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/b147/239026/2b6a663a373e/aem00140-0279.png",
+      "path": "inputs/biomass_literature/PMC239026_page3.png",
+      "retrieved_utc": "2026-10-26T19:53:40.397848+00:00",
+      "bytes": 81891,
+      "sha256": "8a79d4d286c65fd5a3c54caff175408cddb4099eb100ac49649f00e54ad88cc0",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC216544/pdf/jbacter00261-0163.pdf",
+      "path": "inputs/biomass_literature/PMC216544_official.pdf",
+      "retrieved_utc": "2026-10-26T19:53:40.980169+00:00",
+      "bytes": 1817,
+      "sha256": "eb737aa0d41a3f6cad15df7aa64f4e91d20f45a9ac9a0fa0f726473383db16c9",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1e58/216544/fa1ba4112a37/jbacter00261-0163.png",
+      "path": "inputs/biomass_literature/PMC216544_page1.png",
+      "retrieved_utc": "2026-10-26T19:53:41.267283+00:00",
+      "bytes": 131573,
+      "sha256": "83144403917d5f7b7cd666385563b690fa120ea010fbcf748db8a787474f0f11",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1e58/216544/03ae6be0b848/jbacter00261-0164.png",
+      "path": "inputs/biomass_literature/PMC216544_page2.png",
+      "retrieved_utc": "2026-10-26T19:53:41.864574+00:00",
+      "bytes": 165412,
+      "sha256": "b0c50803560f47afc070bd6c2760f8706fa67359c7543e871a2dd6b2fa4ea2e4",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1e58/216544/8df07b2cca41/jbacter00261-0165.png",
+      "path": "inputs/biomass_literature/PMC216544_page3.png",
+      "retrieved_utc": "2026-10-26T19:53:42.463139+00:00",
+      "bytes": 130448,
+      "sha256": "fe7080f5f5eaaf919cf73b8935e442d0a035bce64ea9a84b604ca6817a2fe9a7",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1e58/216544/03573d7dea78/jbacter00261-0166.png",
+      "path": "inputs/biomass_literature/PMC216544_page4.png",
+      "retrieved_utc": "2026-10-26T19:53:43.077035+00:00",
+      "bytes": 101103,
+      "sha256": "cd7e2a9e4438c5efdf741ed7c7bdd54e973656cf2bdde87ef00d708d7ecde4fc",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1e58/216544/f01499244047/jbacter00261-0167.png",
+      "path": "inputs/biomass_literature/PMC216544_page5.png",
+      "retrieved_utc": "2026-10-26T19:53:43.579679+00:00",
+      "bytes": 136632,
+      "sha256": "def9d2daf7ceded1208d8142d82aa019b1365ad103cc27632b465850eaf5caf2",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1e58/216544/d7b016bf044d/jbacter00261-0168.png",
+      "path": "inputs/biomass_literature/PMC216544_page6.png",
+      "retrieved_utc": "2026-10-26T19:53:44.435284+00:00",
+      "bytes": 124132,
+      "sha256": "31c495d460c306f8fc9bc3422bf7f554a67986fe1bb707b313588e788966f206",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1e58/216544/ee9484a9bc8a/jbacter00261-0169.png",
+      "path": "inputs/biomass_literature/PMC216544_page7.png",
+      "retrieved_utc": "2026-10-26T19:53:44.934957+00:00",
+      "bytes": 110433,
+      "sha256": "2b1935cab78117ccaad6c4dc264847751c44f6201a0e6887511cc19c70b88011",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1e58/216544/36dde10c9fb4/jbacter00261-0170.png",
+      "path": "inputs/biomass_literature/PMC216544_page8.png",
+      "retrieved_utc": "2026-10-26T19:53:45.467161+00:00",
+      "bytes": 107575,
+      "sha256": "4e35ed99cb987225fedcbf26fdf1c5d6b5eec787658bdbab677f1cf0c6d0492c",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/1e58/216544/0a18e4f4bc96/jbacter00261-0171.png",
+      "path": "inputs/biomass_literature/PMC216544_page9.png",
+      "retrieved_utc": "2026-10-26T19:53:45.991985+00:00",
+      "bytes": 126209,
+      "sha256": "8d927db08a3bafcb37fefba6c93a5daa34682bb8e85c84befd5c730183fb625c",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC243251/pdf/aem00207-0191.pdf",
+      "path": "inputs/biomass_literature/PMC243251_official.pdf",
+      "retrieved_utc": "2026-10-26T19:53:46.572063+00:00",
+      "bytes": 1816,
+      "sha256": "7fbd332d06fc723f1974bff72bdd6eedb2c9d0bd0423d64e5b1e7111cd1163fb",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f3a2/243251/2a533f0a4c05/aem00207-0191.png",
+      "path": "inputs/biomass_literature/PMC243251_page1.png",
+      "retrieved_utc": "2026-10-26T19:53:46.884997+00:00",
+      "bytes": 121787,
+      "sha256": "726ee99d439b1077a397db7ea49290ff8d042d90288d1dfd628e92cece964cf9",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f3a2/243251/5c52ad45a3b1/aem00207-0192.png",
+      "path": "inputs/biomass_literature/PMC243251_page2.png",
+      "retrieved_utc": "2026-10-26T19:53:47.445406+00:00",
+      "bytes": 135574,
+      "sha256": "7db4df9403573215bf61feff11e6ba308a140c54f1d8f29d5bc8f02629e1d9f0",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f3a2/243251/18dfc5152749/aem00207-0193.png",
+      "path": "inputs/biomass_literature/PMC243251_page3.png",
+      "retrieved_utc": "2026-10-26T19:53:48.056769+00:00",
+      "bytes": 90744,
+      "sha256": "ef3614e7662164f7e9fa3840e218bb8fab180e7d029ca70898f46445f93d46af",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f3a2/243251/6534fe64ee50/aem00207-0194.png",
+      "path": "inputs/biomass_literature/PMC243251_page4.png",
+      "retrieved_utc": "2026-10-26T19:53:48.548612+00:00",
+      "bytes": 101884,
+      "sha256": "c745995737d832906f4a05b25250ed59ba4657c14ced0560ba697d2ff192b46a",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f3a2/243251/b1d6311a9be2/aem00207-0195.png",
+      "path": "inputs/biomass_literature/PMC243251_page5.png",
+      "retrieved_utc": "2026-10-26T19:53:49.071858+00:00",
+      "bytes": 115557,
+      "sha256": "94e980a5e92e908a72b7f91d888bb04ac26284b7b0a72422791036262ae06d1f",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f3a2/243251/1419d9801440/aem00207-0196.png",
+      "path": "inputs/biomass_literature/PMC243251_page6.png",
+      "retrieved_utc": "2026-10-26T19:53:49.636226+00:00",
+      "bytes": 126297,
+      "sha256": "89df2762fe51a17e847975a8ed17400321d494983ba12c1b5511c74780f2e091",
+      "outcome": "downloaded"
+    },
+    {
+      "url": "https://cdn.ncbi.nlm.nih.gov/pmc/blobs/f3a2/243251/e4948682e689/aem00207-0197.png",
+      "path": "inputs/biomass_literature/PMC243251_page7.png",
+      "retrieved_utc": "2026-10-26T19:53:50.201384+00:00",
+      "bytes": 55135,
+      "sha256": "1ae25015b813655550057431659920b7ac104ffe16238c60e7a3749d45c87c49",
+      "outcome": "downloaded"
+    }
+  ],
+  "primary_sources": [
+    {
+      "DOI": "10.1128/aem.51.5.1141-1143.1986",
+      "PMCID": "PMC239026",
+      "measurement": "LC1 whole-cell amino-acid pools, Table1 p1142"
+    },
+    {
+      "DOI": "10.1128/jb.149.2.567-575.1982",
+      "PMCID": "PMC216544",
+      "measurement": "ATCC17752 temperature-dependent lipid composition, Tables4,6"
+    },
+    {
+      "DOI": "10.1128/aem.37.3.537-543.1979",
+      "PMCID": "PMC243251",
+      "measurement": "B159 maintenance/growth-yield table, Table1 p539"
+    }
+  ]
+}

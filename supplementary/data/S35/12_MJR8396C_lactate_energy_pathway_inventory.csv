@@ -1,0 +1,33 @@
+reaction,name,GPR,gene_count,boundary,compartments,balance_status,element_residual,missing_formulas,baseline_pfba,lower_bound,upper_bound,stoichiometry
+rxn00145_c0,(S)-Lactate:ferricytochrome-c 2-oxidoreductase,2776382970,1,False,c0,balanced,{},,-0.0,0.0,1000.0,2 cpd00067_c0; 1 cpd00020_c0; -2 cpd00109_c0; -1 cpd00159_c0; 2 cpd00110_c0
+rxn00410_c0,UTP:ammonia ligase (ADP-forming),2776381538,1,False,c0,balanced,{},,0.10633783433821689,0.0,1000.0,1 cpd00009_c0; 2 cpd00067_c0; -1 cpd00013_c0; -1 cpd00002_c0; 1 cpd00008_c0; -1 cpd00062_c0; 1 cpd00052_c0
+rxn00916_c0,Xanthosine-5'-phosphate:ammonia ligase (AMP-forming),2776381411,1,False,c0,balanced,{},,0.1674337365164188,0.0,1000.0,1 cpd00012_c0; 3 cpd00067_c0; -1 cpd00013_c0; -1 cpd00002_c0; 1 cpd00018_c0; 1 cpd00126_c0; -1 cpd00497_c0
+rxn01056_c0,lactoyl-CoA:propanoate CoA-transferase,(2776383190 or 2776383352),2,False,c0,balanced,{},,-3.992497645167699,-1000.0,1000.0,1 cpd00067_c0; 1 cpd00159_c0; 1 cpd00086_c0; -1 cpd00141_c0; -1 cpd00617_c0
+rxn02123_c0,Lactoyl-CoA hydro-lyase,(2776383348 and 2776383349),2,False,c0,balanced,{},,9.61897863046692,0.0,1000.0,1 cpd00001_c0; 1 cpd00663_c0; -1 cpd00617_c0
+rxn02185_c0,2-Acetolactate pyruvate-lyase (carboxylating),(2776381226 or 2776383252),2,False,c0,balanced,{},,-0.0,-1000.0,1000.0,-1 cpd00668_c0; 1 cpd00020_c0; 1 cpd03049_c0; -1 cpd00056_c0
+rxn05602_c0,L-lactate reversible transport via proton symport,(2776381490 or 2776383353),2,False,c0;e0,balanced,{},,10.0,-1000.0,1000.0,1 cpd00067_c0; 1 cpd00159_c0; -1 cpd00067_e0; -1 cpd00159_e0
+rxn05760_c0,L-Glutamate:ferredoxin oxidoreductase (transaminating),2776381213,1,False,c0,balanced,{},,0.0,-1000.0,0.0,2 cpd00067_c0; -2 cpd00023_c0; 1 cpd00024_c0; 1 cpd00053_c0; -2 cpd11621_c0; 2 cpd11620_c0
+rxn05938_c0,pyruvate ferredoxin oxidoreductase,,0,False,c0,balanced,{},,-20.03404981382833,-1000.0,1000.0,-1 cpd00067_c0; -1 cpd00011_c0; 1 cpd00020_c0; 1 cpd00010_c0; -1 cpd00022_c0; 2 cpd11621_c0; -2 cpd11620_c0
+rxn07189_c0,"carbon-monoxide,water:ferredoxin oxidoreductase",2776382537,1,False,c0,balanced,{},,-0.0,-1000.0,1000.0,-1 cpd00001_c0; 3 cpd00067_c0; 1 cpd00011_c0; -2 cpd11621_c0; 2 cpd11620_c0; -1 cpd00204_c0
+rxn08350_c0,D-lactate transport via proton symport (periplasm),(2776381490 or 2776383353),2,False,c0;e0,balanced,{},,-0.0,-1000.0,1000.0,1 cpd00067_c0; -1 cpd00067_e0; 1 cpd00221_c0; -1 cpd00221_e0
+rxn08764_c0,ketol-acid reductoisomerase (2-Acetolactate),2776381227,1,False,c0,balanced,{},,0.19318793387228683,-1000.0,1000.0,-1 cpd00067_c0; 1 cpd00006_c0; -1 cpd00005_c0; -1 cpd00498_c0; 1 cpd02535_c0
+rxn10818_c0,L-lactate transport out via proton antiport,(2776381490 or 2776383353),2,False,c0;e0,balanced,{},,0.0,0.0,1000.0,1 cpd00067_c0; -1 cpd00159_c0; -1 cpd00067_e0; 1 cpd00159_e0
+rxn12365_c0,transport of lactate [extraorganism-cytosol](secondary symport),(2776381490 or 2776383353),2,False,c0;e0;p0,balanced,{},,-0.0,-1000.0,1000.0,1 cpd00067_c0; 1 cpd00159_c0; -1 cpd00067_e0; -1 cpd00159_p0
+rxn12366_c0,transport of d-lactate [extraorganism-cytosol](secondary symport),(2776381490 or 2776383353),2,False,c0;e0;p0,balanced,{},,-0.0,-1000.0,1000.0,1 cpd00067_c0; -1 cpd00067_e0; 1 cpd00221_c0; -1 cpd00221_p0
+rxn13766_c0,ATP synthase (three protons for one ATP),2776382210,1,False,c0;e0,balanced,{},,0.0,-1000.0,0.0,1 cpd00001_c0; -1 cpd00009_c0; 2 cpd00067_c0; 1 cpd00002_c0; -1 cpd00008_c0; -3 cpd00067_e0
+rxn15020_c0,(R)-Lactate:ferricytochrome-c-553 2-oxidoreductase,(2776381466 or 2776382531),2,False,c0,unknown_formula,null,cpd19010_c0;cpd19011_c0,-0.0,-1000.0,1000.0,1 cpd00020_c0; -1 cpd00221_c0; -2 cpd19010_c0; 2 cpd19011_c0
+rxn15491_c0,(S)-2-Acetolactate pyruvate-lyase (carboxylating),(2776381226 or 2776383252),2,False,c0,balanced,{},,-0.6392698067684498,-1000.0,1000.0,1 cpd00020_c0; 1 cpd03049_c0; -1 cpd00056_c0; -1 cpd19047_c0
+rxn15511_c0,(S)-2-Acetolactate methylmutase,2776381227,1,False,c0,balanced,{},,-0.0,-1000.0,1000.0,1 cpd02569_c0; -1 cpd19047_c0
+rxn40939_c0,(R)-3-(aryl)lactoyl-CoA dehydratase,(2776383348 and 2776383349),2,False,c0,balanced,{},,0.0,0.0,1000.0,1 cpd00001_c0; -1 cpd34089_c0; 1 cpd31402_c0
+rxn43002_c0,(R)-3-(aryl)lactoyl-CoA dehydratase,(2776383348 and 2776383349),2,False,c0,balanced,{},,0.0,0.0,1000.0,1 cpd00001_c0; 1 cpd00067_c0; -1 cpd14973_c0; 1 cpd00422_c0
+rxn44705_c0,(R)-3-(aryl)lactoyl-CoA dehydratase,(2776383348 and 2776383349),2,False,c0,balanced,{},,0.0,0.0,1000.0,1 cpd00001_c0; -1 cpd34727_c0; 1 cpd00192_c0
+rxn90001_c0,Butyryl-CoA dehydrogenase (Etf complex),(2776381648 or 2776381649 or 2776383224),3,False,c0,balanced,{},,10.963550439238096,0.0,1000.0,2 cpd00003_c0; -2 cpd00004_c0; 1 cpd00120_c0; -1 cpd00650_c0; -2 cpd11621_c0; 2 cpd11620_c0
+rxn90029_c0,acryloyl-CoA reductase,(2776381648 and (2776381649 or 2776383224)),3,False,c0,balanced,{},,9.61897863046692,0.0,1000.0,1 cpd00003_c0; -1 cpd00004_c0; 1 cpd00086_c0; -1 cpd00663_c0
+rxn90053_c0,Na(+)-translocating ferredoxin:NAD(+) oxidoreductase complex,(2776381539 and 2776381540 and 2776381543 and 2776381544),4,False,c0;e0,balanced,{},,30.62607230371671,0.0,1000.0,-1 cpd00067_c0; -1 cpd00003_c0; 1 cpd00004_c0; 2 cpd00971_e0; -2 cpd00971_c0; 2 cpd11621_c0; -2 cpd11620_c0
+rxn90054_c0,LDH-Etf complex (electron bifurcating),((2776381491 or 2776381550 or 2776381588 or 2776382334 or 2776382727) and (2776381649 or 2776383224)),7,False,c0,balanced,{},,0.38102136953308013,0.0,1000.0,1 cpd00020_c0; -2 cpd00003_c0; -1 cpd00159_c0; 2 cpd00004_c0; 2 cpd11621_c0; -2 cpd11620_c0
+rxn90055_c0,Na+ F1FO ATP synthase,2776382210,1,False,c0;e0,balanced,{},,14.013554256004168,0.0,1000.0,1 cpd00001_c0; -1 cpd00009_c0; -1 cpd00067_c0; 1 cpd00002_c0; -1 cpd00008_c0; -4 cpd00971_e0; 4 cpd00971_c0
+rxn90056_c0,LDH-Etf complex (electron bifurcating),((2776381491 or 2776381550 or 2776381588 or 2776382334 or 2776382727) and (2776381649 or 2776383224)),7,False,c0,balanced,{},,0.0,0.0,1000.0,1 cpd00020_c0; -2 cpd00003_c0; 2 cpd00004_c0; 2 cpd11621_c0; -2 cpd11620_c0; -1 cpd00221_c0
+EX_cpd00159_e0,L-Lactate-e0 Exchange,,0,True,e0,unbalanced,"{""C"": -3.0, ""H"": -5.0, ""O"": -3.0, ""charge"": 1.0}",,-10.0,-10.0,1000.0,-1 cpd00159_e0
+EX_cpd00221_e0,D-Lactate-e0 Exchange,,0,True,e0,unbalanced,"{""C"": -3.0, ""H"": -5.0, ""O"": -3.0, ""charge"": 1.0}",,0.0,0.0,1000.0,-1 cpd00221_e0
+rxn15695_c0,3-sulfolactate bisulfite-lyase,,0,False,c0,balanced,{},,-0.0,-1000.0,1000.0,1 cpd00020_c0; 1 cpd00081_c0; -1 cpd08338_c0
+rxn00500_c0,(R)-Lactate:NAD+ oxidoreductase,,0,False,c0,balanced,{},,-0.0,-1000.0,1000.0,1 cpd00067_c0; 1 cpd00020_c0; -1 cpd00003_c0; 1 cpd00004_c0; -1 cpd00221_c0

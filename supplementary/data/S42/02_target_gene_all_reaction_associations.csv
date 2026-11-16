@@ -1,0 +1,294 @@
+target,gene,associated_reaction,reaction_name,GPR,disabled_by_gene_alone
+rxn00138_c0,2776381663,rxn00138_c0,deamido-NAD+:ammonia ligase (AMP-forming),2776381663,True
+rxn00138_c0,2776381663,rxn00190_c0,Deamido-NAD+:L-glutamine amido-ligase (AMP-forming),2776381663,True
+rxn00410_c0,2776381538,rxn00410_c0,UTP:ammonia ligase (ADP-forming),2776381538,True
+rxn00410_c0,2776381538,rxn00412_c0,UTP:L-glutamine amido-ligase (ADP-forming),2776381538,True
+rxn00456_c0,2776382424,rxn00453_c0,O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase,(2776382424 or 2776383406),False
+rxn00456_c0,2776382424,rxn00456_c0,L-methionine methanethiol-lyase (deaminating;2-oxobutanoate-forming),(2776382424 or 2776383406),False
+rxn00456_c0,2776382424,rxn00566_c0,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00456_c0,2776382424,rxn00742_c0,L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00456_c0,2776382424,rxn00950_c0,Cystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00456_c0,2776382424,rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00456_c0,2776382424,rxn01735_c0,L-Cystine L-Cysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00456_c0,2776382424,rxn01816_c0,R02508,(2776382424 or 2776383406),False
+rxn00456_c0,2776382424,rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn00456_c0,2776382424,rxn03263_c0,Selenomethionine methanethiol-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00456_c0,2776382424,rxn03374_c0,Selenocystathionine Lysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00456_c0,2776382424,rxn03379_c0,Selenocystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00456_c0,2776382424,rxn03382_c0,O-Acetylhomoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn00456_c0,2776382424,rxn03383_c0,O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00456_c0,2776382424,rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)",(2776382424 or 2776382536 or 2776383001 or 2776383406),False
+rxn00456_c0,2776382424,rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00456_c0,2776382424,rxn06282_c0,S-Alkyl-L-cysteine alkylthiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00456_c0,2776382424,rxn06404_c0,RS-CH2-CH(NH3+)COO- thiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00456_c0,2776382424,rxn06820_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00456_c0,2776382424,rxn09948_c0,O-succinylhomoserine lyase (methanethiol),(2776382424 or 2776383406),False
+rxn00456_c0,2776382424,rxn14167_c0,2-Aminobut-2-enoate aminohydrolase (spontaneous),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00456_c0,2776382424,rxn14359_c0,L-methionine methanethiol-lyase,(2776382424 or 2776383406),False
+rxn00456_c0,2776382424,rxn15166_c0,L-cystathionine L-homocysteine-lyase (deaminating; pyruvate-forming),(2776382424 or 2776383345 or 2776383406),False
+rxn00456_c0,2776382424,rxn15395_c0,O-Succinyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn00456_c0,2776382424,rxn15500_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00456_c0,2776383406,rxn00193_c0,glutamate racemase,2776383406,True
+rxn00456_c0,2776383406,rxn00283_c0,alanine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn00417_c0,glutamine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn00425_c0,serine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn00453_c0,O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase,(2776382424 or 2776383406),False
+rxn00456_c0,2776383406,rxn00456_c0,L-methionine methanethiol-lyase (deaminating;2-oxobutanoate-forming),(2776382424 or 2776383406),False
+rxn00456_c0,2776383406,rxn00472_c0,ornithine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn00566_c0,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn00652_c0,2-Amino-3-mercaptopropionic acid racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn00742_c0,L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn00950_c0,Cystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00456_c0,2776383406,rxn01735_c0,L-Cystine L-Cysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn01816_c0,R02508,(2776382424 or 2776383406),False
+rxn00456_c0,2776383406,rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn00456_c0,2776383406,rxn03263_c0,Selenomethionine methanethiol-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn03374_c0,Selenocystathionine Lysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn03379_c0,Selenocystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn03382_c0,O-Acetylhomoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn00456_c0,2776383406,rxn03383_c0,O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00456_c0,2776383406,rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)",(2776382424 or 2776382536 or 2776383001 or 2776383406),False
+rxn00456_c0,2776383406,rxn05955_c0,amino-acid racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00456_c0,2776383406,rxn06282_c0,S-Alkyl-L-cysteine alkylthiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn06404_c0,RS-CH2-CH(NH3+)COO- thiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn06820_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00456_c0,2776383406,rxn09948_c0,O-succinylhomoserine lyase (methanethiol),(2776382424 or 2776383406),False
+rxn00456_c0,2776383406,rxn14167_c0,2-Aminobut-2-enoate aminohydrolase (spontaneous),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn14359_c0,L-methionine methanethiol-lyase,(2776382424 or 2776383406),False
+rxn00456_c0,2776383406,rxn15166_c0,L-cystathionine L-homocysteine-lyase (deaminating; pyruvate-forming),(2776382424 or 2776383345 or 2776383406),False
+rxn00456_c0,2776383406,rxn15395_c0,O-Succinyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn00456_c0,2776383406,rxn15500_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00566_c0,2776381814,rxn00566_c0,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776381814,rxn00742_c0,L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776381814,rxn01735_c0,L-Cystine L-Cysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776381814,rxn03263_c0,Selenomethionine methanethiol-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776381814,rxn03374_c0,Selenocystathionine Lysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776381814,rxn14167_c0,2-Aminobut-2-enoate aminohydrolase (spontaneous),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776382424,rxn00453_c0,O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase,(2776382424 or 2776383406),False
+rxn00566_c0,2776382424,rxn00456_c0,L-methionine methanethiol-lyase (deaminating;2-oxobutanoate-forming),(2776382424 or 2776383406),False
+rxn00566_c0,2776382424,rxn00566_c0,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776382424,rxn00742_c0,L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776382424,rxn00950_c0,Cystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00566_c0,2776382424,rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00566_c0,2776382424,rxn01735_c0,L-Cystine L-Cysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776382424,rxn01816_c0,R02508,(2776382424 or 2776383406),False
+rxn00566_c0,2776382424,rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn00566_c0,2776382424,rxn03263_c0,Selenomethionine methanethiol-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776382424,rxn03374_c0,Selenocystathionine Lysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776382424,rxn03379_c0,Selenocystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00566_c0,2776382424,rxn03382_c0,O-Acetylhomoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn00566_c0,2776382424,rxn03383_c0,O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00566_c0,2776382424,rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)",(2776382424 or 2776382536 or 2776383001 or 2776383406),False
+rxn00566_c0,2776382424,rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00566_c0,2776382424,rxn06282_c0,S-Alkyl-L-cysteine alkylthiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00566_c0,2776382424,rxn06404_c0,RS-CH2-CH(NH3+)COO- thiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00566_c0,2776382424,rxn06820_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00566_c0,2776382424,rxn09948_c0,O-succinylhomoserine lyase (methanethiol),(2776382424 or 2776383406),False
+rxn00566_c0,2776382424,rxn14167_c0,2-Aminobut-2-enoate aminohydrolase (spontaneous),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776382424,rxn14359_c0,L-methionine methanethiol-lyase,(2776382424 or 2776383406),False
+rxn00566_c0,2776382424,rxn15166_c0,L-cystathionine L-homocysteine-lyase (deaminating; pyruvate-forming),(2776382424 or 2776383345 or 2776383406),False
+rxn00566_c0,2776382424,rxn15395_c0,O-Succinyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn00566_c0,2776382424,rxn15500_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00566_c0,2776383082,rxn00566_c0,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383082,rxn00742_c0,L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383082,rxn01735_c0,L-Cystine L-Cysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383082,rxn03263_c0,Selenomethionine methanethiol-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383082,rxn03374_c0,Selenocystathionine Lysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383082,rxn14167_c0,2-Aminobut-2-enoate aminohydrolase (spontaneous),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn00283_c0,alanine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn00417_c0,glutamine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn00425_c0,serine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn00472_c0,ornithine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn00566_c0,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn00652_c0,2-Amino-3-mercaptopropionic acid racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn00742_c0,L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn00950_c0,Cystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn01735_c0,L-Cystine L-Cysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn03263_c0,Selenomethionine methanethiol-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn03374_c0,Selenocystathionine Lysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn03379_c0,Selenocystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn05955_c0,amino-acid racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn06282_c0,S-Alkyl-L-cysteine alkylthiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn06404_c0,RS-CH2-CH(NH3+)COO- thiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn14167_c0,2-Aminobut-2-enoate aminohydrolase (spontaneous),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383345,rxn15166_c0,L-cystathionine L-homocysteine-lyase (deaminating; pyruvate-forming),(2776382424 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn00193_c0,glutamate racemase,2776383406,True
+rxn00566_c0,2776383406,rxn00283_c0,alanine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn00417_c0,glutamine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn00425_c0,serine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn00453_c0,O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase,(2776382424 or 2776383406),False
+rxn00566_c0,2776383406,rxn00456_c0,L-methionine methanethiol-lyase (deaminating;2-oxobutanoate-forming),(2776382424 or 2776383406),False
+rxn00566_c0,2776383406,rxn00472_c0,ornithine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn00566_c0,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn00652_c0,2-Amino-3-mercaptopropionic acid racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn00742_c0,L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn00950_c0,Cystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00566_c0,2776383406,rxn01735_c0,L-Cystine L-Cysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn01816_c0,R02508,(2776382424 or 2776383406),False
+rxn00566_c0,2776383406,rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn00566_c0,2776383406,rxn03263_c0,Selenomethionine methanethiol-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn03374_c0,Selenocystathionine Lysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn03379_c0,Selenocystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn03382_c0,O-Acetylhomoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn00566_c0,2776383406,rxn03383_c0,O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00566_c0,2776383406,rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)",(2776382424 or 2776382536 or 2776383001 or 2776383406),False
+rxn00566_c0,2776383406,rxn05955_c0,amino-acid racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00566_c0,2776383406,rxn06282_c0,S-Alkyl-L-cysteine alkylthiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn06404_c0,RS-CH2-CH(NH3+)COO- thiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn06820_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00566_c0,2776383406,rxn09948_c0,O-succinylhomoserine lyase (methanethiol),(2776382424 or 2776383406),False
+rxn00566_c0,2776383406,rxn14167_c0,2-Aminobut-2-enoate aminohydrolase (spontaneous),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn14359_c0,L-methionine methanethiol-lyase,(2776382424 or 2776383406),False
+rxn00566_c0,2776383406,rxn15166_c0,L-cystathionine L-homocysteine-lyase (deaminating; pyruvate-forming),(2776382424 or 2776383345 or 2776383406),False
+rxn00566_c0,2776383406,rxn15395_c0,O-Succinyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn00566_c0,2776383406,rxn15500_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn00916_c0,2776381411,rxn00916_c0,Xanthosine-5'-phosphate:ammonia ligase (AMP-forming),2776381411,True
+rxn00916_c0,2776381411,rxn00917_c0,Xanthosine-5'-phosphate:L-glutamine amido-ligase (AMP-forming),2776381411,True
+rxn00916_c0,2776381411,rxn11772_c0,6-thioxanthine 5'-monophosphate:L-glutamine amido-ligase (AMP-forming),2776381411,True
+rxn02123_c0,2776383348,rxn02123_c0,Lactoyl-CoA hydro-lyase,(2776383348 and 2776383349),True
+rxn02123_c0,2776383348,rxn40939_c0,(R)-3-(aryl)lactoyl-CoA dehydratase,(2776383348 and 2776383349),True
+rxn02123_c0,2776383348,rxn43002_c0,(R)-3-(aryl)lactoyl-CoA dehydratase,(2776383348 and 2776383349),True
+rxn02123_c0,2776383348,rxn44705_c0,(R)-3-(aryl)lactoyl-CoA dehydratase,(2776383348 and 2776383349),True
+rxn02123_c0,2776383349,rxn02123_c0,Lactoyl-CoA hydro-lyase,(2776383348 and 2776383349),True
+rxn02123_c0,2776383349,rxn40939_c0,(R)-3-(aryl)lactoyl-CoA dehydratase,(2776383348 and 2776383349),True
+rxn02123_c0,2776383349,rxn43002_c0,(R)-3-(aryl)lactoyl-CoA dehydratase,(2776383348 and 2776383349),True
+rxn02123_c0,2776383349,rxn43902_c0,(R)-2-hydroxyisocaproyl-CoA dehydratase,2776383349,True
+rxn02123_c0,2776383349,rxn44705_c0,(R)-3-(aryl)lactoyl-CoA dehydratase,(2776383348 and 2776383349),True
+rxn05957_c0,2776382424,rxn00453_c0,O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase,(2776382424 or 2776383406),False
+rxn05957_c0,2776382424,rxn00456_c0,L-methionine methanethiol-lyase (deaminating;2-oxobutanoate-forming),(2776382424 or 2776383406),False
+rxn05957_c0,2776382424,rxn00566_c0,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn05957_c0,2776382424,rxn00742_c0,L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn05957_c0,2776382424,rxn00950_c0,Cystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn05957_c0,2776382424,rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn05957_c0,2776382424,rxn01735_c0,L-Cystine L-Cysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn05957_c0,2776382424,rxn01816_c0,R02508,(2776382424 or 2776383406),False
+rxn05957_c0,2776382424,rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn05957_c0,2776382424,rxn03263_c0,Selenomethionine methanethiol-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn05957_c0,2776382424,rxn03374_c0,Selenocystathionine Lysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn05957_c0,2776382424,rxn03379_c0,Selenocystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn05957_c0,2776382424,rxn03382_c0,O-Acetylhomoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn05957_c0,2776382424,rxn03383_c0,O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn05957_c0,2776382424,rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)",(2776382424 or 2776382536 or 2776383001 or 2776383406),False
+rxn05957_c0,2776382424,rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn05957_c0,2776382424,rxn06282_c0,S-Alkyl-L-cysteine alkylthiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn05957_c0,2776382424,rxn06404_c0,RS-CH2-CH(NH3+)COO- thiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn05957_c0,2776382424,rxn06820_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn05957_c0,2776382424,rxn09948_c0,O-succinylhomoserine lyase (methanethiol),(2776382424 or 2776383406),False
+rxn05957_c0,2776382424,rxn14167_c0,2-Aminobut-2-enoate aminohydrolase (spontaneous),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn05957_c0,2776382424,rxn14359_c0,L-methionine methanethiol-lyase,(2776382424 or 2776383406),False
+rxn05957_c0,2776382424,rxn15166_c0,L-cystathionine L-homocysteine-lyase (deaminating; pyruvate-forming),(2776382424 or 2776383345 or 2776383406),False
+rxn05957_c0,2776382424,rxn15395_c0,O-Succinyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn05957_c0,2776382424,rxn15500_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn05957_c0,2776383406,rxn00193_c0,glutamate racemase,2776383406,True
+rxn05957_c0,2776383406,rxn00283_c0,alanine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn00417_c0,glutamine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn00425_c0,serine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn00453_c0,O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase,(2776382424 or 2776383406),False
+rxn05957_c0,2776383406,rxn00456_c0,L-methionine methanethiol-lyase (deaminating;2-oxobutanoate-forming),(2776382424 or 2776383406),False
+rxn05957_c0,2776383406,rxn00472_c0,ornithine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn00566_c0,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn00652_c0,2-Amino-3-mercaptopropionic acid racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn00742_c0,L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn00950_c0,Cystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn05957_c0,2776383406,rxn01735_c0,L-Cystine L-Cysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn01816_c0,R02508,(2776382424 or 2776383406),False
+rxn05957_c0,2776383406,rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn05957_c0,2776383406,rxn03263_c0,Selenomethionine methanethiol-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn03374_c0,Selenocystathionine Lysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn03379_c0,Selenocystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn03382_c0,O-Acetylhomoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn05957_c0,2776383406,rxn03383_c0,O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn05957_c0,2776383406,rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)",(2776382424 or 2776382536 or 2776383001 or 2776383406),False
+rxn05957_c0,2776383406,rxn05955_c0,amino-acid racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn05957_c0,2776383406,rxn06282_c0,S-Alkyl-L-cysteine alkylthiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn06404_c0,RS-CH2-CH(NH3+)COO- thiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn06820_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn05957_c0,2776383406,rxn09948_c0,O-succinylhomoserine lyase (methanethiol),(2776382424 or 2776383406),False
+rxn05957_c0,2776383406,rxn14167_c0,2-Aminobut-2-enoate aminohydrolase (spontaneous),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn14359_c0,L-methionine methanethiol-lyase,(2776382424 or 2776383406),False
+rxn05957_c0,2776383406,rxn15166_c0,L-cystathionine L-homocysteine-lyase (deaminating; pyruvate-forming),(2776382424 or 2776383345 or 2776383406),False
+rxn05957_c0,2776383406,rxn15395_c0,O-Succinyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn05957_c0,2776383406,rxn15500_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn14359_c0,2776382424,rxn00453_c0,O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase,(2776382424 or 2776383406),False
+rxn14359_c0,2776382424,rxn00456_c0,L-methionine methanethiol-lyase (deaminating;2-oxobutanoate-forming),(2776382424 or 2776383406),False
+rxn14359_c0,2776382424,rxn00566_c0,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn14359_c0,2776382424,rxn00742_c0,L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn14359_c0,2776382424,rxn00950_c0,Cystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn14359_c0,2776382424,rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn14359_c0,2776382424,rxn01735_c0,L-Cystine L-Cysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn14359_c0,2776382424,rxn01816_c0,R02508,(2776382424 or 2776383406),False
+rxn14359_c0,2776382424,rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn14359_c0,2776382424,rxn03263_c0,Selenomethionine methanethiol-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn14359_c0,2776382424,rxn03374_c0,Selenocystathionine Lysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn14359_c0,2776382424,rxn03379_c0,Selenocystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn14359_c0,2776382424,rxn03382_c0,O-Acetylhomoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn14359_c0,2776382424,rxn03383_c0,O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn14359_c0,2776382424,rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)",(2776382424 or 2776382536 or 2776383001 or 2776383406),False
+rxn14359_c0,2776382424,rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn14359_c0,2776382424,rxn06282_c0,S-Alkyl-L-cysteine alkylthiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn14359_c0,2776382424,rxn06404_c0,RS-CH2-CH(NH3+)COO- thiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn14359_c0,2776382424,rxn06820_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn14359_c0,2776382424,rxn09948_c0,O-succinylhomoserine lyase (methanethiol),(2776382424 or 2776383406),False
+rxn14359_c0,2776382424,rxn14167_c0,2-Aminobut-2-enoate aminohydrolase (spontaneous),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn14359_c0,2776382424,rxn14359_c0,L-methionine methanethiol-lyase,(2776382424 or 2776383406),False
+rxn14359_c0,2776382424,rxn15166_c0,L-cystathionine L-homocysteine-lyase (deaminating; pyruvate-forming),(2776382424 or 2776383345 or 2776383406),False
+rxn14359_c0,2776382424,rxn15395_c0,O-Succinyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn14359_c0,2776382424,rxn15500_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn14359_c0,2776383406,rxn00193_c0,glutamate racemase,2776383406,True
+rxn14359_c0,2776383406,rxn00283_c0,alanine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn00417_c0,glutamine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn00425_c0,serine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn00453_c0,O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase,(2776382424 or 2776383406),False
+rxn14359_c0,2776383406,rxn00456_c0,L-methionine methanethiol-lyase (deaminating;2-oxobutanoate-forming),(2776382424 or 2776383406),False
+rxn14359_c0,2776383406,rxn00472_c0,ornithine racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn00566_c0,L-Cysteine hydrogen-sulfide-lyase (deaminating; pyruvate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn00652_c0,2-Amino-3-mercaptopropionic acid racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn00742_c0,L-cystathionine cysteine-lyase (deaminating; 2-oxobutanoate-forming),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn00950_c0,Cystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn14359_c0,2776383406,rxn01735_c0,L-Cystine L-Cysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn01816_c0,R02508,(2776382424 or 2776383406),False
+rxn14359_c0,2776383406,rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn14359_c0,2776383406,rxn03263_c0,Selenomethionine methanethiol-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn03374_c0,Selenocystathionine Lysteine-lyase (deaminating),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn03379_c0,Selenocystathionine L-homocysteine-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn03382_c0,O-Acetylhomoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn14359_c0,2776383406,rxn03383_c0,O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn14359_c0,2776383406,rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)",(2776382424 or 2776382536 or 2776383001 or 2776383406),False
+rxn14359_c0,2776383406,rxn05955_c0,amino-acid racemase,(2776383064 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn14359_c0,2776383406,rxn06282_c0,S-Alkyl-L-cysteine alkylthiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn06404_c0,RS-CH2-CH(NH3+)COO- thiol-lyase (deaminating),(2776382424 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn06820_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn14359_c0,2776383406,rxn09948_c0,O-succinylhomoserine lyase (methanethiol),(2776382424 or 2776383406),False
+rxn14359_c0,2776383406,rxn14167_c0,2-Aminobut-2-enoate aminohydrolase (spontaneous),(2776381814 or 2776382424 or 2776383082 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn14359_c0,L-methionine methanethiol-lyase,(2776382424 or 2776383406),False
+rxn14359_c0,2776383406,rxn15166_c0,L-cystathionine L-homocysteine-lyase (deaminating; pyruvate-forming),(2776382424 or 2776383345 or 2776383406),False
+rxn14359_c0,2776383406,rxn15395_c0,O-Succinyl-L-homoserine succinate-lyase (adding cysteine),(2776382424 or 2776383406),False
+rxn14359_c0,2776383406,rxn15500_c0,O-phosphorylhomoserine:selenocysteine Se-(3-amino-3-carboxypropyl)transferase,(2776382424 or 2776383406),False
+rxn90001_c0,2776381648,rxn90001_c0,Butyryl-CoA dehydrogenase (Etf complex),(2776381648 or 2776381649 or 2776383224),False
+rxn90001_c0,2776381648,rxn90029_c0,acryloyl-CoA reductase,(2776381648 and (2776381649 or 2776383224)),True
+rxn90001_c0,2776381649,rxn90001_c0,Butyryl-CoA dehydrogenase (Etf complex),(2776381648 or 2776381649 or 2776383224),False
+rxn90001_c0,2776381649,rxn90029_c0,acryloyl-CoA reductase,(2776381648 and (2776381649 or 2776383224)),False
+rxn90001_c0,2776381649,rxn90054_c0,LDH-Etf complex (electron bifurcating),((2776381491 or 2776381550 or 2776381588 or 2776382334 or 2776382727) and (2776381649 or 2776383224)),False
+rxn90001_c0,2776381649,rxn90056_c0,LDH-Etf complex (electron bifurcating),((2776381491 or 2776381550 or 2776381588 or 2776382334 or 2776382727) and (2776381649 or 2776383224)),False
+rxn90001_c0,2776383224,rxn90001_c0,Butyryl-CoA dehydrogenase (Etf complex),(2776381648 or 2776381649 or 2776383224),False
+rxn90001_c0,2776383224,rxn90029_c0,acryloyl-CoA reductase,(2776381648 and (2776381649 or 2776383224)),False
+rxn90001_c0,2776383224,rxn90054_c0,LDH-Etf complex (electron bifurcating),((2776381491 or 2776381550 or 2776381588 or 2776382334 or 2776382727) and (2776381649 or 2776383224)),False
+rxn90001_c0,2776383224,rxn90056_c0,LDH-Etf complex (electron bifurcating),((2776381491 or 2776381550 or 2776381588 or 2776382334 or 2776382727) and (2776381649 or 2776383224)),False
+rxn90029_c0,2776381648,rxn90001_c0,Butyryl-CoA dehydrogenase (Etf complex),(2776381648 or 2776381649 or 2776383224),False
+rxn90029_c0,2776381648,rxn90029_c0,acryloyl-CoA reductase,(2776381648 and (2776381649 or 2776383224)),True
+rxn90029_c0,2776381649,rxn90001_c0,Butyryl-CoA dehydrogenase (Etf complex),(2776381648 or 2776381649 or 2776383224),False
+rxn90029_c0,2776381649,rxn90029_c0,acryloyl-CoA reductase,(2776381648 and (2776381649 or 2776383224)),False
+rxn90029_c0,2776381649,rxn90054_c0,LDH-Etf complex (electron bifurcating),((2776381491 or 2776381550 or 2776381588 or 2776382334 or 2776382727) and (2776381649 or 2776383224)),False
+rxn90029_c0,2776381649,rxn90056_c0,LDH-Etf complex (electron bifurcating),((2776381491 or 2776381550 or 2776381588 or 2776382334 or 2776382727) and (2776381649 or 2776383224)),False
+rxn90029_c0,2776383224,rxn90001_c0,Butyryl-CoA dehydrogenase (Etf complex),(2776381648 or 2776381649 or 2776383224),False
+rxn90029_c0,2776383224,rxn90029_c0,acryloyl-CoA reductase,(2776381648 and (2776381649 or 2776383224)),False
+rxn90029_c0,2776383224,rxn90054_c0,LDH-Etf complex (electron bifurcating),((2776381491 or 2776381550 or 2776381588 or 2776382334 or 2776382727) and (2776381649 or 2776383224)),False
+rxn90029_c0,2776383224,rxn90056_c0,LDH-Etf complex (electron bifurcating),((2776381491 or 2776381550 or 2776381588 or 2776382334 or 2776382727) and (2776381649 or 2776383224)),False

@@ -1,57 +1,45 @@
-# Megasphaera sp. MJR8396C genome-scale metabolic modeling
+# Genome-scale modeling of *Megasphaera* sp. MJR8396C
 
-[![Reproducibility check](https://github.com/USERNAME/REPOSITORY/actions/workflows/verify.yml/badge.svg)](https://github.com/USERNAME/REPOSITORY/actions/workflows/verify.yml)
+**Companion code and source data for:** “Genome-scale constraint-based modeling of *Megasphaera* sp. MJR8396C predicts nutrient-dependent fermentation and conditional microbial exchange.”
 
-Computational models, media definitions, quality-control reports, analysis notebooks, machine-readable source data, and manuscript figures supporting:
+This repository contains the authors' computational revision based on the deposited MJR8396C model and uniform gapseq 2.1.0 reconstructions of MJR8396C, *Megasphaera indica* NM10, *Megasphaera* BL7 and *Bifidobacterium adolescentis* 22L. It is **not** a claim of direct experimental validation of MJR8396C, nor does it establish intestinal colonization: the reference isolate derives from a human vaginal sample.
 
-> **Genome-level constraint-based analysis of Megasphaera sp. MJR8396C reveals nutrient-dependent fermentation and lactate-linked cross-feeding**  
-> Joy Iheoma van Geerestein*, Andrea Dell'Olio*, Josep Rubert, William T. Scott Jr.  
-> *Co-first authors
+The repo provides immutable original SBML files, derived sequence-supported GPR models, machine-readable source tables S1–S87, accession-resolved genome FASTA, executed notebook, reproducible code and original input provenance. Larger full-grid community flux matrices, complete matched reconstruction intermediate files, and diagnostic model variants are prepared separately for a Zenodo data archive. **No Zenodo DOI has been minted** by preparing this package.
 
-The study reconstructs a medium-conditioned genome-scale metabolic model (GEM) of **Megasphaera sp. MJR8396C**, evaluates nutrient-dependent fermentation, benchmarks selected model predictions against published *Megasphaera* physiology, examines genomic pathway context, identifies candidate intervention strategies with StrainDesign, and models a two-member interaction with *Bifidobacterium adolescentis* using MICOM.
+## Main findings and interpretive constraints
 
-## Key model and study identifiers
+- The original 1,849-reaction, 1,614-metabolite, 477-gene model is a draft, gap-filled reconstruction; GEM/MEMOTE consistency is distinct from physiological calibration.
+- Growth and secretion depend on assumed medium, biomass and maintenance constraints; pFBA points are not unique or obligatory flux predictions.
+- Targeted Bcd–Etf, Rnf and PFOR gene associations are supported by sequence comparisons; other electron-transfer and terminal-pathway assignments remain uncertain.
+- Historical reaction-only nucleotide-associated butyrate interventions are not feasible gene deletions under the deposited full-network GPR logic.
+- Modeled lactate exchange is conditional. Blocking bifidobacterial lactate export does not demonstrate an obligate lactate dependency. Equal-growth MICOM outcomes can reflect its cooperative-tradeoff regularization.
 
-- **MJR8396C genome assembly:** `GCA_001546855.1`
-- **B. adolescentis community-model genome:** `GCF_000737885.1`
-- **MJR8396C model:** `models/Megasphaera_sp_MJR8396C_filled_anaerobic.xml`
-- **B. adolescentis model:** `models/Bifidobacterium_adolescentis_filled_anaerobic.xml`
-- **gapseq executable provenance:** v2.0.0, commit `c64db99b`; bacterial sequence database v1.4
-- **Final MJR8396C GEM:** 1,849 reactions, 1,614 metabolites, 477 genes
-- **MEMOTE total score:** 88.2%
+## Navigate
 
-The model is a **medium-gapfilled reconstruction intended for hypothesis generation**, not a quantitatively calibrated digital twin. The manuscript explicitly reports remaining uncertainty, including blocked reactions, non-GPR reactions, and incomplete quantitative agreement with lactate physiology.
+| Folder | Contents |
+|---|---|
+| `models/original` | Original deposited SBML models (unchanged) |
+| `models/` | Sequence-annotated matched reconstructions and named sensitivity models |
+| `inputs/genomes` | Accession-verified genome FASTA, proteins and assembly provenance |
+| `inputs/submission_reference` | Original manuscript medium definitions and source tables needed by legacy workflows (not previous version releases) |
+| `scripts` / `tests` | Modeling, quality checks, and numerical solver adapters |
+| `notebooks` | Executed v6 results overview |
+| `supplementary/SUPPLEMENTARY_INDEX.csv` | Canonical S1–S87 source-data map with exact paths |
+| `figures/manuscript` | Seven revised manuscript figures and supplementary sequence map |
+| `results/current_summary` | Current numerical results and test certificates |
+| `provenance` | Versioned methods, input metadata, and source hashes |
 
-## Repository structure
+## Reproducibility
 
-```text
-.
-├── models/              # Final SBML models
-├── media/               # Gut-like, carbohydrate-rich, and amino-acid-rich media
-├── notebooks/           # Primary and executed analysis notebooks
-├── scripts/             # Standalone core simulation script + verification utility
-├── tables/              # Machine-readable data behind main/supplementary tables
-├── figures/
-│   ├── manuscript/      # Canonical current Figures 1-7 (PDF/SVG/PNG)
-│   └── supplementary/   # Supplementary figure(s)
-├── benchmarking/        # External physiological benchmarking outputs
-├── quality_control/     # MEMOTE reports and model-comparison reports
-├── provenance/          # gapseq reconstruction/gapfilling logs
-├── docs/                # Manuscript-to-repository and reproducibility notes
-└── .github/workflows/   # Lightweight repository integrity check
-```
+See [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) and [`docs/RESULTS_AND_LIMITATIONS.md`](docs/RESULTS_AND_LIMITATIONS.md). Run `python scripts/verify_repository_v6.py` to verify presence, supplementary paths and SHA-256 checksums. Full reconstruction requires separately installed pinned gapseq with database, R/GLPK and the full Zenodo intermediate data; the historical environment used a Mac-specific Conda location, which is not bundled. For a complete rerun, use the recorded versioned external tools and command sequence rather than treating a notebook as a one-command reproduction.
 
-## Quick start
+## Data deposition and citation
 
-A lightweight standalone implementation reproduces the core FBA/pFBA analyses using SciPy/HiGHS and reads the objective directly from the deposited SBML.
+Proposed GitHub URL: https://github.com/wtscott31/megasphaera-mjr8396c-gem (please push the versioned release after author approval). Intended Zenodo archive name: `megasphaera-mjr8396c-gem_v6_full_data.zip`. Do not insert a Zenodo DOI into the manuscript until an actual Zenodo record exists. The `CITATION.cff` is a software/data citation template, not an accepted article citation.
 
-```bash
-python -m venv .venv
-source .venv/bin/activate      # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-python scripts/run_core_simulations.py
-```
+## Licensing
 
+<<<<<<< Updated upstream
 For notebook-based analyses:
 
 ```bash
@@ -101,3 +89,6 @@ Please cite the associated manuscript/preprint and the software used in the work
 ## License
 
 MIT License
+=======
+**No new license is assigned.** The authors should select and document an approved software license before making the code public. External database/reference models retain their respective terms and are attributed in the provenance tables. Vendored upstream gapseq and BOFdat implementations are intentionally excluded.
+>>>>>>> Stashed changes

@@ -1,0 +1,16 @@
+{
+  "started_utc": "2026-10-26T21:08:51.681976+00:00",
+  "finished_utc": "2026-10-26T21:08:54.131417+00:00",
+  "method": "NEW deterministic greedy deletion of reactions absent from the recovered original draft, using native full-network LPs",
+  "growth_floor": 0.1,
+  "additional_reactions_before": 237,
+  "additional_reactions_retained": 112,
+  "additional_reactions_disabled": 125,
+  "native_growth": 0.6875557012590916,
+  "mass_residual": 3.878668219936543e-14,
+  "all_retained_additional_reactions_fail_floor_if_deleted": true,
+  "inclusion_minimal": true,
+  "minimum_cardinality_claimed": false,
+  "ordering": "lexicographic reaction identifier",
+  "limits": "One order-dependent inclusion-minimal added-reaction subset within deposited filled chemistry/bounds; not historical weighted gapseq gapfill, not a globally smallest network, not a biologically validated curated model. Original draft alone has zero growth. Initial cardinality MILP candidate rejected after its rounded support failed native growth; retained diagnostic only."
+}

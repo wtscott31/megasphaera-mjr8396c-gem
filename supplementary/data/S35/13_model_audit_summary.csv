@@ -1,0 +1,3 @@
+model,reactions,metabolites,biomass_template,growth_baseline,growth_proton_balanced,proton_corrections,gut_blocked,open_exchange_blocked,internal_unbalanced_complete_formula,internal_unknown_formula,candidate_label
+MJR8396C,1849,1614,Bacterial Gram-negative biomass reaction,0.7004949341392159,0.7004949341392159,0,766,646,0,195,no_chemical_corrections_warranted_source_network_retained
+B_adolescentis_22L,1539,1245,Bacterial Gram-positive biomass reaction,0.4200339392432958,0.4200339392432958,0,671,523,0,147,no_chemical_corrections_warranted_source_network_retained

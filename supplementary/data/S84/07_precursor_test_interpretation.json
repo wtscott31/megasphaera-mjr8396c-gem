@@ -1,0 +1,9 @@
+{
+  "independent_demand_zero": [
+    "cpd11493_c0",
+    "cpd00166_c0",
+    "cpd15665_c0"
+  ],
+  "reason": "The submitted biomass consumes active forms and returns apo-ACP, cobinamide plus dimethylbenzimidazole, and n-1 peptidoglycan in equal molar coefficients. Single-metabolite drains remove conserved generic R, cobalt or lower-ligand pools, unlike biomass. Paired demands test the incorporated chemical moiety while preserving the explicit template recycling convention. An initial incomplete cobalamin counterproduct test omitted dimethylbenzimidazole and returned zero; it is not accepted as the complete carrier-aware test.",
+  "not_claimed": "This is a stoichiometric precursor-feasibility check, not measured cofactor composition, polymer chain length, carrier abundance or experimental biomass validation."
+}

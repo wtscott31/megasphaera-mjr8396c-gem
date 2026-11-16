@@ -1,0 +1,6 @@
+{
+  "started_utc": "2026-10-26T19:50:24.911706+00:00",
+  "parent": "revision_v3",
+  "interpreter": "/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v3/.venv/bin/python",
+  "policy": "v3 retained unchanged; v4 is a separate copied tree; all inherited results are v3 until explicitly replaced"
+}

@@ -1,0 +1,17 @@
+condition,reaction,ATPase_min,ATPase_max,interpretation,imposed_min_ATPase,growth_upper_bound_h-1
+closed all EX/DM/SK,rxn00062_c0,0.0,0.0,Nonzero maximum indicates putative no-uptake ATP-generating cycle; zero does not establish global thermodynamic feasibility,,
+gut-like,rxn00062_c0,,,ATPase demand proxy; not a measured or calibrated NGAM,0.0,0.7004949341392512
+gut-like,rxn00062_c0,,,ATPase demand proxy; not a measured or calibrated NGAM,1.0,0.6864499229284402
+gut-like,rxn00062_c0,,,ATPase demand proxy; not a measured or calibrated NGAM,2.0,0.672404911717628
+gut-like,rxn00062_c0,,,ATPase demand proxy; not a measured or calibrated NGAM,5.0,0.6302698780851924
+gut-like,rxn00062_c0,,,ATPase demand proxy; not a measured or calibrated NGAM,10.0,0.5593442984289901
+carbohydrate-enriched,rxn00062_c0,,,ATPase demand proxy; not a measured or calibrated NGAM,0.0,1.2006307552265596
+carbohydrate-enriched,rxn00062_c0,,,ATPase demand proxy; not a measured or calibrated NGAM,1.0,1.1863799450755026
+carbohydrate-enriched,rxn00062_c0,,,ATPase demand proxy; not a measured or calibrated NGAM,2.0,1.1721291349244454
+carbohydrate-enriched,rxn00062_c0,,,ATPase demand proxy; not a measured or calibrated NGAM,5.0,1.1293767044712744
+carbohydrate-enriched,rxn00062_c0,,,ATPase demand proxy; not a measured or calibrated NGAM,10.0,1.058122653715989
+six-amino-acid-enriched,rxn00062_c0,,,ATPase demand proxy; not a measured or calibrated NGAM,0.0,0.8327208598725738
+six-amino-acid-enriched,rxn00062_c0,,,ATPase demand proxy; not a measured or calibrated NGAM,1.0,0.8186758486618595
+six-amino-acid-enriched,rxn00062_c0,,,ATPase demand proxy; not a measured or calibrated NGAM,2.0,0.8046308374512383
+six-amino-acid-enriched,rxn00062_c0,,,ATPase demand proxy; not a measured or calibrated NGAM,5.0,0.7624958038185273
+six-amino-acid-enriched,rxn00062_c0,,,ATPase demand proxy; not a measured or calibrated NGAM,10.0,0.6922327783887702

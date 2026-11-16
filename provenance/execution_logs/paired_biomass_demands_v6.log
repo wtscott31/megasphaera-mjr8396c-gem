@@ -1,0 +1,28 @@
+   model                            variant active_precursor  max_paired_demand
+MJR8396C                           baseline      cpd11493_c0           4.191781
+MJR8396C                           baseline      cpd00166_c0           2.001616
+MJR8396C                           baseline      cpd15665_c0           1.602410
+MJR8396C             DNA_sequence_candidate      cpd11493_c0           4.191781
+MJR8396C             DNA_sequence_candidate      cpd00166_c0           2.001616
+MJR8396C             DNA_sequence_candidate      cpd15665_c0           1.602410
+MJR8396C DNA_uniform_AA_surrogate_candidate      cpd11493_c0           4.191781
+MJR8396C DNA_uniform_AA_surrogate_candidate      cpd00166_c0           2.001616
+MJR8396C DNA_uniform_AA_surrogate_candidate      cpd15665_c0           1.602410
+    NM10                           baseline      cpd11493_c0           1.000000
+    NM10                           baseline      cpd00166_c0           2.201087
+    NM10                           baseline      cpd15665_c0           1.808847
+    NM10             DNA_sequence_candidate      cpd11493_c0           1.000000
+    NM10             DNA_sequence_candidate      cpd00166_c0           2.201087
+    NM10             DNA_sequence_candidate      cpd15665_c0           1.808847
+    NM10 DNA_uniform_AA_surrogate_candidate      cpd11493_c0           1.000000
+    NM10 DNA_uniform_AA_surrogate_candidate      cpd00166_c0           2.201087
+    NM10 DNA_uniform_AA_surrogate_candidate      cpd15665_c0           1.808847
+     BL7                           baseline      cpd11493_c0           1.000000
+     BL7                           baseline      cpd00166_c0           2.201087
+     BL7                           baseline      cpd15665_c0           1.722973
+     BL7             DNA_sequence_candidate      cpd11493_c0           1.000000
+     BL7             DNA_sequence_candidate      cpd00166_c0           2.201087
+     BL7             DNA_sequence_candidate      cpd15665_c0           1.722973
+     BL7 DNA_uniform_AA_surrogate_candidate      cpd11493_c0           1.000000
+     BL7 DNA_uniform_AA_surrogate_candidate      cpd00166_c0           2.201087
+     BL7 DNA_uniform_AA_surrogate_candidate      cpd15665_c0           1.722973

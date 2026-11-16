@@ -1,0 +1,7 @@
+type,metabolite,name
+lactate metabolite,cpd00159_c0,L-Lactate-c0
+lactate metabolite,cpd00159_e0,L-Lactate-e0
+lactate metabolite,cpd00221_c0,D-Lactate-c0
+lactate metabolite,cpd00221_e0,D-Lactate-e0
+lactate metabolite,cpd00159_p0,L-Lactate-p0
+lactate metabolite,cpd00221_p0,D-Lactate-p0

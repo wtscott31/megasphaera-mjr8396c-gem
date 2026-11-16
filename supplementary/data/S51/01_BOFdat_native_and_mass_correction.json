@@ -1,0 +1,39 @@
+{
+  "official_repository": "https://github.com/jclachance/BOFdat",
+  "commit": "cf2de074c2d789ad47b890083cbbffadab40f177",
+  "native_source_unmodified": true,
+  "mapping": {
+    "cpd00115_c0": "datp_c",
+    "cpd00357_c0": "dttp_c",
+    "cpd00241_c0": "dgtp_c",
+    "cpd00356_c0": "dctp_c",
+    "cpd00012_c0": "ppi_c"
+  },
+  "DNA_fraction_g_gDW": 0.03099976061586465,
+  "fraction_provenance": "Preserved original deposited biomass DNA module mass; assumption, not a measured organism DNA fraction.",
+  "sequence_frequencies_double_strand": {
+    "A": 0.2448551031552481,
+    "T": 0.2448551031552481,
+    "G": 0.2551448968447519,
+    "C": 0.2551448968447519
+  },
+  "native_coefficients": {
+    "datp_c": -0.012117322900011746,
+    "dttp_c": -0.012476363800189093,
+    "dctp_c": -0.013675531453143331,
+    "dgtp_c": -0.012012891839863227,
+    "ppi_c": 0.0502821099932074
+  },
+  "native_net_mass_g_gDW": 0.015499880307932323,
+  "native_fraction_of_requested_mass": 0.49999999999999994,
+  "correction_coefficients": {
+    "datp_c": -0.024568381428899097,
+    "dttp_c": -0.024568381428899097,
+    "dgtp_c": -0.025600843374477253,
+    "dctp_c": -0.025600843374477253,
+    "ppi_c": 0.1003384496067527
+  },
+  "corrected_mass_g_gDW": 0.03099976061586465,
+  "correction_method": "Native _get_ratio returns ratios summing to 0.5 after double-strand counting. Native conversion additionally treats base count fractions as per-base mass fractions. Corrected coefficients use double-strand nucleotide mole fractions and one mean polymer residue mass (model dNTP minus exact model PPi), mmol/gDW = 1000 * assumed DNA mass fraction / mean residue g/mol. This transparent external correction is NOT represented as unmodified native BOFdat output.",
+  "limits": "DNA-only, model formula/protonation convention; negligible polymer end groups ignored; no measured RNA/proteomics/lipids/GAM/NGAM inferred."
+}

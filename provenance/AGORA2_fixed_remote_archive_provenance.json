@@ -1,0 +1,13 @@
+{
+  "url": "https://www.vmh.life/api/reconstructionFiles?download=AGORA2/version2.01/sbml_files_fixed/zipped/AGORA2_models/AGORA2_SBML.zip",
+  "archive_bytes": 2170499647,
+  "method": "Verified HTTP byte-range reads; original ZIP member CRC and length verified explicitly. Whole archive was not downloaded or SHA256-hashed; selected raw ranges and extracted-model SHA256s are preserved.",
+  "members": {
+    "Megasphaera_paucivorans_DSM_16981.xml": "81df7aac82e0e089578da6f77ec19d3b52e2523f925accf2e209e819388dcb1a",
+    "Megasphaera_nov_ERR1022370.xml": "cf72065ce4ca80b7e892de3bc5589696cfb2cadfcca57336363f7609e110ef92",
+    "Megasphaera_micronuciformis_F0359.xml": "ffa1356a2fce7f6d579ce6222e248c8ffbaee731376f7172aeb6602cbf62173b",
+    "Megasphaera_genomosp_type_2.xml": "dcb65c7dd9ceb9c543c3b26fa8a61ea0f0d6fd40d62a1a2d35aca500fafa1cad",
+    "Megasphaera_elsdenii_DSM_20460.xml": "3f703aba5a8dc2c31e87c8e77530857c7cbd36e3b31ec1df1536358f3875e21a",
+    "Megasphaera_massiliensis_NP3.xml": "e14bfe7038f122cc8683990364d8ebab6f6fcb6464df63202104283b0ac50165"
+  }
+}

@@ -1,0 +1,92 @@
+Reviewer 1
+
+This work presents a draft genome-scale metabolic reconstruction of Megasphaera sp. MJR8396C and simulates its growth and secretion profile under gut-like conditions and under controlled nutrient formulations. A two-species community model comprising Megasphaera sp. MJR8396C and Bifidobacterium adolescentis was used to investigate potential metabolic interactions between the strains.
+The authors have adequately addressed the statements made by the reviewers, both in their response to the reviewers and in the revision of the manuscript. However, I feel that reviewer 2 has a point on the suitability of the “draft” reconstruction in making predictions with biological significance. I see little curation of the reconstruction in the revised version.
+General comment:
+The promising aspects of the work are the choice of the genomes selected for modelling, the problem statement of identifying metabolite secretion and cross-feeding in the gut, transparency in reporting the models’ shortcomings, and the quantum of work carried out. The results presented in the nutrient-dependent growth are interesting. The concurrence of the models’ predictions with certain experimental data is another positive.
+The paper does not contain any fundamental flaws that would preclude publication, however, for a manuscript focused on building strain-specific GEMs, merely auditing the reconstruction using MEMOTE is not sufficient. Removal of modelling artefacts like blocked reactions, infeasible cycles, biomass precursor curation are essential, especially when one wants to predict more than just the growth of the organism. The formulation of the biomass equation is another important aspect that must be taken into account. The MEMOTE report does point out that the models are somewhat lacking in that aspect also. Inclusion of a couple of these computational curation steps in addition to improving the GPR will complete the picture. The lack of curation of these artefacts reduces the significance of the work. The disclaimers already presented in the discussion go a long way to mitigate these limitations, nevertheless the standard is not suitable for this journal, without another revision addressing these concerns, not merely adding them to the limitations.
+Specific comments:
+Line 126: Medium-conditioned GEM is a misleading phrase. It may indicate a growth medium formulation used for the gap filling or simulation.
+Line 207: Why was the genome compared to C. sporogenes? Please justify in the manuscript.
+In table 2: When similarity percentages are low (I see values like 20% and 33%) query coverage becomes an important aspect in homology detection. Please mention the cut-off used.
+Line 472: A bitscore threshold for pathway and transport searches is not optimal. A query coverage should ideally be enforced.
+Line 518: There is a discrepancy in the wording in the revised manuscript and Line 362-363 in the marked-up manuscript. The one in the revised manuscript is apt.
+Line 528 - 530: Why were pFBA and FVA carried out? The discussion could include a couple of sentences on the same.
+Media files in the supplementary data: What is the derivation_factor?
+There is a folder marked benchmarking, with a PDF with a Supplementary Table S11 and a Supplementary Table S14 in addition to Supplementary Figure S2 which in the legend caption is called Figure 1. I do not see these referenced in the revised manuscript.
+Figure 1B and D, and Figure 2A: There is some overlap of text in the figure.
+Overall impression: The availability of the codes and comprehensive supplementary information and interesting simulation setups are the highlights of the manuscript. The model, however, requires curation of blocked reactions, GPR associations and biomass formulation.
+
+Reviewer 2
+
+The authors reconstruct a GEM of Megasphaera sp. MJR8396C and apply benchmarking, gutSMASH, nutrient perturbations, StrainDesign, and a two-member MICOM model with B. adolescentis. They conclude that the strain is nutrient-responsive and can act as a lactate-consuming butyrate producer. The reporting is candid and reproducible, but the central cross-feeding and strain-design conclusions rest on unvalidated or likely artifactual model behavior.
+
+Major comments
+
+1. Methods 4.1 states that GCA_001546855.1 derives from a human vaginal isolate. The title, introduction, media, partner species (B. adolescentis), and obesity/fiber motivation are all gut-centered. This is never reconciled. Megasphaera is a well-known vaginal taxon, so the gut-like medium and bifidobacterial coculture may not reflect the strain's ecology. The supporting citations for the gut link (refs 55–56) are a fungal mycobiome pipeline (FunOMIC) and a renal-cell-carcinoma microbiota review. Neither obviously supports an association between this strain and fiber response or obesity. Ref 57 is the authors' own preprint. Please state the isolation site up front, justify the gut context with appropriate evidence (e.g., metagenomic detection of this strain in gut cohorts), or reframe the work as a generic Megasphaera model tested in gut-like conditions.
+
+2. Taxonomic placement is missing. The "sp." designation and comparisons with M. elsdenii, NM10, and BL7 rely on genus-level inference. The authors decline to compute ANI/dDDH or a GTDB placement (lines 213–214, 341–342, 555–556). This is a quick analysis, and it determines which reference strains are appropriate benchmarks. Genome size and GC for MJR8396C are also omitted from Fig. 3B, although both are trivially obtained from the assembly. Please add them.
+
+3. The lactate benchmark undermines the lactate-centered conclusions. The model predicts 0.156 h⁻¹ growth in the lactate-conditioned simulation against 0.62 h⁻¹ reported, a four-fold underprediction. It also predicts zero acetate, a 57% propionate fraction (vs. 35%), and a Jensen–Shannon distance of 0.52. The "13% above the published maximum" comparison pits a multi-substrate medium against a lactate-only culture, so it is not informative. The close butyrate match (11.33 vs. 10.4) is one point of agreement among several mismatches and may be coincidental. Yet the headline cross-feeding claim depends on exactly this lactate-oxidation capacity. Please diagnose the failure (CoA-transferase directionality, acrylate pathway stoichiometry, redox balance, NGAM, biomass template), state whether Bcd–Etf electron bifurcation is represented, which strongly affects ATP yield, and either curate the model or explicitly downgrade the conclusions that rely on lactate use.
+
+4. Growth and flux predictions are largely set by arbitrary uptake bounds, and the reported growth rates are implausible. In Table 3, every supplied carbon source is consumed at its upper bound in every condition, so growth is bound-limited, not network-limited. Predicted rates of 0.70, 0.83, 1.20 (and 1.51 in MICOM) h⁻¹ exceed the highest published M. elsdenii rate (0.62 h⁻¹). The authors note the 1.2006 value is a "theoretical upper bound", but the paper still treats these numbers as outcomes (e.g., the "71% biomass increase"). The gut-like medium is also the one used for gapfilling, so growth is guaranteed by construction, and gapfill solutions are non-unique. I request a sensitivity analysis on uptake bounds, NGAM/GAM, and biomass template (which gapseq template was used for this diderm Negativicute is not stated), reporting of FVA ranges (not just pFBA points) for the Table 3 fluxes, since sulfur and nitrogen products are likely highly degenerate, an energy-generating-cycle check, and a loopless FVA or equivalent.
+
+5. The MICOM analysis appears confounded by medium scaling and is not shown to demonstrate cross-feeding.
+
+MJR8396C grows at 1.5056 h⁻¹ in the community at tradeoff 1.0 versus 0.7005 h⁻¹ in monoculture. Table 5 shows total glucose uptake of 20.0 (16.35 + 3.65) and L-lactate of 20.0, i.e., exactly double the gut-like bounds. This suggests the medium bounds were applied per community gDW, so each member at 0.5 abundance effectively sees twice the nutrients. If so, the community and monoculture results are not comparable. Please clarify and renormalize.
+
+Between tradeoff 0.95 and 1.0, MJR8396C growth changes from 0.715 to 1.506 h⁻¹ while B. adolescentis drops to zero. The "cooperative" state is sensitive to an arbitrary tradeoff choice and fixed 50:50 abundance. The two members' growth rates being nearly identical (0.715171 vs. 0.715175) suggests a regularization effect. Please provide abundance sensitivity and FVA or sampling of the exchange fluxes.
+
+The paper never shows that MJR8396C grows faster or makes more butyrate in coculture than alone under identical effective constraints. Please compare against monoculture and include a transfer-blocked control (e.g., block B. adolescentis D-lactate secretion).
+B. adolescentis takes up all 20 units of supplied L-lactate and apparently racemizes it to D-lactate (33.62 secreted, exceeding what 16.35 glucose could generate through the bifid shunt). Bifidobacteria are not typically net lactate consumers, and they usually produce mainly L-lactate. The "cross-feeding" may largely reflect the artificial L-lactate in the medium plus the model's lactate racemization. Please justify the stereochemistry with literature and test a medium without L-lactate.
+
+6. The StrainDesign results are probably dominated by model artifacts. OptKnock 2–4 pair deletions of GMP synthase (rxn00916) or CTP synthase (rxn00410) with lactate/acrylate-pathway steps. These nucleotide-biosynthesis reactions are essential in most bacteria, yet the model loses only about 5% growth. This suggests redundant or gapfilled bypass reactions, which makes the predicted +47% butyrate dubious. Please report the GPRs and gene counts for each target, check for isozyme or gapfill-derived bypasses, and test essentiality in a minimal-gapfill model.
+
+OK2 and OK3 give identical phenotypes because they hit adjacent reactions in one pathway (rxn02123 and rxn90029). "Three strategies converged" overstates the independence.
+The tilted-OptKnock objective is not defined in the Methods (weights, tilt parameters, constraints). Table 4 omits OK0/OK1, which are described in the text and Fig. 5 as butyrate-abolishing "OptKnock" designs, a confusing label for deletions that destroy the target phenotype.
+No growth-coupling or yield-versus-growth analysis is shown to establish that the designs are actually growth-coupled.
+
+7. Stereospecific lactate partitioning (D→butyrate, L→propionate) is called "biologically plausible in light of lactate racemase" (lines 370–372). A functioning racemase would erase such partitioning, so the argument cuts the other way. Is racemase in the model? If not, this is likely an artifact of its absence.
+The amino-acid set (Asp, Gly, Lys, Met, Cys, His) omits canonical Stickland donors (Leu/Ile/Val/Ala) and the main acceptor (Pro). Growth is also the only readout. The pair analysis cannot test the stated question. The interaction effects (≤0.00225 h⁻¹, <0.3% of growth) are too small to interpret as synergy or antagonism.
+Amino-acid enrichment modifies only six amino acids, so "protein-rich" is an overgeneralization.
+Doubling glucose cannot speak to fiber responses, and MJR8396C is not shown to degrade complex carbohydrates. The Discussion linking the results to the obesity and fiber literature (lines 428–442) goes beyond the evidence.
+Acetate. In the carbon screen, acetate gives no growth gain (line 238), yet in Fig. 2D acetate raises growth and butyrate. These may be reconcilable (co-substrate and electron sink), but the mechanism should be shown.
+
+8. Table 2 reports "100% similarity" between Megasphaera and B. thetaiotaomicron PFOR II, and defines similarity as amino-acid identity. Identity of 100% across phyla is implausible. In antiSMASH-family tools the figure generally reflects the fraction of reference-cluster genes with homologs, not sequence identity. Please verify and correct the definition.
+A 33% (Pdu) or 20% (4-aminobutyrate) hit is called "present", while 50% is "partial" in the text. Please apply and justify consistent criteria.
+Methods 4.2 defines a concordant/partial/no-concordance scheme, but no concordance table appears in Results. Hypothesis (ii) is assessed only qualitatively. Please provide the table and the model fluxes through the Rnf and PFOR reactions per condition.
+Chain elongation (valerate/caproate), a hallmark of the genus, is absent from the model. Please state whether this reflects gene absence or database limits.
+
+9. There is no comparison with existing curated models. AGORA2 and the published M. elsdenii GEM (ref 50) are the obvious comparators. Comparing substrate utilization, product spectra, and lactate behavior against them, and against published phenotype data (ref 47), would show what is strain-specific rather than a generic gapseq outcome.
+
+Minor comments
+
+The Discussion says amino-acid enrichment "reduced sulfur products", whereas Results, Table 3 (H₂S 1.93 ->4.57, MTTL 1.89->4.28), and the Abstract report an increase.
+
+Supplementary table numbering is inconsistent. Text cites S15–S17 for StrainDesign, the Fig. 5 caption cites S18–S19, and the Table 4 caption cites "Supplementary Tables 4a and 4b", while S4 is the non-GPR list.
+
+There are literal "\n" strings in the axis labels of Fig. 1D, 4D, and 5A. The "0.700" label overlaps the annotation in Fig. 2A. Fig. 3C text is illegibly small. Fig. 1C is better as a table, and Fig. 1D has only three points.
+
+Growth rates such as 0.715171 h⁻¹ and fluxes to two decimals are unwarranted for a draft model.
+
+
+Explain why these six amino acids were chosen, and that the AA-rich multipliers (AGORA ratios, 1.8–2.3) come from a different scale than the model uptake capacities.
+
+MEMOTE. The 37.3% gene-annotation score could be improved easily by adding UniProt/KEGG cross-references. Also report counts of mass- or charge-unbalanced reactions.
+
+
+Reviewer 3
+
+The authors have constructed a genome-scale metabolic model for Megasphaera sp. MJR8396C and have done flux balance simulations using different medium combinations of metabolites that mimic high-carbohydrate, amino acid-rich environments for the microbe to grow. They have assessed butyrate production by this species and simulated the model with Bifidobacterium adolescentis to verify potential cross-feeding, in which the Megasphaera model consumes lactate from Bifidobacterium and produces butyrate.
+Comments
+1. An appropriate way to curate the metabolic model would have been to include the gutSMASH predicted pathways in the model as respective reactions and metabolites.
+2. Because the manuscript emphasizes strain-level variation, the comparative analysis feels incomplete without evaluating the companion strains under identical conditions. To robustly substantiate claims of strain specificity, the authors should extend the full suite of in silico analyses, including medium simulations and cross-feeding evaluations with the Bifidobacterium model to both the NM10 and BL7 models, alongside MJR8396C. This will provide a true benchmark of phenotypic and metabolic divergence across strains.
+3. The objective of some analysis in the study is unclear, If the goal of StrainDesign was to identify knockouts or interventions to maximize butyrate flux, how does this align with the findings from the community-level co-culture simulations, which demonstrate that Bifidobacterium adolescentis-derived lactate naturally drives elevated butyrate yields? From a bioprocess or metabolic engineering standpoint, could the authors explicitly discuss the comparative viability of an engineered monoculture versus a synthetic mutualistic co-culture? Clarifying the intended application will help unify these two distinct analyses.
+4. Can the authors also verify which particular strain of Bifidobacterium adolescentis was used here and whether that strain has the capability to produce D-lactate and consume L-lactate, based on some prior experimental work so that it verifies the flux results seen in the simulations?
+
+Minor comments
+1. Fig.3 caption, “Genome size and GC content for MJR8396C are omitted where a uniformly processed value was not available in the analysis package”. What does this imply? Obviously, the genome size and GC content should be known for the strain; why can't that be plotted??
+2. Page 13, under section 2.6, I think this text was for the older version of the manuscript; “Together, the two figures retain the biochemical interpretability of the original intervention analysis while replacing the former OptForce annotations with interventions computed using”
+3. Also similar in section 4.10 page 27 “The original qualitative OptForce color coding was removed before overlaying the current StrainDesign targets.”
+4. Text in the figures does not seem properly aligned, such as those in Fig 1D, 2A, 2C, 6B, 7D
+Attachment(s):

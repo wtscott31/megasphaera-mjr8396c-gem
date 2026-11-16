@@ -1,0 +1,3 @@
+model,template,net_mass_g_per_unit_biomass,template_GAM,has_measured_organism_specific_composition,generic_R_net,BOFdat_native_status
+MJR8396C,Bacterial Gram-negative biomass reaction,0.9999880403302946,40.0,False,0.0,not_executed_dependencies_and_sequence_unavailable
+B_adolescentis_22L,Bacterial Gram-positive biomass reaction,0.9999896672547075,41.257,False,-4.336808689942018e-19,not_executed_dependencies_and_sequence_unavailable

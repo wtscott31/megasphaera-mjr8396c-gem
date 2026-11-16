@@ -1,0 +1,486 @@
+acetate_uptake_capacity,reaction,name,flux,reaction_string
+0,rxn00154_c0,pyruvate:NAD+ 2-oxidoreductase (CoA-acetylating),0.0,cpd00003_c0 + cpd00010_c0 + cpd00020_c0 --> cpd00004_c0 + cpd00011_c0 + cpd00022_c0
+0,rxn00157_c0,Acetyl-CoA:formate C-acetyltransferase,-15.219755285736067,cpd00022_c0 + cpd00047_c0 <-- cpd00010_c0 + cpd00020_c0
+0,rxn00171_c0,acetaldehyde:NAD+ oxidoreductase (CoA-acetylating),-0.7240720000874098,cpd00003_c0 + cpd00010_c0 + cpd00071_c0 <=> cpd00004_c0 + cpd00022_c0 + cpd00067_c0
+0,rxn00173_c0,acetyl-CoA:phosphate acetyltransferase,8.570045581868431,cpd00009_c0 + cpd00022_c0 <=> cpd00010_c0 + cpd00196_c0
+0,rxn00174_c0,malonyl-CoA carboxy-lyase (acetyl-CoA-forming),0.0,cpd00067_c0 + cpd00070_c0 --> cpd00011_c0 + cpd00022_c0
+0,rxn00175_c0,Acetate:CoA ligase (AMP-forming),0.0,cpd00002_c0 + cpd00010_c0 + cpd00029_c0 --> cpd00012_c0 + cpd00018_c0 + cpd00022_c0 + cpd00067_c0
+0,rxn00176_c0,acetyl adenylate:CoA acetyltransferase,0.0,cpd00010_c0 + cpd03566_c0 --> cpd00018_c0 + cpd00022_c0 + cpd00067_c0
+0,rxn00178_c0,Acetyl-CoA:acetyl-CoA C-acetyltransferase,8.864910026915148,2.0 cpd00022_c0 <=> cpd00010_c0 + cpd00279_c0
+0,rxn00192_c0,acetyl-CoA:L-glutamate N-acetyltransferase,0.17621249673423664,cpd00022_c0 + cpd00023_c0 --> cpd00010_c0 + cpd00067_c0 + cpd00477_c0
+0,rxn00225_c0,ATP:acetate phosphotransferase,-8.570045581868431,cpd00002_c0 + cpd00029_c0 <=> cpd00008_c0 + cpd00196_c0
+0,rxn00226_c0,ATP:acetate adenylyltransferase,0.0,cpd00002_c0 + cpd00029_c0 --> cpd00012_c0 + cpd03566_c0
+0,rxn00285_c0,Succinate:CoA ligase (ADP-forming),0.0,cpd00002_c0 + cpd00010_c0 + cpd00036_c0 <=> cpd00008_c0 + cpd00009_c0 + cpd00078_c0
+0,rxn00286_c0,succinyl-CoA:malate CoA-transferase,0.0,cpd00078_c0 + cpd00130_c0 <=> cpd00036_c0 + cpd02662_c0
+0,rxn00423_c0,acetyl-CoA:L-serine O-acetyltransferase,0.0,cpd00022_c0 + cpd00054_c0 --> cpd00010_c0 + cpd00722_c0
+0,rxn00453_c0,O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase,0.0,cpd00324_c0 + cpd00790_c0 --> cpd00029_c0 + cpd00060_c0 + cpd00067_c0
+0,rxn00506_c0,Acetaldehyde:NAD+ oxidoreductase,0.0,cpd00001_c0 + cpd00003_c0 + cpd00071_c0 --> cpd00004_c0 + cpd00029_c0 + 2.0 cpd00067_c0
+0,rxn00507_c0,Acetaldehyde:NADP+ oxidoreductase,0.0,cpd00001_c0 + cpd00006_c0 + cpd00071_c0 --> cpd00005_c0 + cpd00029_c0 + 2.0 cpd00067_c0
+0,rxn00508_c0,Succinate-semialdehyde:NAD+ oxidoreductase,0.0,cpd00001_c0 + cpd00003_c0 + cpd00199_c0 --> cpd00004_c0 + cpd00036_c0 + 2.0 cpd00067_c0
+0,rxn00509_c0,Succinate-semialdehyde:NADP+ oxidoreductase,0.0,cpd00001_c0 + cpd00006_c0 + cpd00199_c0 --> cpd00005_c0 + cpd00036_c0 + 2.0 cpd00067_c0
+0,rxn00533_c0,Acetyl-CoA:carbon-dioxide ligase (ADP-forming),0.6968946351803876,cpd00002_c0 + cpd00022_c0 + cpd00242_c0 --> cpd00008_c0 + cpd00009_c0 + cpd00067_c0 + cpd00070_c0
+0,rxn00598_c0,Succinyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00022_c0 + cpd00078_c0 <-- cpd00010_c0 + cpd01507_c0
+0,rxn00649_c0,O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase,0.0,cpd00239_c0 + cpd00722_c0 --> cpd00029_c0 + cpd00084_c0
+0,rxn00676_c0,acetyl-CoA:propanoyl-CoA 2-C-acetyltransferase,0.05100549288193181,cpd00022_c0 + cpd00086_c0 <=> cpd00010_c0 + cpd02124_c0
+0,rxn00677_c0,Acetyl-CoA:propanoate CoA-transferase,0.0,cpd00022_c0 + cpd00141_c0 <=> cpd00029_c0 + cpd00086_c0
+0,rxn00874_c0,butanoyl-CoA:acetyl-CoA C-butanoyltransferase,0.10174033445484294,cpd00022_c0 + cpd00120_c0 <=> cpd00010_c0 + cpd03123_c0
+0,rxn00875_c0,Butanoyl-CoA:acetate CoA-transferase,8.763169692460306,cpd00029_c0 + cpd00120_c0 <=> cpd00022_c0 + cpd00211_c0
+0,rxn00902_c0,"acetyl-CoA:3-methyl-2-oxobutanoate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)",-0.3130757262533794,cpd00010_c0 + cpd00067_c0 + cpd01646_c0 <-- cpd00001_c0 + cpd00022_c0 + cpd00123_c0
+0,rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,0.0,cpd00239_c0 + cpd00790_c0 --> cpd00029_c0 + cpd00135_c0
+0,rxn00990_c0,Acetoacetyl-CoA:acetate CoA-transferase,0.0,cpd00029_c0 + cpd00279_c0 <=> cpd00022_c0 + cpd00142_c0
+0,rxn01136_c0,Succinyl-CoA:oxalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd00180_c0 <=> cpd00036_c0 + cpd00262_c0
+0,rxn01484_c0,N-Acetyl-D-glucosamine-6-phosphate amidohydrolase,0.0,cpd00001_c0 + cpd00293_c0 --> cpd00029_c0 + cpd00288_c0
+0,rxn01503_c0,succinyl-CoA:3-hydroxy-3-methylglutarate CoA-transferase,0.0,cpd00078_c0 + cpd02358_c0 <=> cpd00036_c0 + cpd00292_c0
+0,rxn01734_c0,Succinyl-CoA:citramalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd00380_c0 <=> cpd00036_c0 + cpd00416_c0
+0,rxn01816_c0,R02508,0.0,cpd00036_c0 + cpd00067_c0 + cpd00424_c0 <=> cpd00084_c0 + cpd00822_c0
+0,rxn01972_c0,"N6-Acetyl-LL-2,6-diaminoheptanedioate amidohydrolase",0.0,cpd00001_c0 + cpd02685_c0 --> cpd00029_c0 + cpd00504_c0
+0,rxn02121_c0,Succinyl-CoA:citramalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd00607_c0 <=> cpd00036_c0 + cpd00671_c0
+0,rxn02246_c0,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide),0.0,cpd00268_c0 + cpd00722_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd03456_c0
+0,rxn02258_c0,Succinyl-CoA:citramalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd01701_c0 <=> cpd00036_c0 + cpd00743_c0
+0,rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine),0.0,cpd00084_c0 + cpd00790_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd00424_c0
+0,rxn02571_c0,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide),0.0,cpd00722_c0 + cpd01078_c0 --> cpd00029_c0 + cpd00067_c0 + cpd03389_c0
+0,rxn02680_c0,Octanoyl-CoA:acetyl-CoA C-acyltransferase,0.10174033445484296,cpd00022_c0 + cpd01335_c0 <=> cpd00010_c0 + cpd03119_c0
+0,rxn02804_c0,myristoyl-CoA:acetylCoA C-myristoyltransferase,0.05100549288193182,cpd00022_c0 + cpd01695_c0 <=> cpd00010_c0 + cpd03114_c0
+0,rxn03146_c0,UDP-3-O-[(3R)-3-hydroxymyristoyl]-N-acetylglucosamine amidohydrolase,0.016911613857637047,cpd00001_c0 + cpd02886_c0 <=> cpd00029_c0 + cpd03584_c0
+0,rxn03243_c0,Decanoyl-CoA:acetyl-CoA C-acyltransferase,0.10174033445484297,cpd00022_c0 + cpd03128_c0 <=> cpd00010_c0 + cpd03117_c0
+0,rxn03248_c0,Hexanoyl-CoA:acetyl-CoA C-acyltransferase,0.10174033445484294,cpd00022_c0 + cpd03124_c0 <=> cpd00010_c0 + cpd03121_c0
+0,rxn03382_c0,O-Acetylhomoserine succinate-lyase (adding cysteine),0.0,cpd03389_c0 + cpd03399_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd03398_c0
+0,rxn03383_c0,O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase,0.0,cpd03389_c0 + cpd03400_c0 <=> cpd00036_c0 + cpd00067_c0 + cpd03398_c0
+0,rxn03504_c0,N-acetyl-D-galactosamine 6-phosphate amidohydrolase,0.0,cpd00001_c0 + cpd03812_c0 <=> cpd00029_c0 + cpd03813_c0
+0,rxn03638_c0,Acetyl-CoA:D-glucosamine-1-phosphate N-acetyltransferase,0.033823227715274094,cpd00022_c0 + cpd03671_c0 --> cpd00010_c0 + cpd00067_c0 + cpd02611_c0
+0,rxn03641_c0,acetyl-CoA: 4-hydroxybutanoate CoA transferase,0.0,cpd00022_c0 + cpd00728_c0 --> cpd00029_c0 + cpd07946_c0
+0,rxn03796_c0,R05506,0.0,cpd00010_c0 + cpd04390_c0 <=> cpd00022_c0 + cpd00067_c0 + cpd00401_c0
+0,rxn03798_c0,R05508,0.0,cpd00029_c0 + cpd00617_c0 <=> cpd00022_c0 + cpd00067_c0 + cpd00159_c0
+0,rxn03866_c0,R05586,0.0,cpd00010_c0 + cpd04104_c0 <=> cpd00022_c0 + cpd00413_c0
+0,rxn05321_c0,Acetyl-CoA carbon-dioxide ligase,0.0,cpd00022_c0 + cpd11415_c0 --> cpd00070_c0 + cpd00104_c0
+0,rxn05349_c0,acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase,0.0,cpd00022_c0 + cpd11493_c0 <=> cpd00010_c0 + cpd11494_c0
+0,rxn05488_c0,acetate reversible transport via proton symport,0.0,cpd00029_e0 + cpd00067_e0 <=> cpd00029_c0 + cpd00067_c0
+0,rxn05654_c0,"Transport of succinate, extracellular",-0.010380917201380934,cpd00036_e0 + 2.0 cpd00067_e0 <=> cpd00036_c0 + 2.0 cpd00067_c0
+0,rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)",0.0,cpd00268_c0 + cpd00722_c0 + cpd11421_c0 --> cpd00029_c0 + cpd00067_c0 + cpd00081_c0 + cpd00084_c0 + cpd11420_c0
+0,rxn05831_c0,Acyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00022_c0 + cpd11611_c0 <=> cpd00010_c0 + cpd11637_c0
+0,rxn05833_c0,Acyl-CoA:acetate CoA-transferase,0.0,cpd00029_c0 + cpd11611_c0 --> cpd00022_c0 + cpd00067_c0 + cpd12094_c0
+0,rxn05938_c0,pyruvate ferredoxin oxidoreductase,-5.4883108327498356,cpd00011_c0 + cpd00022_c0 + cpd00067_c0 + 2.0 cpd11620_c0 <=> cpd00010_c0 + cpd00020_c0 + 2.0 cpd11621_c0
+0,rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,0.0,cpd00239_c0 + cpd00822_c0 <=> cpd00036_c0 + cpd00135_c0
+0,rxn06510_c0,Lauroyl-CoA:acetyl-CoA C-acyltransferase,0.05946129981075034,cpd00022_c0 + cpd01260_c0 <=> cpd00010_c0 + cpd12689_c0
+0,rxn06673_c0,Acetyl-CoA:carbon-dioxide ligase (ADP-forming),0.0,cpd00022_c0 + cpd12543_c0 --> cpd00070_c0 + cpd12848_c0
+0,rxn07623_c0,3-hydroxy-5-oxohexanoyl-CoA:acetate CoA-transferase,0.0,cpd00022_c0 + cpd00067_c0 + cpd14988_c0 <=> cpd00029_c0 + cpd14989_c0
+0,rxn07681_c0,R07891,0.0,cpd00022_c0 + cpd15047_c0 <=> cpd00010_c0 + cpd15046_c0
+0,rxn07685_c0,R07895,0.0,cpd00022_c0 + cpd15051_c0 <=> cpd00010_c0 + cpd15050_c0
+0,rxn07689_c0,R07899,0.0,cpd00022_c0 + cpd15055_c0 <=> cpd00010_c0 + cpd15054_c0
+0,rxn07727_c0,R07937,0.0,cpd00022_c0 + cpd14890_c0 <=> cpd00010_c0 + cpd15092_c0
+0,rxn07743_c0,R07953,0.0,cpd00022_c0 + cpd14894_c0 <=> cpd00010_c0 + cpd15095_c0
+0,rxn07880_c0,7-methyl-3-oxo-6-octenoyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00010_c0 + cpd15170_c0 <=> cpd00022_c0 + cpd15174_c0
+0,rxn07884_c0,3-methylcrotonyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00010_c0 + cpd15175_c0 <=> cpd00022_c0 + cpd00067_c0 + cpd01966_c0
+0,rxn08062_c0,Na+/Acetate symport (periplasm),0.0,cpd00029_e0 + cpd00971_e0 <=> cpd00029_c0 + cpd00971_c0
+0,rxn08168_c0,L-aspartate : fumarate oxidoreductase (deaminating),0.0,cpd00041_c0 + cpd00106_c0 --> cpd00036_c0 + cpd00067_c0 + cpd03470_c0
+0,rxn08733_c0,Acetyl-CoA:hexanoate-CoA transferase,0.0,cpd00022_c0 + cpd01113_c0 <=> cpd00029_c0 + cpd03124_c0
+0,rxn08766_c0,Beta-ketoacyl-ACP synthase,0.0,cpd00022_c0 + cpd00067_c0 + cpd11492_c0 --> cpd00010_c0 + cpd00011_c0 + cpd11488_c0
+0,rxn08767_c0,3-ketoacyl-CoA thiolase,0.0,cpd00010_c0 + cpd14935_c0 --> cpd00022_c0 + cpd00067_c0 + cpd00134_c0
+0,rxn09270_c0,succinate transport out via proton antiport (periplasm),0.0,cpd00036_c0 + cpd00067_e0 --> cpd00036_e0 + cpd00067_c0
+0,rxn09886_c0,cysteine synthase (Selenide),0.0,cpd00722_c0 + cpd01078_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd01608_c0
+0,rxn09948_c0,O-succinylhomoserine lyase (methanethiol),0.0,cpd00324_c0 + cpd00822_c0 --> cpd00036_c0 + cpd00060_c0 + cpd00067_c0
+0,rxn10138_c0,Succinate transport via ABC system,0.0,cpd00001_c0 + cpd00002_c0 + cpd00036_e0 --> cpd00008_c0 + cpd00009_c0 + cpd00036_c0 + cpd00067_c0
+0,rxn11409_c0,TDPFUCACTRANS-RXN.c,0.0,cpd00022_c0 + cpd02661_c0 --> cpd00010_c0 + cpd00067_c0 + cpd15454_c0
+0,rxn13251_c0,Fumarate dependent DHORD,0.0,cpd00106_c0 + cpd00282_c0 --> cpd00036_c0 + cpd00247_c0
+0,rxn15395_c0,O-Succinyl-L-homoserine succinate-lyase (adding cysteine),0.0,cpd00084_c0 + cpd00822_c0 <=> cpd00036_c0 + cpd00067_c0 + cpd19019_c0
+0,rxn15962_c0,carbon monoxide dehydrogenase/acetyl-CoA synthase (CODH/ACS),0.0,cpd00022_c0 + cpd00067_c0 + cpd00895_c0 --> cpd00010_c0 + cpd00204_c0 + cpd02737_c0
+0,rxn22497_c0,succinyl-CoA:mesaconate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd01194_c0 --> cpd00036_c0 + cpd03589_c0
+0,rxn25164_c0,RXN-8807.c,0.0,cpd00022_c0 + cpd00036_c0 <=> cpd00029_c0 + cpd00078_c0
+0,EX_cpd00027_e0,D-Glucose-e0 Exchange,-10.0,cpd00027_e0 <=> 
+0,EX_cpd00029_e0,Acetate-e0 Exchange,0.0,cpd00029_e0 --> 
+0,EX_cpd00211_e0,Butyrate-e0 Exchange,8.763169692460307,cpd00211_e0 --> 
+0,EX_cpd11416_c0,EX cpd11416 c0,0.6127848358826734,cpd11416_c0 --> 
+0,rxn00256_c0,acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing),-0.6588584658828068,cpd00010_c0 + cpd00067_c0 + cpd00137_c0 <-- cpd00001_c0 + cpd00022_c0 + cpd00032_c0
+0,rxn00469_c0,N2-Acetyl-L-ornithine amidohydrolase,0.1762124967342367,cpd00001_c0 + cpd00342_c0 <=> cpd00029_c0 + cpd00064_c0
+0,rxn08527_c0,fumarate reductase,0.0020761834402761867,cpd00106_c0 + cpd15499_c0 --> cpd00036_c0 + cpd15500_c0
+0,rxn08528_c0,fumarate reductase,0.0020761834402761867,cpd00106_c0 + cpd15353_c0 --> cpd00036_c0 + cpd15352_c0
+0,rxn09180_c0,protoporphyrinogen oxidase (anaerobic),0.002076183440276187,3.0 cpd00106_c0 + cpd00791_c0 --> 3.0 cpd00036_c0 + cpd01476_c0
+0,rxn09272_c0,"fumarate reductase complex (i.e. FRD, involved in anaerobic respiration, repressed in aerobic respiration)",0.0,cpd00036_c0 + cpd15560_c0 --> cpd00106_c0 + cpd15561_c0
+5,rxn00154_c0,pyruvate:NAD+ 2-oxidoreductase (CoA-acetylating),0.0,cpd00003_c0 + cpd00010_c0 + cpd00020_c0 --> cpd00004_c0 + cpd00011_c0 + cpd00022_c0
+5,rxn00157_c0,Acetyl-CoA:formate C-acetyltransferase,-10.080794683577599,cpd00022_c0 + cpd00047_c0 <-- cpd00010_c0 + cpd00020_c0
+5,rxn00171_c0,acetaldehyde:NAD+ oxidoreductase (CoA-acetylating),-0.7451206047411157,cpd00003_c0 + cpd00010_c0 + cpd00071_c0 <=> cpd00004_c0 + cpd00022_c0 + cpd00067_c0
+5,rxn00173_c0,acetyl-CoA:phosphate acetyltransferase,5.941267955153533,cpd00009_c0 + cpd00022_c0 <=> cpd00010_c0 + cpd00196_c0
+5,rxn00174_c0,malonyl-CoA carboxy-lyase (acetyl-CoA-forming),0.0,cpd00067_c0 + cpd00070_c0 --> cpd00011_c0 + cpd00022_c0
+5,rxn00175_c0,Acetate:CoA ligase (AMP-forming),0.0,cpd00002_c0 + cpd00010_c0 + cpd00029_c0 --> cpd00012_c0 + cpd00018_c0 + cpd00022_c0 + cpd00067_c0
+5,rxn00176_c0,acetyl adenylate:CoA acetyltransferase,0.0,cpd00010_c0 + cpd03566_c0 --> cpd00018_c0 + cpd00022_c0 + cpd00067_c0
+5,rxn00178_c0,Acetyl-CoA:acetyl-CoA C-acetyltransferase,11.244703864047192,2.0 cpd00022_c0 <=> cpd00010_c0 + cpd00279_c0
+5,rxn00192_c0,acetyl-CoA:L-glutamate N-acetyltransferase,0.18133495303465105,cpd00022_c0 + cpd00023_c0 --> cpd00010_c0 + cpd00067_c0 + cpd00477_c0
+5,rxn00225_c0,ATP:acetate phosphotransferase,-5.941267955153533,cpd00002_c0 + cpd00029_c0 <=> cpd00008_c0 + cpd00196_c0
+5,rxn00226_c0,ATP:acetate adenylyltransferase,0.0,cpd00002_c0 + cpd00029_c0 --> cpd00012_c0 + cpd03566_c0
+5,rxn00285_c0,Succinate:CoA ligase (ADP-forming),0.0,cpd00002_c0 + cpd00010_c0 + cpd00036_c0 <=> cpd00008_c0 + cpd00009_c0 + cpd00078_c0
+5,rxn00286_c0,succinyl-CoA:malate CoA-transferase,0.0,cpd00078_c0 + cpd00130_c0 <=> cpd00036_c0 + cpd02662_c0
+5,rxn00423_c0,acetyl-CoA:L-serine O-acetyltransferase,0.0,cpd00022_c0 + cpd00054_c0 --> cpd00010_c0 + cpd00722_c0
+5,rxn00453_c0,O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase,0.0,cpd00324_c0 + cpd00790_c0 --> cpd00029_c0 + cpd00060_c0 + cpd00067_c0
+5,rxn00506_c0,Acetaldehyde:NAD+ oxidoreductase,0.0,cpd00001_c0 + cpd00003_c0 + cpd00071_c0 --> cpd00004_c0 + cpd00029_c0 + 2.0 cpd00067_c0
+5,rxn00507_c0,Acetaldehyde:NADP+ oxidoreductase,0.0,cpd00001_c0 + cpd00006_c0 + cpd00071_c0 --> cpd00005_c0 + cpd00029_c0 + 2.0 cpd00067_c0
+5,rxn00508_c0,Succinate-semialdehyde:NAD+ oxidoreductase,0.0,cpd00001_c0 + cpd00003_c0 + cpd00199_c0 --> cpd00004_c0 + cpd00036_c0 + 2.0 cpd00067_c0
+5,rxn00509_c0,Succinate-semialdehyde:NADP+ oxidoreductase,0.0,cpd00001_c0 + cpd00006_c0 + cpd00199_c0 --> cpd00005_c0 + cpd00036_c0 + 2.0 cpd00067_c0
+5,rxn00533_c0,Acetyl-CoA:carbon-dioxide ligase (ADP-forming),0.7171532001565637,cpd00002_c0 + cpd00022_c0 + cpd00242_c0 --> cpd00008_c0 + cpd00009_c0 + cpd00067_c0 + cpd00070_c0
+5,rxn00598_c0,Succinyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00022_c0 + cpd00078_c0 <-- cpd00010_c0 + cpd01507_c0
+5,rxn00649_c0,O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase,0.0,cpd00239_c0 + cpd00722_c0 --> cpd00029_c0 + cpd00084_c0
+5,rxn00676_c0,acetyl-CoA:propanoyl-CoA 2-C-acetyltransferase,0.05248821069826718,cpd00022_c0 + cpd00086_c0 <=> cpd00010_c0 + cpd02124_c0
+5,rxn00677_c0,Acetyl-CoA:propanoate CoA-transferase,0.0,cpd00022_c0 + cpd00141_c0 <=> cpd00029_c0 + cpd00086_c0
+5,rxn00874_c0,butanoyl-CoA:acetyl-CoA C-butanoyltransferase,0.10469790231690262,cpd00022_c0 + cpd00120_c0 <=> cpd00010_c0 + cpd03123_c0
+5,rxn00875_c0,Butanoyl-CoA:acetate CoA-transferase,11.140005961730292,cpd00029_c0 + cpd00120_c0 <=> cpd00022_c0 + cpd00211_c0
+5,rxn00902_c0,"acetyl-CoA:3-methyl-2-oxobutanoate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)",-0.32217676480725765,cpd00010_c0 + cpd00067_c0 + cpd01646_c0 <-- cpd00001_c0 + cpd00022_c0 + cpd00123_c0
+5,rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,0.0,cpd00239_c0 + cpd00790_c0 --> cpd00029_c0 + cpd00135_c0
+5,rxn00990_c0,Acetoacetyl-CoA:acetate CoA-transferase,0.0,cpd00029_c0 + cpd00279_c0 <=> cpd00022_c0 + cpd00142_c0
+5,rxn01136_c0,Succinyl-CoA:oxalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd00180_c0 <=> cpd00036_c0 + cpd00262_c0
+5,rxn01484_c0,N-Acetyl-D-glucosamine-6-phosphate amidohydrolase,0.0,cpd00001_c0 + cpd00293_c0 --> cpd00029_c0 + cpd00288_c0
+5,rxn01503_c0,succinyl-CoA:3-hydroxy-3-methylglutarate CoA-transferase,0.0,cpd00078_c0 + cpd02358_c0 <=> cpd00036_c0 + cpd00292_c0
+5,rxn01734_c0,Succinyl-CoA:citramalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd00380_c0 <=> cpd00036_c0 + cpd00416_c0
+5,rxn01816_c0,R02508,0.0,cpd00036_c0 + cpd00067_c0 + cpd00424_c0 <=> cpd00084_c0 + cpd00822_c0
+5,rxn01972_c0,"N6-Acetyl-LL-2,6-diaminoheptanedioate amidohydrolase",0.0,cpd00001_c0 + cpd02685_c0 --> cpd00029_c0 + cpd00504_c0
+5,rxn02121_c0,Succinyl-CoA:citramalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd00607_c0 <=> cpd00036_c0 + cpd00671_c0
+5,rxn02246_c0,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide),0.0,cpd00268_c0 + cpd00722_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd03456_c0
+5,rxn02258_c0,Succinyl-CoA:citramalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd01701_c0 <=> cpd00036_c0 + cpd00743_c0
+5,rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine),0.0,cpd00084_c0 + cpd00790_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd00424_c0
+5,rxn02571_c0,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide),0.0,cpd00722_c0 + cpd01078_c0 --> cpd00029_c0 + cpd00067_c0 + cpd03389_c0
+5,rxn02680_c0,Octanoyl-CoA:acetyl-CoA C-acyltransferase,0.10469790231690264,cpd00022_c0 + cpd01335_c0 <=> cpd00010_c0 + cpd03119_c0
+5,rxn02804_c0,myristoyl-CoA:acetylCoA C-myristoyltransferase,0.052488210698267194,cpd00022_c0 + cpd01695_c0 <=> cpd00010_c0 + cpd03114_c0
+5,rxn03146_c0,UDP-3-O-[(3R)-3-hydroxymyristoyl]-N-acetylglucosamine amidohydrolase,0.017403230539545147,cpd00001_c0 + cpd02886_c0 <=> cpd00029_c0 + cpd03584_c0
+5,rxn03243_c0,Decanoyl-CoA:acetyl-CoA C-acyltransferase,0.10469790231690265,cpd00022_c0 + cpd03128_c0 <=> cpd00010_c0 + cpd03117_c0
+5,rxn03248_c0,Hexanoyl-CoA:acetyl-CoA C-acyltransferase,0.10469790231690262,cpd00022_c0 + cpd03124_c0 <=> cpd00010_c0 + cpd03121_c0
+5,rxn03382_c0,O-Acetylhomoserine succinate-lyase (adding cysteine),0.0,cpd03389_c0 + cpd03399_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd03398_c0
+5,rxn03383_c0,O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase,0.0,cpd03389_c0 + cpd03400_c0 <=> cpd00036_c0 + cpd00067_c0 + cpd03398_c0
+5,rxn03504_c0,N-acetyl-D-galactosamine 6-phosphate amidohydrolase,0.0,cpd00001_c0 + cpd03812_c0 <=> cpd00029_c0 + cpd03813_c0
+5,rxn03638_c0,Acetyl-CoA:D-glucosamine-1-phosphate N-acetyltransferase,0.0348064610790903,cpd00022_c0 + cpd03671_c0 --> cpd00010_c0 + cpd00067_c0 + cpd02611_c0
+5,rxn03641_c0,acetyl-CoA: 4-hydroxybutanoate CoA transferase,0.0,cpd00022_c0 + cpd00728_c0 --> cpd00029_c0 + cpd07946_c0
+5,rxn03796_c0,R05506,0.0,cpd00010_c0 + cpd04390_c0 <=> cpd00022_c0 + cpd00067_c0 + cpd00401_c0
+5,rxn03798_c0,R05508,0.0,cpd00029_c0 + cpd00617_c0 <=> cpd00022_c0 + cpd00067_c0 + cpd00159_c0
+5,rxn03866_c0,R05586,0.0,cpd00010_c0 + cpd04104_c0 <=> cpd00022_c0 + cpd00413_c0
+5,rxn05321_c0,Acetyl-CoA carbon-dioxide ligase,0.0,cpd00022_c0 + cpd11415_c0 --> cpd00070_c0 + cpd00104_c0
+5,rxn05349_c0,acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase,0.0,cpd00022_c0 + cpd11493_c0 <=> cpd00010_c0 + cpd11494_c0
+5,rxn05488_c0,acetate reversible transport via proton symport,3.778251827753805,cpd00029_e0 + cpd00067_e0 <=> cpd00029_c0 + cpd00067_c0
+5,rxn05654_c0,"Transport of succinate, extracellular",-0.01068268805025832,cpd00036_e0 + 2.0 cpd00067_e0 <=> cpd00036_c0 + 2.0 cpd00067_c0
+5,rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)",0.0,cpd00268_c0 + cpd00722_c0 + cpd11421_c0 --> cpd00029_c0 + cpd00067_c0 + cpd00081_c0 + cpd00084_c0 + cpd11420_c0
+5,rxn05831_c0,Acyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00022_c0 + cpd11611_c0 <=> cpd00010_c0 + cpd11637_c0
+5,rxn05833_c0,Acyl-CoA:acetate CoA-transferase,0.0,cpd00029_c0 + cpd11611_c0 --> cpd00022_c0 + cpd00067_c0 + cpd12094_c0
+5,rxn05938_c0,pyruvate ferredoxin oxidoreductase,-10.473436206654018,cpd00011_c0 + cpd00022_c0 + cpd00067_c0 + 2.0 cpd11620_c0 <=> cpd00010_c0 + cpd00020_c0 + 2.0 cpd11621_c0
+5,rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,0.0,cpd00239_c0 + cpd00822_c0 <=> cpd00036_c0 + cpd00135_c0
+5,rxn06510_c0,Lauroyl-CoA:acetyl-CoA C-acyltransferase,0.06118982596803976,cpd00022_c0 + cpd01260_c0 <=> cpd00010_c0 + cpd12689_c0
+5,rxn06673_c0,Acetyl-CoA:carbon-dioxide ligase (ADP-forming),0.0,cpd00022_c0 + cpd12543_c0 --> cpd00070_c0 + cpd12848_c0
+5,rxn07623_c0,3-hydroxy-5-oxohexanoyl-CoA:acetate CoA-transferase,0.0,cpd00022_c0 + cpd00067_c0 + cpd14988_c0 <=> cpd00029_c0 + cpd14989_c0
+5,rxn07681_c0,R07891,0.0,cpd00022_c0 + cpd15047_c0 <=> cpd00010_c0 + cpd15046_c0
+5,rxn07685_c0,R07895,0.0,cpd00022_c0 + cpd15051_c0 <=> cpd00010_c0 + cpd15050_c0
+5,rxn07689_c0,R07899,0.0,cpd00022_c0 + cpd15055_c0 <=> cpd00010_c0 + cpd15054_c0
+5,rxn07727_c0,R07937,0.0,cpd00022_c0 + cpd14890_c0 <=> cpd00010_c0 + cpd15092_c0
+5,rxn07743_c0,R07953,0.0,cpd00022_c0 + cpd14894_c0 <=> cpd00010_c0 + cpd15095_c0
+5,rxn07880_c0,7-methyl-3-oxo-6-octenoyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00010_c0 + cpd15170_c0 <=> cpd00022_c0 + cpd15174_c0
+5,rxn07884_c0,3-methylcrotonyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00010_c0 + cpd15175_c0 <=> cpd00022_c0 + cpd00067_c0 + cpd01966_c0
+5,rxn08062_c0,Na+/Acetate symport (periplasm),1.2217479952487558,cpd00029_e0 + cpd00971_e0 <=> cpd00029_c0 + cpd00971_c0
+5,rxn08168_c0,L-aspartate : fumarate oxidoreductase (deaminating),0.0,cpd00041_c0 + cpd00106_c0 --> cpd00036_c0 + cpd00067_c0 + cpd03470_c0
+5,rxn08733_c0,Acetyl-CoA:hexanoate-CoA transferase,0.0,cpd00022_c0 + cpd01113_c0 <=> cpd00029_c0 + cpd03124_c0
+5,rxn08766_c0,Beta-ketoacyl-ACP synthase,0.0,cpd00022_c0 + cpd00067_c0 + cpd11492_c0 --> cpd00010_c0 + cpd00011_c0 + cpd11488_c0
+5,rxn08767_c0,3-ketoacyl-CoA thiolase,0.0,cpd00010_c0 + cpd14935_c0 --> cpd00022_c0 + cpd00067_c0 + cpd00134_c0
+5,rxn09270_c0,succinate transport out via proton antiport (periplasm),0.0,cpd00036_c0 + cpd00067_e0 --> cpd00036_e0 + cpd00067_c0
+5,rxn09886_c0,cysteine synthase (Selenide),0.0,cpd00722_c0 + cpd01078_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd01608_c0
+5,rxn09948_c0,O-succinylhomoserine lyase (methanethiol),0.0,cpd00324_c0 + cpd00822_c0 --> cpd00036_c0 + cpd00060_c0 + cpd00067_c0
+5,rxn10138_c0,Succinate transport via ABC system,0.0,cpd00001_c0 + cpd00002_c0 + cpd00036_e0 --> cpd00008_c0 + cpd00009_c0 + cpd00036_c0 + cpd00067_c0
+5,rxn11409_c0,TDPFUCACTRANS-RXN.c,0.0,cpd00022_c0 + cpd02661_c0 --> cpd00010_c0 + cpd00067_c0 + cpd15454_c0
+5,rxn13251_c0,Fumarate dependent DHORD,0.0,cpd00106_c0 + cpd00282_c0 --> cpd00036_c0 + cpd00247_c0
+5,rxn15395_c0,O-Succinyl-L-homoserine succinate-lyase (adding cysteine),0.0,cpd00084_c0 + cpd00822_c0 <=> cpd00036_c0 + cpd00067_c0 + cpd19019_c0
+5,rxn15962_c0,carbon monoxide dehydrogenase/acetyl-CoA synthase (CODH/ACS),0.0,cpd00022_c0 + cpd00067_c0 + cpd00895_c0 --> cpd00010_c0 + cpd00204_c0 + cpd02737_c0
+5,rxn22497_c0,succinyl-CoA:mesaconate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd01194_c0 --> cpd00036_c0 + cpd03589_c0
+5,rxn25164_c0,RXN-8807.c,0.0,cpd00022_c0 + cpd00036_c0 <=> cpd00029_c0 + cpd00078_c0
+5,EX_cpd00027_e0,D-Glucose-e0 Exchange,-10.0,cpd00027_e0 <=> 
+5,EX_cpd00029_e0,Acetate-e0 Exchange,-4.999999823002561,cpd00029_e0 <=> 
+5,EX_cpd00211_e0,Butyrate-e0 Exchange,11.140005961730296,cpd00211_e0 --> 
+5,EX_cpd11416_c0,EX cpd11416 c0,0.6305983485536831,cpd11416_c0 --> 
+5,rxn00256_c0,acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing),-0.6780113282631229,cpd00010_c0 + cpd00067_c0 + cpd00137_c0 <-- cpd00001_c0 + cpd00022_c0 + cpd00032_c0
+5,rxn00469_c0,N2-Acetyl-L-ornithine amidohydrolase,0.18133495303465108,cpd00001_c0 + cpd00342_c0 <=> cpd00029_c0 + cpd00064_c0
+5,rxn08527_c0,fumarate reductase,0.0021365376100516637,cpd00106_c0 + cpd15499_c0 --> cpd00036_c0 + cpd15500_c0
+5,rxn08528_c0,fumarate reductase,0.0021365376100516637,cpd00106_c0 + cpd15353_c0 --> cpd00036_c0 + cpd15352_c0
+5,rxn09180_c0,protoporphyrinogen oxidase (anaerobic),0.0021365376100516637,3.0 cpd00106_c0 + cpd00791_c0 --> 3.0 cpd00036_c0 + cpd01476_c0
+5,rxn09272_c0,"fumarate reductase complex (i.e. FRD, involved in anaerobic respiration, repressed in aerobic respiration)",0.0,cpd00036_c0 + cpd15560_c0 --> cpd00106_c0 + cpd15561_c0
+10,rxn00154_c0,pyruvate:NAD+ 2-oxidoreductase (CoA-acetylating),0.0,cpd00003_c0 + cpd00010_c0 + cpd00020_c0 --> cpd00004_c0 + cpd00011_c0 + cpd00022_c0
+10,rxn00157_c0,Acetyl-CoA:formate C-acetyltransferase,-4.941834081419959,cpd00022_c0 + cpd00047_c0 <-- cpd00010_c0 + cpd00020_c0
+10,rxn00171_c0,acetaldehyde:NAD+ oxidoreductase (CoA-acetylating),-0.7661692093948183,cpd00003_c0 + cpd00010_c0 + cpd00071_c0 <=> cpd00004_c0 + cpd00022_c0 + cpd00067_c0
+10,rxn00173_c0,acetyl-CoA:phosphate acetyltransferase,3.312490213774297,cpd00009_c0 + cpd00022_c0 <=> cpd00010_c0 + cpd00196_c0
+10,rxn00174_c0,malonyl-CoA carboxy-lyase (acetyl-CoA-forming),0.0,cpd00067_c0 + cpd00070_c0 --> cpd00011_c0 + cpd00022_c0
+10,rxn00175_c0,Acetate:CoA ligase (AMP-forming),0.0,cpd00002_c0 + cpd00010_c0 + cpd00029_c0 --> cpd00012_c0 + cpd00018_c0 + cpd00022_c0 + cpd00067_c0
+10,rxn00176_c0,acetyl adenylate:CoA acetyltransferase,0.0,cpd00010_c0 + cpd03566_c0 --> cpd00018_c0 + cpd00022_c0 + cpd00067_c0
+10,rxn00178_c0,Acetyl-CoA:acetyl-CoA C-acetyltransferase,13.624497758511241,2.0 cpd00022_c0 <=> cpd00010_c0 + cpd00279_c0
+10,rxn00192_c0,acetyl-CoA:L-glutamate N-acetyltransferase,0.18645740933506458,cpd00022_c0 + cpd00023_c0 --> cpd00010_c0 + cpd00067_c0 + cpd00477_c0
+10,rxn00225_c0,ATP:acetate phosphotransferase,-3.3124902137742964,cpd00002_c0 + cpd00029_c0 <=> cpd00008_c0 + cpd00196_c0
+10,rxn00226_c0,ATP:acetate adenylyltransferase,0.0,cpd00002_c0 + cpd00029_c0 --> cpd00012_c0 + cpd03566_c0
+10,rxn00285_c0,Succinate:CoA ligase (ADP-forming),0.0,cpd00002_c0 + cpd00010_c0 + cpd00036_c0 <=> cpd00008_c0 + cpd00009_c0 + cpd00078_c0
+10,rxn00286_c0,succinyl-CoA:malate CoA-transferase,0.0,cpd00078_c0 + cpd00130_c0 <=> cpd00036_c0 + cpd02662_c0
+10,rxn00423_c0,acetyl-CoA:L-serine O-acetyltransferase,0.0,cpd00022_c0 + cpd00054_c0 --> cpd00010_c0 + cpd00722_c0
+10,rxn00453_c0,O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase,0.0,cpd00324_c0 + cpd00790_c0 --> cpd00029_c0 + cpd00060_c0 + cpd00067_c0
+10,rxn00506_c0,Acetaldehyde:NAD+ oxidoreductase,0.0,cpd00001_c0 + cpd00003_c0 + cpd00071_c0 --> cpd00004_c0 + cpd00029_c0 + 2.0 cpd00067_c0
+10,rxn00507_c0,Acetaldehyde:NADP+ oxidoreductase,0.0,cpd00001_c0 + cpd00006_c0 + cpd00071_c0 --> cpd00005_c0 + cpd00029_c0 + 2.0 cpd00067_c0
+10,rxn00508_c0,Succinate-semialdehyde:NAD+ oxidoreductase,0.0,cpd00001_c0 + cpd00003_c0 + cpd00199_c0 --> cpd00004_c0 + cpd00036_c0 + 2.0 cpd00067_c0
+10,rxn00509_c0,Succinate-semialdehyde:NADP+ oxidoreductase,0.0,cpd00001_c0 + cpd00006_c0 + cpd00199_c0 --> cpd00005_c0 + cpd00036_c0 + 2.0 cpd00067_c0
+10,rxn00533_c0,Acetyl-CoA:carbon-dioxide ligase (ADP-forming),0.7374117651327364,cpd00002_c0 + cpd00022_c0 + cpd00242_c0 --> cpd00008_c0 + cpd00009_c0 + cpd00067_c0 + cpd00070_c0
+10,rxn00598_c0,Succinyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00022_c0 + cpd00078_c0 <-- cpd00010_c0 + cpd01507_c0
+10,rxn00649_c0,O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase,0.0,cpd00239_c0 + cpd00722_c0 --> cpd00029_c0 + cpd00084_c0
+10,rxn00676_c0,acetyl-CoA:propanoyl-CoA 2-C-acetyltransferase,0.05397092851460232,cpd00022_c0 + cpd00086_c0 <=> cpd00010_c0 + cpd02124_c0
+10,rxn00677_c0,Acetyl-CoA:propanoate CoA-transferase,0.0,cpd00022_c0 + cpd00141_c0 <=> cpd00029_c0 + cpd00086_c0
+10,rxn00874_c0,butanoyl-CoA:acetyl-CoA C-butanoyltransferase,0.1076554701789618,cpd00022_c0 + cpd00120_c0 <=> cpd00010_c0 + cpd03123_c0
+10,rxn00875_c0,Butanoyl-CoA:acetate CoA-transferase,13.51684228833228,cpd00029_c0 + cpd00120_c0 <=> cpd00022_c0 + cpd00211_c0
+10,rxn00902_c0,"acetyl-CoA:3-methyl-2-oxobutanoate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)",-0.3312778033611344,cpd00010_c0 + cpd00067_c0 + cpd01646_c0 <-- cpd00001_c0 + cpd00022_c0 + cpd00123_c0
+10,rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,0.0,cpd00239_c0 + cpd00790_c0 --> cpd00029_c0 + cpd00135_c0
+10,rxn00990_c0,Acetoacetyl-CoA:acetate CoA-transferase,0.0,cpd00029_c0 + cpd00279_c0 <=> cpd00022_c0 + cpd00142_c0
+10,rxn01136_c0,Succinyl-CoA:oxalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd00180_c0 <=> cpd00036_c0 + cpd00262_c0
+10,rxn01484_c0,N-Acetyl-D-glucosamine-6-phosphate amidohydrolase,0.0,cpd00001_c0 + cpd00293_c0 --> cpd00029_c0 + cpd00288_c0
+10,rxn01503_c0,succinyl-CoA:3-hydroxy-3-methylglutarate CoA-transferase,0.0,cpd00078_c0 + cpd02358_c0 <=> cpd00036_c0 + cpd00292_c0
+10,rxn01734_c0,Succinyl-CoA:citramalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd00380_c0 <=> cpd00036_c0 + cpd00416_c0
+10,rxn01816_c0,R02508,0.0,cpd00036_c0 + cpd00067_c0 + cpd00424_c0 <=> cpd00084_c0 + cpd00822_c0
+10,rxn01972_c0,"N6-Acetyl-LL-2,6-diaminoheptanedioate amidohydrolase",0.0,cpd00001_c0 + cpd02685_c0 --> cpd00029_c0 + cpd00504_c0
+10,rxn02121_c0,Succinyl-CoA:citramalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd00607_c0 <=> cpd00036_c0 + cpd00671_c0
+10,rxn02246_c0,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide),0.0,cpd00268_c0 + cpd00722_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd03456_c0
+10,rxn02258_c0,Succinyl-CoA:citramalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd01701_c0 <=> cpd00036_c0 + cpd00743_c0
+10,rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine),0.0,cpd00084_c0 + cpd00790_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd00424_c0
+10,rxn02571_c0,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide),0.0,cpd00722_c0 + cpd01078_c0 --> cpd00029_c0 + cpd00067_c0 + cpd03389_c0
+10,rxn02680_c0,Octanoyl-CoA:acetyl-CoA C-acyltransferase,0.10765547017896183,cpd00022_c0 + cpd01335_c0 <=> cpd00010_c0 + cpd03119_c0
+10,rxn02804_c0,myristoyl-CoA:acetylCoA C-myristoyltransferase,0.05397092851460233,cpd00022_c0 + cpd01695_c0 <=> cpd00010_c0 + cpd03114_c0
+10,rxn03146_c0,UDP-3-O-[(3R)-3-hydroxymyristoyl]-N-acetylglucosamine amidohydrolase,0.017894847221453174,cpd00001_c0 + cpd02886_c0 <=> cpd00029_c0 + cpd03584_c0
+10,rxn03243_c0,Decanoyl-CoA:acetyl-CoA C-acyltransferase,0.10765547017896185,cpd00022_c0 + cpd03128_c0 <=> cpd00010_c0 + cpd03117_c0
+10,rxn03248_c0,Hexanoyl-CoA:acetyl-CoA C-acyltransferase,0.1076554701789618,cpd00022_c0 + cpd03124_c0 <=> cpd00010_c0 + cpd03121_c0
+10,rxn03382_c0,O-Acetylhomoserine succinate-lyase (adding cysteine),0.0,cpd03389_c0 + cpd03399_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd03398_c0
+10,rxn03383_c0,O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase,0.0,cpd03389_c0 + cpd03400_c0 <=> cpd00036_c0 + cpd00067_c0 + cpd03398_c0
+10,rxn03504_c0,N-acetyl-D-galactosamine 6-phosphate amidohydrolase,0.0,cpd00001_c0 + cpd03812_c0 <=> cpd00029_c0 + cpd03813_c0
+10,rxn03638_c0,Acetyl-CoA:D-glucosamine-1-phosphate N-acetyltransferase,0.03578969444290634,cpd00022_c0 + cpd03671_c0 --> cpd00010_c0 + cpd00067_c0 + cpd02611_c0
+10,rxn03641_c0,acetyl-CoA: 4-hydroxybutanoate CoA transferase,0.0,cpd00022_c0 + cpd00728_c0 --> cpd00029_c0 + cpd07946_c0
+10,rxn03796_c0,R05506,0.0,cpd00010_c0 + cpd04390_c0 <=> cpd00022_c0 + cpd00067_c0 + cpd00401_c0
+10,rxn03798_c0,R05508,0.0,cpd00029_c0 + cpd00617_c0 <=> cpd00022_c0 + cpd00067_c0 + cpd00159_c0
+10,rxn03866_c0,R05586,0.0,cpd00010_c0 + cpd04104_c0 <=> cpd00022_c0 + cpd00413_c0
+10,rxn05321_c0,Acetyl-CoA carbon-dioxide ligase,0.0,cpd00022_c0 + cpd11415_c0 --> cpd00070_c0 + cpd00104_c0
+10,rxn05349_c0,acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase,0.0,cpd00022_c0 + cpd11493_c0 <=> cpd00010_c0 + cpd11494_c0
+10,rxn05488_c0,acetate reversible transport via proton symport,8.630744817237279,cpd00029_e0 + cpd00067_e0 <=> cpd00029_c0 + cpd00067_c0
+10,rxn05654_c0,"Transport of succinate, extracellular",-0.010984458899135652,cpd00036_e0 + 2.0 cpd00067_e0 <=> cpd00036_c0 + 2.0 cpd00067_c0
+10,rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)",0.0,cpd00268_c0 + cpd00722_c0 + cpd11421_c0 --> cpd00029_c0 + cpd00067_c0 + cpd00081_c0 + cpd00084_c0 + cpd11420_c0
+10,rxn05831_c0,Acyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00022_c0 + cpd11611_c0 <=> cpd00010_c0 + cpd11637_c0
+10,rxn05833_c0,Acyl-CoA:acetate CoA-transferase,0.0,cpd00029_c0 + cpd11611_c0 --> cpd00022_c0 + cpd00067_c0 + cpd12094_c0
+10,rxn05938_c0,pyruvate ferredoxin oxidoreductase,-15.45856152322502,cpd00011_c0 + cpd00022_c0 + cpd00067_c0 + 2.0 cpd11620_c0 <=> cpd00010_c0 + cpd00020_c0 + 2.0 cpd11621_c0
+10,rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,0.0,cpd00239_c0 + cpd00822_c0 <=> cpd00036_c0 + cpd00135_c0
+10,rxn06510_c0,Lauroyl-CoA:acetyl-CoA C-acyltransferase,0.06291835212532891,cpd00022_c0 + cpd01260_c0 <=> cpd00010_c0 + cpd12689_c0
+10,rxn06673_c0,Acetyl-CoA:carbon-dioxide ligase (ADP-forming),0.0,cpd00022_c0 + cpd12543_c0 --> cpd00070_c0 + cpd12848_c0
+10,rxn07623_c0,3-hydroxy-5-oxohexanoyl-CoA:acetate CoA-transferase,0.0,cpd00022_c0 + cpd00067_c0 + cpd14988_c0 <=> cpd00029_c0 + cpd14989_c0
+10,rxn07681_c0,R07891,0.0,cpd00022_c0 + cpd15047_c0 <=> cpd00010_c0 + cpd15046_c0
+10,rxn07685_c0,R07895,0.0,cpd00022_c0 + cpd15051_c0 <=> cpd00010_c0 + cpd15050_c0
+10,rxn07689_c0,R07899,0.0,cpd00022_c0 + cpd15055_c0 <=> cpd00010_c0 + cpd15054_c0
+10,rxn07727_c0,R07937,0.0,cpd00022_c0 + cpd14890_c0 <=> cpd00010_c0 + cpd15092_c0
+10,rxn07743_c0,R07953,0.0,cpd00022_c0 + cpd14894_c0 <=> cpd00010_c0 + cpd15095_c0
+10,rxn07880_c0,7-methyl-3-oxo-6-octenoyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00010_c0 + cpd15170_c0 <=> cpd00022_c0 + cpd15174_c0
+10,rxn07884_c0,3-methylcrotonyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00010_c0 + cpd15175_c0 <=> cpd00022_c0 + cpd00067_c0 + cpd01966_c0
+10,rxn08062_c0,Na+/Acetate symport (periplasm),1.3692550007641855,cpd00029_e0 + cpd00971_e0 <=> cpd00029_c0 + cpd00971_c0
+10,rxn08168_c0,L-aspartate : fumarate oxidoreductase (deaminating),0.0,cpd00041_c0 + cpd00106_c0 --> cpd00036_c0 + cpd00067_c0 + cpd03470_c0
+10,rxn08733_c0,Acetyl-CoA:hexanoate-CoA transferase,0.0,cpd00022_c0 + cpd01113_c0 <=> cpd00029_c0 + cpd03124_c0
+10,rxn08766_c0,Beta-ketoacyl-ACP synthase,0.0,cpd00022_c0 + cpd00067_c0 + cpd11492_c0 --> cpd00010_c0 + cpd00011_c0 + cpd11488_c0
+10,rxn08767_c0,3-ketoacyl-CoA thiolase,0.0,cpd00010_c0 + cpd14935_c0 --> cpd00022_c0 + cpd00067_c0 + cpd00134_c0
+10,rxn09270_c0,succinate transport out via proton antiport (periplasm),0.0,cpd00036_c0 + cpd00067_e0 --> cpd00036_e0 + cpd00067_c0
+10,rxn09886_c0,cysteine synthase (Selenide),0.0,cpd00722_c0 + cpd01078_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd01608_c0
+10,rxn09948_c0,O-succinylhomoserine lyase (methanethiol),0.0,cpd00324_c0 + cpd00822_c0 --> cpd00036_c0 + cpd00060_c0 + cpd00067_c0
+10,rxn10138_c0,Succinate transport via ABC system,0.0,cpd00001_c0 + cpd00002_c0 + cpd00036_e0 --> cpd00008_c0 + cpd00009_c0 + cpd00036_c0 + cpd00067_c0
+10,rxn11409_c0,TDPFUCACTRANS-RXN.c,0.0,cpd00022_c0 + cpd02661_c0 --> cpd00010_c0 + cpd00067_c0 + cpd15454_c0
+10,rxn13251_c0,Fumarate dependent DHORD,0.0,cpd00106_c0 + cpd00282_c0 --> cpd00036_c0 + cpd00247_c0
+10,rxn15395_c0,O-Succinyl-L-homoserine succinate-lyase (adding cysteine),0.0,cpd00084_c0 + cpd00822_c0 <=> cpd00036_c0 + cpd00067_c0 + cpd19019_c0
+10,rxn15962_c0,carbon monoxide dehydrogenase/acetyl-CoA synthase (CODH/ACS),0.0,cpd00022_c0 + cpd00067_c0 + cpd00895_c0 --> cpd00010_c0 + cpd00204_c0 + cpd02737_c0
+10,rxn22497_c0,succinyl-CoA:mesaconate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd01194_c0 --> cpd00036_c0 + cpd03589_c0
+10,rxn25164_c0,RXN-8807.c,0.0,cpd00022_c0 + cpd00036_c0 <=> cpd00029_c0 + cpd00078_c0
+10,EX_cpd00027_e0,D-Glucose-e0 Exchange,-10.0,cpd00027_e0 <=> 
+10,EX_cpd00029_e0,Acetate-e0 Exchange,-9.999999818001465,cpd00029_e0 <=> 
+10,EX_cpd00211_e0,Butyrate-e0 Exchange,13.516842288332285,cpd00211_e0 --> 
+10,EX_cpd11416_c0,EX cpd11416 c0,0.6484118612246899,cpd11416_c0 --> 
+10,rxn00256_c0,acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing),-0.6971641906434358,cpd00010_c0 + cpd00067_c0 + cpd00137_c0 <-- cpd00001_c0 + cpd00022_c0 + cpd00032_c0
+10,rxn00469_c0,N2-Acetyl-L-ornithine amidohydrolase,0.1864574093350646,cpd00001_c0 + cpd00342_c0 <=> cpd00029_c0 + cpd00064_c0
+10,rxn08527_c0,fumarate reductase,0.00219689177982713,cpd00106_c0 + cpd15499_c0 --> cpd00036_c0 + cpd15500_c0
+10,rxn08528_c0,fumarate reductase,0.0021968917798271302,cpd00106_c0 + cpd15353_c0 --> cpd00036_c0 + cpd15352_c0
+10,rxn09180_c0,protoporphyrinogen oxidase (anaerobic),0.0021968917798271307,3.0 cpd00106_c0 + cpd00791_c0 --> 3.0 cpd00036_c0 + cpd01476_c0
+10,rxn09272_c0,"fumarate reductase complex (i.e. FRD, involved in anaerobic respiration, repressed in aerobic respiration)",0.0,cpd00036_c0 + cpd15560_c0 --> cpd00106_c0 + cpd15561_c0
+20,rxn00154_c0,pyruvate:NAD+ 2-oxidoreductase (CoA-acetylating),0.0,cpd00003_c0 + cpd00010_c0 + cpd00020_c0 --> cpd00004_c0 + cpd00011_c0 + cpd00022_c0
+20,rxn00157_c0,Acetyl-CoA:formate C-acetyltransferase,0.0,cpd00022_c0 + cpd00047_c0 <-- cpd00010_c0 + cpd00020_c0
+20,rxn00171_c0,acetaldehyde:NAD+ oxidoreductase (CoA-acetylating),-0.7910410913271435,cpd00003_c0 + cpd00010_c0 + cpd00071_c0 <=> cpd00004_c0 + cpd00022_c0 + cpd00067_c0
+20,rxn00173_c0,acetyl-CoA:phosphate acetyltransferase,0.0,cpd00009_c0 + cpd00022_c0 <=> cpd00010_c0 + cpd00196_c0
+20,rxn00174_c0,malonyl-CoA carboxy-lyase (acetyl-CoA-forming),0.0,cpd00067_c0 + cpd00070_c0 --> cpd00011_c0 + cpd00022_c0
+20,rxn00175_c0,Acetate:CoA ligase (AMP-forming),0.0,cpd00002_c0 + cpd00010_c0 + cpd00029_c0 --> cpd00012_c0 + cpd00018_c0 + cpd00022_c0 + cpd00067_c0
+20,rxn00176_c0,acetyl adenylate:CoA acetyltransferase,0.0,cpd00010_c0 + cpd03566_c0 --> cpd00018_c0 + cpd00022_c0 + cpd00067_c0
+20,rxn00178_c0,Acetyl-CoA:acetyl-CoA C-acetyltransferase,17.14404332183264,2.0 cpd00022_c0 <=> cpd00010_c0 + cpd00279_c0
+20,rxn00192_c0,acetyl-CoA:L-glutamate N-acetyltransferase,0.19251031072228172,cpd00022_c0 + cpd00023_c0 --> cpd00010_c0 + cpd00067_c0 + cpd00477_c0
+20,rxn00225_c0,ATP:acetate phosphotransferase,0.0,cpd00002_c0 + cpd00029_c0 <=> cpd00008_c0 + cpd00196_c0
+20,rxn00226_c0,ATP:acetate adenylyltransferase,0.0,cpd00002_c0 + cpd00029_c0 --> cpd00012_c0 + cpd03566_c0
+20,rxn00285_c0,Succinate:CoA ligase (ADP-forming),0.0,cpd00002_c0 + cpd00010_c0 + cpd00036_c0 <=> cpd00008_c0 + cpd00009_c0 + cpd00078_c0
+20,rxn00286_c0,succinyl-CoA:malate CoA-transferase,0.0,cpd00078_c0 + cpd00130_c0 <=> cpd00036_c0 + cpd02662_c0
+20,rxn00423_c0,acetyl-CoA:L-serine O-acetyltransferase,0.0,cpd00022_c0 + cpd00054_c0 --> cpd00010_c0 + cpd00722_c0
+20,rxn00453_c0,O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase,0.0,cpd00324_c0 + cpd00790_c0 --> cpd00029_c0 + cpd00060_c0 + cpd00067_c0
+20,rxn00506_c0,Acetaldehyde:NAD+ oxidoreductase,0.0,cpd00001_c0 + cpd00003_c0 + cpd00071_c0 --> cpd00004_c0 + cpd00029_c0 + 2.0 cpd00067_c0
+20,rxn00507_c0,Acetaldehyde:NADP+ oxidoreductase,0.0,cpd00001_c0 + cpd00006_c0 + cpd00071_c0 --> cpd00005_c0 + cpd00029_c0 + 2.0 cpd00067_c0
+20,rxn00508_c0,Succinate-semialdehyde:NAD+ oxidoreductase,0.0,cpd00001_c0 + cpd00003_c0 + cpd00199_c0 --> cpd00004_c0 + cpd00036_c0 + 2.0 cpd00067_c0
+20,rxn00509_c0,Succinate-semialdehyde:NADP+ oxidoreductase,0.0,cpd00001_c0 + cpd00006_c0 + cpd00199_c0 --> cpd00005_c0 + cpd00036_c0 + 2.0 cpd00067_c0
+20,rxn00533_c0,Acetyl-CoA:carbon-dioxide ligase (ADP-forming),0.7613501042528584,cpd00002_c0 + cpd00022_c0 + cpd00242_c0 --> cpd00008_c0 + cpd00009_c0 + cpd00067_c0 + cpd00070_c0
+20,rxn00598_c0,Succinyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00022_c0 + cpd00078_c0 <-- cpd00010_c0 + cpd01507_c0
+20,rxn00649_c0,O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase,0.0,cpd00239_c0 + cpd00722_c0 --> cpd00029_c0 + cpd00084_c0
+20,rxn00676_c0,acetyl-CoA:propanoyl-CoA 2-C-acetyltransferase,0.05572296781001261,cpd00022_c0 + cpd00086_c0 <=> cpd00010_c0 + cpd02124_c0
+20,rxn00677_c0,Acetyl-CoA:propanoate CoA-transferase,-0.0781801888335214,cpd00022_c0 + cpd00141_c0 <=> cpd00029_c0 + cpd00086_c0
+20,rxn00874_c0,butanoyl-CoA:acetyl-CoA C-butanoyltransferase,0.1111502518940546,cpd00022_c0 + cpd00120_c0 <=> cpd00010_c0 + cpd03123_c0
+20,rxn00875_c0,Butanoyl-CoA:acetate CoA-transferase,17.59817779781605,cpd00029_c0 + cpd00120_c0 <=> cpd00022_c0 + cpd00211_c0
+20,rxn00902_c0,"acetyl-CoA:3-methyl-2-oxobutanoate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)",-0.3420319583323403,cpd00010_c0 + cpd00067_c0 + cpd01646_c0 <-- cpd00001_c0 + cpd00022_c0 + cpd00123_c0
+20,rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,0.0,cpd00239_c0 + cpd00790_c0 --> cpd00029_c0 + cpd00135_c0
+20,rxn00990_c0,Acetoacetyl-CoA:acetate CoA-transferase,0.0,cpd00029_c0 + cpd00279_c0 <=> cpd00022_c0 + cpd00142_c0
+20,rxn01136_c0,Succinyl-CoA:oxalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd00180_c0 <=> cpd00036_c0 + cpd00262_c0
+20,rxn01484_c0,N-Acetyl-D-glucosamine-6-phosphate amidohydrolase,0.0,cpd00001_c0 + cpd00293_c0 --> cpd00029_c0 + cpd00288_c0
+20,rxn01503_c0,succinyl-CoA:3-hydroxy-3-methylglutarate CoA-transferase,0.0,cpd00078_c0 + cpd02358_c0 <=> cpd00036_c0 + cpd00292_c0
+20,rxn01734_c0,Succinyl-CoA:citramalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd00380_c0 <=> cpd00036_c0 + cpd00416_c0
+20,rxn01816_c0,R02508,0.0,cpd00036_c0 + cpd00067_c0 + cpd00424_c0 <=> cpd00084_c0 + cpd00822_c0
+20,rxn01972_c0,"N6-Acetyl-LL-2,6-diaminoheptanedioate amidohydrolase",0.0,cpd00001_c0 + cpd02685_c0 --> cpd00029_c0 + cpd00504_c0
+20,rxn02121_c0,Succinyl-CoA:citramalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd00607_c0 <=> cpd00036_c0 + cpd00671_c0
+20,rxn02246_c0,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide),0.0,cpd00268_c0 + cpd00722_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd03456_c0
+20,rxn02258_c0,Succinyl-CoA:citramalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd01701_c0 <=> cpd00036_c0 + cpd00743_c0
+20,rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine),0.0,cpd00084_c0 + cpd00790_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd00424_c0
+20,rxn02571_c0,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide),0.0,cpd00722_c0 + cpd01078_c0 --> cpd00029_c0 + cpd00067_c0 + cpd03389_c0
+20,rxn02680_c0,Octanoyl-CoA:acetyl-CoA C-acyltransferase,0.11115025189405463,cpd00022_c0 + cpd01335_c0 <=> cpd00010_c0 + cpd03119_c0
+20,rxn02804_c0,myristoyl-CoA:acetylCoA C-myristoyltransferase,0.05572296781001262,cpd00022_c0 + cpd01695_c0 <=> cpd00010_c0 + cpd03114_c0
+20,rxn03146_c0,UDP-3-O-[(3R)-3-hydroxymyristoyl]-N-acetylglucosamine amidohydrolase,0.018475761361347334,cpd00001_c0 + cpd02886_c0 <=> cpd00029_c0 + cpd03584_c0
+20,rxn03243_c0,Decanoyl-CoA:acetyl-CoA C-acyltransferase,0.11115025189405463,cpd00022_c0 + cpd03128_c0 <=> cpd00010_c0 + cpd03117_c0
+20,rxn03248_c0,Hexanoyl-CoA:acetyl-CoA C-acyltransferase,0.1111502518940546,cpd00022_c0 + cpd03124_c0 <=> cpd00010_c0 + cpd03121_c0
+20,rxn03382_c0,O-Acetylhomoserine succinate-lyase (adding cysteine),0.0,cpd03389_c0 + cpd03399_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd03398_c0
+20,rxn03383_c0,O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase,0.0,cpd03389_c0 + cpd03400_c0 <=> cpd00036_c0 + cpd00067_c0 + cpd03398_c0
+20,rxn03504_c0,N-acetyl-D-galactosamine 6-phosphate amidohydrolase,0.0,cpd00001_c0 + cpd03812_c0 <=> cpd00029_c0 + cpd03813_c0
+20,rxn03638_c0,Acetyl-CoA:D-glucosamine-1-phosphate N-acetyltransferase,0.03695152272269467,cpd00022_c0 + cpd03671_c0 --> cpd00010_c0 + cpd00067_c0 + cpd02611_c0
+20,rxn03641_c0,acetyl-CoA: 4-hydroxybutanoate CoA transferase,0.0,cpd00022_c0 + cpd00728_c0 --> cpd00029_c0 + cpd07946_c0
+20,rxn03796_c0,R05506,0.0,cpd00010_c0 + cpd04390_c0 <=> cpd00022_c0 + cpd00067_c0 + cpd00401_c0
+20,rxn03798_c0,R05508,0.0,cpd00029_c0 + cpd00617_c0 <=> cpd00022_c0 + cpd00067_c0 + cpd00159_c0
+20,rxn03866_c0,R05586,0.0,cpd00010_c0 + cpd04104_c0 <=> cpd00022_c0 + cpd00413_c0
+20,rxn05321_c0,Acetyl-CoA carbon-dioxide ligase,0.0,cpd00022_c0 + cpd11415_c0 --> cpd00070_c0 + cpd00104_c0
+20,rxn05349_c0,acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase,0.0,cpd00022_c0 + cpd11493_c0 <=> cpd00010_c0 + cpd11494_c0
+20,rxn05488_c0,acetate reversible transport via proton symport,15.921816674630051,cpd00029_e0 + cpd00067_e0 <=> cpd00029_c0 + cpd00067_c0
+20,rxn05654_c0,"Transport of succinate, extracellular",-0.011341043530154145,cpd00036_e0 + 2.0 cpd00067_e0 <=> cpd00036_c0 + 2.0 cpd00067_c0
+20,rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)",0.0,cpd00268_c0 + cpd00722_c0 + cpd11421_c0 --> cpd00029_c0 + cpd00067_c0 + cpd00081_c0 + cpd00084_c0 + cpd11420_c0
+20,rxn05831_c0,Acyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00022_c0 + cpd11611_c0 <=> cpd00010_c0 + cpd11637_c0
+20,rxn05833_c0,Acyl-CoA:acetate CoA-transferase,0.0,cpd00029_c0 + cpd11611_c0 --> cpd00022_c0 + cpd00067_c0 + cpd12094_c0
+20,rxn05938_c0,pyruvate ferredoxin oxidoreductase,-20.076417422949604,cpd00011_c0 + cpd00022_c0 + cpd00067_c0 + 2.0 cpd11620_c0 <=> cpd00010_c0 + cpd00020_c0 + 2.0 cpd11621_c0
+20,rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,0.0,cpd00239_c0 + cpd00822_c0 <=> cpd00036_c0 + cpd00135_c0
+20,rxn06510_c0,Lauroyl-CoA:acetyl-CoA C-acyltransferase,0.06496084849068628,cpd00022_c0 + cpd01260_c0 <=> cpd00010_c0 + cpd12689_c0
+20,rxn06673_c0,Acetyl-CoA:carbon-dioxide ligase (ADP-forming),0.0,cpd00022_c0 + cpd12543_c0 --> cpd00070_c0 + cpd12848_c0
+20,rxn07623_c0,3-hydroxy-5-oxohexanoyl-CoA:acetate CoA-transferase,0.0,cpd00022_c0 + cpd00067_c0 + cpd14988_c0 <=> cpd00029_c0 + cpd14989_c0
+20,rxn07681_c0,R07891,0.0,cpd00022_c0 + cpd15047_c0 <=> cpd00010_c0 + cpd15046_c0
+20,rxn07685_c0,R07895,0.0,cpd00022_c0 + cpd15051_c0 <=> cpd00010_c0 + cpd15050_c0
+20,rxn07689_c0,R07899,0.0,cpd00022_c0 + cpd15055_c0 <=> cpd00010_c0 + cpd15054_c0
+20,rxn07727_c0,R07937,0.0,cpd00022_c0 + cpd14890_c0 <=> cpd00010_c0 + cpd15092_c0
+20,rxn07743_c0,R07953,0.0,cpd00022_c0 + cpd14894_c0 <=> cpd00010_c0 + cpd15095_c0
+20,rxn07880_c0,7-methyl-3-oxo-6-octenoyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00010_c0 + cpd15170_c0 <=> cpd00022_c0 + cpd15174_c0
+20,rxn07884_c0,3-methylcrotonyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00010_c0 + cpd15175_c0 <=> cpd00022_c0 + cpd00067_c0 + cpd01966_c0
+20,rxn08062_c0,Na+/Acetate symport (periplasm),1.54355523993589,cpd00029_e0 + cpd00971_e0 <=> cpd00029_c0 + cpd00971_c0
+20,rxn08168_c0,L-aspartate : fumarate oxidoreductase (deaminating),0.0,cpd00041_c0 + cpd00106_c0 --> cpd00036_c0 + cpd00067_c0 + cpd03470_c0
+20,rxn08733_c0,Acetyl-CoA:hexanoate-CoA transferase,0.0,cpd00022_c0 + cpd01113_c0 <=> cpd00029_c0 + cpd03124_c0
+20,rxn08766_c0,Beta-ketoacyl-ACP synthase,0.0,cpd00022_c0 + cpd00067_c0 + cpd11492_c0 --> cpd00010_c0 + cpd00011_c0 + cpd11488_c0
+20,rxn08767_c0,3-ketoacyl-CoA thiolase,0.0,cpd00010_c0 + cpd14935_c0 --> cpd00022_c0 + cpd00067_c0 + cpd00134_c0
+20,rxn09270_c0,succinate transport out via proton antiport (periplasm),0.0,cpd00036_c0 + cpd00067_e0 --> cpd00036_e0 + cpd00067_c0
+20,rxn09886_c0,cysteine synthase (Selenide),0.0,cpd00722_c0 + cpd01078_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd01608_c0
+20,rxn09948_c0,O-succinylhomoserine lyase (methanethiol),0.0,cpd00324_c0 + cpd00822_c0 --> cpd00036_c0 + cpd00060_c0 + cpd00067_c0
+20,rxn10138_c0,Succinate transport via ABC system,0.0,cpd00001_c0 + cpd00002_c0 + cpd00036_e0 --> cpd00008_c0 + cpd00009_c0 + cpd00036_c0 + cpd00067_c0
+20,rxn11409_c0,TDPFUCACTRANS-RXN.c,0.0,cpd00022_c0 + cpd02661_c0 --> cpd00010_c0 + cpd00067_c0 + cpd15454_c0
+20,rxn13251_c0,Fumarate dependent DHORD,0.0,cpd00106_c0 + cpd00282_c0 --> cpd00036_c0 + cpd00247_c0
+20,rxn15395_c0,O-Succinyl-L-homoserine succinate-lyase (adding cysteine),0.0,cpd00084_c0 + cpd00822_c0 <=> cpd00036_c0 + cpd00067_c0 + cpd19019_c0
+20,rxn15962_c0,carbon monoxide dehydrogenase/acetyl-CoA synthase (CODH/ACS),0.0,cpd00022_c0 + cpd00067_c0 + cpd00895_c0 --> cpd00010_c0 + cpd00204_c0 + cpd02737_c0
+20,rxn22497_c0,succinyl-CoA:mesaconate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd01194_c0 --> cpd00036_c0 + cpd03589_c0
+20,rxn25164_c0,RXN-8807.c,0.0,cpd00022_c0 + cpd00036_c0 <=> cpd00029_c0 + cpd00078_c0
+20,EX_cpd00027_e0,D-Glucose-e0 Exchange,-10.0,cpd00027_e0 <=> 
+20,EX_cpd00029_e0,Acetate-e0 Exchange,-17.465371914565942,cpd00029_e0 <=> 
+20,EX_cpd00211_e0,Butyrate-e0 Exchange,17.598177797816057,cpd00211_e0 --> 
+20,EX_cpd11416_c0,EX cpd11416 c0,0.6694610277249182,cpd11416_c0 --> 
+20,rxn00256_c0,acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing),-0.7197959868896263,cpd00010_c0 + cpd00067_c0 + cpd00137_c0 <-- cpd00001_c0 + cpd00022_c0 + cpd00032_c0
+20,rxn00469_c0,N2-Acetyl-L-ornithine amidohydrolase,0.19251031072228178,cpd00001_c0 + cpd00342_c0 <=> cpd00029_c0 + cpd00064_c0
+20,rxn08527_c0,fumarate reductase,0.0022682087060308287,cpd00106_c0 + cpd15499_c0 --> cpd00036_c0 + cpd15500_c0
+20,rxn08528_c0,fumarate reductase,0.0022682087060308287,cpd00106_c0 + cpd15353_c0 --> cpd00036_c0 + cpd15352_c0
+20,rxn09180_c0,protoporphyrinogen oxidase (anaerobic),0.0022682087060308287,3.0 cpd00106_c0 + cpd00791_c0 --> 3.0 cpd00036_c0 + cpd01476_c0
+20,rxn09272_c0,"fumarate reductase complex (i.e. FRD, involved in anaerobic respiration, repressed in aerobic respiration)",0.0,cpd00036_c0 + cpd15560_c0 --> cpd00106_c0 + cpd15561_c0
+25,rxn00154_c0,pyruvate:NAD+ 2-oxidoreductase (CoA-acetylating),0.0,cpd00003_c0 + cpd00010_c0 + cpd00020_c0 --> cpd00004_c0 + cpd00011_c0 + cpd00022_c0
+25,rxn00157_c0,Acetyl-CoA:formate C-acetyltransferase,0.0,cpd00022_c0 + cpd00047_c0 <-- cpd00010_c0 + cpd00020_c0
+25,rxn00171_c0,acetaldehyde:NAD+ oxidoreductase (CoA-acetylating),-0.7910410913271435,cpd00003_c0 + cpd00010_c0 + cpd00071_c0 <=> cpd00004_c0 + cpd00022_c0 + cpd00067_c0
+25,rxn00173_c0,acetyl-CoA:phosphate acetyltransferase,0.0,cpd00009_c0 + cpd00022_c0 <=> cpd00010_c0 + cpd00196_c0
+25,rxn00174_c0,malonyl-CoA carboxy-lyase (acetyl-CoA-forming),0.0,cpd00067_c0 + cpd00070_c0 --> cpd00011_c0 + cpd00022_c0
+25,rxn00175_c0,Acetate:CoA ligase (AMP-forming),0.0,cpd00002_c0 + cpd00010_c0 + cpd00029_c0 --> cpd00012_c0 + cpd00018_c0 + cpd00022_c0 + cpd00067_c0
+25,rxn00176_c0,acetyl adenylate:CoA acetyltransferase,0.0,cpd00010_c0 + cpd03566_c0 --> cpd00018_c0 + cpd00022_c0 + cpd00067_c0
+25,rxn00178_c0,Acetyl-CoA:acetyl-CoA C-acetyltransferase,17.14404332183264,2.0 cpd00022_c0 <=> cpd00010_c0 + cpd00279_c0
+25,rxn00192_c0,acetyl-CoA:L-glutamate N-acetyltransferase,0.19251031072228172,cpd00022_c0 + cpd00023_c0 --> cpd00010_c0 + cpd00067_c0 + cpd00477_c0
+25,rxn00225_c0,ATP:acetate phosphotransferase,0.0,cpd00002_c0 + cpd00029_c0 <=> cpd00008_c0 + cpd00196_c0
+25,rxn00226_c0,ATP:acetate adenylyltransferase,0.0,cpd00002_c0 + cpd00029_c0 --> cpd00012_c0 + cpd03566_c0
+25,rxn00285_c0,Succinate:CoA ligase (ADP-forming),0.0,cpd00002_c0 + cpd00010_c0 + cpd00036_c0 <=> cpd00008_c0 + cpd00009_c0 + cpd00078_c0
+25,rxn00286_c0,succinyl-CoA:malate CoA-transferase,0.0,cpd00078_c0 + cpd00130_c0 <=> cpd00036_c0 + cpd02662_c0
+25,rxn00423_c0,acetyl-CoA:L-serine O-acetyltransferase,0.0,cpd00022_c0 + cpd00054_c0 --> cpd00010_c0 + cpd00722_c0
+25,rxn00453_c0,O-acetyl-L-homoserine:methanethiol 3-amino-3-carboxypropyltransferase,0.0,cpd00324_c0 + cpd00790_c0 --> cpd00029_c0 + cpd00060_c0 + cpd00067_c0
+25,rxn00506_c0,Acetaldehyde:NAD+ oxidoreductase,0.0,cpd00001_c0 + cpd00003_c0 + cpd00071_c0 --> cpd00004_c0 + cpd00029_c0 + 2.0 cpd00067_c0
+25,rxn00507_c0,Acetaldehyde:NADP+ oxidoreductase,0.0,cpd00001_c0 + cpd00006_c0 + cpd00071_c0 --> cpd00005_c0 + cpd00029_c0 + 2.0 cpd00067_c0
+25,rxn00508_c0,Succinate-semialdehyde:NAD+ oxidoreductase,0.0,cpd00001_c0 + cpd00003_c0 + cpd00199_c0 --> cpd00004_c0 + cpd00036_c0 + 2.0 cpd00067_c0
+25,rxn00509_c0,Succinate-semialdehyde:NADP+ oxidoreductase,0.0,cpd00001_c0 + cpd00006_c0 + cpd00199_c0 --> cpd00005_c0 + cpd00036_c0 + 2.0 cpd00067_c0
+25,rxn00533_c0,Acetyl-CoA:carbon-dioxide ligase (ADP-forming),0.7613501042528584,cpd00002_c0 + cpd00022_c0 + cpd00242_c0 --> cpd00008_c0 + cpd00009_c0 + cpd00067_c0 + cpd00070_c0
+25,rxn00598_c0,Succinyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00022_c0 + cpd00078_c0 <-- cpd00010_c0 + cpd01507_c0
+25,rxn00649_c0,O3-acetyl-L-serine:hydrogen-sulfide 2-amino-2-carboxyethyltransferase,0.0,cpd00239_c0 + cpd00722_c0 --> cpd00029_c0 + cpd00084_c0
+25,rxn00676_c0,acetyl-CoA:propanoyl-CoA 2-C-acetyltransferase,0.05572296781001261,cpd00022_c0 + cpd00086_c0 <=> cpd00010_c0 + cpd02124_c0
+25,rxn00677_c0,Acetyl-CoA:propanoate CoA-transferase,-0.0781801888335214,cpd00022_c0 + cpd00141_c0 <=> cpd00029_c0 + cpd00086_c0
+25,rxn00874_c0,butanoyl-CoA:acetyl-CoA C-butanoyltransferase,0.1111502518940546,cpd00022_c0 + cpd00120_c0 <=> cpd00010_c0 + cpd03123_c0
+25,rxn00875_c0,Butanoyl-CoA:acetate CoA-transferase,17.59817779781605,cpd00029_c0 + cpd00120_c0 <=> cpd00022_c0 + cpd00211_c0
+25,rxn00902_c0,"acetyl-CoA:3-methyl-2-oxobutanoate C-acetyltransferase (thioester-hydrolysing, carboxymethyl-forming)",-0.3420319583323403,cpd00010_c0 + cpd00067_c0 + cpd01646_c0 <-- cpd00001_c0 + cpd00022_c0 + cpd00123_c0
+25,rxn00952_c0,O-acetyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,0.0,cpd00239_c0 + cpd00790_c0 --> cpd00029_c0 + cpd00135_c0
+25,rxn00990_c0,Acetoacetyl-CoA:acetate CoA-transferase,0.0,cpd00029_c0 + cpd00279_c0 <=> cpd00022_c0 + cpd00142_c0
+25,rxn01136_c0,Succinyl-CoA:oxalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd00180_c0 <=> cpd00036_c0 + cpd00262_c0
+25,rxn01484_c0,N-Acetyl-D-glucosamine-6-phosphate amidohydrolase,0.0,cpd00001_c0 + cpd00293_c0 --> cpd00029_c0 + cpd00288_c0
+25,rxn01503_c0,succinyl-CoA:3-hydroxy-3-methylglutarate CoA-transferase,0.0,cpd00078_c0 + cpd02358_c0 <=> cpd00036_c0 + cpd00292_c0
+25,rxn01734_c0,Succinyl-CoA:citramalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd00380_c0 <=> cpd00036_c0 + cpd00416_c0
+25,rxn01816_c0,R02508,0.0,cpd00036_c0 + cpd00067_c0 + cpd00424_c0 <=> cpd00084_c0 + cpd00822_c0
+25,rxn01972_c0,"N6-Acetyl-LL-2,6-diaminoheptanedioate amidohydrolase",0.0,cpd00001_c0 + cpd02685_c0 --> cpd00029_c0 + cpd00504_c0
+25,rxn02121_c0,Succinyl-CoA:citramalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd00607_c0 <=> cpd00036_c0 + cpd00671_c0
+25,rxn02246_c0,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide),0.0,cpd00268_c0 + cpd00722_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd03456_c0
+25,rxn02258_c0,Succinyl-CoA:citramalate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd01701_c0 <=> cpd00036_c0 + cpd00743_c0
+25,rxn02302_c0,O-Acetyl-L-homoserine succinate-lyase (adding cysteine),0.0,cpd00084_c0 + cpd00790_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd00424_c0
+25,rxn02571_c0,O3-Acetyl-L-serine acetate-lyase (adding hydrogen sulfide),0.0,cpd00722_c0 + cpd01078_c0 --> cpd00029_c0 + cpd00067_c0 + cpd03389_c0
+25,rxn02680_c0,Octanoyl-CoA:acetyl-CoA C-acyltransferase,0.11115025189405463,cpd00022_c0 + cpd01335_c0 <=> cpd00010_c0 + cpd03119_c0
+25,rxn02804_c0,myristoyl-CoA:acetylCoA C-myristoyltransferase,0.05572296781001262,cpd00022_c0 + cpd01695_c0 <=> cpd00010_c0 + cpd03114_c0
+25,rxn03146_c0,UDP-3-O-[(3R)-3-hydroxymyristoyl]-N-acetylglucosamine amidohydrolase,0.018475761361347334,cpd00001_c0 + cpd02886_c0 <=> cpd00029_c0 + cpd03584_c0
+25,rxn03243_c0,Decanoyl-CoA:acetyl-CoA C-acyltransferase,0.11115025189405463,cpd00022_c0 + cpd03128_c0 <=> cpd00010_c0 + cpd03117_c0
+25,rxn03248_c0,Hexanoyl-CoA:acetyl-CoA C-acyltransferase,0.1111502518940546,cpd00022_c0 + cpd03124_c0 <=> cpd00010_c0 + cpd03121_c0
+25,rxn03382_c0,O-Acetylhomoserine succinate-lyase (adding cysteine),0.0,cpd03389_c0 + cpd03399_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd03398_c0
+25,rxn03383_c0,O4-succinyl-L-homoserine:L-selenocysteine Se-(3-amino-3-carboxypropyl)transferase,0.0,cpd03389_c0 + cpd03400_c0 <=> cpd00036_c0 + cpd00067_c0 + cpd03398_c0
+25,rxn03504_c0,N-acetyl-D-galactosamine 6-phosphate amidohydrolase,0.0,cpd00001_c0 + cpd03812_c0 <=> cpd00029_c0 + cpd03813_c0
+25,rxn03638_c0,Acetyl-CoA:D-glucosamine-1-phosphate N-acetyltransferase,0.03695152272269467,cpd00022_c0 + cpd03671_c0 --> cpd00010_c0 + cpd00067_c0 + cpd02611_c0
+25,rxn03641_c0,acetyl-CoA: 4-hydroxybutanoate CoA transferase,0.0,cpd00022_c0 + cpd00728_c0 --> cpd00029_c0 + cpd07946_c0
+25,rxn03796_c0,R05506,0.0,cpd00010_c0 + cpd04390_c0 <=> cpd00022_c0 + cpd00067_c0 + cpd00401_c0
+25,rxn03798_c0,R05508,0.0,cpd00029_c0 + cpd00617_c0 <=> cpd00022_c0 + cpd00067_c0 + cpd00159_c0
+25,rxn03866_c0,R05586,0.0,cpd00010_c0 + cpd04104_c0 <=> cpd00022_c0 + cpd00413_c0
+25,rxn05321_c0,Acetyl-CoA carbon-dioxide ligase,0.0,cpd00022_c0 + cpd11415_c0 --> cpd00070_c0 + cpd00104_c0
+25,rxn05349_c0,acetyl-CoA:[acyl-carrier-protein] S-acetyltransferase,0.0,cpd00022_c0 + cpd11493_c0 <=> cpd00010_c0 + cpd11494_c0
+25,rxn05488_c0,acetate reversible transport via proton symport,15.921816674630051,cpd00029_e0 + cpd00067_e0 <=> cpd00029_c0 + cpd00067_c0
+25,rxn05654_c0,"Transport of succinate, extracellular",-0.011341043530154145,cpd00036_e0 + 2.0 cpd00067_e0 <=> cpd00036_c0 + 2.0 cpd00067_c0
+25,rxn05733_c0,"O3-acetyl-L-serine:thiosulfate 2-amino-2-carboxyethyltransferase (reducing, L-cysteine-forming)",0.0,cpd00268_c0 + cpd00722_c0 + cpd11421_c0 --> cpd00029_c0 + cpd00067_c0 + cpd00081_c0 + cpd00084_c0 + cpd11420_c0
+25,rxn05831_c0,Acyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00022_c0 + cpd11611_c0 <=> cpd00010_c0 + cpd11637_c0
+25,rxn05833_c0,Acyl-CoA:acetate CoA-transferase,0.0,cpd00029_c0 + cpd11611_c0 --> cpd00022_c0 + cpd00067_c0 + cpd12094_c0
+25,rxn05938_c0,pyruvate ferredoxin oxidoreductase,-20.076417422949604,cpd00011_c0 + cpd00022_c0 + cpd00067_c0 + 2.0 cpd11620_c0 <=> cpd00010_c0 + cpd00020_c0 + 2.0 cpd11621_c0
+25,rxn05957_c0,O4-succinyl-L-homoserine:hydrogen sulfide S-(3-amino-3-carboxypropyl)transferase,0.0,cpd00239_c0 + cpd00822_c0 <=> cpd00036_c0 + cpd00135_c0
+25,rxn06510_c0,Lauroyl-CoA:acetyl-CoA C-acyltransferase,0.06496084849068628,cpd00022_c0 + cpd01260_c0 <=> cpd00010_c0 + cpd12689_c0
+25,rxn06673_c0,Acetyl-CoA:carbon-dioxide ligase (ADP-forming),0.0,cpd00022_c0 + cpd12543_c0 --> cpd00070_c0 + cpd12848_c0
+25,rxn07623_c0,3-hydroxy-5-oxohexanoyl-CoA:acetate CoA-transferase,0.0,cpd00022_c0 + cpd00067_c0 + cpd14988_c0 <=> cpd00029_c0 + cpd14989_c0
+25,rxn07681_c0,R07891,0.0,cpd00022_c0 + cpd15047_c0 <=> cpd00010_c0 + cpd15046_c0
+25,rxn07685_c0,R07895,0.0,cpd00022_c0 + cpd15051_c0 <=> cpd00010_c0 + cpd15050_c0
+25,rxn07689_c0,R07899,0.0,cpd00022_c0 + cpd15055_c0 <=> cpd00010_c0 + cpd15054_c0
+25,rxn07727_c0,R07937,0.0,cpd00022_c0 + cpd14890_c0 <=> cpd00010_c0 + cpd15092_c0
+25,rxn07743_c0,R07953,0.0,cpd00022_c0 + cpd14894_c0 <=> cpd00010_c0 + cpd15095_c0
+25,rxn07880_c0,7-methyl-3-oxo-6-octenoyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00010_c0 + cpd15170_c0 <=> cpd00022_c0 + cpd15174_c0
+25,rxn07884_c0,3-methylcrotonyl-CoA:acetyl-CoA C-acyltransferase,0.0,cpd00010_c0 + cpd15175_c0 <=> cpd00022_c0 + cpd00067_c0 + cpd01966_c0
+25,rxn08062_c0,Na+/Acetate symport (periplasm),1.54355523993589,cpd00029_e0 + cpd00971_e0 <=> cpd00029_c0 + cpd00971_c0
+25,rxn08168_c0,L-aspartate : fumarate oxidoreductase (deaminating),0.0,cpd00041_c0 + cpd00106_c0 --> cpd00036_c0 + cpd00067_c0 + cpd03470_c0
+25,rxn08733_c0,Acetyl-CoA:hexanoate-CoA transferase,0.0,cpd00022_c0 + cpd01113_c0 <=> cpd00029_c0 + cpd03124_c0
+25,rxn08766_c0,Beta-ketoacyl-ACP synthase,0.0,cpd00022_c0 + cpd00067_c0 + cpd11492_c0 --> cpd00010_c0 + cpd00011_c0 + cpd11488_c0
+25,rxn08767_c0,3-ketoacyl-CoA thiolase,0.0,cpd00010_c0 + cpd14935_c0 --> cpd00022_c0 + cpd00067_c0 + cpd00134_c0
+25,rxn09270_c0,succinate transport out via proton antiport (periplasm),0.0,cpd00036_c0 + cpd00067_e0 --> cpd00036_e0 + cpd00067_c0
+25,rxn09886_c0,cysteine synthase (Selenide),0.0,cpd00722_c0 + cpd01078_c0 <=> cpd00029_c0 + cpd00067_c0 + cpd01608_c0
+25,rxn09948_c0,O-succinylhomoserine lyase (methanethiol),0.0,cpd00324_c0 + cpd00822_c0 --> cpd00036_c0 + cpd00060_c0 + cpd00067_c0
+25,rxn10138_c0,Succinate transport via ABC system,0.0,cpd00001_c0 + cpd00002_c0 + cpd00036_e0 --> cpd00008_c0 + cpd00009_c0 + cpd00036_c0 + cpd00067_c0
+25,rxn11409_c0,TDPFUCACTRANS-RXN.c,0.0,cpd00022_c0 + cpd02661_c0 --> cpd00010_c0 + cpd00067_c0 + cpd15454_c0
+25,rxn13251_c0,Fumarate dependent DHORD,0.0,cpd00106_c0 + cpd00282_c0 --> cpd00036_c0 + cpd00247_c0
+25,rxn15395_c0,O-Succinyl-L-homoserine succinate-lyase (adding cysteine),0.0,cpd00084_c0 + cpd00822_c0 <=> cpd00036_c0 + cpd00067_c0 + cpd19019_c0
+25,rxn15962_c0,carbon monoxide dehydrogenase/acetyl-CoA synthase (CODH/ACS),0.0,cpd00022_c0 + cpd00067_c0 + cpd00895_c0 --> cpd00010_c0 + cpd00204_c0 + cpd02737_c0
+25,rxn22497_c0,succinyl-CoA:mesaconate CoA-transferase,0.0,cpd00067_c0 + cpd00078_c0 + cpd01194_c0 --> cpd00036_c0 + cpd03589_c0
+25,rxn25164_c0,RXN-8807.c,0.0,cpd00022_c0 + cpd00036_c0 <=> cpd00029_c0 + cpd00078_c0
+25,EX_cpd00027_e0,D-Glucose-e0 Exchange,-10.0,cpd00027_e0 <=> 
+25,EX_cpd00029_e0,Acetate-e0 Exchange,-17.465371914565942,cpd00029_e0 <=> 
+25,EX_cpd00211_e0,Butyrate-e0 Exchange,17.598177797816057,cpd00211_e0 --> 
+25,EX_cpd11416_c0,EX cpd11416 c0,0.6694610277249182,cpd11416_c0 --> 
+25,rxn00256_c0,acetyl-CoA:oxaloacetate C-acetyltransferase (thioester-hydrolysing),-0.7197959868896263,cpd00010_c0 + cpd00067_c0 + cpd00137_c0 <-- cpd00001_c0 + cpd00022_c0 + cpd00032_c0
+25,rxn00469_c0,N2-Acetyl-L-ornithine amidohydrolase,0.19251031072228178,cpd00001_c0 + cpd00342_c0 <=> cpd00029_c0 + cpd00064_c0
+25,rxn08527_c0,fumarate reductase,0.0022682087060308287,cpd00106_c0 + cpd15499_c0 --> cpd00036_c0 + cpd15500_c0
+25,rxn08528_c0,fumarate reductase,0.0022682087060308287,cpd00106_c0 + cpd15353_c0 --> cpd00036_c0 + cpd15352_c0
+25,rxn09180_c0,protoporphyrinogen oxidase (anaerobic),0.0022682087060308287,3.0 cpd00106_c0 + cpd00791_c0 --> 3.0 cpd00036_c0 + cpd01476_c0
+25,rxn09272_c0,"fumarate reductase complex (i.e. FRD, involved in anaerobic respiration, repressed in aerobic respiration)",0.0,cpd00036_c0 + cpd15560_c0 --> cpd00106_c0 + cpd15561_c0

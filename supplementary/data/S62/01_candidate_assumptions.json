@@ -1,0 +1,16 @@
+{
+  "primary_model_unchanged": true,
+  "candidate_only": true,
+  "related_strain": "M. elsdenii LC1 / NCIB 8927",
+  "target_strain_measurements_available": false,
+  "measured_input": "16 whole-cell amino-acid pools; original proportions, not iME375 amino-acid mass conversions",
+  "protein_mass_assumed_g_per_gDW": 0.5499922685697294,
+  "Cys_Trp": "inherited original coefficients; unmeasured",
+  "Asx_Glx": "50:50 molar split into acid/amide, inherited assumption",
+  "shape_scaling": 1.263401937532615,
+  "before_total_mass": 0.9999880403303031,
+  "after_total_mass": 0.9999880403302998,
+  "RNA_lipid_GAM_NGAM": "unchanged assumptions",
+  "lipid_not_replaced": "Measured related-strain PS/plasmalogens are not represented equivalently in the original nine PG/CL/PE species; no speculative pathway addition",
+  "release_gate": "Does not resolve missing strain-specific whole-cell fractions or maintenance measurements"
+}

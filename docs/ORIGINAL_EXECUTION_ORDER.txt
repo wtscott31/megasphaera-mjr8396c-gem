@@ -1,0 +1,19 @@
+Use the isolated scientific Python interpreter documented in provenance.
+Existing completed outputs are already included. Re-running reconstruction can
+overwrite only new v6 outputs; preserve the supplied frozen archive first.
+
+1. fetch_gapseq_reference_v6.py (only if the excluded reference cache is needed)
+2. reconstruct_matched_v6.py (native gapseq runtime required; all four strains)
+3. functional_curation_v6.py; curate_matched_GPR_v6.py
+4. matched_monocultures_v6.py --strain NAME (MJR8396C,NM10,BL7,B22L)
+5. matched_loopless_v6.py --strain NAME --solver hybrid
+6. run_matched_communities_v6.py; matched_micom_v6.py --pair GPRcurated_filtered22L
+7. run_curated_communities_v6.py
+8. matched_biomass_v6.py; paired_biomass_demands_v6.py
+9. comparator_calibration_v6.py
+10. summarize_v6_evidence.py; build_v6_documents.py; compile_v6_documents.py
+11. build_v6_notebook.py; pytest tests; finalize_v6_metadata.py
+12. verify_rendered_v6.py, visual review, package_release_v6.py
+
+Native LP/HiGHS-MIP and native MICOM with the explicit custom QP adapter are
+different solver paths; each method and its certificates are recorded.

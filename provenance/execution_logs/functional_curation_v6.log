@@ -1,0 +1,9 @@
+v6_22L_makedb 0
+v6_22L_homology 0
+v6_22L_reverse 0
+/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v6/scripts/functional_curation_v6.py:50: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  for name,mask in [('L_NAD_LDH',h.EC.fillna('').str.contains(r'(^|;)1\.1\.1\.27($|;)',regex=True)),
+/Users/wtscott/Documents/ChatGPT/Megasphaera_GEM/revision_v6/scripts/functional_curation_v6.py:51: UserWarning: This pattern is interpreted as a regular expression, and has match groups. To actually get the groups, use str.extract.
+  ('D_NAD_LDH',h.EC.fillna('').str.contains(r'(^|;)1\.1\.1\.28($|;)',regex=True)),
+'' is not a valid SBML 'SId'.
+Functional curation and 22L evidence completed 29 32

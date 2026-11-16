@@ -1,0 +1,100 @@
+# Assembly name:  ASM154685v1
+# Organism name:  Megasphaera sp. MJR8396C (firmicutes)
+# Infraspecific name:  strain=MJR8396C
+# Taxid:          1603888
+# BioSample:      SAMN03854353
+# BioProject:     PRJNA272093
+# Submitter:      The Genome Institute at Washington University
+# Date:           2016-02-02
+# Assembly type:  na
+# Release type:   major
+# Assembly level: Scaffold
+# Genome representation: full
+# WGS project:    LRVC01
+# Assembly method: Velvet v. 1.1.06
+# Genome coverage: 101x
+# Sequencing technology: Illumina
+# GenBank assembly accession: GCA_001546855.1
+# RefSeq assembly accession: GCF_001546855.1
+# RefSeq assembly and GenBank assemblies identical: yes
+#
+## Assembly-Units:
+## GenBank Unit Accession	RefSeq Unit Accession	Assembly-Unit name
+## GCA_001546895.1	GCF_001546895.1	Primary Assembly
+#
+# Ordered by chromosome/plasmid; the chromosomes/plasmids are followed by
+# unlocalized scaffolds.
+# Unplaced scaffolds are listed at the end.
+# RefSeq is equal or derived from GenBank object.
+#
+# Sequence-Name	Sequence-Role	Assigned-Molecule	Assigned-Molecule-Location/Type	GenBank-Accn	Relationship	RefSeq-Accn	Assembly-Unit	Sequence-Length	UCSC-style-name
+Scaffold0	unplaced-scaffold	na	na	KQ958143.1	=	NZ_KQ958143.1	Primary Assembly	94761	na
+Scaffold1	unplaced-scaffold	na	na	KQ958144.1	=	NZ_KQ958144.1	Primary Assembly	78052	na
+Scaffold2	unplaced-scaffold	na	na	KQ958145.1	=	NZ_KQ958145.1	Primary Assembly	50334	na
+Scaffold3	unplaced-scaffold	na	na	KQ958146.1	=	NZ_KQ958146.1	Primary Assembly	23166	na
+Scaffold4	unplaced-scaffold	na	na	KQ958147.1	=	NZ_KQ958147.1	Primary Assembly	50777	na
+Scaffold5	unplaced-scaffold	na	na	KQ958148.1	=	NZ_KQ958148.1	Primary Assembly	8108	na
+Scaffold6	unplaced-scaffold	na	na	KQ958149.1	=	NZ_KQ958149.1	Primary Assembly	574	na
+Scaffold7	unplaced-scaffold	na	na	KQ958150.1	=	NZ_KQ958150.1	Primary Assembly	17772	na
+Scaffold8	unplaced-scaffold	na	na	KQ958151.1	=	NZ_KQ958151.1	Primary Assembly	81521	na
+Scaffold9	unplaced-scaffold	na	na	KQ958152.1	=	NZ_KQ958152.1	Primary Assembly	3570	na
+Scaffold11	unplaced-scaffold	na	na	KQ958153.1	=	NZ_KQ958153.1	Primary Assembly	131738	na
+Scaffold13	unplaced-scaffold	na	na	KQ958154.1	=	NZ_KQ958154.1	Primary Assembly	39414	na
+Scaffold15	unplaced-scaffold	na	na	KQ958155.1	=	NZ_KQ958155.1	Primary Assembly	44327	na
+Scaffold16	unplaced-scaffold	na	na	KQ958156.1	=	NZ_KQ958156.1	Primary Assembly	20968	na
+Scaffold17	unplaced-scaffold	na	na	KQ958157.1	=	NZ_KQ958157.1	Primary Assembly	20626	na
+Scaffold18	unplaced-scaffold	na	na	KQ958158.1	=	NZ_KQ958158.1	Primary Assembly	10773	na
+Scaffold24	unplaced-scaffold	na	na	KQ958159.1	=	NZ_KQ958159.1	Primary Assembly	15311	na
+Scaffold25	unplaced-scaffold	na	na	KQ958160.1	=	NZ_KQ958160.1	Primary Assembly	707	na
+Scaffold27	unplaced-scaffold	na	na	KQ958161.1	=	NZ_KQ958161.1	Primary Assembly	134502	na
+Scaffold28	unplaced-scaffold	na	na	KQ958162.1	=	NZ_KQ958162.1	Primary Assembly	40610	na
+Scaffold30	unplaced-scaffold	na	na	KQ958163.1	=	NZ_KQ958163.1	Primary Assembly	5785	na
+Scaffold31	unplaced-scaffold	na	na	KQ958164.1	=	NZ_KQ958164.1	Primary Assembly	2502	na
+Scaffold36	unplaced-scaffold	na	na	KQ958165.1	=	NZ_KQ958165.1	Primary Assembly	599	na
+Scaffold39	unplaced-scaffold	na	na	KQ958166.1	=	NZ_KQ958166.1	Primary Assembly	45068	na
+Scaffold43	unplaced-scaffold	na	na	KQ958167.1	=	NZ_KQ958167.1	Primary Assembly	5337	na
+Scaffold46	unplaced-scaffold	na	na	KQ958168.1	=	NZ_KQ958168.1	Primary Assembly	826	na
+Scaffold55	unplaced-scaffold	na	na	KQ958169.1	=	NZ_KQ958169.1	Primary Assembly	622	na
+Scaffold61	unplaced-scaffold	na	na	KQ958170.1	=	NZ_KQ958170.1	Primary Assembly	42480	na
+Scaffold62	unplaced-scaffold	na	na	KQ958171.1	=	NZ_KQ958171.1	Primary Assembly	826	na
+Scaffold64	unplaced-scaffold	na	na	KQ958172.1	=	NZ_KQ958172.1	Primary Assembly	62145	na
+Scaffold65	unplaced-scaffold	na	na	KQ958173.1	=	NZ_KQ958173.1	Primary Assembly	23095	na
+Scaffold66	unplaced-scaffold	na	na	KQ958174.1	=	NZ_KQ958174.1	Primary Assembly	4431	na
+Scaffold67	unplaced-scaffold	na	na	KQ958175.1	=	NZ_KQ958175.1	Primary Assembly	919	na
+Scaffold84	unplaced-scaffold	na	na	KQ958176.1	=	NZ_KQ958176.1	Primary Assembly	94193	na
+Scaffold89	unplaced-scaffold	na	na	KQ958177.1	=	NZ_KQ958177.1	Primary Assembly	1609	na
+Scaffold92	unplaced-scaffold	na	na	KQ958178.1	=	NZ_KQ958178.1	Primary Assembly	1125	na
+Scaffold96	unplaced-scaffold	na	na	KQ958179.1	=	NZ_KQ958179.1	Primary Assembly	100306	na
+Scaffold112	unplaced-scaffold	na	na	KQ958180.1	=	NZ_KQ958180.1	Primary Assembly	521	na
+Scaffold134	unplaced-scaffold	na	na	KQ958181.1	=	NZ_KQ958181.1	Primary Assembly	18898	na
+Scaffold136	unplaced-scaffold	na	na	KQ958182.1	=	NZ_KQ958182.1	Primary Assembly	1381	na
+Scaffold161	unplaced-scaffold	na	na	KQ958183.1	=	NZ_KQ958183.1	Primary Assembly	697	na
+Scaffold191	unplaced-scaffold	na	na	KQ958184.1	=	NZ_KQ958184.1	Primary Assembly	60191	na
+Scaffold205	unplaced-scaffold	na	na	KQ958185.1	=	NZ_KQ958185.1	Primary Assembly	864	na
+Scaffold222	unplaced-scaffold	na	na	KQ958186.1	=	NZ_KQ958186.1	Primary Assembly	8079	na
+Scaffold224	unplaced-scaffold	na	na	KQ958187.1	=	NZ_KQ958187.1	Primary Assembly	879	na
+Scaffold236	unplaced-scaffold	na	na	KQ958188.1	=	NZ_KQ958188.1	Primary Assembly	38061	na
+Scaffold245	unplaced-scaffold	na	na	KQ958189.1	=	NZ_KQ958189.1	Primary Assembly	32023	na
+Scaffold264	unplaced-scaffold	na	na	KQ958190.1	=	NZ_KQ958190.1	Primary Assembly	32793	na
+Scaffold282	unplaced-scaffold	na	na	KQ958191.1	=	NZ_KQ958191.1	Primary Assembly	550	na
+Scaffold295	unplaced-scaffold	na	na	KQ958192.1	=	NZ_KQ958192.1	Primary Assembly	62695	na
+Scaffold303	unplaced-scaffold	na	na	KQ958193.1	=	NZ_KQ958193.1	Primary Assembly	1056	na
+Scaffold305	unplaced-scaffold	na	na	KQ958194.1	=	NZ_KQ958194.1	Primary Assembly	1535	na
+Scaffold316	unplaced-scaffold	na	na	KQ958195.1	=	NZ_KQ958195.1	Primary Assembly	75510	na
+Scaffold322	unplaced-scaffold	na	na	KQ958196.1	=	NZ_KQ958196.1	Primary Assembly	37620	na
+Scaffold334	unplaced-scaffold	na	na	KQ958197.1	=	NZ_KQ958197.1	Primary Assembly	2318	na
+Scaffold350	unplaced-scaffold	na	na	KQ958198.1	=	NZ_KQ958198.1	Primary Assembly	56243	na
+Scaffold382	unplaced-scaffold	na	na	KQ958199.1	=	NZ_KQ958199.1	Primary Assembly	4310	na
+Scaffold395	unplaced-scaffold	na	na	KQ958200.1	=	NZ_KQ958200.1	Primary Assembly	1682	na
+Scaffold399	unplaced-scaffold	na	na	KQ958201.1	=	NZ_KQ958201.1	Primary Assembly	63923	na
+Scaffold419	unplaced-scaffold	na	na	KQ958202.1	=	NZ_KQ958202.1	Primary Assembly	71574	na
+Scaffold427	unplaced-scaffold	na	na	KQ958203.1	=	NZ_KQ958203.1	Primary Assembly	98837	na
+Scaffold428	unplaced-scaffold	na	na	KQ958204.1	=	NZ_KQ958204.1	Primary Assembly	15675	na
+Scaffold431	unplaced-scaffold	na	na	KQ958205.1	=	NZ_KQ958205.1	Primary Assembly	17663	na
+Scaffold441	unplaced-scaffold	na	na	KQ958206.1	=	NZ_KQ958206.1	Primary Assembly	221575	na
+Scaffold469	unplaced-scaffold	na	na	KQ958207.1	=	NZ_KQ958207.1	Primary Assembly	96775	na
+Scaffold474	unplaced-scaffold	na	na	KQ958208.1	=	NZ_KQ958208.1	Primary Assembly	566	na
+Scaffold478	unplaced-scaffold	na	na	KQ958209.1	=	NZ_KQ958209.1	Primary Assembly	47417	na
+Scaffold622	unplaced-scaffold	na	na	KQ958210.1	=	NZ_KQ958210.1	Primary Assembly	74086	na
+Scaffold626	unplaced-scaffold	na	na	KQ958211.1	=	NZ_KQ958211.1	Primary Assembly	23529	na
+Scaffold628	unplaced-scaffold	na	na	KQ958212.1	=	NZ_KQ958212.1	Primary Assembly	24892	na

@@ -1,0 +1,19 @@
+{
+  "reaction": "rxn00500_c0",
+  "original_bounds": [
+    -1000.0,
+    1000.0
+  ],
+  "candidate_bounds": [
+    0,
+    0
+  ],
+  "source_model_sha256": "0ebe69baa1c7572a49ba13835b9248a079c4a272528ead32ed6d10b0c7a5d027",
+  "current_annotation_proteins": 1737,
+  "deposited_genes": 349,
+  "present_accession_versions": 349,
+  "experimental_stereochemistry_verified": false,
+  "decision": "Keep deposited model; release evidence-filtered sensitivity. D secretion and L uptake are not established 22L traits.",
+  "22L_primary_fermentation_source": "https://doi.org/10.3389/fmicb.2015.01030",
+  "assay_limitation": "Total lactic-acid HPLC with RI detector, not enantiomer-resolved. No verified 22L net L-lactate uptake assay located."
+}

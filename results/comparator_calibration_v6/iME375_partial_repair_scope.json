@@ -1,0 +1,14 @@
+{
+  "source_DNA_GC": 0.5279796241850019,
+  "protein_residue_mass_before_normalization": 0.8715531604399998,
+  "new_protein_residue_mass": 1.0,
+  "new_DNA_residue_mass": 1.0,
+  "whole_cell_mass_resolved": false,
+  "remaining": [
+    "PLIPID generic R groups",
+    "Amylopectin unspecified polymer repeat count",
+    "RNA/peptidoglycan energy and condensation conventions",
+    "E. coli-derived whole-cell fractions are not M. elsdenii measurements"
+  ],
+  "not_fitted_to_growth_or_butyrate": true
+}

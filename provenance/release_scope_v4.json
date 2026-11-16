@@ -1,0 +1,10 @@
+{
+  "release": "v4 executed computational release candidate",
+  "status": "AUTHOR_REVIEW_REQUIRED_NOT_UNCONDITIONAL_SUBMISSION_READY",
+  "generated_utc": "2026-10-26T20:55:52.888799+00:00",
+  "archive_name": "MJR8396C_executed_revision_v4.zip",
+  "excluded": "Environments, diagnostic vendor binaries, caches, private notebook keys, QA rasters, unrelated local-search output and full non-open-access article scans. Measured numeric tables, citations and download/checksum provenance are included.",
+  "current_results": "TASK_STATUS_v4.csv; results/JGI_mapping; results/empirical_biomass; results/native_micom_v4",
+  "historical_results": "v2/v3 reports/tables and direct-QP failures remain historical",
+  "original_inputs_immutable": true
+}

@@ -1,0 +1,8 @@
+pathway,archived_gutSMASH_metric,model_representation,flux_evidence,gene_evidence,concordance_and_limit
+Pdu / propanediol utilization,33% reference-cluster genes,Some propanediol exchanges; no completed Pdu branch inferred,Not established for a complete cluster,Not established,partial / unresolved
+Rnf complex,66% reference-cluster genes,rxn90053_c0 represented,Flux feasible in all three media; S68 native ranges,Mapped GPR genes; complex AND/OR specificity unresolved,"partial: chemistry/flux concordant, complex not verified"
+PFOR II,100% reference-cluster genes,rxn05938_c0 represented,Flux feasible in all three media; S68 native ranges,No deposited PFOR GPR,"partial: chemistry/flux concordant, GPR missing"
+Leucine-reductive branch,50% reference-cluster genes,Complete reductive branch not established,No full-pathway flux claim,No complete catalytic/complex assignment,partial / unresolved
+4-aminobutyrate to butyrate,20% reference-cluster genes,rxn01204_c0 is aminotransferase; not proof of full reductive pathway,Individual chemistry tested; complete route not established,Several associated activities remain unassigned,partial / unresolved
+Proline to aminovalerate,Not detected in archived gutSMASH calls,Proline oxidation reactions do not establish reductive Prd branch,No reductive-branch flux claim,No complete reductive Prd assignment,no supported concordance for proposed reductive branch
+C5/C6 end-product chain elongation,No complete pathway established,Hexanoate CoA-transferase rxn08733 exists; terminal fermentation/export not established,S68 tests represented reaction; no chain-elongation phenotype inferred,Model incompleteness is not gene absence,partial chemistry / end-product route unresolved
