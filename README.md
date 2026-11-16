@@ -2,9 +2,9 @@
 
 **Companion code and source data for:** “Genome-scale constraint-based modeling of *Megasphaera* sp. MJR8396C predicts nutrient-dependent fermentation and conditional microbial exchange.”
 
-This repository contains the authors' computational revision based on the deposited MJR8396C model and uniform gapseq 2.1.0 reconstructions of MJR8396C, *Megasphaera indica* NM10, *Megasphaera* BL7 and *Bifidobacterium adolescentis* 22L. It is **not** a claim of direct experimental validation of MJR8396C, nor does it establish intestinal colonization: the reference isolate derives from a human vaginal sample.
+This repository contains the authors' computational workflow based on the deposited MJR8396C model and uniform gapseq 2.1.0 reconstructions of MJR8396C, *Megasphaera indica* NM10, *Megasphaera* BL7 and *Bifidobacterium adolescentis* 22L. It is **not** a claim of direct experimental validation of MJR8396C, nor does it establish intestinal colonization: the reference isolate derives from a human vaginal sample.
 
-The repo provides immutable original SBML files, derived sequence-supported GPR models, machine-readable source tables S1–S87, accession-resolved genome FASTA, executed notebook, reproducible code and original input provenance. Larger full-grid community flux matrices, complete matched reconstruction intermediate files, and diagnostic model variants are prepared separately for a Zenodo data archive. **No Zenodo DOI has been minted** by preparing this package.
+The repo provides immutable original SBML files, derived sequence-supported GPR models, machine-readable source tables S1–S87, accession-resolved genome FASTA, executed notebook, reproducible code and original input provenance. Larger full-grid community flux matrices, complete matched reconstruction intermediate files, and diagnostic model variants are contained separately in a Zenodo data archive.
 
 ## Main findings and interpretive constraints
 
@@ -35,11 +35,9 @@ See [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md) and [`docs/RESULTS_AND_
 
 ## Data deposition and citation
 
-Proposed GitHub URL: https://github.com/wtscott31/megasphaera-mjr8396c-gem (please push the versioned release after author approval). Intended Zenodo archive name: `megasphaera-mjr8396c-gem_v6_full_data.zip`. Do not insert a Zenodo DOI into the manuscript until an actual Zenodo record exists. The `CITATION.cff` is a software/data citation template, not an accepted article citation.
 
 ## Licensing
 
-<<<<<<< Updated upstream
 For notebook-based analyses:
 
 ```bash
@@ -90,5 +88,3 @@ Please cite the associated manuscript/preprint and the software used in the work
 
 MIT License
 =======
-**No new license is assigned.** The authors should select and document an approved software license before making the code public. External database/reference models retain their respective terms and are attributed in the provenance tables. Vendored upstream gapseq and BOFdat implementations are intentionally excluded.
->>>>>>> Stashed changes
